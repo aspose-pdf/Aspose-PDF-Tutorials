@@ -5,7 +5,7 @@
 //ExStepSummary:2: The following code extracts a specific image from the PDF document.
 //ExStepSummary:3: The following code saves the extracted image to a specified output file.
 //ExStepSummary:4: The following code updates the original PDF file and saves it to a new path.
-//ExStepImage:3: images/1.png
+//ExStepImage:3:images/1.png
 //ExStep:0-
 // Specifies the directory containing the PDF file
 string dataDir = "Your Document Directory";

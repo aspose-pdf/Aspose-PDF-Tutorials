@@ -7,9 +7,9 @@
 //ExStepSummary:4: This step adds a green rectangle at specified coordinates with a Z-index of 0, ensuring it appears at the bottom of the Z-order.
 //ExStepSummary:5: This step saves the PDF document to the specified output file path.
 //ExStepSummary:6: This step defines a method to encapsulate the logic for adding rectangles to the PDF page, including setting their properties and Z-index.
-//ExStepImage:2:images/step2.png
-//ExStepImage:3:images/step3.png
-//ExStepImage:4:images/step4.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
 //ExStep:0-
 // Define the document directory
 string dataDir = "Your Document Directory";
