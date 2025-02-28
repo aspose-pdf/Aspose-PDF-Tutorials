@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document using Aspose.Pdf and add rectangles with alpha colors to it.
+//ExStepSummary:0: The following code sets the path to the documents directory.
+//ExStepSummary:1: The following code instantiates a Document instance.
+//ExStepSummary:2: The following code adds a page to the pages collection of the PDF file.
+//ExStepSummary:3: The following code creates a Graph instance to draw shapes on the PDF page.
+//ExStepSummary:4: The following code creates a rectangle object with specific dimensions and fill color.
+//ExStepSummary:5: The following code creates a second rectangle object and adds it to the graph.
+//ExStepSummary:6: The following code adds the graph instance to the page's paragraphs collection.
+//ExStepSummary:7: The following code saves the PDF file and prints a success message to the console.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Step to define the directory for saving the document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiate the Document instance for creating a PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Add a new page to the PDF document
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Create a Graph instance for drawing shapes
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Create a rectangle with specified dimensions
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Set the fill color using ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Create a second rectangle object
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Set the fill color for the second rectangle
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Add the first rectangle to the shapes collection of the Graph instance
+canvas.Shapes.Add(rect);
+// Add the second rectangle to the shapes collection of the Graph instance
+canvas.Shapes.Add(rect1);
+// Add the Graph instance to the page's paragraphs collection
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Prepare the output file path
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Save the PDF document to the specified path
+doc.Save(dataDir);
+// Print success message to the console
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

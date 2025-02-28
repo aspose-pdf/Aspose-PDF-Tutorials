@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: This code demonstrates how to optimize a PDF document by compressing its images. It loads a PDF, applies optimization options to reduce the image sizes, and saves the updated document.
+//ExStepSummary:0: This step initializes the path to the documents directory.
+//ExStepSummary:1: This step opens the specified PDF document for optimization.
+//ExStepSummary:2: This step initializes the optimization options for the PDF document.
+//ExStepSummary:3: This step sets the image compression option to true.
+//ExStepSummary:4: This step sets the image quality option to 50.
+//ExStepSummary:5: This step optimizes the PDF document using the specified optimization options.
+//ExStepSummary:6: This step updates the path for the optimized PDF document.
+//ExStepSummary:7: This step saves the optimized PDF document to the specified path.
+//ExStepImage:5:images/shrink_image_1.png
+
+//ExStep:0-
+// Path to the documents directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Open the PDF document
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Initialize optimization options
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Enable image compression
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Set the image quality to 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Optimize the PDF document using the settings
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Define the output path for the optimized PDF
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Save the updated document
+pdfDocument.Save(dataDir);
+// Output confirmation message
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

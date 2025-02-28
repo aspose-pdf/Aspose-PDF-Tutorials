@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document using Aspose.PDF by drawing two diagonal lines across the page. It initializes a document, adds a page, and draws lines from corner to corner before saving the document.
+//ExStepSummary:0: Initialize the path for the documents directory where the PDF will be saved.
+//ExStepSummary:1: Create a new Document instance for the PDF.
+//ExStepSummary:2: Add a page to the document's pages collection.
+//ExStepSummary:3: Set the page margins to zero for all sides.
+//ExStepSummary:4: Create a Graph object to represent the drawing area with dimensions equal to the page size.
+//ExStepSummary:5: Create the first line object from the lower-left to the top-right corner of the page.
+//ExStepSummary:6: Add the first line to the shapes collection of the Graph object.
+//ExStepSummary:7: Create the second line object from the top-left to the bottom-right corner of the page.
+//ExStepSummary:8: Add the second line to the shapes collection of the Graph object.
+//ExStepSummary:9: Add the Graph object containing the lines to the page's paragraphs collection.
+//ExStepSummary:10: Construct the full path for saving the output PDF file.
+//ExStepSummary:11: Save the PDF document to the specified path.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Initialize the path for the documents directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Create Document instance
+Document pDoc = new Document();
+
+//ExStep:2-
+// Add page to pages collection of PDF document
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Set page margin on all sides as 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Create Graph object with Width and Height equal to page dimensions
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Create first line object starting from Lower-Left to Top-Right corner of page
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Draw line from Top-Left corner of page to Bottom-Right corner of page
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Add second line to shapes collection of Graph object
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Add Graph object to paragraphs collection of page
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Construct the full path for saving the output PDF file
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Save the PDF file
+pDoc.Save(dataDir);
+// Output confirmation message
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

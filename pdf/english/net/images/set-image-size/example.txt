@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document, add an image to it, and adjust the image size and page properties. It also handles saving the document and informs the user about the success of the operation.
+//ExStepSummary:0: This code initializes the document object and adds a new page to it.
+//ExStepSummary:1: This section creates an image instance and sets its dimensions and file type.
+//ExStepSummary:2: This step specifies the source file for the image and adds it to the page.
+//ExStepSummary:3: This step sets the page properties including width and height.
+//ExStepSummary:4: This section saves the document to the specified file path and verifies the save operation.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Specify the document directory path
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiate Document object
+Document doc = new Document();
+// Add a new page to the PDF document
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Create an image instance
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Set image width to 100 points
+img.FixWidth = 100;
+// Set image height to 100 points
+img.FixHeight = 100;
+// Set the image type as Unknown (to be inferred later)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Specify the path for the source image file
+img.File = dataDir + "aspose-logo.jpg";
+// Add the image to the page's paragraphs
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Set the page width to 800 points
+page.PageInfo.Width = 800;
+// Set the page height to 800 points
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Specify the output file path
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Save the resulting PDF document
+doc.Save(dataDir);
+
+//ExStep:5-
+// Inform the user about the successful operation
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd
