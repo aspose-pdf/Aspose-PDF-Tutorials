@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการออปติมิสเตอร์เอกสาร PDF โดยการดันและเปลี่ยนขนาดภาพในนั้น
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเวลาปัจจุบันและกําหนดเส้นทางของบันทึกเอกสาร
+//ExStepSummary:1: คódต่อไปนี้เปิดเอกสาร PDF ที่กําหนดไว้เพื่อการแปรรูป
+//ExStepSummary:2: คódต่อไปนี้เริ่มต้นการเลือกการออปติมิสเตอร์สําหรับ PDF
+//ExStepSummary:3: คódต่อไปนี้ตั้งค่าการสับภาพภาพ รวมถึงการสับและคุณภาพ
+//ExStepSummary:4: คódต่อไปนี้ใช้ตัวเลือกการอุดมสมรรถนะในการเอกสาร PDF
+//ExStepSummary:5: โค้ดต่อไปนี้จะบันทึกเอกสาร PDF ที่ถูกปรับปรุงให้เป็นไฟล์ใหม่
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// เริ่มต้นเวลา
+var time = DateTime.Now.Ticks;
+// ทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// เอกสารเปิด
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// ลงตัวเลือก Optimization
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// กําหนดการเลือก CompressImages
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// กําหนดตัวเลือก ImageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// กําหนดตัวเลือก ResizeImage
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// กําหนดตัวเลือก MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// ปรับปรุงเอกสาร PDF โดยใช้ OptimizationOptions
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// ปรับปรุงบันทึกข้อมูลสําหรับไฟล์ออก
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// เก็บเอกสารที่ปรับปรุง
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// รายงานความสําเร็จของผู้ใช้
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

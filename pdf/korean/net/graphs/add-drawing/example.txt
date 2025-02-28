@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: 이 코드 는 투명 한 색 으로 가득 찬 정사각형 을 포함하는 그래프 를 가지고 PDF 문서를 만드는 방법 을 알려 줍니다. 이 문서는 색상 속성을 설정 하는 과정, 페이지 를 추가 하는 과정, 문서를 구성 하는 형태 를 그리는 과정 을 거쳐갑니다.
+//ExStepSummary:0: 다음 코드는 PDF 파일을 저장하기 위한 데이터 디렉토리를 초기화합니다.
+//ExStepSummary:1: 다음 코드에서는 정사각형의 채우기에 사용되는 알파 RGB 색상을 설정합니다.
+//ExStepSummary:2: 다음 코드는 PDF에 새로운 문서 객체를 생성합니다.
+//ExStepSummary:3: 다음 코드 는 PDF 문서 에 한 페이지를 추가 합니다.
+//ExStepSummary:4: 다음 코드는 PDF에서 모양을 그리기 위한 그래프 객체를 생성합니다.
+//ExStepSummary:5: 다음 코드에서는 그래프 객체에 한계를 설정합니다.
+//ExStepSummary:6: 다음 코드는 페이지의 문장 컬렉션에 그래프 객체를 추가합니다.
+//ExStepSummary:7: 다음 코드에서는 그래프에 그려질 수 있는 정사각형 모양을 만듭니다.
+//ExStepSummary:8: 다음 코드에서는 정사각형의 그래프 정보를 색상 정보를 설정합니다.
+//ExStepSummary:9: 다음 코드에서는 정사각형 모양을 그래프의 모양 컬렉션에 추가합니다.
+//ExStepSummary:10: 다음 코드는 문서를 지정된 출력 파일 경로로 저장합니다.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// 문서 저장 경로를 초기화
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 투명성 위한 알파 채널 값
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// 알파 RGB를 사용하여 색상 객체를 생성
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// 문서 객체를 단시
+Document document = new Document();
+
+//ExStep:3-
+// 문서에 새로운 페이지를 추가
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// 특정 크기의 그래프 객체를 생성
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// 그래프 객체에 대한 경계 설정
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// 페이지에 그래프 객체를 추가
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// 특정 크기의 직사각형 객체를 생성
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// 직사각형의 그래프 인포 객체를 생성
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// GraphInfo 인스턴스 의 색상 정보를 설정
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// 그래프에 직사각형 모양을 추가
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// 문서 저장을 위한 출력 파일 경로를 설정
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// 확인 메시지
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

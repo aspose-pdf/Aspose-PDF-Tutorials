@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 이 코드 는 표 를 사용하여 PDF 문서를 만드는 방법을 보여줍니다. 이 표 는 기존 PDF 문서의 두 번째 페이지 에 추가 되어 있으며, 특정 수의 줄 및 열 데이터 를 포함 합니다.
+//ExStepSummary:0: 이 단계에서는 PDF 문서가 처리되는 파일 경로를 초기화합니다.
+//ExStepSummary:1: 이 단계에서는 지정된 디렉토리에서 기존의 PDF 문서를 로드합니다.
+//ExStepSummary:2: 이 단계로 새로운 테이블 인스턴스를 생성하고 그 경계 속성을 설정합니다.
+//ExStepSummary:3: 이 단계는 루프를 초기화하여 테이블에 여러 줄을 추가하여 각 줄에 셀 데이터를 채우게 됩니다.
+//ExStepSummary:4: 이 단계로 생성된 테이블은 PDF 문서의 첫 페이지에 첨부됩니다.
+//ExStepSummary:5: 이 단계에서는 새로 추가된 테이블과 함께 업데이트된 PDF 문서를 지정된 출력 경로로 저장합니다.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 문서의 경로를 정의
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 출처 PDF 문서를 로드
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// 테이블의 새로운 인스턴스를 초기화
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 테이블 경계 색을 LightGray로 설정
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// 테이블 셀의 경계선을 설정
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// 10 줄을 추가하는 루프
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// 테이블에 새로운 행을 추가
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// 선에 첫 번째 셀을 추가
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// 2번째 셀을 줄에 추가
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// 세 번째 셀을 줄에 추가
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// 입력 문서의 첫 페이지에 테이블 객체를 추가
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// 업데이트 된 문서의 출력 파일 경로를 정의
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// 표를 포함하는 업데이트 된 문서를 저장
+doc.Save(dataDir); 
+// 성공적인 작업에 대해 사용자에게 알리십시오
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

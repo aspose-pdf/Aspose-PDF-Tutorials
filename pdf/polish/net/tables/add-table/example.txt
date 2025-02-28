@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryTabela jest dodana do drugiej strony istniejącego dokumentu PDF i zawiera określoną liczbę danych wierszy i kolumn.
+//ExStepSummary:0: Ten krok inicjuje ścieżkę pliku do przetwarzania dokumentu PDF.
+//ExStepSummary:1: W tym kroku wpisany jest istniejący dokument PDF z wypełnionego katalogu.
+//ExStepSummary:2: Ten krok tworzy nową instancję tabeli i wyznacza jej właściwości graniczne.
+//ExStepSummary:3: Ten krok inicjuje pętlę do dodania wielu rzędów do tabeli, wypełniając każdą z danych komórkowych.
+//ExStepSummary:4: W tym kroku dołączana jest tabela do pierwszej strony dokumentu PDF.
+//ExStepSummary:5: Ten krok zapisuje zaktualizowany dokument PDF z nowo dodaną tablicą na określony ścieżkę wyjściową.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definicja ścieżki dokumentów
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ładowanie źródłowego dokumentu PDF
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Wprowadzenie nowej instancji tabeli
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Ustaw kolor granicy tabeli na LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Ustaw granicę dla komórek stołowych
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Łuk do dodawania 10 rzędów
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Dodaj nowy wiersz do tabeli
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Dodaj pierwszą komórkę w rzędzie
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Dodaj drugą komórkę w rzędzie
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Dodaj trzecią komórkę w rzędzie
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Dodaj obiekt tabeli na pierwszej stronie dokumentu wejściowego
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Definicja ścieżki pliku wyjściowego aktualizowanego dokumentu
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Zapisz zaktualizowany dokument zawierający tabelę
+doc.Save(dataDir); 
+// Informacja użytkownika o udanej operacji
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

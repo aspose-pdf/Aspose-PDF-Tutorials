@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med hjälp av Aspose.Pdf och lägger till rektanglar med alfafärger.
+//ExStepSummary:0: Följande kod anger vägen till dokumentkataloget.
+//ExStepSummary:1: Följande kod instantierar en dokument instans.
+//ExStepSummary:2: Följande kod lägger en sida till sidor i PDF-filens samling.
+//ExStepSummary:3: Följande kod skapar en graf instans för att rita former på PDF-sidan.
+//ExStepSummary:4: Följande kod skapar ett rektangulärt objekt med specifika dimensioner och färg.
+//ExStepSummary:5: Följande kod skapar ett andra rektangulärt objekt och lägger till det i grafen.
+//ExStepSummary:6: Följande kod lägger till grafen i sidans avsnittsamling.
+//ExStepSummary:7: Följande kod sparar PDF-filen och skriver ut ett framgångsmeddelande till konsolen.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Steg för att definiera katalogen för att spara dokumentet
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansera dokumentinstansen för att skapa en PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Lägg till en ny sida i PDF-dokumentet
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Skapa en graf för att rita former
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Skapa en rektangel med angivna dimensioner
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Ställ in fyllningskärnan med hjälp av ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Skapa ett andra rektangulärt objekt
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Ställ in fyllningskärnan för den andra rektangeln
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Lägg till den första rektangeln till formen samling i grafen instans
+canvas.Shapes.Add(rect);
+// Lägg till den andra rektangeln till formen samling i grafen instans
+canvas.Shapes.Add(rect1);
+// Lägg till grafen i sidans avsnittsamling
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Förbereda utgångsfilvägen
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Spara PDF-dokumentet på den angivna vägen
+doc.Save(dataDir);
+// Skriv framgångsmeddelande till konsolen
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

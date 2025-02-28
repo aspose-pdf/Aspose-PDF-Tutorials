@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF bằng cách sử dụng Aspose.Pdf và thêm hình chữ nhật với màu alpha vào nó.
+//ExStepSummary:0: Mã sau đây xác định con đường đến thư mục tài liệu.
+//ExStepSummary:1: Mã sau đây mô tả một bản sao Document.
+//ExStepSummary:2: Mã sau đây thêm một trang vào bộ sưu tập các trang của tệp PDF.
+//ExStepSummary:3: Mã sau tạo ra một bản đồ để vẽ hình dạng trên trang PDF.
+//ExStepSummary:4: Mã sau tạo ra một đối tượng hình chữ nhật với kích thước cụ thể và màu sắc điền.
+//ExStepSummary:5: Mã sau tạo ra một đối tượng hình chữ nhật thứ hai và thêm vào biểu đồ.
+//ExStepSummary:6: Mã sau đây thêm ví dụ biểu đồ vào bộ sưu tập đoạn của trang.
+//ExStepSummary:7: Mã sau lưu tệp PDF và in một thông điệp thành công vào máy điều khiển.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Bước để xác định thư mục để lưu tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo trình đơn Document để tạo PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Thêm một trang mới vào tài liệu PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Tạo biểu đồ để vẽ hình dạng
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Tạo một hình chữ nhật với kích thước được xác định
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Thiết lập màu lấp bằng cách sử dụng ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Tạo một đối tượng hình chữ nhật thứ hai
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Đặt màu lấp đầy cho hình chữ nhật thứ hai
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Thêm hình chữ nhật đầu tiên vào bộ sưu tập hình dạng của biểu đồ
+canvas.Shapes.Add(rect);
+// Thêm hình chữ nhật thứ hai vào bộ sưu tập hình dạng của biểu đồ
+canvas.Shapes.Add(rect1);
+// Thêm biểu đồ vào bộ sưu tập đoạn của trang
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Chuẩn bị đường dẫn tệp đầu ra
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Cung cấp tài liệu PDF vào đường dẫn được chỉ định
+doc.Save(dataDir);
+// Bác in tin nhắn thành công vào máy điều khiển
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

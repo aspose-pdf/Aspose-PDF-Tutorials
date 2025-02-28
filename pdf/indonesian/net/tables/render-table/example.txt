@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF dengan tabel menggunakan Aspose.Pdf. Ini menetapkan margin, menambahkan dua tabel pada halaman yang berbeda, dan menyimpan dokumen ke jalur yang ditentukan.
+//ExStepSummary:0: Langkah ini mengatur direktori output untuk file PDF.
+//ExStepSummary:1: Langkah ini menginisialisasikan objek Dokumen baru dan mengambil PageInfo untuk memodifikasi pengaturan halaman.
+//ExStepSummary:2: Langkah ini menetapkan margin halaman dan mengubah orientasi halaman ke mode lanskap.
+//ExStepSummary:3: Langkah ini membuat objek tabel baru dan mendefinisikan lebar kolom.
+//ExStepSummary:4: Langkah ini menambahkan halaman baru ke dokumen dan memasukkan tabel dengan 120 baris, menetapkan ketinggian baris tetap dan menambahkan konten ke setiap sel.
+//ExStepSummary:5: Langkah ini menambahkan tabel pertama ke koleksi paragraf halaman saat ini.
+//ExStepSummary:6: Langkah ini membuat tabel lain dengan lebar kolom yang berbeda dan menambahkan 10 baris dengan konten yang ditentukan.
+//ExStepSummary:7: Langkah ini mengatur tabel kedua untuk muncul di halaman baru dan menambahkannya ke dokumen.
+//ExStepSummary:8: Langkah ini menyimpan dokumen PDF ke jalur yang ditentukan dan menghasilkan pesan keberhasilan.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Buat objek Dokumen baru.
+Document doc = new Document();
+// Dapatkan PageInfo dari dokumen.
+PageInfo pageInfo = doc.PageInfo;
+// Akses ke pengaturan margin halaman.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Set margin kiri menjadi 37 unit.
+marginInfo.Left = 37;
+// Setel margin kanan ke 37 unit.
+marginInfo.Right = 37;
+// Setel margin atas ke 37 unit.
+marginInfo.Top = 37; 
+// Set margin bawah menjadi 37 unit.
+marginInfo.Bottom = 37;
+// Setel orientasi halaman ke lanskap.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Buat objek meja baru.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Tentukan lebar untuk kolom dalam tabel.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Tambahkan halaman baru ke dokumen.
+Page curPage = doc.Pages.Add();
+// Loop untuk menambahkan 120 baris ke tabel pertama.
+for (int i = 1; i <= 120; i++)
+{
+	// Buat baris baru.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Tetapkan ketinggian tetap untuk baris.
+    row.FixedRowHeight = 15; 
+    // Buat sel pertama di barisan.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Tambahkan TextFragment ke sel pertama.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Buat sel kedua berturut-turut.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Tambahkan TextFragment ke sel kedua.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Akses ke koleksi paragraf halaman saat ini.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Tambahkan tabel pertama ke halaman saat ini.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Buat objek meja lain.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Tentukan lebar untuk kolom dalam tabel kedua.
+table1.ColumnWidths = "100 100";
+// Loop untuk menambahkan 10 baris ke tabel kedua. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Buat baris baru untuk tabel1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Buat sel pertama di barisan.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Tambahkan TextFragment ke sel pertama.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Buat sel kedua berturut-turut.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Tambahkan TextFragment ke sel kedua.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Tentukan properti untuk menempatkan tabel kedua pada halaman baru.
+table1.IsInNewPage = true; 
+// ExStep: 7-
+// Tambahkan tabel kedua ke paragraf halaman saat ini.
+paragraphs.Add(table1); 
+// Tentukan jalur file output.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Simpan dokumen ke jalur yang ditentukan.
+doc.Save(dataDir); 
+// ExStep: 8-
+// Pesan keberhasilan output.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

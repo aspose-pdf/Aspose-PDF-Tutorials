@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryCe code montre comment créer un document PDF avec un tableau. Le tableau est ajouté à la deuxième page d'un document PDF existant et comprend un nombre spécifié de lignes et de données de colonnes.
+//ExStepSummary:0: Cette étape initiale le chemin du fichier pour le document PDF à traiter.
+//ExStepSummary:1: Cette étape charge le document PDF existant depuis le répertoire spécifié.
+//ExStepSummary:2: Cette étape crée une nouvelle instance de table et définit ses propriétés de bord.
+//ExStepSummary:3: Cette étape initiale la boucle pour ajouter plusieurs lignes à la table, en remplissant chacune de données de cellule.
+//ExStepSummary:4: Cette étape ajoute la table créée à la première page du document PDF.
+//ExStepSummary:5: Cette étape sauvegarde le document PDF mis à jour avec la table nouvellement ajoutée dans un chemin de sortie spécifié.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Définir le chemin des documents
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Charger le document PDF source
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Initialement d' une nouvelle instance de la table
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Réglez la couleur de bord de table à LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Définir la limite pour les cellules de table
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Boucle pour ajouter 10 lignes
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Ajouter une nouvelle rangée à la table
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Ajouter la première cellule dans la rangée
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Ajouter une deuxième cellule dans la rangée
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Ajouter une troisième cellule dans la rangée
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Ajouter l'objet de la table à la première page du document d'entrée
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Définir le chemin du fichier de sortie pour le document mis à jour
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Enregistrez le document mis à jour contenant le tableau
+doc.Save(dataDir); 
+// Informer l'utilisateur de l' opération réussie
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

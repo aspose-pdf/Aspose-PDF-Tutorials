@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: このコードでは PDF 文書を作成し,色やZ индекスの直角を追加し,文書を保存する方法を示します.
+//ExStepSummary:0: このステップでは,PDFドキュメントの出力ディレクトリを定義し,新しいドキュメントオブジェクトをインスタンティートし,指定された次元を持つ新しいページを追加します.
+//ExStepSummary:1: このステップでは,新しく作成されたページのページサイズと境界が設定されます.
+//ExStepSummary:2: このステップでは,指定された座標で Z 索引 2 の赤正角を追加し,他の形よりも上に表示されるようにします.
+//ExStepSummary:3: このステップでは,指定された座標でZインデックス1で青い長方角を追加し,赤の長方角の下でも他の長方角よりも上に現れるようにします.
+//ExStepSummary:4: このステップでは,指定された座標でZインデックス0で緑の長方角を追加し,Z順の底に表示されるようにします.
+//ExStepSummary:5: このステップでは,指定された出力ファイルパスに PDF 文書を保存します.
+//ExStepSummary:6: このステップでは,その性質とZインデックスを設定するものを含む,PDFページに矩形を追加するための論理を封鎖する方法を定義します.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 文書ディレクトリを定義する
+string dataDir = "Your Document Directory";
+
+// 文档クラスオブジェクトをインスタント化
+Document doc1 = new Document();
+
+// 文書に新しいページを追加する
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// ページサイズを設定
+page1.SetPageSize(375, 300);
+
+// ページの辺を0に設定
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Zインデックス2で赤い長方角を追加する
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Zインデックス 1 の青い長方角を追加する
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Zインデックス 0 の緑の長方角を追加する
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// PDF 文書を保存する
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// PDFページに長方角を追加する方法
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // 矩形と同じ次元を持つグラフオブジェクトを作成する
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // グラフの位置が自動的に変化するのを防ぐ
+    graph.IsChangePosition = false;
+    
+    // グラフ位置を設定
+    graph.Left = x;
+    graph.Top = y;
+    
+    // グラフの内側に矩形を作成する
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // 縦横の色と横の色を設定する
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // グラフ形集合に矩形を追加する
+    graph.Shapes.Add(rect);
+    
+    // グラフオブジェクトのZインデックスを設定
+    graph.ZIndex = zindex;
+    
+    // ページにグラフを追加する
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

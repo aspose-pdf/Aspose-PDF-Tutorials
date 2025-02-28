@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ с помощью Aspose.PDF, добавить таблицу с конкретными стилями границы и внедрить pagination после определенного количества строк.
+//ExStepSummary:0: Этот шаг инициирует документ и добавляет страницу к нему.
+//ExStepSummary:1: Этот шаг создает экземпляр таблицы и устанавливает ее граничные стили.
+//ExStepSummary:2: В этом шаге указывается ширина столбцов для таблицы.
+//ExStepSummary:3: Этот шаг добавляет в таблицу 200 рядов, каждый из которых содержит две ячейки.
+//ExStepSummary:4: Этот шаг проверяет, были ли добавлены 10 строк и переходит на новую страницу, если да.
+//ExStepSummary:5: Этот шаг добавляет завершенную таблицу на страницу PDF-документа и сохраняет ее.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Путь в справочник документов
+string dataDir = "Your Document Directory";
+
+// Инстанция документа
+Document doc = new Document();
+
+// Добавить страницу к сборке страниц файла PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Создать экземпляр таблицы
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Установка стиля границы для стола
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Настройка стиля по умолчанию для таблицы с красным цветом по красной
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Укажите ширину столбцов таблицы (2 столбца, каждые 100 единиц)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Создать петлю для добавления 200 строк для таблицы
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Создать новый ряд
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Добавить ряд в таблицу
+    tab.Rows.Add(row); 
+
+    // Создать первую ячейку и добавить текст
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Добавить фрагмент текста в первую ячейку	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Добавить первую ячейку в ряд
+    row.Cells.Add(cell1); 
+
+    // Создать вторую ячейку и добавить текст
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Добавить фрагмент текста в вторую ячейку	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Добавить вторую ячейку в ряд
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // При добавлении 10 строк, сделайте новый ряд на новой странице
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Добавить таблицу к сборке абзацев первой страницы
+doc.Pages[1].Paragraphs.Add(tab); 
+// Определить путь вывода файла
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Сохранить PDF-документ
+doc.Save(dataDir); 
+// Сообщение подтверждения
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

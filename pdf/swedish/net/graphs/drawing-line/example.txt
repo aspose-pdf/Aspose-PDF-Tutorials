@@ -1,0 +1,66 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar ett PDF-dokument med hjälp av Aspose.PDF genom att rita två diagonala linjer över sidan.
+//ExStepSummary:0: Initializera vägen till dokumentkataloget där PDF-filen kommer att sparas.
+//ExStepSummary:1: Skapa en ny dokumentinstans för PDF-filen.
+//ExStepSummary:2: Lägg till en sida i dokumentets sidor.
+//ExStepSummary:3: Ställ sidor på noll för alla sidor.
+//ExStepSummary:4: Skapa ett grafobjekt för att representera ritningsområdet med dimensioner lika med sidstorleken.
+//ExStepSummary:5: Skapa det första linjen objektet från nedre vänster till höger hörn av sidan.
+//ExStepSummary:6: Lägg till den första raden till formen i objektet Graph.
+//ExStepSummary:7: Skapa det andra linjen objektet från den övre vänstra till nedre höger hörnet av sidan.
+//ExStepSummary:8: Lägg till den andra linjen till formen i objektet Graph.
+//ExStepSummary:9: Lägg till objektet Graph som innehåller raderna i sidans avsnittsamling.
+//ExStepSummary:10: Konstruera hela vägen för att spara output PDF-filen.
+//ExStepSummary:11: Spara PDF-dokumentet på den angivna vägen.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Initializera vägen för dokumentkataloget
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Skapa dokument instans
+Document pDoc = new Document();
+
+//ExStep:2-
+// Lägg till sida till sidor samling PDF-dokument
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Ställ sidmarginal på alla sidor som 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Skapa grafobjekt med bredd och höjd lika med siddimensioner
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Skapa första linjen objekt från nedre vänster till höger hörn av sidan
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Räck en rad från övre vänstra hörnet till nedre höger hörnet
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Lägg till andra rad till formen samling av graf objekt
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Lägg till Grafik objekt till avsnitt samling av sidor
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Bygg hela vägen för att spara output PDF-filen
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Spara PDF-filen
+pDoc.Save(dataDir);
+// Utgångsbekräftelse
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

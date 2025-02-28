@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak wyciągnąć obraz z dokumentu PDF i zapisać go jako plik JPEG, a jednocześnie zapisać zaktualizowany PDF.
+//ExStepSummary:0: Następujący kod inicjalizuje ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: Następujący kod otwiera dokument PDF, z którego zostaną wyciągnięte obrazy.
+//ExStepSummary:2: Następujący kod wyciąga konkretny obraz z dokumentu PDF.
+//ExStepSummary:3: Następujący kod zapisuje wyciągnięte obrazy w określonym pliku wyjściowym.
+//ExStepSummary:4: Następujący kod aktualizuje oryginalny plik PDF i zapisuje go na nową stronę.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Wykazuje katalog zawierający plik PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Otwiera dokument PDF do wydobycia obrazu
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Wyciąga pierwszy obraz z drugiej strony plików PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Tworzy strumień do zapisywania wyciągniętego obrazu
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Zapisz obraz wyjściowy
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Zamknij strumień plików , aby uwolnić zasoby
+outputImage.Close();
+
+//ExStep:4-
+// Aktualizuje ścieżkę nowej wersji plików PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Zapisz zaktualizowany plik PDF
+pdfDocument.Save(dataDir);
+// Potwierdza udane wydobycie i zapisywanie plików
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

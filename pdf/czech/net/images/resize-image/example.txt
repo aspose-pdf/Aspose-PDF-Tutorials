@@ -1,0 +1,47 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak optimalizovat PDF dokument stlačením a přerozdělováním obrázků v něm.
+//ExStepSummary:0: Následující kód iniciální aktuální čas a nastaví směr adresáře dokumentů.
+//ExStepSummary:1: Následující kód otevírá uvedený PDF dokument pro zpracování.
+//ExStepSummary:2: Následující kód iniciální možnosti optimalizace PDF.
+//ExStepSummary:3: Následující kód konfiguruje nastavení stlačování obrázku, včetně stlačování a kvality.
+//ExStepSummary:4: Následující kód se vztahuje na PDF dokument na možnosti optimalizace.
+//ExStepSummary:5: Následující kód uloží optimalizovaný PDF dokument do nového souboru.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Začít čas
+var time = DateTime.Now.Ticks;
+// Cesta do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Otevřený dokument
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Vypřátelit Optimalizační možnosti
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Nastavte možnost KompresImages
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Nastavte možnost imageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Nastavte možnost ResizeImage
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Nastavte možnost MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Optimalizovat PDF dokument pomocí OptimizationOptions
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Aktualizujte seznam dat pro výstupní soubor
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Uložte aktualizovaný dokument
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Informovat uživatele o úspěchu
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

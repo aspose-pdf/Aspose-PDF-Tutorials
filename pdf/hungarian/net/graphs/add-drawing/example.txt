@@ -1,0 +1,75 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan készítsünk egy PDF dokumentumot egy átlátszó színrel teli térképpel.
+//ExStepSummary:0: A következő kód az PDF fájl mentésére szolgáló adatkönyv kezdeti beállítását jelenti.
+//ExStepSummary:1: A következő kód az Alpha RGB színt határozza meg, amelyet a térképen való kitöltéshez kell használni.
+//ExStepSummary:2: A következő kód létrehoz egy új Dokumentum objektumot a PDF-hez.
+//ExStepSummary:3: A következő kód egy oldalt tesz hozzá a PDF dokumentumhoz.
+//ExStepSummary:4: A következő kód létrehoz egy Graph objektumot a PDF formák rajzolására.
+//ExStepSummary:5: A következő kód határot állapít meg a grafikon objektumára.
+//ExStepSummary:6: A következő kód a graf objektumot a lap bekezdések gyűjteményéhez adja hozzá.
+//ExStepSummary:7: A következő kód egy négyzetképpes formát hoz létre, amelyet a grafikonra kell rajzolni.
+//ExStepSummary:8: A következő kód a térképen található grafikonokra vonatkozó színinformációkat állítja ki.
+//ExStepSummary:9: A következő kód a térképe formáját adja hozzá a formák gyűjteményéhez.
+//ExStepSummary:10: A következő kód az adott kimeneti fájl útvonalára tárolja a dokumentumot.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// A dokumentum mentésére szükséges út elindítása
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Az alfa csatorna átláthatóságra vonatkozó értéke
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Alfa RGB segítségével készítsen szín objektumot
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Egyszeres Dokumentum objektum
+Document document = new Document();
+
+//ExStep:3-
+// Adjon új oldalt a dokumentumhoz
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Tegyünk létre egy speciális dimenzióval rendelkező graf objektumot
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Beállítson a Graph objektum határát
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Adja a grafikon objektumot a laphoz
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Tegyél egyenleges objektumot, amelynek bizonyos mérete van
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Készítsen graphInfo objektumot a térképpöreghez
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// A GraphInfo példány színinformációjának beállítása
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Adja be a térképpöreg formát a grafikonhoz
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Beállítsa a kiviteli fájl útvonalát a dokumentum mentésére
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Biztosanító üzenet
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

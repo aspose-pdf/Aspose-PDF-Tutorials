@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Este código muestra cómo optimizar un documento PDF comprimiendo y redimensionizando las imágenes dentro de él.
+//ExStepSummary:0: El siguiente código inicializa el tiempo actual y establece el camino del directorio de documentos.
+//ExStepSummary:1: El siguiente código abre el documento PDF especificado para su procesamiento.
+//ExStepSummary:2: El siguiente código inicializa las opciones de optimización para el PDF.
+//ExStepSummary:3: El siguiente código configura las configuraciones de compresión de imagen, incluidas la compresión y la calidad.
+//ExStepSummary:4: El siguiente código aplica las opciones de optimización al documento PDF.
+//ExStepSummary:5: El siguiente código guarda el documento PDF optimizado en un nuevo archivo.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Inicia el tiempo
+var time = DateTime.Now.Ticks;
+// El camino al directorio de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Documento abierto
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Inicializa OptimizaciónOpciones
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Configuración de la opción de imágenes comprimidas
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Configuración de la opción de calidad de imagen 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Configurar la opción ResizeImage
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Establezca la opción MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Optimiza el documento PDF utilizando OptimizaciónOpciones
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Actualizar el directorio de datos para el archivo de salida
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Guardar el documento actualizado
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Informar al usuario del éxito
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

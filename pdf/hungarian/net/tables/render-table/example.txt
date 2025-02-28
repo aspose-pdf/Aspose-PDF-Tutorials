@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy PDF-dokumentumot aspose.Pdf-t használva. A kód a határokat állítja, két táblázatot ad hozzá különböző oldalakon, és a dokumentumot egy meghatározott útvonalra mentheti meg.
+//ExStepSummary:0: Ez a lépés az PDF fájl kiállítási címkéjét állítja be.
+//ExStepSummary:1: Ez a lépés egy új Dokumentum objektumot indít és visszaveszi a PageInfo-t a oldal beállításainak módosítására.
+//ExStepSummary:2: Ez a lépés a oldal marginjait állítja meg, és a oldal irányítását a tájmódra változtatja.
+//ExStepSummary:3: Ez a lépés egy új táblázat objektumot hoz létre, és a oszlop szélességét határozza meg.
+//ExStepSummary:4: Ez a lépés egy új oldalt ad a dokumentumhoz, és egy 120 sorú táblázatot adja be, rögzítve a sor magasságát, és tartalmat ad minden egyes sejthez.
+//ExStepSummary:5: Ez a lépés az első táblázatot adja a jelenlegi oldalon található bekezdés gyűjteményhez.
+//ExStepSummary:6: Ez a lépés más oszlop szélességű táblázatot hoz létre, és 10 sorot ad hozzá a meghatározott tartalommal.
+//ExStepSummary:7: Ez a lépés a második táblázatot egy új oldalon jeleníti meg, és hozzáadja a dokumentumhoz.
+//ExStepSummary:8: Ez a lépés az adott útvonalra tárolja a PDF dokumentumot, és sikeres üzenetet ad ki.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// A dokumentumok könyvtárába vezető útvonal.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Új Dokumentum objektumot hozzon létre.
+Document doc = new Document();
+// Kapd meg a dokumentum oldalát.
+PageInfo pageInfo = doc.PageInfo;
+// A oldal határállításaira lépjen be.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Hagyja a bal oldalt 37 egységre.
+marginInfo.Left = 37;
+// A jobb oldalon 37 egység.
+marginInfo.Right = 37;
+// A felső határ 37 egységre.
+marginInfo.Top = 37; 
+// A legalsó határ 37 egységre.
+marginInfo.Bottom = 37;
+// Állítsa be a oldalorientációt a tájra.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Új asztalobjektumot készítsen.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// A táblázatban szereplő oszlopok szélességét határozza meg.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Adjon egy új oldalt a dokumentumhoz.
+Page curPage = doc.Pages.Add();
+// A kör az első asztalhoz 120 sorral.
+for (int i = 1; i <= 120; i++)
+{
+	// Készíts egy új sorot.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// A sor fix magasságát.
+    row.FixedRowHeight = 15; 
+    // Készítsd az első sejtet a sorban.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Adjon hozzá egy szövegrészt az első sejthez.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Készítsen a második sejtet a sorban.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Adjon egy szövegrészt a második sejthez.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// A jelenlegi oldal bekezdés gyűjteménye.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Adja be az első táblázatot a jelenlegi oldalon.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Hozz egy másik asztal tárgyat.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// A második táblázatban szereplő oszlopok szélességét határozza meg.
+table1.ColumnWidths = "100 100";
+// A második asztalhoz 10 sor hozzáadásra. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Készíts egy új sorot az 1. táblázathoz.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Készítsd az első sejtet a sorban.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Adjon hozzá egy szövegrészt az első sejthez.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Készítsen a második sejtet a sorban.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Adjon egy szövegrészt a második sejthez.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Beállítson a tulajdonságot, hogy a második asztalot egy új oldalon helyezzük.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// A második táblázat a jelenlegi oldal bekezdéséhez hozzáadható.
+paragraphs.Add(table1); 
+// Tisztázza a kiviteli fájl útvonalát.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// A dokumentumot a megadott útvonalra mentse meg.
+doc.Save(dataDir); 
+// ExStep:8-
+// A kiadás siker üzenete.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

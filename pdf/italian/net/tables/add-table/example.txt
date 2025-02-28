@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un documento PDF con una tabella. La tabella viene aggiunta alla seconda pagina di un documento PDF esistente e include un numero specificato di file e colonne.
+//ExStepSummary:0: Questo passo inizializza il percorso del file per il documento PDF da elaborare.
+//ExStepSummary:1: Questo passo carica il documento PDF esistente dalla directory specificata.
+//ExStepSummary:2: Questo passo crea una nuova istanza di tabella e imposta le sue proprietà di confine.
+//ExStepSummary:3: Questo passo inizializza il ciclo per aggiungere più righe alla tabella, riempendo ciascuno di dati della cella.
+//ExStepSummary:4: Questa fase aggiunge la tabella creata alla prima pagina del documento PDF.
+//ExStepSummary:5: Questo passaggio salva il documento PDF aggiornato con la tabella aggiunta in una specifica via di uscita.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definire il percorso dei documenti
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Caricare il documento PDF sorgente
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Inizia un' istanza nuova della tabella
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Impostare il colore della borsa della tavola in LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Impostare il limite per le celle del tavolo
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Loop per aggiungere 10 righe
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Aggiungere una nuova riga alla tabella
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Aggiungere la prima cella nella riga
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Aggiungere la seconda cella nella riga
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Aggiungere la terza cella nella riga
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Aggiungere l'oggetto della tabella alla prima pagina del documento di input
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Definire il percorso del file di uscita per il documento aggiornato
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Salvare il documento aggiornato contenente la tabella
+doc.Save(dataDir); 
+// Informare l'utente dell'operazione
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

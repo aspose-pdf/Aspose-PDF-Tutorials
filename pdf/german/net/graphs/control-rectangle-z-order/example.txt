@@ -1,0 +1,78 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument erstellt, Rechtecke mit verschiedenen Farben und Z-Index hinzufügt und das Dokument speichert.
+//ExStepSummary:0: Dieser Schritt definiert das Ausgangsverzeichnis für das PDF-Dokument und stellt ein neues Dokumentobjekt dar und fügt eine neue Seite mit angegebenen Abmessungen hinzu.
+//ExStepSummary:1: Dieser Schritt setzt die Seitegröße und Marge für die neu erstellte Seite fest.
+//ExStepSummary:2: Dieser Schritt fügt einen roten Rechteck an bestimmten Koordinaten mit einem Z-Index von 2 hinzu, um sicherzustellen, dass er über anderen Formen erscheint.
+//ExStepSummary:3: Dieser Schritt fügt ein blaues Rechteck an bestimmten Koordinaten mit einem Z-Index von 1 hinzu, so dass es unter dem roten Rechteck erscheint, aber über anderen.
+//ExStepSummary:4: Dieser Schritt ergänzt ein grünes Rechteck an bestimmten Koordinaten mit einem Z-Index von 0, sodass es am Ende der Z-Regelung erscheint.
+//ExStepSummary:5: Dieser Schritt speichert das PDF-Dokument auf den angegebenen Ausgangsdatei- Pfad.
+//ExStepSummary:6: Dieser Schritt definiert eine Methode zur Verknüpfung der Logik für das Hinzufügen von Rechtecken auf die PDF-Seite, einschließlich der Einstellung ihrer Eigenschaften und des Z-Index.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Definition des Dokumentenverzeichnisses
+string dataDir = "Your Document Directory";
+
+// Instanz: Objekt der Dokumentklasse
+Document doc1 = new Document();
+
+// Fügen Sie ein neues Dokument hinzu
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Setzen Sie die Seitegröße
+page1.SetPageSize(375, 300);
+
+// Setzen Sie die Seitenmargen auf 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Fügen Sie ein rotes Rechteck mit Z-index 2 hinzu
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Fügen Sie ein blaues Rechteck mit Z-index 1 hinzu
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Fügen Sie ein grünes Rechteck mit Z-index 0 hinzu
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Speichern Sie das PDF-Dokument
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// Methode, um eine Rechtecke in die PDF-Seite hinzuzufügen
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Erstellen Sie ein Graphobjekt mit denselben Abmessungen wie das Rechteck
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Verhindern Sie, dass sich die Graphposition automatisch ändert
+    graph.IsChangePosition = false;
+    
+    // Festlegen Sie die Graphposition
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Erstellen Sie ein Rechteck im Graph
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Setzen Sie Rechteckfüllung und Grenzfarbe
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Fügen Sie Rechteck zur Graphensäulenkollektion hinzu
+    graph.Shapes.Add(rect);
+    
+    // Setzen Sie Z-Index für das Graphobjekt
+    graph.ZIndex = zindex;
+    
+    // Hinzufügen von Grafiken zur Seite
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

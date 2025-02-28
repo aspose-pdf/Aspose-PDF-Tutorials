@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: هذا الرمز يوضح كيفية إنشاء مستند PDF باستخدام Aspose.PDF عن طريق رسم خطين متقطعين عبر الصفحة. يبدأ الوثيقة، ويضيف صفحة، ويرسم خطوط من زاوية إلى زاوية قبل حفظ الوثيقة.
+//ExStepSummary:0: قم بتشغيل المسار إلى دليل الوثائق حيث سيتم حفظ PDF.
+//ExStepSummary:1: قم بإنشاء مثال وثيقة جديد للصيغة PDF.
+//ExStepSummary:2: إضافة صفحة إلى مجموعة الصفحات في الوثيقة.
+//ExStepSummary:3: حدد حوافز الصفحة إلى الصفر لكل الجانبين
+//ExStepSummary:4: إنشاء كائن الرسم البياني لتمثيل منطقة الرسم بأبعاد تساوي حجم الصفحة.
+//ExStepSummary:5: قم بإنشاء أول صف من الجزء السفلي اليساري إلى الزاوية اليمنى العلوي للصفحة.
+//ExStepSummary:6: أضف الخط الأول إلى مجموعة الأشكال من كائن الرسم البياني.
+//ExStepSummary:7: قم بإنشاء كائن الخط الثاني من الجزء العلوي اليساري إلى الجزء السفلي الأيمن من الصفحة.
+//ExStepSummary:8: أضف الخط الثاني إلى مجموعة الأشكال من كائن الرسم البياني.
+//ExStepSummary:9: إضافة كائن الرسم البياني الذي يحتوي على الخطوط إلى مجموعة الفقرات في الصفحة.
+//ExStepSummary:10: قم ببناء المسار الكامل لإنقاذ ملف PDF المخرج.
+//ExStepSummary:11: حفظ وثيقة PDF إلى المسار المحدد.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// إعادة تشغيل المسار لمجلة الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// إعداد مثال الوثيقة
+Document pDoc = new Document();
+
+//ExStep:2-
+// إضافة صفحة إلى صفحة مجموعة من مستندات PDF
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// حدد هامش الصفحة على جميع الجانبين 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// إعداد كائن الرسم البياني مع عرض وارتفاع يساوي أبعاد الصفحة
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// إعداد أول صف كائن تبدأ من أسفل اليسار إلى أعلى اليمين الزاوية من الصفحة
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// رسم خط من الزاوية اليسرى العلوية من الصفحة إلى الزاوية اليمنى السفلى من الصفحة
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// إضافة خط ثان إلى مجموعة الأشكال من كائن الرسم البياني
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// إضافة موضوع الرسم البياني إلى مجموعة الفقرات من الصفحة
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// قم ببناء المسار الكامل لإنقاذ ملف PDF المخرج
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// حفظ ملف PDF
+pDoc.Save(dataDir);
+// رسالة تأكيد الخروج
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

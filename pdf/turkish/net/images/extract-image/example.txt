@@ -1,0 +1,38 @@
+//ExStart
+//ExSummaryBu kod, PDF belgesinden bir görüntü nasıl çıkarılacağını ve güncellenmiş PDF'yi kaydetirken JPEG dosyası olarak nasıl kaydedileceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod, belgeler dizisine giden yolu initializer.
+//ExStepSummary:1: Aşağıdaki kod, görüntülerin çıkarılacağı PDF belgesini açar.
+//ExStepSummary:2: Aşağıdaki kod, PDF belgesinden belirli bir görüntü çıkarır.
+//ExStepSummary:3: Aşağıdaki kod, çıkarılan görüntüyü belirli bir çıkış dosyasına kaydeder.
+//ExStepSummary:4: Aşağıdaki kod orijinal PDF dosyasını güncelleyecek ve yeni bir yola kaydetir.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// PDF dosyasını içeren dizin belirtilir
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Resim çıkarmak için PDF belgesini açar
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// PDF'in ikinci sayfasından ilk görüntüyü çıkarır
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Çıkarılmış görüntüyü kaydetmek için akış oluşturur
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Çıktı görüntü kaydet
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Kaynakları serbest bırakmak için dosya akışını kapatır
+outputImage.Close();
+
+//ExStep:4-
+// PDF'in yeni sürümünün yolunu güncelleyebilir
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Güncelleştirilmiş PDF dosyasını kaydet
+pdfDocument.Save(dataDir);
+// Dosyaların başarılı bir şekilde çıkarılmasını ve kaydedildiğini onaylar
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

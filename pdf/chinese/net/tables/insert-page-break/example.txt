@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: 这个代码展示了如何使用Aspose.PDF创建一个PDF文档,添加一个特定边界风格的表格,并在一定数量的行后实现页面化.
+//ExStepSummary:0: 文件的初始化,并添加一个页面.
+//ExStepSummary:1: 这一步创建了一个表实例,并设置其边界风格.
+//ExStepSummary:2: 列表的列宽度是指
+//ExStepSummary:3: 这一步将增加200行,每个行包含两个单元.
+//ExStepSummary:4: 通过此步骤检查是否添加了10行,并移动到新页面.
+//ExStepSummary:5: 文件的文件将完成表添加到PDF文件页面,并保存它.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目录的路径
+string dataDir = "Your Document Directory";
+
+// 实例文件实例
+Document doc = new Document();
+
+// 添加页面到页面集的PDF文件
+doc.Pages.Add();
+
+//ExStep:1-
+// 创建表例
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// 设置桌面边框风格
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// 设置边框风格为边框颜色的表
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// 指定表列宽度 (2列,每 100 个单位)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// 创建一个循环,为表添加200行
+for (int counter = 0; counter <= 200; counter++)
+{
+	// 创建一个新的行
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// 加入列表
+    tab.Rows.Add(row); 
+
+    // 创建第一个单元并添加文本
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// 添加文本片段到第一个单元	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// 加入列中的第一个单元
+    row.Cells.Add(cell1); 
+
+    // 创建第二个单元,然后添加文本
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// 添加文本片段到第二个单元	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// 加入第二个单元
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // 在新页面中添加10行时,将新行呈现
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// 添加表列到第一个页面的段落集合
+doc.Pages[1].Paragraphs.Add(tab); 
+// 定义输出文件路径
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// 保存PDF文件
+doc.Save(dataDir); 
+// 确认信息
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

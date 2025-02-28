@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar ett PDF-dokument med en tabell. Tabellen läggs till andra sidan av ett befintligt PDF-dokument och innehåller ett visst antal rader och kolumner.
+//ExStepSummary:0: Detta steg initialiserar filvägen för PDF-dokumentet att behandla.
+//ExStepSummary:1: I detta steg laddas det befintliga PDF-dokumentet från den angivna katalogen.
+//ExStepSummary:2: Detta steg skapar en ny tabellinstans och sätter dess gränsegenskaper.
+//ExStepSummary:3: Detta steg initialiserar sluppen för att lägga till flera rader i tabellen och fylla varje med celldata.
+//ExStepSummary:4: Detta steg lägger till den skapade tabellen på första sidan i PDF-dokumentet.
+//ExStepSummary:5: Detta steg sparar det uppdaterade PDF-dokumentet med den nyligen läggs till tabellen till en specifik utgångsväg.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Bestäm väg för dokument
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ladda upp källkoden PDF-dokument
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Initializera en ny instans av tabellen
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Ställ färgen på bordbordet till LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Ställ gränsen för tabellceller
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Lopp för att lägga till 10 rader
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Lägg till en ny rad i tabellen
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Lägg till den första cellen i raden
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Lägg till andra cellen i raden
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Lägg till tredje cellen i raden
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Lägg till tabellobjektet på den första sidan i inmatningsdokumentet
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Definera utgångsfilvägen för det uppdaterade dokumentet
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Spara det uppdaterade dokumentet som innehåller tabellen
+doc.Save(dataDir); 
+// Informer användaren om den framgångsrika operationen
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

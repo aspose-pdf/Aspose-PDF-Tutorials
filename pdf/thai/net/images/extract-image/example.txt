@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: โค้ดนี้แสดงวิธีการถอนภาพจากเอกสาร PDF และบันทึกเป็นไฟล์ JPEG ในขณะที่ยังบันทึก PDF ที่มีการปรับปรุง
+//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเส้นทางไปยังบันทึกเอกสาร
+//ExStepSummary:1: โค๊ดต่อไปนี้เปิดเอกสาร PDF ซึ่งจะถอดภาพ
+//ExStepSummary:2: โค๊ดต่อไปนี้เอาภาพเฉพาะจากเอกสาร PDF
+//ExStepSummary:3: คódต่อไปนี้บันทึกภาพที่ถอดออกมาในไฟล์ออกที่กําหนด
+//ExStepSummary:4: โค้ดต่อไปนี้จะอัพเดทไฟล์ PDF แรก และบันทึกมันไปยังเส้นทางใหม่
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// กําหนดเอกสารที่มีไฟล์ PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// เปิดเอกสาร PDF เพื่อการขุดภาพ
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// ถอนภาพแรกจากหน้าที่ 2 ของ PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// สร้างสตรีมเพื่อบันทึกภาพที่ถอด
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// กําหนดภาพออก
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// ปิดไฟล์เพื่อปล่อยทรัพยากร
+outputImage.Close();
+
+//ExStep:4-
+// ปรับปรุงเส้นทางสําหรับฉบับใหม่ของ PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// เก็บไฟล์ PDF ที่มีการปรับปรุง
+pdfDocument.Save(dataDir);
+// ยืนยันการขุดและบันทึกไฟล์ได้สําเร็จ
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

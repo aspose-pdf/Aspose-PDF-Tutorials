@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet optimalizálni a PDF dokumentumot a benne lévő képek összeomlása és mérete átalakítása révén.
+//ExStepSummary:0: A következő kód az aktuális időt indokolja és beállítja a dokumentumjegyzék útvonalát.
+//ExStepSummary:1: A következő kód megnyitja a megadott PDF dokumentumot a feldolgozás céljából.
+//ExStepSummary:2: A következő kód az optimális PDF-opciókat indítja.
+//ExStepSummary:3: A következő kód konfigurálja a képkompresszió beállításait, beleértve a kompressziót és a minőséget.
+//ExStepSummary:4: A következő kód alkalmazza a PDF dokumentumhoz a optimalizációs lehetőségeket.
+//ExStepSummary:5: Az alábbi kód az optimális PDF dokumentumot új fájlokba tárolja.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Idő beindítása
+var time = DateTime.Now.Ticks;
+// A dokumentumok könyvtárába vezető út.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Nyitott dokumentum
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Initializáljuk az OptimizationOptions-ot
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Beállítsa a CompressImages opció
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Beállítsa a képminőséget 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Állítsa be a ResizeImage lehetőséget
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Beállítsa a MaxResolution opció
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Optimalizáld a PDF dokumentumot OptimizationOptions segítségével
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Az output fájl adatjegyzékének frissítése
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Tartsa meg a frissített dokumentumot
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Informáld a felhasználót a sikerről
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

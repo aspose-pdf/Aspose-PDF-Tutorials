@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryΟ κωδικός αυτός δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF με πίνακα.
+//ExStepSummary:0: Αυτό το βήμα αρχιτολογεί τη διαδρομή αρχείου για το έγγραφο PDF που πρόκειται να επεξεργαστεί.
+//ExStepSummary:1: Αυτό το βήμα φορτώνει το υπάρχον έγγραφο PDF από το καθορισμένο καταλόγιο.
+//ExStepSummary:2: Αυτό το βήμα δημιουργεί μια νέα περίπτωση πίνακα και καθορίζει τις οριακές του ιδιότητες.
+//ExStepSummary:3: Αυτό το βήμα αρχίζει το κύκλο για να προσθέσει πολλές σειρές στον πίνακα, γεμίζοντας κάθε μία με δεδομένα κυττάρων.
+//ExStepSummary:4: Το βήμα αυτό προσθέτει τον δημιουργημένο πίνακα στην πρώτη σελίδα του εγγράφου PDF.
+//ExStepSummary:5: Αυτό το βήμα αποθηκεύει το ενημερωμένο έγγραφο PDF με τον πρόσφατα προστίθεται πίνακα σε μια καθορισμένη διαδρομή εξόδου.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Ορίστε τη διαδρομή για τα έγγραφα
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Κατέβασε το αρχικό έγγραφο PDF
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Αρχική ένα νέο παράδειγμα του πίνακα
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Εναρμηνεύστε το χρώμα του χείλη του τραπεζιού σε LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Ορισμός των ορίων για τις κυττάρες του τραπεζιού
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Κλείδωμα για να προσθέσετε 10 σειρές
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Προσθέστε μια νέα σειρά στο τραπέζι
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Προσθέστε το πρώτο κελί στη σειρά
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Προσθέστε δεύτερο κελί στη σειρά
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Προσθέστε τρίτο κελί στη σειρά
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Προσθέστε το αντικείμενο του πίνακα στην πρώτη σελίδα του εγγράφου εισόδου
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Ορίστε τη διαδρομή αρχείου εξόδου για το ενημερωμένο έγγραφο
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Αποθηκεύστε το ενημερωμένο έγγραφο που περιέχει τον πίνακα
+doc.Save(dataDir); 
+// Ενημερώστε τον χρήστη για την επιτυχημένη επιχείρηση
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

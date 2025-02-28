@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: هذا البرنامج يظهر كيفية تحسين مستند PDF من خلال ضغط صورها. إنه يقوم بتحميل PDF، وطبق خيارات التحسين لتقليل حجم الصور، ويحفظ الوثيقة المحدثة.
+//ExStepSummary:0: هذه الخطوة تبدأ طريق إلى دليل الوثائق.
+//ExStepSummary:1: هذه الخطوة تفتح الوثيقة المحددة PDF للتحسين.
+//ExStepSummary:2: هذه الخطوة تبدأ خيارات التحسين لمستند PDF.
+//ExStepSummary:3: هذه الخطوة تعيين خيار ضغط الصورة إلى صحيح.
+//ExStepSummary:4: هذه الخطوة تعيين خيار نوعية الصورة إلى 50.
+//ExStepSummary:5: هذه الخطوة تحسن المستند PDF باستخدام خيارات التحسين المحددة.
+//ExStepSummary:6: هذه الخطوة تحديث المسار لمستند PDF المثالي.
+//ExStepSummary:7: هذه الخطوة تخفي المستند PDF المثالي إلى المسار المحدد.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// مسار إلى دليل الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// افتح وثيقة PDF
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// إعادة تشغيل خيارات التحسين
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// تمكين ضغط الصورة
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// حدد جودة الصورة إلى 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// تحسين مستند PDF باستخدام الإعدادات
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// حدد مسار الخروج لـ PDF المثالي
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// حفظ الوثيقة المحدثة
+pdfDocument.Save(dataDir);
+// رسالة تأكيد الخروج
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

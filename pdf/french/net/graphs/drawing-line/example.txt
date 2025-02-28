@@ -1,0 +1,66 @@
+//ExStart
+//ExSummaryCe code montre comment créer un document PDF en utilisant Aspose.PDF en dessinant deux lignes diagonales sur la page.
+//ExStepSummary:0: Initialement le chemin pour le répertoire de documents où le PDF sera enregistré.
+//ExStepSummary:1: Créez une nouvelle instance de document pour le PDF.
+//ExStepSummary:2: Ajouter une page à la collection de pages du document.
+//ExStepSummary:3: Réglez les marges de la page à zéro pour tous les côtés.
+//ExStepSummary:4: Créer un objet graphique pour représenter la zone de dessin avec des dimensions égales à la taille de la page.
+//ExStepSummary:5: Créez l'objet de première ligne du bas à gauche au coin supérieur droit de la page.
+//ExStepSummary:6: Ajoutez la première ligne à la collection de formes de l'objet Graph.
+//ExStepSummary:7: Créez l'objet de la deuxième ligne de la partie supérieure gauche à la partie inférieure droite de la page.
+//ExStepSummary:8: Ajoutez la deuxième ligne à la collection de formes de l'objet Graph.
+//ExStepSummary:9: Ajoutez l'objet Graphique contenant les lignes à la collection de paragraphes de la page.
+//ExStepSummary:10: Construire le chemin complet pour enregistrer le fichier PDF de sortie.
+//ExStepSummary:11: Enregistrez le document PDF sur le chemin spécifié.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Initialement le chemin pour le répertoire de documents
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Créer une instance de document
+Document pDoc = new Document();
+
+//ExStep:2-
+// Ajouter une page à la collection de pages de document PDF
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Définir la marge de page de tous les côtés comme 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Créer un objet graphique avec largeur et hauteur égales aux dimensions de la page
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Créer un objet de première ligne à partir du coin inférieur gauche à l' angle supérieur droit de la page
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Dessinez une ligne de l'angle supérieur gauche à l'angle inférieur droit de la page
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Ajouter une deuxième ligne à la collection de formes de l'objet Graph
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Ajouter l' objet Graph à la collection de pages de paragraphes
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Construire le chemin complet pour enregistrer le fichier PDF de sortie
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Enregistrer le fichier PDF
+pDoc.Save(dataDir);
+// Message de confirmation de sortie
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

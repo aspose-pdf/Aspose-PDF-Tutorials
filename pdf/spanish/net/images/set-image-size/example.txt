@@ -1,0 +1,50 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un documento PDF, añadir una imagen a él y ajustar el tamaño de la imagen y las propiedades de la página.
+//ExStepSummary:0: Este código inicializa el objeto del documento y le añade una nueva página.
+//ExStepSummary:1: Esta sección crea una instancia de imagen y establece sus dimensiones y tipo de archivo.
+//ExStepSummary:2: Este paso especifica el archivo fuente de la imagen y se añade a la página.
+//ExStepSummary:3: Este paso establece las propiedades de la página incluyendo anchura y altura.
+//ExStepSummary:4: Esta sección guarda el documento en el camino de archivo especificado y verifica la operación de almacenamiento.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Especifique el camino del directorio de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Objeto de documento instante
+Document doc = new Document();
+// Añadir una nueva página al documento PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Crear una instancia de imagen
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Establezca el ancho de la imagen a 100 puntos
+img.FixWidth = 100;
+// Establezca la altura de la imagen en 100 puntos
+img.FixHeight = 100;
+// Establezca el tipo de imagen como Desconocido (para inferir más adelante)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Especifique el camino para el archivo de imagen fuente
+img.File = dataDir + "aspose-logo.jpg";
+// Añadir la imagen a los párrafos de la página
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Establezca el ancho de la página a 800 puntos
+page.PageInfo.Width = 800;
+// Establezca la altura de la página en 800 puntos
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Especifique el camino del archivo de salida
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Guardar el documento PDF resultante
+doc.Save(dataDir);
+
+//ExStep:5-
+// Informar al usuario sobre la operación exitosa
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

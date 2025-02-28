@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryDenna kod visar hur man skapar ett PDF-dokument med tabeller med hjälp av Aspose.Pdf. Den sätter marginaler, lägger till två tabeller på olika sidor och sparar dokumentet till en specifik väg.
+//ExStepSummary:0: Detta steg sätter utgångsdirektören för PDF-filen.
+//ExStepSummary:1: Detta steg initialiserar ett nytt dokumentobjekt och hämtar PageInfo för att ändra sidinställningar.
+//ExStepSummary:2: Detta steg sätter sidor och ändrar sidorienteringen till landskapsmodus.
+//ExStepSummary:3: Detta steg skapar ett nytt tabellobjekt och definierar kolumnsbredd.
+//ExStepSummary:4: I detta steg läggs en ny sida till dokumentet och läggs in en tabell med 120 rader, som sätter fast radhöjd och lägger till innehåll i varje cell.
+//ExStepSummary:5: Detta steg lägger till den första tabellen i den aktuella sidan.
+//ExStepSummary:6: Detta steg skapar en annan tabell med olika kolumnsbredd och lägger till 10 rader med specifikt innehåll.
+//ExStepSummary:7: Detta steg sätter den andra tabellen på en ny sida och lägger den till dokumentet.
+//ExStepSummary:8: Detta steg sparar PDF-dokumentet till den angivna vägen och ger ut ett framgångsmeddelande.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Ange vägen till dokumentkataloget.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Skapa ett nytt dokumentobjekt.
+Document doc = new Document();
+// Ta dokumentets sidinformation.
+PageInfo pageInfo = doc.PageInfo;
+// Få tillgång till sidans marginalinställningar.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Ställ vänster marginal till 37 enheter.
+marginInfo.Left = 37;
+// Ställ högra marginalen till 37 enheter.
+marginInfo.Right = 37;
+// Ställ den högsta marginalen till 37 enheter.
+marginInfo.Top = 37; 
+// Ställ nedre marginalen till 37 enheter.
+marginInfo.Bottom = 37;
+// Ställ sidorienteringen till landskap.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Skapa ett nytt tabellobjekt.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Definera bredden för kolumnerna i tabellen.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Lägg till en ny sida i dokumentet.
+Page curPage = doc.Pages.Add();
+// Löp för att lägga till 120 rader till det första bordet.
+for (int i = 1; i <= 120; i++)
+{
+	// Skapa en ny rad.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Ställ fast höjd för raden.
+    row.FixedRowHeight = 15; 
+    // Skapa den första cellen i raden.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Lägg till ett TextFragment i den första cellen.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Skapa den andra cellen i rad.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Lägg till ett TextFragment i den andra cellen.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Få tillgång till avsnittens samling på den aktuella sidan.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Lägg till den första tabellen på den aktuella sidan.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Skapa ett annat tabellobjekt.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Definera bredden för kolumnerna i andra tabellen.
+table1.ColumnWidths = "100 100";
+// Löp för att lägga till 10 rader till andra bordet. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Skapa en ny rad för tabell 1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Skapa den första cellen i raden.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Lägg till ett TextFragment i den första cellen.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Skapa den andra cellen i rad.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Lägg till ett TextFragment i den andra cellen.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Ställ in egenskapen för att sätta den andra tabellen på en ny sida.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// Lägg till andra tabellen i de stycken på den aktuella sidan.
+paragraphs.Add(table1); 
+// Definera utgångsfilvägen.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Spara dokumentet på den angivna vägen.
+doc.Save(dataDir); 
+// ExStep:8-
+// Utgångsmeddelande.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

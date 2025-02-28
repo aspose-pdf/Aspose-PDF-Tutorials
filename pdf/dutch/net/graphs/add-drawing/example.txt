@@ -1,0 +1,75 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een PDF-document kunt maken met een grafiek met een rechthoek met een transparante kleur.
+//ExStepSummary:0: De volgende code initialiseert het gegevens directory voor het opslaan van het PDF-bestand.
+//ExStepSummary:1: De volgende code stelt de Alpha RGB-kleur vast die moet worden gebruikt voor de vul van het rechthoek.
+//ExStepSummary:2: De volgende code creëert een nieuw Document object voor de PDF.
+//ExStepSummary:3: De volgende code voegt een pagina toe aan het PDF-document.
+//ExStepSummary:4: De volgende code creëert een Graph-object voor het tekenen van vormen in de PDF.
+//ExStepSummary:5: De volgende code stelt een grens voor het grafiekobject.
+//ExStepSummary:6: De volgende code voegt het grafiekobject toe aan de collectie paragrafen van de pagina.
+//ExStepSummary:7: De volgende code creëert een rechthoekige vorm die op de grafiek wordt getekend.
+//ExStepSummary:8: De volgende code geeft kleurinformatie voor de grafiekinformatie van het rechthoek.
+//ExStepSummary:9: De volgende code voegt de rechthoekige vorm toe aan de grafiekvormsamenstelling.
+//ExStepSummary:10: De volgende code slaat het document op het gespecificeerde outputbestandpad.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// Het initialiseren van het pad voor het opslaan van het document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Alpha-kanaalwaarde voor transparantie
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Creëer kleurobject met Alpha RGB
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Instant Document object
+Document document = new Document();
+
+//ExStep:3-
+// Voeg een nieuwe pagina toe aan het document
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Creëer Grafiek object met specifieke afmetingen
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Stel grens voor het Grafiek-object
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Voeg het grafiek voorwerp toe aan de pagina
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Creëer een rechthoekig object met specifieke afmetingen
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Creëer graphInfo voor het rechthoek
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// Kleurgegevens instellen voor GraphInfo-instance
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Voeg de rechthoekige vorm toe aan de grafiek
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Stel het outputbestandpad voor het opslaan van het document in
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Bevestigingsbericht
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

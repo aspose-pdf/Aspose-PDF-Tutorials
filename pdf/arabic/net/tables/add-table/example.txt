@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: هذا الرمز يوضح كيفية إنشاء مستند PDF مع جدول. يتم إضافة الجدول إلى الصفحة الثانية من مستند PDF موجود، ويشمل عدد محدد من الصفوف والعمود بيانات.
+//ExStepSummary:0: هذه الخطوة تبدأ مسار الملف لتوثيقة PDF التي سيتم معالجتها.
+//ExStepSummary:1: هذه الخطوة تحميل الوثيقة الحالية PDF من المجلد المحدد.
+//ExStepSummary:2: هذه الخطوة تخلق مثالًا جديدًا من الجدول وتحدد خصائصها الحدودية.
+//ExStepSummary:3: هذه الخطوة تبدأ الحلقة لإضافة صفوف متعددة إلى الجدول، وتملأ كل منها ببيانات الخلية.
+//ExStepSummary:4: هذه الخطوة تضيف الجدول المبدع إلى الصفحة الأولى من مستند PDF.
+//ExStepSummary:5: هذه الخطوة توفر وثيقة PDF المحدثة مع الجدول المضاف حديثا إلى مسار الخروج المحدد.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// تحديد مسار الوثائق
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحميل المستند المصدر PDF
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// إعادة تشغيل مثال جديد من الجدول
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// حدد لون الحافة على LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// حدد الحدود للخلايا المكتبة
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// حلقة لإضافة 10 صفات
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// إضافة صف جديد إلى الطاولة
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// إضافة الخلية الأولى في الصف
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// إضافة الخلية الثانية في الصف
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// إضافة الخلية الثالثة في الصف
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// إضافة موضوع الجدول إلى الصفحة الأولى من وثيقة الإدخال
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// تحديد مسار ملف النتائج للمستند المحدث
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// حفظ الوثيقة المحدثة التي تحتوي على الجدول
+doc.Save(dataDir); 
+// إعلام المستخدم عن العملية الناجحة
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: このコードは,PDF文書を作成し,画像を追加し,画像サイズとページ属性を調整する方法を示します.また,文書の保存を処理し,操作の成功についてユーザに知らせます.
+//ExStepSummary:0: このコードは文書オブジェクトを初期化し,新しいページを追加します.
+//ExStepSummary:1: このセクションでは画像インスタンスを作成し,その次元とファイルタイプを設定します.
+//ExStepSummary:2: このステップでは画像のソースファイルを指定し,ページに追加します.
+//ExStepSummary:3: このステップでは,幅と高度を含むページ属性を設定します.
+//ExStepSummary:4: このセクションは,文書を指定されたファイルパスに保存し,保存操作を確認します.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// ドキュメントディレクトリパスを指定する
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 文書オブジェクトをインスタント化する
+Document doc = new Document();
+// PDF 文書に新しいページを追加する
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// 画像インスタンスを作成
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// 画像幅を100点に設定
+img.FixWidth = 100;
+// 画像の高さを100点に設定する
+img.FixHeight = 100;
+// 画像タイプを未知に設定する (後で推論する)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// ソース画像ファイルのパス指定
+img.File = dataDir + "aspose-logo.jpg";
+// ページ の 段落 に 画像 を 追加 する
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// ページ幅を800点に設定する
+page.PageInfo.Width = 800;
+// ページの高さを800点に設定する
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// 出力ファイル経路を指定する
+dataDir = dataDir + "SetImageSize_out.pdf";
+// 作成されたPDF文書を保存する
+doc.Save(dataDir);
+
+//ExStep:5-
+// ユーザに成功した操作について知らせる
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.PDF, να προσθέσετε έναν πίνακα με συγκεκριμένα στυλ συνοριοτήτων και να εφαρμόσετε την pagination μετά από έναν ορισμένο αριθμό γραμμών.
+//ExStepSummary:0: Αυτό το βήμα αρχίζει το έγγραφο και προσθέτει σελίδα σε αυτό.
+//ExStepSummary:1: Αυτό το βήμα δημιουργεί μια ενδείξη πίνακα και καθορίζει τα στυλ των ορίων της.
+//ExStepSummary:2: Σε αυτό το βήμα προσδιορίζονται τα πλάγια στήλων για τον πίνακα.
+//ExStepSummary:3: Αυτό το βήμα προσθέτει 200 σειρές στον πίνακα, με κάθε σειρά να περιέχει δύο κύτταρα.
+//ExStepSummary:4: Αυτό το βήμα ελέγχει αν έχουν προστεθεί 10 σειρές και μετακινάται σε μια νέα σελίδα αν ναι.
+//ExStepSummary:5: Αυτό το βήμα προσθέτει τον ολοκληρωμένο πίνακα στη σελίδα του εγγράφου PDF και το αποθηκεύει.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Η διαδρομή προς τον κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+// Επαναστατική περίπτωση εγγράφου
+Document doc = new Document();
+
+// Προσθήκη σελίδας σε σελίδες συλλογή αρχείου PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Δημιουργήστε μια περίπτωση πίνακα
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Εγκαταστήστε το στυλ των ορίων για το τραπέζι
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Εγκαταστήστε προεπιλεγμένο στυλ συνοριολογίας για πίνακα με χρώμα συνοριολογίας ως Κόκκινο
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Ειδικόποιήστε το πλάτος των στήλων του πίνακα (2 στήλες, κάθε 100 μονάδες)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Δημιουργήστε ένα κύκλο για να προσθέσετε 200 σειρές για τον πίνακα
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Δημιουργήστε μια νέα σειρά
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Προσθέστε τη σειρά στο τραπέζι
+    tab.Rows.Add(row); 
+
+    // Δημιουργήστε το πρώτο κελί και προσθέστε κείμενο
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Προσθήκη κειμένου στο πρώτο κελί	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Προσθέστε την πρώτη κυτταρίδα στη σειρά
+    row.Cells.Add(cell1); 
+
+    // Δημιουργήστε δεύτερο κελί και προσθέστε κείμενο
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Προσθήκη κειμένου στο δεύτερο κελί	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Προσθέστε δεύτερο κελί στη σειρά
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Όταν προστεθούν 10 σειρές, αναπαράγετε νέα σειρά σε νέα σελίδα
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Προσθήκη πίνακα στη συλλογή παραγράφων της πρώτης σελίδας
+doc.Pages[1].Paragraphs.Add(tab); 
+// Ορίστε τη διαδρομή αρχείου εξόδου
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Κράτησε το έγγραφο PDF
+doc.Save(dataDir); 
+// Επιστολή επιβεβαίωσης
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

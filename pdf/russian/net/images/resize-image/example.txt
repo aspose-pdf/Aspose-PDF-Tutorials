@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Этот код показывает, как оптимизировать PDF-документ, сжав и переразмеряя изображения внутри него.
+//ExStepSummary:0: Следующий код инициирует текущее время и устанавливает путь каталога документов.
+//ExStepSummary:1: Следующий код открывает указанный PDF-документ для обработки.
+//ExStepSummary:2: Следующий код инициирует опционы оптимизации для PDF.
+//ExStepSummary:3: Следующий код конфигурирует настройки сжатия изображения, включая сжатие и качество.
+//ExStepSummary:4: Следующий код применяет опционы оптимизации к PDF-документу.
+//ExStepSummary:5: Следующий код сохраняет оптимизированный PDF-документ в новом файле.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Начало времени
+var time = DateTime.Now.Ticks;
+// Путь в справочник документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Открытый документ
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Инициализировать оптимальные варианты
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Настройка опции Сжатие изображений
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Настройка опции ImageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Настройка опции "Обороть размер"
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Настройка опции MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Оптимизировать PDF-документ с помощью OptimizationOptions
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Обновление каталога данных для выходящего файла
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Сохранить обновленный документ
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Уведомлять пользователя о успехе
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

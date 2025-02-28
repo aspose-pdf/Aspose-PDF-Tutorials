@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryA kód bemutatja, hogyan lehet optimalizálni egy PDF dokumentumot a képek összeomlása révén.
+//ExStepSummary:0: Ez a lépés az útot az iratok címlapjához indítja.
+//ExStepSummary:1: Ez a lépés megnyitja a megadott PDF dokumentumot optimalizálásra.
+//ExStepSummary:2: Ez a lépés az optimális megoldásokat indítja a PDF dokumentum számára.
+//ExStepSummary:3: Ez a lépés az képkompresszió lehetőségét igazra állítja.
+//ExStepSummary:4: Ez a lépés a képminőség lehetőségét 50-re állítja.
+//ExStepSummary:5: Ez a lépés optimalizálja a PDF dokumentumot a megadott optimalizációs lehetőségek segítségével.
+//ExStepSummary:6: Ez a lépés frissíti az optimális PDF dokumentum útját.
+//ExStepSummary:7: Ez a lépés az optimális PDF dokumentumot az adott útvonalra tárolja.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Nyissa ki a PDF dokumentumot
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Indítsa be az optimizációs lehetőségeket
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Képes képkompresszió
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Állítsa be a képminőséget 50%-ra
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Optimalizálja a PDF dokumentumot a beállításokat felhasználva
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Tisztázza a kiviteli útvonalat az optimalizált PDF-hez
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// A frissített dokumentumot tárolja
+pdfDocument.Save(dataDir);
+// Kijárati megerősítési üzenet
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: โค้ดนี้แสดงวิธีการสร้างเอกสาร PDF เพิ่มเหลี่ยมที่มีสีและ Z- หมายเลขต่าง ๆ และบันทึกเอกสาร
+//ExStepSummary:0: ขั้นตอนนี้กําหนดไดเร็คโตรี่การออกของเอกสาร PDF และแสดงวัตถุเอกสารใหม่และเพิ่มหน้าใหม่ที่มีมิติที่กําหนด
+//ExStepSummary:1: ขั้นตอนนี้กําหนดขนาดหน้าและขอบสําหรับหน้าที่เพิ่งสร้าง
+//ExStepSummary:2: ขั้นตอนนี้เพิ่มเหลี่ยมสี่เหลี่ยมสีแดงที่สอดคณิตที่กําหนดด้วย Z- индекс 2 เพื่อให้มันปรากฏบนรูปร่างอื่น ๆ
+//ExStepSummary:3: ขั้นตอนนี้เพิ่มเหลี่ยมสี่เหลี่ยมสีฟ้าที่สอดคณิตที่กําหนดด้วยอัตรา Z 1 เพื่อให้มันปรากฏอยู่ใต้เหลี่ยมสี่เหลี่ยมสีแดง แต่เหนือคนอื่น
+//ExStepSummary:4: ขั้นตอนนี้เพิ่มเหลี่ยมสี่เหลี่ยมสีเขียวที่สอดคณิตที่กําหนดด้วย Z-index 0, การ確保ว่ามันปรากฏในด้านล่างของลําดับ Z.
+//ExStepSummary:5: ขั้นตอนนี้จะบันทึกเอกสาร PDF ไปยังเส้นทางไฟล์ออกที่กําหนด
+//ExStepSummary:6: ขั้นตอนนี้กําหนดวิธีการในการประกอบล็อคสําหรับการเพิ่มเหลี่ยมต่อหน้า PDF รวมถึงการตั้งคุณสมบัติและ Z-index
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// กําหนดเอกสารบันทึก
+string dataDir = "Your Document Directory";
+
+// รายการเอกสาร Class object
+Document doc1 = new Document();
+
+// เพิ่มหน้าใหม่ต่อเอกสาร
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// กําหนดขนาดหน้า
+page1.SetPageSize(375, 300);
+
+// กําหนดขอบหน้าเป็น 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// เพิ่มเหลี่ยมสีแดงด้วย Z- индекс 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// เพิ่มรูปสี่เหลี่ยมสีฟ้าที่มีอัตรา Z 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// เพิ่มรูปสี่เหลี่ยมสีเขียวที่มีอัตรา Z 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// เก็บเอกสาร PDF
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// วิธีการเพิ่มเหลี่ยมต่อหน้า PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // สร้างวัตถุกราฟที่มีขนาดเท่าของเหลี่ยม
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // ป้องกันตําแหน่งกราฟเปลี่ยนไปโดยอัตโนมัติ
+    graph.IsChangePosition = false;
+    
+    // กําหนดตําแหน่งกราฟ
+    graph.Left = x;
+    graph.Top = y;
+    
+    // สร้างเหลี่ยมในกราฟ
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // กําหนดสีเต็มและขอบ
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // เพิ่มเหลี่ยมต่อการเก็บรูปแบบกราฟ
+    graph.Shapes.Add(rect);
+    
+    // กําหนด Z- Index สําหรับวัตถุกราฟ
+    graph.ZIndex = zindex;
+    
+    // เพิ่มกราฟไปยังหน้า
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

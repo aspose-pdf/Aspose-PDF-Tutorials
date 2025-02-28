@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet PDF dokumentumot készíteni, különböző színekkel és Z-indexekkel való négyzetképesek hozzáadni, és megőrizni a dokumentumot.
+//ExStepSummary:0: Ez a lépés meghatározza a PDF dokumentum kimeneti direktoriumát, és egy új Dokumentum objektumot jelenít meg, és egy új oldalt hozzáteszi a megadott dimenziókkal.
+//ExStepSummary:1: Ez a lépés a frissen létrehozott oldal méretét és határát határozza meg.
+//ExStepSummary:2: Ez a lépés egy vörös négyzetképet ad hozzá a meghatározott koordinátáknál, amelynek Z-indexje 2 lesz, így más formák felett jelenik meg.
+//ExStepSummary:3: Ez a lépés egy kék négyzetkeréköt tartalmaz a meghatározott koordinátáknál, amelynek Z-indexje 1 az, így a vörös négyzetkerék alatt, de másokon felül látható.
+//ExStepSummary:4: Ez a lépés egy zöld négyzetkeréköt tartalmaz a meghatározott koordinátáknál, amelynek Z-indexje 0, és ez a Z-rend alján jelenik meg.
+//ExStepSummary:5: Ez a lépés az adott kiviteli fájl útvonalba tárolja a PDF dokumentumot.
+//ExStepSummary:6: Ez a lépés meghatározza a PDF oldalra való négyzetképesek hozzáadásának logikáját, beleértve a tulajdonságok és a Z-index beállítását.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// A dokumentumjegyzék meghatározása
+string dataDir = "Your Document Directory";
+
+// Egyszeres Dokumentum osztály objektum
+Document doc1 = new Document();
+
+// Adjon új oldalt a dokumentumhoz
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Adatlap méret
+page1.SetPageSize(375, 300);
+
+// A lapok határát 0-ra állítsa
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Adjon hozzá egy piros négyzetképet Z-index 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Adjon egy kék négyzetképet Z-index 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Adjon hozzá egy zöld négyzetkerékpontot a Z-index 0-val
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Takarítsa meg a PDF dokumentumot
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// A PDF oldalon egy térképpel való hozzáadás módszere
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Készítsen egy grafikon objektumot, amelynek mérete ugyanaz, mint a térképpszög
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Megakadályozza a grafikon helyzete automatikus változását
+    graph.IsChangePosition = false;
+    
+    // Beállított grafikon helyzet
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Készítsen egy térképet a grafikonban
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Beállítson a térképpszög töltését és a határ színét
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Adjon négyzetkereket a grafikon formák gyűjteményéhez
+    graph.Shapes.Add(rect);
+    
+    // A grafikon objektum Z-indexének beállítása
+    graph.ZIndex = zindex;
+    
+    // Adjon grafikont a laphoz
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

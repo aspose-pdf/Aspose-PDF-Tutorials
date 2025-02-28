@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Questo codice mostra come ottimizzare un documento PDF compresso e ridimensionando le immagini all'interno.
+//ExStepSummary:0: Il seguente codice inizializza l'ora corrente e imposta il percorso della directory dei documenti.
+//ExStepSummary:1: Il seguente codice apre il documento PDF specificato per il trattamento.
+//ExStepSummary:2: Il seguente codice inizializza le opzioni di ottimizzazione per il PDF.
+//ExStepSummary:3: Il seguente codice configura le impostazioni di compressione dell'immagine, compresa la compressione e la qualità.
+//ExStepSummary:4: Il seguente codice applica le opzioni di ottimizzazione al documento PDF.
+//ExStepSummary:5: Il seguente codice salva il documento PDF ottimizzato in un nuovo file.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Inizia il tempo
+var time = DateTime.Now.Ticks;
+// Il percorso verso la cartella dei documenti.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Documento aperto
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Inizializza OptimizzazioneOpzioni
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Impostazione Opzione CompressImages
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Impostazione Opzione ImageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Impostazione Opzione ResizeImage
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Impostare l' opzione MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Ottimizzare il documento PDF utilizzando OptimizationOptions
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Aggiornare la directory di dati per il file di uscita
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Salvare il documento aggiornato
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Informare l'utente del successo
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

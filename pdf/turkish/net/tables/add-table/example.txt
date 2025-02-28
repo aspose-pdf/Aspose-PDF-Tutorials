@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryBu kod, bir tablo ile PDF belgesini nasıl oluşturulacağını gösterir. Tablo mevcut bir PDF belgesinin ikinci sayfasına eklenir ve belirli bir dizi satır ve sütun verisini içerir.
+//ExStepSummary:0: Bu adım, işlenmesi gereken PDF belgesinin dosya yolunu initialize eder.
+//ExStepSummary:1: Bu adım, belirtilen dizinden mevcut PDF belgesini yükler.
+//ExStepSummary:2: Bu adım yeni bir tablo örneğini oluşturur ve sınır özelliklerini belirler.
+//ExStepSummary:3: Bu adım, tabloya birden fazla satır eklemek için döngüyü başlangıçta yapar ve her birini hücre verileri ile doldurur.
+//ExStepSummary:4: Bu adım oluşturulan tabloyu PDF belgesinin ilk sayfasına ekler.
+//ExStepSummary:5: Bu adım, yeni eklenen tablo ile birlikte güncellenmiş PDF belgesini belirtilen bir çıkış yoluna kaydetir.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Belgelerin yolunu tanımlayın
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kaynak PDF belgesini yükle
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Tablonun yeni bir örneğini başlat
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Masa kenar rengi LightGray'e ayarlayın
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Masa hücrelerinin sınırını belirle
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// 10 satır eklemek için döngü
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Masaya yeni bir satır ekle
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Satırdaki ilk hücreyi ekle
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Sırada ikinci hücre ekle
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Sırada üçüncü hücre ekle
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Girdi belgesinin ilk sayfasına tablo nesnesini ekle
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Güncelleştirilmiş belge için çıkış dosyası yolu tanımlayın
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Tablo içeren güncellenmiş belgeyi kaydet
+doc.Save(dataDir); 
+// Kullanıcıyı başarılı işlemden haberdar edin
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,74 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument pomocí Aspose.PDF, přidat tabulku s konkrétními hraničními styly a implementovat stránku po určitém počtu řádků.
+//ExStepSummary:0: Tento krok iniciuje dokument a přidává k němu stránku.
+//ExStepSummary:1: Tento krok vytváří instanci tabulky a nastavuje její hraniční styly.
+//ExStepSummary:2: Tento krok určuje šířky sloupců tabulky.
+//ExStepSummary:3: Tento krok přidává do tabulky 200 řádků, přičemž každý řádek obsahuje dvě buňky.
+//ExStepSummary:4: Tento krok kontroluje, zda bylo přidáno 10 řádků a pokud ano, přejde na novou stránku.
+//ExStepSummary:5: Tento krok přidává dokončenou tabulku na stránku dokumentu PDF a ukládá ji.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+// Příklad dokumentu
+Document doc = new Document();
+
+// Přidejte stránky k stránkám sbírky souboru PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Vytvořit instanci tabulky
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Nastavte styl hranice pro stůl
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Nastavte nastavený styl hranice pro tabulku s barvou hranice jako Červený
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Uveďte šířku sloupců tabulky (2 sloupci, každé 100 jednotek)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Vytvořte okruh, který přidá 200 řádků do tabulky
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Vytvořit nový řádek
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Přidejte řádek do tabulky
+    tab.Rows.Add(row); 
+
+    // Vytvořte první buňku a přidejte text
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Přidejte textový fragment do první buňky	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Přidejte první buňku do řady
+    row.Cells.Add(cell1); 
+
+    // Vytvořit druhou buňku a přidat text
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Přidejte textový fragment do druhé buňky	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Přidejte druhou buňku do řady
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Když se přidá 10 řádků, zobrazit nový řádek na nové stránce
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Přidejte tabulku do sbírky odstavců první stránky
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definice výstupního souboru
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Zachovávejte PDF dokument
+doc.Save(dataDir); 
+// Sdělení potvrzení
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

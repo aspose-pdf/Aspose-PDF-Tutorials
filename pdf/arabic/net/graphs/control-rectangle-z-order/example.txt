@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند PDF، وإضافة مستطيلات بألوان مختلفة و Z- مؤشرات، وتحفظ الوثيقة.
+//ExStepSummary:0: هذه الخطوة تعريف المجلد الخارجي للوثيقة PDF وتثبيت كائن وثيقة جديدة وإضافة صفحة جديدة مع الأبعاد المحددة.
+//ExStepSummary:1: هذه الخطوة تحدد حجم الصفحة والحافة للصفحة التي تم إنشاؤها حديثاً.
+//ExStepSummary:2: هذه الخطوة تضيف مستطيلاً أحمرًا في إحداثيات محددة مع مؤشر Z 2 ، مما يضمن ظهورها فوق الأشكال الأخرى.
+//ExStepSummary:3: هذه الخطوة تضيف مستطيلاً أزرق الأزرق عند إحداثيات محددة مع مؤشر Z من 1 ، مما يضمن أن يظهر أسفل المستطيلاً الأحمر ولكن فوق الآخرين.
+//ExStepSummary:4: هذه الخطوة تضيف مستطيلا خضرا في إحداثيات محددة مع مؤشر Z من 0، مما يضمن أن يظهر في أسفل النظام Z.
+//ExStepSummary:5: هذه الخطوة تخفي مستند PDF إلى مسار ملف الخروج المحدد.
+//ExStepSummary:6: تحدد هذه الخطوة طريقة لتجميع المنطق لإضافة مستطيلات إلى صفحة PDF ، بما في ذلك تحديد خصائصها ومؤشر Z.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// تعريف دليل الوثائق
+string dataDir = "Your Document Directory";
+
+// كائن فئة الوثائق على الفور
+Document doc1 = new Document();
+
+// إضافة صفحة جديدة إلى الوثيقة
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// حدد حجم الصفحة
+page1.SetPageSize(375, 300);
+
+// حدد حوافز الصفحة إلى 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// إضافة مستطيل أحمر مع مؤشر Z 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// إضافة مستطيل أزرق مع مؤشر Z 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// إضافة مستطيل خضراء مع مؤشر Z 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// حفظ الوثيقة في PDF
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// طريقة لإضافة مستطيل إلى صفحة PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // إعداد كائن الرسم البياني ذو نفس الأبعاد التي يحتوي عليها المثلث
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // منع تغيير موقع الرسم البياني تلقائيًا
+    graph.IsChangePosition = false;
+    
+    // وضع الرسم البياني
+    graph.Left = x;
+    graph.Top = y;
+    
+    // إخلق مستطيل داخل الرسم البياني
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // حدد ملء مستطيل و لون الحافة
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // إضافة مستطيل إلى مجموعة أشكال الرسم البياني
+    graph.Shapes.Add(rect);
+    
+    // حدد مؤشر Z لقطة الرسم البياني
+    graph.ZIndex = zindex;
+    
+    // إضافة الرسم البياني إلى الصفحة
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

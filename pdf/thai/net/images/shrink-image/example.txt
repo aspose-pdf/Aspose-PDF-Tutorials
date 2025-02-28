@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: คód นี้ แสดง วิธี อุปтимализацияเอกสาร PDF โดย การ พับ รูปภาพ ของ มัน. มัน จะ โหลด PDF, ใช้ ตัวเลือก อุปтимализация เพื่อ ลดขนาดภาพ, และ ถอดเอกสาร ที่ ได้ ปรับปรุง
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเส้นทางไปยังเอกสารบันทึก
+//ExStepSummary:1: ขั้นตอนนี้เปิดเอกสาร PDF ที่กําหนดไว้เพื่อการอุดมสมบูรณ์
+//ExStepSummary:2: ขั้นตอนนี้เริ่มต้นการเลือกการออปติมิสเตอร์สําหรับเอกสาร PDF
+//ExStepSummary:3: ขั้นตอนนี้ตั้งค่าการคับภาพเป็น true
+//ExStepSummary:4: ขั้นตอนนี้ตั้งค่าภาพภาพให้เป็น 50
+//ExStepSummary:5: ขั้นตอนนี้ออปติมิสต์เอกสาร PDF โดยใช้ตัวเลือกออปติมิสต์ที่กําหนดไว้
+//ExStepSummary:6: ขั้นตอนนี้จะอัพเดทเส้นทางสําหรับเอกสาร PDF ที่ถูกอุปกรณ์ได้ดีที่สุด
+//ExStepSummary:7: ขั้นตอนนี้จะบันทึกเอกสาร PDF ที่ถูกอุปกรณ์ให้ดีขึ้นไปยังเส้นทางที่กําหนดไว้
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// เส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// เปิดเอกสาร PDF
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// ลงตัวเลือกการออปติมิสเซอร์
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// เปิดให้การดันภาพ
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// ปรับคุณภาพภาพภาพเป็น 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// ปรับปรุงเอกสาร PDF โดยใช้การตั้งค่า
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// กําหนดเส้นทางการออกสําหรับ PDF ที่ถูกอุปติม
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// กําหนดการบันทึกเอกสารที่ปรับปรุง
+pdfDocument.Save(dataDir);
+// ข้อความยืนยันผล
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

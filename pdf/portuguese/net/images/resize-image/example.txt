@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Este código demonstra como otimizar um documento PDF comprimindo e redimensionando as imagens dentro dele.
+//ExStepSummary:0: O código a seguir inicializa o tempo atual e define o caminho do diretório de documentos.
+//ExStepSummary:1: O código seguinte abre o documento PDF especificado para processamento.
+//ExStepSummary:2: O código a seguir inicializa as opções de otimização para o PDF.
+//ExStepSummary:3: O código a seguir configura as configurações de compressão de imagem, incluindo compressão e qualidade.
+//ExStepSummary:4: O código a seguir aplica as opções de otimização ao documento PDF.
+//ExStepSummary:5: O código a seguir salva o documento PDF otimizado para um novo arquivo.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Iniciar o Tempo
+var time = DateTime.Now.Ticks;
+// O caminho para o diretório de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Documento aberto
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Iniciar OptimizaçãoOpções
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Configurar opção CompressImages
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Configurar opção ImageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Configurar ResizeImage opção
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Configurar opção MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Optimize documento PDF usando OptimizaçãoOpções
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Atualizar o diretório de dados para o arquivo de saída
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Salvar o documento atualizado
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Informar o usuário do sucesso
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

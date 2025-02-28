@@ -1,0 +1,38 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak extrahovat obrázek z PDF dokumentu a uložit ho jako JPEG soubor a zároveň uložit aktualizovaný PDF.
+//ExStepSummary:0: Následující kód iniciální cestu do adresáře dokumentů.
+//ExStepSummary:1: Následující kód otevírá PDF dokument, z něhož budou vysoce zobrazeny obrázky.
+//ExStepSummary:2: Následující kód extrahuje konkrétní obrázek z PDF dokumentu.
+//ExStepSummary:3: Následující kód ukládá vyvozený obrázek do specifikovaného výstupního souboru.
+//ExStepSummary:4: Následující kód aktualizuje původní soubor PDF a ukládá ho na novou cestu.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Uveďte adresář obsahující soubor PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Otevře PDF dokument pro extrahování obrázků
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Vydává první obrázek z druhé stránky PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Vytváří proud, aby byl vyčerpaný obrázek uložen
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Uložte výstupní obrázek
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Zavře stream souborů, aby se uvolnili zdroje
+outputImage.Close();
+
+//ExStep:4-
+// Aktualizuje cestu pro novou verzi PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Zachovávat aktualizovaný soubor PDF
+pdfDocument.Save(dataDir);
+// Potvrzuje úspěšné vyjádření a ukládání souborů
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

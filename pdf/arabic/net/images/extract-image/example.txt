@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية استخراج صورة من مستند PDF و حفظها كملف JPEG مع حفظ PDF المحدث أيضا.
+//ExStepSummary:0: الرمز التالي يبدأ المسار إلى دليل الوثائق.
+//ExStepSummary:1: يفتح الرمز التالي وثيقة PDF التي سيتم استخراج الصور منها.
+//ExStepSummary:2: النموذج التالي يستخرج صورة محددة من مستند PDF.
+//ExStepSummary:3: يحتفظ الرمز التالي بالصورة المستخرجة في ملف خروجي محدد.
+//ExStepSummary:4: يُحديث الرمز التالي ملف PDF الأصلي ويخزنه إلى مسار جديد.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// يحدد المجلد الذي يحتوي على ملف PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// يفتح وثيقة PDF لاستخراج الصور
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// يستخرج الصورة الأولى من الصفحة الثانية من PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// يخلق تيار لإنقاذ الصورة المستخرجة
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// حفظ الصورة المخرجة
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// إغلاق سلسلة الملفات لإطلاق الموارد
+outputImage.Close();
+
+//ExStep:4-
+// تحديث المسار للنسخة الجديدة من PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// حفظ ملف PDF المحدث
+pdfDocument.Save(dataDir);
+// يؤكد نجاح استخراج وتخزين الملفات
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

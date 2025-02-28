@@ -1,0 +1,74 @@
+//ExStart
+//ExSummaryDeze code toont hoe je een PDF-document met Aspose.PDF kunt maken, een tabel met specifieke grensstijlen kunt toevoegen en pagina's na een bepaald aantal rijen kunt implementeren.
+//ExStepSummary:0: Deze stap initialiseert het document en voegt er een pagina toe.
+//ExStepSummary:1: Deze stap creëert een tabelinstance en stelt de grensstijlen vast.
+//ExStepSummary:2: Deze stap geeft de kolombreedte voor de tabel aan.
+//ExStepSummary:3: Deze stap voegt 200 rijen aan de tabel toe, waarbij elke rij twee cellen bevat.
+//ExStepSummary:4: Deze stap controleert of er 10 rijen zijn toegevoegd en gaat dan naar een nieuwe pagina.
+//ExStepSummary:5: Deze stap voegt de voltooide tabel toe aan de pagina van het PDF-document en slaat het op.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Het pad naar het document directory
+string dataDir = "Your Document Directory";
+
+// Instant Document-instance
+Document doc = new Document();
+
+// Voeg pagina toe aan pagina's collectie PDF-bestand
+doc.Pages.Add();
+
+//ExStep:1-
+// Een tabelinstance maken
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Systeem voor tafel
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Stel standaard grensstijl voor tafel met grenskleur als Rood
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Specificeer de breedte van de kolom van de tabel (2 kolom, elk 100 eenheden)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Maak een lus om 200 rijen toe te voegen aan de tabel
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Creëer een nieuwe rij
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Voeg de rij aan de tabel toe
+    tab.Rows.Add(row); 
+
+    // Maak de eerste cel en voeg tekst toe
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Voeg tekstfragment toe aan de eerste cel	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Voeg de eerste cel toe aan de rij
+    row.Cells.Add(cell1); 
+
+    // Maak een tweede cel en voeg tekst toe
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Voeg tekstfragment toe aan de tweede cel	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Voeg een tweede cel toe aan de rij
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Wanneer er 10 rijen worden toegevoegd, weergeven nieuwe rijen in een nieuwe pagina
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Voeg tabel toe aan de paragraafverzameling van de eerste pagina
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definieer het output-bestandpad
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Bewaar het PDF-document
+doc.Save(dataDir); 
+// Bevestigingsbericht
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

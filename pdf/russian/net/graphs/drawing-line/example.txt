@@ -1,0 +1,66 @@
+//ExStart
+//ExSummaryЭтот код показывает, как создать PDF-документ с помощью Aspose.PDF путем чертежа двух диагональных линий по странице.
+//ExStepSummary:0: Инициализируйте путь в каталог документов, где будет сохранен PDF.
+//ExStepSummary:1: Создать новый экземпляр Документа для PDF.
+//ExStepSummary:2: Добавьте страницу к сборнике страниц документа.
+//ExStepSummary:3: Настройте маржи страниц на нуль для всех сторон.
+//ExStepSummary:4: Создайте объект Графа для представления зоны рисования с размерами, равными размеру страницы.
+//ExStepSummary:5: Создайте объект первой строки с нижней левой стороны к правому верхнему углу страницы.
+//ExStepSummary:6: Добавьте первую строку к сборке форм объекта Граф.
+//ExStepSummary:7: Создайте объект второй строки с верхнего левого к нижне-правому углу страницы.
+//ExStepSummary:8: Добавьте вторую строку к сборке форм объекта Графа.
+//ExStepSummary:9: Добавьте объект Графа, содержащий строки, к сборнике абзацев страницы.
+//ExStepSummary:10: Создайте полный путь для сохранения выходящего файла PDF.
+//ExStepSummary:11: Сохранить PDF-документ на указанном пути.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Инициализировать путь для каталога документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Создать экземпляр документа
+Document pDoc = new Document();
+
+//ExStep:2-
+// Добавить страницу к страницам сборник PDF-документа
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Установка границы страницы по всем сторонам как 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Создать объект Графа с шириной и высотой , равными размерам страницы
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Создать объект первой строки с нижнего левого к верхне-правому углу страницы
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Рисуйте строку с верхнего левого угла страницы в нижнее правое угол страницы
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Добавить вторую строку к сборке форм объекта Графа
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Добавить объект Графа к абзацам сборник страницы
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Создать полный путь для сохранения выходящего файла PDF
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Сохранить файл PDF
+pDoc.Save(dataDir);
+// Сообщение о подтверждении выхода
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

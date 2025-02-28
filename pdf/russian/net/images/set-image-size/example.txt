@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ, добавить к нему изображение, и регулировать размер изображения и свойства страницы.
+//ExStepSummary:0: Этот код инициирует объект документа и добавляет ему новую страницу.
+//ExStepSummary:1: В этом разделе создается инстанция изображения и устанавливается ее размеры и тип файла.
+//ExStepSummary:2: Этот шаг указывает исходный файл изображения и добавляет его на страницу.
+//ExStepSummary:3: Этот шаг устанавливает свойства страницы, включая ширину и высоту.
+//ExStepSummary:4: В этом разделе документ сохраняется на указанном пути файла и проверяется операция сохранять.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Укажите путь каталога документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Инстанциальный объект Документа
+Document doc = new Document();
+// Добавить новую страницу в PDF-документ
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Создать образ
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Установка ширины изображения до 100 пунктов
+img.FixWidth = 100;
+// Установка высоты изображения до 100 пунктов
+img.FixHeight = 100;
+// Назначить тип изображения как Неизвестный (позже вывод)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Укажите путь для исходного файла изображения
+img.File = dataDir + "aspose-logo.jpg";
+// Добавьте изображение к абзацам страницы
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Установите ширину страницы на 800 пунктов
+page.PageInfo.Width = 800;
+// Установка высоты страницы на 800 пунктов
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Укажите путь вывода файла
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Сохранить полученный PDF-документ
+doc.Save(dataDir);
+
+//ExStep:5-
+// Информировать пользователя о успешной операции
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

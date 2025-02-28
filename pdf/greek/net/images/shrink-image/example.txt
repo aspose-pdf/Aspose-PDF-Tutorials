@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryΟ κωδικός αυτός δείχνει πώς να βελτιστοποιήσετε ένα έγγραφο PDF συμπίενοντας τις εικόνες του.
+//ExStepSummary:0: Αυτό το βήμα αρχιτολογεί τη διαδρομή προς τον κατάλογο εγγράφων.
+//ExStepSummary:1: Αυτό το βήμα ανοίγει το καθορισμένο έγγραφο PDF για βελτιστοποίηση.
+//ExStepSummary:2: Αυτό το βήμα αρχικά ενεργοποιεί τις επιλογές βελτιστοποίησης για το έγγραφο PDF.
+//ExStepSummary:3: Αυτό το βήμα ορίζει την επιλογή συμπίεσης εικόνας σε true.
+//ExStepSummary:4: Αυτό το βήμα ορίζει την επιλογή ποιότητας εικόνας σε 50.
+//ExStepSummary:5: Αυτό το βήμα βελτιστοποιεί το έγγραφο PDF χρησιμοποιώντας τις καθορισμένες επιλογές βελτιστοποίησης.
+//ExStepSummary:6: Αυτό το βήμα ενημερώνει τη διαδρομή για το βελτιστοποιημένο έγγραφο PDF.
+//ExStepSummary:7: Αυτό το βήμα αποθηκεύει το βελτιστοποιημένο έγγραφο PDF στην καθορισμένη διαδρομή.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Δρόμο προς τον κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ανοίξτε το έγγραφο PDF
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Αρχική επιλογές βελτιστοποίησης
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Ενεργοποιήστε συμπίεση εικόνας
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Ρυθμίστε την ποιότητα εικόνας στο 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Οπτικοποιήστε το έγγραφο PDF χρησιμοποιώντας τις ρυθμίσεις
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Ορίστε τη διαδρομή εξόδου για το βελτιστοποιημένο PDF
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Κράτησε το ενημερωμένο έγγραφο
+pdfDocument.Save(dataDir);
+// Πειράσματα επιβεβαίωσης έκδοσης
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

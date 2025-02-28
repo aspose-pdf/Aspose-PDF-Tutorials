@@ -1,0 +1,56 @@
+//ExStart
+//ExSummaryCe code montre comment créer un document PDF à l'aide d'Aspose.Pdf et y ajouter des rectangles aux couleurs alpha.
+//ExStepSummary:0: Le code suivant indique le chemin vers le répertoire de documents.
+//ExStepSummary:1: Le code suivant représente une instance de document.
+//ExStepSummary:2: Le code suivant ajoute une page à la collection de pages du fichier PDF.
+//ExStepSummary:3: Le code suivant crée une instance Graph pour dessiner des formes sur la page PDF.
+//ExStepSummary:4: Le code suivant crée un objet rectangulaire avec des dimensions spécifiques et une couleur de remplissage.
+//ExStepSummary:5: Le code suivant crée un deuxième objet rectangulaire et l'ajoute au graphique.
+//ExStepSummary:6: Le code suivant ajoute l'instance graphique à la collection de paragraphes de la page.
+//ExStepSummary:7: Le code suivant sauvegarde le fichier PDF et imprime un message de réussite sur la console.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Étape pour définir le répertoire pour enregistrer le document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Installez l' instance Document pour créer un PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Ajouter une nouvelle page au document PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Créer une instance graphique pour dessiner des formes
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Créer un rectangle avec des dimensions spécifiées
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Définir la couleur de remplissage en utilisant ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Créer un deuxième objet rectangulaire
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Définir la couleur de remplissage pour le deuxième rectangle
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Ajoutez le premier rectangle à la collection de formes de l' instance Graph
+canvas.Shapes.Add(rect);
+// Ajoutez le deuxième rectangle à la collection de formes de l' instance Graph
+canvas.Shapes.Add(rect1);
+// Ajoutez l'instance Graph à la collection de paragraphes de la page
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Préparez le chemin du fichier de sortie
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Enregistrez le document PDF sur le chemin spécifié
+doc.Save(dataDir);
+// Imprimez le message de succès sur la console
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

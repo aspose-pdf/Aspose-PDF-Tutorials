@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.PDF โดยวาดเส้นทางสองเส้นทางทางด้านขวางข้ามหน้า มันเริ่มต้นเอกสาร, เพิ่มหน้า, และวาดเส้นจากมุมไปมุม ก่อนที่จะบันทึกเอกสาร
+//ExStepSummary:0: เริ่มต้นเส้นทางสําหรับบันทึกเอกสารที่ PDF จะถูกบันทึก
+//ExStepSummary:1: สร้างตัวอย่างเอกสารใหม่สําหรับ PDF
+//ExStepSummary:2: เพิ่มหน้าหนึ่งไปยังการรวบรวมหน้าของเอกสาร
+//ExStepSummary:3: กําหนดขอบหน้าให้เป็นศูนย์สําหรับทุกด้าน
+//ExStepSummary:4: สร้างวัตถุกราฟ เพื่อแสดงพื้นที่วาดด้วยขนาดเท่ากับขนาดหน้า
+//ExStepSummary:5: สร้างโครงการแถวแรกจากด้านซ้ายด้านล่างไปด้านขวาด้านบนของหน้า
+//ExStepSummary:6: เพิ่มเส้นแรกไปยังรูปแบบของโครงการ Graph
+//ExStepSummary:7: สร้างวัตถุแถวที่สองจากด้านบนซ้ายไปด้านล่างขวาของหน้า
+//ExStepSummary:8: เพิ่มเส้นที่สองไปยังการรวบรวมรูปของวัตถุกราฟ
+//ExStepSummary:9: เพิ่มวัตถุกราฟที่มีเส้นไปยังประกอบข้อของหน้า
+//ExStepSummary:10: สร้างเส้นทางเต็มเพื่อบันทึกไฟล์ PDF ผลิต
+//ExStepSummary:11: กองบันทึกเอกสาร PDF ไปยังเส้นทางที่กําหนด
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// เริ่มต้นเส้นทางสําหรับบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างเอกสารตัวอย่าง
+Document pDoc = new Document();
+
+//ExStep:2-
+// เพิ่มหน้าไปยังหน้ารวมเอกสาร PDF
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// กําหนด margin หน้าด้านทุกด้านเป็น 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// สร้างโครงการ Graph ที่ความกว้างและความสูงเท่ากับขนาดหน้า
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// สร้างโครงการแถวแรกเริ่มจากด้านซ้ายด้านล่างไปยังด้านขวาด้านบนของหน้า
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// สูตรเส้นจากมุมด้านบนซ้ายของหน้าไปมุมด้านล่างขวาของหน้า
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// เพิ่มเส้นที่สองให้กับรูปภาพรวมของวัตถุ Graph
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// เพิ่มโครงการ Graph ให้กับข้อที่รวมของหน้า
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// สร้างเส้นทางเต็มเพื่อบันทึกไฟล์ PDF ผลิต
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// เก็บไฟล์ PDF
+pDoc.Save(dataDir);
+// ข้อความยืนยันผล
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

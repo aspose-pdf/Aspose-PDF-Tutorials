@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento PDF utilizzando Aspose.PDF, aggiungere una tabella con stili di confine specifici e implementare la paginazione dopo un certo numero di righe.
+//ExStepSummary:0: Questo passo inizializza il documento e aggiunge una pagina.
+//ExStepSummary:1: Questo passo crea un'istanza di tabella e imposta i suoi stili di confine.
+//ExStepSummary:2: In questo passaggio vengono specificate le larghezze delle colonne della tabella.
+//ExStepSummary:3: Questo passo aggiunge alla tabella 200 righe, ciascuna delle quali contiene due celle.
+//ExStepSummary:4: Questo passo verifica se sono state aggiunte 10 righe e se è così si passa a una nuova pagina.
+//ExStepSummary:5: Questo passo aggiunge la tabella completata alla pagina del documento PDF e lo salva.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Il percorso verso la directory dei documenti
+string dataDir = "Your Document Directory";
+
+// Instantaneous Documents istanza
+Document doc = new Document();
+
+// Aggiungere pagina alle pagine raccolta di file PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Crea un' istanza di tabella
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Impostazione di stile di confine per il tavolo
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Impostare lo stile di confine predefinito per la tabella con colore di confine come rosso
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Specifica larghezza delle colonne della tabella (2 colonne, ciascuna di 100 unità)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Crea un loop per aggiungere 200 righe alla tabella
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Crea una nuova riga
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Aggiungere la riga alla tabella
+    tab.Rows.Add(row); 
+
+    // Crea la prima cella e aggiungi testo
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Aggiungere un frammento di testo alla prima cella	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Aggiungere la prima cella alla riga
+    row.Cells.Add(cell1); 
+
+    // Crea la seconda cella e aggiungi testo
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Aggiungere un frammento di testo alla seconda cella	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Aggiungere la seconda cella alla riga
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Quando vengono aggiunte 10 righe, rendere nuova riga in nuova pagina
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Aggiungere tabella alla raccolta di paragrafi della prima pagina
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definire il percorso del file di uscita
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Salvare il documento PDF
+doc.Save(dataDir); 
+// Messaggio di conferma
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

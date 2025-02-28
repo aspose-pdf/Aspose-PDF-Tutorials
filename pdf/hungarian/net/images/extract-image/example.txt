@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet egy kép kivonni egy PDF dokumentumból és tárolni egy JPEG fájlokként, miközben az aktualizált PDF-t is tárolja.
+//ExStepSummary:0: A következő kód az dokumentumok könyvtárába vezető utat kezdeményezi.
+//ExStepSummary:1: A következő kód megnyitja a PDF dokumentumot, amelyből a képeket ki fogják venni.
+//ExStepSummary:2: A következő kód egy konkrét képet állít ki a PDF dokumentumból.
+//ExStepSummary:3: A következő kód az kivonatolt képet egy meghatározott kimeneti fájlokba tárolja.
+//ExStepSummary:4: Az alábbi kód frissítette az eredeti PDF fájlt, és mentette egy új útvonalra.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Bejelenti a PDF fájlot tartalmazó címlapot
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Nyitja a PDF dokumentumot a képek kivonására
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Az első képet a PDF második oldalából kivonja
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// A kivonatolt kép mentésére áramot hoz létre
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// A kiadás képének mentése
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Bezárja a fájláramlást a források felszabadítására
+outputImage.Close();
+
+//ExStep:4-
+// Az új PDF-verzió útjának frissítése
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Tartsa meg a frissített PDF fájlt
+pdfDocument.Save(dataDir);
+// A fájlok sikeres kivonása és mentése megerősítése
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

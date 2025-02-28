@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF dengan grafik yang berisi segi empat yang diisi dengan warna transparan.
+//ExStepSummary:0: Kode berikut ini menginisialisasikan direktori data untuk menyimpan file PDF.
+//ExStepSummary:1: Kode berikut menetapkan warna Alpha RGB yang akan digunakan untuk mengisi segi empat.
+//ExStepSummary:2: Kode berikut membuat objek Dokumen baru untuk PDF.
+//ExStepSummary:3: Kode berikut menambahkan halaman ke dokumen PDF.
+//ExStepSummary:4: Kode berikut membuat objek Graph untuk menggambar bentuk dalam PDF.
+//ExStepSummary:5: Kode berikut menetapkan batas untuk objek grafik.
+//ExStepSummary:6: Kode berikut menambahkan objek grafik ke koleksi paragraf halaman.
+//ExStepSummary:7: Kode berikut menciptakan bentuk persegi panjang untuk digambar pada grafik.
+//ExStepSummary:8: Kode berikut menetapkan informasi warna untuk informasi grafik persegi panjang.
+//ExStepSummary:9: Kode berikut menambahkan bentuk persegi panjang ke koleksi bentuk grafik.
+//ExStepSummary:10: Kode berikut menyimpan dokumen ke jalur file output yang ditentukan.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// Memulai jalur untuk menyimpan dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Nilai saluran alfa untuk transparansi
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Buat Obyek Warna menggunakan Alpha RGB
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Objek Dokumen instan
+Document document = new Document();
+
+//ExStep:3-
+// Tambahkan halaman baru ke dokumen
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Buat objek Graph dengan dimensi tertentu
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Tentukan batas untuk objek Graph
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Tambahkan objek grafik ke halaman
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Buat objek persegi panjang dengan dimensi tertentu
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Buat objek graphInfo untuk persegi panjang
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// Set informasi warna untuk contoh GraphInfo
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Tambahkan bentuk persegi panjang ke grafik
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Setel jalur file output untuk menyimpan dokumen
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Pesan konfirmasi
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

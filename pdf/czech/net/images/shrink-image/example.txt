@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak optimalizovat PDF dokument komprimováním jeho obrázků.
+//ExStepSummary:0: Tento krok iniciuje cestu do adresáře dokumentů.
+//ExStepSummary:1: Tento krok otevře specifikovaný PDF dokument pro optimalizaci.
+//ExStepSummary:2: Tento krok iniciuje možnosti optimalizace pro PDF dokument.
+//ExStepSummary:3: Tento krok nastaví opci stlačení obrazu na pravdivé.
+//ExStepSummary:4: Tento krok nastaví možnost kvality obrazu na 50.
+//ExStepSummary:5: Tento krok optimalizuje PDF dokument pomocí specifikovaných opcí optimalizace.
+//ExStepSummary:6: Tento krok aktualizuje cestu optimalizovaného PDF dokumentu.
+//ExStepSummary:7: Tento krok uloží optimalizovaný PDF dokument na uvedenou cestu.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Otevřete PDF dokument
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Vypředujte možnosti optimalizace
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Vypnout stlačování obrázků
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Nastavte kvalitu obrazu na 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Optimalizovat PDF dokument pomocí nastavení
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Definiovat výstupní cestu optimalizovaného PDF
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Uložte aktualizovaný dokument
+pdfDocument.Save(dataDir);
+// Zprávy o potvrzení výstupu
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

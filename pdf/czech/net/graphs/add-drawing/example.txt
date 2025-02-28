@@ -1,0 +1,75 @@
+//ExStart
+//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument s grafu obsahující obdélníkový obraz plný průhledné barvy. Prochází procesem nastavení vlastností barev, přidávání stránek a kreslení tvarů v dokumentu.
+//ExStepSummary:0: Následující kód iniciuje adresář dat pro ukládání souboru PDF.
+//ExStepSummary:1: Následující kód stanoví barvu alfa RGB, která se použije pro plnění obdélníku.
+//ExStepSummary:2: Následující kód vytváří nový objekt Dokument pro PDF.
+//ExStepSummary:3: Následující kód přidává stránku k PDF dokumentu.
+//ExStepSummary:4: Následující kód vytváří objekt Graph pro kreslení tvarů v PDF.
+//ExStepSummary:5: Následující kód stanoví hranici pro objekt grafu.
+//ExStepSummary:6: Následující kód přidává objekt grafu do sbírky odstavců stránky.
+//ExStepSummary:7: Následující kód vytváří obdélníkový tvar, který je nakreslen na grafu.
+//ExStepSummary:8: Následující kód stanoví barevné informace pro grafické informace pravouhonníku.
+//ExStepSummary:9: Následující kód přidává obdélníkový tvar do sbírky tvarů grafu.
+//ExStepSummary:10: Následující kód ukládá dokument na uvedenou cestu výstupního souboru.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// Zahajuje se cesta ke ukládání dokumentu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hodnota alfa kanálu pro transparentnost
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Vytvořit barvový objekt pomocí alfa RGB
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Příklad Objekt dokumentu
+Document document = new Document();
+
+//ExStep:3-
+// Přidejte do dokumentu novou stránku
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Vytvořit grafický objekt s specifickými rozměry
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Nastavte hranici pro objekt Grafu
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Přidejte objekt grafu na stránku
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Vytvořit objev pravouhlého s specifickými rozměry
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Vytvořit graphInfo objekt pro pravouhlík
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// Nastavte barevné informace pro příklad GraphInfo
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Přidejte tvar obdélníkového tvaru k grafu
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Nastavte výstupní souborový směr k ukládání dokumentu
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Sdělení potvrzení
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

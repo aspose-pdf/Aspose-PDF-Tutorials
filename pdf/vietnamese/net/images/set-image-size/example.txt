@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF, thêm hình ảnh vào nó, và điều chỉnh kích thước hình ảnh và tính chất trang. Nó cũng xử lý lưu tài liệu và thông báo cho người dùng về thành công của hoạt động.
+//ExStepSummary:0: Mã này khởi tạo đối tượng tài liệu và thêm một trang mới vào nó.
+//ExStepSummary:1: Phần này tạo ra một bản thể hiện hình ảnh và đặt kích thước và loại tệp của nó.
+//ExStepSummary:2: Bước này chỉ định tệp nguồn cho hình ảnh và thêm vào trang.
+//ExStepSummary:3: Bước này thiết lập các tính chất trang bao gồm chiều rộng và chiều cao.
+//ExStepSummary:4: Phần này lưu tài liệu vào đường dẫn tập tin được chỉ định và xác minh hoạt động lưu.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Định hướng thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Quản phẩm Document
+Document doc = new Document();
+// Thêm một trang mới vào tài liệu PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Tạo một ví dụ hình ảnh
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Đặt chiều rộng hình ảnh lên 100 điểm
+img.FixWidth = 100;
+// Đặt độ cao hình ảnh lên 100 điểm
+img.FixHeight = 100;
+// Đặt loại hình ảnh là Không biết (để được suy luận sau đó)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Định hướng cho tệp hình ảnh nguồn
+img.File = dataDir + "aspose-logo.jpg";
+// Thêm hình ảnh vào các đoạn văn của trang
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Đặt chiều rộng trang lên 800 điểm
+page.PageInfo.Width = 800;
+// Đặt chiều cao trang lên 800 điểm
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Định hướng tệp đầu ra
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Cung cấp tài liệu PDF kết quả
+doc.Save(dataDir);
+
+//ExStep:5-
+// Thông báo cho người dùng về hoạt động thành công
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryЭтот код показывает, как создать PDF-документ с таблицей.
+//ExStepSummary:0: Этот шаг инициирует путь файла для обработки документа PDF.
+//ExStepSummary:1: Этот шаг загружает существующий PDF-документ из указанного каталога.
+//ExStepSummary:2: Этот шаг создает новый экземпляр таблицы и устанавливает ее граничные свойства.
+//ExStepSummary:3: Этот шаг инициирует цикл, чтобы добавить несколько рядов к таблице, заполняя каждую с данными ячейки.
+//ExStepSummary:4: Этот шаг присоединяет созданную таблицу к первой странице PDF-документа.
+//ExStepSummary:5: Этот шаг сохраняет обновленный PDF-документ с недавно добавленной таблицей в указанный выходный путь.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Определите путь для документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить исходный PDF-документ
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Инициализировать новый экземпляр таблицы
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Настроить цвет границы стола на LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Установка границы для столовых ячеек
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Скрутка для добавления 10 рядов
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Добавить новый ряд в таблицу
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Добавить первую ячейку в ряд
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Добавить вторую ячейку в ряд
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Добавить третью ячейку в ряд
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Добавить объект таблицы на первую страницу входного документа
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Определить путь вывода файла для обновленного документа
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Сохранить обновленный документ, содержащий таблицу
+doc.Save(dataDir); 
+// Информировать пользователя о успешной операции
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

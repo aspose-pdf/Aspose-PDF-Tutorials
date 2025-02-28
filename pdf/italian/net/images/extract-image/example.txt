@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Questo codice mostra come estrarre un'immagine da un documento PDF e salvarla come file JPEG salvando al contempo il PDF aggiornato.
+//ExStepSummary:0: Il seguente codice inizializza il percorso della directory di documenti.
+//ExStepSummary:1: Il seguente codice apre il documento PDF da cui verranno estratte le immagini.
+//ExStepSummary:2: Il seguente codice estrae una specifica immagine dal documento PDF.
+//ExStepSummary:3: Il seguente codice salva l'immagine estratta in un file di uscita specificato.
+//ExStepSummary:4: Il seguente codice aggiorna il file PDF originale e lo salva in un nuovo percorso.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Specifica la directory contenente il file PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Aprire il documento PDF per l'estrazione di immagini
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Estrae la prima immagine dalla seconda pagina del PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Crea un flusso per salvare l'immagine estratta
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Salvare immagine di uscita
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Chiude il flusso di file per rilasciare risorse
+outputImage.Close();
+
+//ExStep:4-
+// Aggiorna il percorso per la nuova versione del PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Salvare il file PDF aggiornato
+pdfDocument.Save(dataDir);
+// Confirma l'estrazione e il salvataggio di file con successo
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

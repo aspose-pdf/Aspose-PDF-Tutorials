@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF, thêm hình chữ nhật với màu sắc và chỉ số Z khác nhau, và lưu tài liệu.
+//ExStepSummary:0: Bước này xác định thư mục đầu ra cho tài liệu PDF và tạo một đối tượng Tài liệu mới và thêm một trang mới với kích thước được chỉ định.
+//ExStepSummary:1: Bước này thiết lập kích thước trang và biên cho trang mới được tạo.
+//ExStepSummary:2: Bước này thêm một hình chữ nhật màu đỏ ở các phối hợp được chỉ định với chỉ số Z là 2, đảm bảo nó xuất hiện trên các hình dạng khác.
+//ExStepSummary:3: Bước này thêm một hình chữ nhật xanh ở các phối hợp được chỉ định với chỉ số Z là 1, đảm bảo nó xuất hiện dưới hình chữ nhật đỏ nhưng trên các hình chữ nhật khác.
+//ExStepSummary:4: Bước này thêm một hình chữ nhật màu xanh lá cây ở các phối hợp được chỉ định với chỉ số Z 0, đảm bảo nó xuất hiện ở cuối thứ tự Z.
+//ExStepSummary:5: Bước này lưu tài liệu PDF vào con đường tệp đầu ra được chỉ định.
+//ExStepSummary:6: Bước này xác định một phương pháp để bao gồm logic cho việc thêm hình chữ nhật vào trang PDF, bao gồm cả việc đặt các tính chất của chúng và chỉ số Z.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Định nghĩa thư mục tài liệu
+string dataDir = "Your Document Directory";
+
+// Quản phẩm lớp tài liệu
+Document doc1 = new Document();
+
+// Thêm một trang mới vào tài liệu
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Đặt kích thước trang
+page1.SetPageSize(375, 300);
+
+// Đặt biên trang lên 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Thêm một hình chữ nhật đỏ với chỉ số Z 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Thêm một hình chữ nhật xanh với chỉ số Z 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Thêm một hình chữ nhật xanh với chỉ số Z 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Cung cấp tài liệu PDF
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// Phương pháp để thêm hình chữ nhật vào trang PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Tạo ra một đối tượng đồ thị với cùng kích thước như hình chữ nhật
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Giữ vị trí biểu đồ không thay đổi tự động
+    graph.IsChangePosition = false;
+    
+    // Đặt vị trí biểu đồ
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Tạo một hình chữ nhật bên trong biểu đồ
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Đặt màu lấp đầy hình chữ nhật và đường biên
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Thêm hình chữ nhật vào bộ sưu tập hình dạng biểu đồ
+    graph.Shapes.Add(rect);
+    
+    // Đặt chỉ số Z cho đối tượng biểu đồ
+    graph.ZIndex = zindex;
+    
+    // Thêm biểu đồ vào trang
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

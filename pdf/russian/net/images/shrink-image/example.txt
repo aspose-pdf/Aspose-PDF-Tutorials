@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryЭтот код демонстрирует, как оптимизировать PDF-документ, сжав его изображения. Он загружает PDF, применяет опционы оптимизации для уменьшения размеров изображений и сохраняет обновленный документ.
+//ExStepSummary:0: Этот шаг инициирует путь в каталог документов.
+//ExStepSummary:1: Этот шаг открывает указанный PDF-документ для оптимизации.
+//ExStepSummary:2: Этот шаг инициирует опционы оптимизации для PDF-документа.
+//ExStepSummary:3: Этот шаг устанавливает опцию сжатия изображения на true.
+//ExStepSummary:4: Этот шаг устанавливает опцию качества изображения до 50.
+//ExStepSummary:5: Этот шаг оптимизирует PDF-документ с использованием указанных опционов оптимизации.
+//ExStepSummary:6: Этот шаг обновляет путь для оптимизированного PDF-документа.
+//ExStepSummary:7: Этот шаг сохраняет оптимизированный PDF-документ на указанном пути.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Путь в справочник документов
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Откройте PDF-документ
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Инициализировать опционы оптимизации
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Определить сжатие изображения
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Установка качества изображения на 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Оптимизировать PDF-документ с помощью настроек
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Определить выходный путь для оптимизированного PDF
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Сохранить обновленный документ
+pdfDocument.Save(dataDir);
+// Сообщение о подтверждении выхода
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

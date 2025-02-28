@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: 这代码说明如何创建一个 PDF 文档,其中包含一个透明色彩的矩形图.它通过设置颜色属性,添加页面和绘制形状的过程进行.
+//ExStepSummary:0: 下面的代码初始化保存PDF文件的数据目录.
+//ExStepSummary:1: 下面的代码设置了用于矩形填充的Alpha RGB颜色.
+//ExStepSummary:2: 下面的代码为PDF创建了新的文档对象.
+//ExStepSummary:3: 下面的代码将一个页面添加到PDF文件中.
+//ExStepSummary:4: 下面的代码创建一个图形对象,用于绘制PDF中的形状.
+//ExStepSummary:5: 下面的代码为图对象设定了边界.
+//ExStepSummary:6: 下面的代码将图对象添加到页面的段落集合中.
+//ExStepSummary:7: 下面的代码创建一个矩形形状,将在图上绘制.
+//ExStepSummary:8: 下面的代码为矩形图形信息设定了颜色信息.
+//ExStepSummary:9: 下面的代码将矩形形状添加到图形的形状集合中.
+//ExStepSummary:10: 下面的代码将文档保存到指定输出文件路径.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// 启动保存文件的路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 透明度的阿尔法道值
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// 使用Alpha RGB创建颜色对象
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// 实时文件对象
+Document document = new Document();
+
+//ExStep:3-
+// 添加一个新的页面
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// 创建具有特定尺寸的图形对象
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// 设置对图对象的边界
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// 添加图对象到页面
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// 创建具有特定尺寸的矩形对象
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// 创建对矩形的图形信息对象
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// 设置图形信息实例的颜色信息
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// 添加矩形形状到图表中
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// 设置输出文件路径保存文件
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// 确认信息
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

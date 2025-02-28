@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร PDF พร้อมตารางโดยใช้ Aspose.Pdf มันตั้งขอบ, เพิ่มตารางสองหน้าที่แตกต่างกัน, และบันทึกเอกสารไปยังเส้นทางที่กําหนด
+//ExStepSummary:0: ขั้นตอนนี้ตั้งตู้ output ของไฟล์ PDF
+//ExStepSummary:1: ขั้นตอนนี้เริ่มต้นของวัตถุเอกสารใหม่และหา PageInfo เพื่อปรับเปลี่ยนการตั้งค่าหน้า.
+//ExStepSummary:2: ขั้นตอนนี้กําหนดขอบหน้าและเปลี่ยนทิศทางหน้าเป็นโหมดภูมิทัศน์
+//ExStepSummary:3: ขั้นตอนนี้สร้างของตารางใหม่และกําหนดความกว้างคอลัมน์
+//ExStepSummary:4: ขั้นตอนนี้เพิ่มหน้าใหม่ในเอกสาร และใส่ตารางที่มี 120 เส้น โดยตั้งความสูงแถวคง และเพิ่มเนื้อหาในแต่ละเซลล์
+//ExStepSummary:5: ขั้นตอนนี้เพิ่มตารางแรกให้กับการรวมข้อของหน้าปัจจุบัน
+//ExStepSummary:6: ขั้นตอนนี้สร้างตารางอีกอันที่มีความกว้างคอลัมน์ที่แตกต่างกัน และเพิ่ม 10 පේළිที่มีเนื้อหาที่กําหนด
+//ExStepSummary:7: ขั้นตอนนี้ตั้งตารางที่สองจะปรากฏบนหน้าใหม่และเพิ่มมันในเอกสาร
+//ExStepSummary:8: ขั้นตอนนี้จะบันทึกเอกสาร PDF ไปยังเส้นทางที่กําหนดไว้ และส่งข้อความสําเร็จออกมา
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// กําหนดเส้นทางไปยังบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างวัตถุเอกสารใหม่
+Document doc = new Document();
+// รับข้อมูลหน้าเอกสาร
+PageInfo pageInfo = doc.PageInfo;
+// เข้าสู่การตั้งค่าขอบของหน้า
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// ตั้งขอบซ้ายเป็น 37 ยูนิต
+marginInfo.Left = 37;
+// กําหนดขอบขวาเป็น 37 ยูนิต
+marginInfo.Right = 37;
+// ตั้งขอบสูงสุดเป็น 37 ยูนิต
+marginInfo.Top = 37; 
+// กําหนดขอบล่างเป็น 37 ยูนิต
+marginInfo.Bottom = 37;
+// กําหนดการตั้งค่าหน้าเป็นภูมิทัศน์
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// สร้างของโต๊ะใหม่
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// กําหนดความกว้างของคอลัมน์ในตาราง
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// เพิ่มหน้าใหม่ต่อเอกสาร
+Page curPage = doc.Pages.Add();
+// ลุปเพิ่ม 120 පේළිไปตารางแรก
+for (int i = 1; i <= 120; i++)
+{
+	// สร้างแถวใหม่
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// กําหนดความสูงที่ตั้งสําหรับแถว
+    row.FixedRowHeight = 15; 
+    // สร้างเซลล์แรกในแถว
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// เพิ่ม TextFragment ไปยังเซลล์แรก
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // สร้างเซลล์ที่สองติดต่อกัน
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// เพิ่ม TextFragment ไปยังเซลล์ที่สอง
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// เข้าสู่การเก็บข้อความของหน้าปัจจุบัน
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// เพิ่มตารางแรกกับหน้าปัจจุบัน
+paragraphs.Add(table); 
+
+//ExStep:6-
+// สร้างของโต๊ะอีกอัน
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// กําหนดความกว้างของคอลัมน์ในตารางที่สอง
+table1.ColumnWidths = "100 100";
+// ลุปเพิ่ม 10 පේළිไปตารางที่สอง 
+for (int i = 1; i <= 10; i++) 
+{
+	// สร้างแถวใหม่สําหรับตาราง 1
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// สร้างเซลล์แรกในแถว
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// เพิ่ม TextFragment ไปยังเซลล์แรก
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // สร้างเซลล์ที่สองติดต่อกัน
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// เพิ่ม TextFragment ไปยังเซลล์ที่สอง
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// กําหนดคุณสมบัติเพื่อวางตารางที่สองบนหน้าใหม่
+table1.IsInNewPage = true; 
+// ExStep:7-
+// เพิ่มตารางที่สองกับข้อความในหน้าปัจจุบัน
+paragraphs.Add(table1); 
+// กําหนดเส้นทางไฟล์ออก
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// กรอกสารไว้ที่เส้นทางที่กําหนดไว้
+doc.Save(dataDir); 
+// ExStep:8-
+// ส่งข้อความความความสําเร็จ
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

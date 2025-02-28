@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF với bảng bằng cách sử dụng Aspose.Pdf. Nó đặt biên, thêm hai bảng trên các trang khác nhau, và lưu tài liệu vào một con đường được chỉ định.
+//ExStepSummary:0: Bước này thiết lập thư mục đầu ra cho tệp PDF.
+//ExStepSummary:1: Bước này khởi tạo một đối tượng Tài liệu mới và lấy PageInfo để sửa đổi cài đặt trang.
+//ExStepSummary:2: Bước này thiết lập biên của trang và thay đổi định hướng trang vào chế độ cảnh quan.
+//ExStepSummary:3: Bước này tạo ra một đối tượng bảng mới và xác định chiều rộng cột.
+//ExStepSummary:4: Bước này thêm một trang mới vào tài liệu và chèn một bảng với 120 hàng, đặt chiều cao hàng cố định và thêm nội dung cho mỗi ô.
+//ExStepSummary:5: Bước này thêm bảng đầu tiên vào bộ sưu tập đoạn của trang hiện tại.
+//ExStepSummary:6: Bước này tạo ra một bảng khác với chiều rộng cột khác nhau và thêm 10 hàng với nội dung được chỉ định.
+//ExStepSummary:7: Bước này đặt bảng thứ hai xuất hiện trên một trang mới và thêm nó vào tài liệu.
+//ExStepSummary:8: Bước này lưu tài liệu PDF vào con đường được chỉ định và đưa ra thông điệp thành công.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Định hướng hướng dẫn đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo một đối tượng Tài liệu mới.
+Document doc = new Document();
+// Hãy lấy trang thông tin của tài liệu.
+PageInfo pageInfo = doc.PageInfo;
+// Nhập vào các cài đặt biên của trang.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Đặt biên bên trái lên 37 đơn vị.
+marginInfo.Left = 37;
+// Đặt biên bên phải lên 37 đơn vị.
+marginInfo.Right = 37;
+// Đặt mức tối đa là 37 đơn vị.
+marginInfo.Top = 37; 
+// Đặt mức thấp nhất là 37 đơn vị.
+marginInfo.Bottom = 37;
+// Đặt định hướng trang cho cảnh quan.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Tạo một đối tượng bàn mới.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Định nghĩa chiều rộng cho các cột trong bảng.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Thêm một trang mới vào tài liệu.
+Page curPage = doc.Pages.Add();
+// Loop để thêm 120 hàng vào bảng đầu tiên.
+for (int i = 1; i <= 120; i++)
+{
+	// Tạo một hàng mới.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Đặt chiều cao cố định cho hàng.
+    row.FixedRowHeight = 15; 
+    // Tạo ra tế bào đầu tiên trong hàng.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Thêm một TextFragment vào tế bào đầu tiên.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Tạo ra tế bào thứ hai trong hàng.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Thêm một TextFragment vào tế bào thứ hai.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Nhập vào bộ sưu tập đoạn của trang hiện tại.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Thêm bảng đầu tiên vào trang hiện tại.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Tạo ra một vật thể bàn khác.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Định nghĩa chiều rộng cho các cột trong bảng thứ hai.
+table1.ColumnWidths = "100 100";
+// Loop để thêm 10 hàng vào bảng thứ hai. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Tạo một hàng mới cho bảng1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Tạo ra tế bào đầu tiên trong hàng.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Thêm một TextFragment vào tế bào đầu tiên.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Tạo ra tế bào thứ hai trong hàng.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Thêm một TextFragment vào tế bào thứ hai.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Đặt thuộc tính để đặt bảng thứ hai trên một trang mới.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// Thêm bảng thứ hai vào các đoạn của trang hiện tại.
+paragraphs.Add(table1); 
+// Định nghĩa con đường tệp đầu ra.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Cung cấp tài liệu cho đường dẫn được chỉ định.
+doc.Save(dataDir); 
+// ExStep: 8-
+// Thông điệp thành công.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

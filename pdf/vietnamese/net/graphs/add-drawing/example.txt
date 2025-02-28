@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo ra một tài liệu PDF với biểu đồ chứa một hình chữ nhật chứa đầy màu sắc minh bạch. Nó đi qua quá trình thiết lập các thuộc tính màu sắc, thêm các trang và vẽ hình dạng trong tài liệu.
+//ExStepSummary:0: Mã sau đây khởi tạo thư mục dữ liệu để lưu tệp PDF.
+//ExStepSummary:1: Mã sau đây thiết lập màu Alpha RGB để sử dụng cho việc lấp đầy hình chữ nhật.
+//ExStepSummary:2: Mã sau tạo ra một đối tượng Tài liệu mới cho PDF.
+//ExStepSummary:3: Mã sau đây thêm một trang vào tài liệu PDF.
+//ExStepSummary:4: Mã sau tạo ra một đối tượng Graph để vẽ hình dạng trong PDF.
+//ExStepSummary:5: Mã sau đây đặt một biên giới cho đối tượng đồ thị.
+//ExStepSummary:6: Mã sau đây thêm đối tượng biểu đồ vào bộ sưu tập đoạn của trang.
+//ExStepSummary:7: Mã sau tạo ra hình chữ nhật để vẽ trên biểu đồ.
+//ExStepSummary:8: Mã sau đây đặt thông tin màu cho thông tin biểu đồ của hình chữ nhật.
+//ExStepSummary:9: Mã sau này thêm hình chữ nhật vào bộ sưu tập hình dạng của biểu đồ.
+//ExStepSummary:10: Mã sau lưu tài liệu vào con đường tệp đầu ra được chỉ định.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// Tạo ra đường dẫn để lưu tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Giá trị kênh Alpha cho tính minh bạch
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Tạo Color object sử dụng Alpha RGB
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Quản phẩm Document
+Document document = new Document();
+
+//ExStep:3-
+// Thêm một trang mới vào tài liệu
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Tạo đồ thị đối tượng với kích thước cụ thể
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Đặt giới hạn cho đối tượng Graph
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Thêm đối tượng biểu đồ vào trang
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Tạo đối tượng hình chữ nhật với kích thước cụ thể
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Tạo đồ thịInfo đối tượng cho hình chữ nhật
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// Đặt thông tin màu cho phiên bản GraphInfo
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Thêm hình chữ nhật vào biểu đồ
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Thiết lập đường dẫn tệp đầu ra để lưu tài liệu
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Thông điệp xác nhận
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

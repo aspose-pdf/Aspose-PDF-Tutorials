@@ -1,0 +1,78 @@
+//ExStart
+//ExSummaryBu kod PDF belgesini nasıl oluşturulacağını, farklı renkler ve Z-li işaretler ile dikdörtgenler ekleneceğini ve belgeyi nasıl kaydetileceğini gösterir.
+//ExStepSummary:0: Bu adım PDF belgesinin çıkış dizini tanımlar ve yeni bir Belge nesnesini örnekler ve belirtilen boyutlarla yeni bir sayfa ekler.
+//ExStepSummary:1: Bu adım yeni oluşturulan sayfada sayfa boyutunu ve kenarını belirler.
+//ExStepSummary:2: Bu adım, belirtilen koordinatlarda 2 Z-indeksi ile kırmızı dikdörtgen ekler ve diğer şekillerin üzerinde görünmesini sağlar.
+//ExStepSummary:3: Bu adım, belirtilen koordinatlarda 1 Z-indeksi ile mavi dikdörtgen ekler ve böylece kırmızı dikdörtgenin altında, diğerlerinin üzerinde görünür.
+//ExStepSummary:4: Bu adım, belirtilen koordinatlarda Z-indeksi 0 ile yeşil dikdörtgen ekler ve Z-sıraların alt kısmında görünmesini sağlar.
+//ExStepSummary:5: Bu adım PDF belgesini belirtilen çıkış dosya yoluna kaydetir.
+//ExStepSummary:6: Bu adım, PDF sayfasına dikdörtgenler eklemek için mantığı kapsülecek bir yöntem tanımlar.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Belge dizinini tanımlayın
+string dataDir = "Your Document Directory";
+
+// Bir anlık Belge sınıfı nesnesi
+Document doc1 = new Document();
+
+// Belgeye yeni bir sayfa ekle
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Sayfa boyutunu belirle
+page1.SetPageSize(375, 300);
+
+// Sayfa kenarlıklarını 0 olarak ayarlayın
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Z- indeksi 2 ile kırmızı dikdörtgen ekle
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Z- indeksi 1 ile mavi dikdörtgen ekle
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Z- indeksi 0 ile yeşil dikdörtgen ekle
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// PDF belgesini kaydet
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// PDF sayfasına dikdörtgen ekleme yöntemi
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Dörtgen ile aynı boyutlara sahip bir grafik nesne oluştur
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Graf pozisyonunun otomatik olarak değişmesini engelle
+    graph.IsChangePosition = false;
+    
+    // Graf pozisyonu ayarlayın
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Grafiğin içinde dikdörtgen oluştur
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Dörtgen dolgunluğu ve kenar rengi ayarlayın
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Grafik şekiller koleksiyonuna dikdörtgen ekle
+    graph.Shapes.Add(rect);
+    
+    // Graf nesnesi için Z- indeksi ayarlayın
+    graph.ZIndex = zindex;
+    
+    // Sayfaya grafik ekle
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

@@ -1,0 +1,50 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument erstellt, ein Bild hinzufügt und die Bildgröße und die Seiten-Eigenschaften anpasst.
+//ExStepSummary:0: Dieser Code initialisiert das Dokumentobjekt und fügt eine neue Seite hinzu.
+//ExStepSummary:1: Dieser Abschnitt erstellt eine Bildinstance und setzt die Abmessungen und den Dateitypen fest.
+//ExStepSummary:2: Dieser Schritt gibt die Quelle für das Bild fest und fügt es zur Seite hinzu.
+//ExStepSummary:3: Dieser Schritt setzt die Seiten-Eigenschaften einschließlich Breite und Höhe fest.
+//ExStepSummary:4: Dieser Abschnitt speichert das Dokument auf den angegebenen Dateipfad und überprüft den Speichervorgang.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Geben Sie den Dokumentenverzeichnisweg an
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instanz Dokumentobjekt
+Document doc = new Document();
+// Fügen Sie ein neues Dokument zu PDF-Dokument hinzu
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Erstellen Sie eine Bildinstance
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Bildbreite auf 100 Punkte
+img.FixWidth = 100;
+// Setzen Sie die Bildhöhe auf 100 Punkte
+img.FixHeight = 100;
+// Setzen Sie den Bildtyp als Unbekannt (später abzuleiten)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Geben Sie den Weg für die Quelle-Bilddatei an
+img.File = dataDir + "aspose-logo.jpg";
+// Fügen Sie das Bild zu den Absätzen der Seite hinzu
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Setzen Sie die Seitenbreite auf 800 Punkte
+page.PageInfo.Width = 800;
+// Setzen Sie die Seitenhöhe auf 800 Punkte
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Geben Sie den Ausgangsdateiweg an
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Speichern Sie das resultierende PDF-Dokument
+doc.Save(dataDir);
+
+//ExStep:5-
+// Informieren Sie den Benutzer über die erfolgreiche Operation
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

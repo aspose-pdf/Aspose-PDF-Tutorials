@@ -1,0 +1,56 @@
+//ExStart
+//ExSummaryKod ten pokazuje, jak tworzyć dokument PDF za pomocą Aspose.Pdf i dodać do niego prostokątki z kolorami alfa.
+//ExStepSummary:0: Następujący kod wyznacza ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: Następujący kod przedstawia instansję dokumentu.
+//ExStepSummary:2: Następujący kod doda stronę do zbioru stron pliku PDF.
+//ExStepSummary:3: Następujący kod tworzy przykład Grafu do rysunku kształtów na stronie PDF.
+//ExStepSummary:4: Następujący kod tworzy obiekt prostokątny o określonych wymiarach i kolorze wypełnienia.
+//ExStepSummary:5: Następujący kod tworzy drugi obiekt prostokątny i doda go do wykresu.
+//ExStepSummary:6: Następujący kod doda instynkt grafu do zbioru paragrafów strony.
+//ExStepSummary:7: Następujący kod zapisuje plik PDF i drukuje wiadomość o sukcesie na konsoli.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Krok w celu zdefiniowania katalogu do zapisywania dokumentu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Wykonaj instancję dokumentu do tworzenia PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Dodaj nową stronę do dokumentu PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Tworzyć graficzny przykład do rysunku kształtów
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Stwórz prostokąt z określonymi wymiarami
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Ustaw kolor wypełnienia za pomocą ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Tworzyć drugi obiekt prostokątny
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Ustaw kolor wypełnienia dla drugiego prostokąta
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Dodaj pierwszy prostokąt do zbioru kształtów w przypadku grafu
+canvas.Shapes.Add(rect);
+// Dodaj drugi prostokąt do zbioru kształtów w przypadku grafu
+canvas.Shapes.Add(rect1);
+// Dodaj przykład grafu do zbioru paragrafów strony
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Przygotuj ścieżkę pliku wyjściowego
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Zapisz dokument PDF na określonej ścieżce
+doc.Save(dataDir);
+// Drukuj wiadomość o sukcesie na konsoli
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

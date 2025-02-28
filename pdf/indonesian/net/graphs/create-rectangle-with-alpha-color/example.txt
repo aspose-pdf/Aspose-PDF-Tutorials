@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF menggunakan Aspose.Pdf dan menambahkan segi empat dengan warna alfa ke dalamnya.
+//ExStepSummary:0: Kode berikut menetapkan jalur ke direktori dokumen.
+//ExStepSummary:1: Kode berikut ini meninstansiasikan contoh Dokumen.
+//ExStepSummary:2: Kode berikut menambahkan halaman ke koleksi halaman file PDF.
+//ExStepSummary:3: Kode berikut membuat contoh Graph untuk menggambar bentuk pada halaman PDF.
+//ExStepSummary:4: Kode berikut menciptakan objek persegi panjang dengan dimensi tertentu dan warna mengisi.
+//ExStepSummary:5: Kode berikut menciptakan objek persegi panjang kedua dan menambahkannya ke grafik.
+//ExStepSummary:6: Kode berikut menambahkan contoh grafik ke koleksi paragraf halaman.
+//ExStepSummary:7: Kode berikut menyimpan file PDF dan mencetak pesan keberhasilan ke konsol.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Langkah untuk mendefinisikan direktori untuk menyimpan dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansi Instansi Dokumen untuk membuat PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Tambahkan halaman baru ke dokumen PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Buat contoh Graph untuk menggambar bentuk
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Buat persegi panjang dengan dimensi yang ditentukan
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Setel warna isi menggunakan ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Buat objek persegi panjang kedua
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Setel warna isi untuk segi empat kedua
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Tambahkan segi empat pertama ke koleksi bentuk dari contoh Graph
+canvas.Shapes.Add(rect);
+// Tambahkan segi empat kedua ke koleksi bentuk dari contoh Graph
+canvas.Shapes.Add(rect1);
+// Tambahkan contoh Graph ke koleksi paragraf halaman
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Persiapkan jalur file output
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Simpan dokumen PDF ke jalur yang ditentukan
+doc.Save(dataDir);
+// Cetak pesan sukses ke konsol
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,50 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un documento PDF, aggiungere un'immagine e regolare la dimensione dell'immagine e le proprietà della pagina.
+//ExStepSummary:0: Questo codice inizializza l'oggetto del documento e aggiunge una nuova pagina.
+//ExStepSummary:1: Questa sezione crea un'istanza di immagine e ne imposta le dimensioni e il tipo di file.
+//ExStepSummary:2: Questo passo specifica il file sorgente dell'immagine e lo aggiunge alla pagina.
+//ExStepSummary:3: Questo passo imposta le proprietà della pagina, comprese larghezza e altezza.
+//ExStepSummary:4: Questa sezione salva il documento nel percorso di file specificato e verifica l'operazione di salvataggio.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Indicare il percorso della directory di documenti
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Obbiettivo Documento istantaneo
+Document doc = new Document();
+// Aggiungere una nuova pagina al documento PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Crea un'istanza di immagine
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// Imposta larghezza dell'immagine a 100 punti
+img.FixWidth = 100;
+// Imposta l'altezza dell'immagine a 100 punti
+img.FixHeight = 100;
+// Imposta il tipo di immagine come sconosciuto (per essere dedotto in seguito)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// Indicare il percorso per il file immagine sorgente
+img.File = dataDir + "aspose-logo.jpg";
+// Aggiungi l'immagine ai paragrafi della pagina
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// Impostare la larghezza della pagina a 800 punti
+page.PageInfo.Width = 800;
+// Impostare l'altezza della pagina a 800 punti
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// Indicare il percorso del file di uscita
+dataDir = dataDir + "SetImageSize_out.pdf";
+// Salvare il documento PDF risultante
+doc.Save(dataDir);
+
+//ExStep:5-
+// Informare l'utente dell'operazione
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

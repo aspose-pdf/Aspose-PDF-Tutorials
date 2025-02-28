@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF za pomocą Aspose.PDF, dodać tabelę z określonymi stylami granicznymi i wdrożyć stronę po określonej liczbie rzędów.
+//ExStepSummary:0: W tym kroku inicjalizuje się dokument i dodaje do niego stronę.
+//ExStepSummary:1: Ten krok tworzy instancję tabeli i ustawia jej style graniczne.
+//ExStepSummary:2: W tym kroku określa się szerokości kolumn dla tabeli.
+//ExStepSummary:3: W tym kroku do tabeli dodaje się 200 rzędów, z których każdy z nich zawiera dwie komórki.
+//ExStepSummary:4: W tym kroku sprawdzamy, czy dodano 10 rzędów i w takim przypadku przechodzimy na nową stronę.
+//ExStepSummary:5: W tym kroku dodaje się wypełnioną tabelę do strony dokumentu PDF i zapisuje ją.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Drogę do katalogu dokumentów
+string dataDir = "Your Document Directory";
+
+// Wykres dokumentu
+Document doc = new Document();
+
+// Dodaj stronę do stron zbioru plików PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Tworzenie przykładu tabeli
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Ustaw styl granicy dla stołu
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Ustaw domyślny styl granicy dla tabeli o kolorze granicy jako czerwony
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Wyznacz szerokość kolumn tabeli (2 kolumny, każda 100 jednostek)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Utwórz pętlę do dodania 200 rzędów do tabeli
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Tworzyć nowy wiersz
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Dodaj wiersz do tabeli
+    tab.Rows.Add(row); 
+
+    // Utworz pierwszą komórkę i dodaj tekst
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Dodaj fragment tekstu do pierwszej komórki	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Dodaj pierwszą komórkę do wiersza
+    row.Cells.Add(cell1); 
+
+    // Utworzyć drugą komórkę i dodać tekst
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Dodaj fragment tekstu do drugiej komórki	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Dodaj drugą komórkę do wiersza
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Po dodaniu 10 rzędów, wyświetlać nowy rzęd na nowej stronie
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Dodaj tabelę do zbioru paragrafów pierwszej strony
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definicja ścieżki pliku wyjściowego
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Zapisz dokument PDF
+doc.Save(dataDir); 
+// /Wiadomość potwierdzenia
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

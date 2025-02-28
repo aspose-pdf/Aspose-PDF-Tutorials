@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: このコードは,透明色で満たされた長方形を含むグラフで PDF 文書を作成する方法を示します.
+//ExStepSummary:0: 次のコードは,PDFファイル保存のためのデータディレクトリを初期化します.
+//ExStepSummary:1: 次のコードは,直角の填写に使用されるアルファ RGB 色を設定します.
+//ExStepSummary:2: 次のコードは PDF の新しいドキュメントオブジェクトを作成します.
+//ExStepSummary:3: 次のコードは,PDF文書にページを追加します.
+//ExStepSummary:4: 次のコードは,PDFで形状を描くためのグラフオブジェクトを作成します.
+//ExStepSummary:5: 次のコードはグラフオブジェクトの境界を設定します.
+//ExStepSummary:6: 次のコードは,グラフオブジェクトをページの段落コレクションに追加します.
+//ExStepSummary:7: 次のコードはグラフに描く直角形を作ります
+//ExStepSummary:8: 次のコードは,長方形のグラフ情報のための色情報を設定します.
+//ExStepSummary:9: 次のコードは,グラフの形集合に長角形を追加します.
+//ExStepSummary:10: 次のコードは,文書を指定された出力ファイルパスに保存します.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// 文書の保存の経路を初期化する
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 透明性のためのアルファチャネル値
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Alpha RGB を使用してカラーオブジェクトを作成する
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// 文書オブジェクトをインスタント化する
+Document document = new Document();
+
+//ExStep:3-
+// 文書に新しいページを追加する
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// 特定の次元を持つグラフオブジェクトを作成する
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Graph オブジェクトの境界を設定
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// グラフオブジェクトをページに追加
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// 特定の次元を持つ直角オブジェクトを作成する
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// 矩形のグラフ情報オブジェクトを作成
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// GraphInfo インスタンスの色情報を設定
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// グラフに矩形形を追加する
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// 文書を保存するための出力ファイル経路を設定
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// 確認メッセージ
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

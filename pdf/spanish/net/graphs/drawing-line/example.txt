@@ -1,0 +1,66 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un documento PDF usando Aspose.PDF dibujando dos líneas diagonales a través de la página. Inicializa un documento, agrega una página y dibuja líneas de esquina en esquina antes de guardar el documento.
+//ExStepSummary:0: Inicializa el camino para el directorio de documentos donde se guardará el PDF.
+//ExStepSummary:1: Crear una nueva instancia de Documento para el PDF.
+//ExStepSummary:2: Añadir una página a la colección de páginas del documento.
+//ExStepSummary:3: Establezca los márgenes de la página a cero para todos los lados.
+//ExStepSummary:4: Crear un objeto de gráfico para representar el área de dibujo con dimensiones iguales al tamaño de la página.
+//ExStepSummary:5: Crea el objeto de la primera línea desde la parte inferior izquierda hasta la esquina superior derecha de la página.
+//ExStepSummary:6: Añadir la primera línea a la colección de formas del objeto Graph.
+//ExStepSummary:7: Crea el objeto de segunda línea desde la parte superior izquierda hasta la parte inferior derecha de la página.
+//ExStepSummary:8: Añadir la segunda línea a la colección de formas del objeto de gráfico.
+//ExStepSummary:9: Añadir el objeto de gráfico que contiene las líneas a la colección de párrafos de la página.
+//ExStepSummary:10: Construir la ruta completa para guardar el archivo PDF de salida.
+//ExStepSummary:11: Guarde el documento PDF en el camino especificado.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Inicializa el camino para el directorio de documentos
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Crear una instancia de documento
+Document pDoc = new Document();
+
+//ExStep:2-
+// Añadir página a la colección de páginas de documento PDF
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Establezca el margen de página en todos los lados como 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Crea un objeto gráfico con ancho y altura iguales a las dimensiones de la página
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Crear el objeto de primera línea desde la esquina inferior izquierda a la derecha superior de la página
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Dibuja una línea desde la esquina superior izquierda de la página a la esquina inferior derecha de la página
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Añadir la segunda línea a la colección de formas del objeto de gráfico
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Añadir el objeto gráfico a la colección de párrafos de la página
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Construir el camino completo para guardar el archivo PDF de salida
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Guardar el archivo PDF
+pDoc.Save(dataDir);
+// Mensaje de confirmación de salida
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

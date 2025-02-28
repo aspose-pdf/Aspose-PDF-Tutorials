@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.PDF σχεδιάζοντας δύο διαγώνες γραμμές σε όλη τη σελίδα.
+//ExStepSummary:0: Αρχιτογραφημάτισε τη διαδρομή για τον κατάλογο εγγράφων όπου θα αποθηκευτεί το PDF.
+//ExStepSummary:1: Δημιουργήστε μια νέα περίπτωση εγγράφου για το PDF.
+//ExStepSummary:2: Προσθέστε μια σελίδα στη συλλογή σελίδων του εγγράφου.
+//ExStepSummary:3: Ρυθμίστε τα περιθώρια σε μηδέν για όλες τις πλευρές.
+//ExStepSummary:4: Δημιουργήστε ένα αντικείμενο Graph για να αντιπροσωπεύσει την περιοχή σχεδιασμού με διαστάσεις ίσες με το μέγεθος της σελίδας.
+//ExStepSummary:5: Δημιουργήστε το πρώτο αντικείμενο της γραμμής από την κάτω αριστερή προς την πάνω δεξιά γωνία της σελίδας.
+//ExStepSummary:6: Προσθέστε την πρώτη γραμμή στη συλλογή σχημάτων του αντικειμένου Graph.
+//ExStepSummary:7: Δημιουργήστε το δεύτερο γραμμή αντικείμενο από την αριστερή κορυφή προς την δεξιά κατώτερη γωνία της σελίδας.
+//ExStepSummary:8: Προσθέστε τη δεύτερη γραμμή στη συλλογή σχημάτων του αντικειμένου Graph.
+//ExStepSummary:9: Προσθέστε το αντικείμενο Graph που περιέχει τις γραμμές στη συλλογή παραγράφων της σελίδας.
+//ExStepSummary:10: Κατασκευάστε την πλήρη διαδρομή για τη διατήρηση του αρχείου PDF εξόδου.
+//ExStepSummary:11: Κρατήστε το έγγραφο PDF στην καθορισμένη διαδρομή.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// Αρχιτογραφημάτισε τη διαδρομή για το κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Δημιουργήστε το έγγραφο
+Document pDoc = new Document();
+
+//ExStep:2-
+// Προσθήκη σελίδας σε σελίδες συλλογή PDF εγγράφου
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// Εποστήστε περιθώριο σελίδας σε όλες τις πλευρές ως 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// Δημιουργήστε αντικείμενο Graph με πλάτος και ύψος ίσοι με τις διαστάσεις της σελίδας
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// Δημιουργήστε αντικείμενο πρώτης γραμμής αρχίζοντας από την κάτω-αριστερή έως την κορυφή δεξιά γωνία της σελίδας
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// Ζωγραφίστε γραμμή από την Αριστερή κορυφή της σελίδας στην Αριστερή κάτω κορυφή της σελίδας
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// Προσθέστε δεύτερη γραμμή σε σχήματα συλλογή του αντικειμένου Graph
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// Προσθέστε αντικείμενο Graph σε παραγράφους συλλογή σελίδας
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// Κατασκευάστε την πλήρη διαδρομή για τη διατήρηση του αρχείου PDF εξόδου
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// Κράτησε το αρχείο PDF
+pDoc.Save(dataDir);
+// Πειράσματα επιβεβαίωσης έκδοσης
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

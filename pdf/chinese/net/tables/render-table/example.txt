@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: 这个代码展示了如何使用Aspose.Pdf创建一个 PDF 文件,包含表格.它设置边缘,在不同的页面上添加两个表格,并将文档保存到指定的路径.
+//ExStepSummary:0: 这个步骤设置了PDF文件的输出目录.
+//ExStepSummary:1: 这个步骤将一个新的文档对象初始化并检索页面信息来修改页面设置.
+//ExStepSummary:2: 这个步骤设置页面边缘,并将页面导向转换为景观模式.
+//ExStepSummary:3: 这一步创建了一个新的表格对象,并定义列宽度.
+//ExStepSummary:4: 文件中添加一个新的页面,并插入一个包含120行的表格,设置固定行高度,并添加每个单元的内容.
+//ExStepSummary:5: 通过此步骤将第一个表添加到当前页面的段落集合中.
+//ExStepSummary:6: 通过此步骤创建另一个表,列宽度不同,并添加指定内容的10行.
+//ExStepSummary:7: 通过此步骤,第二张表将出现在新页面上,并将其添加到文档中.
+//ExStepSummary:8: 这一步将PDF文件保存到指定的路径,并输出成功消息.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// 指定文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 创建一个新的文档对象.
+Document doc = new Document();
+// 查看文件的信息.
+PageInfo pageInfo = doc.PageInfo;
+// 访问页面的边缘设置.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// 设置左边分数为37个单位.
+marginInfo.Left = 37;
+// 设置右边分数为37个单位.
+marginInfo.Right = 37;
+// 设置最高边缘为37个单位.
+marginInfo.Top = 37; 
+// 设置底边缘为37个单位.
+marginInfo.Bottom = 37;
+// 设置页面导向到景观.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// 创建一个新的桌面对象.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 定义表中的列的宽度.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// 添加一个新的页面.
+Page curPage = doc.Pages.Add();
+// 循环将120行添加到第一个表.
+for (int i = 1; i <= 120; i++)
+{
+	// 创建一个新的行.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// 设置列的固定高度.
+    row.FixedRowHeight = 15; 
+    // 创建一排的第一个细胞.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// 在第一个单元中添加一个文本片段.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // 创建第二个连续的细胞.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// 添加一个文本片段到第二个细胞.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// 访问当前页面的段落集合.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// 添加第一个表到当前页面.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// 创建另一个桌面对象.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// 定义第二表中的列的宽度.
+table1.ColumnWidths = "100 100";
+// 循环将第二张表添加10行. 
+for (int i = 1; i <= 10; i++) 
+{
+	// 创建一个新的表列1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// 创建一排的第一个细胞.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// 在第一个单元中添加一个文本片段.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // 创建第二个连续的细胞.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// 添加一个文本片段到第二个细胞.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// 设置属性,将第二张表放到一个新的页面上.
+table1.IsInNewPage = true; 
+// 步骤:7-
+// 加入当前页面的段落.
+paragraphs.Add(table1); 
+// 定义输出文件路径.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// 保存文件到指定的路径.
+doc.Save(dataDir); 
+// 步骤8
+// 输出成功信息.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

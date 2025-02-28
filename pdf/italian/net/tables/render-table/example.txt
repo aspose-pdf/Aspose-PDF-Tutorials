@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryQuesto codice mostra come creare un documento PDF con tabelle utilizzando Aspose.Pdf. Stabilirà i margini, aggiungerà due tabelle su pagine diverse e salverà il documento in un percorso specificato.
+//ExStepSummary:0: Questo passo imposta la directory di uscita per il file PDF.
+//ExStepSummary:1: Questo passaggio inizializza un nuovo oggetto Documento e recupera la PageInfo per modificare le impostazioni della pagina.
+//ExStepSummary:2: Questo passaggio imposta i margini della pagina e cambia l'orientamento della pagina in modalità paesaggio.
+//ExStepSummary:3: Questo passo crea un nuovo oggetto di tabella e definisce le larghezze delle colonne.
+//ExStepSummary:4: Questa fase aggiunge una nuova pagina al documento e inserisce una tabella con 120 righe, impostando l'altezza fissa della riga e aggiungendo contenuti a ciascuna cella.
+//ExStepSummary:5: Questa fase aggiunge la prima tabella alla raccolta di paragrafi della pagina corrente.
+//ExStepSummary:6: Questo passo crea un'altra tabella con diverse larghezze di colonne e aggiunge 10 righe con contenuto specificato.
+//ExStepSummary:7: Questa fase imposta la seconda tabella per apparire su una nuova pagina e la aggiunge al documento.
+//ExStepSummary:8: Questo passo salva il documento PDF nel percorso specificato e genera un messaggio di successo.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Indicare il percorso della directory dei documenti.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Crea un nuovo oggetto Documento.
+Document doc = new Document();
+// Prendi la pagina informativa del documento.
+PageInfo pageInfo = doc.PageInfo;
+// Accedi alle impostazioni di margine della pagina.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Impostare il margine sinistro a 37 unità.
+marginInfo.Left = 37;
+// Impostare il margine destro a 37 unità.
+marginInfo.Right = 37;
+// Impostare il margine massimo a 37 unità.
+marginInfo.Top = 37; 
+// Impostare il margine inferiore a 37 unità.
+marginInfo.Bottom = 37;
+// Imposta l'orientamento della pagina al paesaggio.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Crea un nuovo oggetto di tavolo.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Definire le larghezze delle colonne della tabella.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Aggiungi una nuova pagina al documento.
+Page curPage = doc.Pages.Add();
+// Loop per aggiungere 120 righe alla prima tavola.
+for (int i = 1; i <= 120; i++)
+{
+	// Crea una nuova fila.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Imposta l'altezza fissa per la fila.
+    row.FixedRowHeight = 15; 
+    // Crea la prima cella in fila.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Aggiungi un testoFragment alla prima cella.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Crea la seconda cella di fila.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Aggiungi un testoFragment alla seconda cella.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Accedere alla raccolta di paragrafi della pagina corrente.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Aggiungere la prima tabella alla pagina corrente.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Crea un altro oggetto di tavolo.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Defini le larghezze delle colonne della seconda tabella.
+table1.ColumnWidths = "100 100";
+// Loop per aggiungere 10 righe alla seconda tabella. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Crea una nuova riga per la tabella 1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Crea la prima cella in fila.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Aggiungi un testoFragment alla prima cella.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Crea la seconda cella di fila.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Aggiungi un testoFragment alla seconda cella.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Imposta la proprietà per inserire la seconda tabella su una nuova pagina.
+table1.IsInNewPage = true; 
+// EsStep:7-
+// Aggiungere la seconda tabella ai paragrafi della pagina corrente.
+paragraphs.Add(table1); 
+// Defini il percorso del file di uscita.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Salvare il documento nel percorso specificato.
+doc.Save(dataDir); 
+// EsStep:8-
+// Messaggio di successo.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

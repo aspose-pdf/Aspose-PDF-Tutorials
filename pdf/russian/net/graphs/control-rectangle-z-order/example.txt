@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ, добавить прямоугольники с разными цветами и Z-индексами, и сохранить документ.
+//ExStepSummary:0: Этот шаг определяет исходный каталог для PDF-документа и инстанциализирует новый объект Документа и добавляет новую страницу с указанными размерами.
+//ExStepSummary:1: Этот шаг устанавливает размер страницы и маржу для недавно созданной страницы.
+//ExStepSummary:2: Этот шаг добавляет красный прямоугольник на указанных координатах с Z-индексом 2, обеспечивая его появление над другими формами.
+//ExStepSummary:3: Этот шаг добавляет синий прямоугольник на указанных координатах с Z-индексом 1, обеспечивая его появление ниже красного прямоугольника, но выше других.
+//ExStepSummary:4: В этом шаге добавляется зеленый прямоугольник на указанных координатах с Z-индексом 0, обеспечивая его появление в нижней части Z-поряда.
+//ExStepSummary:5: Этот шаг сохраняет PDF-документ на указанном пути выходной файла.
+//ExStepSummary:6: Этот шаг определяет метод, чтобы объединить логику для добавления прямоугольников на страницу PDF, включая установку их свойств и Z-индекса.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Определять каталог документов
+string dataDir = "Your Document Directory";
+
+// Инстанциальный объект класса Документа
+Document doc1 = new Document();
+
+// Добавить новую страницу в документ
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Установка размера страницы
+page1.SetPageSize(375, 300);
+
+// Установка маржи страниц на 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Добавьте красный прямоугольник с индексом Z 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Добавьте синий прямоугольник с индексом Z 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Добавьте зеленый прямоугольник с индексом Z 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Сохранить PDF-документ
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// Способ добавления прямоугольника на страницу PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Создать объект графики с такими же размерами , как прямоугольник
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Предотвратить автоматическое изменение положения графа
+    graph.IsChangePosition = false;
+    
+    // Установка положения графика
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Создать прямоугольник внутри графика
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Установка прямоугольника и цвета границы
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Добавить прямоугольник к сборке форм графиков
+    graph.Shapes.Add(rect);
+    
+    // Установка индекса Z для объекта графика
+    graph.ZIndex = zindex;
+    
+    // Добавить график на страницу
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

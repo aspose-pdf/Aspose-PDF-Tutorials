@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: このコードは,Aspose.Pdfを使用してテーブルを含むPDF文書を作成する方法を示します. 境界を設定し,異なるページに2つのテーブルを追加し,文書を指定されたパスに保存します.
+//ExStepSummary:0: このステップでは,PDFファイルの出力ディレクトリを設定します.
+//ExStepSummary:1: このステップでは新しいドキュメントオブジェクトを初期化し,ページ設定を変更するためにPageInfoを取得します.
+//ExStepSummary:2: このステップではページの辺を設定し,ページの方向を景観モードに変更します.
+//ExStepSummary:3: このステップでは新しいテーブルオブジェクトを作成し,列幅を定義します.
+//ExStepSummary:4: このステップでは,ドキュメントに新しいページを追加し,120行の表を挿入し,固定行の高さを設定し,各セルにコンテンツを追加します.
+//ExStepSummary:5: このステップでは,現在のページの段落集合に最初の表を追加します.
+//ExStepSummary:6: このステップでは,異なる列幅を持つ別のテーブルを作成し,指定された内容を持つ10行を追加します.
+//ExStepSummary:7: このステップでは,新しいページに2番目の表が表示されます.
+//ExStepSummary:8: このステップでは,指定されたパスにPDF文書を保存し,成功メッセージを出します.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// 文書ディレクトリへの経路を指定する.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 新しいドキュメントオブジェクトを作成します.
+Document doc = new Document();
+// 文書のページインフォを入手する
+PageInfo pageInfo = doc.PageInfo;
+// ページの境界設定にアクセスしてください.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// 左辺を37個に設定する
+marginInfo.Left = 37;
+// 右辺を37個に設定する
+marginInfo.Right = 37;
+// 限界を 37 ユニットに設定する
+marginInfo.Top = 37; 
+// 底辺を 37 ユニットに設定する
+marginInfo.Bottom = 37;
+// ページの方向を風景に設定します.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// 新しいテーブルオブジェクトを作成します.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 表内の列の幅を定義する.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// 文書に新しいページを追加する.
+Page curPage = doc.Pages.Add();
+// 最初のテーブルに120行を追加するループ
+for (int i = 1; i <= 120; i++)
+{
+	// 新しい行を作って
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// 列の固定高度を設定する.
+    row.FixedRowHeight = 15; 
+    // 列の最初のセルを作成します
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// 最初のセルにテキストフラグメントを追加します
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // 列の2番目の細胞を作成します
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// 2 番目のセルにテキストフラグメントを追加します
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// 現在のページの段落コレクションにアクセスします.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// 現在のページに最初の表を追加する.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// テーブルオブジェクトを別のものを作成します
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// 2番目の表の列の幅を定義する.
+table1.ColumnWidths = "100 100";
+// 2番目のテーブルに 10 行を追加するループ 
+for (int i = 1; i <= 10; i++) 
+{
+	// 表1に新しい行を作成する.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// 列の最初のセルを作成します
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// 最初のセルにテキストフラグメントを追加します
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // 列の2番目の細胞を作成します
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// 2 番目のセルにテキストフラグメントを追加します
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// 2番目のテーブルを新しいページに配置するプロパティを設定します
+table1.IsInNewPage = true; 
+// ステップ7
+// ページの段落に2番目の表を追加する.
+paragraphs.Add(table1); 
+// 輸出ファイル経路を定義する.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// 文書を指定されたパスに保存する.
+doc.Save(dataDir); 
+// ステップ8
+// 成果のメッセージ
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot az Aspose.PDF segítségével, hozzáad egy táblázat bizonyos határstílusokkal, és végrehajtani a párolást egy bizonyos sor után.
+//ExStepSummary:0: Ez a lépés az okirat kezdeti beállítását eredményezi, és egy oldalt hozzáad.
+//ExStepSummary:1: Ez a lépés létrehoz egy táblázat példányát és a határstílusokat.
+//ExStepSummary:2: A táblázat oszlop szélességeinek meghatározása ebben a lépésben.
+//ExStepSummary:3: Ez a lépés 200 sorot ad hozzá a táblázathoz, és minden sor két sejtet tartalmaz.
+//ExStepSummary:4: Ez a lépés ellenőrzi, hogy 10 sor hozzáadott-e, és ha igen, egy új oldalra költözik.
+//ExStepSummary:5: Ez a lépés a PDF dokumentum oldalához hozzáadja a befejezett táblázatot, és megőrzi.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// A dokumentumok könyvtárába vezető út
+string dataDir = "Your Document Directory";
+
+// Dokumentum beállítása
+Document doc = new Document();
+
+// Oldalak PDF fájl gyűjteményéhez
+doc.Pages.Add();
+
+//ExStep:1-
+// Tölderek példányát készítsen
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// A táblázat határstílusának beállítása
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Beállítsa a határ színt vörösnek
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// A táblázat oszlopok szélességét (2 oszlop, 100 egységként)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Készítsen egy köröt, hogy hozzáadja a táblázathoz 200 sorot
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Új sorot hozz
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Adja be a sorot a táblázathoz
+    tab.Rows.Add(row); 
+
+    // Az első sejtot hozzon létre és szöveget adjon hozzá
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Töltse be a szövegrészt az első sejtbe	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Adja be az első sejtet a sorba
+    row.Cells.Add(cell1); 
+
+    // Készítsen második sejtet és hozzon szöveget
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Töltse be a szövegrészt a második cellába	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Adja a második sejtet a sorba
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Ha 10 sor hozzáadott, új sorot adjon új oldalon
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Adjon táblázatot az első oldalon található bekezdések gyűjteményéhez
+doc.Pages[1].Paragraphs.Add(tab); 
+// Tisztázza a kiviteli fájl útvonalát
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Takarítsa meg a PDF dokumentumot
+doc.Save(dataDir); 
+// Biztosanító üzenet
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

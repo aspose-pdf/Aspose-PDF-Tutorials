@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.Pdf και να προσθέσετε ορθογώνια με χρώματα αλφα.
+//ExStepSummary:0: Ο ακόλουθος κωδικός καθορίζει τη διαδρομή προς τον κατάλογο εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κώδικας δείχνει μια περίπτωση εγγράφου.
+//ExStepSummary:2: Ο ακόλουθος κώδικας προσθέτει μια σελίδα στη συλλογή σελίδων του αρχείου PDF.
+//ExStepSummary:3: Ο ακόλουθος κώδικας δημιουργεί μια περίπτωση Graph για να ζωγραφίσει σχήματα στη σελίδα PDF.
+//ExStepSummary:4: Ο ακόλουθος κώδικας δημιουργεί ένα ορθογώνιο αντικείμενο με συγκεκριμένες διαστάσεις και χρώμα συμπλήρωσης.
+//ExStepSummary:5: Ο ακόλουθος κώδικας δημιουργεί ένα δεύτερο ορθογώνιο αντικείμενο και το προσθέτει στο γραφήμα.
+//ExStepSummary:6: Ο ακόλουθος κώδικας προσθέτει την ενδείξη του γραφικού σελίδου στη συλλογή παραγράφων της σελίδας.
+//ExStepSummary:7: Ο ακόλουθος κώδικας αποθηκεύει το αρχείο PDF και εκτυπώνει ένα μήνυμα επιτυχίας στην κονσόλα.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// Βήμα για να οριστεί το κατάλογο για τη διατήρηση του εγγράφου
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Επαναστατική περίπτωση του εγγράφου για τη δημιουργία PDF
+Document doc = new Document();
+
+//ExStep:2-
+// Προσθήκη νέας σελίδας στο έγγραφο PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// Δημιουργήστε μια περίπτωση Graph για να σχεδιάσετε σχήματα
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// Δημιουργήστε ένα ορθογώνιο με καθορισμένες διαστάσεις
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// Εναρμηνεύστε το χρώμα γεμίσματος χρησιμοποιώντας ARGB
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// Δημιουργήστε ένα δεύτερο ορθογώνιο αντικείμενο
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// Εναρτώντας το χρώμα γεμίσματος για το δεύτερο ορθογώνιο
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// Προσθέστε το πρώτο ορθογώνιο στη συλλογή σχημάτων του Graph
+canvas.Shapes.Add(rect);
+// Προσθέστε το δεύτερο ορθογώνιο στη συλλογή σχημάτων της ενδείξεως Graph
+canvas.Shapes.Add(rect1);
+// Προσθέστε την περίπτωση Graph στη συλλογή παραγράφων της σελίδας
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// Προετοιμάστε τη διαδρομή αρχείου εξόδου
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// Κράτα το έγγραφο PDF στην καθορισμένη διαδρομή
+doc.Save(dataDir);
+// Εκτυπώστε μήνυμα επιτυχίας στην κονσόλα
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

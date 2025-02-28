@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร PDF, เพิ่มภาพในมัน, และปรับขนาดภาพและคุณสมบัติหน้า. มันยังจัดการการบันทึกเอกสารและแจ้งผู้ใช้เกี่ยวกับการดําเนินการสําเร็จ.
+//ExStepSummary:0: คódนี้เริ่มต้นของวัตถุเอกสารและเพิ่มหน้าใหม่ให้มัน
+//ExStepSummary:1: ส่วนนี้สร้างตัวอย่างภาพ และกําหนดขนาดและประเภทไฟล์ของมัน
+//ExStepSummary:2: ขั้นตอนนี้กําหนดไฟล์แหล่งสําหรับภาพและเพิ่มมันไปยังหน้า
+//ExStepSummary:3: ขั้นตอนนี้กําหนดคุณสมบัติหน้ารวมถึงความกว้างและความสูง
+//ExStepSummary:4: ส่วนนี้บันทึกเอกสารไปยังเส้นทางไฟล์ที่กําหนดไว้ และตรวจสอบการทํางานบันทึก
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// กําหนดเส้นทางของบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// วัตถุเอกสารชั่วคราว
+Document doc = new Document();
+// เพิ่มหน้าใหม่ต่อเอกสาร PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// สร้างตัวอย่างภาพ
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// กําหนดความกว้างภาพเป็น 100 จุด
+img.FixWidth = 100;
+// กําหนดความสูงภาพเป็น 100 จุด
+img.FixHeight = 100;
+// กําหนดชนิดภาพเป็น Unknown (จะสรุปในภายหลัง)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// กําหนดเส้นทางสําหรับไฟล์ภาพแหล่ง
+img.File = dataDir + "aspose-logo.jpg";
+// เพิ่มภาพให้กับข้อความของหน้า
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// ปรับความกว้างหน้าเป็น 800 จุด
+page.PageInfo.Width = 800;
+// ปรับความสูงหน้าเป็น 800 จุด
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// กําหนดเส้นทางไฟล์ออก
+dataDir = dataDir + "SetImageSize_out.pdf";
+// กองบันทึกเอกสาร PDF ที่เกิดขึ้น
+doc.Save(dataDir);
+
+//ExStep:5-
+// ข่าวสารผู้ใช้งานเกี่ยวกับการดําเนินการที่สําเร็จ
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

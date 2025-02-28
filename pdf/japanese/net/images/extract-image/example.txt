@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: このコードは,PDF文書から画像を抽出してJPEGファイルとして保存する方法を示しています.
+//ExStepSummary:0: 次のコードは,ドキュメントディレクトリへのパスを初期化します.
+//ExStepSummary:1: 次のコードは,画像が抽出される PDF 文書を開きます.
+//ExStepSummary:2: 次のコードは,PDF文書から特定の画像を抽出します.
+//ExStepSummary:3: 次のコードは,抽出された画像を指定された出力ファイルに保存します.
+//ExStepSummary:4: 次のコードは,元のPDFファイルを更新し,新しいパスに保存します.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// PDFファイルを含むディレクトリを指定します
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 画像抽出のための PDF 文書を開きます
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// PDF の第2ページから最初の画像を抽出します
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// 抽出された画像を保存するためにストリームを作成します
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// 出力画像を保存する
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// ファイルストリームを閉じてリソースを解放します
+outputImage.Close();
+
+//ExStep:4-
+// PDF の新しいバージョンのパスを更新する
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// 更新されたPDFファイルを保存する
+pdfDocument.Save(dataDir);
+// ファイルの取得と保存を成功させたことを確認します
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

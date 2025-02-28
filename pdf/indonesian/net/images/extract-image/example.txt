@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara mengekstrak gambar dari dokumen PDF dan menyimpannya sebagai file JPEG sambil juga menyimpan PDF yang diperbarui.
+//ExStepSummary:0: Kode berikut ini menginisialisasi jalur ke direktori dokumen.
+//ExStepSummary:1: Kode berikut membuka dokumen PDF yang akan diekstraksi gambar.
+//ExStepSummary:2: Kode berikut mengekstrak gambar tertentu dari dokumen PDF.
+//ExStepSummary:3: Kode berikut menyimpan gambar yang diekstrak ke file output tertentu.
+//ExStepSummary:4: Kode berikut memperbarui file PDF asli dan menyimpannya ke jalur baru.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Mengidentifikasi direktori yang berisi file PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Membuka dokumen PDF untuk ekstraksi gambar
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Mengekstraksi gambar pertama dari halaman kedua PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Membuat aliran untuk menyimpan gambar yang diekstrak
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Simpan gambar output
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Tutup aliran file untuk melepaskan sumber daya
+outputImage.Close();
+
+//ExStep:4-
+// Mengupdate jalur untuk versi baru PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Simpan file PDF yang diperbarui
+pdfDocument.Save(dataDir);
+// Mengkonfirmasi hasil ekstraksi dan penyimpanan file
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

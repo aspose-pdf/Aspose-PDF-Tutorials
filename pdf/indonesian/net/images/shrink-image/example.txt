@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara mengoptimalkan dokumen PDF dengan mengkompres gambarnya. Ini memuat PDF, menerapkan opsi pengoptimalan untuk mengurangi ukuran gambar, dan menyimpan dokumen yang diperbarui.
+//ExStepSummary:0: Langkah ini menginisialisasi jalur ke direktori dokumen.
+//ExStepSummary:1: Langkah ini membuka dokumen PDF yang ditentukan untuk optimasi.
+//ExStepSummary:2: Langkah ini menginisialisasikan opsi optimasi untuk dokumen PDF.
+//ExStepSummary:3: Langkah ini menetapkan opsi kompresi gambar menjadi benar.
+//ExStepSummary:4: Langkah ini menetapkan opsi kualitas gambar menjadi 50.
+//ExStepSummary:5: Langkah ini mengoptimalkan dokumen PDF menggunakan opsi optimasi yang ditentukan.
+//ExStepSummary:6: Langkah ini memperbarui jalur untuk dokumen PDF yang dioptimalkan.
+//ExStepSummary:7: Langkah ini menyimpan dokumen PDF yang dioptimalkan ke jalur yang ditentukan.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Buka dokumen PDF
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Inisialisasikan opsi optimasi
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Memungkinkan kompresi gambar
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Setel kualitas gambar ke 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Optimalkan dokumen PDF menggunakan pengaturan
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Define output path untuk PDF yang dioptimalkan
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Simpan dokumen yang diperbarui
+pdfDocument.Save(dataDir);
+// Pesan konfirmasi output
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

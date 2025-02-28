@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryDeze code toont hoe een PDF-document wordt geoptimaliseerd door de afbeeldingen te comprimeren.
+//ExStepSummary:0: Deze stap initialiseert het pad naar het document directory.
+//ExStepSummary:1: Deze stap opent het gespecificeerde PDF-document voor optimalisatie.
+//ExStepSummary:2: Deze stap initialiseert de optimalisatieopties voor het PDF-document.
+//ExStepSummary:3: Deze stap stelt de optie voor beeldcompressie op true.
+//ExStepSummary:4: Deze stap stelt de beeldkwaliteit optie op 50.
+//ExStepSummary:5: Deze stap optimaliseert het PDF-document met behulp van de gespecificeerde optimalisatieopties.
+//ExStepSummary:6: Deze stap bijwerkt het pad voor het geoptimaliseerde PDF-document.
+//ExStepSummary:7: Deze stap slaat het geoptimaliseerde PDF-document op het gespecificeerde pad.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Pad naar het document directory
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Open het PDF-document
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Optimalisatieopties initiaaliseren
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Beeldcompressie mogelijk maken
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Stel de beeldkwaliteit op 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Optimaliseren van het PDF-document met behulp van de instellingen
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Definieer het outputpad voor de geoptimaliseerde PDF
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Bewaar het bijgewerkte document
+pdfDocument.Save(dataDir);
+// Output bevestigingsbericht
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

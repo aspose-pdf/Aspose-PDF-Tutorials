@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med hjälp av Aspose.PDF, lägger till en tabell med specifika gränsstilar och implementerar sidning efter ett visst antal rader.
+//ExStepSummary:0: Detta steg initialiserar dokumentet och lägger en sida till det.
+//ExStepSummary:1: Detta steg skapar ett tabellinstans och sätter dess gränsstilar.
+//ExStepSummary:2: I detta steg anges kolumnsbredd för tabellen.
+//ExStepSummary:3: Detta steg lägger till 200 rader i tabellen, med varje rad som innehåller två celler.
+//ExStepSummary:4: Detta steg kontrollerar om 10 rader har läggs till och flyttar till en ny sida om så är fallet.
+//ExStepSummary:5: Detta steg lägger till den färdiga tabellen på PDF-dokumentets sida och sparar den.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Vägen till dokumentkataloget
+string dataDir = "Your Document Directory";
+
+// Instans dokument instans
+Document doc = new Document();
+
+// Lägg till sida till sidor samling PDF-fil
+doc.Pages.Add();
+
+//ExStep:1-
+// Skapa ett tabellinstans
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Ställ gränsstil för bord
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Ställ standard gränsstil för tabell med gränskärg som Rött
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Ange bredden för tabellkolumner (2 kolumner, varje 100 enheter)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Skapa en löpning för att lägga till 200 rader för tabellen
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Skapa en ny rad
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Lägg till raden i tabellen
+    tab.Rows.Add(row); 
+
+    // Skapa första cellen och lägg till text
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Lägg till textfragment i första cellen	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Lägg till första cellen i raden
+    row.Cells.Add(cell1); 
+
+    // Skapa andra cellen och lägg till text
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Lägg till textfragment i andra cellen	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Lägg till andra cellen i raden
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // När 10 rader läggs till, visa ny rad på ny sida
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Lägg till tabell i avsnittens samling på den första sidan
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definera utgångsfilvägen
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Spara PDF-dokumentet
+doc.Save(dataDir); 
+// Bekräftelse meddelande
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

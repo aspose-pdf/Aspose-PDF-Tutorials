@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εξάγει μια εικόνα από ένα έγγραφο PDF και να το αποθηκεύει ως αρχείο JPEG ενώ αποθηκεύει επίσης το ενημερωμένο PDF.
+//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτολογεί τη διαδρομή στο κατάλογο εγγράφων.
+//ExStepSummary:1: Ο ακόλουθος κώδικας ανοίγει το έγγραφο PDF από το οποίο θα αποσυρθούν εικόνες.
+//ExStepSummary:2: Ο ακόλουθος κώδικας εκχύνει μια συγκεκριμένη εικόνα από το έγγραφο PDF.
+//ExStepSummary:3: Ο ακόλουθος κωδικός αποθηκεύει την εξάρθρωση εικόνας σε ένα συγκεκριμένο αρχείο εξόδου.
+//ExStepSummary:4: Ο ακόλουθος κώδικας ενημερώνει το αρχικό αρχείο PDF και το αποθηκεύει σε μια νέα διαδρομή.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Ειδικόποιει τον κατάλογο που περιέχει το αρχείο PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ανοίγει το έγγραφο PDF για την εξαγωγή εικόνας
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Εκμεταλλεύεται την πρώτη εικόνα από τη δεύτερη σελίδα του PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Δημιουργεί μια ροή για να αποθηκεύσει την εξάρθρωση εικόνας
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Αποθηκεύστε την εικόνα εξόδου
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Κλείνει την ροή αρχείων για να απελευθερώσει τους πόρους
+outputImage.Close();
+
+//ExStep:4-
+// Ενημερώνει τη διαδρομή για τη νέα έκδοση του PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Αποθηκεύστε ενημερωμένο αρχείο PDF
+pdfDocument.Save(dataDir);
+// Επιβεβαιώνει την επιτυχή εξαγωγή και αποθήκευση αρχείων
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

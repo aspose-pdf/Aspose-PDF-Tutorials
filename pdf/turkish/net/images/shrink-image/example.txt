@@ -1,0 +1,46 @@
+//ExStart
+//ExSummaryBu kod, PDF'yi yükler, görüntü boyutlarını azaltmak için optimize seçeneklerini uygulaır ve güncellenmiş belgeyi kaydeder.
+//ExStepSummary:0: Bu adım, belge dizine giden yolu initializer.
+//ExStepSummary:1: Bu adım, belirtilen PDF belgesini optimize etmek için açar.
+//ExStepSummary:2: Bu adım PDF belgesinin optimizasyon seçeneklerini initialize eder.
+//ExStepSummary:3: Bu adım görüntü sıkıştırma seçeneğini doğru olarak ayarlar.
+//ExStepSummary:4: Bu adım görüntü kalitesi seçeneğini 50'e ayarlar.
+//ExStepSummary:5: Bu adım, belirtilen optimizasyon seçeneklerini kullanarak PDF belgesini optimize eder.
+//ExStepSummary:6: Bu adım, optimize edilmiş PDF belgesinin yolunu güncelleyebilir.
+//ExStepSummary:7: Bu adım, optimize edilmiş PDF belgesini belirtilen yola kaydetir.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// Belge dizinine giden yol
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// PDF belgesini aç
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// Optimize seçeneklerini başlat
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Resim sıkıştırmayı etkinleştir
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// Resim kalitesini % 50'e ayarlayın
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// Ayarları kullanarak PDF belgesini optimize edin
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// Optimize edilmiş PDF için çıkış yolunu tanımlayın
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// Güncelleştirilmiş belgeyi kaydet
+pdfDocument.Save(dataDir);
+// Çıktı onay mesajı
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

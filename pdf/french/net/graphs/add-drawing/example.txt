@@ -1,0 +1,75 @@
+//ExStart
+//ExSummaryCe code montre comment créer un document PDF avec un graphique contenant un rectangle rempli d'une couleur transparente.
+//ExStepSummary:0: Le code suivant initiale le répertoire de données pour enregistrer le fichier PDF.
+//ExStepSummary:1: Le code suivant définit la couleur Alpha RGB à utiliser pour remplir le rectangle.
+//ExStepSummary:2: Le code suivant crée un nouvel objet Document pour le PDF.
+//ExStepSummary:3: Le code suivant ajoute une page au document PDF.
+//ExStepSummary:4: Le code suivant crée un objet Graph pour dessiner des formes dans le PDF.
+//ExStepSummary:5: Le code suivant définit une limite pour l'objet du graphique.
+//ExStepSummary:6: Le code suivant ajoute l'objet du graphique à la collection de paragraphes de la page.
+//ExStepSummary:7: Le code suivant crée une forme rectangulaire à dessiner sur le graphique.
+//ExStepSummary:8: Le code suivant définit les informations de couleur pour les informations graphiques du rectangle.
+//ExStepSummary:9: Le code suivant ajoute la forme rectangulaire à la collection de formes du graphique.
+//ExStepSummary:10: Le code suivant sauvegarde le document sur le chemin du fichier de sortie spécifié.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// Initialisation du chemin pour enregistrer le document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Value du canal alpha pour la transparence
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// Créer un objet couleur à l'aide d' Alpha RGB
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// Objet de document instantané
+Document document = new Document();
+
+//ExStep:3-
+// Ajouter une nouvelle page au document
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// Créer un objet graphique avec des dimensions spécifiques
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// Définir la limite pour l' objet Graph
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// Ajoutez l' objet graphique à la page
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// Créer un objet rectangulaire avec des dimensions spécifiques
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// Créer un objet graphique pour le rectangle
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// Définir les informations de couleur pour l' instance GraphInfo
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// Ajoutez la forme du rectangle au graphique
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// Définir le chemin du fichier de sortie pour enregistrer le document
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// Message de confirmation
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

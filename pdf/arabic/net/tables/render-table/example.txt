@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند PDF مع الجداول باستخدام Aspose.Pdf. يحدد الحافة، ويضيف الجداول اثنين على صفحات مختلفة، ويخزن المستند إلى مسار محدد.
+//ExStepSummary:0: هذه الخطوة تحدد دليل الخروج لملف PDF.
+//ExStepSummary:1: هذه الخطوة تبدأ في تشغيل كائن وثيقة جديد وتستعيد المعلومات الصفحة لتعديل إعدادات الصفحة.
+//ExStepSummary:2: هذه الخطوة تحدد هامش الصفحة وتغير اتجاه الصفحة إلى وضع المشهد.
+//ExStepSummary:3: هذه الخطوة تخلق كائن جدول جديد وتحدد عرض العمود.
+//ExStepSummary:4: هذه الخطوة تضيف صفحة جديدة إلى الوثيقة وتدخل جدولًا يضم 120 سطرًا، وتحدد ارتفاع الصف الثابت وإضافة محتوى لكل خلية.
+//ExStepSummary:5: هذه الخطوة تضيف الجدول الأول إلى مجموعة الفقرات في الصفحة الحالية.
+//ExStepSummary:6: هذه الخطوة تخلق جدولًا آخر بعرض عمود مختلفًا وتضيف 10 صفات مع محتوى محدد.
+//ExStepSummary:7: هذه الخطوة تعيين الجدول الثاني لظهور على صفحة جديدة وتضيفه إلى الوثيقة.
+//ExStepSummary:8: هذه الخطوة تخفي مستند PDF إلى المسار المحدد وتخرج رسالة نجاح.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// تحديد المسار إلى دليل الوثائق.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// قم بإنشاء كائن وثيقة جديد
+Document doc = new Document();
+// احصل على المعلومات الصفحة من الوثيقة.
+PageInfo pageInfo = doc.PageInfo;
+// الوصول إلى إعدادات الهامش في الصفحة.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// حدد الحد الأيسر إلى 37 وحدة
+marginInfo.Left = 37;
+// حدد الحد الأيمن إلى 37 وحدة
+marginInfo.Right = 37;
+// حدد الحد الأقصى إلى 37 وحدة
+marginInfo.Top = 37; 
+// حدد الحد الأدنى إلى 37 وحدة
+marginInfo.Bottom = 37;
+// حدد توجيه الصفحة إلى المناظر الطبيعية.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// إنشاء كائن طاولة جديد.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// حدد عرض العمود في الجدول.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// إضافة صفحة جديدة إلى الوثيقة.
+Page curPage = doc.Pages.Add();
+// حلقة لإضافة 120 صف على الطاولة الأولى.
+for (int i = 1; i <= 120; i++)
+{
+	// إخلق صف جديد
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// حدد الارتفاع الثابت للصف
+    row.FixedRowHeight = 15; 
+    // إنشأ الخلية الأولى على التوالي
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// إضافة متنFragment إلى الخلية الأولى.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // إنشاء الخلية الثانية على التوالي.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// إضافة متنFragment إلى الخلية الثانية.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// الوصول إلى مجموعة الفقرات من الصفحة الحالية.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// إضافة الجدول الأول إلى الصفحة الحالية.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// إخلق كائن آخر من الطاولة
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// حدد عرض العمود في الجدول الثاني.
+table1.ColumnWidths = "100 100";
+// حلقة لإضافة 10 صفوف إلى الجدول الثاني. 
+for (int i = 1; i <= 10; i++) 
+{
+	// إخلق صف جديد للجدول1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// إنشأ الخلية الأولى على التوالي
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// إضافة متنFragment إلى الخلية الأولى.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // إنشاء الخلية الثانية على التوالي.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// إضافة متنFragment إلى الخلية الثانية.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// حدد الخصائص لوضع الطاولة الثانية على صفحة جديدة.
+table1.IsInNewPage = true; 
+// الخطوة 7
+// إضافة الجدول الثاني إلى الفقرات في الصفحة الحالية.
+paragraphs.Add(table1); 
+// حدد مسار الملف المخرج
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// حفظ الوثيقة إلى المسار المحدد.
+doc.Save(dataDir); 
+// الخطوة الثامنة:
+// رسالة نجاح
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

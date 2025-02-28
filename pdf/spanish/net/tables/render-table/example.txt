@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryEste código muestra cómo crear un documento PDF con tablas usando Aspose.Pdf. Establece márgenes, agrega dos tablas en páginas diferentes y guarda el documento en un camino especificado.
+//ExStepSummary:0: Este paso establece el directorio de salida del archivo PDF.
+//ExStepSummary:1: Este paso inicializa un nuevo objeto de Documento y recupera la PáginaInfo para modificar la configuración de la página.
+//ExStepSummary:2: Este paso establece los márgenes de la página y cambia la orientación de la página al modo paisaje.
+//ExStepSummary:3: Este paso crea un nuevo objeto de tabla y define los anchos de columna.
+//ExStepSummary:4: Este paso añade una nueva página al documento e inserta una tabla con 120 filas, fijando la altura de fila fija y añadiendo contenido a cada célula.
+//ExStepSummary:5: Este paso añade la primera tabla a la colección de párrafos de la página actual.
+//ExStepSummary:6: Este paso crea otra tabla con diferentes anchos de columna y agrega 10 filas con contenido especificado.
+//ExStepSummary:7: Este paso establece que la segunda tabla aparezca en una nueva página y se añade al documento.
+//ExStepSummary:8: Este paso guarda el documento PDF en el camino especificado y emite un mensaje de éxito.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Especifique el camino al directorio de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Crear un nuevo objeto de Documento.
+Document doc = new Document();
+// Obtenga la página de información del documento.
+PageInfo pageInfo = doc.PageInfo;
+// Acceda a las configuraciones de margen de la página.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Establezca el margen izquierdo a 37 unidades.
+marginInfo.Left = 37;
+// Establezca el margen derecho a 37 unidades.
+marginInfo.Right = 37;
+// Establezca el margen máximo a 37 unidades.
+marginInfo.Top = 37; 
+// Establezca el margen inferior a 37 unidades.
+marginInfo.Bottom = 37;
+// Establezca la orientación de la página en paisaje.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Crear un nuevo objeto de mesa.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Definir los anchos de las columnas de la tabla.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Añadir una nueva página al documento.
+Page curPage = doc.Pages.Add();
+// Bucle para agregar 120 filas a la primera mesa.
+for (int i = 1; i <= 120; i++)
+{
+	// Crear una nueva fila.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Establezca la altura fija para la fila.
+    row.FixedRowHeight = 15; 
+    // Crear la primera célula en la fila.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Añadir un fragmento de texto a la primera célula.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Crear la segunda célula en la fila.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Añadir un fragmento de texto a la segunda célula.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Accede a la colección de párrafos de la página actual.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Añadir la primera tabla a la página actual.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Crear otro objeto de la mesa.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Definir los anchos de las columnas de la segunda tabla.
+table1.ColumnWidths = "100 100";
+// Bucle para agregar 10 filas a la segunda tabla. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Crear una nueva fila para la tabla 1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Crear la primera célula en la fila.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Añadir un fragmento de texto a la primera célula.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Crear la segunda célula en la fila.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Añadir un fragmento de texto a la segunda célula.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Establezca la propiedad para poner la segunda mesa en una nueva página.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// Añadir la segunda tabla a los párrafos de la página actual.
+paragraphs.Add(table1); 
+// Defina la ruta del archivo de salida.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Guarde el documento en el camino especificado.
+doc.Save(dataDir); 
+// ExStep: 8-
+// El mensaje de éxito de salida.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

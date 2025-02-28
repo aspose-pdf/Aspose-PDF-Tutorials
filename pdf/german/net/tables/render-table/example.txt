@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit Tabellen mit Aspose.Pdf erstellt. Es setzt Margen, fügt zwei Tabellen auf verschiedenen Seiten hinzu und speichert das Dokument auf einen bestimmten Weg.
+//ExStepSummary:0: Dieser Schritt setzt das Ausgangsverzeichnis für die PDF-Datei.
+//ExStepSummary:1: Dieser Schritt initialisiert ein neues Dokumentobjekt und holt die PageInfo ab, um die Seiteinstellungen zu ändern.
+//ExStepSummary:2: Dieser Schritt setzt die Seitenmargen und ändert die Seitenorientierung in den Landscape-Modus.
+//ExStepSummary:3: Dieser Schritt erstellt ein neues Tabellenobjekt und definiert Spaltenbreiten.
+//ExStepSummary:4: In diesem Schritt wird der Dokument eine neue Seite hinzugefügt und eine Tabelle mit 120 Zeilen eingefügt, die die Feste Zeilenhöhe festlegt und Inhalte in jede Zelle hinzufügt.
+//ExStepSummary:5: Dieser Schritt fügt die erste Tabelle der Absätze der aktuellen Seite hinzu.
+//ExStepSummary:6: Dieser Schritt erstellt eine weitere Tabelle mit unterschiedlichen Spaltenbreiten und fügt 10 Zeilen mit spezifiziertem Inhalt hinzu.
+//ExStepSummary:7: Dieser Schritt stellt die zweite Tabelle auf einer neuen Seite und fügt sie dem Dokument hinzu.
+//ExStepSummary:8: Dieser Schritt speichert das PDF-Dokument auf den angegebenen Weg und liefert eine Erfolgsmeldung.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Geben Sie den Weg zum Dokumentenverzeichnis an.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Erstellen Sie ein neues Dokumentobjekt.
+Document doc = new Document();
+// Holen Sie sich die PageInfo des Dokuments.
+PageInfo pageInfo = doc.PageInfo;
+// Geben Sie auf die Margin-Einstellungen der Seite zugreifen.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Setzen Sie die linke Marge auf 37 Einheiten.
+marginInfo.Left = 37;
+// Setzen Sie die rechten Grenzen auf 37 Einheiten.
+marginInfo.Right = 37;
+// Setzen Sie die oberste Marge auf 37 Einheiten.
+marginInfo.Top = 37; 
+// Setzen Sie die unteren Grenzen auf 37 Einheiten.
+marginInfo.Bottom = 37;
+// Setzen Sie die Seite-Orientierung auf Landschaft.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Erstellen Sie ein neues Tischobjekt.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Definieren Sie die Breiten für die Spalten in der Tabelle.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Fügen Sie dem Dokument eine neue Seite hinzu.
+Page curPage = doc.Pages.Add();
+// Schleife, um 120 Zeilen zu dem ersten Tisch hinzuzufügen.
+for (int i = 1; i <= 120; i++)
+{
+	// Erstellen Sie eine neue Reihe.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Setzen Sie die feste Höhe für die Reihe.
+    row.FixedRowHeight = 15; 
+    // Erstellen Sie die erste Zelle in der Reihe.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Fügen Sie ein Textfragment zur ersten Zelle hinzu.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Erstellen Sie die zweite Zelle in der Reihe.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Fügen Sie ein Textfragment in die zweite Zelle hinzu.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Zugriff auf die Absätze-Sammlung der aktuellen Seite.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Fügen Sie die erste Tabelle zur aktuellen Seite hinzu.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Erstellen Sie ein anderes Tischobjekt.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Definieren Sie die Breiten für die Spalten in der zweiten Tabelle.
+table1.ColumnWidths = "100 100";
+// Schleife, um 10 Reihen zu dem zweiten Tisch hinzuzufügen. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Erstellen Sie eine neue Zeile für Tabelle 1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Erstellen Sie die erste Zelle in der Reihe.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Fügen Sie ein Textfragment zur ersten Zelle hinzu.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Erstellen Sie die zweite Zelle in der Reihe.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Fügen Sie ein Textfragment in die zweite Zelle hinzu.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Setzen Sie die Eigenschaft, um den zweiten Tisch auf eine neue Seite zu setzen.
+table1.IsInNewPage = true; 
+// Ausstep:7-
+// Hinzufügen der zweiten Tabelle zu den Absätzen der aktuellen Seite.
+paragraphs.Add(table1); 
+// Definieren Sie den Ausgangsdateiweg.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Speichern Sie das Dokument auf dem angegebenen Pfad.
+doc.Save(dataDir); 
+// ExStep:8-
+// Erfolgsschreiben.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

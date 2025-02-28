@@ -1,0 +1,101 @@
+//ExStart
+//ExSummaryBu kod, Aspose.Pdf kullanarak tablolarla bir PDF belgesini nasıl oluşturulacağını gösterir. Marjiler belirler, farklı sayfalarda iki tablo ekler ve belgeyi belirtilen bir yolda kaydeder.
+//ExStepSummary:0: Bu adım PDF dosyası için çıkış dizini ayarlar.
+//ExStepSummary:1: Bu adım yeni bir Belge nesnesini initialize eder ve sayfa ayarlarını değiştirmek için PageInfo'yu alır.
+//ExStepSummary:2: Bu adım sayfa kenarlarını belirler ve sayfa yönelimini manzara moduna değiştirir.
+//ExStepSummary:3: Bu adım yeni bir tablo nesnesini oluşturur ve sütun genişliklerini tanımlar.
+//ExStepSummary:4: Bu adım belgeye yeni bir sayfa ekler ve her hücreye sabit satır yüksekliğini belirleyen 120 satırlık bir tablo ekler.
+//ExStepSummary:5: Bu adım, mevcut sayfanın paragraf koleksiyonuna ilk tablo ekler.
+//ExStepSummary:6: Bu adım, farklı sütun genişliğine sahip başka bir tablo oluşturur ve belirtilen içeriğe sahip 10 satır ekler.
+//ExStepSummary:7: Bu adım, ikinci tabloyu yeni bir sayfada gösterir ve belgeye ekler.
+//ExStepSummary:8: Bu adım, PDF belgesini belirtilen yoluna kaydetir ve bir başarı mesajı çıkarır.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// Belgeler dizinine giden yolu belirtin.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir Belge nesnesi oluşturun.
+Document doc = new Document();
+// Belgenin sayfa bilgilerini alın.
+PageInfo pageInfo = doc.PageInfo;
+// Sayfanın kenarlık ayarlarına erişin.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Sol kenarlık 37 birime ayarlayın.
+marginInfo.Left = 37;
+// Sağ kenarını 37 birime ayarlayın.
+marginInfo.Right = 37;
+// En üst marjı 37 birime ayarlayın.
+marginInfo.Top = 37; 
+// Alt kenarı 37 birime ayarlayın.
+marginInfo.Bottom = 37;
+// Sayfa yönünü manzara olarak ayarlayın.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Yeni bir masa nesnesi oluşturun.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Tablodaki sütunların genişliklerini tanımlayın.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Belgeye yeni bir sayfa ekleyin.
+Page curPage = doc.Pages.Add();
+// İlk masaya 120 satır eklemek için döngü.
+for (int i = 1; i <= 120; i++)
+{
+	// Yeni bir sıra oluşturun.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Satır için sabit yüksekliği ayarlayın.
+    row.FixedRowHeight = 15; 
+    // Bir dizi ilk hücreyi oluşturun.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// İlk hücreye bir TextFragment ekleyin.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Sıradan ikinci hücre oluşturun.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// İkinci hücreye bir Metin Fragmanı ekleyin.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Geçerli sayfanın paragraf koleksiyonuna eriş.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// İlk tabloyu mevcut sayfaya ekleyin.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Başka bir masa nesnesi oluşturun.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// İkinci tabloda sütunların genişliklerini tanımlayın.
+table1.ColumnWidths = "100 100";
+// İkinci masaya 10 satır eklemek için döngü. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Masa 1 için yeni bir satır oluşturun.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Bir dizi ilk hücreyi oluşturun.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// İlk hücreye bir TextFragment ekleyin.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Sıradan ikinci hücre oluşturun.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// İkinci hücreye bir Metin Fragmanı ekleyin.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// İkinci masayı yeni bir sayfaya koymak için özelliği ayarlayın.
+table1.IsInNewPage = true; 
+// Çekilme:7-
+// İkinci tabloyu mevcut sayfanın paragraflarına ekleyin.
+paragraphs.Add(table1); 
+// Çıktı dosya yolu tanımlayın.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Belgeyi belirtilen yolda kaydet.
+doc.Save(dataDir); 
+// ExStep: 8-
+// Çıktıran başarıyla mesaj.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

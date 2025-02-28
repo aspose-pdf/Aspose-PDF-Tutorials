@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF menggunakan Aspose.PDF, menambahkan tabel dengan gaya perbatasan tertentu, dan menerapkan paginasi setelah sejumlah baris tertentu.
+//ExStepSummary:0: Langkah ini menginisialisasi dokumen dan menambahkan halaman ke dalamnya.
+//ExStepSummary:1: Langkah ini membuat contoh tabel dan menetapkan gaya batasnya.
+//ExStepSummary:2: Langkah ini menentukan lebar kolom untuk tabel.
+//ExStepSummary:3: Langkah ini menambahkan 200 baris ke tabel, dengan setiap baris berisi dua sel.
+//ExStepSummary:4: Langkah ini memeriksa apakah 10 baris telah ditambahkan dan pindah ke halaman baru jika demikian.
+//ExStepSummary:5: Langkah ini menambahkan tabel yang selesai ke halaman dokumen PDF dan menyimpannya.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+
+// Instansi Dokumen instan
+Document doc = new Document();
+
+// Tambahkan halaman ke halaman koleksi file PDF
+doc.Pages.Add();
+
+//ExStep:1-
+// Buat contoh tabel
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Setelan gaya batas untuk meja
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Setelan gaya batas standar untuk tabel dengan warna batas sebagai Merah
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Tentukan lebar kolom tabel (2 kolom, masing-masing 100 unit)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Buat loop untuk menambahkan 200 baris untuk tabel
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Buat baris baru
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Tambahkan baris ke tabel
+    tab.Rows.Add(row); 
+
+    // Buat sel pertama dan tambahkan teks
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Tambahkan fragmen teks ke sel pertama	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Tambahkan sel pertama ke baris
+    row.Cells.Add(cell1); 
+
+    // Buat sel kedua dan tambahkan teks
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Tambahkan fragmen teks ke sel kedua	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Tambahkan sel kedua ke baris
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Ketika 10 baris ditambahkan, render baris baru di halaman baru
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Tambahkan tabel ke koleksi paragraf halaman pertama
+doc.Pages[1].Paragraphs.Add(tab); 
+// Tentukan jalur file output
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Simpan dokumen PDF
+doc.Save(dataDir); 
+// Pesan konfirmasi
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

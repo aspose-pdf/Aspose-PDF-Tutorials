@@ -1,0 +1,74 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit Aspose.PDF erstellt, eine Tabelle mit bestimmten Grenzstilen hinzufügt und die Paginierung nach einer bestimmten Anzahl von Zeilen implementiert.
+//ExStepSummary:0: Dieser Schritt initialisiert das Dokument und fügt ihm eine Seite hinzu.
+//ExStepSummary:1: Dieser Schritt erstellt eine Tabelleninstance und setzt die Grenzstile fest.
+//ExStepSummary:2: In diesem Schritt werden die Spaltenbreiten für die Tabelle angegeben.
+//ExStepSummary:3: Dieser Schritt fügt 200 Zeilen zur Tabelle hinzu, wobei jede Zeile zwei Zellen enthält.
+//ExStepSummary:4: Dieser Schritt überprüft, ob 10 Zeilen hinzugefügt wurden und zieht auf eine neue Seite.
+//ExStepSummary:5: Dieser Schritt fügt die ausgefüllte Tabelle auf die Seite des PDF-Dokuments hinzu und speichert sie.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// Der Weg zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+
+// Instanz Dokument Instanz
+Document doc = new Document();
+
+// Hinzufügen von Seite zu Seite Sammlung von PDF-Datei
+doc.Pages.Add();
+
+//ExStep:1-
+// Erstellen Sie eine Tabelleninstance
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Setzen Sie den Grenz-Stil für den Tisch
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Setzen Sie Standard-Rand-Stil für Tabellen mit Grenzfarbe als Rot
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Kennzeichnung der Spalten in der Tabelle (2 Spalten, jeweils 100 Einheiten)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Erstellen Sie eine Schleife, um 200 Zeilen für die Tabelle hinzuzufügen
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Erstellen Sie eine neue Zeile
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Fügen Sie die Zeile zum Tisch hinzu
+    tab.Rows.Add(row); 
+
+    // Erstellen Sie die erste Zelle und fügen Sie Text hinzu
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Textfragment in die erste Zelle hinzufügen	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Fügen Sie die erste Zelle zur Zeile hinzu
+    row.Cells.Add(cell1); 
+
+    // Erstellen Sie eine zweite Zelle und fügen Sie Text hinzu
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Textfragment in zweite Zelle hinzufügen	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Fügen Sie die zweite Zelle zur Zeile hinzu
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // Wenn 10 Zeilen hinzugefügt werden, geben Sie eine neue Zeile in einer neuen Seite
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Hinzufügen von Tabellen zu den Absätzen der ersten Seite
+doc.Pages[1].Paragraphs.Add(tab); 
+// Definieren Sie den Ausgangsdatei-Pfad
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Speichern Sie das PDF-Dokument
+doc.Save(dataDir); 
+// Bestätigungsnachricht
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

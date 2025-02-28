@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách lấy hình ảnh từ tài liệu PDF và lưu nó như một tệp JPEG trong khi cũng lưu PDF cập nhật.
+//ExStepSummary:0: Mã sau đây khởi tạo con đường đến thư mục tài liệu.
+//ExStepSummary:1: Mã sau đây mở tài liệu PDF mà các hình ảnh sẽ được trích xuất.
+//ExStepSummary:2: Mã sau này lấy một hình ảnh cụ thể từ tài liệu PDF.
+//ExStepSummary:3: Mã sau lưu hình ảnh thu được vào tệp đầu ra được chỉ định.
+//ExStepSummary:4: Mã sau đây cập nhật tệp PDF gốc và lưu nó vào một con đường mới.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// Cụ thể thư mục chứa file PDF
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Mở tài liệu PDF để lấy hình ảnh
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// Tạo ra hình ảnh đầu tiên từ trang thứ hai của PDF
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// Tạo một dòng để lưu hình ảnh được trích xuất
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// Cung cấp hình ảnh đầu ra
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// Đóng dòng tập tin để giải phóng tài nguyên
+outputImage.Close();
+
+//ExStep:4-
+// Cập nhật đường dẫn cho phiên bản mới của PDF
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// Cung cấp tập tin PDF cập nhật
+pdfDocument.Save(dataDir);
+// Ti xác nhận việc khai thác và lưu tập tin thành công
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

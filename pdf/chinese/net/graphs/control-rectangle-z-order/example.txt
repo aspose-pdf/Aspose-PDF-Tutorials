@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: 这代码展示如何创建一个PDF文档,添加不同颜色和Z指数的矩形,并保存文档.
+//ExStepSummary:0: 这个步骤定义了PDF文件输出目录,并将新的文档对象插图,并添加一个具有指定尺寸的新页面.
+//ExStepSummary:1: 这个步骤设置了新创建页面的页面大小和边缘.
+//ExStepSummary:2: 这一步在指定坐标上添加一个红色矩形,Z指数为 2,确保它在其他形状上出现.
+//ExStepSummary:3: 这一步在指定坐标上添加一个蓝色矩形,Z指数为1,确保它在红色矩形下面,但在其他位置上出现.
+//ExStepSummary:4: 这一步在指定坐标上添加一个绿色矩形,Z指数为0,确保它出现在Z顺序的底部.
+//ExStepSummary:5: 输出文件的路径将文件保存到指定输出文件路径.
+//ExStepSummary:6: 这一步定义了将对添加矩形到PDF页面的逻辑进行包装的方法,包括设置它们的属性和Z-索引.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 定义文件目录
+string dataDir = "Your Document Directory";
+
+// 实时文档类对象
+Document doc1 = new Document();
+
+// 添加一个新的页面
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// 设置页面大小
+page1.SetPageSize(375, 300);
+
+// 设置页面边缘为0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// 添加一个红色矩形,Z指数2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// 添加一个蓝色矩形,Z指数1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// 添加一个绿色矩形,Z指数为0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// 保存PDF文件
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// 添加矩形到PDF页面的方法
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // 创建与矩形相同的图形对象
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // 防止图形位置自动变化
+    graph.IsChangePosition = false;
+    
+    // 设置图形位置
+    graph.Left = x;
+    graph.Top = y;
+    
+    // 创建图形内部的矩形
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // 设置矩形填充和边框颜色
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // 添加矩形到图形形组
+    graph.Shapes.Add(rect);
+    
+    // 设置图对象的Z指数
+    graph.ZIndex = zindex;
+    
+    // 添加图表到页面
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

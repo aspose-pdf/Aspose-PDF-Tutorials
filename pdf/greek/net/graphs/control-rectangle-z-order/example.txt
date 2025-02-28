@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε ορθογώνια με διαφορετικά χρώματα και Z-δείκτες, και να αποθηκεύσετε το έγγραφο.
+//ExStepSummary:0: Αυτό το βήμα ορίζει τον κατάλογο εξόδου για το έγγραφο PDF και αναγράφει ένα νέο αντικείμενο εγγράφου και προσθέτει μια νέα σελίδα με καθορισμένες διαστάσεις.
+//ExStepSummary:1: Αυτό το βήμα καθορίζει το μέγεθος της σελίδας και το περιθώριο για τη νέα δημιουργία σελίδας.
+//ExStepSummary:2: Αυτό το βήμα προσθέτει ένα κόκκινο ορθογώνιο σε καθορισμένες συντεταγμένες με δείκτη Z του 2, εξασφαλίζοντας ότι εμφανίζεται πάνω από άλλα σχήματα.
+//ExStepSummary:3: Αυτό το βήμα προσθέτει ένα μπλε ορθογώνιο σε καθορισμένες συντεταγμένες με δείκτη Z του 1, εξασφαλίζοντας ότι εμφανίζεται κάτω από το κόκκινο ορθογώνιο αλλά πάνω από άλλους.
+//ExStepSummary:4: Το βήμα αυτό προσθέτει ένα πράσινο ορθογώνιο σε καθορισμένες συντεταγμένες με δείκτη Z 0, εξασφαλίζοντας ότι εμφανίζεται στο κάτω μέρος της σειράς Z.
+//ExStepSummary:5: Αυτό το βήμα αποθηκεύει το έγγραφο PDF στην καθορισμένη διαδρομή αρχείου εξόδου.
+//ExStepSummary:6: Αυτό το βήμα καθορίζει μια μέθοδο για την περιγραφή της λογικής για την προσθήκη ορθογώνων στη σελίδα PDF, συμπεριλαμβανομένης της ρύθμισης των ιδιοτήτων τους και του Z-index.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Ορίστε το κατάλογο εγγράφων
+string dataDir = "Your Document Directory";
+
+// Εντοπικό αντικείμενο κατηγορίας εγγράφου
+Document doc1 = new Document();
+
+// Προσθήκη νέας σελίδας στο έγγραφο
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Εγκαταστήστε το μέγεθος της σελίδας
+page1.SetPageSize(375, 300);
+
+// Εγκαταστήστε περιθώρια σελίδας σε 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Προσθέστε ένα κόκκινο ορθογώνιο με δείκτη Z 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Προσθέστε ένα μπλε ορθογώνιο με δείκτη Z 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Προσθέστε ένα πράσινο ορθογώνιο με δείκτη Z 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Κράτησε το έγγραφο PDF
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// Μέθοδος προσθήκης ορθογώνου στη σελίδα PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Δημιουργήστε ένα αντικείμενο γραφής με τις ίδιες διαστάσεις με το ορθογώνιο
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Αποτρέψτε την αυτομάτως αλλαγή της θέσης του γραφείου
+    graph.IsChangePosition = false;
+    
+    // Εγκατάσταση του γραφείου
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Δημιουργήστε ένα ορθογώνιο μέσα στο γραφήμα
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Ρυθμίστε την πληρότητα του ορθογώνου και το χρώμα της άκρης
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Προσθέστε ορθογώνιο στη συλλογή μορφών γραφήματος
+    graph.Shapes.Add(rect);
+    
+    // Εγκαταστήστε δείκτη Z για το αντικείμενο του γραφήματος
+    graph.ZIndex = zindex;
+    
+    // Προσθέστε γραφή στη σελίδα
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

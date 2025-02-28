@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: このコードは,その中の画像を圧縮してサイズ変更することで,PDF文書を最適化する方法を示します.
+//ExStepSummary:0: 次のコードは,現在の時間を初期化し,ドキュメントディレクトリ経路を設定します.
+//ExStepSummary:1: 次のコードは,処理のために指定されたPDF文書を開きます.
+//ExStepSummary:2: 次のコードは,PDFの最適化オプションを初期化します.
+//ExStepSummary:3: 次のコードは,圧縮と品質を含む画像圧縮設定を構成します.
+//ExStepSummary:4: 次のコードは,PDF文書に最適化オプションを適用します.
+//ExStepSummary:5: 次のコードは,最適化されたPDF文書を新しいファイルに保存します.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 時間 を 初期化 する
+var time = DateTime.Now.Ticks;
+// 文書の目録への道
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 公開文書
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// 最適化オプションを初期化する
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// 圧縮画像のオプションを設定
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// 画像品質のオプションを設定 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// サイズ変更画像のオプションを設定
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// MaxResolution オプションを設定
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// OptimizationOptions を使用してPDFドキュメントを最適化する
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// 出力ファイルのデータディレクトリを更新する
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// 更新された文書を保存する
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// ユーザに成功を知らせる
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

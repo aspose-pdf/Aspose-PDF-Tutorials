@@ -1,0 +1,51 @@
+//ExStart
+//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit einer Tabelle erstellt. Die Tabelle wird auf der zweiten Seite eines vorhandenen PDF-Dokumentes hinzugefügt und enthält eine bestimmte Anzahl von Zeilen- und Spaltendaten.
+//ExStepSummary:0: Dieser Schritt initialisiert den Dateipfad für das PDF-Dokument, das verarbeitet werden soll.
+//ExStepSummary:1: Dieser Schritt lädt das vorhandene PDF-Dokument aus dem angegebenen Verzeichnis ein.
+//ExStepSummary:2: Dieser Schritt erstellt eine neue Tabelleninstance und setzt ihre Grenzwerte fest.
+//ExStepSummary:3: Dieser Schritt initialisiert die Schleife, um mehrere Zeilen in die Tabelle hinzuzufügen und jede mit Zelldaten zu bevölkern.
+//ExStepSummary:4: Dieser Schritt fügt die erstellte Tabelle auf die erste Seite des PDF- Dokuments ein.
+//ExStepSummary:5: Dieser Schritt speichert das aktualisierte PDF-Dokument mit der neu hinzugefügten Tabelle auf einen angegebenen Ausgangsweg.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Festlegen Sie den Weg für Dokumente
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Laden Sie das Quell-PDF-Dokument
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Ein neues Beispiel der Tabelle initialisieren
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Setzen Sie die Tischrandfarbe auf LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Festlegen Sie die Grenze für Tischzellen
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Schleife, um 10 Reihen hinzuzufügen
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Fügen Sie eine neue Zeile zum Tisch hinzu
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Fügen Sie die erste Zelle in der Reihe hinzu
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Fügen Sie die zweite Zelle in der Reihe hinzu
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Fügen Sie die dritte Zelle in der Reihe hinzu
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Fügen Sie das Tabellenobjekt auf der ersten Seite des Eingabedokumentes hinzu
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Definieren Sie den Ausgangsdatei-Pfad für das aktualisierte Dokument
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Speichern Sie das aktualisierte Dokument mit der Tabelle
+doc.Save(dataDir); 
+// Informieren Sie den Benutzer über die erfolgreiche Operation
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

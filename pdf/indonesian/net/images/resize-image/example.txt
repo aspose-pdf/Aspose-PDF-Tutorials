@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara mengoptimalkan dokumen PDF dengan mengkompres dan mengubah ukuran gambar di dalamnya.
+//ExStepSummary:0: Kode berikut ini menginisialisasi waktu saat ini dan menetapkan jalur direktori dokumen.
+//ExStepSummary:1: Kode berikut membuka dokumen PDF yang ditentukan untuk diproses.
+//ExStepSummary:2: Kode berikut ini menginisialisasikan opsi optimasi untuk PDF.
+//ExStepSummary:3: Kode berikut mengkonfigurasi pengaturan kompresi gambar, termasuk kompresi dan kualitas.
+//ExStepSummary:4: Kode berikut menerapkan opsi optimasi untuk dokumen PDF.
+//ExStepSummary:5: Kode berikut menyimpan dokumen PDF yang dioptimalkan ke file baru.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Mulai Waktu
+var time = DateTime.Now.Ticks;
+// Jalan menuju direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Dokumen terbuka
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// Inisialisasikan OptimasiOptions
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// Set Opsi CompressImages
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// Set Opsi ImageQuality 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// Set Opsi ResizeImage
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// Set Opsi MaxResolution
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// Optimalkan dokumen PDF menggunakan OptimizationOptions
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// Update direktori data untuk file output
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// Simpan dokumen yang diperbarui
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// Menginformasikan pengguna tentang keberhasilan
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

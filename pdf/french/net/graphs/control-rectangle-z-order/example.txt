@@ -1,0 +1,78 @@
+//ExStart
+//ExSummaryCe code montre comment créer un document PDF, ajouter des rectangles avec différentes couleurs et Z-indices, et enregistrer le document.
+//ExStepSummary:0: Cette étape définit le répertoire de sortie du document PDF et installe un nouvel objet Document et ajoute une nouvelle page avec des dimensions spécifiées.
+//ExStepSummary:1: Cette étape définit la taille et la marge de la page nouvellement créée.
+//ExStepSummary:2: Cette étape ajoute un rectangle rouge à des coordonnées précisées avec un Z-index de 2, en veillant à ce qu'il apparaisse au-dessus d'autres formes.
+//ExStepSummary:3: Cette étape ajoute un rectangle bleu à des coordonnées précisées avec un Z-index de 1, ce qui garantit qu'il apparaît en dessous du rectangle rouge mais au-dessus des autres.
+//ExStepSummary:4: Cette étape ajoute un rectangle vert aux coordonnées spécifiées avec un Z-index de 0, en veillant à ce qu'il apparaisse au bas de l'ordre Z.
+//ExStepSummary:5: Cette étape sauvegarde le document PDF sur le chemin du fichier de sortie spécifié.
+//ExStepSummary:6: Cette étape définit une méthode pour encapsuler la logique pour ajouter des rectangles à la page PDF, y compris la définition de leurs propriétés et de leur Z-index.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Définir le répertoire de documents
+string dataDir = "Your Document Directory";
+
+// Objet de classe Document instantané
+Document doc1 = new Document();
+
+// Ajouter une nouvelle page au document
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// Taille de page définie
+page1.SetPageSize(375, 300);
+
+// Définir les marges de page à 0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Ajouter un rectangle rouge avec Z-index 2
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Ajouter un rectangle bleu avec Z-index 1
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Ajouter un rectangle vert avec Z-index 0
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// Enregistrer le document PDF
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// Méthode pour ajouter un rectangle à la page PDF
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // Créer un objet graphique avec les mêmes dimensions que le rectangle
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // Éviter que la position du graphique ne change automatiquement
+    graph.IsChangePosition = false;
+    
+    // Position du graphique
+    graph.Left = x;
+    graph.Top = y;
+    
+    // Créer un rectangle à l'intérieur du graphique
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // Réglez la couleur de remplissage et de bordure du rectangle
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // Ajouter le rectangle à la collection de formes de graphique
+    graph.Shapes.Add(rect);
+    
+    // Définir l'index Z de l'objet du graphique
+    graph.ZIndex = zindex;
+    
+    // Ajouter un graphique à la page
+    page.Paragraphs.Add(graph);
+}
+//ExEnd
