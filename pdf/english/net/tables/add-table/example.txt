@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document with a table. The table is added to the second page of an existing PDF document, and includes a specified number of rows and column data.
+//ExStepSummary:0: This step initializes the file path for the PDF document to be processed.
+//ExStepSummary:1: This step loads the existing PDF document from the specified directory.
+//ExStepSummary:2: This step creates a new table instance and sets its border properties.
+//ExStepSummary:3: This step initializes the loop to add multiple rows to the table, populating each with cell data.
+//ExStepSummary:4: This step appends the created table to the first page of the PDF document.
+//ExStepSummary:5: This step saves the updated PDF document with the newly added table to a specified output path.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Define the path for documents
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the source PDF document
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// Initialize a new instance of the Table
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Set the table border color to LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// Set the border for table cells
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// Loop to add 10 rows
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// Add a new row to the table
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// Add first cell in the row
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// Add second cell in the row
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Add third cell in the row
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// Add the table object to the first page of the input document
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// Define the output file path for the updated document
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// Save the updated document containing the table
+doc.Save(dataDir); 
+// Inform the user about the successful operation
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

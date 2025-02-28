@@ -40,7 +40,14 @@ Learn how to generate images from PDF files using Aspose.PDF for .NET. Convert P
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Comprehensive Tables Tutorials in Aspose.PDF for .NET](./net/tables/)
+Learn how to create, format, and manipulate tables in PDF documents using Aspose.PDF for .NET with step-by-step tutorials and code examples.
 
+{{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/insert-page-break/" title="Create a PDF with Tables and Pagination Using Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/render-table/" title="Create a PDF with Tables using Aspose.PDF for .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

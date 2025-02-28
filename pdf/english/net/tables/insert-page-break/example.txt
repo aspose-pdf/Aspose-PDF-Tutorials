@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document using Aspose.PDF, add a table with specific border styles, and implement pagination after a certain number of rows.
+//ExStepSummary:0: This step initializes the document and adds a page to it.
+//ExStepSummary:1: This step creates a table instance and sets its border styles.
+//ExStepSummary:2: This step specifies the column widths for the table.
+//ExStepSummary:3: This step adds 200 rows to the table, with each row containing two cells.
+//ExStepSummary:4: This step checks if 10 rows have been added and moves to a new page if so.
+//ExStepSummary:5: This step adds the completed table to the PDF document's page and saves it.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// The path to the documents directory
+string dataDir = "Your Document Directory";
+
+// Instantiate Document instance
+Document doc = new Document();
+
+// Add page to pages collection of PDF file
+doc.Pages.Add();
+
+//ExStep:1-
+// Create a table instance
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// Set border style for table
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// Set default border style for table with border color as Red
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// Specify table columns width (2 columns, each 100 units)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// Create a loop to add 200 rows for the table
+for (int counter = 0; counter <= 200; counter++)
+{
+	// Create a new row
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// Add the row to the table
+    tab.Rows.Add(row); 
+
+    // Create first cell and add text
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// Add text fragment to first cell	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// Add first cell to the row
+    row.Cells.Add(cell1); 
+
+    // Create second cell and add text
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// Add text fragment to second cell	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// Add second cell to the row
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // When 10 rows are added, render new row in new page
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// Add table to paragraphs collection of the first page
+doc.Pages[1].Paragraphs.Add(tab); 
+// Define the output file path
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// Save the PDF document
+doc.Save(dataDir); 
+// Confirmation message
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

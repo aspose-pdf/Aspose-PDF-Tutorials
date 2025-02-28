@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document with tables using Aspose.Pdf. It sets margins, adds two tables on different pages, and saves the document to a specified path.
+//ExStepSummary:0: This step sets the output directory for the PDF file.
+//ExStepSummary:1: This step initializes a new Document object and retrieves the PageInfo to modify page settings.
+//ExStepSummary:2: This step sets the page margins and changes the page orientation to landscape mode.
+//ExStepSummary:3: This step creates a new table object and defines column widths.
+//ExStepSummary:4: This step adds a new page to the document and inserts a table with 120 rows, setting fixed row height and adding content to each cell.
+//ExStepSummary:5: This step adds the first table to the current page's paragraph collection.
+//ExStepSummary:6: This step creates another table with different column widths and adds 10 rows with specified content.
+//ExStepSummary:7: This step sets the second table to appear on a new page and adds it to the document.
+//ExStepSummary:8: This step saves the PDF document to the specified path and outputs a success message.
+//ExStepImage:5: images/2.png
+//ExStepImage:7: images/3.png
+//ExStep:0-
+// Specify the path to the documents directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Create a new Document object.
+Document doc = new Document();
+// Get the PageInfo of the document.
+PageInfo pageInfo = doc.PageInfo;
+// Access the margin settings of the page.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// Set left margin to 37 units.
+marginInfo.Left = 37;
+// Set right margin to 37 units.
+marginInfo.Right = 37;
+// Set top margin to 37 units.
+marginInfo.Top = 37; 
+// Set bottom margin to 37 units.
+marginInfo.Bottom = 37;
+// Set the page orientation to landscape.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// Create a new table object.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Define the widths for the columns in the table.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// Add a new page to the document.
+Page curPage = doc.Pages.Add();
+// Loop to add 120 rows to the first table.
+for (int i = 1; i <= 120; i++)
+{
+	// Create a new row.
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Set the fixed height for the row.
+    row.FixedRowHeight = 15; 
+    // Create the first cell in the row.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Add a TextFragment to the first cell.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // Create the second cell in the row.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Add a TextFragment to the second cell.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// Access the paragraphs collection of the current page.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// Add the first table to the current page.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// Create another table object.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// Define the widths for the columns in the second table.
+table1.ColumnWidths = "100 100";
+// Loop to add 10 rows to the second table. 
+for (int i = 1; i <= 10; i++) 
+{
+	// Create a new row for table1.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// Create the first cell in the row.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// Add a TextFragment to the first cell.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // Create the second cell in the row.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// Add a TextFragment to the second cell.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// Set property to put the second table on a new page.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// Add the second table to the paragraphs of the current page.
+paragraphs.Add(table1); 
+// Define the output file path.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// Save the document to the specified path.
+doc.Save(dataDir); 
+// ExStep:8-
+// Output success message.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

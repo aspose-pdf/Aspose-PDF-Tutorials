@@ -15,7 +15,6 @@ Aspose.PDF for .NET Visual Tutorials provide comprehensive, step-by-step guides 
 
 Each tutorial covers essential aspects of working with PDFs in .NET, including text and image handling, form filling, annotations, security, and digital signatures. Whether you're a beginner or an experienced developer, these guides will enhance your skills and streamline your PDF development workflow.
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Creating Graphs in PDF using Aspose.PDF for .NET](./graphs/)
 Learn how to create and customize graphs in PDF using Aspose.PDF for .NET. Add line, bar, and pie charts effortlessly with C# code examples.
@@ -33,6 +32,14 @@ Learn how to generate images from PDF files using Aspose.PDF for .NET. Convert P
 {{< tutorial-card link="./images/resize-image/" title="Optimize PDF Images with Aspose.PDF for .NET" imgSrc="./images/resize-image/images/thumb.png" >}}
 {{< tutorial-card link="./images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./images/set-image-size/images/thumb.png" >}}
 {{< tutorial-card link="./images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./images/shrink-image/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Comprehensive Tables Tutorials in Aspose.PDF for .NET](./tables/)
+Learn how to create, format, and manipulate tables in PDF documents using Aspose.PDF for .NET with step-by-step tutorials and code examples.
+
+{{< tutorial-card link="./tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./tables/add-table/images/thumb.png" >}}
+{{< tutorial-card link="./tables/insert-page-break/" title="Create a PDF with Tables and Pagination Using Aspose.PDF" imgSrc="./tables/insert-page-break/images/thumb.png" >}}
+{{< tutorial-card link="./tables/render-table/" title="Create a PDF with Tables using Aspose.PDF for .NET" imgSrc="./tables/render-table/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
