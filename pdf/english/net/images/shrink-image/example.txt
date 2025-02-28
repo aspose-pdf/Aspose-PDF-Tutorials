@@ -8,7 +8,7 @@
 //ExStepSummary:5: This step optimizes the PDF document using the specified optimization options.
 //ExStepSummary:6: This step updates the path for the optimized PDF document.
 //ExStepSummary:7: This step saves the optimized PDF document to the specified path.
-//ExStepImage:5:images/shrink_image_1.png
+//ExStepImage:5:images/1.png
 
 //ExStep:0-
 // Path to the documents directory
