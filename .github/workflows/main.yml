@@ -26,7 +26,7 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: ./cells/
+        src_path: ./pdf/
         dst_path: /content/
         dst_owner: Aspose
         dst_repo_name: tutorials.aspose.com
