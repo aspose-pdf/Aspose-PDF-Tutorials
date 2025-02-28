@@ -10,7 +10,7 @@ url: /net/images/extract-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Extract Images from PDF in C# using Aspose.PDF
+# Extract Images from PDF in C# using Aspose.PDF
  
 Extracting images from a PDF document is a common requirement for many applications, whether for archiving, processing, or sharing. With [Aspose.PDF for .NET](https://docs.aspose.com/pdf/net/), you can easily extract images from a PDF and save them in various formats like JPEG. This tutorial provides a simple, step-by-step guide to extracting images from a PDF using C#. You’ll learn how to open a PDF, retrieve images, save them, and update the original PDF document. Follow along with the example code to seamlessly integrate this functionality into your .NET applications.
 
