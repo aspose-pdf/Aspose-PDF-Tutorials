@@ -10,7 +10,7 @@ url: /net/graphs/create-rectangle-with-alpha-color/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Create PDF with Rectangles & Alpha Colors in Aspose.PDF
+# Create PDF with Rectangles & Alpha Colors in Aspose.PDF
 
 Aspose.PDF for .NET is a powerful library for creating, manipulating, and converting PDF documents in C#. In this example, you'll learn how to create a PDF file and draw rectangles with alpha colors. We use the `Aspose.Pdf.Drawing.Graph` class to add shapes and apply transparency effects using ARGB colors. This tutorial provides a step-by-step guide with sample code, ensuring you can easily implement it in your .NET applications.  
 

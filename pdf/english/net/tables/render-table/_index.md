@@ -9,7 +9,9 @@ url: /net/tables/render-table/
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Create a PDF with Tables using Aspose.PDF
+
 Aspose.PDF for .NET allows developers to generate PDF documents programmatically with rich features like table creation, page formatting, and more. In this tutorial, you’ll learn how to create a PDF with tables, set margins, and insert multiple tables across different pages. Whether you need structured reports, invoices, or data tables, this guide will help you get started efficiently.  
 
 ---

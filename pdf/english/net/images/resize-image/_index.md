@@ -11,6 +11,7 @@ url: /net/images/resize-image/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Optimize PDF Images with Aspose.PDF
+
 This example demonstrates how to optimize a PDF document by compressing and resizing images within it using Aspose.PDF for .NET. By following the provided code, you can efficiently reduce the file size of your PDF documents while maintaining acceptable image quality. This is particularly useful for enhancing performance and reducing storage costs.
 
 ---
