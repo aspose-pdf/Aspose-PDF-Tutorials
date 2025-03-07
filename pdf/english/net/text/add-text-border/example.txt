@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document with a text fragment that has specific styling and a border.
+//ExStepSummary:0: The following code initializes the path for saving the PDF document.
+//ExStepSummary:1: The following code creates a new PDF document object.
+//ExStepSummary:2: The following code adds a new page to the PDF document.
+//ExStepSummary:3: The following code creates a text fragment with specified content and position.
+//ExStepSummary:4: The following code sets the properties of the text fragment, including font size and colors.
+//ExStepSummary:5: The following code enables the drawing of a border around the text rectangle.
+//ExStepSummary:6: The following code appends the text fragment to the PDF page using a TextBuilder.
+//ExStepSummary:7: The following code saves the PDF document to the specified directory.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Initialize the path to save the document
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Create a new PDF document object
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Add a new page to the PDF document
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Create a text fragment with the specified content
+TextFragment textFragment = new TextFragment("main text");
+// Set the position of the text fragment
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Set the font size of the text
+textFragment.TextState.FontSize = 12;
+// Set the font type
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Set the background color of the text
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Set the foreground color of the text
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Set the stroking color for the border
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Enable the drawing of the border around the text
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Create a TextBuilder object for the page
+TextBuilder tb = new TextBuilder(pdfPage);
+// Append the text fragment to the PDF page
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Save the document to the specified path
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

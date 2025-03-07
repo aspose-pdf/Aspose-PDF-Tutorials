@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: This code demonstrates how to work with multi-column paragraphs in a PDF document using Aspose.PDF. It loads a PDF, extracts paragraphs, and then modifies a setting to allow multi-column paragraphs before extracting paragraphs again to show the difference.
+//ExStepSummary:0: The following code shows how to specify the data directory where the PDF document is located.
+//ExStepSummary:1: The following code shows how to load the PDF document using the Document class.
+//ExStepSummary:2: The following code shows how to create a ParagraphAbsorber to extract paragraphs from the document.
+//ExStepSummary:3: The following code shows how to visit the document with the ParagraphAbsorber to populate its results.
+//ExStepSummary:4: The following code shows how to access the first page's markup and extract information about paragraphs before allowing multi-column paragraphs.
+//ExStepSummary:5: The following code shows how to enable multi-column paragraphs and then re-extract paragraph information to show the effect of the change.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Specify the data directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Load the PDF document.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Create a ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Visit the document to extract paragraphs.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Access the page markup.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Get the last paragraph from the third section.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Get the first paragraph from the second section.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Enable multi-column paragraphs.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Get the last paragraph from the third section after enabling multi-column paragraphs.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Get the first paragraph from the second section after enabling multi-column paragraphs.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

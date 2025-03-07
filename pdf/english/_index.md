@@ -47,6 +47,19 @@ Learn how to create, format, and manipulate tables in PDF documents using Aspose
 {{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
 {{< tutorial-card link="./net/tables/insert-page-break/" title="Create a PDF with Tables and Pagination Using Aspose.PDF" imgSrc="./net/tables/insert-page-break/images/thumb.png" >}}
 {{< tutorial-card link="./net/tables/render-table/" title="Create a PDF with Tables using Aspose.PDF for .NET" imgSrc="./net/tables/render-table/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/set-border/" title="Create PDF with Double-Bordered Table using Aspose.PDF" imgSrc="./net/tables/set-border/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/text-alignment-for-table-row-content/" title="Create a PDF with Text Alignment for Table Row Content" imgSrc="./net/tables/text-alignment-for-table-row-content/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Comprehensive Tutorials Text Handling in Aspose.PDF for .NET](./net/text/)
+Learn how to create, format, and manipulate tables in PDF documents using Aspose.PDF for .NET with step-by-step tutorials and code examples.
+
+{{< tutorial-card link="./net/text/add-text/" title="Adding Text to PDF Documents with Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/add-text-border/" title="Creating Styled Text with Borders in PDF Documents using Aspose.PDF" imgSrc="./net/text/add-text-border/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/add-transparent-text/" title="Creating Transparent Text Effects in PDF with Aspose.PDF" imgSrc="./net/text/add-transparent-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/add-underline-text/" title="Adding Underlined Text in PDF with Aspose.PDF" imgSrc="./net/text/add-underline-text/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/create-multi-column/" title="Create a Multi-Column PDF Using Aspose.PDF for .NET" imgSrc="./net/text/create-multi-column/images/thumb.png" >}}
+{{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Multi-Column Paragraphs in PDF using Aspose.PDF" imgSrc="./net/text/multicolumn-paragraphs/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

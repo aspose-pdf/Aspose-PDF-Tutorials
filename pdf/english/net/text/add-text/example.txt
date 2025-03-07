@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: This code demonstrates how to add a text fragment to an existing PDF document using Aspose.PDF. It opens a PDF, creates a text fragment with specific properties, and saves the modified document.
+//ExStepSummary:0: This step sets the path to the documents directory where the input PDF is located.
+//ExStepSummary:1: This step opens the specified PDF document for editing.
+//ExStepSummary:2: This step retrieves a specific page from the PDF document.
+//ExStepSummary:3: This step creates a text fragment with specified content and position on the page.
+//ExStepSummary:4: This step sets various properties for the text fragment, including font size, font type, background color, and foreground color.
+//ExStepSummary:5: This step creates a TextBuilder object to facilitate adding the text fragment to the PDF page.
+//ExStepSummary:6: This step appends the text fragment to the PDF page.
+//ExStepSummary:7: This step sets the output file path for the modified PDF document.
+//ExStepSummary:8: This step saves the modified PDF document to the specified output path.
+//ExStepImage:3: images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Set the directory path for the documents
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Open the specified PDF document
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Retrieve the second page of the PDF document
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Create a new text fragment with the specified content
+TextFragment textFragment = new TextFragment("main text");
+// Set the position of the text fragment on the page
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Set the font size of the text fragment
+textFragment.TextState.FontSize = 12;
+// Set the font type
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Set background color
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Set text color
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Create a TextBuilder object for the page
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Append the text fragment to the PDF page
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Set the output file path for the modified PDF document
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Save the modified PDF document to the specified output path
+pdfDocument.Save(dataDir);
+// Output success message
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

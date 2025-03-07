@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document and add a text fragment with underline formatting. It includes steps for creating the document, adding text, and saving the file.
+//ExStepSummary:0: Define the directory where the PDF document will be saved.
+//ExStepSummary:1: Initialize a new PDF document and add a page to it.
+//ExStepSummary:2: Create a TextBuilder object for the first page of the document.
+//ExStepSummary:3: Create a TextFragment with the test message, set its font to Arial, size to 10, and enable underline formatting.
+//ExStepSummary:4: Specify the position of the TextFragment in the PDF and append it to the TextBuilder.
+//ExStepSummary:5: Define the output file path and save the PDF document.
+//ExStepSummary:6: Output a success message indicating the underlined text was added and show the file location.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Define the directory where the document will be saved.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Initialize a new PDF document.
+Document pdfDocument = new Document();
+// Add a new page to the document.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Create a TextBuilder for the first page.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Create a TextFragment with the specified text.
+TextFragment fragment = new TextFragment("Test message");
+// Set the font to Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Set the font size to 10.
+fragment.TextState.FontSize = 10;
+// Enable underline formatting for the text.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Specify the position of the TextFragment in the PDF.
+fragment.Position = new Position(10, 800);
+// Append the TextFragment to the TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Define the output file path for the PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Save the document to the specified path.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Output success message.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd
