@@ -9,7 +9,7 @@
 //ExStepSummary:6: This step appends the text fragment to the PDF page.
 //ExStepSummary:7: This step sets the output file path for the modified PDF document.
 //ExStepSummary:8: This step saves the modified PDF document to the specified output path.
-//ExStepImage:3: images/1.png
+//ExStepImage:3:images/1.png
 //ExStepImage:6:images/2.png
 
 
