@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a multi-column PDF document using Aspose.PDF library. It sets up margins, adds text with HTML formatting, and organizes content into columns.
+//ExStepSummary:0: This step sets the document directory, initializes a new PDF document, and configures its page margins.
+//ExStepSummary:1: This step adds a new page to the document and draws a horizontal line using the Graph and Line classes.
+//ExStepSummary:2: This step creates an HtmlFragment with formatted text and adds it to the PDF document.
+//ExStepSummary:3: This step creates a FloatingBox for a two-column layout and adds author information to it.
+//ExStepSummary:4: This step draws another horizontal line inside the FloatingBox for visual separation.
+//ExStepSummary:5: This step adds a lengthy text fragment to the FloatingBox to demonstrate content distribution in multiple columns.
+//ExStepSummary:6: This step saves the document to the specified output path and prints a success message.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Define the path to the documents directory
+string dataDir = "Your Document Directory";
+// Create a new Document instance
+Document doc = new Document(); 
+
+// Specify the left margin info for the PDF file
+doc.PageInfo.Margin.Left = 40; 
+// Specify the Right margin info for the PDF file
+doc.PageInfo.Margin.Right = 40;
+// Add a new page to the document
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Create a new Graph object for drawing a line
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Add the line to paragraphs collection of section object
+page.Paragraphs.Add(graph1);
+
+// Specify the coordinates for the line
+// Define the start and end points of the line
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Create a line shape with specified coordinates
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Add the line shape to the graph
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Create string variables with text containing html tags
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Create an HtmlFragment for the heading text
+HtmlFragment heading_text = new HtmlFragment(s);
+// Add the heading text to the page 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Create a new FloatingBox for multi-column layout
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Set the number of columns to 2
+box.ColumnInfo.ColumnCount = 2; 
+// Set the spacing between the columns
+box.ColumnInfo.ColumnSpacing = "5";
+// Set the width for each column
+box.ColumnInfo.ColumnWidths = "105 105";
+// Create a text fragment for author info
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Set font size for the text
+text1.TextState.FontSize = 8;
+// Set line spacing for the text
+text1.TextState.LineSpacing = 2;
+// Add the author text to the floating box
+box.Paragraphs.Add(text1);
+// Update font size for the text
+text1.TextState.FontSize = 10;
+// Set font style to italic
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Create another Graph object for drawing a second line
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Specify the coordinates for the line
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Add the second line shape to the graph
+graph2.Shapes.Add(l2);
+
+// Add the line to paragraphs collection of section object
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Create a lengthy text fragment to demonstrate content in columns
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Add the lengthy text to the floating box
+box.Paragraphs.Add(text2); 
+// Add the floating box containing all content to the page
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Specify the output PDF file path
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Save the document to the specified path
+doc.Save(dataDir); 
+// Print success message
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

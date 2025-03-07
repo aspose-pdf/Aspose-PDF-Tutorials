@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PDF document with a table containing 10 rows and 3 columns.
+//ExStepSummary:0: This step sets the directory path where the output PDF file will be saved.
+//ExStepSummary:1: This step creates a new PDF document instance.
+//ExStepSummary:2: This step initializes a new table object.
+//ExStepSummary:3: This step sets the border color of the table to LightGray.
+//ExStepSummary:4: This step applies a LightGray border to all table cells.
+//ExStepSummary:5: This step starts a loop to add 10 rows to the table.
+//ExStepSummary:6: This step adds a new row to the table and sets its vertical alignment to center.
+//ExStepSummary:7: This step adds three cells to the row, with the first cell containing dynamic content based on the current timestamp.
+//ExStepSummary:8: This step adds a new page to the PDF document.
+//ExStepSummary:9: This step adds the table to the newly created page in the document.
+//ExStepSummary:10: This step saves the final PDF document to the specified output directory.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Create a new PDF document.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Initializes a new instance of the Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Set the table border color as LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Set the border for table cells.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Create a loop to add 10 rows
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Add row to table
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Set vertical alignment of the row.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Add first cell with dynamic content.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Add second cell.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Add third cell.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Add a new page to the PDF document.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Add the table object to the first page of the document.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Save the updated document containing the table object.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd
