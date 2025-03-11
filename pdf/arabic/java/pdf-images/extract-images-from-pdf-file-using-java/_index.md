@@ -1,0 +1,94 @@
+---
+title: استخراج الصور من ملف PDF باستخدام Java
+linktitle: استخراج الصور من ملف PDF باستخدام Java
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: تعرف على كيفية استخراج الصور من ملف PDF باستخدام Java مع Aspose.PDF for Java. دليل خطوة بخطوة مع الكود المصدر. قم بإلغاء قفل استخراج صور PDF الآن.
+weight: 24
+url: /ar/java/pdf-images/extract-images-from-pdf-file-using-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج الصور من ملف PDF باستخدام Java
+
+
+في هذا الدليل التفصيلي، سنستكشف كيفية استخراج الصور من ملف PDF باستخدام Java ومكتبة Aspose.PDF for Java. يمكن أن يكون استخراج الصور من ملفات PDF مهمة قيمة في تطبيقات مختلفة، من تحليل المحتوى إلى معالجة الصور. بحلول نهاية هذا البرنامج التعليمي، ستتمكن من استخراج الصور بكفاءة من ملفات PDF باستخدام Java.
+
+## مقدمة
+
+تُستخدم ملفات PDF (تنسيق المستندات المحمولة) على نطاق واسع لتبادل المستندات. غالبًا ما تحتوي ملفات PDF هذه على صور قيمة تحتاج إلى استخراجها لأغراض مختلفة، مثل الأرشفة أو التحليل أو التضمين في مستندات أخرى. Aspose.PDF for Java هي مكتبة Java قوية تتيح لنا العمل مع مستندات PDF، بما في ذلك استخراج الصور.
+
+## ما هو Aspose.PDF لـ Java؟
+
+Aspose.PDF for Java عبارة عن واجهة برمجة تطبيقات Java تقدمها Aspose والتي تمكن المطورين من العمل مع مستندات PDF في تطبيقات Java. وهي توفر مجموعة واسعة من الميزات لإنشاء المحتوى ومعالجته واستخراجه من ملفات PDF، مما يجعلها أداة قيمة للعمل مع ملفات PDF برمجيًا.
+
+## إعداد البيئة
+
+قبل أن نبدأ، عليك إعداد بيئة التطوير الخاصة بك. تأكد من توفر المتطلبات الأساسية التالية:
+
+- تم تثبيت Java Development Kit (JDK)
+-  Aspose.PDF مكتبة Java (يمكنك تنزيلها من[هنا](https://releases.aspose.com/pdf/java/))
+- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse
+
+## تحميل ملف PDF
+
+للبدء، دعنا نحمل ملف PDF يحتوي على الصور التي نريد استخراجها. يمكنك استخدام مقتطف التعليمات البرمجية التالي:
+
+```java
+import com.aspose.pdf.Document;
+
+// تحميل ملف PDF
+Document pdfDocument = new Document("path/to/your/pdf/file.pdf");
+```
+
+## استخراج الصور من ملف PDF
+
+الآن بعد أن قمنا بتحميل ملف PDF، يمكننا المضي قدمًا في استخراج الصور منه. يوفر برنامج Aspose.PDF for Java طريقة مباشرة لتحقيق ذلك. سنقوم بتكرار الصفحات واستخراج الصور من كل صفحة:
+
+```java
+import com.aspose.pdf.Page;
+import com.aspose.pdf.XImage;
+
+// التكرار خلال الصفحات واستخراج الصور
+for (Page page : pdfDocument.getPages()) {
+    XImageCollection images = page.getResources().getImages();
+    for (XImage image : images) {
+        // استخراج الصورة
+        image.save("path/to/save/image.png");
+    }
+}
+```
+
+## حفظ الصور المستخرجة
+
+يمكن حفظ الصور المستخرجة في المكان الذي تريده. في الكود أعلاه، نقوم بحفظ كل صورة كملف PNG، ولكن يمكنك اختيار تنسيقات أخرى حسب الحاجة.
+
+## خاتمة
+
+في هذا الدليل التفصيلي، تعلمنا كيفية استخراج الصور من ملف PDF باستخدام Java مع مكتبة Aspose.PDF for Java. يمكن أن تكون هذه مهارة قيمة عند العمل مع مستندات PDF في تطبيقات Java. تذكر مراجعة وثائق Aspose.PDF for Java للحصول على ميزات أكثر تقدمًا وخيارات تخصيص.
+
+## الأسئلة الشائعة
+
+### كيف أقوم بتثبيت Aspose.PDF لـJava؟
+
+ يمكنك تنزيل مكتبة Aspose.PDF لـ Java من[هنا](https://releases.aspose.com/pdf/java/)اتبع تعليمات التثبيت المقدمة على موقع الويب لإعداده في بيئة Java الخاصة بك.
+
+### هل يمكنني استخراج الصور من صفحة معينة في ملف PDF؟
+
+نعم، يمكنك استخراج الصور من صفحة معينة في ملف PDF من خلال تحديد رقم الصفحة عند التكرار عبر الصفحات. ما عليك سوى الوصول إلى الصفحة المطلوبة من خلال فهرسها واستخراج الصور كما هو موضح في مثال الكود.
+
+### هل Aspose.PDF for Java متوافق مع تنسيقات PDF المختلفة؟
+
+يدعم برنامج Aspose.PDF for Java تنسيقات PDF المختلفة وهو متوافق مع مجموعة واسعة من إصدارات PDF. يمكنك استخدامه للعمل مع مستندات PDF التي تم إنشاؤها بواسطة أدوات وبرامج مختلفة.
+
+### أين يمكنني العثور على المزيد من الموارد والوثائق؟
+
+يمكنك العثور على وثائق ودروس تعليمية وأمثلة موسعة لـ Aspose.PDF لـ Java على الموقع الإلكتروني:[توثيق Aspose.PDF لـ Java](https://reference.aspose.com/pdf/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

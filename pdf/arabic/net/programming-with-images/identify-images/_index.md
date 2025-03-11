@@ -1,0 +1,161 @@
+---
+title: تحديد الصور في ملف PDF
+linktitle: تحديد الصور في ملف PDF
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية التعرف على الصور في ملفات PDF واكتشاف نوع لونها (تدرج الرمادي أو RGB) باستخدام Aspose.PDF لـ .NET في هذا الدليل المفصل خطوة بخطوة.
+weight: 150
+url: /ar/net/programming-with-images/identify-images/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد الصور في ملف PDF
+
+## مقدمة
+
+عند العمل مع ملفات PDF، من الضروري معرفة كيفية التفاعل مع العناصر المختلفة داخل المستند. أحد هذه العناصر هو الصور. هل احتجت يومًا إلى استخراج أو تحديد صور من ملف PDF؟ يجعل Aspose.PDF for .NET هذه المهمة سهلة للغاية. في هذا البرنامج التعليمي، سنوضح عملية تحديد الصور في ملف PDF، بما في ذلك كيفية اكتشاف نوع لونها - سواء كانت تدرج الرمادي أو RGB. لذا، دعنا نتعمق ونستكشف كيفية الاستفادة من Aspose.PDF for .NET لتحقيق ذلك!
+
+## المتطلبات الأساسية
+
+قبل أن نبدأ بالبرنامج التعليمي، دعنا نراجع ما ستحتاجه لإكمال هذه المهمة:
+
+-  Aspose.PDF لـ .NET: تأكد من تثبيت أحدث إصدار. يمكنك[تنزيل Aspose.PDF لـ .NET](https://releases.aspose.com/pdf/net/) أو الوصول إلى[نسخة تجريبية مجانية](https://releases.aspose.com/).
+- IDE: ستحتاج إلى بيئة تطوير مثل Visual Studio.
+- .NET Framework: تأكد من تثبيت .NET Framework وإعداده في مشروعك.
+-  رخصة مؤقتة: قد ترغب أيضًا في الحصول على[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)لفتح ميزات المكتبة بالكامل إذا كنت تعمل بالإصدار التجريبي.
+
+## استيراد الحزم الضرورية
+
+للبدء في العمل مع الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET، تحتاج أولاً إلى استيراد المساحات والفئات الضرورية. إليك ما تحتاجه:
+
+```csharp
+using System.IO;
+using Aspose.Pdf;
+using System.Drawing.Imaging;
+using System;
+```
+
+بمجرد إعداد البيئة المطلوبة، حان الوقت لتقسيم المهمة إلى خطوات بسيطة قابلة للتنفيذ.
+
+## الخطوة 1: قم بتحميل مستند PDF الخاص بك
+
+ أولاً، تحتاج إلى تحميل مستند PDF الذي يحتوي على الصور. تتضمن هذه الخطوة تحديد مسار الملف واستخدام`Document` الفئة لفتح ملف PDF.
+
+```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";  // المسار إلى مستند PDF الخاص بك
+Document document = new Document(dataDir + "ExtractImages.pdf");
+```
+
+تعمل هذه الخطوة على تهيئة مستند PDF الخاص بك وتجهيزه لاستخراج الصورة. الأمر بسيط، أليس كذلك؟
+
+## الخطوة 2: تهيئة عدادات الصور
+
+نريد تصنيف الصور وفقًا لنوع لونها (تدرج الرمادي أو RGB). وللقيام بذلك، سنقوم بإعداد عدادات لكل نوع من أنواع الصور قبل التعمق في الصفحات.
+
+```csharp
+int grayscaled = 0;  // عداد للصور ذات التدرج الرمادي
+int rgd = 0;         // عداد لصور RGB
+```
+
+من خلال تهيئة هذه العدادات، سيكون لديك طريقة لتتبع عدد الصور ذات التدرج الرمادي والألوان RGB في ملف PDF الخاص بك.
+
+## الخطوة 3: التنقل عبر الصفحات
+
+ الآن بعد تحميل المستند، تحتاج إلى تكرار كل صفحة في ملف PDF. يتيح لك Aspose.PDF تكرار الصفحات بسهولة باستخدام`Pages` ملكية.
+
+```csharp
+foreach (Page page in document.Pages)
+{
+    Console.WriteLine("--------------------------------");
+    Console.WriteLine("Processing Page: " + page.Number);
+}
+```
+
+سيقوم هذا الكود بإخراج رقم الصفحة لكل صفحة في ملف PDF، مما يتيح لك معرفة الصفحة التي يتم معالجتها حاليًا.
+
+## الخطوة 4: استخدم ImagePlacementAbsorber لتحديد الصور
+
+ بعد ذلك، نحتاج إلى استخدام`ImagePlacementAbsorber` فئة لاستخراج بيانات الصورة من كل صفحة. تساعد هذه الفئة في تحديد الصور الموجودة على الصفحة.
+
+```csharp
+ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
+page.Accept(abs);
+```
+
+ ال`ImagePlacementAbsorber` "يستوعب" جميع الصور الموجودة في الصفحة الحالية، مما يجعل الوصول إليها وتحليلها أسهل.
+
+## الخطوة 5: عد الصور الموجودة في كل صفحة
+
+ بمجرد استيعاب الصور، حان الوقت لحساب عدد الصور الموجودة على هذه الصفحة. يمكنك استخدام`ImagePlacements.Count` الخاصية للحصول على عدد الصور.
+
+```csharp
+Console.WriteLine("Total Images = {0} on page number {1}", abs.ImagePlacements.Count, page.Number);
+```
+
+ستؤدي هذه الخطوة إلى إخراج العدد الإجمالي للصور الموجودة في الصفحة الحالية.
+
+## الخطوة 6: اكتشاف نوع لون الصورة (تدرج الرمادي أو RGB)
+
+ الآن، الجزء الأكثر أهمية هو تحديد نوع اللون لكل صورة. يوفر لك Aspose.PDF`GetColorType()` طريقة لتحديد ما إذا كانت الصورة رمادية أو RGB.
+
+```csharp
+int image_counter = 1;
+foreach (ImagePlacement ia in abs.ImagePlacements)
+{
+    ColorType colorType = ia.Image.GetColorType();
+    switch (colorType)
+    {
+        case ColorType.Grayscale:
+            ++grayscaled;
+            Console.WriteLine("Image {0} is Grayscale...", image_counter);
+            break;
+        case ColorType.Rgb:
+            ++rgd;
+            Console.WriteLine("Image {0} is RGB...", image_counter);
+            break;
+    }
+    image_counter++;
+}
+```
+
+تمر هذه الحلقة عبر كل صورة على الصفحة، وتتحقق من نوع لونها، وتزيد من قيمة العداد الخاص بها. كما تقدم ملاحظات على وحدة التحكم، مما يتيح لك معرفة النتيجة لكل صورة.
+
+## الخطوة 7: قم بتغليفها
+
+بمجرد معالجة كافة الصفحات وتحديد الصور، يمكنك إخراج العدد النهائي للصور ذات التدرج الرمادي والألوان RGB.
+
+```csharp
+Console.WriteLine("Total Grayscale Images: " + grayscaled);
+Console.WriteLine("Total RGB Images: " + rgd);
+```
+
+يمنحك هذا الناتج البسيط ملخصًا لعدد الصور من كل نوع التي تم العثور عليها في المستند بأكمله. رائع جدًا، أليس كذلك؟
+
+## خاتمة
+
+إن التعرف على الصور في ملفات PDF، وخاصة اكتشاف نوع لونها، أمر سهل للغاية باستخدام Aspose.PDF for .NET. تتيح لك هذه الأداة القوية معالجة مستندات PDF بسهولة وكفاءة، مما يجعل المهام مثل استخراج الصور سهلة للغاية. سواء كنت تقوم ببناء أداة معالجة صور أو تحتاج إلى تحليل محتويات ملف PDF، فإن Aspose.PDF يوفر لك الإمكانيات اللازمة لإنجاز هذه المهمة.
+
+## الأسئلة الشائعة
+
+### كيف أقوم بتثبيت Aspose.PDF لـ .NET؟  
+ يمكنك تثبيت Aspose.PDF لـ .NET عبر NuGet أو تنزيله من[هنا](https://releases.aspose.com/pdf/net/).
+
+### هل يمكنني استخدام هذا البرنامج التعليمي لاستخراج الصور من ملفات PDF المحمية بكلمة مرور؟  
+نعم، ولكنك ستحتاج إلى إلغاء قفل المستند باستخدام كلمة المرور قبل المعالجة.
+
+### هل من الممكن تعديل الصور بعد استخراجها؟  
+نعم، بمجرد استخراج الصور، يمكن تعديلها باستخدام مكتبات أخرى مثل Aspose.Imaging.
+
+### هل يدعم Aspose.PDF أنواع ألوان أخرى غير Grayscale و RGB؟  
+نعم، يدعم Aspose.PDF مساحات الألوان الأخرى مثل CMYK.
+
+### هل يمكنني استخدام Aspose.PDF لاستخراج الصور وتحويلها إلى تنسيق آخر؟  
+نعم، يمكنك استخراج الصور وحفظها بتنسيقات مختلفة مثل PNG وJPEG وما إلى ذلك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

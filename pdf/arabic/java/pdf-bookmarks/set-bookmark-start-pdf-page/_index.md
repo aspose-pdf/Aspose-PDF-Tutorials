@@ -1,0 +1,112 @@
+---
+title: تعيين الإشارة المرجعية إلى بداية صفحة PDF
+linktitle: تعيين الإشارة المرجعية إلى بداية صفحة PDF
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: تعرف على كيفية تعيين الإشارات المرجعية في بداية صفحات PDF باستخدام Aspose.PDF for Java. يساعدك دليلنا خطوة بخطوة على التنقل بسهولة في ملفات PDF.
+weight: 12
+url: /ar/java/pdf-bookmarks/set-bookmark-start-pdf-page/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين الإشارة المرجعية إلى بداية صفحة PDF
+
+
+## مقدمة لتعيين الإشارة المرجعية في بداية صفحة PDF
+
+Aspose.PDF for Java هي مكتبة قوية للعمل مع مستندات PDF في تطبيقات Java. في هذا البرنامج التعليمي، سنتعلم كيفية تعيين إشارة مرجعية في بداية صفحة PDF باستخدام Aspose.PDF for Java. تعد الإشارات المرجعية طريقة ملائمة للتنقل بين مستندات PDF الكبيرة، وباستخدام Aspose.PDF، يمكنك إضافتها بسهولة إلى ملفات PDF الخاصة بك.
+
+## ما هو Aspose.PDF لـ Java؟
+
+Aspose.PDF for Java هي مكتبة Java تتيح للمطورين إنشاء مستندات PDF ومعالجتها وعرضها في تطبيقات Java الخاصة بهم. وهي توفر مجموعة واسعة من الميزات للعمل مع ملفات PDF، بما في ذلك إنشاء ملفات PDF وتحريرها وتحويلها.
+
+## إعداد بيئة Java الخاصة بك
+
+قبل أن نبدأ العمل مع Aspose.PDF لـ Java، يتعين عليك إعداد بيئة تطوير Java الخاصة بك. تأكد من تثبيت Java JDK (Java Development Kit) على نظامك.
+
+## إضافة Aspose.PDF إلى مشروعك
+
+لاستخدام Aspose.PDF for Java في مشروعك، تحتاج إلى إضافة مكتبة Aspose.PDF إلى تبعيات مشروعك. يمكنك القيام بذلك عن طريق تنزيل ملف Aspose.PDF JAR من موقع الويب وتضمينه في مشروعك.
+
+## إنشاء مستند PDF
+
+ لنبدأ بإنشاء مستند PDF جديد باستخدام Aspose.PDF لـ Java. يمكنك إنشاء مثيل لـ`Document` الفئة التي تمثل مستند PDF، ثم قم بإضافة الصفحات إليها.
+
+```java
+// إنشاء مستند PDF جديد
+Document pdfDocument = new Document();
+
+// إضافة صفحة إلى المستند
+pdfDocument.getPages().add();
+```
+
+## إضافة محتوى إلى ملف PDF
+
+يمكنك إضافة أنواع مختلفة من المحتوى إلى مستند PDF الخاص بك، مثل النصوص والصور والجداول. على سبيل المثال، لنقم بإضافة فقرة نصية بسيطة إلى الصفحة.
+
+```java
+// إضافة فقرة نصية إلى الصفحة
+Page page = pdfDocument.getPages().get_Item(1);
+TextFragment textFragment = new TextFragment("This is the start of the page.");
+page.getParagraphs().add(textFragment);
+```
+
+## تعيين إشارة مرجعية في بداية الصفحة
+
+ الآن، دعنا نضع إشارة مرجعية في بداية الصفحة التي أنشأناها. تتم إضافة الإشارات المرجعية إلى`Outline` مجموعة من مستندات PDF. يمكنك تحديد العنوان والصفحة المقصودة للإشارة المرجعية.
+
+```java
+// إنشاء إشارة مرجعية إلى بداية الصفحة
+OutlineItemCollection outlines = pdfDocument.getOutlines();
+OutlineItemCollection outlineItem = new OutlineItemCollection(outlines);
+outlineItem.setTitle("Start of Page");
+outlineItem.setDestination(new XYZExplicitDestination(1, 0, 0, 0));
+outlines.add(outlineItem);
+```
+
+## تخصيص الإشارة المرجعية
+
+يمكنك تخصيص مظهر وسلوك الإشارة المرجعية وفقًا لمتطلباتك. يوفر Aspose.PDF for Java خصائص وطرقًا مختلفة لضبط الإشارات المرجعية بدقة.
+
+## حفظ مستند PDF
+
+بعد إضافة المحتوى والإشارات المرجعية إلى مستند PDF، يمكنك حفظه في ملف أو دفق. إليك كيفية حفظه في ملف:
+
+```java
+// حفظ مستند PDF في ملف
+pdfDocument.save("sample.pdf");
+```
+
+## خاتمة
+
+في هذا البرنامج التعليمي، تعلمنا كيفية تعيين إشارة مرجعية لبدء صفحة PDF باستخدام Aspose.PDF for Java. يوفر Aspose.PDF مجموعة شاملة من الأدوات للعمل مع مستندات PDF في تطبيقات Java، مما يجعل من السهل إنشاء ملفات PDF وتحريرها وإدارتها.
+
+# الأسئلة الشائعة
+
+### كيف أقوم بتثبيت Aspose.PDF لـJava؟
+
+لتثبيت Aspose.PDF لـ Java، يمكنك تنزيل المكتبة من موقع Aspose على الويب وإضافتها إلى مشروع Java الخاص بك كاعتمادية. تأكد من مراجعة الوثائق للحصول على تعليمات التثبيت التفصيلية.
+
+### هل يمكنني تعيين إشارات مرجعية متعددة في مستند PDF؟
+
+نعم، يمكنك تعيين إشارات مرجعية متعددة في مستند PDF باستخدام Aspose.PDF for Java. يمكنك إنشاء تسلسل هرمي تفصيلي يحتوي على مستويات متعددة من الإشارات المرجعية لتنظيم محتوى المستند.
+
+### هل Aspose.PDF مناسب للمشاريع التجارية؟
+
+نعم، يعد Aspose.PDF مناسبًا للمشروعات التجارية. فهو عبارة عن مكتبة قوية وموثقة جيدًا توفر ميزات شاملة للعمل مع مستندات PDF في تطبيقات Java.
+
+### ما هي متطلبات النظام لـ Aspose.PDF لـ Java؟
+
+يعد Aspose.PDF for Java متوافقًا مع Java 1.6 أو أعلى. تأكد من أن بيئة Java الخاصة بك تلبي الحد الأدنى من المتطلبات المحددة في الوثائق.
+
+### أين يمكنني العثور على المزيد من دروس Aspose.PDF لـ Java؟
+
+يمكنك العثور على المزيد من دروس Aspose.PDF ووثائق Java على موقع Aspose الإلكتروني. بالإضافة إلى ذلك، يمكنك استكشاف وثائق Aspose.PDF للتعرف على إمكانياتها واستخداماتها بالتفصيل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

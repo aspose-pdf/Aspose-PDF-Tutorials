@@ -1,0 +1,119 @@
+---
+title: إنشاء كائن مستطيل مملوء في PDF باستخدام Java
+linktitle: إنشاء كائن مستطيل مملوء في PDF باستخدام Java
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: تعرف على كيفية إنشاء مستطيلات مملوءة في ملفات PDF باستخدام Java مع Aspose.PDF for Java. برنامج تعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية.
+weight: 12
+url: /ar/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء كائن مستطيل مملوء في PDF باستخدام Java
+
+
+## مقدمة لإنشاء كائن مستطيل مملوء في PDF باستخدام Java
+
+في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء كائن مستطيل مملوء في مستند PDF باستخدام Java بمساعدة Aspose.PDF for Java. تُستخدم المستطيلات المملوءة عادةً في ملفات PDF لأغراض مختلفة، مثل إبراز المعلومات المهمة أو إنشاء فواصل مرئية.
+
+## المتطلبات الأساسية
+
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+
+- تم تثبيت Java Development Kit (JDK)
+- بيئة التطوير المتكاملة (IDE) مثل Eclipse أو IntelliJ
+- تم تنزيل وتكوين مكتبة Aspose.PDF لـ Java
+
+## إعداد Aspose.PDF لـ Java
+
+للبدء، تحتاج إلى تنزيل Aspose.PDF for Java من موقع الويب. اتبع الخطوات التالية:
+
+1.  يمكنك الوصول إلى ملف Aspose.PDF الخاص بوثائق Java على[هنا](https://reference.aspose.com/pdf/java/).
+
+2. قم بتنزيل المكتبة واتبع تعليمات التثبيت المقدمة.
+
+3. قم باستيراد مكتبة Aspose.PDF إلى مشروع Java الخاص بك.
+
+الآن بعد أن قمنا بإعداد Aspose.PDF لـ Java، دعنا ننتقل إلى إنشاء مستطيل مملوء في مستند PDF.
+
+## إنشاء مستند PDF جديد
+
+في هذا القسم، سنقوم بإنشاء مستند PDF جديد باستخدام Aspose.PDF لـ Java. أولاً، قم باستيراد الفئات الضرورية:
+
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.Page;
+import com.aspose.pdf.Rectangle;
+```
+
+بعد ذلك، قم بإنشاء مستند جديد وصفحة:
+
+```java
+Document pdfDocument = new Document();
+Page page = pdfDocument.getPages().add();
+```
+
+## إضافة مستطيل مملوء
+
+لإضافة مستطيل مملوء، ستحتاج إلى تحديد إحداثياته وأبعاده ولونه. فيما يلي مثال لكيفية إنشاء مستطيل مملوء:
+
+```java
+Rectangle filledRectangle = new Rectangle(page, 100, 100, 200, 50);
+filledRectangle.setBackgroundColor(com.aspose.pdf.Color.getRed());
+page.getParagraphs().add(filledRectangle);
+```
+
+في هذا الكود:
+-  نحن ننشئ جديدا`Rectangle` الكائن، مع تحديد موضعه (x=100، y=100)، وعرضه (200)، وارتفاعه (50).
+- قمنا بتعيين لون خلفية المستطيل إلى اللون الأحمر.
+- وأخيرًا نضيف المستطيل إلى الصفحة.
+
+## تخصيص المستطيل
+
+يمكنك تخصيص المستطيل بشكل أكبر عن طريق تغيير لونه أو حدوده أو خصائص أخرى. استكشف وثائق Aspose.PDF لـ Java للحصول على المزيد من الخيارات.
+
+## حفظ ملف PDF
+
+بعد إنشاء مستند PDF بالمستطيل المملوء، احفظه في ملف:
+
+```java
+pdfDocument.save("FilledRectangle.pdf");
+```
+
+## تشغيل الكود
+
+قم بتجميع كود Java وتشغيله. يجب أن يكون لديك الآن ملف PDF باسم "FilledRectangle.pdf" مع مستطيل مملوء.
+
+## خاتمة
+
+في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء كائن مستطيل مملوء في مستند PDF باستخدام Java وAspose.PDF for Java. يمكن أن يكون هذا مفيدًا لتسليط الضوء على المعلومات المهمة أو إضافة عناصر مرئية إلى ملفات PDF الخاصة بك. يوفر Aspose.PDF for Java طريقة قوية ومرنة للعمل مع ملفات PDF في تطبيقات Java.
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.PDF لـ Java؟
+
+Aspose.PDF for Java هي مكتبة Java تتيح للمطورين العمل مع ملفات PDF في تطبيقات Java. وهي توفر مجموعة واسعة من الميزات لإنشاء مستندات PDF ومعالجتها وإدارتها.
+
+### كيف أقوم بتثبيت Aspose.PDF لـJava؟
+
+يمكنك تثبيت Aspose.PDF لـ Java عن طريق تنزيل المكتبة من موقع Aspose الإلكتروني واتباع تعليمات التثبيت المقدمة في الوثائق.
+
+### هل يمكنني تغيير لون المستطيل المملوء؟
+
+ نعم، يمكنك تخصيص لون المستطيل المملوء عن طريق ضبط لون خلفيته باستخدام`setBackgroundColor`الطريقة كما هو موضح في البرنامج التعليمي.
+
+### هل استخدام Aspose.PDF لـ Java مجاني؟
+
+Aspose.PDF for Java عبارة عن مكتبة تجارية، وقد تحتاج إلى شراء ترخيص لاستخدامها في مشاريعك. راجع موقع Aspose الإلكتروني للحصول على تفاصيل الترخيص.
+
+### أين يمكنني العثور على المزيد من الأمثلة باستخدام Aspose.PDF لـ Java؟
+
+ يمكنك العثور على المزيد من الأمثلة والوثائق التفصيلية حول كيفية استخدام Aspose.PDF لـ Java على موقع Aspose على الويب[هنا](https://reference.aspose.com/pdf/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

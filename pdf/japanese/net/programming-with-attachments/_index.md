@@ -1,0 +1,33 @@
+---
+title: 添付ファイルを使ったプログラミング
+linktitle: 添付ファイルを使ったプログラミング
+weight: 18
+url: /ja/net/programming-with-attachments/
+description: PDF ドキュメント内の添付ファイルの操作方法（追加、抽出、削除など）を学習し、PDF ファイルの機能を向上させます。
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 添付ファイルを使ったプログラミング
+
+添付ファイルを使用したプログラミングに関する Aspose.PDF for .NET チュートリアルでは、PDF ドキュメント内の添付ファイルの操作方法をステップごとに説明します。添付ファイルの追加、抽出、削除の方法や、添付ファイルのプロパティを管理する方法を学習します。
+
+これらのチュートリアルでは、PDF ドキュメント内の添付ファイルを操作するためのさまざまな手順を説明し、PDF ファイルの機能とインタラクティブ性を向上させることができます。
+
+## チュートリアル
+| タイトル | 説明 |
+| --- | --- | 
+| [PDFファイルに添付ファイルを追加する](./add-attachment/) | このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルに添付ファイルを追加する方法を学習します。ドキュメントを簡単に強化できます。 |  
+| [PDF ファイル内のすべての添付ファイルを削除する](./delete-all-attachments/) | このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のすべての添付ファイルを削除する方法を説明します。PDF 管理を簡素化します。 |  
+| [PDFファイル内のファイル圧縮を無効にする](./disable-files-compression/) | このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のファイル圧縮を無効にする方法を学習します。PDF 管理スキルを強化します。 |  
+| [PDFファイル内のすべての添付ファイルを取得する](./get-all-the-attachments/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルからすべての添付ファイルを抽出する方法を学習します。 |  
+| [添付ファイル情報を取得](./get-attachment-info/) | この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルから添付ファイル情報を取得する方法を学習します。 |  
+| [PDFファイル内の個別の添付ファイルを取得する](./get-individual-attachment/) | このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルから個々の添付ファイルを抽出する方法を学習します。  |  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

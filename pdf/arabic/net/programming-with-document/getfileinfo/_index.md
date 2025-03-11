@@ -1,0 +1,126 @@
+---
+title: الحصول على معلومات الملف في ملف PDF
+linktitle: الحصول على معلومات الملف في ملف PDF
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية استخدام ميزة GetFileInfo في ملف PDF في Aspose.PDF لـ .NET لاسترداد معلومات البيانات الوصفية حول مستند PDF.
+weight: 180
+url: /ar/net/programming-with-document/getfileinfo/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على معلومات الملف في ملف PDF
+
+## مقدمة
+
+هل تساءلت يومًا عن الأسرار التي تكمن داخل ملف PDF؟ سواء كان المؤلف أو تاريخ الإنشاء أو حتى الكلمات الرئيسية، غالبًا ما تحتوي مستندات PDF على بيانات وصفية قيمة يمكن أن تكون بالغة الأهمية لتطبيقات مختلفة. في هذا البرنامج التعليمي، سنستكشف كيفية استخراج معلومات الملف من ملف PDF باستخدام Aspose.PDF لـ .NET. تتيح هذه المكتبة القوية للمطورين التعامل مع ملفات PDF بسهولة، مما يجعلها الخيار المفضل للعديد من الأشخاص. لذا، استعد لخوض عالم استخراج البيانات الوصفية لملف PDF!
+
+## المتطلبات الأساسية
+
+قبل أن ننتقل إلى الكود، هناك بعض الأشياء التي تحتاج إلى وضعها في مكانها:
+
+1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. ستكون هذه بيئة التطوير الخاصة بنا.
+2.  Aspose.PDF لـ .NET: تحتاج إلى تنزيل مكتبة Aspose.PDF وتثبيتها. يمكنك الحصول عليها من[رابط التحميل](https://releases.aspose.com/pdf/net/).
+3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم مقتطفات التعليمات البرمجية بشكل أفضل.
+
+## استيراد الحزم
+
+للبدء، نحتاج إلى استيراد الحزم اللازمة. افتح مشروع C# الخاص بك في Visual Studio وأضف مرجعًا إلى مكتبة Aspose.PDF. يمكنك القيام بذلك باستخدام NuGet Package Manager:
+
+1. انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول.
+2. حدد "إدارة حزم NuGet".
+3. ابحث عن "Aspose.PDF" وقم بتثبيته.
+
+بمجرد تثبيت المكتبة، يمكنك البدء في كتابة الكود الخاص بك.
+
+## الخطوة 1: إعداد مشروعك
+
+### إنشاء مشروع جديد
+
+أولاً وقبل كل شيء، دعونا ننشئ مشروع C# جديد في Visual Studio:
+
+1. افتح Visual Studio وحدد "إنشاء مشروع جديد".
+2. اختر "تطبيق وحدة التحكم (.NET Framework)" ثم انقر فوق "التالي".
+3.  قم بتسمية مشروعك (على سبيل المثال،`PDFFileInfoExtractor`) ثم انقر فوق "إنشاء".
+
+### أضف مرجع Aspose.PDF
+
+الآن بعد أن تم إعداد مشروعك، تحتاج إلى إضافة مرجع Aspose.PDF:
+
+1. انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول.
+2. حدد "إضافة" > "مرجع".
+3. في "إدارة المراجع"، ابحث عن Aspose.PDF وتحقق منه، ثم انقر فوق "موافق".
+
+## الخطوة 2: كتابة الكود
+
+### تهيئة المستند
+
+ الآن، دعنا نكتب الكود لفتح مستند PDF واستخراج معلوماته. ابدأ بإضافة الأمر التالي باستخدام في الجزء العلوي من ملفك`Program.cs` ملف:
+
+```csharp
+using System.IO;
+using Aspose.Pdf;
+using System;
+```
+
+بعد ذلك، سنقوم بتهيئة المستند:
+
+```csharp
+// المسار إلى مستند PDF
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+// افتح مستند PDF
+Document pdfDocument = new Document(dataDir + "GetFileInfo.pdf");
+```
+
+### استخراج معلومات المستند
+
+الآن بعد أن فتحنا مستند PDF، فلنستخرج بياناته الوصفية:
+
+```csharp
+// الحصول على معلومات الوثيقة
+DocumentInfo docInfo = pdfDocument.Info;
+```
+
+### عرض المعلومات
+
+وأخيرًا، دعنا نعرض المعلومات المستخرجة في وحدة التحكم:
+
+```csharp
+// إظهار معلومات المستند
+Console.WriteLine("Author: {0}", docInfo.Author);
+Console.WriteLine("Creation Date: {0}", docInfo.CreationDate);
+Console.WriteLine("Keywords: {0}", docInfo.Keywords);
+Console.WriteLine("Modify Date: {0}", docInfo.ModDate);
+Console.WriteLine("Subject: {0}", docInfo.Subject);
+Console.WriteLine("Title: {0}", docInfo.Title);
+```
+
+## خاتمة
+
+تهانينا! لقد نجحت في استخراج معلومات الملف من ملف PDF باستخدام Aspose.PDF لـ .NET. لا تسمح لك هذه المكتبة القوية بقراءة البيانات الوصفية فحسب، بل توفر أيضًا مجموعة كبيرة من الميزات للتعامل مع ملفات PDF. سواء كنت تقوم بتطوير نظام إدارة المستندات أو تحتاج ببساطة إلى استخراج المعلومات لإعداد التقارير، فإن Aspose.PDF يوفر لك ما تحتاجه. 
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.PDF لـ .NET؟
+Aspose.PDF for .NET هي مكتبة تسمح للمطورين بإنشاء مستندات PDF ومعالجتها وتحويلها في تطبيقات .NET.
+
+### كيف أقوم بتثبيت Aspose.PDF؟
+ يمكنك تثبيت Aspose.PDF عبر NuGet Package Manager في Visual Studio أو تنزيله من[رابط التحميل](https://releases.aspose.com/pdf/net/).
+
+### هل يمكنني استخراج الصور من ملف PDF باستخدام Aspose.PDF؟
+نعم، يوفر Aspose.PDF طرقًا لاستخراج الصور من مستندات PDF.
+
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PDF؟
+ نعم، يمكنك الحصول على نسخة تجريبية مجانية من[موقع اسبوس](https://releases.aspose.com/).
+
+### أين يمكنني العثور على الدعم لـ Aspose.PDF؟
+ يمكنك العثور على الدعم وطرح الأسئلة على[منتدى اسبوس](https://forum.aspose.com/c/pdf/10).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

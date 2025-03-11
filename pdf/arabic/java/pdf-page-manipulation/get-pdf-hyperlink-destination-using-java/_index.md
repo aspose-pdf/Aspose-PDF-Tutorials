@@ -1,0 +1,99 @@
+---
+title: الحصول على وجهة ارتباط تشعبي لملف PDF باستخدام Java
+linktitle: الحصول على وجهة ارتباط تشعبي لملف PDF باستخدام Java
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: اكتشف كيفية استرداد وجهات ارتباطات PDF باستخدام Java مع Aspose.PDF for Java. تعلم خطوة بخطوة مع أمثلة التعليمات البرمجية في هذا البرنامج التعليمي الشامل.
+weight: 10
+url: /ar/java/pdf-page-manipulation/get-pdf-hyperlink-destination-using-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على وجهة ارتباط تشعبي لملف PDF باستخدام Java
+
+
+## مقدمة
+
+في هذا البرنامج التعليمي، سنستكشف كيفية الحصول على وجهات ارتباط تشعبي لملفات PDF باستخدام Java بمساعدة Aspose.PDF for Java. تُعد الارتباطات التشعبية عناصر أساسية في مستندات PDF، حيث تسمح للمستخدمين بالانتقال إلى وجهات محددة داخل ملف PDF أو الموارد الخارجية. سنشرح العملية خطوة بخطوة، ونقدم أمثلة على التعليمات البرمجية والشروحات.
+
+## فهم الارتباطات التشعبية في ملفات PDF
+
+تُعد الروابط التشعبية في ملفات PDF عناصر تفاعلية تتيح للمستخدمين النقر والانتقال إلى مواقع مختلفة داخل مستند PDF أو مواقع ويب خارجية. وتتكون من عنصرين رئيسيين: شرح الرابط والوجهة. تحدد الوجهة المكان الذي سيأخذ فيه الرابط التشعبي المستخدم.
+
+## المتطلبات الأساسية
+
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+- بيئة تطوير جافا
+- Aspose.PDF مكتبة لجافا
+- المعرفة الأساسية لبرمجة جافا
+
+## إعداد Aspose.PDF لـ Java
+
+للبدء، تحتاج إلى إعداد Aspose.PDF للغة Java في مشروعك. اتبع الخطوات التالية:
+1.  تنزيل Aspose.PDF لـ Java من[هنا](https://releases.aspose.com/pdf/java/).
+2. أضف مكتبة Aspose.PDF إلى مشروع Java الخاص بك.
+
+## تحميل مستند PDF
+
+أولاً، سنقوم بتحميل مستند PDF باستخدام Aspose.PDF لـ Java. إليك الكود اللازم للقيام بذلك:
+
+```java
+// تحميل مستند PDF
+Document pdfDocument = new Document("sample.pdf");
+```
+
+## استرجاع الارتباطات التشعبية
+
+بعد ذلك، نحتاج إلى استرداد الروابط التشعبية الموجودة في مستند PDF. يوفر Aspose.PDF طريقة ملائمة للقيام بذلك:
+
+```java
+// احصل على مجموعة الروابط من الصفحة الأولى
+Page page = pdfDocument.getPages().get_Item(1);
+LinkAnnotationCollection linkAnnotations = page.getAnnotations().getLinkAnnotations();
+```
+
+## استخراج وجهات الارتباط التشعبي
+
+الآن بعد أن أصبح لدينا تعليقات الارتباط، يمكننا استخراج وجهات الارتباط التشعبي:
+
+```java
+// استخراج وطباعة وجهات الارتباط التشعبي
+for (LinkAnnotation link : linkAnnotations) {
+    String destination = link.getAction().getDestination();
+    System.out.println("Hyperlink Destination: " + destination);
+}
+```
+
+## خاتمة
+
+في هذا البرنامج التعليمي، تعلمنا كيفية الحصول على وجهات ارتباط تشعبي بتنسيق PDF باستخدام Java وAspose.PDF لـ Java. لقد قمنا بتغطية أساسيات ارتباطات PDF التشعبية، وإعداد البيئة اللازمة، وتحميل مستند PDF، واسترداد الارتباطات التشعبية، واستخراج وجهاتها. يمكن أن تكون هذه المعرفة مفيدة لمهام معالجة PDF المختلفة في تطبيقات Java.
+
+## الأسئلة الشائعة
+
+### كيف أقوم بتثبيت Aspose.PDF لـJava؟
+
+ لتثبيت Aspose.PDF لـ Java، قم بتنزيل المكتبة من[هنا](https://releases.aspose.com/pdf/java/) وأضفه إلى تبعيات مشروع Java الخاص بك.
+
+### هل يمكنني استخدام Aspose.PDF لـ Java مجانًا؟
+
+Aspose.PDF for Java هي مكتبة تجارية، ولكن يمكنك استكشاف ميزاتها باستخدام إصدار تجريبي مجاني.
+
+### ما هي أنواع الروابط التشعبية التي يمكنني استرجاعها باستخدام Aspose.PDF لـ Java؟
+
+يتيح لك Aspose.PDF for Java استرداد الروابط التشعبية الداخلية والخارجية الموجودة في مستند PDF.
+
+### كيف يمكنني تعديل أو إزالة الارتباطات التشعبية في ملف PDF باستخدام Aspose.PDF لـ Java؟
+
+بإمكانك تعديل أو إزالة الارتباطات التشعبية من خلال الوصول إلى تعليقات الارتباط والإجراءات المرتبطة بها في مستند PDF.
+
+### أين يمكنني العثور على مزيد من الوثائق حول Aspose.PDF لـ Java؟
+
+ يمكنك العثور على وثائق مفصلة لـ Aspose.PDF لـ Java على[هنا](https://reference.aspose.com/pdf/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

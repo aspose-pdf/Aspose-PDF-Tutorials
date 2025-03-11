@@ -1,0 +1,147 @@
+---
+title: デフォルトのフォント名を設定する
+linktitle: デフォルトのフォント名を設定する
+second_title: Aspose.PDF for .NET API リファレンス
+description: Aspose.PDF for .NET を使用して PDF を画像にレンダリングするときに、既定のフォント名を設定する方法を学びます。このガイドでは、前提条件、手順ごとの手順、および FAQ について説明します。
+weight: 270
+url: /ja/net/document-conversion/set-default-font-name/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# デフォルトのフォント名を設定する
+
+## 導入
+
+PDF ドキュメントを画像にレンダリングしようとしたが、フォントがおかしく見えたことはありませんか? テキストが歪んで見えたり、元のフォントがサポートされていない可能性があります。このような場合は、既定のフォントを設定すると便利です。Aspose.PDF for .NET を使用すると、PDF レンダリングの既定のフォントを簡単に設定でき、ドキュメントが鮮明でプロフェッショナルに見えるようになります。このチュートリアルでは、PDF を画像にレンダリングするときに既定のフォント名を設定する方法について説明します。このガイドを読み終えると、PDF レンダリングのあらゆる課題に取り組むスキルを身に付けることができます。準備はできましたか? さあ、始めましょう!
+
+## 前提条件
+
+コードに進む前に、準備しておく必要があるものがいくつかあります。
+
+- Aspose.PDF for .NET: この強力なライブラリは、PDFドキュメントを操作するために使用します。[Aspose ウェブサイト](https://releases.aspose.com/pdf/net/).
+- Visual Studio: マシンに Visual Studio がインストールされていることを確認してください。これが開発環境になります。
+- .NET Framework: .NET Framework がインストールされていることを確認してください。Aspose.PDF for .NET はさまざまなバージョンをサポートしているため、ニーズに合わせてドキュメントを確認してください。
+- PDF ドキュメント: 作業にはサンプルの PDF ドキュメントが必要です。サンプルの PDF ドキュメントがない場合は、簡単な PDF を作成するか、オンラインでサンプルをダウンロードしてください。
+
+すべての設定が完了したら、コーディングを開始する準備が整います。
+
+## パッケージのインポート
+
+コードに進む前に、必要なパッケージをインポートすることが重要です。これにより、プロジェクトに必要なすべてのクラスとメソッドにアクセスできるようになります。
+
+```csharp
+using Aspose.Pdf.Devices;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+```
+
+これらのインポートは、PDF 操作、画像レンダリング、およびファイル ストリーム操作を処理するために必要な名前空間を取り込むため、非常に重要です。
+
+## ステップ1: プロジェクトとドキュメントのパスを設定する
+
+まず最初に、PDF ドキュメントが保存されているディレクトリ パスを設定しましょう。これが PDF ファイルを操作する際の出発点になります。
+
+```csharp
+//ドキュメント ディレクトリへのパス。
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+ここ、`dataDir` PDF文書が保存されているディレクトリです。`"YOUR DOCUMENT DIRECTORY"`ドキュメントへの実際のパスを指定します。コードが PDF ファイルをどこから取得するかを知る必要があるため、これは不可欠です。
+
+## ステップ2: PDFドキュメントを読み込む
+
+ドキュメント パスがわかったので、次の手順では PDF ドキュメントをメモリに読み込んで作業を開始します。
+
+```csharp
+using (Document pdfDocument = new Document(dataDir + "input.pdf"))
+```
+私たちは`Document`PDFファイルを読み込むには、Aspose.PDFライブラリのクラスを使用します。このクラスは、PDFドキュメントを操作するためのさまざまなメソッドとプロパティを提供します。`"input.pdf"` PDF の実際のファイル名に置き換える必要があります。このファイルはレンダリングの入力として使用されます。
+
+## ステップ3: 出力用の画像ストリームを作成する
+
+ドキュメントが読み込まれたら、レンダリングされた画像を保存するためのストリームを設定する必要があります。これは出力画像が保存される場所です。
+
+```csharp
+using (FileStream imageStream = new FileStream(dataDir + "SetDefaultFontName.png", FileMode.Create))
+```
+の`FileStream`クラスは、レンダリングされた画像を保存する新しいファイルを作成するために使用されます。この例では、画像を次のように保存しています。`"SetDefaultFontName.png"` 。`FileMode.Create`新しいファイルが作成されるか、既存のファイルが上書きされることを保証します。
+
+## ステップ4: 画像の解像度を設定する
+
+PDF を画像に変換する前に、解像度を設定することが重要です。解像度によって、出力画像の品質と鮮明さが決まります。
+
+```csharp
+Resolution resolution = new Resolution(300);
+```
+の`Resolution`クラスは出力画像の解像度を設定します。ここでは、高画質画像の標準である 300 DPI (ドット/インチ) の解像度を選択しました。これにより、PDF 内のテキストとグラフィックが詳細を失うことなく鮮明に表示されます。
+
+## ステップ5: PNGデバイスを構成する
+
+次に、PDF を PNG 画像にレンダリングするデバイスを構成する必要があります。
+
+```csharp
+PngDevice pngDevice = new PngDevice(resolution);
+```
+の`PngDevice`クラスはPDF文書をPNG画像にレンダリングする役割を担っています。`resolution`これに反対することで、指定された DPI で画像が作成されるようになります。
+
+## ステップ6: デフォルトのフォント名を設定する
+
+ここで重要な部分が、デフォルトのフォント名の設定です。これは、PDF 内の元のフォントが利用できない場合に代替フォントとして使用されます。
+
+```csharp
+RenderingOptions ro = new RenderingOptions();
+ro.DefaultFontName = "Arial";
+pngDevice.RenderingOptions = ro;
+```
+インスタンスを作成します`RenderingOptions`そしてその`DefaultFontName`財産に`"Arial"`つまり、PDF 内の元のフォントが見つからない場合は、代わりに Arial が使用されます。この手順は、レンダリングされた画像内のテキストの読みやすさと外観を維持するために重要です。
+
+## ステップ7: PDFページを画像にレンダリングする
+
+最後に、すべての設定が完了したら、PDF ドキュメントの最初のページを画像にレンダリングし、先ほど作成したファイル ストリームを使用して保存できるようになります。
+
+```csharp
+pngDevice.Process(pdfDocument.Pages[1], imageStream);
+```
+の`Process`方法の`PngDevice`クラスは、指定されたPDFページ（この場合は最初のページ）を画像にレンダリングするために使用されます。出力は、`imageStream`この手順では、PDF ページを指定された解像度とデフォルトのフォントで PNG 画像に変換します。
+
+## ステップ8: ファイルストリームとPDFドキュメントを閉じる
+
+画像をレンダリングした後は、リソースを解放するためにファイル ストリームと PDF ドキュメントを閉じることが重要です。
+
+```csharp
+imageStream.Close();
+pdfDocument.Dispose();
+```
+終了`imageStream`ファイルが適切に保存され、データが失われないことを保証します。`pdfDocument`メモリとリソースを解放し、潜在的なメモリ リークを防ぎます。
+
+## 結論
+
+これで完了です。わずか数行のコードで、Aspose.PDF for .NET を使用して PDF を画像にレンダリングするときに既定のフォント名を設定する方法を学習しました。このスキルは、特にサポートされていないフォントが含まれている可能性のある PDF を処理する場合に非常に便利です。既定のフォントを設定すると、レンダリングされた画像の読みやすさとプロフェッショナルな外観が維持されます。
+
+## よくある質問
+
+### 指定されたデフォルトフォントがシステムにインストールされていない場合はどうなりますか?
+デフォルトのフォントが`RenderingOptions`システムにインストールされていない場合、Aspose.PDF はシステム定義のフォールバック フォントを使用します。
+
+### デフォルトのフォントとして Arial 以外のフォントを使用できますか?
+もちろんです! システムにインストールされている任意のフォントをデフォルトのフォントとして設定できます。
+
+### PDF の複数ページを一度に画像に変換することは可能ですか?
+はい、PDF のページをループし、同じプロセスを使用して各ページを個別にレンダリングできます。
+
+### 高解像度を設定すると、PDF レンダリングのパフォーマンスに影響しますか?
+はい、解像度を高くすると画像ファイルが大きくなり、レンダリング時間が長くなる可能性がありますが、より鮮明な画像が生成されます。
+
+### PDF を PNG 以外の画像形式にレンダリングできますか?
+はい、Aspose.PDF は JPEG、BMP、TIFF などのさまざまな画像形式へのレンダリングをサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,133 @@
+---
+title: البحث والحصول على الصور في ملف PDF
+linktitle: البحث والحصول على الصور في ملف PDF
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية استخراج الصور بسهولة من ملفات PDF باستخدام Aspose.PDF for .NET. اتبع هذا الدليل خطوة بخطوة لتحسين مهاراتك في معالجة ملفات PDF.
+weight: 260
+url: /ar/net/programming-with-images/search-and-get-images/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# البحث والحصول على الصور في ملف PDF
+
+## مقدمة
+
+هل تبحث عن طريقة مباشرة لاستخراج الصور من ملفات PDF باستخدام Aspose.PDF for .NET؟ لقد وصلت إلى المكان الصحيح! في هذه المقالة، سنتعمق في تفاصيل كيفية البحث عن الصور المضمنة في مستند PDF واستردادها بفعالية. سواء كنت مطورًا متمرسًا أو كنت تخوض للتو في عالم معالجة ملفات PDF، فسيرشدك هذا الدليل خلال العملية بأكملها خطوة بخطوة.
+
+## المتطلبات الأساسية
+
+قبل أن ننتقل إلى التفاصيل الدقيقة للكود، هناك بعض المتطلبات الأساسية التي تحتاج إلى التحقق منها من قائمتك. 
+
+### إطار عمل .NET
+
+تأكد من تثبيت .NET Framework على جهازك. Aspose.PDF for .NET متوافق مع إصدارات مختلفة، ولكن من الأفضل استخدام أحدث إصدار مستقر للاستمتاع بجميع الميزات والتحسينات الحديثة.
+
+### مكتبة Aspose.PDF
+
+ ستحتاج إلى الوصول إلى مكتبة Aspose.PDF. إذا لم تقم بذلك بعد، فيمكنك تنزيلها من هذا الرابط:[تنزيل Aspose.PDF لـ .NET](https://releases.aspose.com/pdf/net/) بالإضافة إلى ذلك، يمكنك استكشاف[تجربة مجانية لمدة شهر واحد](https://releases.aspose.com/) لبدء مشاريعك دون أي تكلفة.
+
+### بيئة التطوير
+
+يجب إعداد بيئة تطوير مناسبة مثل Visual Studio أو أي بيئة تطوير متكاملة تفضلها لكتابة التعليمات البرمجية وتشغيلها بسلاسة.
+
+## استيراد الحزم
+
+للعمل مع Aspose.PDF لـ .NET، ستحتاج أولاً إلى استيراد المساحات المناسبة إلى مشروعك. إليك ما عليك القيام به:
+
+```csharp
+using System.IO;
+using Aspose.Pdf;
+using System;
+```
+
+ تخدم كل من هذه الحزم أغراضًا محددة عند معالجة مستندات PDF.`Aspose.Pdf` مساحة الاسم هي حجر الأساس لعملياتك، في حين تساعد المساحة الأخرى في التعامل مع الصور والنصوص داخل ملف PDF.
+
+## الخطوة 1: تعيين مسار المستند الخاص بك
+
+قبل أي شيء آخر، تحتاج إلى تحديد المسار الذي يوجد به ملف PDF الخاص بك. يحدد هذا الجزء من التعليمات البرمجية ذلك:
+
+```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+ استبدل "دليل المستندات الخاص بك" بالمسار الفعلي للدليل الذي يحتوي على ملف PDF الخاص بك، على سبيل المثال،`C:\Documents\`.
+
+## الخطوة 2: افتح مستند PDF
+
+ بعد ذلك، ستحتاج إلى تحميل مستند PDF إلى تطبيقك. يتم ذلك عن طريق إنشاء ملف جديد`Document` مثال مع مسار الملف الذي حددته للتو:
+
+```csharp
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "SearchAndGetImages.pdf");
+```
+
+## الخطوة 3: إنشاء ImagePlacementAbsorber
+
+ للبحث عن الصور داخل ملف PDF، تحتاج إلى`ImagePlacementAbsorber` تساعد هذه الفئة في امتصاص الصور من ملف PDF أثناء عملية الاستخراج:
+
+```csharp
+ImagePlacementAbsorber abs = new ImagePlacementAbsorber();
+```
+
+## الخطوة 4: قبول الامتصاص لجميع الصفحات
+
+ هذه الخطوة مهمة لأنها تخبر`Document` تطبيق أداة امتصاص الصور على جميع الصفحات. وهذا يضمن تحديد أي صور موضوعة في أي مكان داخل المستند:
+
+```csharp
+doc.Pages.Accept(abs);
+```
+
+## الخطوة 5: تكرار وضع الصور
+
+الآن بعد أن استوعبت الصور، حان الوقت للتعمق فيها. ستنتقل عبر كل موضع صورة تم استخراجه من ملف PDF:
+
+```csharp
+foreach (ImagePlacement imagePlacement in abs.ImagePlacements)
+{
+    // خطوات إضافية للحصول على خصائص الصورة
+}
+```
+
+## الخطوة 6: استخراج خصائص الصورة
+
+ داخل الحلقة، يمكنك البدء في استرداد الخصائص القيمة لكل صورة. باستخدام`imagePlacement` الكائن، يمكنك الوصول إلى الأبعاد والدقة:
+
+```csharp
+XImage image = imagePlacement.Image; // احصل على الصورة
+
+Console.Out.WriteLine("image width:" + imagePlacement.Rectangle.Width);
+Console.Out.WriteLine("image height:" + imagePlacement.Rectangle.Height);
+Console.Out.WriteLine("image LLX:" + imagePlacement.Rectangle.LLX);
+Console.Out.WriteLine("image LLY:" + imagePlacement.Rectangle.LLY);
+Console.Out.WriteLine("image horizontal resolution:" + imagePlacement.Resolution.X);
+Console.Out.WriteLine("image vertical resolution:" + imagePlacement.Resolution.Y);
+```
+
+## خاتمة
+
+والآن، إليك ما تحتاج إليه! باتباع هذه الخطوات، يمكنك البحث عن الصور واسترجاعها بكفاءة من ملفات PDF باستخدام Aspose.PDF for .NET. وباستخدام بضعة أسطر فقط من التعليمات البرمجية، يمكنك استخراج الصور القيمة وخصائصها، مما يفتح الأبواب أمام العديد من الاحتمالات في تطبيقك.
+
+## الأسئلة الشائعة
+
+### هل استخدام مكتبة Aspose.PDF مجاني؟  
+Aspose.PDF for .NET هي مكتبة مدفوعة الأجر، ولكن يمكنك تنزيل نسخة تجريبية مجانية لمدة شهر واحد.
+
+### هل يمكنني استخراج الصور من ملفات PDF المحمية بكلمة مرور؟  
+نعم، ولكن يتعين عليك تقديم كلمة المرور أثناء فتح المستند.
+
+### ما هي أنواع الصور التي يمكن استخراجها من ملف PDF؟  
+يمكن استخراج جميع الصور المضمنة بغض النظر عن التنسيق (JPEG، PNG، وما إلى ذلك).
+
+### هل هناك حد لعدد الصور التي يمكنني استخراجها؟  
+لا يوجد حد أقصى، ويعتمد ذلك على ملف PDF نفسه.
+
+### هل يمكنني حفظ الصور المستخرجة على القرص؟  
+ نعم، يمكنك حفظ الصور على القرص باستخدام`XImage` الكائن في الكود الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

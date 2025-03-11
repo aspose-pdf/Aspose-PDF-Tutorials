@@ -1,0 +1,162 @@
+---
+title: عرض سطر التعليق التوضيحي lnk
+linktitle: عرض سطر التعليق التوضيحي lnk
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية ضبط عرض سطر التعليق بالحبر في ملف PDF باستخدام Aspose.PDF لـ .NET. يرشدك هذا البرنامج التعليمي المفصل خلال كل خطوة، مما يضمن لك الحصول على مخرجات عالية الجودة.
+weight: 110
+url: /ar/net/annotations/lnkannotationlinewidth/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عرض سطر التعليق التوضيحي lnk
+
+## مقدمة
+
+عند العمل مع مستندات PDF، يمكن أن تكون إضافة التعليقات التوضيحية طريقة فعّالة لتسليط الضوء على المعلومات أو إضافة عناصر تفاعلية إلى ملفاتك. ومن بين هذه التعليقات التوضيحية التعليق بالحبر، الذي يسمح لك برسم خطوط حرة على ملف PDF. ولكن ماذا لو كنت بحاجة إلى تخصيص مظهر هذه الخطوط، وخاصة عرض الخط؟ في هذا البرنامج التعليمي، سنوضح لك عملية تعيين عرض خط التعليق بالحبر باستخدام Aspose.PDF لـ .NET.
+
+## المتطلبات الأساسية
+
+قبل الغوص في الكود، دعنا نتأكد من إعداد كل شيء لمتابعة هذا البرنامج التعليمي بسلاسة:
+
+1.  Aspose.PDF for .NET: تأكد من تثبيت مكتبة Aspose.PDF for .NET. يمكنك تنزيلها من[صفحة التحميل](https://releases.aspose.com/pdf/net/) أو قم بتثبيته عبر NuGet Package Manager في Visual Studio.
+2. بيئة التطوير: يفترض هذا البرنامج التعليمي أنك تعمل في بيئة تطوير .NET مثل Visual Studio.
+3. المعرفة الأساسية بلغة C#: إن الفهم الأساسي للغة C# سيساعدك على متابعة خطوات الترميز.
+4. مستند PDF: استخدم مستند PDF موجودًا أو قم بإنشاء مستند جديد لهذا البرنامج التعليمي.
+
+## استيراد المساحات الاسمية الضرورية
+
+قبل البدء في الترميز، تأكد من استيراد المساحات الأساسية اللازمة في مشروعك:
+
+```csharp
+using System.IO;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+```
+
+توفر هذه المساحات الأسماء الفئات والطرق اللازمة للتعامل مع مستندات PDF، والعمل مع التعليقات التوضيحية، والتعامل مع العناصر الرسومية.
+
+الآن بعد أن وضعنا المتطلبات الأساسية في مكانها، فلنبدأ بتقسيم عملية ضبط عرض خط التعليق بالحبر إلى خطوات واضحة وقابلة للإدارة.
+
+## الخطوة 1: تهيئة مستند PDF
+
+أولاً، نحتاج إلى إنشاء أو فتح مستند PDF. في هذا البرنامج التعليمي، سننشئ مستند PDF جديدًا من البداية.
+
+```csharp
+// تهيئة مستند PDF
+string dataDir = "YOUR DOCUMENT DIRECTORY"; // حدد دليل المستند الخاص بك
+Document doc = new Document();
+doc.Pages.Add(); // إضافة صفحة فارغة إلى المستند
+```
+
+ هنا، نقوم بتهيئة ملف جديد`Document` الكائن الذي يمثل ملف PDF الخاص بنا. ثم نضيف صفحة فارغة إلى هذا المستند للعمل عليها.
+
+## الخطوة 2: إنشاء تعليق بالحبر
+
+بعد ذلك، سننشئ شرح الحبر نفسه. يتضمن هذا تحديد النقاط التي تشكل خطوط الحبر.
+
+```csharp
+// إنشاء تعليق بالحبر
+IList<Point[]> inkList = new List<Point[]>();
+LineInfo lineInfo = new LineInfo();
+lineInfo.VerticeCoordinate = new float[] { 55, 55, 70, 70, 70, 90, 150, 60 };
+lineInfo.Visibility = true;
+lineInfo.LineColor = Color.Red;
+lineInfo.LineWidth = 2;
+```
+
+ في هذه الخطوة، نقوم بتعريف`LineInfo` الكائن الذي يحمل إحداثيات ضربات الحبر ووضوحها ولونها وعرض الخط الأولي.`VerticeCoordinate` تحتوي المصفوفة على إحداثيات X وY لكل نقطة في الخط.
+
+## الخطوة 3: تحويل الإحداثيات إلى نقاط
+
+الآن، نحتاج إلى تحويل هذه الإحداثيات إلى نقاط يمكن استخدامها بواسطة Ink Annotation.
+
+```csharp
+// تحويل الإحداثيات إلى نقاط
+int length = lineInfo.VerticeCoordinate.Length / 2;
+Aspose.Pdf.Point[] gesture = new Aspose.Pdf.Point[length];
+for (int i = 0; i < length; i++)
+{
+    gesture[i] = new Aspose.Pdf.Point(lineInfo.VerticeCoordinate[2 * i], lineInfo.VerticeCoordinate[2 * i + 1]);
+}
+
+inkList.Add(gesture);
+```
+
+ تعمل هذه الحلقة على معالجة مجموعة الإحداثيات، وتحويل كل زوج من الإحداثيات إلى`Point` الكائن، والذي يتم إضافته بعد ذلك إلى`inkList`.
+
+## الخطوة 4: إضافة تعليق الحبر إلى صفحة PDF
+
+بعد أن أصبحت النقاط جاهزة، يمكننا الآن إنشاء تعليق بالحبر وإضافته إلى صفحة PDF.
+
+```csharp
+// إضافة تعليق الحبر إلى صفحة PDF
+InkAnnotation a1 = new InkAnnotation(doc.Pages[1], new Aspose.Pdf.Rectangle(100, 100, 300, 300), inkList);
+a1.Subject = "Test";
+a1.Title = "Title";
+a1.Color = Aspose.Pdf.Color.FromRgb(Color.Green);
+```
+
+ في هذه الخطوة، نقوم بتهيئة`InkAnnotation`الكائن، مع تحديد الصفحة والمستطيل المحيط وقائمتنا من النقاط. كما نقوم أيضًا بتعيين موضوع التعليق والعنوان واللون.
+
+## الخطوة 5: تخصيص حدود التعليقات التوضيحية
+
+لمزيد من تخصيص مظهر التعليقات التوضيحية لدينا، سنقوم بتعديل خصائص حدودها.
+
+```csharp
+// تخصيص حدود التعليقات التوضيحية
+Border border = new Border(a1);
+border.Width = 3;
+border.Effect = BorderEffect.Cloudy;
+border.Dash = new Dash(1, 1);
+border.Style = BorderStyle.Solid;
+doc.Pages[1].Annotations.Add(a1);
+```
+
+ هنا، نقوم بإنشاء`Border` كائن لتعليقنا التوضيحي، مع تحديد عرضه وتأثيره ونمطه ونمطه. تضمن هذه الخطوة أن يبرز التعليق التوضيحي بصريًا على صفحة PDF.
+
+## الخطوة 6: احفظ مستند PDF
+
+وأخيرًا، بعد إجراء كافة التغييرات اللازمة، حان الوقت لحفظ المستند.
+
+```csharp
+// حفظ مستند PDF
+dataDir = dataDir + "lnkAnnotationLineWidth_out.pdf";
+doc.Save(dataDir);
+Console.WriteLine("\nInk annotation line width setup successfully.\nFile saved at " + dataDir);
+```
+
+ يحفظ هذا الكود مستند PDF المعدّل مع ملاحظة الحبر في الدليل المحدد.`Console.WriteLine` يؤكد البيان نجاح تنفيذ الكود.
+
+## خاتمة
+
+تهانينا! لقد نجحت في إنشاء وتخصيص تعليق بالحبر في مستند PDF باستخدام Aspose.PDF for .NET. غطى هذا البرنامج التعليمي العملية برمتها، من تهيئة المستند إلى حفظ الملف النهائي. باستخدام هذه المعرفة، يمكنك استكشاف الإمكانات الهائلة لـ Aspose.PDF for .NET وتطبيق تقنيات مماثلة على أنواع أخرى من التعليقات أو معالجات PDF.
+
+## الأسئلة الشائعة
+
+### هل يمكنني استخدام ألوان مختلفة لأجزاء مختلفة من شرح الحبر؟  
+ نعم، يمكنك إنشاء العديد من`InkAnnotation` قم بإنشاء كائنات بألوان مختلفة وأضفها إلى نفس الصفحات أو صفحات مختلفة في ملف PDF الخاص بك.
+
+### كيف أقوم بتغيير عرض الخط بشكل ديناميكي؟  
+ يمكنك تعديل`LineWidth` ممتلكات`LineInfo` الكائن قبل تحويل الإحداثيات إلى نقاط.
+
+### هل من الممكن جعل تعليق الحبر شفافًا؟  
+ نعم يمكنك تعديل`Opacity` ممتلكات`InkAnnotation` كائن لجعله شفافًا.
+
+### هل يمكنني إضافة تعليقات حبر متعددة إلى نفس الصفحة؟  
+بالتأكيد! يمكنك إضافة عدد لا حصر له من التعليقات بالحبر إلى صفحة واحدة عن طريق تكرار العملية.
+
+### كيف يمكنني إزالة تعليق الحبر من ملف PDF؟  
+ يمكنك إزالة التعليق التوضيحي باستخدام`doc.Pages[1].Annotations.Delete(a1)` الطريقة، حيث`a1` هو كائن التعليق الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

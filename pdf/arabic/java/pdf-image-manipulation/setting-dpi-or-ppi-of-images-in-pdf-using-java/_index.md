@@ -1,0 +1,97 @@
+---
+title: ضبط DPI أو PPI للصور في PDF باستخدام Java
+linktitle: ضبط DPI أو PPI للصور في PDF باستخدام Java
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: قم بتحسين جودة صورة PDF باستخدام دليلنا خطوة بخطوة حول ضبط DPI/PPI في PDF باستخدام Java. تعرف على كيفية تحسين مستنداتك للطباعة والعرض الرقمي.
+weight: 12
+url: /ar/java/pdf-image-manipulation/setting-dpi-or-ppi-of-images-in-pdf-using-java/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط DPI أو PPI للصور في PDF باستخدام Java
+
+
+## مقدمة لضبط DPI أو PPI للصور في PDF باستخدام Java
+
+في العصر الرقمي، حيث تتم مشاركة المستندات إلكترونيًا بشكل متكرر، تلعب جودة الصور في ملفات PDF دورًا بالغ الأهمية. عند العمل مع ملفات PDF في Java، من الضروري فهم كيفية ضبط DPI (نقاط لكل بوصة) أو PPI (بكسل لكل بوصة) للصور داخل ملفات PDF هذه. في هذا الدليل الشامل، سنستكشف عملية ضبط DPI أو PPI للصور في ملفات PDF باستخدام Java، مع التركيز على الاستفادة من مكتبة Aspose.PDF لـ Java.
+
+## البدء باستخدام Aspose.PDF للغة Java
+
+قبل أن نتعمق في ضبط DPI/PPI لصور PDF، دعنا نقدم بإيجاز Aspose.PDF for Java. إنها مكتبة قوية ومتعددة الاستخدامات تتيح لمطوري Java إنشاء مستندات PDF ومعالجتها وتحويلها بسهولة. للبدء، تحتاج إلى تثبيت Aspose.PDF for Java وإعداده في بيئة التطوير الخاصة بك.
+
+## ضبط DPI أو PPI في صور PDF
+
+### ما هو DPI/PPI للصور في PDF؟
+
+DPI (Dots Per Inch) وPPI (Pixels Per Inch) هما مقياسان يحددان دقة أو جودة الصور داخل مستند PDF. يشير ارتفاع DPI/PPI إلى جودة صورة أعلى ولكنه قد يؤدي أيضًا إلى أحجام ملفات أكبر.
+
+### طرق ضبط DPI/PPI باستخدام Aspose.PDF لـ Java
+
+###  الطريقة 1: استخدام`setImageResolution` Method
+
+ إحدى الطرق لتعيين DPI/PPI للصور في PDF باستخدام Aspose.PDF لـ Java هي الاستفادة من`setImageResolution` الطريقة. تسمح لك هذه الطريقة بتحديد الدقة المطلوبة للصور في ملف PDF.
+
+```java
+// مثال على كود جافا
+ImagePlacement imagePlacement = new ImagePlacement();
+imagePlacement.setImageFile("image.jpg");
+imagePlacement.setImageResolution(new Resolution(300, 300));
+```
+
+###  الطريقة 2: استخدام`setResolution` Method
+
+ هناك نهج آخر وهو استخدام`setResolution` طريقة لتعيين DPI/PPI للصور في ملف PDF. توفر هذه الطريقة المرونة في تحديد إعدادات الدقة.
+
+```java
+// مثال على كود جافا
+ImagePlacement imagePlacement = new ImagePlacement();
+imagePlacement.setImageFile("image.jpg");
+imagePlacement.setResolution(150); // نقطة لكل بوصة
+```
+
+### أمثلة التعليمات البرمجية لكل طريقة
+
+لقد قدمنا أمثلة على أكواد Java لكلا الطريقتين المذكورتين أعلاه لجعل العملية أكثر وضوحًا. توضح هذه الأمثلة كيفية تعيين DPI/PPI للصور في مستندات PDF باستخدام Aspose.PDF for Java بشكل فعال.
+
+### أفضل الممارسات لاختيار قيم DPI/PPI
+
+يعد اختيار قيم DPI/PPI المناسبة لصور PDF أمرًا بالغ الأهمية. يجب أن تؤثر عوامل مثل الاستخدام المقصود لملف PDF (على سبيل المثال، العرض على الويب أو الطباعة عالية الجودة) على اختيارك. سنناقش أفضل الممارسات لاتخاذ هذه القرارات.
+
+## الاختبار والتحقق
+
+بعد ضبط DPI/PPI لصور PDF، من الضروري التأكد من تطبيق التغييرات بشكل صحيح. يضمن الاختبار أن مستندات PDF الخاصة بك تلبي معايير الجودة المطلوبة، سواء للعرض على الشاشة أو الطباعة.
+
+## خاتمة
+
+في الختام، يمكن أن يؤثر ضبط DPI أو PPI للصور في ملفات PDF باستخدام Java بشكل كبير على جودة مستنداتك وقابليتها للاستخدام. لقد استكشفنا الأساليب المتاحة من خلال Aspose.PDF لـ Java وناقشنا أفضل الممارسات لاتخاذ قرارات مستنيرة حول قيم DPI/PPI. باتباع هذه الإرشادات، يمكنك تحسين المظهر المرئي ووظائف مستندات PDF الخاصة بك.
+
+## الأسئلة الشائعة
+
+### ما هو DPI و PPI في PDF؟
+
+يشير DPI (Dots Per Inch) وPPI (Pixels Per Inch) في PDF إلى دقة الصورة. يتم استخدام DPI للمستندات المطبوعة، بينما PPI للشاشات الرقمية. يحددان جودة وحجم الصور في ملفات PDF.
+
+### لماذا من المهم ضبط DPI/PPI في صور PDF؟
+
+يضمن ضبط DPI/PPI ظهور الصور بالشكل المقصود عند طباعتها أو عرضها رقميًا. ويؤثر ذلك على وضوح الصورة وحجمها وجودة المستند بشكل عام.
+
+### كيف يمكنني ضبط DPI/PPI باستخدام Aspose.PDF لـ Java؟
+
+ يوفر Aspose.PDF لـ Java طرقًا مثل`setImageResolution` و`setResolution` لتعيين DPI/PPI للصور في ملفات PDF. راجع دليلنا للحصول على أمثلة تفصيلية للكود.
+
+### هل يمكنك إعطاء مثال على إعداد DPI/PPI باستخدام الكود؟
+
+بالتأكيد! لقد قدمنا أمثلة على أكواد Java في دليلنا لإظهار كيفية ضبط DPI/PPI باستخدام Aspose.PDF لـ Java بشكل فعال.
+
+### ما هي بعض قيم DPI/PPI الموصى بها لصور PDF؟
+
+تعتمد قيم DPI/PPI الموصى بها على الاستخدام المقصود لملف PDF. لعرض الويب، غالبًا ما تكون 72 DPI كافية. للطباعة عالية الجودة، يوصى بـ 300 DPI أو أعلى.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

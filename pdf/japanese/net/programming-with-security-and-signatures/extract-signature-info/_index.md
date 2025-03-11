@@ -1,0 +1,154 @@
+---
+title: 署名情報の抽出
+linktitle: 署名情報の抽出
+second_title: Aspose.PDF for .NET API リファレンス
+description: Aspose.PDF for .NET を使用して PDF ドキュメントからデジタル署名と証明書情報を抽出する方法を学びます。C# 開発者向けの完全なステップバイステップ ガイドです。
+weight: 80
+url: /ja/net/programming-with-security-and-signatures/extract-signature-info/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 署名情報の抽出
+
+## 導入
+
+今日のデジタル世界では、ドキュメントのセキュリティと整合性を確保することが非常に重要です。PDF を保護するためによく使用される方法の 1 つは、デジタル署名を追加することです。ただし、署名の詳細を取得して検証することは、特にさまざまな証明書を扱っている場合は、困難な場合があります。このガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントから署名情報を抽出するプロセスを順を追って説明し、タスクを簡単にします。署名フィールドにアクセスし、証明書情報を抽出してファイルに保存する方法を学びます。
+
+## 前提条件
+
+始める前に、始めるための準備がすべて整っていることを確認しましょう。
+
+-  Aspose.PDF for .NETライブラリ:まだお持ちでない場合は、以下からダウンロードできます。[Aspose.PDF for .NET ダウンロード ページ](https://releases.aspose.com/pdf/net/). 
+- .NET 開発環境: Visual Studio などの IDE が必要です。
+- 基本的な C# の知識: C# の知識があると、このチュートリアルのコード スニペットを理解するのに役立ちます。
+- デジタル署名付きの PDF ドキュメント: テストの目的で、少なくとも 1 つのデジタル署名が含まれる PDF ファイルがあることを確認してください。
+
+## 必要な名前空間のインポート
+
+コードに進む前に、必要な名前空間をインポートすることが重要です。これらの名前空間により、Aspose.PDF 機能にアクセスし、PDF ドキュメントを操作できるようになります。
+
+```csharp
+using System.IO;
+using Aspose.Pdf.Forms;
+using Aspose.Pdf;
+using System;
+```
+
+基本的な設定が完了したら、PDF から署名情報を抽出する実際のプロセスに進みましょう。
+
+## ステップ1: ドキュメントディレクトリの設定
+
+ PDF文書で作業する前に、使用するファイルの場所を指定する必要があります。`"YOUR DOCUMENT DIRECTORY"` PDF が保存されているディレクトリの実際のパスを入力します。
+
+```csharp
+//ドキュメント ディレクトリへのパス。
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+string input = dataDir + "ExtractSignatureInfo.pdf";
+```
+
+ここでは、PDF ファイルを含むディレクトリとファイル名自体を指定します。そのディレクトリにファイルが存在することを確認してください。
+
+## ステップ2: PDFドキュメントの読み込み
+
+ディレクトリの設定が完了したら、次のステップは、`Document` Aspose.PDF からのクラス。
+
+```csharp
+using (Document pdfDocument = new Document(input))
+{
+    //ここでPDFを処理します。
+}
+```
+
+このコード行は、`Document`PDFファイルを表すオブジェクト。`using`ステートメントは、ドキュメントが処理された後にリソースがクリーンアップされることを保証します。
+
+## ステップ3: フォームフィールドへのアクセス
+
+このステップでは、PDF ドキュメント内のすべてのフォーム フィールドをループします。署名は通常フォーム フィールドとして保存されるため、このステップは署名フィールドを識別するのに役立ちます。
+
+```csharp
+foreach (Field field in pdfDocument.Form)
+{
+    //ここで署名フィールドを識別します。
+}
+```
+
+繰り返して`Form`の財産`Document`オブジェクトを使用すると、各フォーム フィールドを調べて、署名フィールドであるかどうかを確認できます。
+
+## ステップ4: 署名フィールドの識別
+
+フォームフィールドにアクセスしたら、次のステップは署名フィールドを特定することです。これは、各フィールドを`SignatureField`物体。
+
+```csharp
+SignatureField sf = field as SignatureField;
+if (sf != null)
+{
+    //署名情報を抽出します。
+}
+```
+
+ここでは、`as`キーワードを使用して、各フォームフィールドを`SignatureField`キャストが成功した場合、フィールドが署名であることがわかります。
+
+## ステップ5: 証明書の抽出
+
+署名フィールドを特定したら、次のタスクは署名から証明書を抽出することです。証明書には、署名者と署名の有効性に関する重要な情報が含まれています。
+
+```csharp
+Stream cerStream = sf.ExtractCertificate();
+```
+
+の`ExtractCertificate`メソッドは`Stream`証明書データを含むオブジェクト。このストリームは、証明書を保存してさらに分析したり保管したりするために使用できます。
+
+## ステップ6: 証明書をファイルに保存する
+
+証明書を抽出したら、最後のステップはそれをファイルに保存することです。この場合、証明書を`.cer`ファイル。
+
+```csharp
+if (cerStream != null)
+{
+    using (cerStream)
+    {
+        byte[] bytes = new byte[cerStream.Length];
+        using (FileStream fs = new FileStream(dataDir + @"input.cer", FileMode.CreateNew))
+        {
+            cerStream.Read(bytes, 0, bytes.Length);
+            fs.Write(bytes, 0, bytes.Length);
+        }
+    }
+}
+```
+
+このコード ブロックでは、次の操作を行います。
+
+1. 証明書ストリームが null でないかどうかを確認します。
+2. 証明書データをバイト配列に読み取ります。
+3. バイト配列を`.cer`ドキュメントディレクトリ内のファイル。
+
+## 結論
+
+Aspose.PDF for .NET を使用して PDF ドキュメントからデジタル署名とそれに関連する証明書情報を抽出するのは、簡単な手順に分解すると非常に簡単です。ドキュメントの監査、署名の検証、または証明書の保管など、どのような作業でも、このチュートリアルで効率的に作業を行うための知識が得られます。今日のデジタル世界ではドキュメントのセキュリティ保護と検証が重要であり、Aspose.PDF for .NET などのツールを使用すると、はるかに簡単に処理できることを覚えておいてください。
+
+## よくある質問
+
+### Aspose.PDF for .NET を使用して PDF から複数の署名を抽出できますか?
+はい、コードはドキュメント内のすべてのフォーム フィールドをループし、複数の署名が存在する場合はそれを抽出できます。
+
+### PDF に署名が見つからない場合はどうなりますか?
+署名フィールドが存在しない場合は、コードはエラーをスローせずに単にそれらをスキップします。
+
+### この方法を使用して署名の有効性を検証できますか?
+証明書を抽出することはできますが、署名の有効性を検証するには、証明書の信頼チェーンの確認などの追加の手順が必要です。
+
+### Aspose.PDF for .NET を使用して他のフォーム フィールド データを抽出することは可能ですか?
+はい、Aspose.PDF を使用すると、署名フィールドだけでなく、PDF 内のさまざまな種類のフォーム フィールドにアクセスして操作できます。
+
+### 抽出した証明書の詳細を表示するにはどうすればいいですか?
+証明書が`.cer`ファイルは、任意の証明書ビューアを使用して開くことも、システム証明書ストアにインポートしてさらに検査することもできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

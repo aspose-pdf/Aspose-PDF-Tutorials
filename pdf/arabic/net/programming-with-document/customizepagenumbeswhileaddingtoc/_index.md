@@ -1,0 +1,150 @@
+---
+title: تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات
+linktitle: تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات إلى مستندات PDF الخاصة بك باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل.
+weight: 100
+url: /ar/net/programming-with-document/customizepagenumbeswhileaddingtoc/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات
+
+## مقدمة
+
+في عالم إدارة المستندات، تحتل ملفات PDF الصدارة. فهي التنسيق المفضل لمشاركة المستندات وحفظها عبر منصات مختلفة. ولكن ماذا يحدث عندما تريد تحسين مستندات PDF الخاصة بك بميزات مثل جدول المحتويات (TOC)؟ هنا يأتي دور Aspose.PDF for .NET! تتيح هذه المكتبة القوية للمطورين التعامل مع ملفات PDF بسهولة، مما يمكنهم من إضافة المحتوى وتعديله وتخصيصه دون عناء. في هذا البرنامج التعليمي، سنتعمق في كيفية تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات إلى مستندات PDF الخاصة بك باستخدام Aspose.PDF for .NET. لذا، استعد للبدء!
+
+## المتطلبات الأساسية
+
+قبل أن ننتقل إلى الكود، هناك بعض الأشياء التي تحتاج إلى وضعها في مكانها:
+
+1. Visual Studio: تأكد من تثبيت Visual Studio على جهازك. ستكون هذه بيئة التطوير الخاصة بنا.
+2. Aspose.PDF for .NET: تحتاج إلى تنزيل مكتبة Aspose.PDF وتثبيتها. يمكنك العثور عليها[هنا](https://releases.aspose.com/pdf/net/).
+3. المعرفة الأساسية بلغة C#: ستساعدك المعرفة ببرمجة C# على فهم مقتطفات التعليمات البرمجية بشكل أفضل.
+4. ملف PDF نموذجي: جهز ملف PDF نموذجي يمكننا العمل عليه. يمكنك إنشاء ملف بسيط أو تنزيل ملف PDF موجود.
+
+## استيراد الحزم
+
+للبدء، نحتاج إلى استيراد الحزم اللازمة. افتح مشروع Visual Studio وأضف مرجعًا إلى مكتبة Aspose.PDF. يمكنك القيام بذلك باستخدام NuGet Package Manager:
+
+1. انقر بزر الماوس الأيمن على مشروعك في مستكشف الحلول.
+2. حدد "إدارة حزم NuGet".
+3. ابحث عن "Aspose.PDF" وقم بتثبيته.
+
+```csharp
+using Aspose.Pdf.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+بمجرد تثبيت المكتبة، يمكنك البدء في الترميز!
+
+## الخطوة 1: إعداد دليل المستندات الخاص بك
+
+أولاً وقبل كل شيء، نحتاج إلى إعداد دليل المستندات الخاص بنا. هذا هو المكان الذي سنخزن فيه ملفات PDF المدخلة والمخرجة. 
+
+```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+string inFile = dataDir + "42824.pdf";
+string outFile = dataDir + "42824_out.pdf";
+```
+
+في هذه القطعة، استبدل`YOUR DOCUMENT DIRECTORY` مع المسار الفعلي الذي توجد به ملفات PDF الخاصة بك. سيساعدنا هذا في تحميل ملف PDF الحالي وحفظ النسخة المعدلة.
+
+## الخطوة 2: تحميل ملف PDF الموجود
+
+الآن بعد أن قمنا بإعداد دليل المستندات الخاص بنا، فلنقم بتحميل ملف PDF الموجود. 
+
+```csharp
+Document doc = new Document(inFile);
+```
+
+ هنا نقوم بإنشاء جديد`Document` الكائن عن طريق تمرير مسار ملف الإدخال. وهذا يسمح لنا بالتعامل مع محتوى PDF برمجيًا.
+
+## الخطوة 3: إدراج صفحة جديدة لجدول المحتويات
+
+بعد ذلك، نحتاج إلى إنشاء صفحة جديدة في ملف PDF الخاص بنا حيث سيتم وضع جدول المحتويات.
+
+```csharp
+Aspose.Pdf.Page tocPage = doc.Pages.Insert(1);
+```
+
+يؤدي هذا السطر إلى إدراج صفحة جديدة في بداية المستند. سيتم عرض جدول المحتويات على هذه الصفحة.
+
+## الخطوة 4: إنشاء معلومات جدول المحتويات
+
+الآن، دعونا نقوم بإنشاء كائن لتمثيل معلومات جدول المحتويات.
+
+```csharp
+TocInfo tocInfo = new TocInfo();
+TextFragment title = new TextFragment("Table Of Contents");
+title.TextState.FontSize = 20;
+title.TextState.FontStyle = FontStyles.Bold;
+tocInfo.Title = title;
+tocInfo.PageNumbersPrefix = "P";
+tocPage.TocInfo = tocInfo;
+```
+
+ في هذه الخطوة، نقوم بإنشاء`TocInfo` الكائن وتعيين عنوانه إلى "جدول المحتويات". كما نقوم بتخصيص حجم الخط ونمطه.`PageNumbersPrefix` تم ضبطه على "P"، والذي سيقوم بإضافة بادئة لأرقام الصفحات في جدول المحتويات.
+
+## الخطوة 5: إضافة عناوين إلى جدول المحتويات
+
+الآن يأتي الجزء الممتع! سوف ننتقل عبر صفحات المستند ونضيف العناوين إلى جدول المحتويات.
+
+```csharp
+for (int i = 1; i < doc.Pages.Count; i++)
+{
+    Aspose.Pdf.Heading heading2 = new Aspose.Pdf.Heading(1);
+    TextSegment segment2 = new TextSegment();
+    heading2.TocPage = tocPage;
+    heading2.Segments.Add(segment2);
+    heading2.DestinationPage = doc.Pages[i + 1];
+    heading2.Top = doc.Pages[i + 1].Rect.Height;
+    segment2.Text = "Page " + i.ToString();
+    tocPage.Paragraphs.Add(heading2);
+}
+```
+
+ في هذه الحلقة، نقوم بإنشاء حلقة جديدة`Heading` كائن لكل صفحة. نقوم بتعيين صفحة الوجهة لكل عنوان ونحدد النص الذي سيتم عرضه، وهو "الصفحة X" حيث X هو رقم الصفحة. وأخيرًا، نضيف العنوان إلى صفحة جدول المحتويات.
+
+## الخطوة 6: حفظ المستند المحدث
+
+بعد إضافة كافة العناوين اللازمة، حان الوقت لحفظ المستند المحدث.
+
+```csharp
+doc.Save(outFile);
+```
+
+يحفظ هذا السطر ملف PDF المعدّل مع تضمين جدول المحتويات. يمكنك الآن فتح ملف الإخراج ورؤية جدول المحتويات المخصص لك!
+
+## خاتمة
+
+والآن، لقد نجحت في تخصيص أرقام الصفحات أثناء إضافة جدول المحتويات إلى مستند PDF الخاص بك باستخدام Aspose.PDF for .NET. تسهل هذه المكتبة القوية التعامل مع ملفات PDF، وباستخدام بضعة أسطر فقط من التعليمات البرمجية، يمكنك تحسين مستنداتك بشكل كبير. سواء كنت تقوم بإنشاء تقارير أو كتب إلكترونية أو أي نوع آخر من ملفات PDF، فإن وجود جدول المحتويات يمكن أن يحسن بشكل كبير من التنقل للقراء. إذن، ما الذي تنتظره؟ انغمس في Aspose.PDF وابدأ في إنشاء ملفات PDF مذهلة اليوم!
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.PDF لـ .NET؟
+Aspose.PDF for .NET هي مكتبة تسمح للمطورين بإنشاء مستندات PDF ومعالجتها وتحويلها برمجيًا.
+
+### هل يمكنني استخدام Aspose.PDF مجانًا؟
+ نعم، تقدم Aspose إصدارًا تجريبيًا مجانيًا يمكنك استخدامه لاستكشاف ميزات المكتبة. يمكنك تنزيله[هنا](https://releases.aspose.com/).
+
+### كيف أحصل على الدعم لـ Aspose.PDF؟
+ يمكنك الحصول على الدعم من خلال زيارة منتدى Aspose[هنا](https://forum.aspose.com/c/pdf/10).
+
+### هل هناك ترخيص مؤقت متاح؟
+ نعم، يمكنك طلب ترخيص مؤقت لـ Aspose.PDF[هنا](https://purchase.aspose.com/temporary-license/).
+
+### أين يمكنني شراء Aspose.PDF لـ .NET؟
+ يمكنك شراء Aspose.PDF لـ .NET[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

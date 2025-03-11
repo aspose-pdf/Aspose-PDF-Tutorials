@@ -1,0 +1,28 @@
+---
+title: البرمجة باستخدام العناوين
+linktitle: البرمجة باستخدام العناوين
+weight: 20
+url: /ar/net/programming-with-headings/
+description: ترشدك دروس Aspose.PDF لـ .NET إلى كيفية استخدام العناوين لتحسين بنية مستندات PDF الخاصة بك.
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# البرمجة باستخدام العناوين
+
+تأخذك دروس Aspose.PDF لـ .NET خطوة بخطوة لإتقان البرمجة باستخدام العناوين في مستندات PDF الخاصة بك. تعرف على كيفية إضافة العناوين وتنسيقها ومعالجتها لتحسين بنية ملفات PDF الخاصة بك.
+
+استكشف ميزات Aspose.PDF لـ .NET من خلال دروس تعليمية مخصصة. تعرّف على كيفية التعامل مع العناوين في مستندات PDF، باستخدام أمثلة عملية وشروحات خطوة بخطوة. حسّن قابلية قراءة ملفات PDF وتنقلها باستخدام هذه الموارد الشاملة.
+
+## دروس تعليمية
+| عنوان | وصف |
+| --- | --- | 
+| [تطبيق نمط الأرقام في ملف PDF](./apply-number-style/) | تعرف على كيفية تطبيق أنماط الأرقام المختلفة (الأرقام الرومانية والأبجدية) على العناوين في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |   
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

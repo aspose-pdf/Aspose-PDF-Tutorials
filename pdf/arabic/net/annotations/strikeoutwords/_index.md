@@ -1,0 +1,184 @@
+---
+title: شطب الكلمات
+linktitle: شطب الكلمات
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: تعرف على كيفية شطب الكلمات في ملف PDF باستخدام Aspose.PDF for .NET من خلال هذا الدليل الشامل خطوة بخطوة. قم بتحسين مهاراتك في تحرير المستندات.
+weight: 150
+url: /ar/net/annotations/strikeoutwords/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شطب الكلمات
+
+## مقدمة
+
+هل وجدت نفسك يومًا بحاجة إلى التأكيد على نص معين في ملف PDF عن طريق شطب الكلمات؟ سواء كنت تقوم بمراجعة المستندات أو وضع علامات على النص أو كنت بحاجة ببساطة إلى إبراز أقسام معينة، فإن شطب الكلمات يمكن أن يكون أداة قيمة. في هذا البرنامج التعليمي، سنستكشف كيفية القيام بذلك باستخدام Aspose.PDF لـ .NET. سيرشدك هذا الدليل الشامل خلال كل خطوة، مما يضمن حصولك على جميع المعلومات اللازمة لتنفيذ هذه الميزة بشكل فعال في تطبيقات .NET الخاصة بك. 
+
+## المتطلبات الأساسية
+
+قبل أن ننتقل إلى الكود، هناك بعض المتطلبات الأساسية التي ستحتاج إلى تلبيتها لمتابعة هذا البرنامج التعليمي:
+
+1.  مكتبة Aspose.PDF لـ .NET: تأكد من تثبيت مكتبة Aspose.PDF لـ .NET. يمكنك[تحميله هنا](https://releases.aspose.com/pdf/net/).
+
+2. .NET Framework: تأكد من تثبيت .NET Framework على جهازك. تم تصميم هذا البرنامج التعليمي لتطبيقات .NET.
+
+3. بيئة التطوير: ستحتاج إلى بيئة تطوير متكاملة مثل Visual Studio لكتابة التعليمات البرمجية وتشغيلها.
+
+4. مستند PDF: قم بإعداد ملف PDF نموذجي ترغب في العمل عليه. سيكون هذا هو المستند الذي سنقوم بشطب النص منه.
+
+5. المعرفة الأساسية بلغة C#: المعرفة ببرمجة C# ضرورية لفهم الخطوات المذكورة في هذا البرنامج التعليمي وتنفيذها.
+
+## استيراد الحزم
+
+قبل أن نتمكن من البدء في الترميز، نحتاج إلى استيراد المساحات الأساسية اللازمة في مشروع .NET الخاص بنا. سيتيح لنا هذا الوصول إلى الفئات والطرق المطلوبة للتعامل مع ملفات PDF باستخدام Aspose.PDF.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf;
+```
+
+تُعد هذه المساحات الأساسية ضرورية للعمل مع مستندات PDF ومعالجة النصوص وإضافة التعليقات التوضيحية مثل الشطب.
+
+في هذا القسم، سنقوم بتقسيم عملية شطب الكلمات في مستند PDF إلى خطوات بسيطة وسهلة الإدارة. وسوف تكون كل خطوة مصحوبة بشرح مفصل لضمان فهمك لكيفية عمل كل شيء.
+
+## الخطوة 1: تحميل مستند PDF
+
+الخطوة الأولى هي تحميل مستند PDF الذي تريد تحريره. سيكون هذا المستند هو المستند الذي ستشطب منه كلمات أو عبارات معينة.
+
+```csharp
+// المسار إلى دليل المستندات.
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+// افتح مستند PDF
+Document document = new Document(dataDir + "input.pdf");
+```
+
+- `dataDir` :يحتوي هذا المتغير على المسار إلى دليل المستند الخاص بك. استبدل`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي الذي يقع فيه ملف PDF الخاص بك.
+- `Document` : ال`Document` تمثل الفئة مستند PDF. من خلال تمرير مسار الملف إلى المنشئ الخاص به، نفتح ملف PDF للمعالجة.
+
+## الخطوة 2: إنشاء ممتص نصي للبحث عن نص محدد
+
+ بعد ذلك، سنقوم بإنشاء مثيل لـ`TextFragmentAbsorber` للبحث عن جزء نصي محدد في مستند PDF. يتيح لنا هذا تحديد النص الذي نريد شطبها.
+
+```csharp
+// إنشاء مثيل لـ TextFragment Absorber للبحث عن جزء نصي محدد
+Aspose.Pdf.Text.TextFragmentAbsorber textFragmentAbsorber = new Aspose.Pdf.Text.TextFragmentAbsorber("Estoque");
+```
+
+- `TextFragmentAbsorber`:تستخدم هذه الفئة للعثور على أجزاء نصية محددة والعمل عليها داخل مستند PDF. في هذا المثال، نبحث عن الكلمة "Estoque". استبدل "Estoque" بالكلمة أو العبارة التي تريد العثور عليها في مستندك.
+
+## الخطوة 3: قم بالتكرار خلال صفحات مستند PDF
+
+ الآن بعد أن أصبح لدينا`TextFragmentAbsorber`، نحتاج إلى تكرار كل صفحة من مستند PDF للعثور على النص المحدد.
+
+```csharp
+// قم بالتكرار خلال صفحات مستند PDF
+for (int i = 1; i <= document.Pages.Count; i++)
+{
+    // احصل على الصفحة الحالية من مستند PDF
+    Page page = document.Pages[i];
+    page.Accept(textFragmentAbsorber);
+}
+```
+
+- `for (int i = 1; i <= document.Pages.Count; i++)`:تتكرر هذه الحلقة عبر كل صفحة من مستند PDF.
+- `document.Pages[i]`:استرجاع الصفحة الحالية التي يتم معالجتها.
+- `page.Accept(textFragmentAbsorber)` :تطبق هذه الطريقة`TextFragmentAbsorber` إلى الصفحة الحالية، بحثًا عن النص المحدد.
+
+## الخطوة 4: جمع ومعالجة أجزاء النص
+
+بعد تكرار الصفحات، سنقوم بجمع أجزاء النص التي وجدناها وإعدادها لمزيد من المعالجة.
+
+```csharp
+// إنشاء مجموعة من أجزاء النص الممتصة
+Aspose.Pdf.Text.TextFragmentCollection textFragmentCollection = textFragmentAbsorber.TextFragments;
+```
+
+- `TextFragmentCollection`:تخزن هذه المجموعة كل أجزاء النص التي تم العثور عليها في المستند. سنستخدم هذه المجموعة في الخطوة التالية لشطب النص.
+
+## الخطوة 5: قم بتكرار أجزاء النص وشطبها
+
+في هذه الخطوة، سننتقل عبر كل جزء من النص في مجموعتنا ونطبق عليه تعليقًا توضيحيًا مشطوبًا.
+
+```csharp
+// تكرار مجموعة من أجزاء النص
+for (int j = 1; j <= textFragmentCollection.Count; j++)
+{
+	Aspose.Pdf.Text.TextFragment textFragment = textFragmentCollection[j];
+
+    // الحصول على الأبعاد المستطيلة لكائن TextFragment
+    Aspose.Pdf.Rectangle rect = new Aspose.Pdf.Rectangle(
+        (float)textFragment.Position.XIndent,
+        (float)textFragment.Position.YIndent,
+        (float)textFragment.Position.XIndent + (float)textFragment.Rectangle.Width,
+        (float)textFragment.Position.YIndent + (float)textFragment.Rectangle.Height);
+
+    // إنشاء مثيل لتعليق StrikeOut
+    StrikeOutAnnotation strikeOut = new StrikeOutAnnotation(textFragment.Page, rect);
+
+    // تعيين خصائص تعليق الشطب
+    strikeOut.Opacity = .80f;
+    strikeOut.Border = new Border(strikeOut);
+    strikeOut.Color = Aspose.Pdf.Color.Red;
+
+    // أضف التعليق التوضيحي إلى مجموعة التعليقات التوضيحية لصفحة جزء النص
+    textFragment.Page.Annotations.Add(strikeOut);
+}
+```
+
+- `TextFragment textFragment = textFragmentCollection[j]`:يستعيد هذا السطر جزء النص الحالي.
+- `Aspose.Pdf.Rectangle`:نحسب الأبعاد المستطيلة لشظية النص لتحديد مكان تطبيق الشطب.
+- `StrikeOutAnnotation`:تمثل هذه الفئة تعليق الشطب. نقوم بإنشائها باستخدام المستطيل المحسوب والصفحة الحالية.
+- `strikeOut.Opacity`:تحدد هذه الخاصية تعتيم النص المشطوب، مما يجعله مرئيًا بنسبة 80%.
+- `strikeOut.Color`:لقد قمنا بتعيين لون الشطب إلى اللون الأحمر. يمكنك تغيير هذا اللون إلى أي لون تفضله.
+- `textFragment.Page.Annotations.Add(strikeOut)`:يؤدي هذا إلى إضافة تعليق الشطب إلى الصفحة.
+
+## الخطوة 6: احفظ مستند PDF المعدّل
+
+الخطوة الأخيرة هي حفظ مستند PDF المعدل مع تطبيق الشطب عليه.
+
+```csharp
+// احفظ مستند PDF المحدث
+dataDir = dataDir + "StrikeOutWords_out.pdf";
+document.Save(dataDir);
+```
+
+- `dataDir + "StrikeOutWords_out.pdf"`:يؤدي هذا إلى إنشاء اسم ملف جديد للمستند المعدل. ويظل الملف الأصلي دون تغيير.
+- `document.Save(dataDir)`:يحفظ مستند PDF مع الشطب في الموقع المحدد.
+
+## خاتمة
+
+تهانينا! لقد نجحت في شطب كلمات معينة في مستند PDF باستخدام Aspose.PDF for .NET. باتباع هذا الدليل التفصيلي، يمكنك الآن تخصيص مستندات PDF عن طريق تمييز النص أو شطب الكلمات، مما يجعلها أكثر ديناميكية ومناسبة لاحتياجاتك. سواء كنت تقوم بتعليق مستندات قانونية أو تحضير تقارير أو مجرد وضع علامات على نص للمراجعة، فإن هذا البرنامج التعليمي يزودك بالمهارات اللازمة للقيام بذلك بكفاءة.
+
+## الأسئلة الشائعة
+
+### هل يمكنني تغيير لون الشطب؟
+
+ نعم يمكنك تغيير اللون عن طريق تعديل`strikeOut.Color`الملكية. على سبيل المثال، يمكنك ضبطها على`Aspose.Pdf.Color.Blue` لضربة زرقاء.
+
+### هل من الممكن شطب عدة كلمات في وقت واحد؟
+
+ بالتأكيد!`TextFragmentAbsorber` يمكن استخدامه للبحث عن أي كلمة أو عبارة في المستند. يمكنك تطبيق الشطب على عدة حالات من خلال التكرار خلال`TextFragmentCollection`.
+
+### ماذا لو أردت شطب النص في صفحات محددة فقط؟
+
+ يمكنك تعديل الحلقة التي تتكرر عبر الصفحات لتشمل فقط الصفحات التي تريد تعديلها. على سبيل المثال،`for (int i = 1; i <= 3; i++)` سيتم تطبيق الشطب على الصفحات الثلاث الأولى فقط.
+
+### كيف يمكنني تعديل سمك خط الشطب؟
+
+ يمكنك تعديل سمك خط الشطب عن طريق تعديل`Border` ممتلكات`StrikeOutAnnotation`يتيح هذا إمكانية تخصيص مظهر الشطب.
+
+### هل هناك طريقة للتراجع عن الشطب بعد حفظ المستند؟
+
+بمجرد حفظ المستند، يصبح الشطب دائمًا. إذا كنت بحاجة إلى الاحتفاظ بالنص الأصلي دون الشطب، ففكر في حفظ نسخة احتياطية من المستند الأصلي قبل تطبيق أي تعديلات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

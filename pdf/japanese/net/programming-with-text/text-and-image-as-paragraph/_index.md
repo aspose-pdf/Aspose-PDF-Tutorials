@@ -1,0 +1,178 @@
+---
+title: PDF ファイル内の段落としてのテキストと画像
+linktitle: PDF ファイル内の段落としてのテキストと画像
+second_title: Aspose.PDF for .NET API リファレンス
+description: Aspose.PDF for .NET を使用して、テキストと画像を含む PDF を作成します。テキストとインライン画像を追加する方法を段階的に学習します。
+weight: 530
+url: /ja/net/programming-with-text/text-and-image-as-paragraph/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF ファイル内の段落としてのテキストと画像
+
+## 導入
+
+今日のデジタル世界では、PDF はほとんどの人が日常的に目にする普遍的なドキュメント形式です。レポート、電子ブック、ビジネス請求書など、PDF を使用するとさまざまなプラットフォーム間で情報を簡単に共有できます。しかし、PDF をプログラムでカスタマイズしたい場合はどうすればよいでしょうか。ここで Aspose.PDF for .NET が役立ちます。このチュートリアルでは、Aspose.PDF for .NET を使用して、テキストと画像をインライン段落として PDF ファイルに挿入する方法について説明します。
+
+## 前提条件
+
+コードに進む前に、スムーズに理解するために必要なものがすべて揃っていることを確認しましょう。
+
+-  Aspose.PDF for .NETライブラリ: Aspose.PDF for .NETをインストールする必要があります。ダウンロードできます。[ここ](https://releases.aspose.com/pdf/net/).
+- Visual Studio: .NET をサポートするバージョンであれば問題なく動作します。
+- C# の基本的な理解: C# に多少精通していると役立ちますが、心配しないでください。すべての手順を説明します。
+- PDF ドキュメントの準備: カスタム画像を追加する場合は、準備しておいてください。
+
+ライブラリの無料トライアルもご利用いただけます[ここ](https://releases.aspose.com/)、または大規模なプロジェクトに取り組んでいる場合は、購入を検討してください[ここ](https://purchase.aspose.com/buy)さらに詳しい情報が必要な場合は、ドキュメントをご覧ください。[ここ](https://reference.aspose.com/pdf/net/).
+
+## パッケージのインポート
+
+Aspose.PDF for .NET を使い始めるには、必要な名前空間をインポートする必要があります。これらの名前空間により、C# コードが Aspose.PDF の機能とやり取りできるようになります。
+
+```csharp
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+using Aspose.Pdf.Facades;
+using System;
+```
+
+簡単ですよね? では、楽しい部分、つまり独自の PDF ファイルの作成に進みましょう。
+
+## ステップバイステップガイド: テキストとインライン画像を含む PDF を作成する
+
+これを、理解しやすく、簡単に実行できるステップに分解してみましょう。パズルを組み立てているところを想像してください。各ステップは、正しいピースを見つけて配置するようなものです。
+
+## ステップ1: PDFドキュメントを初期化する
+
+最初のステップは、Aspose.PDF を使用して新しい PDF ドキュメントを初期化することです。このドキュメントは、テキストと画像を追加するための基盤として機能します。
+
+```csharp
+//ドキュメント ディレクトリへのパス。
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+//ドキュメントインスタンスをインスタンス化する
+Document doc = new Document();
+```
+
+ここで何が起こっているのでしょうか？単に新しい文書を作成しているだけです。`Document`クラスを作成し、PDF を保存するディレクトリを定義します。傑作のための新しいキャンバスを開くようなものです。
+
+## ステップ2: PDFにページを追加する
+
+ページがないとドキュメントはあまり役に立ちませんよね? ドキュメントに空白ページを追加してみましょう。
+
+```csharp
+// Documentインスタンスのページコレクションにページを追加する
+Page page = doc.Pages.Add();
+```
+
+このコード スニペットは、ドキュメントのページ コレクションに新しいページを追加します。ノートブックの空白ページを開くようなものと考えてください。
+
+## ステップ3: 段落としてテキストを追加する
+
+次に、テキスト段落を追加します。ここにメッセージや見出しを挿入できます。
+
+```csharp
+//テキストフラグメントを作成する
+TextFragment text = new TextFragment("Hello World.. ");
+//Pageオブジェクトの段落コレクションにテキストフラグメントを追加する
+page.Paragraphs.Add(text);
+```
+
+ここでは、`TextFragment`オブジェクトに「Hello World..」というテキストを保持し、それを段落としてページに追加します。これは、PDF ドキュメントの最初の文を書くようなものです。
+
+## ステップ4: インライン段落として画像を追加する
+
+テキストができたので、インライン段落として画像を追加して、さらに趣向を凝らしてみましょう。インライン段落とは、Word 文書で画像が表示されるのと同じように、画像がテキストの直後に表示されることを意味します。
+
+```csharp
+//イメージインスタンスを作成する
+Aspose.Pdf.Image image = new Aspose.Pdf.Image();
+//画像をインライン段落として設定し、直後に表示されるようにする
+//前の段落オブジェクト (TextFragment)
+image.IsInLineParagraph = true;
+//画像ファイルのパスを指定する
+image.File = dataDir + "aspose-logo.jpg";
+```
+
+このスニペットでは、`Image`オブジェクトを作成し、テキストとインラインで揃えるように指示し、画像ファイルへのパスを指定します。これは、ドキュメント内の文の直後に画像を貼り付けることと同じです。「aspose-logo.jpg」を希望の画像に置き換えることができます。
+
+## ステップ5: 画像サイズを設定する（オプション）
+
+画像のサイズを変更したいですか? 問題ありません。Aspose.PDF では、画像をドキュメントに追加する前に、画像の高さと幅を調整するオプションが用意されています。
+
+```csharp
+//画像の高さを設定する（オプション）
+image.FixHeight = 30;
+//画像の幅を設定する（オプション）
+image.FixWidth = 100;
+```
+
+この部分はオプションですが、PDF に表示される画像の大きさを制御するのに役立ちます。写真を印刷する前にサイズを変更するのと同じです。
+
+## ステップ6: 段落コレクションに画像を追加する
+
+画像の準備ができました。次に、それをインライン段落としてドキュメントに挿入してみましょう。
+
+```csharp
+//ページオブジェクトの段落コレクションに画像を追加する
+page.Paragraphs.Add(image);
+```
+
+この行は、段落コレクション内のテキストの直後に画像を追加します。テキスト エディターで [画像の挿入] ボタンを押すのと同じです。
+
+## ステップ7: 別のインラインテキスト段落を追加する
+
+画像の直後にさらにテキストを追加したい場合はどうすればよいでしょうか? 別のインライン テキスト フラグメントを挿入して追加してみましょう。
+
+```csharp
+//異なる内容で TextFragment オブジェクトを再初期化する
+text = new TextFragment(" Hello Again..");
+//TextFragment をインライン段落として設定する
+text.IsInLineParagraph = true;
+//新しく作成した TextFragment をページの段落コレクションに追加します。
+page.Paragraphs.Add(text);
+```
+
+私たちは再利用しています`TextFragment`ここで、オブジェクトに新しいテキスト ("Hello Again..") を追加し、画像の直後にインラインで挿入します。これにより、PDF が流れるようなまとまりのある外観になります。
+
+## ステップ8: PDFドキュメントを保存する
+
+もうすぐ完了です。次に、指定したディレクトリにドキュメントを保存しましょう。
+
+```csharp
+dataDir = dataDir + "TextAndImageAsParagraph_out.pdf";
+doc.Save(dataDir);
+Console.WriteLine("\nText and image added successfully as inline paragraphs.\nFile saved at " + dataDir);
+```
+
+この最後の手順により、ファイルは「TextAndImageAsParagraph_out.pdf」という名前でディレクトリに保存されます。おめでとうございます。テキストとインライン画像の両方を含む PDF が作成されました。
+
+## 結論
+
+これで完了です。Aspose.PDF for .NET を使用して、テキストと画像をインライン段落として含む PDF を作成するのは、次の手順に従うのと同じくらい簡単です。わずか数行のコードで、PDF ファイルに動的なコンテンツを追加し、視覚的に魅力的でプロフェッショナルな PDF ファイルにすることができます。ビジネス レポートでも電子書籍でも、PDF のレイアウトを制御できれば、大きな違いが生まれます。
+
+## よくある質問
+
+### 複数の画像をインライン段落として追加できますか?  
+はい、別々の画像を作成することで複数の画像を追加できます。`Image`オブジェクトを段落コレクションに追加します。
+
+### PDF 内のテキストと画像の位置を制御できますか?  
+はい、余白などのプロパティを使用して、テキストや画像の正確な配置を制御できます。
+
+### Aspose.PDF for .NET は無料ですか?  
+いいえ、ライセンス製品ですが、[無料トライアル](https://releases.aspose.com/)またはライセンスを購入する[ここ](https://purchase.aspose.com/buy).
+
+### テキストにハイパーリンクを追加できますか?  
+はい、Aspose.PDFではテキストフラグメント内にハイパーリンクを追加できます。[ドキュメント](https://reference.aspose.com/pdf/net/)詳細についてはこちらをご覧ください。
+
+### テキストのフォントやスタイルをカスタマイズできますか?  
+もちろんです! テキストフラグメントのフォント、色、その他のスタイルプロパティを簡単にカスタマイズできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

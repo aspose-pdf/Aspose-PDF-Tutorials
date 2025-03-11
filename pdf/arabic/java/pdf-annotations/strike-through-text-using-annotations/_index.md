@@ -1,0 +1,109 @@
+---
+title: شطب النص باستخدام التعليقات التوضيحية
+linktitle: شطب النص باستخدام التعليقات التوضيحية
+second_title: واجهة برمجة تطبيقات معالجة PDF الخاصة بـ Aspose.PDF Java
+description: تعرف على كيفية إضافة تعليقات نصية مشطوبة إلى مستندات PDF باستخدام Aspose.PDF for Java. اتبع دليلنا خطوة بخطوة للتعامل الدقيق مع المستندات.
+weight: 16
+url: /ar/java/pdf-annotations/strike-through-text-using-annotations/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شطب النص باستخدام التعليقات التوضيحية
+
+
+## مقدمة حول كيفية شطب النص باستخدام التعليقات التوضيحية
+
+في عالم معالجة المستندات، تعد الدقة والوضوح من الأمور الأساسية. تُعد التعليقات التوضيحية النصية المشطوبة أداة قيمة لتسليط الضوء على التغييرات أو الإشارة إلى الحذف أو التأكيد على محتوى معين داخل مستند PDF. يوفر Aspose.PDF for Java مجموعة قوية من الميزات لتحقيق ذلك بسهولة. في هذا الدليل، سنرشدك خلال عملية إضافة التعليقات التوضيحية النصية المشطوبة إلى مستندات PDF الخاصة بك باستخدام Aspose.PDF for Java.
+
+## المتطلبات الأساسية
+
+قبل أن نتعمق في الكود، تأكد من توفر المتطلبات الأساسية التالية:
+
+1. بيئة تطوير Java: تأكد من تثبيت Java وIDE المناسب (Eclipse أو IntelliJ IDEA أو أي بيئة أخرى) على نظامك.
+
+2.  Aspose.PDF for Java Library: قم بتنزيل مكتبة Aspose.PDF for Java وتضمينها في مشروعك. يمكنك العثور على رابط التنزيل[هنا](https://releases.aspose.com/pdf/java/).
+
+## الخطوة 1: إعداد مشروع Java الخاص بك
+
+للبدء، قم بإنشاء مشروع Java جديد أو افتح مشروعًا موجودًا في بيئة التطوير المتكاملة المفضلة لديك. تأكد من إضافة مكتبة Aspose.PDF for Java إلى مسار فئة مشروعك.
+
+## الخطوة 2: تهيئة مستند PDF
+
+لنبدأ بتهيئة مستند PDF حيث نريد إضافة تعليق توضيحي مشطوب.
+
+```java
+// تهيئة مستند PDF جديد
+com.aspose.pdf.Document pdfDocument = new com.aspose.pdf.Document();
+```
+
+## الخطوة 3: إضافة نص إلى المستند
+
+بعد ذلك، سنضيف بعض النصوص إلى مستند PDF. سيعمل هذا النص كمحتوى نريد شطبها.
+
+```java
+// إنشاء صفحة في مستند PDF
+com.aspose.pdf.Page page = pdfDocument.getPages().add();
+
+// إضافة نص إلى الصفحة
+com.aspose.pdf.TextFragment textFragment = new com.aspose.pdf.TextFragment("This is a sample text to be struck through.");
+page.getParagraphs().add(textFragment);
+```
+
+## الخطوة 4: إضافة تعليق توضيحي مشطوب
+
+الآن يأتي الجزء المثير للاهتمام - إضافة تعليق توضيحي مشطوب إلى النص.
+
+```java
+// إنشاء تعليق توضيحي مشطوب
+com.aspose.pdf.StrikeOutAnnotation strikeOutAnnotation = new com.aspose.pdf.StrikeOutAnnotation(page, textFragment.getRectangle());
+strikeOutAnnotation.setColor(com.aspose.pdf.Color.getRed());
+
+// أضف التعليق التوضيحي إلى الصفحة
+page.getAnnotations().add(strikeOutAnnotation);
+```
+
+في مقتطف التعليمات البرمجية هذا، نقوم بإنشاء تعليق توضيحي مشطوب، ونضبط لونه إلى الأحمر (يمكنك اختيار أي لون تفضله)، ثم نضيفه إلى صفحة PDF.
+
+## الخطوة 5: حفظ مستند PDF
+
+وأخيرًا، نحفظ مستند PDF المعدّل في ملف.
+
+```java
+// حفظ مستند PDF
+pdfDocument.save("output.pdf");
+```
+
+## خاتمة
+
+تهانينا! لقد نجحت في إضافة تعليق نصي مشطوب إلى مستند PDF باستخدام Aspose.PDF for Java. تعمل هذه المكتبة القوية على تبسيط عملية العمل مع مستندات PDF، مما يجعلها خيارًا مثاليًا للمطورين الذين يسعون إلى تحسين قدراتهم على معالجة المستندات.
+
+## الأسئلة الشائعة
+
+### كيف يمكنني تغيير لون التعليق المشطوب؟
+
+ لتغيير لون التعليق المشطوب، يمكنك استخدام`setColor` الطريقة وتحديد اللون المطلوب. في المثال المقدم، قمنا بتعيينه إلى اللون الأحمر باستخدام`setColor(com.aspose.pdf.Color.getRed())`.
+
+### هل يمكنني إضافة تعليقات توضيحية متعددة إلى مستند PDF واحد؟
+
+نعم، يمكنك إضافة تعليقات توضيحية متعددة مشطوبة إلى مستند PDF واحد. ما عليك سوى تكرار الخطوات الموضحة في الدليل لكل تعليق توضيحي تريد إضافته.
+
+### هل Aspose.PDF for Java متوافق مع إصدارات Java المختلفة؟
+
+يعد Aspose.PDF for Java متوافقًا مع إصدارات Java المختلفة. تأكد من اختيار الإصدار المناسب من المكتبة الذي يتوافق مع بيئة Java الخاصة بك.
+
+### هل هناك أنواع أخرى من التعليقات التوضيحية التي يمكنني إضافتها باستخدام Aspose.PDF لـJava؟
+
+نعم، يدعم Aspose.PDF for Java أنواعًا مختلفة من التعليقات التوضيحية، بما في ذلك النص، والتمييز، والتسطير، والمزيد. يمكنك استكشاف الوثائق للحصول على أمثلة تفصيلية واستخدامات.
+
+### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.PDF لـ Java؟
+
+ للحصول على توثيق شامل وموارد إضافية، تفضل بزيارة صفحة توثيق Aspose.PDF لـ Java:[هنا](https://reference.aspose.com/pdf/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

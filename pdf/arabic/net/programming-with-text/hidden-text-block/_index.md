@@ -1,0 +1,203 @@
+---
+title: كتلة نص مخفية في ملف PDF
+linktitle: كتلة نص مخفية في ملف PDF
+second_title: مرجع واجهة برمجة التطبيقات Aspose.PDF لـ .NET
+description: قم بإنشاء ملفات PDF تفاعلية تحتوي على كتل نصية مخفية باستخدام Aspose.PDF for .NET. يوفر هذا البرنامج التعليمي دليلاً خطوة بخطوة لتحسين مستنداتك.
+weight: 230
+url: /ar/net/programming-with-text/hidden-text-block/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كتلة نص مخفية في ملف PDF
+
+## مقدمة
+
+في المشهد الرقمي الحالي، تظل ملفات PDF هي التنسيق المفضل لكل شيء بدءًا من العقود إلى المواد التعليمية. إن تنوعها وموثوقيتها لا مثيل لهما. ولكن ماذا لو كان بإمكانك إضافة طبقة إضافية من التفاعل إلى ملفات PDF الخاصة بك؟ نحن نغوص في عالم كتل النص المخفية باستخدام Aspose.PDF for .NET، وهي أداة قوية تجعل إنشاء مستندات جذابة وسهلة الاستخدام أسهل من أي وقت مضى. سواء كنت مطورًا متمرسًا أو مبتدئًا، فإن هذا البرنامج التعليمي مصمم لك، وهو مليء بإرشادات ونصائح خطوة بخطوة لإطلاق العنان للإمكانات الكاملة لملفات PDF الخاصة بك!
+
+## المتطلبات الأساسية
+
+قبل أن نبدأ، دعنا نتأكد من أنك تمتلك كل ما تحتاجه. إليك ما ستحتاج إليه:
+
+1. Aspose.PDF for .NET: هذه المكتبة ضرورية للعمل مع ملفات PDF في تطبيقات .NET. يمكنك التحقق منها أو تنزيلها أو حتى الحصول على نسخة تجريبية مجانية من[توثيقات PDF لبرنامج Aspose](https://reference.aspose.com/pdf/net/).
+2. .NET Framework: تأكد من تثبيت .NET Framework، حيث أنه ضروري لتشغيل مكتبة Aspose.PDF.
+3. بيئة التطوير: محرر الكود أو بيئة التطوير المتكاملة (IDE) مثل Visual Studio سوف تجعل عملية البرمجة سهلة. 
+4. المعرفة الأساسية بلغة C#: نظرًا لأننا سنقوم بالبرمجة بلغة C#، فإن الحصول على فهم أساسي للغة سيساعدك على استيعاب المفاهيم بشكل أسهل.
+5. الشغف بالتعلم: أخيرًا وليس آخرًا، احضر حماسك! سنتعلم شيئًا مذهلًا اليوم.
+
+بمجرد توفر هذه المتطلبات الأساسية لديك، ستكون جاهزًا لإنشاء كتل نصية مخفية تفاعلية في ملفات PDF الخاصة بك!
+
+## استيراد الحزم
+
+للبدء في استخدام Aspose.PDF في مشروعك، ستحتاج إلى استيراد الحزم اللازمة. وإليك الطريقة:
+
+### إنشاء مشروع C#
+
+أولاً وقبل كل شيء، افتح Visual Studio أو أي بيئة تطوير متكاملة C# وقم بإنشاء مشروع جديد. حدد نوع تطبيق وحدة التحكم لتبسيط الأمور.
+
+### أضف Aspose.PDF إلى مشروعك
+
+ستحتاج إلى إضافة مكتبة Aspose.PDF إلى مشروعك. يمكنك القيام بذلك عبر مدير الحزم NuGet. إليك شرحًا موجزًا:
+
+```bash
+Install-Package Aspose.PDF
+```
+
+سيقوم هذا الأمر بجلب الملفات اللازمة لتتمكن من العمل مع مستندات PDF بسهولة.
+
+### استيراد المساحات المطلوبة
+
+بمجرد تثبيت الحزمة، فإن الخطوة التالية هي استيراد المساحات الاسمية الموجودة في أعلى ملف C#. وهذا يجعل جميع وظائف Aspose الرائعة متاحة:
+
+```csharp
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Forms;
+using Aspose.Pdf.Text;
+```
+
+الآن بعد أن قمت بإعداد بيئتك، دعنا نقوم بتقسيم عملية إنشاء كتلة نص مخفية في ملف PDF خطوة بخطوة.
+
+## الخطوة 1: قم بتحديد دليل المستندات الخاص بك
+
+حدد مكان تخزين ملفاتك. سيساعدك هذا في إدارة مستنداتك بسلاسة. استخدم الكود التالي لإعداده:
+
+```csharp
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+string outputFile = dataDir + "TextBlock_HideShow_MouseOverOut_out.pdf";
+```
+
+ تأكد من الاستبدال`"YOUR DOCUMENT DIRECTORY"` مع المسار الفعلي على جهازك حيث تريد إنشاء ملف PDF.
+
+## الخطوة 2: إنشاء مستند نموذجي
+
+الآن، لنبدأ في إنشاء مستند PDF أساسي. تتضمن هذه الخطوة الأولية تهيئة مستند PDF وإضافة جزء نصي سيكون بمثابة النقطة المحورية للنص المخفي.
+
+```csharp
+Document doc = new Document();
+doc.Pages.Add().Paragraphs.Add(new TextFragment("Move the mouse cursor here to display floating text"));
+doc.Save(outputFile);
+```
+
+هنا، نضيف ببساطة سلسلة نصية إلى المستند. سيؤدي هذا إلى تشغيل إجراء إخفاء النص عند تحريك الماوس فوقه.
+
+## الخطوة 3: افتح المستند الذي تم إنشاؤه
+
+الآن بعد أن أصبح لدينا مستندنا الأولي، فلنفتحه لمزيد من التحرير:
+
+```csharp
+Document document = new Document(outputFile);
+```
+
+يقوم هذا السطر بتحميل المستند الذي قمنا بإنشائه للتو حتى نتمكن من إجراء تغييرات عليه.
+
+## الخطوة 4: إنشاء TextAbsorber للبحث عن العبارات
+
+ بعد ذلك، نريد تحديد جزء النص الذي سنعمل عليه. هذا هو المكان الذي`TextFragmentAbsorber` يأتي في اللعب:
+
+```csharp
+TextFragmentAbsorber absorber = new TextFragmentAbsorber("Move the mouse cursor here to display floating text");
+document.Pages.Accept(absorber);
+```
+
+في هذه الخطوة، نطلب من Aspose العثور على النص الذي حددناه سابقًا.
+
+## الخطوة 5: استخراج جزء النص
+
+بمجرد حصولنا على جزء النص، سنقوم باستخراجه باستخدام الكود التالي، والذي يسمح لنا بمعالجته بشكل أكبر:
+
+```csharp
+TextFragmentCollection textFragments = absorber.TextFragments;
+TextFragment fragment = textFragments[1];
+```
+
+هنا، نركز على الجزء الأول الذي تم استيعابه. إذا كان لديك المزيد من النص، فقد ترغب في تكرار المجموعة.
+
+## الخطوة 6: إنشاء حقل النص المخفي
+
+الآن، حان وقت السحر! أنشئ حقل نص مخفيًا يظهر عندما يحوم المستخدم فوق النص المحدد. استخدم مقتطف التعليمات البرمجية التالي:
+
+```csharp
+TextBoxField floatingField = new TextBoxField(fragment.Page, new Rectangle(100, 700, 220, 740));
+floatingField.Value = "This is the \"floating text field\".";
+floatingField.ReadOnly = true;
+floatingField.Flags |= AnnotationFlags.Hidden;
+```
+
+يقوم هذا الكود بتحديد موضع النص العائم ويحدد خصائصه، بما في ذلك جعله للقراءة فقط ومخفيًا بشكل افتراضي.
+
+## الخطوة 7: تخصيص مظهر الحقل
+
+أضف لمسة من الأناقة إلى نصك العائم! قم بتخصيص المظهر الافتراضي لحقل النص العائم:
+
+```csharp
+floatingField.PartialName = "FloatingField_1";
+floatingField.DefaultAppearance = new DefaultAppearance("Helv", 10, Color.Blue);
+floatingField.Characteristics.Background = Color.LightBlue;
+floatingField.Characteristics.Border = Color.DarkBlue;
+floatingField.Border = new Border(floatingField);
+floatingField.Border.Width = 1;
+floatingField.Multiline = true;
+```
+
+من حجم الخط إلى الألوان، يمكنك تعديل هذه الإعدادات كما تريد، مما يجعل الواجهة أكثر سهولة في الاستخدام وجاذبية.
+
+## الخطوة 8: إضافة حقل النص إلى المستند
+
+بعد إعداد حقل النص، حان الوقت لإضافة الحقل العائم إلى المستند:
+
+```csharp
+document.Form.Add(floatingField);
+```
+
+يقوم هذا السطر بدمج حقل النص المخفي الذي تم إنشاؤه حديثًا في ملف PDF الخاص بك.
+
+## الخطوة 9: إنشاء حقل زر غير مرئي
+
+سيتولى هذا الزر إدارة عمليات التمرير فوق حقل النص العائم. أضف الكود التالي لإنشاء زر غير مرئي:
+
+```csharp
+ButtonField buttonField = new ButtonField(fragment.Page, fragment.Rectangle);
+buttonField.Actions.OnEnter = new HideAction(floatingField, false);
+buttonField.Actions.OnExit = new HideAction(floatingField);
+```
+
+هنا، قمنا بتكوين الزر لإظهار النص العائم عند دخول الماوس وإخفائه عند خروج الماوس.
+
+## الخطوة 10: احفظ المستند
+
+وأخيرًا، حان الوقت لحفظ عملك ورؤية النتيجة:
+
+```csharp
+document.Save(outputFile);
+```
+
+بفضل هذا الإجراء، أصبح ملف PDF الخاص بك جاهزًا الآن مع تجربة تفاعلية، مما يمنح المستخدمين طريقة جديدة تمامًا للتفاعل مع المحتوى الخاص بك!
+
+## خاتمة
+
+والآن، لقد انتهيت! باتباع هذه الخطوات، تكون قد نجحت في إنشاء كتلة نص مخفية في ملف PDF باستخدام Aspose.PDF for .NET. يمكن لهذه الميزة البسيطة ولكن القوية أن تعزز بشكل كبير من تفاعل المستخدم داخل مستنداتك. سواء كنت تقوم بصياغة مواد تعليمية أو موارد للعملاء، فإن القدرة على إخفاء المعلومات وإظهارها عند التمرير فوقها توفر لمسة مصقولة وحديثة. 
+
+## الأسئلة الشائعة
+
+### ما هو Aspose.PDF لـ .NET؟  
+Aspose.PDF for .NET عبارة عن مكتبة قوية تسمح للمطورين بإنشاء مستندات PDF ومعالجتها وتحويلها في تطبيقات .NET.
+
+### كيف أقوم بتثبيت Aspose.PDF؟  
+يمكنك تثبيته عبر مدير الحزم NuGet في Visual Studio. ما عليك سوى استخدام الأمر:`Install-Package Aspose.PDF`.
+
+### هل يمكنني إنشاء عناصر تفاعلية أخرى في ملفات PDF؟  
+نعم، بالإضافة إلى كتل النص المخفية، يمكنك إضافة أزرار وارتباطات تشعبية وتعليقات توضيحية وغير ذلك الكثير باستخدام Aspose.PDF.
+
+### هل هناك نسخة تجريبية مجانية متاحة؟  
+ بالتأكيد! يمكنك الحصول على نسخة تجريبية مجانية من[صفحة إصدارات Aspose](https://releases.aspose.com/).
+
+### ماذا لو كنت بحاجة إلى مساعدة مع Aspose.PDF؟  
+ لا تتردد في طلب الدعم على[منتدى اسبوس](https://forum.aspose.com/c/pdf/10) لأي أسئلة أو مشاكل قد تواجهها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

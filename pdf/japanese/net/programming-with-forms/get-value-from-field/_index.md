@@ -1,0 +1,117 @@
+---
+title: PDF ドキュメントのフィールドから値を取得する
+linktitle: PDF ドキュメントのフィールドから値を取得する
+second_title: Aspose.PDF for .NET API リファレンス
+description: このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ドキュメントのフォーム フィールドから値を簡単に抽出する方法を学習します。
+weight: 140
+url: /ja/net/programming-with-forms/get-value-from-field/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF ドキュメントのフィールドから値を取得する
+
+## 導入
+
+PDF ドキュメントをプログラムで操作すると、特にフォームからデータを抽出するなどのプロセスを自動化する場合に、強力かつ効率的になります。このチュートリアルでは、Aspose.PDF for .NET を使用して PDF ドキュメント内のフィールドから値を取得する方法について説明します。フォーム フィールドにユーザーが入力した情報を格納するボックスを開くようなものと考えてください。プログラムでそのデータを取得して使用できます。データ処理アプリケーションを構築する場合でも、PDF から詳細を抽出するだけの場合でも、このガイドが役立ちます。
+
+## 前提条件
+
+コードに進む前に、この手順に従うために必要な準備を簡単に確認しましょう。
+
+1.  Aspose.PDF for .NET: 開発環境にAspose.PDF for .NETがインストールされていることを確認してください。ダウンロードできます。[ここ](https://releases.aspose.com/pdf/net/).
+2. IDE: Visual Studio のような統合開発環境 (IDE) が必要です。
+3. C# の基本知識: このチュートリアルでは、C# とオブジェクト指向プログラミングの基本的な知識があることを前提としています。
+4. PDF ドキュメント: フォーム フィールドを含む PDF ドキュメントを用意します。PDF ドキュメントがない場合は、簡単に作成するか、テキスト ボックスやチェック ボックスなどのフィールドを含む既存のドキュメントを使用できます。
+
+## パッケージのインポート
+
+Aspose.PDF for .NET の使用を開始するには、必要な名前空間をプロジェクトにインポートする必要があります。これらはツールボックス内のツールのようなもので、必要なものがすべて揃っていることを保証します。
+
+```csharp
+using System.IO;
+using Aspose.Pdf.Forms;
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using System;
+```
+
+これで準備はすべて整いましたので、プロセスを管理しやすいステップに分解してみましょう。各ステップでは、PDF ドキュメント内のフォーム フィールドから値を抽出する方法について説明します。
+
+## ステップ1: ドキュメントディレクトリを設定する
+
+まず最初に、PDF ドキュメントが保存されている場所を定義する必要があります。これは、プログラムにファイルの場所を指示すると考えてください。
+
+```csharp
+//ドキュメント ディレクトリへのパス。
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+```
+
+交換する`"YOUR DOCUMENT DIRECTORY"` PDF ファイルが保存されている実際のパスを入力します。これにより、プログラムはドキュメントを見つけて開くことができます。
+
+## ステップ2: PDFドキュメントを開く
+
+次に、プログラムで PDF ドキュメントを開く必要があります。この手順は、PDF をメモリに読み込み、さらに処理できるようにするために非常に重要です。
+
+```csharp
+//ドキュメントを開く
+Document pdfDocument = new Document(dataDir + "GetValueFromField.pdf");
+```
+
+ここでは、`Document` Aspose.PDF ライブラリのクラスを使用して、「GetValueFromField.pdf」という名前の PDF ファイルを開きます。もちろん、取得するフォーム フィールドを含む任意の PDF に置き換えることもできます。
+
+## ステップ3: 目的のフォームフィールドにアクセスする
+
+ドキュメントが開いたら、次のステップは、データを抽出する特定のフォーム フィールドにアクセスすることです。この場合、テキスト ボックス フィールドを扱っていると仮定します。
+
+```csharp
+//フィールドを取得する
+TextBoxField textBoxField = pdfDocument.Form["textbox1"] as TextBoxField;
+```
+
+ここ、`"textbox1"`は、対象とするフォームフィールドの名前です。これは、フィールドの名前を事前に知っていることを前提としています。次のようなさまざまなタイプのフィールドにアクセスできます。`TextBoxField`, `CheckBoxField`フォームの種類に応じて、など。
+
+## ステップ4: フィールド値を取得して表示する
+
+次は、フィールドに入力された実際の値を取得するという、面白い部分です。宝箱を開けて、探していた情報を見つけるところを想像してみてください。
+
+```csharp
+//フィールド値を取得する
+Console.WriteLine("PartialName : {0} ", textBoxField.PartialName);
+Console.WriteLine("Value : {0} ", textBoxField.Value);
+```
+
+の`PartialName`プロパティはフィールドの名前を示し、`Value`プロパティは、そのフィールドに入力されたデータを取得します。これをコンソールに表示したり、後で使用するために保存したりできます。
+
+## ステップ5: プログラムを実行する
+
+最後に、IDE でプログラムを実行します。すべてが正しく設定されていれば、プログラムはフィールドの名前とその値をコンソールに出力します。とても簡単です!
+
+## 結論
+
+これで完了です。Aspose.PDF for .NET を使用して PDF ドキュメント内のフォーム フィールドから値を抽出する方法を学習しました。このプロセスは、データ抽出の自動化から包括的なフォーム処理システムの構築まで、さまざまなアプリケーションで非常に役立ちます。小規模なプロジェクトでも大規模なエンタープライズ ソリューションでも、これらの手順は PDF データ抽出をワークフローにシームレスに統合するのに役立ちます。
+
+## よくある質問
+
+### チェックボックスやラジオボタンなどの他のフィールドタイプからデータを抽出できますか?  
+はい、できます。Aspose.PDF では、適切なフィールド クラスを使用して、チェックボックス、ラジオ ボタン、ドロップダウン リストなど、さまざまなフィールド タイプからデータを抽出できます。
+
+### PDF からデータを抽出できるフィールドの数に制限はありますか?  
+いいえ、Aspose.PDF for .NET では、単一の PDF ドキュメントからデータを抽出できるフィールドの数に制限はありません。
+
+### フィールド値をプログラムで変更できますか?  
+はい、値の取得に加えて、Aspose.PDF for .NET を使用してフォーム フィールドの値を設定または変更することもできます。
+
+### Aspose.PDF を使用するにはライセンスが必要ですか?  
+はい、Aspose.PDF for .NETを本番環境で使用するためにライセンスが必要です。[一時ライセンス](https://purchase.aspose.com/temporary-license/)評価目的のため。
+
+### Aspose.PDF は .NET Core と互換性がありますか?  
+もちろんです! Aspose.PDF for .NET は、.NET Framework と .NET Core の両方と完全に互換性があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

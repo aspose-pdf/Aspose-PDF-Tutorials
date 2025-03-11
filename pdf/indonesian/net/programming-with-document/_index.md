@@ -1,0 +1,64 @@
+---
+title: Pemrograman dengan Dokumen
+linktitle: Pemrograman dengan Dokumen
+weight: 10
+url: /id/net/programming-with-document/
+description: Sumber daya ini menawarkan tutorial pustaka Aspose.PDF for .NET untuk pemrograman dengan dokumen. Sumber daya ini mencakup topik-topik seperti membuat/memanipulasi PDF, menambahkan gambar/tabel/tautan, mengoptimalkan dokumen, dan menambahkan keamanan. Sumber daya ini sangat berguna bagi pengembang yang bekerja dengan dokumen PDF menggunakan Aspose.PDF for .NET.
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemrograman dengan Dokumen
+
+Sumber daya ini mencakup tutorial tentang pemrograman dengan fitur dokumen pada pustaka Aspose.PDF for .NET. Ini adalah panduan terperinci yang menjelaskan cara membuat dan memanipulasi dokumen PDF secara terprogram menggunakan pustaka Aspose.PDF for .NET. Tutorial tersebut mencakup berbagai topik, termasuk menambahkan teks, gambar, tabel, dan grafik ke dokumen PDF, bekerja dengan bookmark, tautan, dan anotasi, menambahkan keamanan dan tanda tangan digital ke dokumen, serta mengoptimalkan ukuran dan kualitas dokumen PDF. Tutorial tersebut merupakan sumber daya yang sangat berharga bagi pengembang yang ingin bekerja dengan dokumen PDF secara terprogram menggunakan pustaka Aspose.PDF for .NET.
+
+## Tutorial
+| Judul | Keterangan |
+| --- | --- | 
+| [Tambahkan Java Script ke File PDF](./addjavascripttopage/) | Pelajari cara menambahkan JavaScript ke berkas PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan tutorial kode untuk penulisan skrip pada tingkat dokumen dan halaman. |  
+| [Tambahkan Lapisan Ke File PDF](./addlayers/) | Temukan cara menambahkan lapisan ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan meningkatkan keterampilan manipulasi PDF Anda. |  
+| [Tambahkan Hapus Javascript Ke Dokumen PDF](./addremovejavascripttodoc/) | Pelajari cara menambahkan dan menghapus JavaScript ke dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan tutorial kode untuk penulisan skrip tingkat dokumen. |  
+| [Tambahkan Daftar Isi ke File PDF](./addtoc/) | Pelajari cara menambahkan Daftar Isi ke PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini menyederhanakan proses dan memastikan navigasi yang mudah dalam dokumen Anda. |  
+| [Izinkan Penggunaan Kembali Konten Halaman](./allowresusepagecontent/) | Pelajari cara mengoptimalkan PDF dengan mengaktifkan fitur "Izinkan Penggunaan Kembali Konten Halaman" menggunakan Aspose.PDF untuk .NET. Kurangi ukuran file dan tingkatkan kinerja. |  
+| [Konversi Dari RGB Ke Skala Abu-abu](./convertfromrgbtograyscale/) | Pelajari cara mengonversi PDF dari RGB ke skala abu-abu menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menyederhanakan konversi warna PDF dan menghemat ruang penyimpanan. |  
+| [Buat File PDF Multilayer Pendekatan Pertama](./createmultilayerpdffirstapproach/) | Pelajari cara membuat file PDF berlapis-lapis menggunakan Pendekatan Pertama dengan Aspose.PDF untuk .NET. Tambahkan teks, gambar, dan lainnya untuk menyempurnakan PDF Anda. |  
+| [Buat PDF Multilayer Pendekatan Kedua](./createmultilayerpdfsecondapproach/) | Pelajari cara membuat PDF berlapis-lapis menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk menambahkan teks, gambar, dan lapisan ke berkas PDF Anda dengan mudah. |  
+| [Buat PDF A1 dengan Aspose Pdf](./createpdfa1withasposepdf/) | Pelajari cara membuat file PDF/A-1 dengan Aspose.PDF untuk .NET dalam tutorial terperinci ini. Panduan langkah demi langkah dengan contoh kode dan penjelasan. |  
+| [Sesuaikan Nomor Halaman Sambil Menambahkan Daftar Isi](./customizepagenumbeswhileaddingtoc/) | Pelajari cara menyesuaikan nomor halaman sambil menambahkan Daftar Isi ke dokumen PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial komprehensif ini. |  
+| [Tentukan Kemajuan Ke File PDF](./determineprogress/) | Pelajari cara menentukan kemajuan konversi PDF menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini. |  
+| [Sematkan Font Dalam File PDF](./embedfont/) | Pelajari cara menyematkan font dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Pastikan dokumen Anda ditampilkan dengan benar di perangkat apa pun. |  
+| [Sematkan Font Dalam File PDF Dengan Strategi Subset](./embedfontsusingsubsetstrategy/) | Pelajari cara menyematkan font dalam file PDF dengan Subset Strategy menggunakan Aspose.PDF untuk .NET. Optimalkan ukuran PDF Anda dengan menyematkan karakter yang diperlukan saja. |  
+| [Sisipkan Font Saat Pembuatan Dokumen PDF](./embedfontwhiledoccreation/) | Pelajari cara menyematkan font dalam dokumen PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurnakan tampilan PDF Anda. |  
+| [Ratakan Anotasi Dalam File PDF](./flattenannotation/) | Pelajari cara meratakan anotasi dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan ini. Sederhanakan proses pengelolaan PDF Anda dengan tutorial terperinci kami. |  
+| [Dapatkan Semua Font Dalam File PDF](./getallfonts/) | Pelajari cara mengekstrak semua font dari file PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF. |  
+| [Dapatkan Jendela Dokumen](./getdocumentwindow/) | Pelajari cara menggunakan fitur GetDocumentWindow dari Aspose.PDF untuk .NET untuk mengambil informasi tentang properti jendela dokumen PDF. |  
+| [Dapatkan Info File dalam File PDF](./getfileinfo/) | Pelajari cara menggunakan fitur GetFileInfo dalam file PDF dari Aspose.PDF untuk .NET untuk mengambil informasi metadata tentang dokumen PDF. |  
+| [Dapatkan Peringatan Untuk Penggantian Font](./getwarningsforfontsubstitution/) | Pelajari cara menggunakan fitur GetWarningsForFontSubstitution dari Aspose.PDF untuk .NET untuk mendeteksi peringatan substitusi font saat membuka dokumen PDF. |  
+| [Dapatkan Metadata XMP](./getxmpmetadata/) | Pelajari cara mengekstrak metadata XMP dari PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Dapatkan wawasan berharga dari dokumen PDF Anda dengan mudah. |  
+| [Dapatkan Peringatan Untuk Penggantian Font](./getwarningsforfontsubstitution/) | Pelajari cara menggunakan fitur GetWarningsForFontSubstitution dari Aspose.PDF untuk .NET untuk mendeteksi peringatan substitusi font saat membuka dokumen PDF. |  
+| [Dapatkan Faktor Zoom Dalam File PDF](./getzoomfactor/) | Pelajari cara menggunakan Aspose.PDF untuk .NET untuk mendapatkan faktor zoom dalam file PDF dengan panduan langkah demi langkah ini. |  
+| [Sembunyikan Nomor Halaman Di Daftar Isi](./hidepagenumbersintoc/) | Pelajari cara menyembunyikan nomor halaman di Daftar Isi menggunakan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini dengan contoh kode untuk membuat PDF profesional. |  
+| [Tautan Duplikat Aliran](./linkduplicatestreams/) | Pelajari cara menautkan aliran duplikat dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Optimalkan PDF Anda untuk performa yang lebih baik dan mengurangi ukuran file. |  
+| [Optimalkan Dokumen PDF](./optimizedocument/) | Pelajari cara mengoptimalkan dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kinerja web dengan mengurangi ukuran dan kompleksitas file. |  
+| [Optimalkan Ukuran File Dalam File PDF](./optimizefilesize/) | Pelajari cara mengoptimalkan ukuran file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Kurangi ukuran file tanpa kehilangan kualitas. |  
+| [Hapus Objek yang Tidak Digunakan Dalam File PDF](./removeunusedobjects/) | Pelajari cara mengoptimalkan file PDF dengan menghapus objek yang tidak digunakan menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk mengurangi ukuran file dan meningkatkan kinerja. |  
+| [Hapus Aliran yang Tidak Digunakan](./removeunusedstreams/) | Pelajari cara menghapus aliran yang tidak digunakan dalam berkas PDF menggunakan Aspose.PDF untuk .NET guna mengoptimalkan ukuran dan kinerja berkas. |  
+| [Atur Font Default](./setdefaultfont/) | Pelajari cara mengatur font default dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin menyempurnakan dokumen PDF. |  
+| [Tetapkan Tanggal Kedaluwarsa](./setexpirydate/) | Pelajari cara menetapkan tanggal kedaluwarsa dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan keamanan dokumen dengan panduan langkah demi langkah ini. |  
+| [Atur Info File Dalam File PDF](./setfileinfo/) | Pelajari cara mengatur info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan PDF Anda dengan metadata dengan mudah. |  
+| [Tetapkan Properti untuk Dialog Cetak](./setpropertiesforprintdialog/) | Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah. |  
+| [Tetapkan Metadata XMP Dalam File PDF](./setxmpmetadata/) | Pelajari cara mengatur metadata XMP dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui seluruh proses, mulai dari pengaturan hingga penyimpanan dokumen. |  
+| [Mengatur Faktor Zoom Dalam File PDF](./setzoomfactor/) | Pelajari cara mengatur faktor zoom dalam file PDF menggunakan Aspose.PDF for .NET. Tingkatkan pengalaman pengguna dengan panduan langkah demi langkah ini. |  
+| [Kecilkan Dokumen PDF](./shrinkdocuments/) | Pelajari cara mengecilkan dokumen PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Optimalkan sumber daya PDF dan kurangi ukuran file tanpa mengurangi kualitas.  |  
+| [Hapus Font yang Disematkan dan Optimalkan File PDF](./unembedfonts/) | Pelajari cara membatalkan penyematan font dan mengoptimalkan file PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |  
+| [Validasi PDF AB Standar](./validatepdfabstandard/) | Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang. |  
+| [Validasi File PDF Standar](./validatepdfastandard/) | Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini. |  
+| [Validasi PDF UA Standar](./validatepdfuastandard/) | Pelajari cara memvalidasi PDF untuk standar aksesibilitas PDF/UA menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan penjelasan terperinci kami. |  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
