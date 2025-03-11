@@ -16,10 +16,10 @@ url: /zh-hant/net/text/
 
 在這系列教學中,我們將探索使用Aspose.PDF的文本操縱的各種方面. 您將學習如何動態插入文本,以先進的造型格式,提取內容進行處理,甚至使用多列布局. 每個教學都以清晰的解釋和實用代碼示例設計,讓開發者輕鬆地在應用程序中實現基于文本的功能. 無論您是初學者或經驗豐富的開發者,這些指南將幫助您輕鬆掌握PDF檔案中的文本處理.
 
-{{< tutorial-card link="./add-text/" title="加入"PDF文件"中的文字" imgSrc="/pdf/net/text/add-text/images/thumb.png" >}}
+{{< tutorial-card link="./add-text/" title="加入Aspose.PDF中的文字" imgSrc="/pdf/net/text/add-text/images/thumb.png" >}}
 {{< tutorial-card link="./add-text-border/" title="使用Aspose.PDF在PDF文檔中創建有字樣的文字" imgSrc="/pdf/net/text/add-text-border/images/thumb.png" >}}
 {{< tutorial-card link="./add-transparent-text/" title="透過Aspose.PDF在PDF中創建透明文字效果" imgSrc="/pdf/net/text/add-transparent-text/images/thumb.png" >}}
-{{< tutorial-card link="./add-underline-text/" title="加入"PDF"的字體" imgSrc="/pdf/net/text/add-underline-text/images/thumb.png" >}}
+{{< tutorial-card link="./add-underline-text/" title="加入Aspose.PDF的字體" imgSrc="/pdf/net/text/add-underline-text/images/thumb.png" >}}
 {{< tutorial-card link="./create-multi-column/" title="使用Aspose.PDF來創建多列 PDF" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
 {{< tutorial-card link="./multicolumn-paragraphs/" title="透過Aspose.PDF在PDF中建立多欄段落" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
 
