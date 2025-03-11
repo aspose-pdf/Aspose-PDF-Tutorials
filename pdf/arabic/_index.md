@@ -61,6 +61,43 @@ Aspose.PDF لـ .NET Visual Tutorials يوفر أدلة شاملة خطوة بخ
 {{< tutorial-card link="./net/text/create-multi-column/" title="إنشاء PDF متعدد الأعمدة باستخدام Aspose.PDF لـ .NET" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
 {{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="الفقرات متعددة الأعمدة في PDF باستخدام Aspose.PDF" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [البرمجة باستخدام الوثيقة](./net/programming-with-document/)
+- [البرمجة باستخدام التعليقات التوضيحية](./net/annotations/)  
+- [تحويل المستندات](./net/document-conversion/)
+- [البرمجة باستخدام النماذج](./net/programming-with-forms/)
+- [البرمجة باستخدام الجداول](./net/programming-with-tables/) 
+- [البرمجة باستخدام صفحات PDF](./net/programming-with-pdf-pages/)
+- [البرمجة باستخدام الرسوم البيانية](./net/programming-with-graphs/)
+ 
+## واجهة برمجة تطبيقات معالجة Aspose.PDF للغة Java
+{{% alert color="primary" %}}
+أتقن استخدام Aspose.PDF للغة Java من خلال دروس تعليمية شاملة. أنشئ ملفات PDF وقم بتحريرها وتحسينها بسهولة. ارتق بمهاراتك في تطوير ملفات PDF اليوم!
+{{% /alert %}}
+
+وفيما يلي روابط لبعض الموارد المفيدة:
+- [تعليقات PDF](./java/pdf-annotations/)
+- [المرفقات PDF](./java/pdf-attachments/)
+- [إشارات مرجعية PDF](./java/pdf-bookmarks/)
+- [تحويل وتحويل ملفات PDF](./java/pdf-conversion-transformation/)
+- [صور PDF](./java/pdf-images/)
+- [معالجة الصور بصيغة PDF](./java/pdf-image-manipulation/)
+- [روابط مستندات PDF](./java/pdf-document-links/)
+- [التلاعب بصفحات PDF](./java/pdf-page-manipulation/)
+- [عمليات مستند PDF](./java/pdf-document-operations/)
+- [حقول نموذج PDF](./java/pdf-form-fields/)
+- [جداول PDF](./java/pdf-tables/)
+- [عناصر هيكل PDF](./java/pdf-structure-elements/)
+- [علامات وبنية PDF](./java/pdf-tags-and-structure/)
+- [أنماط وتنسيقات PDF](./java/pdf-styles-and-formatting/)
+- [استخراج نص PDF](./java/pdf-text-extraction/)
+- [التحقق من صحة ملفات PDF](./java/pdf-validation-and-verification/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

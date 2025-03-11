@@ -61,6 +61,42 @@ Leer hoe u tabellen in PDF-documenten kunt maken, formatteren en manipuleren met
 {{< tutorial-card link="./net/text/create-multi-column/" title="Een meerkolom PDF maken met Aspose.PDF voor .NET" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
 {{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Meerdere kolommen paragrafen in PDF met behulp van Aspose.PDF" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [Programmeren met Document](./net/programming-with-document/)
+- [Programmeren met annotaties](./net/annotations/)  
+- [Documentconversie](./net/document-conversion/)
+- [Programmeren met formulieren](./net/programming-with-forms/)
+- [Programmeren met tabellen](./net/programming-with-tables/) 
+- [Programmeren met PDF-pagina's](./net/programming-with-pdf-pages/)
+- [Programmeren met grafieken](./net/programming-with-graphs/)
+ 
+## Aspose.PDF-verwerkings-API voor Java
+{{% alert color="primary" %}}
+Leer Aspose.PDF voor Java met uitgebreide tutorials. Maak, bewerk en optimaliseer moeiteloos PDF's. Verbeter uw PDF-ontwikkelingsvaardigheden vandaag nog!
+{{% /alert %}}
+
+Hieronder vindt u links naar nuttige bronnen:
+- [PDF-annotaties](./java/pdf-annotations/)
+- [PDF-bijlagen](./java/pdf-attachments/)
+- [PDF-bladwijzers](./java/pdf-bookmarks/)
+- [PDF-conversie en -transformatie](./java/pdf-conversion-transformation/)
+- [PDF-afbeeldingen](./java/pdf-images/)
+- [PDF-afbeeldingmanipulatie](./java/pdf-image-manipulation/)
+- [PDF-documentkoppelingen](./java/pdf-document-links/)
+- [PDF-paginamanipulatie](./java/pdf-page-manipulation/)
+- [PDF-documentbewerkingen](./java/pdf-document-operations/)
+- [PDF-formuliervelden](./java/pdf-form-fields/)
+- [PDF-tabellen](./java/pdf-tables/)
+- [PDF-structuurelementen](./java/pdf-structure-elements/)
+- [PDF-tags en structuur](./java/pdf-tags-and-structure/)
+- [PDF-stijlen en -opmaak](./java/pdf-styles-and-formatting/)
+- [PDF-tekst extractie](./java/pdf-text-extraction/)
+- [PDF-validatie en -verificatie](./java/pdf-validation-and-verification/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

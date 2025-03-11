@@ -61,6 +61,43 @@ Aspose.PDF для .NET Visual Tutorials предоставляет всеобъ�
 {{< tutorial-card link="./net/text/create-multi-column/" title="Создать многоуровневый PDF с помощью Aspose.PDF для .NET" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
 {{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Многоуровневые абзацы в PDF с использованием Aspose.PDF" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [Программирование с документом](./net/programming-with-document/)
+- [Программирование с аннотациями](./net/annotations/)  
+- [Преобразование документов](./net/document-conversion/)
+- [Программирование с использованием форм](./net/programming-with-forms/)
+- [Программирование с использованием таблиц](./net/programming-with-tables/) 
+- [Программирование с использованием страниц PDF](./net/programming-with-pdf-pages/)
+- [Программирование с использованием графов](./net/programming-with-graphs/)
+ 
+## API обработки Aspose.PDF для Java
+{{% alert color="primary" %}}
+Освойте Aspose.PDF для Java с помощью комплексных учебных пособий. Создавайте, редактируйте и оптимизируйте PDF-файлы без усилий. Повысьте свои навыки разработки PDF-файлов сегодня!
+{{% /alert %}}
+
+Вот ссылки на некоторые полезные ресурсы:
+- [PDF-аннотации](./java/pdf-annotations/)
+- [PDF-вложения](./java/pdf-attachments/)
+- [Закладки PDF](./java/pdf-bookmarks/)
+- [Конвертация и преобразование PDF-файлов](./java/pdf-conversion-transformation/)
+- [PDF-изображения](./java/pdf-images/)
+- [Обработка изображений в формате PDF](./java/pdf-image-manipulation/)
+- [Ссылки на PDF-документы](./java/pdf-document-links/)
+- [Манипуляции со страницами PDF](./java/pdf-page-manipulation/)
+- [Операции с PDF-документами](./java/pdf-document-operations/)
+- [Поля PDF-формы](./java/pdf-form-fields/)
+- [Таблицы PDF](./java/pdf-tables/)
+- [Элементы структуры PDF](./java/pdf-structure-elements/)
+- [Теги и структура PDF](./java/pdf-tags-and-structure/)
+- [Стили и форматирование PDF](./java/pdf-styles-and-formatting/)
+- [Извлечение текста из PDF-файла](./java/pdf-text-extraction/)
+- [Проверка и верификация PDF-файлов](./java/pdf-validation-and-verification/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

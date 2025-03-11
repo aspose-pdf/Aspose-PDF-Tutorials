@@ -61,6 +61,41 @@ Adım adım eğitimler ve kod örnekleri ile .NET için Aspose.PDF kullanarak PD
 {{< tutorial-card link="./net/text/create-multi-column/" title=".NET için Aspose.PDF kullanarak çok sütunlu bir PDF oluştur" imgSrc="/pdf/net/text/create-multi-column/images/thumb.png" >}}
 {{< tutorial-card link="./net/text/multicolumn-paragraphs/" title="Aspose.PDF kullanarak PDF'de çok sütunlu paragraflar" imgSrc="/pdf/net/text/multicolumn-paragraphs/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [Belge ile Programlama](./net/programming-with-document/)
+- [Açıklamalarla Programlama](./net/annotations/)  
+- [Belge Dönüştürme](./net/document-conversion/)
+- [Formlarla Programlama](./net/programming-with-forms/)
+- [Tablolarla Programlama](./net/programming-with-tables/) 
+- [PDF Sayfalarıyla Programlama](./net/programming-with-pdf-pages/)
+- [Grafiklerle Programlama](./net/programming-with-graphs/)
+ 
+## Java için Aspose.PDF İşleme API'si
+{{% alert color="primary" %}}
+Kapsamlı eğitimlerle Java için Aspose.PDF'de ustalaşın. PDF'leri zahmetsizce oluşturun, düzenleyin ve optimize edin. PDF geliştirme becerilerinizi bugün yükseltin!
+{{% /alert %}}
+
+İşte bazı yararlı kaynaklara bağlantılar:
+- [PDF Açıklamaları](./java/pdf-annotations/)
+- [PDF Ekleri](./java/pdf-attachments/)
+- [PDF Yer İşaretleri](./java/pdf-bookmarks/)
+- [PDF Dönüştürme ve Dönüşüm](./java/pdf-conversion-transformation/)
+- [PDF Görüntüleri](./java/pdf-images/)
+- [PDF Görüntü İşleme](./java/pdf-image-manipulation/)
+- [PDF Belge Bağlantıları](./java/pdf-document-links/)
+- [PDF Sayfa Düzenlemesi](./java/pdf-page-manipulation/)
+- [PDF Belge İşlemleri](./java/pdf-document-operations/)
+- [PDF Form Alanları](./java/pdf-form-fields/)
+- [PDF Tabloları](./java/pdf-tables/)
+- [PDF Yapı Elemanları](./java/pdf-structure-elements/)
+- [PDF Etiketleri ve Yapısı](./java/pdf-tags-and-structure/)
+- [PDF Stilleri ve Biçimlendirme](./java/pdf-styles-and-formatting/)
+- [PDF Metin Çıkarımı](./java/pdf-text-extraction/)
+- [PDF Doğrulama ve Onaylama](./java/pdf-validation-and-verification/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
