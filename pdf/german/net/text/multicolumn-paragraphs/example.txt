@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man mit mehrspaltenen Absätzen in einem PDF-Dokument mit Aspose.PDF arbeitet. Er lädt ein PDF, extrahiert Absätze und ändert dann eine Einstellung, um mehrspaltenen Absätzen zu erlauben, bevor Absätze erneut extrahiert werden, um den Unterschied zu zeigen.
+//ExStepSummary:0: Der folgende Code zeigt, wie das Datenspeicher, in dem sich das PDF-Dokument befindet, angegeben wird.
+//ExStepSummary:1: Der folgende Code zeigt, wie das PDF-Dokument mit der Dokumentklasse geladen wird.
+//ExStepSummary:2: Der folgende Code zeigt, wie man einen ParagraphAbsorber erstellt, um Absätze aus dem Dokument zu extrahieren.
+//ExStepSummary:3: Der folgende Code zeigt, wie man das Dokument mit dem ParagraphAbsorber besucht, um seine Ergebnisse auszufüllen.
+//ExStepSummary:4: Der folgende Code zeigt, wie man auf die Markup-Anweisungen der ersten Seite zugreift und Informationen über Absätze extrahiert, bevor mehrspaltenhafte Absätze zulässig sind.
+//ExStepSummary:5: Der folgende Code zeigt, wie mehrspaltenhafte Absätze aktiviert und dann die Absätzeinformationen erneut extrahiert werden, um die Auswirkungen der Änderung zu zeigen.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Geben Sie das Datenverzeichnis an.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Laden Sie das PDF-Dokument ein.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Erstellen Sie einen ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Besuchen Sie das Dokument, um Absätze zu extrahieren.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Zugriff auf die Seitenmarkierung.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Nehmen Sie den letzten Absatz aus dem dritten Abschnitt.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Nehmen Sie den ersten Absatz aus dem zweiten Abschnitt.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Mehrspalten-Abschnitte aktivieren.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Nach Aktivierung von mehrspaltenhaften Absätzen den letzten Absatz aus dem dritten Abschnitt erhalten.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Erhalten Sie den ersten Absatz aus dem zweiten Abschnitt, nachdem mehrspaltenhafte Absätze aktiviert wurden.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

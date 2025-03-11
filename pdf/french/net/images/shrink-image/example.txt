@@ -1,17 +1,17 @@
 //ExStart
-//ExSummaryCe code montre comment optimiser un document PDF en comprimant ses images. Il charge un PDF, applique des options d'optimisation pour réduire les tailles d'image et enregistre le document mis à jour.
-//ExStepSummary:0: Cette étape initialise le chemin vers le répertoire de documents.
+//ExSummary: Ce code démontre comment optimiser un document PDF en comprimant ses images. Il charge un PDF, applique des options d'optimisation pour réduire la taille de l'image et enregistre le document mis à jour.
+//ExStepSummary:0: Cette étape initie le chemin vers le répertoire des documents.
 //ExStepSummary:1: Cette étape ouvre le document PDF spécifié pour optimisation.
 //ExStepSummary:2: Cette étape initie les options d'optimisation du document PDF.
-//ExStepSummary:3: Cette étape définit l'option de compression d'image à true.
+//ExStepSummary:3: Cette étape définit l'option de compression d'image sur true.
 //ExStepSummary:4: Cette étape définit l'option de qualité d'image à 50.
 //ExStepSummary:5: Cette étape optimise le document PDF en utilisant les options d'optimisation spécifiées.
-//ExStepSummary:6: Cette étape met à jour le chemin du document PDF optimisé.
-//ExStepSummary:7: Cette étape sauvegarde le document PDF optimisé sur le chemin spécifié.
+//ExStepSummary:6: Cette étape met à jour le chemin pour le document PDF optimisé.
+//ExStepSummary:7: Cette étape permet d'enregistrer le document PDF optimisé sur le chemin spécifié.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
-// Voie vers le répertoire de documents
+// Chemin vers le répertoire des documents
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -19,7 +19,7 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
-// Initialement des options d' optimisation
+// Initialiser les options d'optimisation
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
@@ -27,11 +27,11 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 
 //ExStep:4-
-// Réglez la qualité de l'image à 50%
+// Réglez la qualité d'image à 50%
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// Optimiser le document PDF en utilisant les paramètres
+// Optimiser le document PDF à l'aide des paramètres
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-

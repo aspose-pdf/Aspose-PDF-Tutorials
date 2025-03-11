@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary這個代碼展示如何使用Aspose.PDF畫兩條對角線在頁面上,
+//ExStepSummary:0: 開始保存PDF文件目錄的路徑.
+//ExStepSummary:1: 創建一個新的文件實例.
+//ExStepSummary:2: 添加一個頁面到文檔的頁面集合.
+//ExStepSummary:3: 設定頁面邊緣為零,
+//ExStepSummary:4: 創建一個Graph對象,
+//ExStepSummary:5: 創建第一個行對象從頁面左下角到右上角.
+//ExStepSummary:6: 加入第一個行於Graph對象的形狀集合.
+//ExStepSummary:7: 創建第二行對象從頁面左上角到右下角.
+//ExStepSummary:8: 加入第二行於Graph對象的形狀集合.
+//ExStepSummary:9: 加入包含行的Graph對象到頁面的段落集合.
+//ExStepSummary:10: 建立儲存輸出PDF檔案的完整路徑.
+//ExStepSummary:11: 保存PDF文件在指定的路徑上.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// 開始文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 建立文檔實例
+Document pDoc = new Document();
+
+//ExStep:2-
+// 添加頁面到頁面 PDF 文件集合
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// 在各方的頁面邊緣設定為 0
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// 創建與頁面尺寸相同的寬度和高度的圖形對象
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// 創建第一個行對象從頁面左下角到右上角
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// 畫一條從頁面左上角到右下角的線
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// 添加第二行到格拉夫對象的形狀集合
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// 添加圖形對象到段落頁面集合
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// 建立儲存輸出 PDF 檔案的完整路徑
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// 保存PDF檔案
+pDoc.Save(dataDir);
+// 輸出確認訊息
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

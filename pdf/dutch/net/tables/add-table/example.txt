@@ -1,39 +1,39 @@
 //ExStart
-//ExSummaryDeze code toont hoe een PDF-document met een tabel kan worden gemaakt. De tabel wordt toegevoegd aan de tweede pagina van een bestaande PDF-document en bevat een bepaald aantal rijen- en kolomgegevens.
-//ExStepSummary:0: Deze stap initialiseert het bestandpad voor het PDF-document dat wordt verwerkt.
-//ExStepSummary:1: Deze stap laadt het bestaande PDF-document uit het opgegeven directory.
-//ExStepSummary:2: Deze stap creëert een nieuwe tabelinstance en stelt de grens eigenschappen vast.
-//ExStepSummary:3: Deze stap initialiseert de lus om meerdere rijden aan de tabel toe te voegen, waarbij elk met celgegevens wordt gevuld.
-//ExStepSummary:4: Deze stap voegt de gecreëerde tabel aan de eerste pagina van het PDF-document toe.
-//ExStepSummary:5: Deze stap slaat het bijgewerkte PDF-document met de nieuw toegevoegde tabel op een bepaald outputpad.
+//ExSummary: Deze code toont aan hoe een PDF-document met een tabel wordt gemaakt. De tabel wordt toegevoegd aan de tweede pagina van een bestaand PDF-document en bevat een bepaald aantal rijen en kolommen.
+//ExStepSummary:0: Deze stap initialiseert het bestandspad voor het te verwerken PDF-document.
+//ExStepSummary:1: Deze stap laadt het bestaande PDF-document uit de opgegeven map.
+//ExStepSummary:2: Deze stap creëert een nieuwe tabelinstantie en stelt de border-eigenschappen ervan in.
+//ExStepSummary:3: Deze stap start de lus om meerdere rijen aan de tabel toe te voegen, waarbij elk wordt gevuld met celdata.
+//ExStepSummary:4: Deze stap voegt de aangemaakte tabel toe aan de eerste pagina van het PDF- document.
+//ExStepSummary:5: Deze stap slaat het bijgewerkte PDF-document met de pas toegevoegde tabel op een gespecificeerd outputpad.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// De weg voor documenten definiëren
+// Het pad voor documenten definiëren
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Load het bron PDF-document
+// Laad het bron PDF-document
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Initieel een nieuw voorbeeld van de tabel
+// Een nieuwe instantie van de tabel initialiseren
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Stel de tafel rand kleur op LightGray
+// Stel de tafelgrenskleur in op lichtgrijs
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Stel de grens voor tafelcellen
+// De rand voor tabelcellen instellen
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
 // Loop om 10 rijen toe te voegen
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Voeg een nieuwe rij toe aan de tabel
+	// Een nieuwe rij toevoegen aan de tabel
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Voeg de eerste cel toe in de rij
+	// Voeg eerste cel toe in de rij
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Voeg een tweede cel in de rij toe
+	// Voeg tweede cel toe aan de rij
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Voeg een derde cel in de rij toe
+	// Voeg derde cel toe aan de rij
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
@@ -42,10 +42,10 @@ for (int row_count = 1; row_count < 10; row_count++)
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// De output-bestandpad voor het bijgewerkte document definiëren
+// Het pad van het bestand voor het bijgewerkte document
 dataDir = dataDir + "document_with_table_out.pdf"; 
 // Bewaar het bijgewerkte document met de tabel
 doc.Save(dataDir); 
-// Informeer de gebruiker over de succesvolle operatie
+// Informatie van de gebruiker over de succesvolle operatie
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

@@ -1,5 +1,5 @@
 ---
-title: Οπτικοποιήστε το PDF συμπίεζοντας εικόνες στο Aspose.PDF για .NET
+title: Βελτιστοποίηση PDF με συμπίεση εικόνων στο Aspose.PDF για .NET
 weight: 7700
 limit: 
 description: Μάθετε πώς να βελτιστοποιήσετε ένα έγγραφο PDF συμπιέζοντας εικόνες χρησιμοποιώντας το Aspose.PDF για .NET. Μειώστε το μέγεθος του αρχείου διατηρώντας την ποιότητα με απλό κώδικα C #.  
@@ -10,9 +10,9 @@ url: /el/net/images/shrink-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Βελτιστοποιήστε το PDF συμπίεζοντας εικόνες στο Aspose.PDF
+# Βελτιστοποίηση PDF με συμπίεση εικόνων στο Aspose.PDF
  
-Η βελτιστοποίηση των αρχείων PDF είναι απαραίτητη για τη μείωση του μεγέθους του αρχείου, ενώ διατηρείται η ποιότητα του εγγράφου. Με το Aspose.PDF για το .NET, μπορείτε να συμπιέσετε αποτελεσματικά εικόνες σε ένα PDF χρησιμοποιώντας ενσωματωμένες επιλογές βελτιστοποίησης.  
+Η βελτιστοποίηση αρχείων PDF είναι απαραίτητη για τη μείωση του μεγέθους του αρχείου, διατηρώντας παράλληλα την ποιότητα του εγγράφου. Με το Aspose.PDF για .NET, μπορείτε να συμπιέσετε αποτελεσματικά εικόνες σε ένα PDF χρησιμοποιώντας ενσωματωμένες επιλογές βελτιστοποίησης.  
  
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
@@ -20,37 +20,37 @@ url: /el/net/images/shrink-image/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Διδασκαλίες εγκατάστασης:  
+## Οδηγίες εγκατάστασης:  
 Για να χρησιμοποιήσετε το Aspose.PDF για το .NET, ακολουθήστε τα παρακάτω βήματα:  
 
-1. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet:  
-   * Ανοίξτε το Visual Studio και πηγαίνετε στα εργαλεία > Διαχειριστής πακέτων NuGet > Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξτε για "Αποθέστε. PDF" και κάντε κλικ στην εγκατάσταση.  
+1. Εγκατάσταση μέσω του NuGet Package Manager:  
+   * Ανοίξτε το Visual Studio και πηγαίνετε στα εργαλεία > NuGet Package Manager > Διαχειριστείτε τα πακέτα NuGet για λύση.  
+   * Αναζητήστε το Aspose.PDF και κάντε κλικ στην επιλογή "Εγκατάσταση".  
 
-   ΕΠΟ  
+   Ή  
 
-   Εκτελέστε την ακόλουθη εντολή στο κονσόλα διαχειριστή πακέτων:  
+   Εκτελέστε την ακόλουθη εντολή στην κονσόλα Διαχειριστή Πακέτων:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Κατεβάστε από το ιστοτόπιο Aspose:  
-   * Επισκέψου[Aspose.PDF για .NET Downloads](https://releases.aspose.com/pdf/net/)  
-   * Κατεβάστε και εγκαταστήστε την τελευταία έκδοση.  
+2. Κατεβάστε από την ιστοσελίδα Aspose:  
+   * Επισκέψου .[Aspose.PDF για .NET Downloads](https://releases.aspose.com/pdf/net/)  
+   * Κατεβάστε και εγκαταστήσετε την τελευταία έκδοση.  
 
-3. Εφαρμογή άδειας (Επιαιρετική):  
-   * Πάρτε δωρεάν άδεια δοκιμής από τον [Στόχος της προσωρινής άδειας](https://purchase.aspose.com/temporary-license/)  
-   * Εφαρμόστε την άδεια με τον κωδικό σας χρησιμοποιώντας:  
+3. Εφαρμογή άδειας (προαιρετική):  
+   * Πάρτε μια δωρεάν άδεια δοκιμής από το[Επαναλαμβάνω την προσωρινή άδεια](https://purchase.aspose.com/temporary-license/)  
+   * Εφαρμόστε την άδεια στον κώδικα σας χρησιμοποιώντας:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.PDF.lic");
    ```
 
-## Χρησιμοποιούμενα σύνδεσμοι:  
-Δοκμηματοποίηση: ["Αποθέστε.ΠΔ" για οδηγό .NET](https://docs.aspose.com/pdf/net/)  
+## Χρήσιμοι σύνδεσμοι:  
+Επιστολή:[Aspose.PDF για τον οδηγό .NET](https://docs.aspose.com/pdf/net/)  
 Αναφορά API: [Aspose.PDF για το .NET API](https://reference.aspose.com/pdf/net/)  
-Δωρεάν δοκιμή:[Προσθέστε Ελεύθερη Αποκάλυψη](https://releases.aspose.com/)  
-Φόρουμ Υποστήριξης: [Στόχος: Υποστήριξη](https://forum.aspose.com/c/pdf/10) 
+Δωρεάν δοκιμή:[Ασφαλώς δωρεάν δοκιμή](https://releases.aspose.com/)  
+Φόρουμ Υποστήριξης:[Υποστήριξη ως προς το αντικείμενο](https://forum.aspose.com/c/pdf/10) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary這種程式可以使用多種方式進行文件編輯.`加入透明文字.pdf`在指定目錄中.
+//ExStepSummary:0: 開始文件目錄路徑,並創建一個新頁面的 PDF 文件.
+//ExStepSummary:1: 創建一個透明填色的Graph對象和矩形,然後將其添加到頁面上.
+//ExStepSummary:2: 建立一個用示例文字的 TextFragment, 並設定透明綠色,
+//ExStepSummary:3: 保存文件在指定輸出路徑上.
+//ExStepSummary:4: 顯示成功訊息與檔案路徑.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+// 建立文檔實例
+Document doc = new Document(); 
+
+// 建立頁面到頁面的PDF檔案集合
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// 創建寬度和高度的圖形對象
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// 建立具有定義尺寸的矩形實例
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// 創建從Alpha色頻道的顏色對象
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// 加入圖形集合的矩形
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// 添加圖形對象到段落頁面對象的集合
+page.Paragraphs.Add(canvas);
+
+// 設定數值不改變圖形對象的位置
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// 創建具有示範值的 TextFragment 實例
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// 創建從阿爾法頻道的顏色對象
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// 設定文本實例的顏色資訊
+text.TextState.ForegroundColor = color;
+
+// 添加文本到段落頁面實例集合
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// 指定PDF檔案的輸出路徑
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// 保存文件在指定路徑上
+doc.Save(dataDir); 
+
+//ExStep:4-
+// 通知使用者該過程已完成
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

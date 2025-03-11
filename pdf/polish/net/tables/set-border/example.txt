@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF z tabelą, która ma podwójne krawędzie zarówno na górnej, jak i dolnej stronie. 
+//ExStepSummary:0: Instansuj obiekt Document i dodaj do niego stronę.
+//ExStepSummary:1: Utworzenie obiektu BorderInfo do definiowania właściwości granicznych komórek tabeli.
+//ExStepSummary:2: Instansowanie obiektu Table i określenie szerokości kolumn.
+//ExStepSummary:3: Dodaj wiersz do tabeli i wstaw komórkę zawierającą tekst.
+//ExStepSummary:4: Ustawić podwójną granicę komórki za pomocą obiektu BorderInfo.
+//ExStepSummary:5: Dodaj tabelę do zbioru akapitów strony i zapisz dokument na określonej ścieżce pliku.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Określ ścieżkę do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansuj obiekt dokumentu.
+Document doc = new Document();
+// Dodaj stronę do dokumentu PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Utworzyć obiekt BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Wskazać, że górna granica będzie podwójna
+border.Top.IsDoubled = true; 
+// Określ, że dolna krawędź będzie podwójna
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Instansuj obiekt Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Wskazać informacje o szerokości kolumn
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Utworzyć obiekt Row dla tabeli.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Dodawanie komórki tabeli do zbioru komórek wiersza
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Stosować ustawienia graniczne zdefiniowane wcześniej.
+cell.Border = border;
+
+//ExStep:5-
+// Dodaj tabelę do zbioru akapitów strony.
+page.Paragraphs.Add(table);
+// Określ ścieżkę pliku wyjściowego.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Zapisz dokument w formie PDF
+doc.Save(dataDir);
+// Wydrukowanie wiadomości z ścieżką pliku.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

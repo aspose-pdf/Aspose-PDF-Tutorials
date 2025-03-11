@@ -1,11 +1,11 @@
 //ExStart
-//ExSummaryKod ten pokazuje, jak optymalizować dokument PDF poprzez skompresję jego obrazów. Ładuje PDF, stosuje opcje optymalizacji, aby zmniejszyć rozmiary obrazu i zapisuje zaktualizowany dokument.
-//ExStepSummary:0: Ten krok inicjuje ścieżkę do katalogu dokumentów.
+//ExSummary: Ten kod pokazuje, jak zoptymalizować dokument PDF poprzez kompresję jego obrazów. Ładuje PDF, stosuje opcje optymalizacji w celu zmniejszenia rozmiaru obrazu i zapisuje zaktualizowany dokument.
+//ExStepSummary:0: Ten krok inicjalizuje ścieżkę do katalogu dokumentów.
 //ExStepSummary:1: Ten krok otwiera określony dokument PDF do optymalizacji.
-//ExStepSummary:2: W tym kroku inicjujemy opcje optymalizacji dokumentu PDF.
-//ExStepSummary:3: Ten krok ustawia opcję kompresji obrazu na prawdziwy.
-//ExStepSummary:4: W tym kroku opcja jakości obrazu zostanie ustawiona na 50.
-//ExStepSummary:5: Ten krok optymalizuje dokument PDF za pomocą określonych opcji optymalizacji.
+//ExStepSummary:2: Ten krok inicjuje opcje optymalizacji dokumentu PDF.
+//ExStepSummary:3: Ten krok ustawia opcję kompresji obrazu na true.
+//ExStepSummary:4: Ten krok ustawia opcję jakości obrazu na 50.
+//ExStepSummary:5: Ten krok optymalizuje dokument PDF przy użyciu określonych opcji optymalizacji.
 //ExStepSummary:6: Ten krok aktualizuje ścieżkę optymalizowanego dokumentu PDF.
 //ExStepSummary:7: Ten krok zapisuje zoptymalizowany dokument PDF na określonej ścieżce.
 //ExStepImage:5:images/1.png
@@ -19,7 +19,7 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
-// Wprowadzenie opcji optymalizacji
+// Inicjalizować opcje optymalizacji
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
@@ -31,16 +31,16 @@ optimizeOptions.ImageCompressionOptions.CompressImages = true;
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// Optymalizuj dokument PDF za pomocą ustawień
+// Optymalizacja dokumentu PDF za pomocą ustawień
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
-// Definicja ścieżki wyjściowej dla optymalizowanego PDF
+// Określ ścieżkę wyjściową dla zoptymalizowanego PDF
 dataDir = dataDir + "Shrinkimage_out.pdf";
 
 //ExStep:7-
 // Zapisz zaktualizowany dokument
 pdfDocument.Save(dataDir);
-// Wiadomość potwierdzenia wyjścia
+// Wiadomość potwierdzająca wyjście
 Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
 //ExEnd

@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy több oszlopú PDF dokumentumot az Aspose.PDF könyvtár segítségével.
+//ExStepSummary:0: Ez a lépés a dokumentumkönyvtárat állítja be, egy új PDF dokumentumot inicializál, és a oldalmargint konfigurálja.
+//ExStepSummary:1: Ez a lépés új oldalt ad hozzá a dokumentumhoz, és a Graph és a Line osztályok segítségével vízszintes vonalat rajzol.
+//ExStepSummary:2: Ez a lépés létrehoz egy HtmlFragment formázott szöveggel, és hozzáadja a PDF dokumentumhoz.
+//ExStepSummary:3: Ez a lépés létrehoz egy két oszlopos elrendezésű FloatingBox-t, és hozzáadja a szerzői információkat.
+//ExStepSummary:4: Ez a lépés egy másik vízszintes vonalat rajzol a FloatingBox belsejében a vizuális elválasztás érdekében.
+//ExStepSummary:5: Ez a lépés egy hosszú szövegszemleteket ad hozzá a FloatingBoxhoz, hogy a tartalom több oszlopban történő eloszlását megmutassa.
+//ExStepSummary:6: Ez a lépés a dokumentumot a megadott kimeneti útvonalra mentse, és nyomtatja a sikerüzenetet.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// A dokumentumokat tartalmazó címlap útvonalának meghatározása
+string dataDir = "Your Document Directory";
+// Új dokumentum példány létrehozása
+Document doc = new Document(); 
+
+// Adja meg a PDF fájl bal oldalon található információit
+doc.PageInfo.Margin.Left = 40; 
+// Adja meg a PDF fájl jobb oldalát
+doc.PageInfo.Margin.Right = 40;
+// Új oldalt adjon hozzá a dokumentumhoz
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Egy új Graph objektumot készíteni egy vonal rajzolására
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// A sorokat a bekezdésekhez hozzáadja a részek tárgyainak gyűjteményéhez
+page.Paragraphs.Add(graph1);
+
+// A vonal koordinátái
+// A vonal kezdő- és végpontjainak meghatározása
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Lépjen ki egy vonal alakja meghatározott koordinátákkal
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Adja hozzá a vonalformát a grafikonhoz
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Html címkéket tartalmazó szöveggel készítsen karakterszálváltozókat
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// HtmlFragment létrehozása a címszó szöveghez
+HtmlFragment heading_text = new HtmlFragment(s);
+// A címtesztalapot a laphoz hozzáadja 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Új FloatingBox létrehozása több oszlopos elrendezéshez
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// A oszlopok száma 2
+box.ColumnInfo.ColumnCount = 2; 
+// A oszlopok közötti távolság beállítása
+box.ColumnInfo.ColumnSpacing = "5";
+// Minden oszlop szélességének beállítása
+box.ColumnInfo.ColumnWidths = "105 105";
+// Írj szövegszemléletet a szerzői információhoz
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// A szöveg betűméretének beállítása
+text1.TextState.FontSize = 8;
+// A szöveg sorközét beállítani
+text1.TextState.LineSpacing = 2;
+// A szerző szövegének hozzáadása a lebegő mezőhöz
+box.Paragraphs.Add(text1);
+// A szöveg betűméretének frissítése
+text1.TextState.FontSize = 10;
+// A betűtípusok kurzíniumra kerülnek
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Egy másik Graph objektumot készíteni egy második vonal rajzolására
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// A vonal koordinátái
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Adja hozzá a második vonal alakját a grafikonhoz
+graph2.Shapes.Add(l2);
+
+// A sorokat a bekezdésekhez hozzáadja a részek tárgyainak gyűjteményéhez
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Hosszú szövegszemcsék létrehozása a tartalom oszlopokban való megjelenítéséhez
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// A hosszú szöveget a lebegő mezőbe kell hozzáadni
+box.Paragraphs.Add(text2); 
+// A lapra a tartalom teljes körű lebegő mezőt adjuk hozzá
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Adja meg a kimeneti PDF fájl útvonalát
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Tárolja a dokumentumot a megadott útvonalon
+doc.Save(dataDir); 
+// Nyomtatás sikere
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

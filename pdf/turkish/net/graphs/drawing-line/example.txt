@@ -1,66 +1,66 @@
 //ExStart
-//ExSummaryBu kod, sayfada iki çapraz çizgi çizerek Aspose.PDF kullanarak bir PDF belgesini nasıl oluşturulacağını gösterir.
-//ExStepSummary:0: PDF'nin kaydedileceği belge dizini için yolun başlangıcını yapın.
-//ExStepSummary:1: PDF için yeni bir Belge örneği oluşturun.
-//ExStepSummary:2: Belgenin sayfa koleksiyonuna bir sayfa ekleyin.
-//ExStepSummary:3: Sayfa kenarlıklarını tüm taraflar için sıfıra ayarlayın.
-//ExStepSummary:4: Sayfa boyutuna eşit boyutlarla çizim alanını temsil etmek için bir Graf nesnesi oluşturun.
-//ExStepSummary:5: Sayfanın alt soldan sağ üst köşesine ilk satır nesnesini oluşturun.
-//ExStepSummary:6: Graf nesnesinin şekil koleksiyonuna ilk satırı ekleyin.
-//ExStepSummary:7: Sayfanın sağ alt köşesinden yukarı sola ikinci satır nesnesini oluşturun.
-//ExStepSummary:8: Graf nesnesinin şekil koleksiyonuna ikinci satırı ekleyin.
-//ExStepSummary:9: Satırları içeren Graf nesnesini sayfanın paragraf koleksiyonuna ekleyin.
-//ExStepSummary:10: Çıktı PDF dosyasını kaydetmek için tam yol oluşturun.
-//ExStepSummary:11: PDF belgesini belirtilen yoluna kaydet.
+//ExSummary: Bu kod, sayfada iki çapraz çizgi çizerek Aspose.PDF kullanarak bir PDF belgesi oluşturmayı gösterir. Belgeyi kaydetmeden önce bir belgeyi başlatır, bir sayfa ekler ve köşeden köşe çizgiler çizer.
+//ExStepSummary:0: PDF'nin kaydedileceği belge dizini için yolu başlatın.
+//ExStepSummary:1: PDF için yeni bir belge örneği oluşturun.
+//ExStepSummary:2: Belgenin sayfa koleksiyonuna bir sayfa ekle.
+//ExStepSummary:3: Sayfa kenarlarını tüm taraflarda sıfıra ayarlayın.
+//ExStepSummary:4: Sayfa boyutuna eşit boyutlara sahip çizim alanını temsil etmek için bir Graph nesnesi oluşturun.
+//ExStepSummary:5: Sayfanın sol alt köşesinden sağ üst köşesine ilk satır nesnesi oluştur.
+//ExStepSummary:6: Graph nesnesinin şekiller koleksiyonuna ilk satırı ekleyin.
+//ExStepSummary:7: İkinci satır nesnesi sayfanın sol üst köşesinden sağ alt köşesine oluştur.
+//ExStepSummary:8: Graph nesnesinin şekiller koleksiyonuna ikinci satırı ekleyin.
+//ExStepSummary:9: Satırları içeren Graph nesnesini sayfanın paragraf koleksiyonuna ekleyin.
+//ExStepSummary:10: Çıktı PDF dosyasını kaydetmek için tam yolu oluşturun.
+//ExStepSummary:11: PDF belgesini belirtilen yola kaydet.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Belge dizininin yolunu başlat
+// Belgeler dizini için yolu başlat
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Belge örneğini oluştur
+// Belge örneği oluştur
 Document pDoc = new Document();
 
 //ExStep:2-
-// PDF belgesinin sayfalarına sayfa ekleme
+// Sayfaları sayfalara ekle PDF belge koleksiyonu
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Tüm taraflarda sayfa kenarlığı 0 olarak ayarlayın
+// Sayfa kenarını her taraftan 0 olarak ayarlayın
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Sayfa boyutlarına eşit genişlik ve yüksekliği olan Graph nesnesini oluştur
+// Genişliği ve Yüksekliği sayfa boyutlarına eşit olan Graph nesnesi oluştur
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Sayfanın alt soldan sağ üst köşesine başlayan ilk satır nesnesini oluştur
+// Sayfanın Sol Alt köşesinden Sağ Üst köşesine başlayan ilk satır nesnesi oluştur
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Sayfanın sol üst köşesinden sağ alt köşesine doğru çizgi çiz
+// Sayfanın Sol Üst Köşesinden Alt Sağ Köşeye çizgi çiz
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Graph nesnesinin şekiller koleksiyonuna ikinci satır ekle
+// Graph nesnesinin şekil koleksiyonuna ikinci satır ekle
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Sayfaların paragraf koleksiyonuna Graf nesnesini ekle
+// Paragraflara Graph nesnesi ekle
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Çıktı PDF dosyasını kaydetmek için tam yol oluştur
+// Çıktı PDF dosyasını kaydetmek için tam yolu oluştur
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
 // PDF dosyasını kaydet
 pDoc.Save(dataDir);
-// Çıktı onay mesajı
+// Çıkış onay mesajı
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

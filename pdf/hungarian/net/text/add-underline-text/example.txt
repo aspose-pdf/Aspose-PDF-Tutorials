@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot, és hozzáadni egy szövegszemlet alávult formázással.
+//ExStepSummary:0: Az PDF dokumentum mentésének címkéjét határozza meg.
+//ExStepSummary:1: Kezdje el egy új PDF dokumentumot, és adjon hozzá egy oldalt.
+//ExStepSummary:2: Hozzon létre egy TextBuilder objektumot a dokumentum első oldalára.
+//ExStepSummary:3: Hozzon létre egy TextFragment-et a tesztüzenettel, állítsa be a betűtípust Arial-ra, méretére 10, és engedélyezze az alávázolt formázást.
+//ExStepSummary:4: A TextFragment PDF-ben található helyének megadása és a TextBuilderhez csatolása.
+//ExStepSummary:5: A kimeneti fájl útvonalát határozza meg, és mentse meg a PDF dokumentumot.
+//ExStepSummary:6: A nyomtatott szöveg hozzáadásának sikeréről szóló üzenet megjelenítése, és a fájl helyének megjelölése.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// A dokumentum mentésére szolgáló címtár meghatározása.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Kezdőlap egy új PDF dokumentum.
+Document pdfDocument = new Document();
+// Adjunk hozzá egy új oldalt a dokumentumhoz.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Hozzon létre egy TextBuilder-t az első oldalra.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Hozzon létre egy TextFragmentet a megadott szöveggel.
+TextFragment fragment = new TextFragment("Test message");
+// Állítsd az Arialt.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// A betűméret 10-re állítsd.
+fragment.TextState.FontSize = 10;
+// A szöveg alávázolt formázását engedélyezze.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// A TextFragment PDF-ben való helyzete.
+fragment.Position = new Position(10, 800);
+// A TextFragment-et csatolja a TextBuilderhez.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// A PDF-fájl kimeneti útvonalát határozza meg.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Tárolja a dokumentumot a megadott útvonalon.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Üzenet a sikerről.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um documento PDF que inclui um retângulo e um fragmento de texto com efeitos de texto transparentes.`AdicionarTransparentText_out.pdf`no diretório especificado.
+//ExStepSummary:0: Inicie o caminho do diretório de documentos e crie um novo documento PDF com uma página.
+//ExStepSummary:1: Crie um objeto Graph e um retângulo com cor de preenchimento transparente, e adicione-o à página.
+//ExStepSummary:2: Crie um TextFragment com texto de amostra e defina a cor verde transparente com 30% de opacidade.
+//ExStepSummary:3: Salvar o documento no caminho de saída especificado.
+//ExStepSummary:4: Mostrar uma mensagem de sucesso com o caminho do ficheiro.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// O caminho para o diretório de documentos.
+string dataDir = "Your Document Directory";
+
+// Criar uma instância do documento
+Document doc = new Document(); 
+
+// Criar coleção de arquivos PDF de página para página
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Criar objeto Graph com largura e altura
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Criar instância de retângulo com dimensões definidas
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Criar objeto de cor do canal de cores Alpha
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Adicionar retângulo para coleção de formas de objeto Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Adicionar objeto de gráfico para parágrafos coleção de objeto de página
+page.Paragraphs.Add(canvas);
+
+// Definir valor para não alterar a posição do objeto do gráfico
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Criar instância do TextFragment com valor de amostra
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Criar objeto de cor do canal Alpha
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Configure informações de cor para a instância de texto
+text.TextState.ForegroundColor = color;
+
+// Adicionar texto aos parágrafos coleção de página
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Especificar o caminho de saída para o arquivo PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Salvar o documento no caminho especificado
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Informar o utilizador que o processo está completo
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

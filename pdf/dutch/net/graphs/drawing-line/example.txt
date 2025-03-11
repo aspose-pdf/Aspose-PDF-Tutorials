@@ -1,66 +1,66 @@
 //ExStart
-//ExSummaryDeze code toont hoe een PDF-document met behulp van Aspose.PDF wordt gemaakt door twee diagonale lijnen over de pagina te tekenen.
-//ExStepSummary:0: Initieel het pad voor de documenten directory waar de PDF wordt opgeslagen.
-//ExStepSummary:1: Maak een nieuwe Document-instance voor de PDF.
-//ExStepSummary:2: Voeg een pagina toe aan de pagina collectie van het document.
-//ExStepSummary:3: Stel de pagina's op nul voor alle kanten.
-//ExStepSummary:4: Maak een Grafiek voorwerp om het tekengebied te weergeven met afmetingen die gelijk zijn aan de pagina grootte.
-//ExStepSummary:5: Maak het eerste lijnobject van de linkerboven naar de rechterbovenhoek van de pagina.
-//ExStepSummary:6: Voeg de eerste lijn toe aan de vormencollectie van het Graf object.
-//ExStepSummary:7: Maak het object van de tweede lijn van bovenste linker naar onderste rechterhoek van de pagina.
-//ExStepSummary:8: Voeg de tweede lijn toe aan de vormencollectie van het Graf object.
-//ExStepSummary:9: Voeg het Grafiek object met de lijnen toe aan de collectie paragrafen van de pagina.
-//ExStepSummary:10: Bouw het volledige pad voor het opslaan van het output PDF-bestand.
-//ExStepSummary:11: Bewaar het PDF-document op het gespecificeerde pad.
+//ExSummary: Deze code laat zien hoe je een PDF-document maakt met Aspose.PDF door twee diagonale lijnen over de pagina te tekenen.
+//ExStepSummary:0: Initialiseer het pad voor de documentenmap waar de PDF zal worden opgeslagen.
+//ExStepSummary:1: Maak een nieuwe Document-instansie voor de PDF.
+//ExStepSummary:2: Voeg een pagina toe aan de paginacollectie van het document.
+//ExStepSummary:3: Stel de pagina marges op nul voor alle zijden.
+//ExStepSummary:4: Maak een Graph-object om het tekengebied te vertegenwoordigen met afmetingen gelijk aan de pagina-grootte.
+//ExStepSummary:5: Maak het eerste regelobject van linksonder naar rechtsboven op de pagina.
+//ExStepSummary:6: Voeg de eerste regel toe aan de collectie vormen van het Graph-object.
+//ExStepSummary:7: Maak het tweede regelobject van linksboven naar rechtsonder.
+//ExStepSummary:8: Voeg de tweede regel toe aan de collectie vormen van het Graph-object.
+//ExStepSummary:9: Voeg het Graph-object dat de regels bevat toe aan de pagina's collectie paragrafen.
+//ExStepSummary:10: Maak het volledige pad om het output PDF-bestand op te slaan.
+//ExStepSummary:11: Bewaar het PDF-document op het opgegeven pad.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Initiaal het pad voor het document directory
+// Het pad voor de documentenmap initialiseren
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Documentinstance maken
+// Document instanties maken
 Document pDoc = new Document();
 
 //ExStep:2-
-// Voeg pagina toe aan pagina's collectie PDF-document
+// Pagina toevoegen aan pagina's verzameling PDF-document
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Stel pagina marge aan alle zijden als 0
+// Stel de pagina marge aan alle kanten op 0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Creëer Grafiek object met breedte en hoogte gelijk aan pagina afmetingen
+// Graph-object maken met Breedte en Hoogte gelijk aan pagina-afmetingen
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Creëer het eerste lijn object vanaf de linkerboven tot de rechterbovenhoek van de pagina
+// Maak een eerste regel object te beginnen van linksonder naar rechtsbovenhoek van de pagina
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Trek een lijn van bovenste linkerhoek naar onder rechterhoek
+// Trek een lijn van linksboven naar rechtsonder
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Voeg een tweede lijn toe aan de vormen collectie van Graph object
+// Voeg een tweede regel toe aan de vormencollectie van het Graph-object
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Voeg Grafiek voorwerp toe aan paragrafen collectie pagina
+// Graph object toevoegen aan paragrafen collectie van pagina
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Het volledige pad bouwen voor het opslaan van het output PDF-bestand
+// Het volledige pad voor het opslaan van het output PDF-bestand maken
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
 // Bewaar het PDF-bestand
 pDoc.Save(dataDir);
-// Output bevestigingsbericht
+// Bevestigingsbericht voor de uitgang
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 这个代码说明如何创建一个包含一个矩形和一个具有透明文本效果的文本片段的PDF文档.输出将保存为`添加透明文本.pdf`在指定目录中.
+//ExStepSummary:0: 启动文件目录路径,并创建一个新PDF文件.
+//ExStepSummary:1: 创建一个透明填色的Graph对象和矩形,然后添加到页面上.
+//ExStepSummary:2: 创建一个 TextFragment 带有样本文本,并设置透明绿色颜色,不透明度为 30%.
+//ExStepSummary:3: 将文档保存到指定输出路径.
+//ExStepSummary:4: 显示一个成功消息,并显示文件路径.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// 文件目录的路径.
+string dataDir = "Your Document Directory";
+
+// 创建文档实例
+Document doc = new Document(); 
+
+// 创建页面到页面的PDF文件集合
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// 创建宽度和高度的图形对象
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// 创建具有定义维度的矩形实例
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// 从Alpha色频道创建颜色对象
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// 添加图形对象的形状集合
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// 添加图对象到段落集合页面对象
+page.Paragraphs.Add(canvas);
+
+// 设置图形对象不改变位置的值
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// 创建一个具有样本值的 TextFragment 实例
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// 从Alpha频道创建颜色对象
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// 设置文本实例的颜色信息
+text.TextState.ForegroundColor = color;
+
+// 添加文本到段落页面实例集合
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// 指定PDF文件的输出路径
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// 保存文件到指定路径
+doc.Save(dataDir); 
+
+//ExStep:4-
+// 通知用户,该过程已完成
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

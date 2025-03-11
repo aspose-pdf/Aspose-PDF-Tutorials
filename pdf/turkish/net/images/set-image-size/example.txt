@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryBu kod, PDF belgesini nasıl oluşturulacağını, bir görüntü ekleneceğini ve görüntü boyutunu ve sayfa özelliklerini ayarlayacağını gösterir.
-//ExStepSummary:0: Bu kod, belge nesnesini initialize eder ve ona yeni bir sayfa ekler.
+//ExSummary: Bu kod, bir PDF belgesini nasıl oluşturacağınızı, ona bir resim ekleyeceğinizi ve resim boyutunu ve sayfa özelliklerini nasıl ayarlayacağınızı gösterir.
+//ExStepSummary:0: Bu kod belge nesnesini başlatır ve ona yeni bir sayfa ekler.
 //ExStepSummary:1: Bu bölüm bir görüntü örneği oluşturur ve boyutlarını ve dosya türünü belirler.
-//ExStepSummary:2: Bu adım, görüntü için kaynak dosyasını belirler ve sayfaya ekler.
-//ExStepSummary:3: Bu adım, genişlik ve yüksekliği de dahil olmak üzere sayfa özelliklerini belirler.
-//ExStepSummary:4: Bu bölüm belgeyi belirtilen dosya yoluna kaydetir ve kaydetme işlemini doğruluyor.
+//ExStepSummary:2: Bu adım, resim için kaynak dosyasını belirler ve sayfaya ekler.
+//ExStepSummary:3: Bu adım, genişlik ve yükseklik de dahil olmak üzere sayfa özelliklerini belirler.
+//ExStepSummary:4: Bu bölüm belgeyi belirtilen dosya yoluna kaydeder ve kaydetme işlemini doğrular.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Belge dizininin yolunu belirtin
+// Belge dizini yolunu belirtin
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Bir anlık Belge nesnesi
+// Doküman nesnesini örnekle
 Document doc = new Document();
 // PDF belgesine yeni bir sayfa ekle
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
-// Resim örneği oluştur
+// Bir resim örneği oluştur
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// Resim genişliğini 100 noktaya ayarlayın
+// Resim genişliğini 100 noktaya ayarla
 img.FixWidth = 100;
-// Resim yüksekliğini 100 noktaya ayarlayın
+// Resim yüksekliğini 100 noktaya ayarla
 img.FixHeight = 100;
-// Resim tipi bilinmiyor olarak ayarlayın (sonra çıkarılacak)
+// Resim türünü Bilinmeyen olarak ayarla (daha sonra çıkarılacak)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Kaynak görüntü dosyası için yol belirtin
+// Kaynak resim dosyasının yolunu belirtin
 img.File = dataDir + "aspose-logo.jpg";
-// Sayfanın paragraflarına resim ekle
+// Resmi sayfanın paragraflarına ekleyin
 page.Paragraphs.Add(img);
 
 //ExStep:3-
-// Sayfa genişliğini 800 noktaya ayarlayın
+// Sayfa genişliğini 800 noktaya ayarla
 page.PageInfo.Width = 800;
-// Sayfa yüksekliğini 800 noktaya ayarlayın
+// Sayfa yüksekliğini 800 puan olarak ayarla
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Çıktı dosya yolu belirtin
+// Çıktı dosyası yolunu belirtin
 dataDir = dataDir + "SetImageSize_out.pdf";
-// Oluşan PDF belgesini kaydet
+// Sonuçta elde edilen PDF belgesini kaydet
 doc.Save(dataDir);
 
 //ExStep:5-
-// Kullanıcıyı başarılı işlemden haberdar edin
+// Kullanıcıyı başarılı işlem hakkında bilgilendirmek
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

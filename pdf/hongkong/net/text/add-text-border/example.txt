@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary這種字體的字體格式是:
+//ExStepSummary:0: 以下代碼為保存PDF文檔的路徑初始化.
+//ExStepSummary:1: 創建一個新的 PDF 文檔對象.
+//ExStepSummary:2: 以下代碼為PDF文檔添加新頁面.
+//ExStepSummary:3: 接下來的代碼創建了包含特定內容和位置的文字片段.
+//ExStepSummary:4: 以下代碼設定文字片段的特性, 包括字體大小和顏色.
+//ExStepSummary:5: 圖文長方形周圍可以畫邊框.
+//ExStepSummary:6: 接下來的代碼將文字片段附加到PDF頁面,
+//ExStepSummary:7: 該文件將存放到所指的目錄中.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// 開始保存文件的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 創建新的PDF文檔對象
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// 添加一個新頁面到PDF文檔
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// 建立指定內容的文字片段
+TextFragment textFragment = new TextFragment("main text");
+// 設定文字片段的位置
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// 設定文字字體大小
+textFragment.TextState.FontSize = 12;
+// 設定字體類型
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// 設定文字的背景顏色
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// 設定文字的前景顏色
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// 設定邊框的滑動顏色
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// 啟用在文字周圍畫邊框
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// 建立一個 TextBuilder 對象
+TextBuilder tb = new TextBuilder(pdfPage);
+// 附上文本片段到PDF頁面
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// 保存文件在指定路徑上
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

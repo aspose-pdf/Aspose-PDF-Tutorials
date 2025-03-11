@@ -1,8 +1,8 @@
 ---
-title: .NETで直角形でPDFを作成し,カスタマイズする 
+title: .NET で長方形で PDF を作成し,カスタマイズする 
 weight: 7700
 limit: 
-description: .NETで PDF 文書を作成する方法,異なる Z индекスの色彩の長方角を追加し, Aspose.PDF を使用して最終文書を保存する方法について学びましょう.  
+description: .NETで PDF 文書を作成し,異なる Z インデックスを持つ色彩豊かな長方形を追加し,最終文書をAspose.PDFを使用して保存する方法について学びます.  
 keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
 url: /ja/net/graphs/control-rectangle-z-order/
 ---
@@ -10,9 +10,9 @@ url: /ja/net/graphs/control-rectangle-z-order/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 立方形で PDF を作成し,カスタマイズする
+# 矩形で PDF を作成し,カスタマイズする
 
-このガイドでは,各種のZインデックスを持つ彩色の長方形を組み込み, .NETのAspose.PDFを使用してPDF文書を作成する方法を示します. PDF に形状を追加し,文書を保存するには,ステップバイ・ステップ指示に従って PDF 生成能力を向上します.
+このガイドでは,色彩豊かな長方形を組み込み,異なるZインデックスで層を制御することで,PDF文書を作成する方法を示します. PDFに形を追加し,文書を保存するために,手順の指示に従って,アプリケーションのPDF生成機能を向上します.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
@@ -20,19 +20,19 @@ url: /ja/net/graphs/control-rectangle-z-order/
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 設置指示
-1. .NET開発環境を設定した (Visual Studioなど) を確認してください.
-2. 図書館からAspose.PDFをダウンロードする[目標サイト](https://www.aspose.com/purchase)やってくれ
-3. 実行することで NuGet パッケージをインストールします `インストールパッケージ Aspose.PDF`パッケージ管理コンソール
-4. プロジェクトに必要な名前空間を入れます
+## 設置説明書
+1. .NET 開発環境 (例えば Visual Studio) が設定されていることを確認します.
+2. ダウンロード ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル ファイル[アポス・ウェブサイト](https://www.aspose.com/purchase)わかった
+3. 実行してAspose.PDFのNuGetパッケージをインストールします.`インストールパッケージAspose.PDF`パッケージ管理コンソールで
+4. プロジェクトに必要な名前空間に:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## 詳細なドキュメントは,以下へ  
-* [.NETドキュメントのAspose.PDF](https://docs.aspose.com/pdf/net/)  
-* [.NET のAspose.PDFのAPI参照](https://reference.aspose.com/pdf/net/)  
+## 詳細な文書は,以下を参照してください.  
+* [Aspose.PDF は .NET ドキュメンテーション](https://docs.aspose.com/pdf/net/)  
+* [Aspose.PDFのAPI参照は.NETの](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

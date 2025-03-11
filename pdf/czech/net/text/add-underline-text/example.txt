@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument a přidat textový fragment s podtrženým formátováním.
+//ExStepSummary:0: Definice adresáře, ve kterém bude PDF dokument uložen.
+//ExStepSummary:1: Inicializovat nový PDF dokument a přidat k němu stránku.
+//ExStepSummary:2: Vytvořte objekt TextBuilder pro první stránku dokumentu.
+//ExStepSummary:3: Vytvořte TextFragment s testovací zprávou, nastavte jeho písmo na Arial, velikost na 10 a zapněte formátování podtržení.
+//ExStepSummary:4: Uveďte polohu TextFragmentu v PDF a připojte ji k TextBuilderu.
+//ExStepSummary:5: Definijte cestu výstupního souboru a uložte PDF dokument.
+//ExStepSummary:6: Vynášíte zprávu o úspěchu s uvedením podtrženého textu a zobrazení umístění souboru.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definice adresáře, ve kterém bude dokument uložen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Inicializovat nový PDF dokument.
+Document pdfDocument = new Document();
+// Přidejte do dokumentu novou stránku.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Vytvořte TextBuilder pro první stránku.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Vytvořit TextFragment s uvedeným textem.
+TextFragment fragment = new TextFragment("Test message");
+// Nastav to na Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Nastavte velikost písma na 10.
+fragment.TextState.FontSize = 10;
+// Zapněte formátování podtrhu textů.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Uveďte polohu TextFragmentu v PDF.
+fragment.Position = new Position(10, 800);
+// Přidejte TextFragment do TextBuilderu.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Definice cesty výstupního souboru pro PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Uložit dokument na zadání cesty.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Zpráva o úspěchu.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

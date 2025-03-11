@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยตารางที่มี 10 แถวและ 3 คอลัมน์
+//ExStepSummary:0: ขั้นตอนนี้กําหนดเส้นทางของดาราที่ไฟล์ PDF ผลิตจะถูกบันทึกไว้
+//ExStepSummary:1: ขั้นตอนนี้สร้างตัวอย่างเอกสาร PDF ใหม่
+//ExStepSummary:2: ขั้นตอนนี้จะเริ่มต้นวัตถุตารางใหม่
+//ExStepSummary:3: ขั้นตอนนี้ตั้งสีขอบของตารางเป็น LightGray
+//ExStepSummary:4: ขั้นตอนนี้ใช้เขต LightGray ให้กับเซลล์ตารางทั้งหมด
+//ExStepSummary:5: ขั้นตอนนี้เริ่มวงจรเพื่อเพิ่ม 10 แถวต่อตาราง
+//ExStepSummary:6: ขั้นตอนนี้เพิ่มแถวใหม่ไปยังตาราง และตั้งการจัดตั้งตั้งตั้งของมันให้ตรงกลาง
+//ExStepSummary:7: ขั้นตอนนี้เพิ่มเซลล์สามเซลล์ไปในแถว โดยเซลล์แรกมีเนื้อหาแบบไดนามิกที่ใช้ตามเวลาปัจจุบัน
+//ExStepSummary:8: ขั้นตอนนี้เพิ่มหน้าใหม่ไปยังเอกสาร PDF
+//ExStepSummary:9: ขั้นตอนนี้จะเพิ่มตารางไปยังหน้าที่สร้างใหม่ในเอกสาร
+//ExStepSummary:10: ขั้นตอนนี้จะบันทึกเอกสาร PDF สุดท้ายในตําแหน่งผลิตที่กําหนด
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// เส้นทางไปยังเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างเอกสาร PDF ใหม่
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// เริ่มต้นตัวอย่างใหม่ของตาราง
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// กําหนดสีขอบตารางเป็น LightGray
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// กําหนดขอบสําหรับเซลล์ตาราง
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// สร้างลุปเพื่อเพิ่ม 10 แถว
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// เพิ่มแถวไปในตาราง
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// กําหนดการจัดตั้งแถวตั้ง
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// เพิ่มเซลล์แรกที่มีเนื้อหาแบบไดนามิก
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// เพิ่มเซลล์ที่สอง
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// เพิ่มเซลล์ที่สาม
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// เพิ่มหน้าใหม่ไปยังเอกสาร PDF
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// เพิ่มวัตถุตารางไปในหน้าแรกของเอกสาร
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// เก็บเอกสารที่อัพเดทที่มีวัตถุตาราง
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

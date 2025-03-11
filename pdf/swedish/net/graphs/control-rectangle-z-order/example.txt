@@ -1,20 +1,20 @@
 //ExStart
-//ExSummary: Denna kod visar hur man skapar ett PDF-dokument, lägger till rektangulärar med olika färger och Z-index och sparar dokumentet.
-//ExStepSummary:0: Detta steg definierar outputdirektören för PDF-dokumentet och instansierar ett nytt dokumentobjekt och lägger till en ny sida med angivna dimensioner.
-//ExStepSummary:1: Detta steg anger sidstorleken och marginalen för den nyskapade sidan.
-//ExStepSummary:2: I detta steg läggs en röd rektangel vid angivna koordinater med ett Z-index på 2, vilket säkerställer att den visas ovanför andra former.
-//ExStepSummary:3: I detta steg läggs en blå rektangel till vid angivna koordinater med ett Z-index på 1, vilket säkerställer att den visas under den röda rektangeln men ovanför andra.
-//ExStepSummary:4: I detta steg läggs en grön rektangel vid angivna koordinater med Z-index på 0, vilket säkerställer att den visas längst ner i Z-ordningen.
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument, lägger till rektanglar med olika färger och Z-index och sparar dokumentet.
+//ExStepSummary:0: I detta steg definieras utgångskatalogen för PDF-dokumentet och ett nytt dokument objekt instanseras och en ny sida med angivna dimensioner läggs till.
+//ExStepSummary:1: Detta steg anger sidstorlek och marginal för den nyskapade sidan.
+//ExStepSummary:2: I detta steg läggs till en röd rektangel vid angivna koordinater med ett Z-index på 2, vilket säkerställer att den visas över andra former.
+//ExStepSummary:3: I detta steg läggs till en blå rektangel vid angivna koordinater med ett Z-index på 1, vilket säkerställer att den visas under den röda rektangeln men ovanför andra.
+//ExStepSummary:4: I detta steg läggs till en grön rektangel vid angivna koordinater med ett Z-index på 0, vilket säkerställer att den visas längst ner i Z-ordningen.
 //ExStepSummary:5: Detta steg sparar PDF-dokumentet till den angivna utgångsfilvägen.
-//ExStepSummary:6: I detta steg definieras en metod för att sammanfatta logiken för att lägga till rektanglar till PDF-sidan, inklusive att fastställa deras egenskaper och Z-index.
+//ExStepSummary:6: I detta steg definieras en metod för att sammanfatta logiken för att lägga till rektanglar i PDF-sidan, inklusive inställning av deras egenskaper och Z-index.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Definera dokumentkataloget
+// Definera dokumentkatalogen
 string dataDir = "Your Document Directory";
 
-// Instansitet Objekt för dokumentklass
+// Instansera objekt i dokumentklassen
 Document doc1 = new Document();
 
 // Lägg till en ny sida i dokumentet
@@ -24,7 +24,7 @@ Aspose.Pdf.Page page1 = doc1.Pages.Add();
 // Ställ in sidstorlek
 page1.SetPageSize(375, 300);
 
-// Ställ sidor till 0
+// Ställ in sidmarginaler till 0
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
@@ -52,27 +52,27 @@ private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float w
     // Skapa ett grafobjekt med samma dimensioner som rektangeln
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Förhindra att grafpositionen ändras automatiskt
+    // Förhindra att grafposition ändras automatiskt
     graph.IsChangePosition = false;
     
-    // Ställ in graf position
+    // Ställ in grafposition
     graph.Left = x;
     graph.Top = y;
     
     // Skapa en rektangel inuti grafen
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Ställ rektangulär fyllning och kantfärg
+    // Ställ in rektangulär fyllning och kantfärg
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // Lägg till rektangel till grafformarkollektionen
+    // Lägg till rektangel till grafen former samling
     graph.Shapes.Add(rect);
     
-    // Ange Z-index för grafen objekt
+    // Ange Z-index för grafobjektet
     graph.ZIndex = zindex;
     
-    // Lägg till graf på sidan
+    // Lägg till graf till sidan
     page.Paragraphs.Add(graph);
 }
 //ExEnd

@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF متعدد الأعمدة باستخدام مكتبة Aspose.PDF. يضع الهامشات ، ويضيف النص بتنسيق HTML ، ويقوم بتنظيم المحتوى إلى أعمدة.
+//ExStepSummary:0: هذه الخطوة تحدد دليل المستندات، وتبدأ مستند PDF جديد، وتقوم بتكوين هامش الصفحة.
+//ExStepSummary:1: هذه الخطوة تضيف صفحة جديدة إلى المستند وترسيم خط أفقي باستخدام فئات الرسم البياني والخط.
+//ExStepSummary:2: هذه الخطوة تخلق شريحة HTML مع نص مُنسَج وتضيفها إلى مستند PDF.
+//ExStepSummary:3: هذه الخطوة تخلق صندوقًا عائمًا لتخطيط عمودين وتضيف معلومات المؤلف إليه.
+//ExStepSummary:4: هذه الخطوة ترسم خط أفقي آخر داخل FloatingBox للفصل البصري.
+//ExStepSummary:5: هذه الخطوة تضيف جزء نصي طويل إلى FloatingBox لإظهار توزيع المحتوى في أعمدة متعددة.
+//ExStepSummary:6: هذه الخطوة تحفظ المستند إلى مسار الإخراج المحدد وتطبع رسالة نجاح.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// حدد المسار إلى دليل المستندات
+string dataDir = "Your Document Directory";
+// إنشاء مثيل جديد للوثيقة
+Document doc = new Document(); 
+
+// تحديد معلومات الحافة اليسرى لملف PDF
+doc.PageInfo.Margin.Left = 40; 
+// تحديد معلومات الحافة اليمنى لملف PDF
+doc.PageInfo.Margin.Right = 40;
+// إضافة صفحة جديدة إلى المستند
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// إنشاء كائن جديد من Graph لرسم خط
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// إضافة الصف إلى الفقرات مجموعة من مادة الكائن
+page.Paragraphs.Add(graph1);
+
+// تحديد إحداثيات الخط
+// تحديد نقطة البداية والنهاية للخط
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// إنشاء شكل خط مع إحداثيات محددة
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// إضافة شكل الخط إلى الرسم البياني
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// إنشاء متغيرات سلسلة مع نص يحتوي على علامات html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// إنشاء شريحة HTML لنص العنوان
+HtmlFragment heading_text = new HtmlFragment(s);
+// إضافة نص العنوان إلى الصفحة 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// إنشاء مربع تعويم جديد لتخطيط عدة أعمدة
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// حدد عدد الأعمدة إلى 2
+box.ColumnInfo.ColumnCount = 2; 
+// حدد المسافة بين الأعمدة
+box.ColumnInfo.ColumnSpacing = "5";
+// حدد عرض كل عمود
+box.ColumnInfo.ColumnWidths = "105 105";
+// إنشاء جزء نصي لمعلومات المؤلف
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// حدد حجم الخط للنص
+text1.TextState.FontSize = 8;
+// حدد مسافة الخط للنص
+text1.TextState.LineSpacing = 2;
+// إضافة نص المؤلف إلى الصندوق العائم
+box.Paragraphs.Add(text1);
+// تحديث حجم الخط للنص
+text1.TextState.FontSize = 10;
+// حدد أسلوب الخط إلى حرفي
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// إنشاء كائن Graph آخر لرسم خط ثان
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// تحديد إحداثيات الخط
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// إضافة شكل الخط الثاني إلى الرسم البياني
+graph2.Shapes.Add(l2);
+
+// إضافة الصف إلى الفقرات مجموعة من مادة الكائن
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// إنشاء جزء نص طويل لإظهار المحتوى في الأعمدة
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// إضافة النص الطويل إلى الصندوق العائم
+box.Paragraphs.Add(text2); 
+// إضافة مربع عائم يحتوي على كل المحتوى إلى الصفحة
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// تحديد مسار ملف PDF الخروج
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// حفظ المستند في المسار المحدد
+doc.Save(dataDir); 
+// رسالة نجاح الطباعة
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

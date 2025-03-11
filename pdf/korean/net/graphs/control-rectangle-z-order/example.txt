@@ -1,43 +1,43 @@
 //ExStart
-//ExSummary: 이 코드에서는 PDF 문서를 생성하고, 색상과 Z 지표를 가진 정사각형을 추가하고, 문서를 저장하는 방법을 보여줍니다.
-//ExStepSummary:0: 이 단계는 PDF 문서의 출력 디렉토리를 정의하고 새로운 문서 객체를 인스턴티화하고 지정된 크기의 새로운 페이지를 추가합니다.
-//ExStepSummary:1: 이 단계에서는 새로 생성된 페이지의 페이지 크기와 경계선을 설정합니다.
-//ExStepSummary:2: 이 단계에서는 Z 지수 2를 가진 적색 직사각형이 지정된 좌표에서 추가되어 다른 모양 위에 표시되는 것을 보장합니다.
-//ExStepSummary:3: 이 단계에서는 Z 지수가 1인 지정 좌표에 파란색 정사각형이 추가되어 빨간 정사각형 아래와 다른 정사각형 위에 나타납니다.
-//ExStepSummary:4: 이 단계에서는 Z 지표가 0인 지표가 있는 지정된 좌표에서 녹색 정사각형을 추가하여 Z 순서의 하단에 나타난다.
-//ExStepSummary:5: 이 단계는 지정된 출력 파일 경로로 PDF 문서를 저장합니다.
-//ExStepSummary:6: 이 단계는 PDF 페이지에 정사각형을 추가하는 논리를 포괄하는 방법을 정의합니다. 그 속성과 Z-인덱스를 설정하는 것을 포함하여.
+//ExSummary: 이 코드는 PDF 문서를 만들고, 다른 색상과 Z-인덱스를 가진 정사각형을 추가하고, 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 이 단계에서는 PDF 문서의 출력 디렉토리를 정의하고 새로운 문서 객체를 인스턴스화하고 지정된 차원을 가진 새로운 페이지를 추가합니다.
+//ExStepSummary:1: 이 단계에서는 새로 만든 페이지의 페이지 크기와 마진을 설정합니다.
+//ExStepSummary:2: 이 단계에서는 Z 지수가 2인 적색 직사각형이 다른 모양 위에 나타나도록 지정된 좌표에 추가됩니다.
+//ExStepSummary:3: 이 단계에서는 Z 지수가 1인 특정 좌표에 파란색 직사각형을 추가하여 빨간 직사각형 아래쪽, 다른 직사각형 위에 표시되도록 합니다.
+//ExStepSummary:4: 이 단계에서는 Z 지수가 0인 지정 좌표에 녹색 직사각형을 추가하여 Z 순서의 하단에 표시되도록 합니다.
+//ExStepSummary:5: 이 단계로 지정된 출력 파일 경로로 PDF 문서를 저장합니다.
+//ExStepSummary:6: 이 단계는 PDF 페이지에 직사각형을 추가하는 논리를 캡슐화하는 방법을 정의하고, 그 속성과 Z-인덱스를 설정하는 것을 포함합니다.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// 문서 디렉토리를 정의
+// 문서 디렉토리를 정의합니다
 string dataDir = "Your Document Directory";
 
-// 문서를 클래스 객체 인스턴스
+// 문서를 설치하는 클래스 객체
 Document doc1 = new Document();
 
-// 문서에 새로운 페이지를 추가
+// 문서에 새 페이지를 추가
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
 
 //ExStep:1-
 // 페이지 크기를 설정
 page1.SetPageSize(375, 300);
 
-// 페이지 마진을 0으로 설정
+// 페이지 마진을 0로 설정합니다
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
 //ExStep:2-
-// Z 지표 2를 가진 빨간 직사각형을 추가합니다
+// Z 지수 2를 가진 빨간 직사각형을 추가
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 
 //ExStep:3-
-// Z 지표 1을 가진 푸른 직사각형을 추가합니다
+// Z 지수 1을 가진 파란색 직사각형을 추가
 AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 
 //ExStep:4-
-// Z 지표 0을 가진 녹색 직사각형을 추가
+// Z 지수 0을 가진 녹색 직사각형을 추가합니다
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 
 //ExStep:5-
@@ -46,33 +46,33 @@ string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
 doc1.Save(outputFilePath);
 
 //ExStep:6-
-// PDF 페이지에 직사각형을 추가하는 방법
+// PDF 페이지에 정사각형을 추가하는 방법
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // 정사각형과 같은 크기의 그래프 객체를 생성
+    // 직사각형과 같은 크기의 그래프 객체를 생성
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // 그래프 위치가 자동으로 변경되는 것을 방지
+    // 그래프 위치가 자동으로 변경되는 것을 방지합니다
     graph.IsChangePosition = false;
     
     // 그래프 위치를 설정
     graph.Left = x;
     graph.Top = y;
     
-    // 그래프 내부에 직사각형을 생성
+    // 그래프 안에 직사각형을 만들자
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // 정사각형 꽉 채우고 경계 색을 설정
+    // 직사각형 채식 및 경계 색상을 설정
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
     // 그래프 모양 컬렉션에 직사각형을 추가
     graph.Shapes.Add(rect);
     
-    // 그래프 객체에 대한 Z 지수를 설정
+    // 그래프 객체에 대한 Z-인덱스를 설정
     graph.ZIndex = zindex;
     
-    // 페이지에 그래프를 추가
+    // 페이지에 그래프를 추가합니다
     page.Paragraphs.Add(graph);
 }
 //ExEnd

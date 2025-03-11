@@ -1,13 +1,13 @@
 //ExStart
-//ExSummaryBu kod, PDF belgesinden bir görüntü nasıl çıkarılacağını ve güncellenmiş PDF'yi kaydetirken JPEG dosyası olarak nasıl kaydedileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod, belgeler dizisine giden yolu initializer.
-//ExStepSummary:1: Aşağıdaki kod, görüntülerin çıkarılacağı PDF belgesini açar.
-//ExStepSummary:2: Aşağıdaki kod, PDF belgesinden belirli bir görüntü çıkarır.
-//ExStepSummary:3: Aşağıdaki kod, çıkarılan görüntüyü belirli bir çıkış dosyasına kaydeder.
-//ExStepSummary:4: Aşağıdaki kod orijinal PDF dosyasını güncelleyecek ve yeni bir yola kaydetir.
+//ExSummary: Bu kod, bir PDF belgesinden bir resmi nasıl çıkaracağınızı ve güncellenmiş PDF'yi de kaydederken JPEG dosyası olarak nasıl kaydedeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod belge dizini yolunu başlatır.
+//ExStepSummary:1: Aşağıdaki kod, resimlerin çıkarılacağı PDF belgesini açar.
+//ExStepSummary:2: Aşağıdaki kod, PDF belgesinden belirli bir resim çıkarır.
+//ExStepSummary:3: Aşağıdaki kod çıkarılan resmi belirtilen bir çıkış dosyasına kaydeder.
+//ExStepSummary:4: Aşağıdaki kod orijinal PDF dosyasını güncelledi ve yeni bir yolla kaydetti.
 //ExStepImage:3:images/1.png
 //ExStep:0-
-// PDF dosyasını içeren dizin belirtilir
+// PDF dosyasını içeren dizinleri belirtir
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -15,24 +15,24 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// PDF'in ikinci sayfasından ilk görüntüyü çıkarır
+// PDF'in ikinci sayfasından ilk resmi çıkarır
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// Çıkarılmış görüntüyü kaydetmek için akış oluşturur
+// Çıkarılan resmi kaydetmek için bir akım oluşturur
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
-// Çıktı görüntü kaydet
+// Çıktı görüntüsünü kaydet
 xImage.Save(outputImage, ImageFormat.Jpeg); 
 // Kaynakları serbest bırakmak için dosya akışını kapatır
 outputImage.Close();
 
 //ExStep:4-
-// PDF'in yeni sürümünün yolunu güncelleyebilir
+// PDF dosyasının yeni sürümü için yolu güncelledi
 dataDir = dataDir + "ExtractImages_out.pdf";
 
-// Güncelleştirilmiş PDF dosyasını kaydet
+// Güncellenmiş PDF dosyasını kaydet
 pdfDocument.Save(dataDir);
-// Dosyaların başarılı bir şekilde çıkarılmasını ve kaydedildiğini onaylar
+// Dosyaların başarılı bir şekilde çıkarılması ve kaydedilmesi doğrulanır
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

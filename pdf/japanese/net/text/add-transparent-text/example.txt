@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: このコードは,透明なテキスト効果を持つ長方形とテキスト断片を含む PDF ドキュメントを作成する方法を示します.出力ファイルは,`透明テキストを追加.pdf`指定したディレクトリに
+//ExStepSummary:0: ファイル目録のパスを初期化してページを搭載した新しい PDF 文書を作成します
+//ExStepSummary:1: 透明な填色色でグラフオブジェクトと矩形を作成し,ページに追加します
+//ExStepSummary:2: テキストフレグメントをサンプルテキストで作成し, 30%の不透明度で透明緑色を設定します
+//ExStepSummary:3: 指定した出力パスに文書を保存する.
+//ExStepSummary:4: ファイルパスで成功メッセージを表示します.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// 文書ディレクトリへのパスです
+string dataDir = "Your Document Directory";
+
+// 文書インスタンスを作成
+Document doc = new Document(); 
+
+// PDF ファイルのページからページのコレクションを作成
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// 幅と高さのグラフオブジェクトを作成
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// 定義された次元を持つ矩形インスタンスを作成
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// アルファカラーチャンネルから色オブジェクトを作成
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// グラフオブジェクトの形状コレクションに長方形を追加する
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// グラフオブジェクトを段落に追加するページオブジェクトの集合
+page.Paragraphs.Add(canvas);
+
+// グラフオブジェクトの位置を変更しないように値を設定する
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// サンプル値で TextFragment インスタンスを作成
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// アルファチャンネルから色オブジェクトを作成
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// テキストインスタンスの色情報を設定する
+text.TextState.ForegroundColor = color;
+
+// 段落にテキストを追加するページインスタンスのコレクション
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// PDF ファイルの出力経路を指定する
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// 指定されたパスに文書を保存する
+doc.Save(dataDir); 
+
+//ExStep:4-
+// プロセスが完了したとユーザに知らせる
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

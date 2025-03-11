@@ -1,8 +1,8 @@
 ---
-title: ถอนภาพจาก PDF ใน C# โดยใช้ Aspose.PDF สําหรับ .NET
+title: การสกัดภาพจาก PDF ใน C# โดยใช้ Aspose.PDF สําหรับ .NET
 weight: 7700
 limit: 
-description: เรียนรู้วิธีการถอดภาพจาก PDF และบันทึกเป็นไฟล์ JPEG ใน C# โดยใช้ Aspose.PDF สําหรับ .NET. คู่มือขั้นตอนโดยขั้นตอน พร้อมตัวอย่างรหัส 
+description: เรียนรู้วิธีการสกัดภาพจาก PDF และบันทึกมันเป็นไฟล์ JPEG ใน C # โดยใช้ Aspose.PDF สําหรับ .NET. คู่มือก้าวต่อก้าวที่มีตัวอย่างโค้ด 
 keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
 url: /th/net/images/extract-image/
 ---
@@ -10,9 +10,9 @@ url: /th/net/images/extract-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ถอนภาพจาก PDF ใน C# โดยใช้ Aspose.PDF
+# การสกัดภาพจาก PDF ใน C# โดยใช้ Aspose.PDF
  
-การถอดภาพจากเอกสาร PDF เป็นความต้องการทั่วไปสําหรับการใช้งานมากมาย ไม่ว่าจะเป็นการเก็บข้อมูล, การแปรรูป, หรือการแบ่งปัน[Aspose.PDF สําหรับ .NET](https://docs.aspose.com/pdf/net/), คุณสามารถถอดภาพจาก PDF ได้อย่างง่ายดายและบันทึกมันในรูปแบบต่างๆ เช่น JPEG. คู่มือนี้จะให้คําแนะนําง่ายๆ และขั้นตอนต่อขั้น เพื่อถอดภาพจาก PDF โดยใช้ C#. คุณจะได้เรียนรู้วิธีเปิด PDF, รับภาพ, เก็บมัน, และปรับปรุงเอกสาร PDF ที่เดิม. ติดตาม along with ตัวอย่างรหัสเพื่อนําฟังก์ชันนี้เข้ากับการใช้งานใน .NET ของคุณ.
+การสกัดภาพจากเอกสาร PDF เป็นความจําเป็นทั่วไปสําหรับแอพลิเคชั่นหลายอย่าง ไม่ว่าจะเป็นการอาร์คิฟ, การประมวลผล, หรือการแบ่งปัน[Aspose.PDF สําหรับ .NET](https://docs.aspose.com/pdf/net/), คุณสามารถสกัดภาพจาก PDF ได้อย่างง่ายดายและเก็บภาพในรูปแบบต่างๆ เช่น JPEG. คู่มือนี้ให้แนวทางแบบเรียบง่ายและขั้นตอนในการสกัดภาพจาก PDF โดยใช้ C#. คุณจะได้เรียนรู้วิธีการเปิด PDF, ถอนภาพ, เก็บภาพ, และอัพเดทเอกสาร PDF แท้. ติดตามกรอกตัวอย่างเพื่อบูรณาการฟังก์ชันนี้ได้อย่างเรียบร้อยในแอปพลิเคชั่น .NET ของคุณ
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
@@ -21,28 +21,28 @@ url: /th/net/images/extract-image/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## คําแนะนําการติดตั้ง:  
 
-เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการ C# ของคุณ ติดตามขั้นตอนนี้  
+เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการ C# ของคุณ, ทําตามขั้นตอนต่อไปนี้:  
 
-1. โครงการผ่าน NuGet Package Manager:  
-* เปิด Visual Studio  
-* ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
+1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager:  
+* เปิดวิชุเอลสตูดิโอ  
+* ไปยังเครื่องมือ > NuGet Package Manager > บริหาร NuGet Packages สําหรับการแก้ไข  
 * ค้นหา Aspose.PDF แล้วติดตั้งมัน  
-* หรือ, กําหนดคําสั่งต่อไปนี้ใน Console Package Manager:  
+* หรือ, วิ่งคําสั่งต่อไปนี้ใน Package Manager Console:  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. โครงการผ่าน DLL Download:  
-* ดาวน์โหลดฉบับล่าสุดจาก [Aspose.PDF สําหรับ .NET ดาวน์โหลด](https://releases.aspose.com/pdf/net/). .  
-* ถอดพัคเกจที่ดาวน์โหลด  
-* เพิ่มความหมายกับ Aspose.PDF.dll ในโครงการ .NET ของคุณ  
+2. อุปกรณ์ติดตั้งผ่าน DLL ดาวน์โหลด:  
+* ดาวน์โหลดเวอร์ชั่นล่าสุดจาก[Aspose.PDF สําหรับ .NET ดาวน์โหลด](https://releases.aspose.com/pdf/net/)\- ไม่  
+* ส่งแพคเกจที่ดาวน์โหลด  
+* เพิ่มอ้างอิงไปยัง Aspose.PDF.dll ในโครงการ .NET ของคุณ  
 
-3. สมัครใบอนุญาต (เป็นทางเลือก)  
-* คุณสามารถหาได้[เอกสารอัตราการ](https://purchase.aspose.com/temporary-license/)เพื่อให้มีฟังก์ชันเต็มที่  
+3. การสมัครใบอนุญาต (ไม่จําเป็น)  
+* คุณสามารถได้รับ[ใบอนุญาตชั่วคราวฟรี](https://purchase.aspose.com/temporary-license/)เพื่อให้มีความสามารถในการทํางานได้อย่างเต็มที่  
 
-## สําหรับข้อมูลรายละเอียด API
-[Aspose.PDF สําหรับเอกสาร API .NET](https://reference.aspose.com/pdf/net/). .
+## สําหรับอ้างอิง API รายละเอียด
+[Aspose.PDF สําหรับ .NET API Documentation](https://reference.aspose.com/pdf/net/)\- ไม่
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

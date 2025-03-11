@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.PDF kullanarak mevcut bir PDF'ye Tablo Ekle
+title: Tabloları mevcut bir PDF'e .NET için Aspose.PDF kullanarak ekleyin
 weight: 7700
 limit: 
-description: .NET için Aspose.PDF kullanarak mevcut bir PDF'ye bir tablo nasıl ekleneceğini öğrenin. Kod örneği, kurulum talimatları ve yararlı bağlantılar ile adım adım rehber. 
+description: .NET için Aspose.PDF kullanarak mevcut bir PDF'ye bir tablo eklemeyi öğrenin. Kod örneği, kurulum talimatları ve yararlı bağlantılar ile adım adım rehber. 
 keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
 url: /tr/net/tables/add-table/
 ---
@@ -10,9 +10,9 @@ url: /tr/net/tables/add-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF kullanarak mevcut bir PDF'ye Tablo Ekle
+# Mevcut bir PDF'e Aspose.PDF kullanarak tablo ekle
 
-Bir tabloyu mevcut bir PDF belgesine eklemek raporlar, faturalar veya yapılandırılmış veri sunumları oluşturmak için yaygın bir gerekliliktir. .NET için Aspose.PDF ile, görünümünü ve yapısını özelleştirirken bir tabloyu PDF belgesine kolayca oluşturabilir ve ekleyebilirsiniz.
+Mevcut bir PDF belgesine bir tablo eklemek, raporlar, faturalar veya yapılandırılmış veri sunumları oluşturmak için yaygın bir gereksinimdir. .NET için Aspose.PDF ile, görünümünü ve yapısını özelleştirirken kolayca bir tablo oluşturabilir ve PDF belgesine ekleyebilirsiniz.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
@@ -21,23 +21,23 @@ Bir tabloyu mevcut bir PDF belgesine eklemek raporlar, faturalar veya yapıland�
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Kurulum  
 
-.NET için Aspose.PDF kullanmak için, bu adımları izleyin:  
+.NET için Aspose.PDF kullanmak için, şu adımları izleyin:  
 
-1. .NET için Aspose.PDF indir ve yükle  
-   * [Aspose.PDF için .NET indirimi](https://releases.aspose.com/pdf/net/)  
-   * NuGet üzerinden yükle:  
+1. .NET için Aspose.PDFi indirin ve yükleyin  
+   * İndir [Aspose.PDF için .NET İndirmeler](https://releases.aspose.com/pdf/net/)  
+   * NuGet ile yükle:  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Lisans başvurusu (Önlü)  
-   * Satın alın: [Aspose.PDF Al](https://purchase.aspose.com/buy)  
-   * Ücretsiz Deneme: [Aspose.PDF Ücretsiz Deneme](https://releases.aspose.com/)  
-   * Geçici İzin: [Aspose.PDF Geçici Lisansı](https://purchase.aspose.com/temporary-license/)  
+2. Lisans başvurusu (ihtiyaçlı)  
+   * Alışveriş:[Aspose.PDF Al](https://purchase.aspose.com/buy)  
+   * Ücretsiz Deneme:[Aspose.PDF Ücretsiz Deneme](https://releases.aspose.com/)  
+   * Geçici lisans:[Aspose.PDF Geçici Lisansı](https://purchase.aspose.com/temporary-license/)  
 
-3. Belgeye başvurun  
-   * [.NET Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)  
-   * [Aspose.PDF API İpucu](https://reference.aspose.com/pdf/net/)  
+3. Belgelere bakınız  
+   * [Aspose.PDF için .NET Dokümanasyonu](https://docs.aspose.com/pdf/net/)  
+   * [Aspose.PDF API Referansı](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

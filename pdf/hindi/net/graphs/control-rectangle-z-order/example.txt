@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि PDF दस्तावेज़ कैसे बनाया जाए, विभिन्न रंगों और Z-इंडेक्स के साथ आयतें जोड़ी जाएं, और दस्तावेज़ को सहेजें।
+//ExStepSummary:0: यह चरण पीडीएफ दस्तावेज़ के लिए आउटपुट निर्देशिका को परिभाषित करता है और एक नई दस्तावेज़ वस्तु का उदाहरण बनाता है और निर्दिष्ट आयामों के साथ एक नया पृष्ठ जोड़ता है.
+//ExStepSummary:1: यह चरण नव निर्मित पृष्ठ के लिए पृष्ठ आकार और मार्जिन सेट करता है.
+//ExStepSummary:2: यह चरण एक लाल आयत जोड़ता है, जो निर्दिष्ट निर्देशांक पर Z- सूचकांक 2 के साथ है, यह सुनिश्चित करता है कि यह अन्य आकारों के ऊपर दिखाई दे।
+//ExStepSummary:3: यह चरण एक नीले आयत को निर्दिष्ट निर्देशांक पर जोड़ेगा, जिसका Z- सूचकांक 1 होगा, जिससे यह सुनिश्चित होगा कि यह लाल आयत के नीचे दिखाई दे लेकिन दूसरों के ऊपर।
+//ExStepSummary:4: यह चरण निर्दिष्ट निर्देशांक पर एक हरे रंग का आयत जोड़ता है, जिसका Z- सूचकांक 0 है, यह सुनिश्चित करता है कि यह Z- क्रम के नीचे दिखाई दे।
+//ExStepSummary:5: यह चरण पीडीएफ दस्तावेज़ को निर्दिष्ट आउटपुट फ़ाइल पथ पर सहेजता है.
+//ExStepSummary:6: यह चरण पीडीएफ पृष्ठ में आयतों को जोड़ने के लिए तर्क को समेटने के लिए एक विधि को परिभाषित करता है, जिसमें उनके गुण और जेड-इंडेक्स को सेट करना शामिल है।
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका को परिभाषित करें
+string dataDir = "Your Document Directory";
+
+// दस्तावेज़ वर्ग वस्तु का उदाहरण
+Document doc1 = new Document();
+
+// दस्तावेज़ में नया पृष्ठ जोड़ें
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// पृष्ठ आकार सेट करें
+page1.SetPageSize(375, 300);
+
+// पृष्ठ मार्जिन को 0 पर सेट करें
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// Z-सूचकांक 2 के साथ एक लाल आयत जोड़ें
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// Z-सूचकांक 1 के साथ एक नीला आयत जोड़ें
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// Z- सूचकांक 0 के साथ एक हरा आयत जोड़ें
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// पीडीएफ दस्तावेज़ सहेजें
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// पीडीएफ पृष्ठ में आयत जोड़ने की विधि
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // आयत के समान आयामों वाला एक ग्राफ ऑब्जेक्ट बनाएं
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // ग्राफ स्थिति को स्वचालित रूप से बदलने से रोकें
+    graph.IsChangePosition = false;
+    
+    // ग्राफ स्थिति सेट करें
+    graph.Left = x;
+    graph.Top = y;
+    
+    // ग्राफ के अंदर एक आयत बनाएँ
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // आयत भरने और सीमा रंग सेट करें
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // ग्राफ़ आकृतियों के संग्रह में आयत जोड़ें
+    graph.Shapes.Add(rect);
+    
+    // ग्राफ ऑब्जेक्ट के लिए Z-इंडेक्स सेट करें
+    graph.ZIndex = zindex;
+    
+    // पृष्ठ में ग्राफ़ जोड़ें
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

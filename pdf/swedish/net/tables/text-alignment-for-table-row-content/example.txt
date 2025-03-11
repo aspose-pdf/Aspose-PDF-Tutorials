@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med en tabell som innehåller 10 rader och 3 kolumner.
+//ExStepSummary:0: Detta steg anger den katalogväg där utgången PDF-fil kommer att sparas.
+//ExStepSummary:1: Detta steg skapar en ny PDF-dokumentinstans.
+//ExStepSummary:2: Detta steg initialiserar ett nytt tabellobjekt.
+//ExStepSummary:3: Detta steg ställer in bordskärmskoloren på tabellen till LightGray.
+//ExStepSummary:4: Detta steg tillämpar en ljusgrå kant på alla tabellceller.
+//ExStepSummary:5: Det här steget startar en loop för att lägga till 10 rader till bordet.
+//ExStepSummary:6: Detta steg lägger till en ny rad i tabellen och ställer dess vertikala anpassning till mitten.
+//ExStepSummary:7: I detta steg läggs tre celler till raden, där den första cellen innehåller dynamiskt innehåll baserat på den aktuella tidsstämpeln.
+//ExStepSummary:8: Detta steg lägger till en ny sida i PDF-dokumentet.
+//ExStepSummary:9: Detta steg lägger till tabellen på den nyskapade sidan i dokumentet.
+//ExStepSummary:10: Detta steg sparar det slutliga PDF-dokumentet i den angivna utgångskatalogen.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Vägen till dokumentkatalogen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Skapa ett nytt PDF-dokument.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Initialiserar en ny instans av tabellen.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Ställ in bordskärmskolorn som Ljusgrå.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Ange gränsen för tabellceller.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Skapa en slinga för att lägga till 10 rader
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Lägg till rad i tabell
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Ställ in radens vertikala anpassning.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Lägg till första cellen med dynamiskt innehåll.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Lägg till andra cellen.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Lägg till tredje cellen.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Lägg till en ny sida i PDF-dokumentet.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Lägg till tabellobjektet på den första sidan i dokumentet.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Spara det uppdaterade dokumentet som innehåller tabellobjektet.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

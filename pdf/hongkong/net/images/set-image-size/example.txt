@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary這種程式程式可以使用在網站上, 顯示您的網站, 顯示您的網站, 顯示您的網站, 顯示您的網站,
+//ExStepSummary:0: 這種代碼會初始化文檔對象,
+//ExStepSummary:1: 這部分創建一個圖像實例,並設定其尺寸和檔案類型.
+//ExStepSummary:2: 這一步指定圖片的源檔,
+//ExStepSummary:3: 這一步設定了頁面的屬性, 包括寬度和高度.
+//ExStepSummary:4: 這部分將文檔保存到指定檔案路徑,並驗證保存操作.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// 指定文件目錄路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 文件對象的實例化
+Document doc = new Document();
+// 添加一個新頁面到PDF文檔
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// 建立一個圖像實例
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// 設定圖片寬度為100點
+img.FixWidth = 100;
+// 設定圖像高度為100點
+img.FixHeight = 100;
+// 設定圖像類型為未知 (後來會推斷)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// 指定來源圖片檔的路徑
+img.File = dataDir + "aspose-logo.jpg";
+// 加入圖片到頁面的段落
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// 設定頁面寬度為800點
+page.PageInfo.Width = 800;
+// 設定頁面高度為800點
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// 指定輸出檔案路徑
+dataDir = dataDir + "SetImageSize_out.pdf";
+// 保存結果的PDF文件
+doc.Save(dataDir);
+
+//ExStep:5-
+// 通知使用者成功運行
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

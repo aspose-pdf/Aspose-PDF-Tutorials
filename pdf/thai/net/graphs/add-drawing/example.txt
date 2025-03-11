@@ -1,59 +1,59 @@
 //ExStart
-//ExSummary: คოდი นี้ แสดง วิธี การ สร้างเอกสาร PDF โดย มี กราฟ ที่ มี ติ้ง สี่เหลี่ยม ที่ มี สีโปร่งใส. มัน ใช้ การ ติด ปรับ สี, เพิ่ม หน้า และ สี ในเอกสาร
-//ExStepSummary:0: คódต่อไปนี้เริ่มต้นบันทึกข้อมูลเพื่อบันทึกไฟล์ PDF
-//ExStepSummary:1: คódต่อไปนี้กําหนดสี Alpha RGB เพื่อใช้ในการบรรจุเหลี่ยม
-//ExStepSummary:2: คódต่อไปนี้สร้างวัตถุเอกสารใหม่สําหรับ PDF
-//ExStepSummary:3: คódต่อไปนี้เพิ่มหน้าหนึ่งให้กับเอกสาร PDF
-//ExStepSummary:4: คódต่อไปนี้สร้างของ Graph เพื่อวาดรูปใน PDF
-//ExStepSummary:5: คódต่อไปนี้กําหนดขอบเขตสําหรับวัตถุกราฟ
-//ExStepSummary:6: คódต่อไปนี้เพิ่มโครงการกราฟไปยังประกอบข้อของหน้า
-//ExStepSummary:7: คódต่อไปนี้สร้างรูปแบบเหลี่ยมที่จะวาดบนกราฟ
-//ExStepSummary:8: คódต่อไปนี้กําหนดข้อมูลสีสําหรับข้อมูลกราฟของเหลี่ยม
-//ExStepSummary:9: คódต่อไปนี้เพิ่มรูปแบบเหลี่ยมให้กับภาพของแกรม
-//ExStepSummary:10: คódต่อไปนี้บันทึกเอกสารไปยังเส้นทางไฟล์ออกที่กําหนด
+//ExSummary: โค้ดนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยกราฟที่มีรูปสี่เหลี่ยมที่เต็มไปด้วยสีโปร่ง. มันเดินผ่านกระบวนการการตั้งค่าคุณสมบัติสี, การเพิ่มหน้า, และการวาดรูปในเอกสาร
+//ExStepSummary:0: รหัสต่อไปนี้จะเริ่มการใช้ในตําแหน่งข้อมูลสําหรับการบันทึกไฟล์ PDF
+//ExStepSummary:1: รหัสต่อไปนี้ตั้งสี Alpha RGB ที่จะใช้ในการเติมสี่เหลี่ยม
+//ExStepSummary:2: รหัสต่อไปนี้สร้างวัตถุ Document ใหม่สําหรับ PDF
+//ExStepSummary:3: รหัสต่อไปนี้เพิ่มหน้าหนึ่งไปยังเอกสาร PDF
+//ExStepSummary:4: โค้ดต่อไปนี้สร้างวัตถุ Graph สําหรับการวาดรูปใน PDF
+//ExStepSummary:5: รหัสต่อไปนี้กําหนดขอบสําหรับวัตถุกราฟ
+//ExStepSummary:6: รหัสต่อไปนี้เพิ่มวัตถุกราฟไปยังการรวบรวมข้อความของหน้า
+//ExStepSummary:7: โค้ดต่อไปนี้สร้างรูปร่างสี่เหลี่ยมที่จะถูกวาดบนกราฟ
+//ExStepSummary:8: รหัสต่อไปนี้ตั้งข้อมูลสีสําหรับข้อมูลกราฟของสี่เหลี่ยม
+//ExStepSummary:9: รหัสต่อไปนี้เพิ่มรูปสี่เหลี่ยมไปยังรูปของกราฟ
+//ExStepSummary:10: รหัสต่อไปนี้จะบันทึกเอกสารในเส้นทางไฟล์ผลิตที่กําหนด
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// การเริ่มต้นเส้นทางเพื่อบันทึกเอกสาร
+// การเริ่มต้นเส้นทางในการบันทึกเอกสาร
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// ราคาช่องอัลฟาเพื่อความโปร่งใส
+// ค่าช่องอัลฟ่าสําหรับความโปร่งใส
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// สร้างวัตถุสี โดยใช้ Alpha RGB
+// สร้างวัตถุสีโดยใช้ Alpha RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// วัตถุเอกสารชั่วคราว
+// Instantiate Document object (วัตถุเอกสารในตัวอย่าง)
 Document document = new Document();
 
 //ExStep:3-
-// เพิ่มหน้าใหม่ต่อเอกสาร
+// เพิ่มหน้าใหม่ไปยังเอกสาร
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// สร้างของ Graph ด้วยมิติที่เฉพาะ
+// สร้างวัตถุ Graph ที่มีขนาดเฉพาะ
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// กําหนดขอบสําหรับวัตถุ Graph
+// กําหนดขอบเขตสําหรับวัตถุ Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// เพิ่มวัตถุกราฟไปยังหน้า
+// เพิ่มวัตถุกราฟไปในหน้า
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// สร้างวัตถุเหลี่ยมที่มีขนาดเฉพาะ
+// สร้างอัตรา Rectangle ด้วยขนาดเฉพาะ
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// สร้างแกรมข้อมูลของโครงการสําหรับ Rectangle
+// สร้างวัตถุ graphInfo สําหรับ Rectangle
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
 // กําหนดข้อมูลสีสําหรับตัวอย่าง GraphInfo
@@ -61,7 +61,7 @@ graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectan
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// เพิ่มรูปเหลี่ยมต่อกราฟ
+// เพิ่มรูปร่างสี่เหลี่ยมไปในกราฟ
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-

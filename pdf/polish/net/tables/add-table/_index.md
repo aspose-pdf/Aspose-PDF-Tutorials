@@ -1,8 +1,8 @@
 ---
-title: Dodaj tablicę do istniejącego PDF używając Aspose.PDF dla .NET
+title: Dodawanie tabeli do istniejącego pliku PDF przy użyciu Aspose.PDF dla .NET
 weight: 7700
 limit: 
-description: Dowiedz się, jak dodać tabelę do istniejącego PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładem kodu, instrukcjami instalacji i użytecznymi linkami. 
+description: Dowiedz się, jak dodać tabelę do istniejącego pliku PDF przy użyciu Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładem kodu, instrukcjami instalacji i użytecznymi linkami. 
 keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
 url: /pl/net/tables/add-table/
 ---
@@ -10,9 +10,9 @@ url: /pl/net/tables/add-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj tablicę do istniejącego PDF za pomocą Aspose.PDF
+# Dodaj tabelę do istniejącego pliku PDF za pomocą Aspose.PDF
 
-Dodawanie tabeli do istniejącego dokumentu PDF jest powszechnym wymogem do generowania raportów, faktur lub strukturalnych prezentacji danych.
+Dodawanie tabeli do istniejącego dokumentu PDF jest powszechnym wymogiem do generowania raportów, faktur lub strukturalnych prezentacji danych.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
@@ -24,20 +24,20 @@ Dodawanie tabeli do istniejącego dokumentu PDF jest powszechnym wymogem do gene
 Aby użyć Aspose.PDF dla .NET, wykonaj następujące kroki:  
 
 1. Pobierz i zainstaluj Aspose.PDF dla .NET  
-   * Pobierz z [Aspose.PDF dla pobrań .NET](https://releases.aspose.com/pdf/net/)  
-   * Instalacja za pośrednictwem NuGet:  
+   * Pobierz z[Aspose.PDF dla .NET Downloads](https://releases.aspose.com/pdf/net/)  
+   * Zainstalowanie za pomocą NuGet:  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Licencja (opcjonalna)  
-   * Zakup: [Aspose.PDF Kupuj](https://purchase.aspose.com/buy)  
-   * Bezpłatny proces: [Aspose.PDF bezpłatny próbny](https://releases.aspose.com/)  
-   * Licencja tymczasowa: [Licencja Aspose.PDF](https://purchase.aspose.com/temporary-license/)  
+2. Licencja (nieobowiązkowa)  
+   * Zakup:[Aspose.PDF Kup](https://purchase.aspose.com/buy)  
+   * Darmowa próba:[Aspose.PDF Bezpłatna próba](https://releases.aspose.com/)  
+   * Licencja tymczasowa:[Aspose.PDF Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)  
 
-3. Odwołaj się do dokumentacji  
+3. Odwołanie do dokumentacji  
    * [Aspose.PDF dla dokumentacji .NET](https://docs.aspose.com/pdf/net/)  
-   * [Odpowiedź API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+   * [Odniesienie do API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

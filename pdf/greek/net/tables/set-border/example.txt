@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF με έναν πίνακα που έχει διπλά όρια τόσο στην πάνω όσο και στην κάτω πλευρά. 
+//ExStepSummary:0: Εφαρμόστε ένα αντικείμενο Document και προσθέστε σε αυτό μια σελίδα.
+//ExStepSummary:1: Δημιουργήστε ένα αντικείμενο BorderInfo για να ορίσετε τις ιδιότητες του ορίου για τα κελιά πίνακα.
+//ExStepSummary:2: Εφαρμόστε ένα αντικείμενο Table και καθορίστε τα πλάτη των στήλων.
+//ExStepSummary:3: Προσθέστε μια γραμμή στον πίνακα και εισαγάγετε ένα κελί που περιέχει κείμενο.
+//ExStepSummary:4: Ορίστε το διπλό όριο για το κελί χρησιμοποιώντας το αντικείμενο BorderInfo.
+//ExStepSummary:5: Προσθέστε τον πίνακα στη συλλογή παραγράφων της σελίδας και αποθηκεύστε το έγγραφο σε μια καθορισμένη διαδρομή αρχείου.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Ορίστε το μονοπάτι για το κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Εφαρμόστε το αντικείμενο Document.
+Document doc = new Document();
+// Προσθέστε μια σελίδα στο έγγραφο PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Δημιουργήστε αντικείμενο BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Να προσδιοριστεί ότι το ανώτερο όριο θα είναι διπλό
+border.Top.IsDoubled = true; 
+// Να προσδιοριστεί ότι το κάτω όριο θα είναι διπλό
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Ενεργοποιήστε το αντικείμενο Τραπέζι.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Προσδιορίστε πληροφορίες πλάτους στήλων
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Δημιουργήστε αντικείμενο Row για το τραπέζι.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Προσθήκη κυττάρου Τάμπλου σε κυττάρα συλλογής γραμμής
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Εφαρμόστε τις ρυθμίσεις ορίου που ορίστηκαν νωρίτερα.
+cell.Border = border;
+
+//ExStep:5-
+// Προσθέστε τον πίνακα στη συλλογή παραγράφων της σελίδας.
+page.Paragraphs.Add(table);
+// Προσδιορίστε την διαδρομή του αρχείου εξόδου.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Αποθήκευση εγγράφου PDF
+doc.Save(dataDir);
+// Εκτύπωση επιτυχίας μηνύματος με διαδρομή αρχείου.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

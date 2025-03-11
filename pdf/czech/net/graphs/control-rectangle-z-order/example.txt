@@ -1,12 +1,12 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument, přidat obdélníky s různými barvami a Z-indexy a ukládat dokument.
-//ExStepSummary:0: Tento krok definuje výstupní adresář pro PDF dokument a zobrazuje nový objekt Dokument a přidává novou stránku s specifikovanými rozměry.
-//ExStepSummary:1: Tento krok nastavuje velikost a rozsah stránky pro nově vytvořené stránky.
-//ExStepSummary:2: Tento krok přidává červený obdélník na specifikovaných souřadnicích s Z-indexem 2, čímž se zajišťuje, že se objeví nad jinými tvary.
-//ExStepSummary:3: Tento krok přidává modrý pravouhelník na specifikovaných souřadnicích s Z-indexem 1, čímž se zajišťuje, že se objeví pod červeným pravouhelníkem, ale nad ostatními.
-//ExStepSummary:4: Tento krok přidává zelený obdélník na specifikovaných souřadnicích s indexem Z 0, čímž se zajistí, že se objeví na spodní straně řádu Z.
-//ExStepSummary:5: Tento krok ukládá PDF dokument na uvedenou výstupní souborovou cestu.
-//ExStepSummary:6: Tento krok definuje metodu pro zainkapsulizaci logiky pro přidání obdélníkových stran do stránky PDF, včetně nastavení jejich vlastností a Z-index.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument, přidat obdélníky s různými barvami a Z-indexy a uložit dokument.
+//ExStepSummary:0: Tento krok definuje výstupní adresář pro PDF dokument a instancizuje nový objekt Dokument a přidává novou stránku s specifikovanými rozměry.
+//ExStepSummary:1: Tento krok nastavuje velikost stránky a okraj pro nově vytvořenou stránku.
+//ExStepSummary:2: Tento krok přidává červený obdélník na specifikovaných souřadnicích s indexem Z 2, zajišťuje, že se objeví nad ostatními tvary.
+//ExStepSummary:3: Tento krok přidává modrý obdélník na specifikovaných souřadnicích s indexem Z 1, zajišťuje, že se objeví pod červeným obdélníkem, ale nad ostatními.
+//ExStepSummary:4: Tento krok přidává zelený obdélník na specifikovaných souřadnicích s Z-indexem 0, zajišťuje, že se objeví v dolní části Z-řádu.
+//ExStepSummary:5: Tento krok ukládá PDF dokument na stanovenou cestu výstupního souboru.
+//ExStepSummary:6: Tento krok definuje metodu pro zachycení logiky pro přidávání obdélníků na stránku PDF, včetně nastavení jejich vlastností a Z-index.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
@@ -14,22 +14,22 @@
 // Definice adresáře dokumentů
 string dataDir = "Your Document Directory";
 
-// Objekt instancijní třídy Dokument
+// Objekt třídy Document
 Document doc1 = new Document();
 
-// Přidejte do dokumentu novou stránku
+// Přidat nový dokument
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
 
 //ExStep:1-
 // Nastavte velikost stránky
 page1.SetPageSize(375, 300);
 
-// Nastavte rozpětí stránek na 0
+// Nastavte okraje na 0
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
 //ExStep:2-
-// Přidejte červený pravouhonník s indexem Z 2
+// Přidejte červený obdélník s indexem Z 2
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 
 //ExStep:3-
@@ -41,38 +41,38 @@ AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 
 //ExStep:5-
-// Zachovávejte PDF dokument
+// Uložit PDF dokument
 string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
 doc1.Save(outputFilePath);
 
 //ExStep:6-
-// Metod pro přidání obdélníku na stránku PDF
+// Způsob přidání obdélníku na stránku PDF
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // Vytvořte grafický objekt s stejnými rozměry jako obdélník
+    // Vytvořit grafický objekt se stejnými rozměry jako obdélník
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Zastavte automatickou změnu polohy grafu
+    // Zabránit automatickému změně polohy grafu
     graph.IsChangePosition = false;
     
-    // Nastavení grafu
+    // Nastavte pozici grafu
     graph.Left = x;
     graph.Top = y;
     
     // Vytvořte obdélník uvnitř grafu
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Nastavte obdélníkové plnění a barvu hranic
+    // Nastavte obdélník plnění a okrajové barvy
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // Přidání obdélníku do sbírky tvarů grafu
+    // Přidat obdélník do sbírky tvarů grafů
     graph.Shapes.Add(rect);
     
-    // Nastav Z-index pro objekt grafu
+    // Nastavte Z-index pro grafický objekt
     graph.ZIndex = zindex;
     
-    // Přidejte graf na stránku
+    // Přidat graf na stránku
     page.Paragraphs.Add(graph);
 }
 //ExEnd

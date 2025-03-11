@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 這個代碼展示如何使用表格創建 PDF 文檔. 表格加入現有 PDF 文檔的第二頁,並包含指定數量的行和列資料.
+//ExStepSummary:0: 這一步將開始處理要處理的 PDF 文件的檔案路徑.
+//ExStepSummary:1: 這步將從指定目錄中加載現有 PDF 文檔.
+//ExStepSummary:2: 這步創建一個新的表實例並設定其邊緣屬性.
+//ExStepSummary:3: 這一步啟動循环, 將多行添加到表中,
+//ExStepSummary:4: 這一步將創建的表格附加到PDF文檔的第一頁.
+//ExStepSummary:5: 這步將更新的 PDF 文件與新增的表格保存到指定輸出路徑.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 定義文件的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入原始 PDF 文件
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// 開始一個新的表格實例
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 設定表邊框顏色為光灰色
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// 設定表格單元格的邊緣
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// 循环添加 10 行
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// 添加一個新行到表格
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// 在行中添加第一個單元格
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// 在行中添加第二個單元格
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// 在行中添加第三個單元格
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// 添加表對象到輸入文檔的第一頁
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// 定義更新文檔的輸出檔案路徑
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// 保存包含表格的更新文檔
+doc.Save(dataDir); 
+// 通知使用者成功運行
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

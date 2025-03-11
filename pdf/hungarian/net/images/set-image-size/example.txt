@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryA kód bemutatja, hogyan lehet PDF dokumentumot létrehozni, egy képet hozzáadni, és módosítani a képméretét és a oldal tulajdonságait.
-//ExStepSummary:0: Ez a kód az okmány objektumot kezdetibe hoz, és új oldalt ad hozzá.
-//ExStepSummary:1: Ez a szakasz egy kép példányát hoz létre, és a méreteket és a fájltípust határozza meg.
-//ExStepSummary:2: Ez a lépés megadja a képet tartalmazó forrásfájlt, és hozzáadja a laphoz.
-//ExStepSummary:3: Ez a lépés meghatározza a oldal tulajdonságait, beleértve a szélességet és a magasságot.
-//ExStepSummary:4: Ez a szakasz az adott fájl útvonalba tárolja a dokumentumot, és ellenőrizheti a tárolási műveletet.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot, hozzáadni egy képet, és beállítani a kép méretét és a oldal tulajdonságait.
+//ExStepSummary:0: Ez a kód a dokumentum objektumot inicializálja, és hozzáad egy új oldalt.
+//ExStepSummary:1: Ez a szakasz létrehoz egy kép példányt, és meghatározza annak méreteit és fájl típusát.
+//ExStepSummary:2: Ez a lépés megadja a kép forráskát és hozzáadja az oldalhoz.
+//ExStepSummary:3: Ez a lépés a lap tulajdonságait állítja be, beleértve a szélességet és a magasságot.
+//ExStepSummary:4: Ez a szakasz a dokumentumot a megadott fájlútvonalra ment, és ellenőrzi a mentési műveletet.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Bejelölje a dokumentumjegyzék útvonalát
+// A dokumentumkönyvtár útvonalának megadása
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Egyszeres Dokumentum objektum
+// Dokumentum objektum instancizálása
 Document doc = new Document();
-// Adjon egy új oldalt a PDF dokumentumhoz
+// Új oldal hozzáadása a PDF dokumentumhoz
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
-// Készíts egy kép példányt
+// Kép példány létrehozása
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// A kép szélességét 100 pontra állítsa be
+// 100 pontra állítsa be a képszélességet
 img.FixWidth = 100;
-// A kép magasságát 100 pontra állítsa be
+// 100 pontra állítsa be a kép magasságát
 img.FixHeight = 100;
-// Beállítsa a képtípust ismeretlennek (később következtetni kell)
+// A képtípust ismeretlennek állítsa (később következtetni kell)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Bejelölje a forrásképfájl útvonalát
+// A forráskép fájl útvonalának megadása
 img.File = dataDir + "aspose-logo.jpg";
-// A képet a lap bekezdéséhez hozzák hozzá
+// A képeket a oldal bekezdésébe kell hozzáadni
 page.Paragraphs.Add(img);
 
 //ExStep:3-
-// A oldal szélességét 800 pontra állítsa be
+// A lapszélesség 800 pontra állítható
 page.PageInfo.Width = 800;
-// A oldal magasságát 800 pontra állítsa be
+// A lap magasságát 800 pontra állítsa be
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Bejelölje a kiviteli fájl útvonalát
+// A kimeneti fájl útvonalát
 dataDir = dataDir + "SetImageSize_out.pdf";
-// A kapott PDF dokumentumot mentse meg
+// Az eredmény PDF dokumentum mentése
 doc.Save(dataDir);
 
 //ExStep:5-
-// Informálja a felhasználót a sikeres műveletről
+// A felhasználó tájékoztatása a sikeres műveletről
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

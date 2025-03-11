@@ -1,17 +1,17 @@
 //ExStart
-//ExSummaryCe code montre comment extraire une image d'un document PDF et la sauvegarder sous forme de fichier JPEG tout en sauvegardant le PDF mis à jour.
-//ExStepSummary:0: Le code suivant initialise le chemin vers le répertoire de documents.
+//ExSummary: Ce code démontre comment extraire une image d'un document PDF et l'enregistrer en tant que fichier JPEG tout en sauvegardant le PDF mis à jour.
+//ExStepSummary:0: Le code suivant initie le chemin vers le répertoire des documents.
 //ExStepSummary:1: Le code suivant ouvre le document PDF à partir duquel les images seront extraites.
 //ExStepSummary:2: Le code suivant extrait une image spécifique du document PDF.
-//ExStepSummary:3: Le code suivant sauvegarde l'image extraite dans un fichier de sortie spécifié.
-//ExStepSummary:4: Le code suivant met à jour le fichier PDF original et le sauve dans un nouveau chemin.
+//ExStepSummary:3: Le code suivant enregistre l'image extraite dans un fichier de sortie spécifié.
+//ExStepSummary:4: Le code suivant met à jour le fichier PDF original et l'enregistre sur un nouveau chemin.
 //ExStepImage:3:images/1.png
 //ExStep:0-
-// Indique le répertoire contenant le fichier PDF
+// Spécifie le répertoire contenant le fichier PDF
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Ouvrez le document PDF pour l'extraction d'image
+// Ouvre le document PDF pour extraction d'image
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
@@ -19,7 +19,7 @@ Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// Créer un flux pour enregistrer l'image extraite
+// Crée un flux pour enregistrer l'image extraite
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
 // Enregistrer l'image de sortie
@@ -28,11 +28,11 @@ xImage.Save(outputImage, ImageFormat.Jpeg);
 outputImage.Close();
 
 //ExStep:4-
-// Mise à jour du chemin pour la nouvelle version du PDF
+// Mettez à jour le chemin pour la nouvelle version du fichier PDF
 dataDir = dataDir + "ExtractImages_out.pdf";
 
 // Enregistrer le fichier PDF mis à jour
 pdfDocument.Save(dataDir);
-// Confirme l'extraction et le stockage réussis des fichiers
+// Confirme l'extraction et l'enregistrement des fichiers avec succès
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

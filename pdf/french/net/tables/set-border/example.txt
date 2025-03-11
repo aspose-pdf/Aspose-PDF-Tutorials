@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document PDF avec une table qui a des bordures doubles sur les côtés supérieur et inférieur. 
+//ExStepSummary:0: Installez un objet Document et ajoutez-y une page.
+//ExStepSummary:1: Créer un objet BorderInfo pour définir les propriétés de bordure des cellules de table.
+//ExStepSummary:2: Installez un objet Table et spécifiez les largeurs de colonne.
+//ExStepSummary:3: Ajouter une ligne à la table et insérer une cellule contenant du texte.
+//ExStepSummary:4: Définir la double bordure de la cellule à l'aide de l'objet BorderInfo.
+//ExStepSummary:5: Ajouter la table à la collection de paragraphes de la page et enregistrer le document sur un chemin de fichier spécifié.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Définissez le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Installez l'objet Document.
+Document doc = new Document();
+// Ajouter une page au document PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Créez un objet BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Spécifiez que la bordure supérieure sera double
+border.Top.IsDoubled = true; 
+// Spécifiez que la bordure inférieure sera double
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Installez l'objet Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Spécifier les informations de largeur de colonne
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Créer un objet Row pour la table.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Ajouter une cellule de tableau à une collection de cellules de ligne
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Appliquer les paramètres de bordure définis précédemment.
+cell.Border = border;
+
+//ExStep:5-
+// Ajouter le tableau à la collection des paragraphes de la page.
+page.Paragraphs.Add(table);
+// Spécifiez le chemin du fichier de sortie.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Enregistrer le document PDF
+doc.Save(dataDir);
+// Imprimez le message de réussite avec le chemin du fichier.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,69 +1,69 @@
 //ExStart
-//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.PDF, เพิ่มตารางที่มีสไตล์ขอบเขตเฉพาะเจาะจง, และนําการ pagination ลงหลังจากจํานวนแถว tertentu.
-//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเอกสารและเพิ่มหน้าไปยังมัน
-//ExStepSummary:1: ขั้นตอนนี้สร้างตัวอย่างตารางและกําหนดสไตล์ขอบเขตของมัน
-//ExStepSummary:2: ขั้นตอนนี้กําหนดความกว้างของคอลัมน์สําหรับตาราง
-//ExStepSummary:3: ขั้นตอนนี้เพิ่ม 200 เส้นต่อตาราง โดยแต่ละแถวมี 2 เซลล์
-//ExStepSummary:4: ขั้นตอนนี้ตรวจสอบว่ามีแถว 10 รายการที่เพิ่มขึ้นหรือไม่ และย้ายไปหน้าใหม่ถ้าเป็นเช่นนั้น
-//ExStepSummary:5: ขั้นตอนนี้เพิ่มตารางที่เสร็จลงสู่หน้าเอกสาร PDF และบันทึกมัน
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.PDF เพิ่มตารางที่มีสไตล์ขอบเฉพาะ และนําการจัดหน้าออกเป็นหน้าหลังจํานวนแถวที่กําหนดไว้
+//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเอกสารและเพิ่มหน้าเข้าไป
+//ExStepSummary:1: ขั้นตอนนี้สร้างตัวอย่างตารางและตั้งสไตล์ขอบของมัน
+//ExStepSummary:2: ขั้นตอนนี้กําหนดความกว้างคอลัมน์สําหรับตาราง
+//ExStepSummary:3: ขั้นตอนนี้เพิ่ม 200 แถวไปยังตาราง โดยแต่ละแถวมี 2 เซลล์
+//ExStepSummary:4: ขั้นตอนนี้ตรวจสอบว่ามี 10 แถวที่เพิ่มขึ้นหรือไม่ และย้ายไปหน้าใหม่ถ้าเช่นนั้น
+//ExStepSummary:5: ขั้นตอนนี้จะเพิ่มตารางที่สมบูรณ์ไปยังหน้าของเอกสาร PDF และเก็บมัน
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// ทางไปยังบันทึกเอกสาร
+// เส้นทางไปยังพับเอกสาร
 string dataDir = "Your Document Directory";
 
-// การแสดงตัวอย่างเอกสาร
+// Instantiate Document instance (การสร้างตัวอย่างเอกสาร)
 Document doc = new Document();
 
-// เพิ่มหน้าไปยังหน้ารวมไฟล์ PDF
+// เพิ่มหน้าไปยังหน้า รวมไฟล์ PDF
 doc.Pages.Add();
 
 //ExStep:1-
 // สร้างตัวอย่างตาราง
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// กําหนดสไตล์ขอบสําหรับโต๊ะ
+// กําหนดสไตล์ขอบของตาราง
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// กําหนดสไตล์ขอบโดย मुलभूतสําหรับตารางที่มีสีขอบเป็นแดง
+// กําหนดสไตล์ขอบตัวกําหนดเองสําหรับตารางที่มีสีขอบเป็นสีแดง
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// กําหนดความกว้างของคอลัมน์ตาราง (2 คอลัมน์, ทุก 100 ยูนิต)
+// กําหนดความกว้างของคอลัมน์ตาราง (คอลัมน์ 2 คอลัมน์ แต่ละ 100 หน่วย)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// สร้างวงกลมเพื่อเพิ่ม 200 เส้นสําหรับตาราง
+// สร้างลุปเพื่อเพิ่มแถว 200 สําหรับตาราง
 for (int counter = 0; counter <= 200; counter++)
 {
 	// สร้างแถวใหม่
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
-	// เพิ่มแถวไปตาราง
+	// เพิ่มแถวไปในตาราง
     tab.Rows.Add(row); 
 
     // สร้างเซลล์แรกและเพิ่มข้อความ
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
-	// เพิ่มเศษข้อความในเซลล์แรก	
+	// เพิ่มส่วนลอกข้อความไปยังเซลล์แรก	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
-	// เพิ่มเซลล์แรกไปแถว
+	// เพิ่มเซลล์แรกไปในแถว
     row.Cells.Add(cell1); 
 
     // สร้างเซลล์ที่สองและเพิ่มข้อความ
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
-	// เพิ่มเศษข้อความในเซลล์ที่สอง	
+	// เพิ่มส่วนลอกข้อความไปยังเซลล์ที่สอง	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// เพิ่มเซลล์ที่สองต่อแถว
+	// เพิ่มเซลล์ที่สองไปในแถว
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // เมื่อเพิ่ม 10 เส้น, แสดงแถวใหม่ในหน้าใหม่
+    // เมื่อเพิ่ม 10 แถว ให้การแสดงแถวใหม่ในหน้าใหม่
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// เพิ่มตารางต่อประวัติข้อที่หน้าแรก
+// เพิ่มตารางไปยังบทความ ของหน้าแรก
 doc.Pages[1].Paragraphs.Add(tab); 
 // กําหนดเส้นทางไฟล์ออก
 dataDir = dataDir + "InsertPageBreak_out.pdf";

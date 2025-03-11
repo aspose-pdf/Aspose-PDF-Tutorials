@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary這種圖案是用於建立一個表格的PDF文檔. 
+//ExStepSummary:0: 實例化一個文檔對象並添加一個頁面.
+//ExStepSummary:1: 建立一個BorderInfo對象來定義表單元格的邊界屬性.
+//ExStepSummary:2: 實例表對象並指定列寬度.
+//ExStepSummary:3: 添加一行至表格並插入包含文字的單元格.
+//ExStepSummary:4: 使用 BorderInfo 對象設定單元格的雙邊框.
+//ExStepSummary:5: 添加表格到頁面的段落集合,並將文檔儲存到指定檔案路徑.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// 定義文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 文件對象即時化.
+Document doc = new Document();
+// 加入一個頁面到PDF文檔. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// 建立邊界資訊對象.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// 指定上邊框為雙
+border.Top.IsDoubled = true; 
+// 指定底邊框為雙
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// 實際上是一個問題.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 指定列寬度資訊
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// 建立表格中的 Row 對象.
+Aspose.Pdf.Row row = table.Rows.Add();
+// 添加表格單元格到行集合單元格
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// 應用之前定義的邊界設定.
+cell.Border = border;
+
+//ExStep:5-
+// 加入表格到頁面的段落集.
+page.Paragraphs.Add(table);
+// 指定輸出檔案的路徑.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// 保存文件
+doc.Save(dataDir);
+// 打印成功訊息與檔案路徑.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

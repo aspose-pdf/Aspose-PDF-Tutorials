@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF και να προσθέσετε ένα κομμάτι κειμένου με υπογραμμισμένη μορφοποίηση.
+//ExStepSummary:0: Ορίστε τον κατάλογο στον οποίο θα αποθηκευτεί το έγγραφο PDF.
+//ExStepSummary:1: Αρχική ένα νέο έγγραφο PDF και προσθέστε μια σελίδα σε αυτό.
+//ExStepSummary:2: Δημιουργήστε ένα αντικείμενο TextBuilder για την πρώτη σελίδα του εγγράφου.
+//ExStepSummary:3: Δημιουργήστε ένα TextFragment με το μήνυμα δοκιμής, ορίστε τη γραμματοσειρά του σε Arial, μεγέθους 10, και ενεργοποιήστε τη μορφοποίηση υπογραμμισμού.
+//ExStepSummary:4: Ορίστε τη θέση του TextFragment στο PDF και προσθέστε το στο TextBuilder.
+//ExStepSummary:5: Ορίστε την διαδρομή του αρχείου εξόδου και αποθηκεύστε το έγγραφο PDF.
+//ExStepSummary:6: Εκδοθεί μήνυμα επιτυχίας που να υποδεικνύει ότι προστέθηκε το υπογραμμισμένο κείμενο και να εμφανίζεται η θέση του αρχείου.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Ορίστε τον κατάλογο στον οποίο θα αποθηκευτεί το έγγραφο.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Αρχική ένα νέο έγγραφο PDF.
+Document pdfDocument = new Document();
+// Προσθέστε μια νέα σελίδα στο έγγραφο.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Δημιουργήστε ένα TextBuilder για την πρώτη σελίδα.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Δημιουργήστε ένα TextFragment με το καθορισμένο κείμενο.
+TextFragment fragment = new TextFragment("Test message");
+// Βάλε την γραμματοσειρά σε Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Βάλε το μέγεθος γραμματοσειράς στο 10.
+fragment.TextState.FontSize = 10;
+// Ενεργοποιήστε τη μορφοποίηση υπογραμμισμού για το κείμενο.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Προσδιορίστε τη θέση του TextFragment στο PDF.
+fragment.Position = new Position(10, 800);
+// Προσάρτησε το TextFragment στο TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Ορίστε την διαδρομή του αρχείου εξόδου για το PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Αποθηκεύστε το έγγραφο στην καθορισμένη διαδρομή.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Έκδοση επιτυχημένου μηνύματος.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

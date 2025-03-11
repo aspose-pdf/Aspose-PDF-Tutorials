@@ -1,38 +1,38 @@
 //ExStart
-//ExSummaryDeze code toont hoe je een afbeelding uit een PDF-document kunt extraheren en als JPEG-bestand kunt opslaan terwijl je ook de bijgewerkte PDF kunt opslaan.
-//ExStepSummary:0: De volgende code initialiseert het pad naar het document directory.
-//ExStepSummary:1: De volgende code opent het PDF-document waaruit beelden worden gehaald.
-//ExStepSummary:2: De volgende code extraheert een specifieke afbeelding uit het PDF-document.
-//ExStepSummary:3: De volgende code slaat het gehuurde beeld op in een bepaald outputbestand.
-//ExStepSummary:4: De volgende code bijwerkt het originele PDF-bestand en slaat het op een nieuw pad.
+//ExSummary: Deze code toont aan hoe u een afbeelding uit een PDF-document kunt extraheren en als JPEG-bestand kunt opslaan terwijl u tegelijkertijd de bijgewerkte PDF opslaat.
+//ExStepSummary:0: De volgende code initialiseert het pad naar de documentenmap.
+//ExStepSummary:1: De volgende code opent het PDF-document waaruit de afbeeldingen worden geextraheerd.
+//ExStepSummary:2: De volgende code haalt een specifieke afbeelding uit het PDF-document.
+//ExStepSummary:3: De volgende code slaat het geëxtraheerde beeld op in een gespecificeerd outputbestand.
+//ExStepSummary:4: De volgende code werkt het originele PDF-bestand bij en slaat het op een nieuw pad.
 //ExStepImage:3:images/1.png
 //ExStep:0-
-// Specificeert het directory dat het PDF-bestand bevat
+// Specificeert de map die het PDF-bestand bevat
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Open het PDF-document voor beeldopname
+// Open het PDF-document voor beeldextractie
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// Het eerste beeld wordt uit de tweede pagina van het PDF-document gehaald
+// Extraheert de eerste afbeelding van de tweede pagina van het PDF-bestand
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// Creëert een stream om het gehuurde beeld te bewaren
+// Creëert een stream om het geëxtraheerde beeld op te slaan
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
-// Beeld van het output bewaren
+// Bewaar beeld
 xImage.Save(outputImage, ImageFormat.Jpeg); 
-// De bestandstroom sluit om bronnen vrij te geven
+// Sluit de bestandsstroom om bronnen vrij te geven
 outputImage.Close();
 
 //ExStep:4-
-// Updates van het pad voor de nieuwe versie van de PDF
+// Het pad voor de nieuwe versie van de PDF wordt bijgewerkt
 dataDir = dataDir + "ExtractImages_out.pdf";
 
-// Bewaar bijgewerkte PDF-bestand
+// Bewaar het bijgewerkte PDF-bestand
 pdfDocument.Save(dataDir);
-// Bevestigt de succesvolle extractie en opslag van bestanden
+// Bevestigt het succesvolle extraheren en opslaan van bestanden
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

@@ -1,16 +1,16 @@
 //ExStart
-//ExSummaryBu kod, PDF belgesini içindeki resimleri sıkıştırarak ve boyutlarını değiştirerek nasıl optimize edileceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod mevcut zamanı initialize eder ve belge dizini yolunu belirler.
-//ExStepSummary:1: Aşağıdaki kod, işleme için belirtilen PDF belgesini açar.
-//ExStepSummary:2: Aşağıdaki kod PDF için optimize seçeneklerini başlatır.
-//ExStepSummary:3: Aşağıdaki kod, sıkıştırma ve kalite de dahil olmak üzere görüntü sıkıştırma ayarlarını yapılandırır.
-//ExStepSummary:4: Aşağıdaki kod, PDF belgesine optimizasyon seçeneklerini uyguluyor.
-//ExStepSummary:5: Aşağıdaki kod, optimize edilmiş PDF belgesini yeni bir dosyaya kaydetir.
+//ExSummary: Bu kod, PDF belgesinin içindeki resimleri sıkıştırarak ve boyut değiştirerek nasıl optimize edileceğini gösterir.
+//ExStepSummary:0: Aşağıdaki kod mevcut saati başlatır ve belge dizini yolunu belirler.
+//ExStepSummary:1: Aşağıdaki kod, işleme açılacak belirtilen PDF belgesini açar.
+//ExStepSummary:2: Aşağıdaki kod PDF için optimizasyon seçeneklerini başlatır.
+//ExStepSummary:3: Aşağıdaki kod, sıkıştırma ve kalite dahil olmak üzere görüntü sıkıştırma ayarlarını yapılandırır.
+//ExStepSummary:4: Aşağıdaki kod, PDF belgesine optimize seçeneklerini uyguluyor.
+//ExStepSummary:5: Aşağıdaki kod, optimize edilmiş PDF belgesini yeni bir dosyaya kaydeder.
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // Zamanı Başlat
 var time = DateTime.Now.Ticks;
-// Belgeler dizinine giden yol.
+// Belge dizini yoluna.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,30 +18,30 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// OptimizationOptions başlat
+// OptimizationOptions'ı Başlat
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Sıkıştır Görüntüler seçeneğini ayarlayın
+// SıkıştırImages seçeneğini ayarla
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// Görüntü kalitesi seçeneğini ayarlayın 
+// ImageQuality seçeneğini ayarla 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// ResizImage seçeneğini ayarlayın
+// Resim Boyutlandırma seçeneğini ayarla
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// MaxResolution seçeneğini ayarlayın
+// MaxResolution seçeneğini ayarla
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
-// OptimizationOptions kullanarak PDF belgesini optimize edin
+// OptimizationOptions kullanarak PDF belgesini optimize et
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
 // Çıktı dosyası için veri dizini güncelle
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// Güncelleştirilmiş belgeyi kaydet
+// Güncellenmiş belgeyi kaydet
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-
-// Kullanıcıyı başarıdan haberdar edin
+// Kullanıcıyı başarıyla bilgilendir
 Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
 //ExEnd

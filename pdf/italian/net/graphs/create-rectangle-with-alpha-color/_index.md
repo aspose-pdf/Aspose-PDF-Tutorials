@@ -1,8 +1,8 @@
 ---
-title: Crea PDF con rettangoli e colori alfa in Aspose.PDF 
+title: Creare PDF con rettangoli e colori alfa in Aspose.PDF 
 weight: 7700
 limit: 
-description: Impara come creare un PDF con rettangoli utilizzando Aspose.PDF per .NET e applicare colori alfa. Guida passo-passo con codice e istruzioni di installazione.
+description: Impara come creare un PDF con rettangoli utilizzando Aspose.PDF per .NET e applicare i colori alfa. Guida passo-passo con codice e istruzioni di installazione.
 keywords: [Aspose.PDF for .NET, create PDF, draw rectangles in PDF, alpha colors in PDF, .NET PDF library, PDF graphics, C# PDF generation]
 url: /it/net/graphs/create-rectangle-with-alpha-color/
 ---
@@ -10,32 +10,32 @@ url: /it/net/graphs/create-rectangle-with-alpha-color/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea PDF con rettangoli e colori alfa in Aspose.PDF
+# Creare PDF con rettangoli e colori alfa in Aspose.PDF
 
-Aspose.PDF per .NET è una potente libreria per la creazione, la manipolazione e la conversione di documenti PDF in C#. In questo esempio, imparerai a creare un file PDF e disegnare rettangoli con colori alfa.`Aspose.PDF.Drawing.Graph`Questo tutorial fornisce una guida passo-passo con codice di campione, assicurando che si possa facilmente implementare nelle applicazioni .NET.  
+Aspose.PDF per .NET è una potente libreria per creare, manipolare e convertire documenti PDF in C#. In questo esempio, imparerai come creare un file PDF e disegnare rettangoli con colori alfa.`Come supponiamo.PDF.Disegno.Grafico`Questo tutorial fornisce una guida passo-passo con codice di esempio, assicurando che si può facilmente implementare nelle applicazioni .NET.  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/create-rectangle-with-alpha-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruzioni di installazione  
-Per utilizzare Aspose.PDF per .NET nel tuo progetto, segui questi passaggi:  
+## Istruzioni di installazione  
+Per utilizzare Aspose.PDF per .NET nel progetto, segui questi passaggi:  
 
-1. Installazione tramite NuGet  
-Eseguire il seguente comando nella console NuGet Package Manager:  
+1. Installare tramite NuGet  
+Eseguire il seguente comando nella NuGet Package Manager Console:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Aggiungere spazio di nome in C#  
-Includere gli spazi di nome richiesti all'inizio del file C#:  
+2. Aggiungi spazio dei nomi in C#  
+Includere gli spazi dei nomi necessari all'inizio del file C#:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 
-Per una documentazione dettagliata, visitare:  
+Per informazioni dettagliate, visitare:  
 [Aspose.PDF per la documentazione .NET](https://docs.aspose.com/pdf/net/)  
 [Aspose.PDF per il riferimento .NET API](https://reference.aspose.com/pdf/net/)  
 

@@ -1,101 +1,101 @@
 //ExStart
-//ExSummaryKod ten pokazuje, jak tworzyć dokument PDF z tabelami za pomocą Aspose.Pdf. Ustawia marże, dodaje dwie tabele na różnych stronach i zapisuje dokument na określonej ścieżce.
-//ExStepSummary:0: Ten krok ustawia katalog wyjściowy pliku PDF.
-//ExStepSummary:1: Ten krok inicjuje nowy obiekt dokumentu i odbiera PageInfo do modyfikacji ustawień strony.
-//ExStepSummary:2: Ten krok ustawia margines strony i zmienia orientację strony w trybie krajobrazu.
-//ExStepSummary:3: Ten krok tworzy nowy obiekt tabeli i określa szerokość kolumn.
-//ExStepSummary:4: W tym kroku dodaje się do dokumentu nową stronę i wprowadza tabelę o 120 wierszach, ustawiając stałą wysokość wiersza i dodając treść do każdej komórki.
-//ExStepSummary:5: W tym kroku dodaje się pierwszą tabelę do zbioru paragrafów bieżącej strony.
-//ExStepSummary:6: W tym kroku tworzy się kolejna tabela o różnej szerokości kolumn i dodaje 10 rzędów z określoną treścią.
-//ExStepSummary:7: W tym kroku druga tabela pojawi się na nowej stronie i dodaje ją do dokumentu.
-//ExStepSummary:8: Ten krok zapisuje dokument PDF na określonej ścieżce i wychodzi wiadomość o sukcesie.
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF z tabelami przy użyciu Aspose.Pdf. Ustawia marginesy, dodaje dwie tabele na różnych stronach i zapisuje dokument na określonej ścieżce.
+//ExStepSummary:0: Ten krok ustala katalogi wyjściowe pliku PDF.
+//ExStepSummary:1: Ten krok inicjalizuje nowy obiekt dokumentu i pobiera PageInfo w celu modyfikacji ustawień strony.
+//ExStepSummary:2: Ten krok ustala margines strony i zmienia orientację strony w trybie krajobrazowym.
+//ExStepSummary:3: Ten krok tworzy nowy obiekt tabeli i określa szerokość kolumny.
+//ExStepSummary:4: W tym kroku do dokumentu dodaje się nową stronę i wstawia tabelę z 120 wierszami, ustawiając ustaloną wysokość wiersza i dodając zawartość do każdej komórki.
+//ExStepSummary:5: Ten krok dodaje pierwszą tabelę do zbioru akapitów bieżącej strony.
+//ExStepSummary:6: W tym kroku tworzy się kolejną tabelę o różnej szerokości kolumny i dodaje 10 wierszy z określoną zawartością.
+//ExStepSummary:7: Ten krok ustala, że druga tabela zostanie wyświetlona na nowej stronie i dodana do dokumentu.
+//ExStepSummary:8: Ten krok zapisuje dokument PDF na określonej ścieżce i wyświetla komunikat o sukcesie.
 //ExStepImage:5:images/2.png
 //ExStepImage:7:images/3.png
 //ExStep:0-
-// Wyznacz ścieżkę do katalogu dokumentów.
+// Określ ścieżkę do katalogu dokumentów.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Tworzyć nowy obiekt Dokument.
+// Utworzyć nowy obiekt Dokument.
 Document doc = new Document();
-// Weź PageInfo dokumentu.
+// Zdobądź PageInfo dokumentu.
 PageInfo pageInfo = doc.PageInfo;
-// Uzyskaj dostęp do ustawień marginesu strony.
+// Dostęp do ustawień marginesów strony.
 Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 
 //ExStep:2-
 // Ustaw lewy margines na 37 jednostek.
 marginInfo.Left = 37;
-// Ustaw prawą marginesę na 37 jednostek.
+// Ustaw prawy margines na 37 jednostek.
 marginInfo.Right = 37;
 // Ustaw górną marżę na 37 jednostek.
 marginInfo.Top = 37; 
-// Ustaw margines do 37 jednostek.
+// Ustaw dolną marżę na 37 jednostek.
 marginInfo.Bottom = 37;
 // Ustaw orientację strony na krajobraz.
 pageInfo.IsLandscape = true;
 
 //ExStep:3-
-// Stwórz nowy obiekt stołowy.
+// Utwórz nowy obiekt tablicy.
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Definiuj szerokości kolumn w tabeli.
+// Określ szerokość kolumn w tabeli.
 table.ColumnWidths = "50 100";
 
 //ExStep:4-
 // Dodaj nową stronę do dokumentu.
 Page curPage = doc.Pages.Add();
-// Łuk dodaje 120 rzędów do pierwszego tabeli.
+// Łączka do dodawania 120 wierszy do pierwszej tabeli.
 for (int i = 1; i <= 120; i++)
 {
-	// Stwórz nowy wiersz.
+	// Stwórz nowy rząd.
     Aspose.Pdf.Row row = table.Rows.Add();
-	// Ustaw ustawioną wysokość dla rzędu.
+	// Ustaw stałą wysokość rzędu.
     row.FixedRowHeight = 15; 
-    // Stwórz pierwszą komórkę w kolejce.
+    // Utwórz pierwszą komórkę w rzędzie.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
 	// Dodaj fragment tekstu do pierwszej komórki.
     cell1.Paragraphs.Add(new TextFragment("Content 1")); 
-    // Stwórz drugą komórkę w kolejce.
+    // Stwórz drugą komórkę w rzędzie.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
 	// Dodaj fragment tekstu do drugiej komórki.
     cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
 }
 
 //ExStep:5-
-// Dostęp do zbioru paragrafów bieżącej strony.
+// Dostęp do zbioru akapitów bieżącej strony.
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
 // Dodaj pierwszą tabelę do bieżącej strony.
 paragraphs.Add(table); 
 
 //ExStep:6-
-// Stwórz inny obiekt stołowy.
+// Stwórz inny obiekt tablicy.
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
-// Definiuj szerokości kolumn w drugiej tabeli.
+// Określ szerokość kolumn w drugiej tabeli.
 table1.ColumnWidths = "100 100";
-// Łuk dodaje 10 rzędów do drugiego tabeli. 
+// Łączka do dodania 10 rzędów do drugiej tabeli. 
 for (int i = 1; i <= 10; i++) 
 {
-	// Tworzyć nowy wiersz dla tabeli 1.
+	// Utworzenie nowego wiersza dla tabeli 1.
     Aspose.Pdf.Row row = table1.Rows.Add(); 
-	// Stwórz pierwszą komórkę w kolejce.
+	// Utwórz pierwszą komórkę w rzędzie.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
 	// Dodaj fragment tekstu do pierwszej komórki.
     cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
-    // Stwórz drugą komórkę w kolejce.
+    // Stwórz drugą komórkę w rzędzie.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
 	// Dodaj fragment tekstu do drugiej komórki.
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
 }
-// Ustaw właściwości, aby umieścić drugi tabel na nową stronę.
+// Ustaw właściwość, aby umieścić drugą tabelę na nowej stronie.
 table1.IsInNewPage = true; 
-// Wykres: 7-
-// Dodaj drugą tabelę do ustępów bieżącej strony.
+// Krok 7:
+// Dodaj drugą tabelę do akapitów bieżącej strony.
 paragraphs.Add(table1); 
-// Definiuj ścieżkę pliku wyjściowego.
+// Określ ścieżkę pliku wyjściowego.
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
 // Zapisz dokument na określonej ścieżce.
 doc.Save(dataDir); 
-// Wykres 8:
-// Wynik wiadomości sukcesu.
+// Krok 8:
+// /Wysyłka wiadomości o sukcesie.
 Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
 //ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Este código muestra cómo crear un documento PDF con una tabla que tiene bordes dobles en ambos lados superior e inferior. 
+//ExStepSummary:0: Instale un objeto Document y añada una página.
+//ExStepSummary:1: Crear un objeto BorderInfo para definir las propiedades de borde de las celdas de la tabla.
+//ExStepSummary:2: Instalar un objeto Table y especificar los anchos de columna.
+//ExStepSummary:3: Añadir una fila a la tabla e insertar una celda que contenga texto.
+//ExStepSummary:4: Establecer el borde doble para la celda utilizando el objeto BorderInfo.
+//ExStepSummary:5: Añadir la tabla a la colección de párrafos de la página y guardar el documento en una ruta de archivo especificada.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Define la ruta hacia el directorio de documentos.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instancia el objeto Documento.
+Document doc = new Document();
+// Añadir una página al documento PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Crear el objeto BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Especifique que el borde superior será doble
+border.Top.IsDoubled = true; 
+// Especifique que el borde inferior será doble
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Instanciar el objeto de la mesa.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Especificar información de anchura de columnas
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Crear objeto de fila para la tabla.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Añadir una celda de tabla a la colección de celdas de fila
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Aplicar las configuraciones de borde definidas anteriormente.
+cell.Border = border;
+
+//ExStep:5-
+// Añadir la tabla a la colección de párrafos de la página.
+page.Paragraphs.Add(table);
+// Especifique la ruta del archivo de salida.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Guardar el documento PDF
+doc.Save(dataDir);
+// Imprimir mensaje de éxito con ruta del archivo.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

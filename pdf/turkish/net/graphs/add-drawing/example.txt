@@ -1,35 +1,35 @@
 //ExStart
-//ExSummaryBu kod, PDF belgesini, açık bir renk ile dolu dikdörtgen içeren bir grafikle nasıl oluşturulacağını gösterir.
+//ExSummary: Bu kod, sayfa ekleme ve belgedeki şekillerin çizimi sürecini yürütür.
 //ExStepSummary:0: Aşağıdaki kod, PDF dosyasını kaydetmek için veri dizini başlatır.
-//ExStepSummary:1: Aşağıdaki kod, dikdörtgenin doldurulması için kullanılacak Alfa RGB rengi belirler.
-//ExStepSummary:2: Aşağıdaki kod PDF için yeni bir Belge nesnesini oluşturur.
+//ExStepSummary:1: Aşağıdaki kod, dikdörtgenin doldurulması için kullanılacak Alfa RGB rengini belirler.
+//ExStepSummary:2: Aşağıdaki kod PDF için yeni bir Belge nesnesi oluşturur.
 //ExStepSummary:3: Aşağıdaki kod PDF belgesine bir sayfa ekler.
-//ExStepSummary:4: Aşağıdaki kod, PDF'de şekiller çizmek için bir Graph nesnesini oluşturur.
+//ExStepSummary:4: Aşağıdaki kod, PDF'deki şekiller çizmek için bir Graph nesnesi oluşturur.
 //ExStepSummary:5: Aşağıdaki kod, grafik nesnesi için bir sınır belirler.
-//ExStepSummary:6: Aşağıdaki kod, sayfanın paragraf koleksiyonuna grafik nesnesini ekler.
-//ExStepSummary:7: Aşağıdaki kod, grafik üzerinde çizilen dikdörtgen şekli oluşturur.
-//ExStepSummary:8: Aşağıdaki kod, dikdörtgenin grafik bilgisi için renk bilgileri belirler.
-//ExStepSummary:9: Aşağıdaki kod, grafikin şekil koleksiyonuna dikdörtgen şeklini ekler.
+//ExStepSummary:6: Aşağıdaki kod, grafik nesnesini sayfanın paragraf koleksiyonuna ekler.
+//ExStepSummary:7: Aşağıdaki kod, grafikte çizilecek bir dikdörtgen şekli oluşturur.
+//ExStepSummary:8: Aşağıdaki kod, dikdörtgenin grafik bilgisi için renk bilgisini belirler.
+//ExStepSummary:9: Aşağıdaki kod, dikdörtgen şeklini grafikin şekiller koleksiyonuna ekler.
 //ExStepSummary:10: Aşağıdaki kod belgeyi belirtilen çıkış dosyası yoluna kaydeder.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// Belgeyi kaydetmek için yolun başlangıcı
+// Belgeyi kaydetmek için yolu başlat
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Açıklık için alfa kanal değeri
+// Şeffaflık için alfa kanal değeri
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// Alpha RGB kullanarak Renk nesne oluştur
+// Alfa RGB kullanarak Renk nesnesi oluştur
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Bir anlık Belge nesnesi
+// Doküman nesnesini örnekle
 Document document = new Document();
 
 //ExStep:3-
@@ -37,11 +37,11 @@ Document document = new Document();
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Özel boyutları olan Graph nesnesini oluştur
+// Belirli boyutlara sahip Graph nesnesi oluştur
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Graf nesnesi için sınır belirle
+// Graph nesnesi için kenarlık ayarla
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
@@ -49,27 +49,27 @@ graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Özel boyutları olan Dörtgen nesne oluştur
+// Belirli boyutlara sahip Düzgen nesnesi oluştur
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Dörtgen için graphInfo nesnesi oluştur
+// Düzgen için graphInfo nesnesi oluştur
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// GraphInfo örneği için renk bilgileri ayarlayın
+// GraphInfo örneği için renk bilgisi ayarlayın
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Grafaya dikdörtgen şeklini ekle
+// Karakter şeklini grafiğe ekle
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Belgeyi kaydetmek için çıkış dosyası yolu ayarlayın
+// Belgeyi kaydetmek için çıktı dosyası yolunu belirle
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 
 //ExStep:11-
-// Tesdiq mesajı
+// Onay mesajı
 Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
 //ExEnd

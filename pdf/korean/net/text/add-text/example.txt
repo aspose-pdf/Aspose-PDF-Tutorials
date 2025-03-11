@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 이 코드는 Aspose.PDF를 사용하여 기존 PDF 문서에 텍스트 파편을 추가하는 방법을 보여줍니다. PDF를 열고 특정 속성을 가진 텍스트 파편을 생성하고 수정 된 문서를 저장합니다.
+//ExStepSummary:0: 이 단계에서는 입력된 PDF가 있는 문서 디렉토리의 경로를 설정합니다.
+//ExStepSummary:1: 이 단계로 지정된 PDF 문서를 편집할 수 있습니다.
+//ExStepSummary:2: 이 단계는 PDF 문서에서 특정 페이지를 검색합니다.
+//ExStepSummary:3: 이 단계에서는 페이지의 특정 내용과 위치를 가진 텍스트 조각을 생성합니다.
+//ExStepSummary:4: 이 단계에서는 글꼴 크기, 글꼴 유형, 배경 색상 및 전면 색상 등 텍스트 조각에 대한 다양한 속성을 설정합니다.
+//ExStepSummary:5: 이 단계에서는 텍스트 조각을 PDF 페이지에 추가하는 것을 용이하게 하기 위해 TextBuilder 객체를 생성합니다.
+//ExStepSummary:6: 이 단계에서는 텍스트 조각을 PDF 페이지에 첨부합니다.
+//ExStepSummary:7: 이 단계에서는 수정된 PDF 문서의 출력 파일 경로를 설정합니다.
+//ExStepSummary:8: 이 단계에서는 변경된 PDF 문서를 지정된 출력 경로로 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// 문서에 대한 디렉토리 경로를 설정합니다
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// 지정된 PDF 문서를 열기
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// PDF 문서의 두 번째 페이지를 검색
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// 지정된 내용으로 새로운 텍스트 단편을 생성
+TextFragment textFragment = new TextFragment("main text");
+// 페이지에서 텍스트 단편의 위치를 설정
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// 텍스트 단편의 글꼴 크기를 설정
+textFragment.TextState.FontSize = 12;
+// 글꼴 타입을 설정합니다
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// 배경 색상을 설정
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// 텍스트 색상을 설정
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// 페이지에 텍스트 빌더 객체를 생성
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// 텍스트 조각을 PDF 페이지에 첨부합니다
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// 수정된 PDF 문서의 출력 파일 경로를 설정
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// 변경된 PDF 문서를 지정된 출력 경로로 저장
+pdfDocument.Save(dataDir);
+// 출력 성공 메시지
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

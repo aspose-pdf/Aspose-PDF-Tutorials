@@ -1,5 +1,5 @@
 ---
-title: Créer un PDF avec des graphiques transparents en utilisant Aspose.PDF pour .NET
+title: Créer un fichier PDF avec des graphiques transparents à l'aide de Aspose.PDF pour .NET
 weight: 7700
 limit: 
 description: Apprenez à créer un PDF avec un rectangle transparent en utilisant Aspose.PDF pour .NET. Suivez les instructions étape par étape avec des exemples de code. 
@@ -10,9 +10,9 @@ url: /fr/net/graphs/add-drawing/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un PDF avec des graphiques transparents en utilisant Aspose.PDF  
+# Créer un fichier PDF avec des graphiques transparents à l'aide de Aspose.PDF  
 
-Aspose.PDF pour .NET facilite la génération et la manipulation de documents PDF de manière programmatique. Dans cet exemple, nous montrons comment créer un document PDF et ajouter un graphique contenant un rectangle avec une couleur de remplissage transparente. Vous apprendrez à configurer des couleurs, ajouter des pages et dessiner des formes avec un contrôle précis sur la transparence. Ce tutoriel fournit un guide étape par étape, y compris des extraits de code et des explications pour vous aider à intégrer Aspose.PDF dans vos applications .NET.    
+Aspose.PDF pour .NET facilite la génération et la manipulation de documents PDF par programmation. Dans cet exemple, nous démontrons comment créer un document PDF et ajouter un graphique contenant un rectangle avec une couleur de remplissage transparente. Vous apprendrez à configurer des couleurs, ajouter des pages et dessiner des formes avec un contrôle précis de la transparence. Ce tutoriel fournit un guide étape par étape, y compris des extraits de code et des explications pour vous aider à intégrer Aspose.PDF dans vos applications .NET.    
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/add-drawing" >}}
@@ -23,28 +23,28 @@ Aspose.PDF pour .NET facilite la génération et la manipulation de documents PD
 
 Pour utiliser Aspose.PDF pour .NET, suivez ces étapes:  
 
-1. Installez par le gestionnaire de paquets NuGet  
+1. Installer par le gestionnaire de paquets NuGet  
 * Ouvrez Visual Studio et créez un nouveau projet .NET.  
-* Ouvrez la console de gestion de paquets (outils → NuGet package manager → console de gestion de paquets) et exécutez:  
+* Ouvrez la console du gestionnaire de paquets (Outils → NuGet Package Manager → Package Manager Console) et exécutez:  
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. Installer par le biais de .NET CLI  
-Alternativement, installez le package en utilisant le CLI .NET:  
+2. Installer par l'intermédiaire de l'interface utilisateur .NET  
+Vous pouvez également installer le package à l'aide de l'interface utilisateur .NET:  
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-3. Ajouter l'espace de noms dans votre code C#  
-Pour commencer à utiliser Aspose.PDF, ajoutez l'espace de noms suivant à votre fichier C#:  
+3. Ajouter des espaces de noms dans votre code C#  
+Pour commencer à utiliser Aspose.PDF, ajoutez l'espace de noms suivant dans votre fichier C#:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
-## Des liens utiles 
-Documents: [Aspose.PDF pour la documentation .NET](https://docs.aspose.com/pdf/net/)  
-Résumé de l' API: [Aspose.PDF pour la référence .NET API](https://reference.aspose.com/pdf/net/)
+## Liens utiles 
+Documentation:[Aspose.PDF pour la documentation .NET](https://docs.aspose.com/pdf/net/)  
+Référence API: [Aspose.PDF pour la référence .NET API](https://reference.aspose.com/pdf/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

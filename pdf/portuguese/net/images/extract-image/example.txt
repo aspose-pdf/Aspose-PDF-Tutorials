@@ -1,21 +1,21 @@
 //ExStart
 //ExSummary: Este código demonstra como extrair uma imagem de um documento PDF e salvá-la como um arquivo JPEG enquanto também salva o PDF atualizado.
 //ExStepSummary:0: O código a seguir inicializa o caminho para o diretório de documentos.
-//ExStepSummary:1: O código a seguir abre o documento PDF a partir do qual serão extraídas imagens.
+//ExStepSummary:1: O código a seguir abre o documento PDF a partir do qual as imagens serão extraídas.
 //ExStepSummary:2: O código a seguir extrai uma imagem específica do documento PDF.
-//ExStepSummary:3: O código a seguir salva a imagem extraída para um arquivo de saída especificado.
-//ExStepSummary:4: O código a seguir atualiza o arquivo PDF original e o salva para um novo caminho.
+//ExStepSummary:3: O código a seguir salva a imagem extraída num ficheiro de saída especificado.
+//ExStepSummary:4: O código a seguir atualiza o ficheiro PDF original e salva-o num novo caminho.
 //ExStepImage:3:images/1.png
 //ExStep:0-
 // Especifica o diretório que contém o arquivo PDF
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Abre o documento PDF para extração de imagem
+// Abrir o documento PDF para extração de imagem
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// Extrair a primeira imagem da segunda página do PDF
+// Extrai a primeira imagem da segunda página do PDF
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
@@ -24,15 +24,15 @@ FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create)
 
 // Salvar imagem de saída
 xImage.Save(outputImage, ImageFormat.Jpeg); 
-// Fecha o fluxo de arquivo para liberar recursos
+// Fecha o fluxo de arquivos para liberar recursos
 outputImage.Close();
 
 //ExStep:4-
 // Atualiza o caminho para a nova versão do PDF
 dataDir = dataDir + "ExtractImages_out.pdf";
 
-// Salvar arquivo PDF atualizado
+// Salvar o arquivo PDF atualizado
 pdfDocument.Save(dataDir);
-// Confirma a extração e armazenamento bem sucedidos de arquivos
+// Confirma a extração e salvação de arquivos com sucesso
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

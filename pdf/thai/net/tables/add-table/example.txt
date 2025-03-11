@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: คódนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยตารางตารางนี้ถูกเพิ่มขึ้นกับหน้าที่สองของเอกสาร PDF ที่มีอยู่ และมีจํานวนข้อมูลแถวและคอลัมน์ที่กําหนดไว้
-//ExStepSummary:0: ขั้นตอนนี้เริ่มต้นเส้นทางไฟล์สําหรับเอกสาร PDF ที่ต้องแปรรูป
-//ExStepSummary:1: ขั้นตอนนี้จะโหลดเอกสาร PDF ที่มีอยู่จากบันทึกข้อมูลที่กําหนด
-//ExStepSummary:2: ขั้นตอนนี้สร้างตัวอย่างตารางใหม่และกําหนดคุณสมบัติขอบเขตของมัน
-//ExStepSummary:3: ขั้นตอนนี้เริ่มต้นกระบอกเพื่อเพิ่มแถวหลายแถวไปตาราง โดยเต็มแต่ละแถวด้วยข้อมูลเซลล์
-//ExStepSummary:4: ขั้นตอนนี้เพิ่มตารางที่สร้างขึ้นกับหน้าแรกของเอกสาร PDF
-//ExStepSummary:5: ขั้นตอนนี้จะบันทึกเอกสาร PDF ที่มีการปรับปรุงพร้อมตารางที่เพิ่มใหม่ไปยังเส้นทางการออกที่กําหนดไว้
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยตาราง. ตารางถูกเพิ่มเข้าไปในหน้าที่สองของเอกสาร PDF ที่มีอยู่ และมีจํานวนที่กําหนดของแถวและข้อมูลคอลัมน์
+//ExStepSummary:0: ขั้นตอนนี้เริ่มเส้นทางไฟล์สําหรับเอกสาร PDF ที่ต้องประมวลผล
+//ExStepSummary:1: ขั้นตอนนี้จะล็อดเอกสาร PDF ที่มีอยู่จากดัชนีที่กําหนด
+//ExStepSummary:2: ขั้นตอนนี้สร้างตัวอย่างตารางใหม่ และตั้งคุณสมบัติ border ของมัน
+//ExStepSummary:3: ขั้นตอนนี้เริ่มต้นลุปเพื่อเพิ่มแถวหลายแถวไปยังตาราง โดยเต็มแต่ละแถวด้วยข้อมูลเซลล์
+//ExStepSummary:4: ขั้นตอนนี้จะแนบตารางที่สร้างขึ้นกับหน้าแรกของเอกสาร PDF
+//ExStepSummary:5: ขั้นตอนนี้จะบันทึกเอกสาร PDF ที่อัพเดทพร้อมตารางที่เพิ่มใหม่ไปยังเส้นทางผลิตที่กําหนด
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // กําหนดเส้นทางสําหรับเอกสาร
@@ -16,36 +16,36 @@ string dataDir = "Your Document Directory";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// การเริ่มต้นตัวอย่างใหม่ของตาราง
+// เริ่มต้นตัวอย่างใหม่ของตาราง
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// ปรับสีขอบตารางเป็น LightGray
+// กําหนดสีขอบตารางเป็น LightGray
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// กําหนดขอบสําหรับเซลล์โต๊ะ
+// กําหนดขอบเขตสําหรับเซลล์ตาราง
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// ลุปเพิ่ม 10 เส้น
+// ลุปเพื่อเพิ่ม 10 แถว
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// เพิ่มแถวใหม่ต่อตาราง
+	// เพิ่มแถวใหม่ในตาราง
     Aspose.Pdf.Row row = table.Rows.Add(); 
 	// เพิ่มเซลล์แรกในแถว
     row.Cells.Add("Column (" + row_count + ", 1)"); 
 	// เพิ่มเซลล์ที่สองในแถว
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// เพิ่มเซลล์ที่ 3 ในแถว
+	// เพิ่มเซลล์ที่สามในแถว
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// เพิ่มวัตถุตารางเข้าสู่หน้าแรกของเอกสารการใส่
+// เพิ่มวัตถุตารางไปในหน้าแรกของเอกสาร input
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// กําหนดเส้นทางไฟล์ออกสําหรับเอกสารที่ปรับปรุง
+// กําหนดเส้นทางไฟล์ผลิตสําหรับเอกสารที่อัพเดท
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// กรอกเอกสารที่ปรับปรุงไว้ที่มีตาราง
+// เก็บเอกสารที่อัพเดทที่มีตาราง
 doc.Save(dataDir); 
-// ข่าวสารผู้ใช้งานเกี่ยวกับการดําเนินการที่สําเร็จ
+// ส่งข่าวให้ผู้ใช้งานเกี่ยวกับการดําเนินงานที่ประสบความสําเร็จ
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

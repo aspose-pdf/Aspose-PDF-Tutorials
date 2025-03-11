@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary: Mã này cho thấy cách tối ưu hóa tài liệu PDF bằng cách nén hình ảnh của nó. Nó tải một PDF, áp dụng các tùy chọn tối ưu hóa để giảm kích thước hình ảnh, và lưu tài liệu cập nhật.
-//ExStepSummary:0: Bước này khởi tạo con đường đến thư mục tài liệu.
+//ExSummary: Mã này chứng minh cách tối ưu hóa tài liệu PDF bằng cách nén hình ảnh của nó. Nó tải một PDF, áp dụng các tùy chọn tối ưu hóa để giảm kích thước hình ảnh và lưu tài liệu cập nhật.
+//ExStepSummary:0: Bước này khởi tạo đường dẫn đến thư mục tài liệu.
 //ExStepSummary:1: Bước này mở tài liệu PDF được chỉ định để tối ưu hóa.
 //ExStepSummary:2: Bước này khởi tạo các tùy chọn tối ưu hóa cho tài liệu PDF.
 //ExStepSummary:3: Bước này đặt tùy chọn nén hình ảnh thành true.
-//ExStepSummary:4: Bước này đặt tùy chọn chất lượng hình ảnh lên 50.
+//ExStepSummary:4: Bước này thiết lập tùy chọn chất lượng hình ảnh là 50.
 //ExStepSummary:5: Bước này tối ưu hóa tài liệu PDF bằng cách sử dụng các tùy chọn tối ưu hóa được chỉ định.
-//ExStepSummary:6: Bước này cập nhật con đường cho tài liệu PDF tối ưu hóa.
-//ExStepSummary:7: Bước này lưu tài liệu PDF tối ưu hóa đến con đường được chỉ định.
+//ExStepSummary:6: Bước này cập nhật đường dẫn cho tài liệu PDF tối ưu hóa.
+//ExStepSummary:7: Bước này lưu tài liệu PDF tối ưu hóa vào đường dẫn đã chỉ định.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
-// Đường đến thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -19,7 +19,7 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
-// Tạo ra các tùy chọn tối ưu hóa
+// Bắt đầu các tùy chọn tối ưu hóa
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
@@ -31,15 +31,15 @@ optimizeOptions.ImageCompressionOptions.CompressImages = true;
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// Tối ưu hóa tài liệu PDF bằng cách sử dụng cài đặt
+// Tối ưu hóa tài liệu PDF bằng cách sử dụng các cài đặt
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
-// Định nghĩa con đường đầu ra cho PDF tối ưu hóa
+// Định nghĩa đường dẫn đầu ra cho PDF tối ưu
 dataDir = dataDir + "Shrinkimage_out.pdf";
 
 //ExStep:7-
-// Cung cấp tài liệu cập nhật
+// Lưu tài liệu cập nhật
 pdfDocument.Save(dataDir);
 // Thông báo xác nhận đầu ra
 Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);

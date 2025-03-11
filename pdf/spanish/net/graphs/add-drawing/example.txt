@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryEste código muestra cómo crear un documento PDF con un gráfico que contiene un rectángulo lleno de un color transparente.
+//ExSummary: Este código muestra cómo crear un documento PDF con un gráfico que contiene un rectángulo lleno de un color transparente.
 //ExStepSummary:0: El siguiente código inicializa el directorio de datos para guardar el archivo PDF.
-//ExStepSummary:1: El siguiente código establece el color Alpha RGB para ser utilizado para llenar el rectángulo.
-//ExStepSummary:2: El siguiente código crea un nuevo objeto de documento para el PDF.
+//ExStepSummary:1: El siguiente código establece el color Alfa RGB que se utilizará para el relleno del rectángulo.
+//ExStepSummary:2: El siguiente código crea un nuevo objeto Document para el PDF.
 //ExStepSummary:3: El siguiente código añade una página al documento PDF.
-//ExStepSummary:4: El siguiente código crea un objeto de gráfico para dibujar formas en el PDF.
-//ExStepSummary:5: El siguiente código establece un límite para el objeto del gráfico.
-//ExStepSummary:6: El siguiente código añade el objeto del gráfico a la colección de párrafos de la página.
+//ExStepSummary:4: El siguiente código crea un objeto Graph para dibujar formas en el PDF.
+//ExStepSummary:5: El siguiente código establece un límite para el objeto de gráfico.
+//ExStepSummary:6: El siguiente código añade el objeto gráfico a la colección de párrafos de la página.
 //ExStepSummary:7: El siguiente código crea una forma rectangular que se dibujará en el gráfico.
-//ExStepSummary:8: El siguiente código establece la información de color para la información gráfica del rectángulo.
-//ExStepSummary:9: El siguiente código añade la forma rectangular a la colección de formas del gráfico.
-//ExStepSummary:10: El siguiente código guarda el documento en el camino del archivo de salida especificado.
+//ExStepSummary:8: El siguiente código establece la información del color para la información del gráfico del rectángulo.
+//ExStepSummary:9: El siguiente código agrega la forma rectangular a la colección de formas del gráfico.
+//ExStepSummary:10: El código siguiente guarda el documento en la ruta del archivo de salida especificada.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// Inicialización del camino para guardar el documento
+// Inicialización de la ruta para guardar el documento
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -25,11 +25,11 @@ int green = 0;
 int red = 100;
 int blue = 0;
 
-// Crea objetos de color usando Alpha RGB
+// Crear objeto de color usando el rgb alfa
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Objeto de documento instante
+// Objeto de documento de instancia
 Document document = new Document();
 
 //ExStep:3-
@@ -37,35 +37,35 @@ Document document = new Document();
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Crea un objeto gráfico con dimensiones específicas
+// Crear objetos de gráfico con dimensiones específicas
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Establezca el límite para el objeto del gráfico
+// Establecer el borde para el objeto Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Añadir el objeto del gráfico a la página
+// Añadir el objeto gráfico a la página
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Crear objeto rectangular con dimensiones específicas
+// Crear objeto rectángulo con dimensiones específicas
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Crear el objeto de graphInfo para el Rectángulo
+// Crear objeto de graphInfo para el rectángulo
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Configuración de información de color para la instancia GraphInfo
+// Establecer información de color para la instancia de GraphInfo
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Añadir la forma del rectángulo al gráfico
+// Añadir la forma de rectángulo a la gráfica
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Establezca el camino del archivo de salida para guardar el documento
+// Establecer la ruta del archivo de salida para guardar el documento
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 

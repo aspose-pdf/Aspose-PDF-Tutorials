@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยชิ้นส่วนข้อความที่มีสไตล์และขอบเฉพาะ
+//ExStepSummary:0: รหัสต่อไปนี้เริ่มเส้นทางในการบันทึกเอกสาร PDF
+//ExStepSummary:1: รหัสต่อไปนี้สร้างวัตถุเอกสาร PDF ใหม่
+//ExStepSummary:2: รหัสต่อไปนี้เพิ่มหน้าใหม่สู่เอกสาร PDF
+//ExStepSummary:3: รหัสต่อไปนี้สร้างชิ้นส่วนข้อความที่มีเนื้อหาและตําแหน่งที่กําหนดไว้
+//ExStepSummary:4: รหัสต่อไปนี้กําหนดคุณสมบัติของชิ้นส่วนข้อความ รวมถึงขนาดตัวอักษรและสี
+//ExStepSummary:5: รหัสต่อไปนี้ทําให้การวาดขอบรอบสี่เหลี่ยมข้อความ
+//ExStepSummary:6: รหัสต่อไปนี้จะแนบแนบชิ้นส่วนข้อความกับหน้า PDF โดยใช้ TextBuilder
+//ExStepSummary:7: รหัสต่อไปนี้จะบันทึกเอกสาร PDF ในตําแหน่งที่กําหนดไว้
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// เริ่มตั้งเส้นทางเพื่อบันทึกเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// สร้างวัตถุเอกสาร PDF ใหม่
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// เพิ่มหน้าใหม่ไปยังเอกสาร PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// สร้างชิ้นส่วนข้อความที่มีเนื้อหาที่กําหนด
+TextFragment textFragment = new TextFragment("main text");
+// กําหนดตําแหน่งของชิ้นส่วนข้อความ
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// กําหนดขนาดตัวอักษรของข้อความ
+textFragment.TextState.FontSize = 12;
+// กําหนดชนิดตัวอักษร
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// กําหนดสีพื้นหลังของข้อความ
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// กําหนดสีพื้นหน้าของข้อความ
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// กําหนดสีการกระแทกสําหรับขอบ
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// เอนิยมการวาดขอบรอบข้อความ
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// สร้างวัตถุ TextBuilder สําหรับหน้า
+TextBuilder tb = new TextBuilder(pdfPage);
+// แผงข้อความเข้ากับหน้า PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// เก็บเอกสารไว้ในเส้นทางที่กําหนด
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

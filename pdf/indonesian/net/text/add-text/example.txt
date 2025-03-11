@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara menambahkan fragmen teks ke dokumen PDF yang ada menggunakan Aspose.PDF. Ini membuka PDF, membuat fragmen teks dengan sifat tertentu, dan menyimpan dokumen yang dimodifikasi.
+//ExStepSummary:0: Langkah ini menetapkan jalur ke direktori dokumen di mana PDF input berada.
+//ExStepSummary:1: Langkah ini membuka dokumen PDF yang ditentukan untuk diedit.
+//ExStepSummary:2: Langkah ini mengambil halaman tertentu dari dokumen PDF.
+//ExStepSummary:3: Langkah ini membuat fragmen teks dengan konten dan posisi tertentu di halaman.
+//ExStepSummary:4: Langkah ini mengatur berbagai properti untuk fragmen teks, termasuk ukuran font, jenis font, warna latar belakang, dan warna latar depan.
+//ExStepSummary:5: Langkah ini membuat objek TextBuilder untuk memudahkan penambahan fragmen teks ke halaman PDF.
+//ExStepSummary:6: Langkah ini menempelkan fragmen teks ke halaman PDF.
+//ExStepSummary:7: Langkah ini menetapkan jalur file output untuk dokumen PDF yang dimodifikasi.
+//ExStepSummary:8: Langkah ini menyimpan dokumen PDF yang dimodifikasi ke jalur output yang ditentukan.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Atur jalur direktori untuk dokumen
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Buka dokumen PDF yang ditentukan
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Dapatkan halaman kedua dari dokumen PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Buat fragmen teks baru dengan konten yang ditentukan
+TextFragment textFragment = new TextFragment("main text");
+// Atur posisi fragmen teks di halaman
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Atur ukuran font dari fragmen teks
+textFragment.TextState.FontSize = 12;
+// Atur jenis font
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Tentukan warna latar belakang
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Tentukan warna teks
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Buat objek TextBuilder untuk halaman
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Lemparkan fragmen teks ke halaman PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Atur jalur file output untuk dokumen PDF yang dimodifikasi
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Simpan dokumen PDF yang dimodifikasi ke jalur output yang ditentukan
+pdfDocument.Save(dataDir);
+// Pesan keberhasilan output
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

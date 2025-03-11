@@ -1,5 +1,5 @@
 ---
-title: Vytvořte PDF s obdélníky a alfa barvy v Aspose.PDF 
+title: Vytvořit PDF s obdélníky a alfa barvy v Aspose.PDF 
 weight: 7700
 limit: 
 description: Naučte se vytvářet PDF s obdélníky pomocí Aspose.PDF pro .NET a aplikovat alfa barvy.
@@ -10,34 +10,34 @@ url: /cs/net/graphs/create-rectangle-with-alpha-color/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte PDF s obdélníky a alfa barvy v Aspose.PDF
+# Vytvořit PDF s obdélníky a alfa barvy v Aspose.PDF
 
-Aspose.PDF pro .NET je výkonná knihovna pro vytváření, manipulaci a konverzi PDF dokumentů v jazyce C#. V tomto příkladu se naučíte vytvořit PDF soubor a kreslit obdélníky s alfa barvami. Používáme `Aspose.PDF.Drawing.Graph`Tento tutoriál poskytuje krok za krokem průvodce s vzorovým kódem, který vám zajistí, že ho můžete snadno implementovat ve svých aplikacích .NET.  
+Aspose.PDF pro .NET je výkonná knihovna pro vytváření, manipulaci a konverzi PDF dokumentů v jazyce C#. V tomto příkladu se naučíte vytvářet soubor PDF a kreslit obdélníky s barvami alfa. Používáme`Předpokládám.PDF.Rezkázač.Graf.`Tento návod poskytuje krok za krokem průvodce s vzorem kódu, který zajistí, že můžete snadno implementovat ve svých aplikacích .NET.  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/create-rectangle-with-alpha-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
-Chcete-li v projektu používat Aspose.PDF pro .NET, postupujte podle těchto kroků:  
+## Návod k instalaci  
+Chcete-li použít Aspose.PDF pro .NET ve vašem projektu, postupujte podle těchto kroků:  
 
-1. Instalace prostřednictvím NuGet  
-V konzole NuGet Manager paketů spěchejte následující příkaz:  
+1. Instalace přes NuGet  
+Spusťte následující příkaz v konzoli Manažera balíčků NuGet:  
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-2. Přidejte prostor pro názvy v C#  
-Zahrněte požadované názevové prostory na začátku souboru C#:  
+2. Přidat název v C#  
+Zahrňte požadované prostorové jména na začátku vašeho souboru C#:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 
-Podrobná dokumentace je k dispozici na:  
-[Aspose.PDF pro dokumentaci .NET](https://docs.aspose.com/pdf/net/)  
-[Aspose.PDF pro referenční aplikaci .NET API](https://reference.aspose.com/pdf/net/)  
+Podrobná dokumentace je k dispozici na adrese:  
+[Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)  
+[Aspose.PDF pro .NET API Reference](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

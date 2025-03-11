@@ -1,69 +1,69 @@
 //ExStart
-//ExSummary: このコードではAspose.PDFを使用して PDF 文書を作成し,特定の境界スタイルを持つテーブルを追加し,特定の数列後にページ化を実行する方法を示します.
-//ExStepSummary:0: このステップでは,ドキュメントを初期化してページを追加します.
+//ExSummary: このコードでは",Aspose.PDF"を使用して PDF 文書を作成し,特定の境界スタイルを持つテーブルを追加し,一定の行数後にページ付けを実装する方法を示します.
+//ExStepSummary:0: このステップでは,ドキュメントを初期化し,ページを追加します.
 //ExStepSummary:1: このステップではテーブルインスタンスを作成し,その境界スタイルを設定します.
-//ExStepSummary:2: このステップでは,テーブルの列幅を指定します.
-//ExStepSummary:3: このステップでは,テーブルに200行を追加し,各行には2つのセルが含まれます.
-//ExStepSummary:4: このステップでは,10行が追加されたかどうかを確認し,新しいページに移動します.
-//ExStepSummary:5: この手順で,完了した表を PDF ドキュメントのページに追加して保存します.
+//ExStepSummary:2: このステップでは,表の列幅を指定します.
+//ExStepSummary:3: このステップでは,各行に2つのセルを含める 200行が追加されます.
+//ExStepSummary:4: このステップでは,10行を追加されたかどうかを確認し,新しいページに移動します.
+//ExStepSummary:5: このステップでは, PDF 文書のページに完了した表を追加し,保存します.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// 文書ディレクトリへの経路
+// 文書ディレクトリへのパス
 string dataDir = "Your Document Directory";
 
-// 文書インスタンスのインスタンスの
+// 文書インスタンスをインスタンシートする
 Document doc = new Document();
 
-// PDFファイルのページへのページ追加
+// ページにページを追加 PDF ファイルのコレクション
 doc.Pages.Add();
 
 //ExStep:1-
 // 表インスタンスを作成
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// テーブルに境界スタイルを設定
+// 表の境界スタイルを設定する
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// 境界色が赤であるテーブルにデフォルトの境界スタイルを設定
+// テーブルの境界色を赤とするとデフォルトの境界スタイルを設定する
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// 表列の幅を指定する (2列,それぞれ100単位)
+// 表の列の幅を指定する (2列,各100単位)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// テーブルに200行を追加するループを作成する
+// 表に 200 行を追加するループを作成する
 for (int counter = 0; counter <= 200; counter++)
 {
-	// 新しい行を作成する
+	// 新しい行を作成
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
-	// テーブルに行を追加する
+	// 列を表に追加する
     tab.Rows.Add(row); 
 
-    // 最初のセルを作成してテキストを追加する
+    // 最初のセルを作成し,テキストを追加
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
-	// 最初のセルにテキストフラグメントを追加する	
+	// テキストフラグメントを最初のセルに追加する	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
 	// 列に最初のセルを追加する
     row.Cells.Add(cell1); 
 
-    // 2番目のセルを作成してテキストを追加する
+    // 2 番目のセルを作成し,テキストを追加
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
-	// 2 番目のセルにテキストフラグメントを追加する	
+	// テキスト断片を2番目のセルに追加する	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// 2番目のセルを列に追加
+	// 行に2番目のセルを追加する
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // 10行が追加されたとき,新しいページで新しい行を表示する
+    // 10行を追加すると,新しいページで新しい行を表示します
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// ページの第1ページの段落集に表を追加する
+// ページの最初の集合に表を追加
 doc.Pages[1].Paragraphs.Add(tab); 
 // 出力ファイル経路を定義する
 dataDir = dataDir + "InsertPageBreak_out.pdf";

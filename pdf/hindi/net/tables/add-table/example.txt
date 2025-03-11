@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड तालिका के साथ एक पीडीएफ दस्तावेज़ बनाने का तरीका दर्शाता है। तालिका को मौजूदा पीडीएफ दस्तावेज़ के दूसरे पृष्ठ में जोड़ा जाता है, और इसमें निर्दिष्ट संख्या में पंक्तियाँ और स्तंभ डेटा शामिल हैं।
+//ExStepSummary:0: यह चरण संसाधित होने वाले पीडीएफ दस्तावेज़ के लिए फ़ाइल पथ को आरंभ करता है.
+//ExStepSummary:1: यह चरण निर्दिष्ट निर्देशिका से मौजूदा पीडीएफ दस्तावेज़ लोड करता है.
+//ExStepSummary:2: यह चरण एक नई तालिका उदाहरण बनाता है और इसकी सीमा गुणों को सेट करता है.
+//ExStepSummary:3: यह चरण तालिका में कई पंक्तियों को जोड़ने के लिए लूप को आरंभ करता है, प्रत्येक को सेल डेटा से भरता है.
+//ExStepSummary:4: यह चरण पीडीएफ दस्तावेज़ के पहले पृष्ठ में बनाई गई तालिका को संलग्न करता है.
+//ExStepSummary:5: यह चरण अद्यतन पीडीएफ दस्तावेज़ को नई जोड़ी गई तालिका के साथ निर्दिष्ट आउटपुट पथ पर सहेजता है.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// दस्तावेज़ों के लिए पथ परिभाषित करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// स्रोत पीडीएफ दस्तावेज़ लोड करें
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
+
+//ExStep:2-
+// तालिका का एक नया उदाहरण आरंभ करें
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// तालिका सीमा रंग को लाइटग्रे पर सेट करें
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+// तालिका कक्षों के लिए सीमा सेट करें
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
+
+//ExStep:3-
+// 10 पंक्तियों को जोड़ने के लिए लूप
+for (int row_count = 1; row_count < 10; row_count++) 
+{
+	// तालिका में नई पंक्ति जोड़ें
+    Aspose.Pdf.Row row = table.Rows.Add(); 
+	// पंक्ति में पहली कक्ष जोड़ें
+    row.Cells.Add("Column (" + row_count + ", 1)"); 
+	// पंक्ति में दूसरी सेल जोड़ें
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// पंक्ति में तीसरा कक्ष जोड़ें
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:4-
+// इनपुट दस्तावेज़ के पहले पृष्ठ में तालिका वस्तु जोड़ें
+doc.Pages[1].Paragraphs.Add(table);
+
+//ExStep:5-
+// अद्यतन दस्तावेज़ के लिए आउटपुट फ़ाइल पथ को परिभाषित करें
+dataDir = dataDir + "document_with_table_out.pdf"; 
+// तालिका युक्त अद्यतन दस्तावेज़ सहेजें
+doc.Save(dataDir); 
+// उपयोगकर्ता को सफल संचालन के बारे में सूचित करें
+Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Mã này chứng minh cách tạo tài liệu PDF nhiều cột bằng thư viện Aspose.PDF. Nó thiết lập biên, thêm văn bản với định dạng HTML và tổ chức nội dung thành cột.
+//ExStepSummary:0: Bước này thiết lập thư mục tài liệu, khởi tạo tài liệu PDF mới và cấu hình biên trang của nó.
+//ExStepSummary:1: Bước này thêm một trang mới vào tài liệu và vẽ một đường ngang bằng cách sử dụng các lớp Graph và Line.
+//ExStepSummary:2: Bước này tạo ra một HtmlFragment với văn bản định dạng và thêm nó vào tài liệu PDF.
+//ExStepSummary:3: Bước này tạo ra FloatingBox cho bố cục hai cột và thêm thông tin tác giả vào nó.
+//ExStepSummary:4: Bước này vẽ một đường ngang khác bên trong FloatingBox để tách thị giác.
+//ExStepSummary:5: Bước này thêm một đoạn văn bản dài vào FloatingBox để hiển thị sự phân bố nội dung trong nhiều cột.
+//ExStepSummary:6: Bước này lưu tài liệu vào đường dẫn đầu ra đã chỉ định và in thông báo thành công.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Định nghĩa đường dẫn đến thư mục tài liệu
+string dataDir = "Your Document Directory";
+// Tạo một bản sao tài liệu mới
+Document doc = new Document(); 
+
+// Xác định thông tin biên bên trái cho tệp PDF
+doc.PageInfo.Margin.Left = 40; 
+// Xác định thông tin biên bên phải cho tệp PDF
+doc.PageInfo.Margin.Right = 40;
+// Thêm một trang mới vào tài liệu
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Tạo một đối tượng Graph mới để vẽ đường
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Thêm dòng vào đoạn tập hợp của mục đối tượng
+page.Paragraphs.Add(graph1);
+
+// Xác định tọa độ cho đường thẳng
+// Định nghĩa các điểm bắt đầu và kết thúc của đường thẳng
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Tạo hình dạng đường thẳng với tọa độ được chỉ định
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Thêm hình dạng đường thẳng vào biểu đồ
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Tạo biến chuỗi với văn bản chứa thẻ html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Tạo một HtmlFragment cho văn bản tiêu đề
+HtmlFragment heading_text = new HtmlFragment(s);
+// Thêm văn bản tiêu đề vào trang 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Tạo FloatingBox mới cho bố trí nhiều cột
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Đặt số cột là 2
+box.ColumnInfo.ColumnCount = 2; 
+// Đặt khoảng cách giữa các cột
+box.ColumnInfo.ColumnSpacing = "5";
+// Thiết lập chiều rộng cho mỗi cột
+box.ColumnInfo.ColumnWidths = "105 105";
+// Tạo một đoạn văn bản cho thông tin tác giả
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Đặt kích thước phông chữ cho văn bản
+text1.TextState.FontSize = 8;
+// Đặt khoảng cách dòng cho văn bản
+text1.TextState.LineSpacing = 2;
+// Thêm văn bản tác giả vào hộp nổi
+box.Paragraphs.Add(text1);
+// Cập nhật kích thước phông chữ cho văn bản
+text1.TextState.FontSize = 10;
+// Đặt kiểu phông chữ sang chữ nghiêng
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Tạo một đối tượng Graph khác để vẽ một đường thứ hai
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Xác định tọa độ cho đường thẳng
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Thêm hình dạng đường thứ hai vào biểu đồ
+graph2.Shapes.Add(l2);
+
+// Thêm dòng vào đoạn tập hợp của mục đối tượng
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Tạo một đoạn văn bản dài để hiển thị nội dung trong cột
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Thêm văn bản dài vào hộp nổi
+box.Paragraphs.Add(text2); 
+// Thêm hộp nổi chứa tất cả nội dung vào trang
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Xác định đường dẫn file PDF đầu ra
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Lưu tài liệu vào đường dẫn đã chỉ định
+doc.Save(dataDir); 
+// Thông báo thành công in
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

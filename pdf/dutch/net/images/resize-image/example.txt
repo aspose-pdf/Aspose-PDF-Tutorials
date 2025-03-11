@@ -1,16 +1,16 @@
 //ExStart
-//ExSummaryDeze code toont hoe een PDF-document te optimaliseren door beelden erin te comprimeren en te vergroten.
-//ExStepSummary:0: De volgende code initialiseert de huidige tijd en stelt het document directory pad.
+//ExSummary: Deze code toont aan hoe een PDF-document kan worden geoptimaliseerd door beelden erin te comprimeren en te vergroten.
+//ExStepSummary:0: De volgende code initialiseert de huidige tijd en stelt het documentmappad in.
 //ExStepSummary:1: De volgende code opent het gespecificeerde PDF-document voor verwerking.
 //ExStepSummary:2: De volgende code initialiseert de optimalisatieopties voor de PDF.
-//ExStepSummary:3: De volgende code configureert de beeldcompressie-instellingen, inclusief compressie en kwaliteit.
-//ExStepSummary:4: De volgende code is van toepassing op de optimalisatieopties voor het PDF- document.
+//ExStepSummary:3: De volgende code configureert de instellingen voor beeldcompressie, inclusief compressie en kwaliteit.
+//ExStepSummary:4: De volgende code past de optimalisatieopties toe op het PDF-document.
 //ExStepSummary:5: De volgende code slaat het geoptimaliseerde PDF-document op in een nieuw bestand.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Tijd initiaal maken
+// Initiaal tijd
 var time = DateTime.Now.Ticks;
-// Het pad naar de documenten directory.
+// Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,30 +18,30 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// Optimalisatieopties initieel
+// Optimalisatie-opties initialiseren
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Stel optie CompressImages
+// Stel de optie CompressImages in
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// Stel optie ImageQuality 
+// Stel de optie ImageQuality in 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
 // Stel de optie ResizeImage in
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// Optie MaxResolution instellen
+// Stel de optie MaxResolution in
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
-// Optimaliseren van PDF-document met behulp van OptimalisatieOpties
+// PDF-document optimaliseren met OptimizationOptions
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
-// Update van het gegevens directory voor het outputbestand
+// Het databestand van het outputbestand bijwerken
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// Bewaar bijgewerkte document
+// Bewaar het bijgewerkte document
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-
-// Informatie van het succes
+// Gebruiker informeren van succes
 Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
 //ExEnd

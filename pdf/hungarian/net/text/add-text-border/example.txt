@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot egy olyan szövegszemcsékkel, amely speciális stílusú és határos.
+//ExStepSummary:0: Az alábbi kód a PDF dokumentum mentésének útvonalát indítja.
+//ExStepSummary:1: Az alábbi kód új PDF dokumentum objektumot hoz létre.
+//ExStepSummary:2: Az alábbi kód új oldalt ad hozzá a PDF dokumentumhoz.
+//ExStepSummary:3: Az alábbi kód létrehoz egy szövegszemlet, amelynek tartalma és helyzete megadva van.
+//ExStepSummary:4: Az alábbi kód meghatározza a szövegszemcsék tulajdonságait, beleértve a betűméret és a színeket.
+//ExStepSummary:5: Az alábbi kód lehetővé teszi a szöveges téglalap körül határ rajzolását.
+//ExStepSummary:6: Az alábbi kód a szövegszemleteket a TextBuilder segítségével csatolja a PDF- oldalhoz.
+//ExStepSummary:7: Az alábbi kód mentheti a PDF dokumentumot a megadott címtárba.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// A dokumentum mentéséhez szükséges útvonal megkezdése
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Új PDF dokumentum objektum létrehozása
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Új oldal hozzáadása a PDF dokumentumhoz
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// A megadott tartalommal szövegszemlet létrehozása
+TextFragment textFragment = new TextFragment("main text");
+// A szövegszemcsék helymeghatározása
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// A szöveg betűméretének beállítása
+textFragment.TextState.FontSize = 12;
+// A betűtípust állítsa be
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// A szöveg háttérszínének beállítása
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// A szöveg előtérszínének beállítása
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// A határok csúszószínét állítsa be
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// A szöveg körüli határ rajzolásának engedélyezése
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// TextBuilder objektum létrehozása az oldalhoz
+TextBuilder tb = new TextBuilder(pdfPage);
+// A szövegszemlet PDF-oldallal csatolása
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Tárolja a dokumentumot a megadott útvonalon
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF ที่รวมถึงสี่เหลี่ยมและชิ้นส่วนข้อความที่มีผลการเขียนโปร่งใส. ผลการผลิตจะบันทึกเป็น`AddTransparentText_out.pdf การเพิ่มความโปร่งใส`ในตําแหน่งที่กําหนดไว้
+//ExStepSummary:0: เริ่มต้นเส้นทางของเอกสารและสร้างเอกสาร PDF ใหม่ที่มีหน้า
+//ExStepSummary:1: สร้างวัตถุ Graph และ Rectangle ด้วยสีที่เต็มใส แล้วเพิ่มมันเข้าไปในหน้า
+//ExStepSummary:2: สร้าง TextFragment ด้วยตัวอย่างข้อความ และตั้งสีเขียวโปร่งใสด้วยความไม่ชัดเจน 30%
+//ExStepSummary:3: เก็บเอกสารไว้ในเส้นทางผลิตที่กําหนด
+//ExStepSummary:4: แสดงข้อความความสําเร็จพร้อมเส้นทางของไฟล์
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// เส้นทางไปยังเอกสาร
+string dataDir = "Your Document Directory";
+
+// สร้างตัวอย่างเอกสาร
+Document doc = new Document(); 
+
+// สร้างหน้าต่อหน้า รวมไฟล์ PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// สร้างวัตถุกราฟที่มีความกว้างและความสูง
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// สร้างตัวอย่างสี่เหลี่ยมที่มีขนาดที่กําหนด
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// สร้างวัตถุสีจากช่องสีอัลฟ่า
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// เพิ่มสี่เหลี่ยมไปยัง Shapes collection ของ Graph object
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// เพิ่ม Graph object to paragraphs collection ของหน้าของ object
+page.Paragraphs.Add(canvas);
+
+// กําหนดค่าไม่เปลี่ยนตําแหน่งของวัตถุกราฟ
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// สร้างตัวอย่าง TextFragment ด้วยค่าตัวอย่าง
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// สร้างวัตถุสีจากช่องอัลฟ่า
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// กําหนดข้อมูลสีสําหรับตัวอย่างข้อความ
+text.TextState.ForegroundColor = color;
+
+// เพิ่มข้อความไปในพรรคการรวบรวมของตัวอย่างหน้า
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// กําหนดเส้นทางผลิตสําหรับไฟล์ PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// เก็บเอกสารไว้ในเส้นทางที่กําหนด
+doc.Save(dataDir); 
+
+//ExStep:4-
+// ส่งแจ้งผู้ใช้งานว่ากระบวนการเสร็จสิ้น
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

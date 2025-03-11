@@ -1,59 +1,59 @@
 //ExStart
-//ExSummaryBu kod, Aspose.PDF kullanarak bir PDF belgesini nasıl oluşturulacağını, belirli sınır stilleri ile bir tablo ekleyeceğini ve belirli bir dizi satırdan sonra sayfalama yapıldığını gösterir.
-//ExStepSummary:0: Bu adım belgeyi başlangıçta oluşturur ve ona bir sayfa ekler.
+//ExSummary: Bu kod, Aspose.PDF kullanarak bir PDF belgesi oluşturmayı, belirli kenarlık stilleriyle bir tablo eklemeyi ve belirli sayıda satırdan sonra sayfalamayı nasıl uygulayacağınızı gösterir.
+//ExStepSummary:0: Bu adım belgeyi başlatır ve ona bir sayfa ekler.
 //ExStepSummary:1: Bu adım bir tablo örneği oluşturur ve sınır stillerini belirler.
 //ExStepSummary:2: Bu adım, tablo için sütun genişliklerini belirtir.
-//ExStepSummary:3: Bu adım, her satır iki hücre içeren 200 satır ekliyor.
-//ExStepSummary:4: Bu adım, 10 satır eklendiğini kontrol eder ve eğer eklendiyse yeni bir sayfaya geçiyor.
-//ExStepSummary:5: Bu adım, tamamlanmış tabloyu PDF belgesinin sayfasına ekler ve kaydetir.
+//ExStepSummary:3: Bu adım, her satır iki hücre içeren tabloya 200 satır ekler.
+//ExStepSummary:4: Bu adım 10 satır eklenmiş olup olmadığını kontrol eder ve eğer öyleyse yeni bir sayfaya taşınır.
+//ExStepSummary:5: Bu adım tamamlanmış tabloyu PDF belgesinin sayfasına ekler ve kaydeder.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// Belge dizinine giden yol
+// Belgeler dizini yolu
 string dataDir = "Your Document Directory";
 
-// Belge örneği
+// Belge örneğini oluştur
 Document doc = new Document();
 
-// PDF dosyası sayfalarına sayfa ekle
+// Sayfaları sayfalara ekle PDF dosyası koleksiyonu
 doc.Pages.Add();
 
 //ExStep:1-
 // Tablo örneği oluştur
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// Masa için sınır biçimi ayarlayın
+// Tablo için kenarlık biçimi belirle
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Boyun rengi kırmızı olan tablo için öntanımlı sınır biçimini ayarlayın
+// Çizgi rengi olan tablo için varsayılan kenarlık biçimini kırmızı olarak ayarla
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// Tablo sütunlarının genişliğini belirtin (2 sütun, her 100 birim)
+// Tablo sütunlarının genişliğini belirtin (2 sütun, her biri 100 birim)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// Tabloya 200 satır eklemek için bir döngü oluştur
+// Tablo için 200 satır eklemek için bir döngü oluştur
 for (int counter = 0; counter <= 200; counter++)
 {
 	// Yeni bir satır oluştur
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
-	// Satırları masaya ekle
+	// Satırı tabloya ekle
     tab.Rows.Add(row); 
 
     // İlk hücreyi oluştur ve metin ekle
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
 	// İlk hücreye metin fragmanı ekle	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
-	// Satırdaki ilk hücreyi ekle
+	// Satıra ilk hücreyi ekle
     row.Cells.Add(cell1); 
 
-    // İkinci hücre oluştur ve metin ekle
+    // İkinci hücre oluşturun ve metin ekleyin
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
 	// İkinci hücreye metin fragmanı ekle	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// Satırlara ikinci hücre ekle
+	// Satıra ikinci hücre ekle
     row.Cells.Add(cell2); 
     
 //ExStep:4-
@@ -63,12 +63,12 @@ for (int counter = 0; counter <= 200; counter++)
 }
 
 //ExStep:5-
-// İlk sayfanın paragraf koleksiyonuna tablo ekle
+// Tabloları paragraflara ekle . İlk sayfanın koleksiyonu .
 doc.Pages[1].Paragraphs.Add(tab); 
-// Çıktı dosya yolu tanımlayın
+// Çıktı dosyası yolunu tanımla
 dataDir = dataDir + "InsertPageBreak_out.pdf";
 // PDF belgesini kaydet
 doc.Save(dataDir); 
-// Tesdiq mesajı
+// Onay mesajı
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
 //ExEnd

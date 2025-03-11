@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein mehrspaltenes PDF-Dokument mit der Bibliothek Aspose.PDF erstellt. Es setzt Margen ein, fügt Text mit HTML-Formatierung hinzu und organisiert den Inhalt in Spalten.
+//ExStepSummary:0: Dieser Schritt setzt das Dokumentverzeichnis ein, initialisiert ein neues PDF- Dokument und konfiguriert die Seitenmargen.
+//ExStepSummary:1: Dieser Schritt fügt dem Dokument eine neue Seite hinzu und zeichnet eine horizontale Linie mit den Klassen Graph und Line.
+//ExStepSummary:2: Dieser Schritt erstellt ein HtmlFragment mit formatiertem Text und fügt es dem PDF-Dokument hinzu.
+//ExStepSummary:3: Dieser Schritt erstellt eine FloatingBox für ein zweiskolonnen Layout und fügt Autorinformationen hinzu.
+//ExStepSummary:4: Dieser Schritt zieht eine weitere horizontale Linie in der FloatingBox zur visuellen Trennung.
+//ExStepSummary:5: Dieser Schritt fügt dem FloatingBox ein langes Textfragment hinzu, um die Verteilung von Inhalten in mehreren Spalten zu zeigen.
+//ExStepSummary:6: Dieser Schritt speichert das Dokument auf dem angegebenen Ausgabepfad und druckt eine Erfolgsmeldung aus.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definition des Pfades zum Dokumentenverzeichnis
+string dataDir = "Your Document Directory";
+// Erstellen einer neuen Dokumentinstanz
+Document doc = new Document(); 
+
+// Geben Sie die linken Randinformationen für die PDF-Datei an
+doc.PageInfo.Margin.Left = 40; 
+// Geben Sie die Informationen für die rechte Randfläche für die PDF-Datei an
+doc.PageInfo.Margin.Right = 40;
+// Hinzufügen einer neuen Seite zum Dokument
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Erstellen eines neuen Graph-Objekts für die Zeichnung einer Linie
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Hinzufügen der Zeile zu Absätzen Sammlung von Abschnitt Objekt
+page.Paragraphs.Add(graph1);
+
+// Angabe der Koordinaten für die Linie
+// Beginn und Endpunkt der Linie definieren
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Erstellen Sie eine Linienform mit angegebenen Koordinaten
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Die Linieform dem Diagramm hinzufügen
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Erstellen von Zeichenfolgevariablen mit HTML-Tags
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Erstellen Sie einen HtmlFragment für den Überschriftentext
+HtmlFragment heading_text = new HtmlFragment(s);
+// Hinzufügen des Überschriftentextes zur Seite 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Erstellen Sie eine neue FloatingBox für das Multi-Spalten-Layout
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Die Anzahl der Spalten auf 2 setzen
+box.ColumnInfo.ColumnCount = 2; 
+// Die Abstandsbereiche zwischen den Spalten setzen
+box.ColumnInfo.ColumnSpacing = "5";
+// Die Breite für jede Spalte festlegen
+box.ColumnInfo.ColumnWidths = "105 105";
+// Erstellen Sie ein Textfragment für die Autorendaten
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Schriftgröße für den Text festlegen
+text1.TextState.FontSize = 8;
+// Linienabstand für den Text festlegen
+text1.TextState.LineSpacing = 2;
+// Das Schreibzeichen des Autors in das schwebende Feld hinzufügen
+box.Paragraphs.Add(text1);
+// Schriftgröße für den Text aktualisieren
+text1.TextState.FontSize = 10;
+// Schriftart auf Kursiv setzen
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Erstellen eines anderen Graph-Objekts für die Zeichnung einer zweiten Zeile
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Angabe der Koordinaten für die Linie
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Fügen Sie die zweite Zeile Form auf die Grafik
+graph2.Shapes.Add(l2);
+
+// Hinzufügen der Zeile zu Absätzen Sammlung von Abschnitt Objekt
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Erstellen eines langen Textfragments, um den Inhalt in Spalten anzuzeigen
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Fügen Sie den langen Text zum schwimmenden Feld hinzu
+box.Paragraphs.Add(text2); 
+// Das schwebende Feld mit allen Inhalten der Seite hinzufügen
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Geben Sie den Pfad der Ausgabe PDF-Datei an
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Das Dokument auf dem angegebenen Pfad speichern
+doc.Save(dataDir); 
+// Erfolgsergebnis der Druckvorführung
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

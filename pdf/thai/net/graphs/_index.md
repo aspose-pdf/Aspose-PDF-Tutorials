@@ -2,7 +2,7 @@
 title: การสร้างกราฟใน PDF โดยใช้ Aspose.PDF สําหรับ .NET 
 weight: 10
 limit:
-description: เรียนรู้วิธีการสร้างและปรับปรุงกราฟใน PDF โดยใช้ Aspose.PDF สําหรับ .NET เพิ่มตารางเส้น, ธารา, และตาราง pie โดยไม่ต้องพยายามด้วยตัวอย่างรหัส C #
+description: เรียนรู้วิธีการสร้างและปรับปรุงกราฟใน PDF โดยใช้ Aspose.PDF สําหรับ .NET. เพิ่มกราฟเส้น, สตาร์, และไพ่โดยไม่ยุ่งยากกับตัวอย่างรหัส C #
 keywords:
 url: /th/net/graphs/
 ---
@@ -10,16 +10,16 @@ url: /th/net/graphs/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## การ เบ่ง เบ่ง เบ่ง
+## ประกอบการ
 
-กราฟเป็นวิธีที่แข็งแรงในการแสดงข้อมูลในภาพในเอกสาร PDF ทําให้ข้อมูลสามารถรับประทานได้มากขึ้นและน่าสนใจ. ด้วย Aspose.PDF สําหรับ .NET คุณสามารถสร้างและใส่รูปแบบกราฟต่างๆ ได้อย่างเรียบร้อย ได้แก่ แผนเส้น, แผนสตาร์ต และ แผนปาย. API ให้การควบคุมแม่นยําเกี่ยวกับคุณสมบัติกราฟ เช่น ไข่, สี, แผน, และตําแหน่ง, การ đảm bảoประสบการณ์ที่สามารถปรับแต่งได้อย่างเต็มที่. ไม่ว่าคุณต้องการนําเสนอวิเคราะห์ธุรกิจ, ข้อมูลวิทยาศาสตร์, หรือรายงานการเงิน, Aspose.PDF สําหรับ .NET ให้กับวิธีที่มีประสิทธิภาพในการสร้างกราฟที่มีคุณภาพสูง, ดูเป็นมืออาชีพใน PDF ของคุณ.  
+กราฟเป็นวิธีที่มีพลังในการแสดงข้อมูลในเอกสาร PDF โดยทําให้ข้อมูลสามารถรับรู้ได้ง่ายขึ้นและน่าสนใจมากขึ้น. ด้วย Aspose.PDF สําหรับ .NET คุณสามารถสร้างและใส่กราฟหลายประเภทได้อย่างต่อเนื่อง รวมถึงกราฟเส้น, กราฟแท่ง, และกราฟไพ่. API ยอมให้การควบคุมที่แม่นยําเกี่ยวกับคุณสมบัติกราฟ เช่น แกน, สี, ใบหมาย, และการตั้งตําแหน่ง, รับประกันประสบการณ์ที่สามารถปรับแต่งได้อย่างเต็มที่ ไม่ว่าคุณต้องการนําเสนอการวิเคราะห์ธุรกิจ, ข้อมูลวิทยาศาสตร์, หรือรายงานการเงิน, Aspose.PDF สําหรับ .NET ให้วิธีที่ประสิทธิภาพในการสร้างคุณภาพสูง, กราฟดูเป็นมืออาชีพใน PDFs ของคุณ  
 
-โดยใช้ความสามารถที่แข็งแกร่งของ Aspose.PDF สําหรับ .NET ผู้พัฒนาสามารถใส่และกรอกแกรฟแบบไดเนมิกได้ด้วยเพียงไม่กี่เส้นของรหัส C# API รองรับแกรฟิกแบบเวกเตอร์ เพื่อให้แกรฟยังคงคมและสามารถปรับขนาดได้ในอุปกรณ์การดูที่แตกต่างกัน คุณสามารถปรับแต่งหนาเส้น ความกว้างสตางค์ ช่วงตารางปาย และอื่น ๆ เพื่อเข้ากับสไตล์เอกสารของคุณ นอกจากนี้ โดยการรวมแกรฟกับแหล่งข้อมูล คุณสามารถสร้างรายงานในเวลาจริงที่มีข้อมูลภาพที่ทันสมัย ความยืดหยุ่นนี้ทําให้ Aspose.PDF สําหรับ .NET เป็นทางเลือกที่ดีสําหรับการอัตโนมัติการสร้างรายงาน PDF ที่มีข้อมูลและน่าสนใจทางวิวชาการ
+โดยใช้ความสามารถที่แข็งแกร่งของ Aspose.PDF สําหรับ .NET, ผู้พัฒนาสามารถใส่และจัดรูปกราฟได้อย่างไดนามิก ด้วยแค่ไม่กี่แถวของรหัส C#. API รองรับกราฟฟิกที่ใช้เวคเตอร์, รับรองว่ากราฟฟิกยังคงคมและสามารถปรับขนาดได้ในอุปกรณ์การดูที่แตกต่างกัน. คุณสามารถปรับเปลี่ยนความหนาของเส้น, ความกว้างของแท่น, ช่วงแผนภูมิพรรณ และอื่น ๆ ให้เหมาะกับสไตล์ของเอกสารของคุณ. นอกจากนี้, โดยการบูรณาการกราฟกับแหล่งข้อมูล, คุณสามารถสร้างรายงานในเวลาจริงที่มีความรู้ทางภาพที่ทันสมัย. ความยืดหยุ่นนี้ทําให้ Aspose.PDF สําหรับ .NET เป็นทางเลือก
 
-{{< tutorial-card link="./add-drawing/" title="สร้าง PDF ด้วย กราฟโปร่งใส โดยใช้ Aspose.PDF" imgSrc="/pdf/net/graphs/add-drawing/images/thumb.png" >}}
-{{< tutorial-card link="./control-rectangle-z-order/" title="สร้างและปรับแต่ง PDF ด้วย Rectangles ใน .NET" imgSrc="/pdf/net/graphs/control-rectangle-z-order/images/thumb.png" >}}
-{{< tutorial-card link="./create-rectangle-with-alpha-color/" title="สร้าง PDF ด้วย Rectangles & Alpha Colors ใน Aspose.PDF" imgSrc="/pdf/net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-line/" title="สูตรเส้นทางทางขวางใน PDF โดยใช้ Aspose.PDF สําหรับ .NET" imgSrc="/pdf/net/graphs/drawing-line/images/thumb.png" >}}
+{{< tutorial-card link="./add-drawing/" title="สร้าง PDF ด้วยกราฟโปร่งใส โดยใช้ Aspose.PDF" imgSrc="/pdf/net/graphs/add-drawing/images/thumb.png" >}}
+{{< tutorial-card link="./control-rectangle-z-order/" title="สร้างและปรับปรุง PDF ด้วยสี่เหลี่ยมใน .NET" imgSrc="/pdf/net/graphs/control-rectangle-z-order/images/thumb.png" >}}
+{{< tutorial-card link="./create-rectangle-with-alpha-color/" title="สร้าง PDF ด้วยรูปสี่เหลี่ยมและสีอัลฟา ใน Aspose.PDF" imgSrc="/pdf/net/graphs/create-rectangle-with-alpha-color/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-line/" title="สลากเส้นเส้นฉากใน PDF โดยใช้ Aspose.PDF สําหรับ .NET" imgSrc="/pdf/net/graphs/drawing-line/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

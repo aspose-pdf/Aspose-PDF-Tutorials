@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument s tabulkou, která má dvojitou hranici na horní i dolní straně. 
+//ExStepSummary:0: Inštalujte objekt Document a přidejte mu stránku.
+//ExStepSummary:1: Vytvořit objekt BorderInfo pro definici vlastností hranic pro buňky tabulky.
+//ExStepSummary:2: Instancie objektu Table a zadání šířky sloupce.
+//ExStepSummary:3: Přidejte řádek do tabulky a vložte buňku obsahující text.
+//ExStepSummary:4: Nastavte dvojitou hranici pro buňku pomocí objektu BorderInfo.
+//ExStepSummary:5: Přidejte tabulku do sbírky odstavců stránky a uložte dokument na stanovenou cestu souboru.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Definice cesty do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instanciální objekt dokumentu.
+Document doc = new Document();
+// Přidejte stránku do dokumentu PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Vytvořte objekt BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Uveďte, že horní okraj bude dvojnásobný
+border.Top.IsDoubled = true; 
+// Uveďte, že spodní okraj bude dvojnásobný
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Inštalujte objekt Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Uveďte informace o šířce sloupců
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Vytvořte objekt řádek pro tabulku.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Přidat buňku tabulky do buňky sbírky řádků
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Použijte nastavení hranic definovaná dříve.
+cell.Border = border;
+
+//ExStep:5-
+// Přidejte tabulku do sbírky odstavců na stránce.
+page.Paragraphs.Add(table);
+// Uveďte cestu výstupního souboru.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Uložit PDF dokument
+doc.Save(dataDir);
+// Zpráva o úspěchu s cestou souboru.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

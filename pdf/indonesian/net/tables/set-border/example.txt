@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen PDF dengan tabel yang memiliki tepi ganda di sisi atas dan bawah. 
+//ExStepSummary:0: Instal objek Document dan tambahkan halaman ke dalamnya.
+//ExStepSummary:1: Buat objek BorderInfo untuk menentukan properti border untuk sel tabel.
+//ExStepSummary:2: Instal sebuah objek Table dan tentukan lebar kolom.
+//ExStepSummary:3: Tambahkan baris ke tabel dan masukkan Cell yang berisi teks.
+//ExStepSummary:4: Atur double border untuk sel menggunakan objek BorderInfo.
+//ExStepSummary:5: Tambahkan tabel ke koleksi paragraf halaman dan simpan dokumen ke jalur file yang ditentukan.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansiasi objek dokumen.
+Document doc = new Document();
+// Tambahkan halaman ke dokumen PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Buat objek BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Tentukan bahwa batas atas akan ganda
+border.Top.IsDoubled = true; 
+// Tentukan bahwa batas bawah akan ganda
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Instansiasi obyek Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Tentukan informasi lebar kolom
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Buat obyek Row untuk tabel.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Tambahkan sel Tabel ke koleksi sel baris
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Terapkan pengaturan batas yang ditentukan sebelumnya.
+cell.Border = border;
+
+//ExStep:5-
+// Tambahkan tabel ke koleksi paragraf halaman.
+page.Paragraphs.Add(table);
+// Tentukan jalur file output.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Simpan dokumen PDF
+doc.Save(dataDir);
+// Cetak pesan keberhasilan dengan jalur file.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

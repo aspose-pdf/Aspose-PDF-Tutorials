@@ -1,8 +1,8 @@
 ---
-title: .NET için Aspose.PDF kullanarak PDF'den C#'de Resim çıkar
+title: C#'da PDF'den Resimleri Çıkar .NET için Aspose.PDF kullanarak
 weight: 7700
 limit: 
-description: PDF'den görüntüler nasıl çıkarılacağını ve .NET için Aspose.PDF kullanarak C#'de JPEG dosyaları olarak nasıl kaydedileceğini öğrenin. 
+description: PDF'den görüntüler nasıl çıkarılacağını ve C #'da Aspose.PDF kullanarak JPEG dosyaları olarak nasıl kaydedileceğini öğrenin. .NET için. 
 keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
 url: /tr/net/images/extract-image/
 ---
@@ -10,9 +10,9 @@ url: /tr/net/images/extract-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PDF kullanarak PDF'den C#'de Resim çıkarın
+# Aspose.PDF kullanarak C#'da PDF'den Resimler Çıkar
  
-PDF belgesinden görüntü çıkarmak, arşivleme, işleme veya paylaşım için olmak üzere birçok uygulama için yaygın bir gerekliliktir.[.NET için Aspose.PDF](https://docs.aspose.com/pdf/net/)Bu öğretim kitabı, PDF'den görüntüler çıkarmak için basit bir adım adım rehberlik sağlar. PDF'yi nasıl açılacağını, resimleri nasıl geri alacağını, nasıl kaydedeceğini ve orijinal PDF belgesini nasıl güncelleyeceğini öğreneceksiniz. Bu işlevselliği .NET uygulamalarınızda sorunsuz bir şekilde entegre etmek için örnek kodun yanı sıra takip edin.
+PDF belgesinden görüntü çıkarmak, arşivleme, işleme veya paylaşım için olsun, birçok uygulama için ortak bir gerekliliktir.[Aspose.PDF için .NET](https://docs.aspose.com/pdf/net/), PDF'den görüntüleri kolayca çıkarabilir ve JPEG gibi çeşitli biçimlerde kaydedebilirsiniz. Bu ders, C# kullanarak PDF'den görüntü çıkarmak için basit, adım adım rehberlik sağlar. PDF'yi nasıl açacağınızı, resimleri nasıl alacağınızı, nasıl kaydedeceğinizi ve orijinal PDF belgesini nasıl güncelleyeceğinizi öğreneceksiniz. Bu işlevselliği .NET uygulamalarınıza sorunsuz bir şekilde entegre etmek için örnek kodu takip edin.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
@@ -21,28 +21,28 @@ PDF belgesinden görüntü çıkarmak, arşivleme, işleme veya paylaşım için
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Kurulum talimatları:  
 
-C# projenizdeki .NET için Aspose.PDF kullanmak için, bu adımları takip edin:  
+C# projenizdeki .NET için Aspose.PDF i kullanmak için şu adımları izleyin:  
 
 1. NuGet Paket Yöneticisi üzerinden yükle:  
-* Açık Visual Studio.  
-* Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
-* Aspose.PDFi arayın ve yükleyin.  
-* Ya da Paket Yöneticisi Konsolu'nda aşağıdaki komutu çalıştırın:  
+* Visual Studio'yu aç.  
+* Araçlara git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
+* Aspose.PDFi arayıp yükleyin.  
+* Ya da, aşağıdaki komutu paket yöneticisi konsolunda çalıştırın:  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. DLL indirimi üzerinden yükle:  
-* En son versiyonu indir [.NET için Aspose.PDF indir](https://releases.aspose.com/pdf/net/)\- Evet .  
-* İndirilen paketleri çıkarın.  
+2. DLL üzerinden yükle İndir:  
+* En son sürümü indir[Aspose.PDF için .NET İndir](https://releases.aspose.com/pdf/net/)\- Hayır .  
+* İndirilmiş paketi çıkar.  
 * .NET projenize Aspose.PDF.dll'e bir referans ekleyin.  
 
-3. Lisans başvurusu (Önemli):  
-* Bir tane alabilirsin .[ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/)Tam fonksiyonellik için.  
+3. Lisans başvurusu (ihtiyaçlı):  
+* \- Bir tane alabilirsin .[Ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license/)Tam işlevsellik için.  
 
 ## Ayrıntılı API referansları için
-[.NET API Belgeliği için Aspose.PDF](https://reference.aspose.com/pdf/net/)\- Evet .
+[Aspose.PDF için .NET API Belgelendirme](https://reference.aspose.com/pdf/net/)\- Hayır .
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

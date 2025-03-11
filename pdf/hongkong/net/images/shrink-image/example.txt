@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary這個代碼展示如何透過壓縮其圖片來優化PDF文檔. 它加載PDF,應用優化選項減少圖片大小,並保存更新的文檔.
+//ExStepSummary:0: 這一步初始化文件目錄的路徑.
+//ExStepSummary:1: 這步打開了指定的PDF文件,
+//ExStepSummary:2: 這一步將開始對PDF文檔的優化選項.
+//ExStepSummary:3: 這一步將圖像壓縮選項設定為 true.
+//ExStepSummary:4: 這一步將圖像質量設定為50
+//ExStepSummary:5: 這一步使用指定優化選項優化PDF文檔.
+//ExStepSummary:6: 這一步更新了優化PDF文檔的路徑.
+//ExStepSummary:7: 這步將優化PDF文件保存到指定的路徑.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// 文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 打開PDF文件
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// 開始優化選項
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// 啟用圖像壓縮
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// 設定圖像品質為 50%
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// 使用設定優化PDF文檔
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// 定義優化PDF的輸出路徑
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// 保存更新的文檔
+pdfDocument.Save(dataDir);
+// 輸出確認訊息
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

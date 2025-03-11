@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Mã này chứng minh cách làm việc với các đoạn văn nhiều cột trong tài liệu PDF bằng cách sử dụng Aspose.PDF. Nó tải một PDF, trích xuất đoạn văn, và sau đó sửa đổi một cài đặt để cho phép các đoạn văn nhiều cột trước khi trích xuất đoạn văn một lần nữa để hiển thị sự khác biệt.
+//ExStepSummary:0: Mã sau đây cho thấy cách xác định thư mục dữ liệu nơi tài liệu PDF nằm.
+//ExStepSummary:1: Mã sau đây cho thấy cách tải tài liệu PDF bằng lớp Document.
+//ExStepSummary:2: Mã sau đây cho thấy cách tạo ParagraphAbsorber để trích xuất các đoạn văn từ tài liệu.
+//ExStepSummary:3: Mã sau đây cho thấy cách truy cập tài liệu với ParagraphAbsorber để điền kết quả của nó.
+//ExStepSummary:4: Mã sau đây cho thấy cách truy cập đánh dấu trang đầu tiên và trích xuất thông tin về đoạn trước khi cho phép các đoạn nhiều cột.
+//ExStepSummary:5: Mã sau đây cho thấy cách bật các đoạn văn nhiều cột và sau đó lấy lại thông tin đoạn văn để hiển thị tác động của thay đổi.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Xác định thư mục dữ liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// tải tài liệu PDF.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Tạo một ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Truy cập tài liệu để trích xuất đoạn văn.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Truy cập vào trang đánh dấu.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Hãy lấy đoạn cuối cùng từ phần thứ ba.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Hãy lấy đoạn đầu tiên từ phần thứ hai.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Cho phép các đoạn văn nhiều cột.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Nhận đoạn cuối cùng từ phần ba sau khi bật các đoạn nhiều cột.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Nhận đoạn đầu tiên từ phần thứ hai sau khi bật các đoạn nhiều cột.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

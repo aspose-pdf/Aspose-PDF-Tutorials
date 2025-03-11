@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: 这个代码展示了如何使用Aspose.PDF在PDF文档中处理多列段落.它加载PDF文件,提取段落,然后修改设置,允许多列段落,然后再提取段落来显示区别.
+//ExStepSummary:0: 下面的代码显示了如何指定PDF文档所在的数据目录.
+//ExStepSummary:1: 下面的代码显示如何使用文件类加载PDF文档.
+//ExStepSummary:2: 下面的代码显示如何创建一个 ParagraphAbsorber 来从文档中提取段落.
+//ExStepSummary:3: 下面的代码显示如何访问文件,以填写其结果.
+//ExStepSummary:4: 下面的代码显示如何访问第一页的标记,并提取关于段落的信息,然后允许多列段落.
+//ExStepSummary:5: 下面的代码显示如何启用多列段落,然后重新提取段落信息以显示更改的影响.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 指定数据目录.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 装载PDF文件
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// 创建一个段落吸收器.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// 访问文档以提取段落.
+absorber.Visit(doc);
+
+//ExStep:4-
+// 访问页面标记.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// 让我们从第三节中得到最后一段.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 取第一个段落从第二节.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// 启用多列段落.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// 在启用多列段落后从第三节获取最后一段.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 在启用多列段落后从第二节中获取第一个段落.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

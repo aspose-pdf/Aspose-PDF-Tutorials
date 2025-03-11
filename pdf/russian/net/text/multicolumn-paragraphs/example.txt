@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Этот код показывает, как работать с многоуровневыми абзацами в PDF-документе с помощью Aspose.PDF. Он загружает PDF, извлекает абзацы, а затем изменяет настройку, чтобы разрешить многоуровневые абзацы перед тем, как снова извлекать абзацы, чтобы показать разницу.
+//ExStepSummary:0: Ниже приведен код, показывающий, как указать каталог данных, в котором расположен документ PDF.
+//ExStepSummary:1: Ниже приведен код, показывающий, как загрузить документ PDF с помощью класса Document.
+//ExStepSummary:2: Нижеприведенный код показывает, как создать ParagraphAbsorber для извлечения абзацев из документа.
+//ExStepSummary:3: Нижеприведенный код показывает, как посетить документ с ParagraphAbsorber для заполнения его результатов.
+//ExStepSummary:4: Ниже приведен код, показывающий, как получить доступ к разметке первой страницы и извлечь информацию о абзацах, прежде чем разрешить многоуровневые абзацы.
+//ExStepSummary:5: Ниже приведен код, показывающий, как включить параграфы с несколькими столбцами, а затем повторно извлечь информацию о параграфе, чтобы показать эффект изменения.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Укажите каталог данных.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Загрузить PDF-документ.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Создайте ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Посетите документ, чтобы извлечь абзацы.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Доступ к разметке страницы.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Возьми последний абзац из третьего раздела.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Возьми первый абзац из второго раздела.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Включить параграфы с несколькими столбцами.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Получить последний абзац из третьего раздела после включения многоуровневых абзацев.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Получить первый абзац из второго раздела после включения многоуровневых абзацев.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

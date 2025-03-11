@@ -1,38 +1,38 @@
 //ExStart
-//ExSummary: 이 코드에서는 PDF 문서를 압축하고 크기를 변경함으로써 최적화하는 방법을 보여줍니다.
+//ExSummary: 이 코드는 PDF 문서를 압축하고 크기를 변경하여 최적화하는 방법을 보여줍니다.
 //ExStepSummary:0: 다음 코드는 현재 시간을 초기화하고 문서 디렉토리 경로를 설정합니다.
-//ExStepSummary:1: 다음 코드에서는 처리하기 위해 지정된 PDF 문서를 열 수 있습니다.
-//ExStepSummary:2: 다음 코드에서 PDF의 최적화 옵션을 초기화합니다.
+//ExStepSummary:1: 다음 코드는 처리하기 위해 지정된 PDF 문서를 열습니다.
+//ExStepSummary:2: 다음 코드는 PDF의 최적화 옵션을 초기화합니다.
 //ExStepSummary:3: 다음 코드는 압축 및 품질을 포함한 이미지 압축 설정을 구성합니다.
-//ExStepSummary:4: 다음 코드에서는 PDF 문서에 최적화 옵션을 적용합니다.
-//ExStepSummary:5: 다음 코드에서 최적화된 PDF 문서를 새로운 파일로 저장합니다.
+//ExStepSummary:4: 다음 코드는 PDF 문서에 최적화 옵션을 적용합니다.
+//ExStepSummary:5: 다음 코드는 최적화된 PDF 문서를 새 파일에 저장합니다.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// 시간 을 초기화
+// 시기를 초기화
 var time = DateTime.Now.Ticks;
-// 문서 디렉토리로 가는 길
+// 문서 디렉토리로의 경로
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// 공개 문서
+// 공개문서
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// 최적화 옵션을 초기화
+// 초기화 최적화 옵션
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// CompressImages 옵션을 설정
+// 압축 이미지 옵션을 설정
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// 이미지 품질 옵션을 설정 
+// ImageQuality 옵션을 설정합니다 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// 크기를 변경하는 이미지 옵션을 설정
+// 크기를 변경할 수 있는 옵션을 설정합니다
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// MaxResolution 옵션을 설정
+// MaxResolution 옵션을 설정합니다
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
-// 최적화 옵션으로 PDF 문서를 최적화
+// OptimizationOptions를 사용하여 PDF 문서를 최적화
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
@@ -42,6 +42,6 @@ dataDir = dataDir + "ResizeImages_out.pdf";
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-
-// 성공에 대해 사용자에게 알리십시오
+// 성공에 대해 사용자에게 알려
 Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
 //ExEnd

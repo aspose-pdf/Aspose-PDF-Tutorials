@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Bu kod, 10 satır ve 3 sütun içeren bir tablo ile bir PDF belgesinin nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Bu adım, çıktılı PDF dosyasının kaydedileceği dizin yolunu belirler.
+//ExStepSummary:1: Bu adım yeni bir PDF belge örneği oluşturur.
+//ExStepSummary:2: Bu adım yeni bir tablo nesnesini başlatır.
+//ExStepSummary:3: Bu adım, tabloun kenar rengi LightGray'e ayarlanır.
+//ExStepSummary:4: Bu adım, tüm tablo hücrelerine LightGray sınırını uyguluyor.
+//ExStepSummary:5: Bu adım, masaya 10 satır eklemek için bir döngü başlatır.
+//ExStepSummary:6: Bu adım, tabloya yeni bir satır ekler ve dikey hizalamasını merkezde ayarlar.
+//ExStepSummary:7: Bu adım, satıra üç hücre ekler ve ilk hücre, mevcut zaman damgasına dayalı dinamik içeriği içerir.
+//ExStepSummary:8: Bu adım PDF belgesine yeni bir sayfa ekler.
+//ExStepSummary:9: Bu adım, tablonun belgedeki yeni oluşturulan sayfaya eklenmesini sağlar.
+//ExStepSummary:10: Bu adım, nihai PDF belgesini belirtilen çıkış dizinine kaydeder.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Belge dizini yoluna.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir PDF belge oluşturun.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Tablonun yeni bir örneğini başlatır.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Masa kenarlığı rengini LightGray olarak ayarlayın.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Tablo hücreleri için sınırını ayarlayın.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// 10 satır eklemek için bir döngü oluştur
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Tabloya satır ekle
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Sıraların dikey hizasını ayarlayın.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Dinamik içeriği olan ilk hücreyi ekleyin.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// İkinci hücreyi ekle.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Üçüncü hücreyi ekle.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// PDF belgesine yeni bir sayfa ekleyin.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Tablo nesnesini belgenin ilk sayfasına ekleyin.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Tablo nesnesi içeren güncellenmiş belgeyi kaydet.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

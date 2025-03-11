@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit einer Tabelle mit 10 Zeilen und 3 Spalten erstellt.
+//ExStepSummary:0: Dieser Schritt legt den Verzeichnispfad fest, in dem die Ausgabe der PDF-Datei gespeichert wird.
+//ExStepSummary:1: Dieser Schritt erstellt eine neue PDF-Dokumentinstanz.
+//ExStepSummary:2: Dieser Schritt initialisiert ein neues Tabellenobjekt.
+//ExStepSummary:3: Dieser Schritt setzt die Randfarbe der Tabelle auf LightGray.
+//ExStepSummary:4: Dieser Schritt wendet eine LightGray-Ränder auf alle Tabellenzellen an.
+//ExStepSummary:5: Dieser Schritt startet eine Schleife, um 10 Zeilen zum Tisch hinzuzufügen.
+//ExStepSummary:6: Dieser Schritt fügt der Tabelle eine neue Zeile hinzu und setzt ihre vertikale Ausrichtung auf die Mitte.
+//ExStepSummary:7: Dieser Schritt fügt drei Zellen zur Zeile hinzu, wobei die erste Zelle dynamischen Inhalt auf der Grundlage des aktuellen Zeitstempels enthält.
+//ExStepSummary:8: Dieser Schritt fügt dem PDF-Dokument eine neue Seite hinzu.
+//ExStepSummary:9: Dieser Schritt fügt die Tabelle der neu erstellten Seite im Dokument hinzu.
+//ExStepSummary:10: Dieser Schritt speichert das endgültige PDF-Dokument in das angegebene Ausgabeverzeichnis.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Der Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Erstellen Sie ein neues PDF-Dokument.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Initialisiert eine neue Instanz der Tabelle.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Die Tabellengrenzfarbe auf Hellgrau setzen.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Die Grenze für Tabellzellen setzen.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Erstellen Sie eine Schleife , um 10 Zeilen hinzuzufügen
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Zeile in Tabelle hinzufügen
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Vertikalstellung der Reihe festlegen.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Fügen Sie die erste Zelle mit dynamischem Inhalt hinzu.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Fügen Sie eine zweite Zelle hinzu.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Fügen Sie die dritte Zelle hinzu.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Fügen Sie dem PDF-Dokument eine neue Seite hinzu.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Das Tabellenobjekt auf die erste Seite des Dokuments hinzufügen.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Das aktualisierte Dokument mit dem Tabellenobjekt speichern.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

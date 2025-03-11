@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.PDF kullanarak bir PDF belgesinde çok sütunlu paragraflarla nasıl çalışacağınızı gösterir. Bir PDF yükler, paragrafları çıkarır ve sonra paragrafları tekrar çıkarmadan önce farkı göstermek için çok sütunlu paragraflara izin vermek için bir ayar değiştirir.
+//ExStepSummary:0: Aşağıdaki kod, PDF belgesinin bulunduğu veri dizini nasıl belirleneceğini gösterir.
+//ExStepSummary:1: Aşağıdaki kod, PDF belgesini Belge sınıfı kullanarak nasıl yükleneceğini gösterir.
+//ExStepSummary:2: Aşağıdaki kod, belgedeki paragrafları çıkarmak için ParagraphAbsorber'ı nasıl oluşturacağınızı gösterir.
+//ExStepSummary:3: Aşağıdaki kod, ParagraphAbsorber ile belgeyi nasıl ziyaret edip sonuçlarını nasıl dolduracağını gösterir.
+//ExStepSummary:4: Aşağıdaki kod, birinci sayfanın işaretlemesine nasıl erişeceğini ve çok sütunlu paragraflara izin vermeden önce paragraflar hakkında bilgiyi nasıl çıkaracağını gösterir.
+//ExStepSummary:5: Aşağıdaki kod, değişimin etkisini göstermek için çok sütunlu paragrafları nasıl etkinleştireceğini ve daha sonra paragraf bilgilerini nasıl yeniden çıkaracağını gösterir.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Veri dizinini belirtin.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// PDF belgesini yükle.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// ParagraphAbsorber oluştur.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Paragrafları çıkarmak için belgeye gidin.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Sayfa işaretlemesine eriş.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Üçüncü bölümden son paragrafa bakın.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// İkinci bölümden ilk paragrafa bakın.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Çok sütunlu paragrafları etkinleştir.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Üçüncü bölümden son paragrafı, çok sütunlu paragrafları etkinleştirdikten sonra alın.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Çok sütunlu paragrafları etkinleştirdikten sonra ikinci bölümden ilk paragrafı alın.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

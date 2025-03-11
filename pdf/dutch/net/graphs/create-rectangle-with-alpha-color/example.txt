@@ -1,56 +1,56 @@
 //ExStart
-//ExSummaryDeze code toont hoe je een PDF-document met Aspose.Pdf kunt maken en rectangels met alfa kleuren eraan toevoegt.
-//ExStepSummary:0: De volgende code geeft het pad naar het document directory.
-//ExStepSummary:1: De volgende code geeft een documentinstance aan.
+//ExSummary: Deze code laat zien hoe je een PDF-document maakt met Aspose.Pdf en er rechthoeken met alfa-kleuren aan toevoegt.
+//ExStepSummary:0: De volgende code geeft het pad naar de documentenmap.
+//ExStepSummary:1: De volgende code instantiëert een Document-instansie.
 //ExStepSummary:2: De volgende code voegt een pagina toe aan de pagina'scollectie van het PDF- bestand.
-//ExStepSummary:3: De volgende code maakt een Graph-instance om vormen op de PDF-pagina te tekenen.
-//ExStepSummary:4: De volgende code creëert een rechthoekig object met specifieke afmetingen en kleur.
-//ExStepSummary:5: De volgende code creëert een tweede rechthoekig object en voegt het toe aan de grafiek.
-//ExStepSummary:6: De volgende code voegt de grafiekinstansie toe aan de collectie paragrafen van de pagina.
-//ExStepSummary:7: De volgende code slaat het PDF-bestand op en printeert een succesbericht naar de console.
+//ExStepSummary:3: De volgende code maakt een Graph-instansie om vormen op de PDF-pagina te tekenen.
+//ExStepSummary:4: De volgende code creëert een rechthoekig object met specifieke afmetingen en een kleurenvulling.
+//ExStepSummary:5: De volgende code maakt een tweede rechthoekig object en voegt het toe aan de grafiek.
+//ExStepSummary:6: De volgende code voegt de grafiekinstantie toe aan de pagina's paragraafcollectie.
+//ExStepSummary:7: De volgende code slaat het PDF-bestand op en stuurt een succesbericht naar de console.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// Stap om het directory voor het opslaan van het document te definiëren
+// Stap om de map voor het opslaan van het document te definiëren
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Instantieert de Document-instance voor het maken van een PDF
+// Installeer de Document-instantie voor het maken van een PDF
 Document doc = new Document();
 
 //ExStep:2-
-// Voeg een nieuwe pagina toe aan het PDF-document
+// Een nieuwe pagina toevoegen aan het PDF-document
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Maak een Grafiek voor het tekenen van vormen
+// Een Graph-instansie maken voor het tekenen van vormen
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Maak een rechthoek met gespecificeerde afmetingen
+// Een rechthoek met bepaalde afmetingen maken
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// Stel de kleur van de vul met behulp van ARGB
+// Stel de vulkleur in met ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// Creëer een tweede rechthoekig object
+// Een tweede rechthoekig object maken
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// Stel de kleur van de vellen voor het tweede rechthoek
+// Stel de vulkleur in voor het tweede rechthoek
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Voeg het eerste rechthoek toe aan de vormencollectie van de Graph-instantie
+// Voeg de eerste rechthoek toe aan de vormencollectie van de Graph-instansie
 canvas.Shapes.Add(rect);
-// Voeg het tweede rechthoek toe aan de vormencollectie van de Graph-instantie
+// Voeg de tweede rechthoek toe aan de vormencollectie van de Graph-instansie
 canvas.Shapes.Add(rect1);
-// Voeg de Grafiek-instansie toe aan de paragraafverzameling van de pagina
+// Voeg de Graph-instansie toe aan de pagina's paragraafcollectie
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Bereid het output-bestandpad voor
+// Het pad van het bestand voorbereiden
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Bewaar het PDF-document op het gespecificeerde pad
+// Bewaar het PDF-document op het opgegeven pad
 doc.Save(dataDir);
-// Prent een succesbericht op de console
+// Succes bericht afdrukken op de console
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

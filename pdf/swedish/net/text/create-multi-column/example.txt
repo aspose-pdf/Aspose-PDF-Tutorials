@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett flerkolumnigt PDF-dokument med hjälp av Aspose.PDF -biblioteket. Den sätter in marginaler, lägger till text med HTML- formatering och organiserar innehållet i kolumner.
+//ExStepSummary:0: Detta steg anger dokumentkatalogen, initialiserar ett nytt PDF-dokument och konfigurerar sidmarginalerna.
+//ExStepSummary:1: Detta steg lägger till en ny sida i dokumentet och ritar en horisontell linje med hjälp av klasserna Graph och Line.
+//ExStepSummary:2: Detta steg skapar ett HtmlFragment med formaterad text och lägger till det i PDF-dokumentet.
+//ExStepSummary:3: Detta steg skapar en FloatingBox för en tvåkolumnsplan och lägger till författarinformation till den.
+//ExStepSummary:4: Detta steg drar en annan horisontell linje inuti FloatingBox för visuell separation.
+//ExStepSummary:5: Detta steg lägger till ett långt textfragment i FloatingBox för att visa innehållsfördelning i flera kolumner.
+//ExStepSummary:6: Detta steg sparar dokumentet till den angivna utgångspåren och skriver ut ett framgångsmeddelande.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definera vägen till dokumentkatalogen
+string dataDir = "Your Document Directory";
+// Skapa en ny dokumentinstans
+Document doc = new Document(); 
+
+// Ange informationen till vänster marginal för PDF-filen
+doc.PageInfo.Margin.Left = 40; 
+// Ange informationen till höger kant för PDF-filen
+doc.PageInfo.Margin.Right = 40;
+// Lägg till en ny sida i dokumentet
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Skapa ett nytt Graph-objekt för att rita en linje
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Lägg till rad till avsnitt samling av avsnitt objekt
+page.Paragraphs.Add(graph1);
+
+// Ange koordinaterna för linjen
+// Definera start- och slutpunkterna för linjen
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Skapa en linje med angivna koordinater
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Lägg till linjeformen till grafen
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Skapa strängvariabler med text som innehåller html-taggar
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Skapa en HtmlFragment för rubriktexten
+HtmlFragment heading_text = new HtmlFragment(s);
+// Lägg till rubriktexten till sidan 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Skapa en ny FloatingBox för flerkolumnlayout
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Ange antalet kolumner till 2
+box.ColumnInfo.ColumnCount = 2; 
+// Ställ in avståndet mellan kolumnerna
+box.ColumnInfo.ColumnSpacing = "5";
+// Ange bredden för varje kolumn
+box.ColumnInfo.ColumnWidths = "105 105";
+// Skapa ett textfragment för författarinformation
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Ställ in teckensnittstorlek för texten
+text1.TextState.FontSize = 8;
+// Ställ in radspann för texten
+text1.TextState.LineSpacing = 2;
+// Lägg till författartext i den flytande rutan
+box.Paragraphs.Add(text1);
+// Uppdatera teckensnittets storlek
+text1.TextState.FontSize = 10;
+// Ställ in teckenstil till kursiv
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Skapa ett annat Graph-objekt för att rita en andra linje
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Ange koordinaterna för linjen
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Lägg till den andra linjen formen till diagrammet
+graph2.Shapes.Add(l2);
+
+// Lägg till rad till avsnitt samling av avsnitt objekt
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Skapa ett långt textfragment för att visa innehåll i kolumner
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Lägg till den långa texten i den flytande rutan
+box.Paragraphs.Add(text2); 
+// Lägg till den flytande rutan som innehåller allt innehåll på sidan
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Ange utgångsväg för PDF-fil
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Spara dokumentet till den angivna vägen
+doc.Save(dataDir); 
+// Meddelande om framgångsrik utskrift
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

@@ -1,8 +1,8 @@
 ---
-title: Optymalizuj obrazy PDF za pomocą Aspose.PDF dla .NET
+title: Optymalizacja obrazów PDF za pomocą Aspose.PDF dla .NET
 weight: 7700
 limit: 
-description: Naucz się kompresować i zmieniać rozmiar obrazów w dokumentach PDF za pomocą Aspose.PDF dla .NET z tym kompleksowym przykładem.
+description: Naucz się kompresji i zmiany rozmiaru obrazów w dokumentach PDF przy użyciu Aspose.PDF dla .NET z tym kompleksowym przykładem.
 keywords: [Aspose.PDF, .NET, PDF optimization, image compression, PDF resizing, PDF resources, Aspose documentation]
 url: /pl/net/images/resize-image/
 ---
@@ -10,9 +10,9 @@ url: /pl/net/images/resize-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Optymalizuj obrazy PDF za pomocą Aspose.PDF
+# Optymalizacja obrazów PDF za pomocą Aspose.PDF
 
-W tym przykładzie pokazano, jak zoptymalizować dokument PDF poprzez skompresję i przekształcenie obrazów w nim za pomocą Aspose.PDF dla .NET.
+Ten przykład pokazuje, jak zoptymalizować dokument PDF poprzez kompresję i zmiany rozmiaru obrazu za pomocą Aspose.PDF dla .NET. Postępując zgodnie z podanym kodem, można skutecznie zmniejszyć rozmiar pliku dokumentów PDF przy zachowaniu akceptowalnej jakości obrazu. Jest to szczególnie przydatne do poprawy wydajności i zmniejszenia kosztów przechowywania.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/resize-image/" >}}
@@ -20,15 +20,15 @@ W tym przykładzie pokazano, jak zoptymalizować dokument PDF poprzez skompresj�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Instrukcje instalacji
-1. Pobierz Aspose.PDF na .NET: odwiedź [Aspose.PDF dla strony pobrania .NET](https://docs.aspose.com/pdf/net/)Aby uzyskać najnowszą wersję.
-2. Instalacja za pośrednictwem NuGet: Otwórz projekt w Visual Studio i użyj następującego polecenia w konsoli pakietowego:
+## Instrukcje montażu
+1. Pobierz Aspose.PDF dla .NET: odwiedź[Aspose.PDF dla strony pobierania .NET](https://docs.aspose.com/pdf/net/)aby uzyskać najnowszą wersję.
+2. Zainstalowanie za pomocą NuGet: Otwórz projekt w Visual Studio i użyj następującej komendy w konsoli menedżera pakietów:
    ```
    Install-Package Aspose.PDF
    ```
 
-## Do szczegółów
-Dokumenty, odwiedź [Aspose.PDF dla odniesienia API .NET](https://reference.aspose.com/pdf/net/)\- Nie .
+## Aby uzyskać więcej informacji
+Dokumenty, odwiedź[Aspose.PDF dla .NET API Reference](https://reference.aspose.com/pdf/net/)\- Nie .
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

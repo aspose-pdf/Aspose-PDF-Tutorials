@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak přidat textový fragment do existujícího dokumentu PDF pomocí Aspose.PDF. Otevře PDF, vytvoří textový fragment s specifickými vlastnostmi a uloží upravený dokument.
+//ExStepSummary:0: Tento krok nastavuje cestu do adresáře dokumentů, kde se nachází vstupní PDF.
+//ExStepSummary:1: Tento krok otevře určený PDF dokument pro úpravu.
+//ExStepSummary:2: Tento krok získá konkrétní stránku z dokumentu PDF.
+//ExStepSummary:3: Tento krok vytváří textový fragment s specifikovaným obsahem a polohou na stránce.
+//ExStepSummary:4: Tento krok nastavuje různé vlastnosti pro textový fragment, včetně velikosti písma, typu písma, barvy pozadí a barvy popředí.
+//ExStepSummary:5: Tento krok vytváří objekt TextBuilder, který usnadní přidání textového fragmentu na stránku PDF.
+//ExStepSummary:6: Tento krok přidává textový fragment na stránku PDF.
+//ExStepSummary:7: Tento krok nastavuje cestu výstupního souboru pro modifikovaný PDF dokument.
+//ExStepSummary:8: Tento krok ukládá upravený PDF dokument na zadanou výstupní cestu.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Nastavte cestu adresáře pro dokumenty
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Otevřít specifikovaný PDF dokument
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Získejte druhou stránku dokumentu PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Vytvořit nový textový fragment s uvedeným obsahem
+TextFragment textFragment = new TextFragment("main text");
+// Nastavte polohu textového fragmentu na stránce
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Nastavte velikost písma textu
+textFragment.TextState.FontSize = 12;
+// Nastavit typ písma
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Nastavit barvu pozadí
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Nastavit barvu textu
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Vytvořit objekt TextBuilder pro stránku
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Přiložit textový fragment na stránku PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Nastavte cestu výstupního souboru pro upravený PDF dokument
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Uložit upravený PDF dokument na zadání výstupní stezky
+pdfDocument.Save(dataDir);
+// Zpráva o úspěšném výstupu
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

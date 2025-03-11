@@ -1,13 +1,13 @@
 //ExStart
-//ExSummaryBu kod Aspose.Pdf kullanarak bir PDF belgesini nasıl oluşturulacağını ve alfa renkleri olan dikdörtgenleri nasıl ekleyeceğini gösterir.
-//ExStepSummary:0: Aşağıdaki kod, belgeler dizinine giden yolu belirler.
-//ExStepSummary:1: Aşağıdaki kod bir Belge örneğini simgeledi.
+//ExSummary: Bu kod, Aspose.Pdf kullanarak bir PDF belgesini nasıl oluşturacağınızı ve alfa renkleri ile dikdörtgenler ekleyeceğinizi gösterir.
+//ExStepSummary:0: Aşağıdaki kod belge dizini yolunu belirler.
+//ExStepSummary:1: Aşağıdaki kod bir belge örneğini örnekler.
 //ExStepSummary:2: Aşağıdaki kod, PDF dosyasının sayfa koleksiyonuna bir sayfa ekler.
-//ExStepSummary:3: Aşağıdaki kod, PDF sayfasındaki şekilleri çizmek için bir Graph örneği oluşturur.
-//ExStepSummary:4: Aşağıdaki kod belirli boyutlara ve renk doldurmalarına sahip dikdörtgen bir nesne oluşturur.
-//ExStepSummary:5: Aşağıdaki kod ikinci dikdörtgen nesne oluşturur ve grafikte ekler.
+//ExStepSummary:3: Aşağıdaki kod, PDF sayfasında şekil çizmek için bir Graph örneği oluşturur.
+//ExStepSummary:4: Aşağıdaki kod belirli boyutlara ve doldurma rengine sahip bir dikdörtgen nesne oluşturur.
+//ExStepSummary:5: Aşağıdaki kod ikinci bir dikdörtgen nesnesi oluşturur ve grafiğe ekler.
 //ExStepSummary:6: Aşağıdaki kod, sayfanın paragraf koleksiyonuna grafik örneğini ekler.
-//ExStepSummary:7: Aşağıdaki kod PDF dosyasını kaydetir ve konsolle başarı mesajını basar.
+//ExStepSummary:7: Aşağıdaki kod PDF dosyasını kaydeder ve konsol için bir başarı mesajı yazdırır.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
@@ -15,7 +15,7 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// PDF oluşturmak için Belge örneğini göster
+// PDF oluşturmak için belge örneğini oluştur
 Document doc = new Document();
 
 //ExStep:2-
@@ -23,34 +23,34 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Şekiller çizmek için bir Graf örnek oluştur
+// Şekil çizmek için bir Graph örneği oluştur
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Belirtilen boyutlarla dikdörtgen oluştur
+// Belirtilen boyutlara sahip bir dikdörtgen oluştur
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// ARGB kullanarak doldurma rengini ayarlayın
+// ARGB kullanarak doldurma rengini ayarla
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// İkinci dikdörtgen nesne oluştur
+// İkinci bir dikdörtgen nesne oluştur
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// İkinci dikdörtgen için doldurma rengini ayarlayın
+// İkinci dikdörtgen için doldurma rengini ayarla
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Graf örneğinin şekil koleksiyonuna ilk dikdörtgen ekle
+// İlk dikdörtgeni Graph örneğinin şekil koleksiyonuna ekle
 canvas.Shapes.Add(rect);
-// Graf örneğinin şekil koleksiyonuna ikinci dikdörtgen ekle
+// Graph örneğinin şekil koleksiyonuna ikinci dikdörtgeni ekle
 canvas.Shapes.Add(rect1);
 // Sayfanın paragraf koleksiyonuna Graph örneğini ekleyin
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Çıktı dosya yolu hazırlayın
+// Çıktı dosyası yolunu hazırla
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// PDF belgesini belirtilen yolda kaydet
+// PDF belgesini belirtilen yola kaydet
 doc.Save(dataDir);
-// Konsoluna başarı mesajını yazdır
+// Konsol için başarı mesajı yazdır
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

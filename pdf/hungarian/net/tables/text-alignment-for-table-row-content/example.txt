@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot egy 10 sorból és 3 oszlopból álló táblázatból.
+//ExStepSummary:0: Ez a lépés meghatározza a címlap útvonalát, ahol a kimeneti PDF fájlot menteni fogják.
+//ExStepSummary:1: Ez a lépés egy új PDF dokumentum példányát hoz létre.
+//ExStepSummary:2: Ez a lépés egy új táblázat objektumot indít.
+//ExStepSummary:3: Ez a lépés a táblázat határszínét világosszürkére állítja.
+//ExStepSummary:4: Ez a lépés egy LightGray határát alkalmazza az összes táblázatcellára.
+//ExStepSummary:5: Ez a lépés egy hurkot indít, hogy 10 sorot adjunk hozzá az asztalhoz.
+//ExStepSummary:6: Ez a lépés új sorot ad a táblázathoz, és a függőleges sorrendet középre állítja.
+//ExStepSummary:7: Ez a lépés három cellát ad hozzá a sorhoz, az első cellában pedig a jelenlegi időbélyeg alapján dinamikus tartalom található.
+//ExStepSummary:8: Ez a lépés új oldalt ad hozzá a PDF dokumentumhoz.
+//ExStepSummary:9: Ez a lépés hozzáadja az asztalt a dokumentum újonnan létrehozott oldalához.
+//ExStepSummary:10: Ez a lépés a végleges PDF dokumentumot a megadott kimeneti címtárba ment.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// A dokumentumkönyv útvonala.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Hozzon létre egy új PDF dokumentumot.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// A táblázat új példányát inicializálja.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// A táblázat határszíne LightGray legyen.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// A táblázat cellái határát állítsa be.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Lökés létrehozása 10 sor hozzáadásához
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Sor hozzáadása a táblázathoz
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// A sor függőleges elhelyezkedését állítsuk be.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Adja hozzá a dinamikus tartalommal rendelkező első cellát.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Adjunk hozzá egy második cellát.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Adjunk hozzá egy harmadik cellát.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Adjunk hozzá egy új oldalt a PDF dokumentumhoz.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// A táblázat objektumát a dokumentum első oldalára kell hozzáadni.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Tárolja a táblázatobjektumot tartalmazó frissített dokumentumot.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

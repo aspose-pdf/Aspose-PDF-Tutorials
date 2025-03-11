@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF dan menambahkan fragmen teks dengan pemformatan di bawah garis.
+//ExStepSummary:0: Tentukan direktori di mana dokumen PDF akan disimpan.
+//ExStepSummary:1: Inisialisasi dokumen PDF baru dan tambahkan halaman ke dalamnya.
+//ExStepSummary:2: Buat objek TextBuilder untuk halaman pertama dokumen.
+//ExStepSummary:3: Buat TextFragment dengan pesan uji, atur fontnya menjadi Arial, ukuran menjadi 10, dan aktifkan pemformatan garis bawah.
+//ExStepSummary:4: Tentukan posisi TextFragment di PDF dan lampiran ke TextBuilder.
+//ExStepSummary:5: Tentukan jalur file output dan simpan dokumen PDF.
+//ExStepSummary:6: Keluarkan pesan keberhasilan yang menunjukkan teks yang digarisbawahi ditambahkan dan menunjukkan lokasi file.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Tentukan direktori di mana dokumen akan disimpan.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Inisialisasi dokumen PDF baru.
+Document pdfDocument = new Document();
+// Tambahkan halaman baru ke dokumen.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Buat TextBuilder untuk halaman pertama.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Buat TextFragment dengan teks yang ditentukan.
+TextFragment fragment = new TextFragment("Test message");
+// Tetapkan fontnya ke Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Atur ukuran font menjadi 10.
+fragment.TextState.FontSize = 10;
+// Aktifkan pemformatan tanda bawah untuk teks.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Tentukan posisi TextFragment dalam PDF.
+fragment.Position = new Position(10, 800);
+// Tambahkan TextFragment ke TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Tentukan jalur file output untuk PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Simpan dokumen ke jalur yang ditentukan.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Pesan sukses.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

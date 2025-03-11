@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak pracovat s více sloupcovými odstavci v PDF dokumentu pomocí Aspose.PDF. Nahrává PDF, extrahuje odstavce a poté mění nastavení, aby umožnilo více sloupcových odstavců před extrahováním odstavců znovu ukázat rozdíl.
+//ExStepSummary:0: Následující kód ukazuje, jak určit adresář dat, ve kterém se PDF dokument nachází.
+//ExStepSummary:1: Následující kód ukazuje, jak načíst PDF dokument pomocí třídy Document.
+//ExStepSummary:2: Následující kód ukazuje, jak vytvořit ParagraphAbsorber pro extrakci odstavců z dokumentu.
+//ExStepSummary:3: Následující kód ukazuje, jak navštívit dokument s ParagraphAbsorberem a vyplnit jeho výsledky.
+//ExStepSummary:4: Následující kód ukazuje, jak se přistupovat k značce první stránky a získat informace o odstavcích před povolením odstavců s více sloupci.
+//ExStepSummary:5: Následující kód ukazuje, jak povolit víceoddílové odstavce a následně znovu extrahovat informace o odstavci, aby se ukázal účinek změny.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Uveďte adresář dat.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Nahrňte PDF dokument.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Vytvořte Absorbora odstavců.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Pro extrahování odstavců navštivte dokument.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Přístup k značce stránky.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Vezměte si poslední odstavec ze třetí části.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Vezměte první odstavec z druhé části.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Zapněte párty s více sloupci.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Získejte poslední odstavec ze třetí části po zapnutí více sloupců.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Získejte první odstavec z druhého oddílu po zapnutí více sloupců.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

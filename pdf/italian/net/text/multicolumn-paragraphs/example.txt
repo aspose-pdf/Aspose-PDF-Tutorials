@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Questo codice mostra come lavorare con paragrafi a più colonne in un documento PDF utilizzando Aspose.PDF. Carica un PDF, estrae i paragrafi e quindi modifica un'impostazione per consentire i paragrafi a più colonne prima di estrarre i paragrafi di nuovo per mostrare la differenza.
+//ExStepSummary:0: Il seguente codice mostra come specificare la directory di dati in cui si trova il documento PDF.
+//ExStepSummary:1: Il codice seguente mostra come caricare il documento PDF utilizzando la classe Documento.
+//ExStepSummary:2: Il seguente codice mostra come creare un ParagraphAbsorber per estrarre paragrafi dal documento.
+//ExStepSummary:3: Il seguente codice mostra come visitare il documento con il ParagraphAbsorber per riempire i suoi risultati.
+//ExStepSummary:4: Il seguente codice mostra come accedere al markup della prima pagina ed estrarre informazioni sui paragrafi prima di consentire paragrafi a più colonne.
+//ExStepSummary:5: Il seguente codice mostra come abilitare i paragrafi a più colonne e quindi estrarre nuovamente le informazioni del paragrafo per mostrare l'effetto della modifica.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Specifica la directory dei dati.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Caricare il documento PDF.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Crea un ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Visita il documento per estrarre i paragrafi.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Accedere al markup della pagina.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Prendi l'ultimo paragrafo della terza sezione.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Prendi il primo paragrafo dalla seconda sezione.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Abilitare paragrafi a più colonne.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Ottenere l'ultimo paragrafo della terza sezione dopo aver abilitato i paragrafi a più colonne.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Ottenere il primo paragrafo dalla seconda sezione dopo aver abilitato i paragrafi a più colonne.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Denna kod visar hur man arbetar med flerkolumnstavlor i ett PDF-dokument med hjälp av Aspose.PDF. Den laddar en PDF, extraherar stycken och ändrar sedan en inställning för att tillåta flerkolumnstavlor innan du extraherar stycken igen för att visa skillnaden.
+//ExStepSummary:0: Följande kod visar hur man anger den datakatt där PDF-dokumentet finns.
+//ExStepSummary:1: Följande kod visar hur du laddar PDF-dokumentet med hjälp av klassen Dokument.
+//ExStepSummary:2: Följande kod visar hur man skapar en ParagraphAbsorber för att extrahera stycken från dokumentet.
+//ExStepSummary:3: Följande kod visar hur man besöker dokumentet med ParagraphAbsorber för att fylla i resultaten.
+//ExStepSummary:4: Följande kod visar hur man får tillgång till första sidans märkning och hämtar information om stycken innan flerkolumnstyper tillåts.
+//ExStepSummary:5: Följande kod visar hur man aktiverar flerkolumnspapper och sedan återanvänder paragrafinformation för att visa effekten av ändringen.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Ange datakortet.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ladda upp PDF-dokumentet.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Skapa en ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Besök dokumentet för att extrahera stycken.
+absorber.Visit(doc);
+
+//ExStep:4-
+// -Få åtkomst till sidmärkningen.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Ta det sista stycket från tredje avsnittet.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Ta det första stycket från andra avsnittet.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Aktivera flerkolumnstavlor.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Få det sista stycket från det tredje avsnittet efter att ha aktiverat flerkolumnstavlor.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Få det första stycket från det andra avsnittet efter att ha aktiverat flerkolumnstavlor.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

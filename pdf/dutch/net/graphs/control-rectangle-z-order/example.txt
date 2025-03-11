@@ -1,30 +1,30 @@
 //ExStart
-//ExSummaryDeze code toont hoe je een PDF-document kunt maken, rechthoekige stukken met verschillende kleuren en Z-indices kunt toevoegen en het document kunt opslaan.
-//ExStepSummary:0: Deze stap definieert de output directory voor het PDF-document en instantieert een nieuw Document object en voegt een nieuwe pagina toe met gespecificeerde afmetingen.
-//ExStepSummary:1: Deze stap bepaalt de paginagrootte en marge voor de nieuw gecreëerde pagina.
-//ExStepSummary:2: Deze stap voegt een rode rechthoek toe bij gespecificeerde coördinaten met een Z-index van 2, waardoor deze boven andere vormen verschijnt.
-//ExStepSummary:3: Deze stap voegt een blauwe rechthoek aan bepaalde coördinaten toe met een Z-index van 1, waardoor deze onder de rode rechthoek maar boven andere wordt weergegeven.
-//ExStepSummary:4: Deze stap voegt een groene rechthoek toe op gespecificeerde coördinaten met een Z-index van 0, waardoor deze aan de onderkant van de Z-orde verschijnt.
-//ExStepSummary:5: Deze stap slaat het PDF-document op het gespecificeerde outputbestandpad.
-//ExStepSummary:6: Deze stap definieert een methode om de logica voor het toevoegen van rechthoekigen aan de PDF-pagina te omvatten, met inbegrip van het instellen van hun eigenschappen en Z-index.
+//ExSummary: Deze code laat zien hoe je een PDF-document maakt, rechthoeken met verschillende kleuren en Z-index toevoegt en het document opslaat.
+//ExStepSummary:0: Deze stap definieert de outputmap voor het PDF-document en instantiëert een nieuw Document-object en voegt een nieuwe pagina met gespecificeerde afmetingen toe.
+//ExStepSummary:1: Deze stap stelt de pagina grootte en marge voor de nieuw gecreëerde pagina.
+//ExStepSummary:2: Deze stap voegt een rode rechthoek toe op gespecificeerde coördinaten met een Z-index van 2, zodat deze boven andere vormen verschijnt.
+//ExStepSummary:3: Deze stap voegt een blauwe rechthoek toe aan gespecificeerde coördinaten met een Z-index van 1, zodat deze onder de rode rechthoek, maar boven andere rechthoeken verschijnt.
+//ExStepSummary:4: Deze stap voegt een groene rechthoek toe aan gespecificeerde coördinaten met een Z-index van 0, zodat deze onderaan de Z-orde verschijnt.
+//ExStepSummary:5: Deze stap slaat het PDF-document op het gespecificeerde pad van het outputbestand.
+//ExStepSummary:6: Deze stap definieert een methode om de logica voor het toevoegen van rechthoeken aan de PDF-pagina te verpakken, inclusief het instellen van hun eigenschappen en Z-index.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Definieer het document directory
+// De documentmap definiëren
 string dataDir = "Your Document Directory";
 
-// Instantie Document-klasse object
+// Instantiëren van een object van de Documentklasse
 Document doc1 = new Document();
 
-// Voeg een nieuwe pagina toe aan het document
+// Een nieuwe pagina toevoegen aan het document
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
 
 //ExStep:1-
-// Set pagina grootte
+// Plaats pagina-grootte
 page1.SetPageSize(375, 300);
 
-// Stel pagina'smarges op 0
+// Stel pagina marges op 0
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
@@ -33,7 +33,7 @@ page1.PageInfo.Margin.Top = 0;
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 
 //ExStep:3-
-// Voeg een blauw rechthoek toe met Z-index 1
+// Voeg een blauwe rechthoek toe met Z-index 1
 AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 
 //ExStep:4-
@@ -49,27 +49,27 @@ doc1.Save(outputFilePath);
 // Methode om een rechthoek aan de PDF-pagina toe te voegen
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // Maak een grafiek voorwerp met dezelfde afmetingen als het rechthoek
+    // Een grafiekobject maken met dezelfde afmetingen als de rechthoek
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Verhinderen dat de grafiekpositie automatisch verandert
+    // Vermijd dat de grafiekpositie automatisch verandert
     graph.IsChangePosition = false;
     
-    // Stel de grafiekpositie vast
+    // Stel grafiekpositie in
     graph.Left = x;
     graph.Top = y;
     
-    // Maak een rechthoek binnen de grafiek
+    // Maak een rechthoek in de grafiek
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Stel rechthoekige vul en rand kleur
+    // Stel rechthoek vul en rand kleur
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // Voeg rechthoek aan de grafiekvormen collectie
+    // Voeg rechthoek toe aan de collectie grafiekvormen
     graph.Shapes.Add(rect);
     
-    // Z-index voor het grafiekobject
+    // Z-index voor het grafiekobject instellen
     graph.ZIndex = zindex;
     
     // Grafiek toevoegen aan de pagina

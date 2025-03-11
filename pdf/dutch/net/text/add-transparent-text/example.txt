@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe u een PDF-document maakt dat een rechthoek en een tekstfragment met transparante teksteffecten bevat.`AddTransparentText_out.pdf`in de gespecificeerde map.
+//ExStepSummary:0: Initialiseer het document directory pad en maak een nieuw PDF-document met een pagina.
+//ExStepSummary:1: Maak een Graph-object en een rechthoek met een transparante vulkleur en voeg het vervolgens toe aan de pagina.
+//ExStepSummary:2: Maak een TextFragment met voorbeeldtekst en stel transparante groene kleur in met 30% ondoorzichtigheid.
+//ExStepSummary:3: Bewaar het document op het gespecificeerde outputpad.
+//ExStepSummary:4: Een succesbericht weergeven met het bestandspad.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Het pad naar de documentenmap.
+string dataDir = "Your Document Directory";
+
+// Document instanties maken
+Document doc = new Document(); 
+
+// Maak pagina-op-pagina verzameling PDF-bestanden
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Graph-object maken met breedte en hoogte
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Het maken van een rechthoekige instantie met gedefinieerde afmetingen
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Kleurenobject maken vanuit Alpha-kleurkanaal
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Voeg rechthoek toe aan de vormen collectie van Graph object
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Graaf object toevoegen aan paragrafen collectie pagina object
+page.Paragraphs.Add(canvas);
+
+// Stel waarde in om de positie van grafiekobject niet te veranderen
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Het maken van een TextFragment-instantie met een voorbeeldwaarde
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Kleurobject maken vanaf Alpha-kanaal
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Kleurinformatie voor tekstinstanties instellen
+text.TextState.ForegroundColor = color;
+
+// Voeg tekst toe aan paragrafen verzameling pagina-instanties
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Specificeer het uitvoerpad voor het PDF-bestand
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Bewaar het document op het opgegeven pad
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Informeren van het voltooien van het proces
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

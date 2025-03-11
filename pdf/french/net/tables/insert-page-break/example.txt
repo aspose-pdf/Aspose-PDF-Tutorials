@@ -1,69 +1,69 @@
 //ExStart
-//ExSummaryCe code montre comment créer un document PDF à l'aide de Aspose.PDF, ajouter une table avec des styles de bord spécifiques et mettre en œuvre la pagination après un certain nombre de lignes.
-//ExStepSummary:0: Cette étape initialise le document et y ajoute une page.
-//ExStepSummary:1: Cette étape crée une instance de table et définit ses styles de bord.
+//ExSummary: Ce code démontre comment créer un document PDF en utilisant Aspose.PDF, ajouter une table avec des styles de bordure spécifiques et mettre en œuvre la pagination après un certain nombre de lignes.
+//ExStepSummary:0: Cette étape initie le document et y ajoute une page.
+//ExStepSummary:1: Cette étape crée une instance de table et définit ses styles de bordure.
 //ExStepSummary:2: Cette étape spécifie les largeurs de colonne pour le tableau.
-//ExStepSummary:3: Cette étape ajoute 200 rangées au tableau, chaque rangée contenant deux cellules.
-//ExStepSummary:4: Cette étape vérifie si 10 lignes ont été ajoutées et passe à une nouvelle page si oui.
-//ExStepSummary:5: Cette étape ajoute la table complète à la page du document PDF et l'enregistre.
+//ExStepSummary:3: Cette étape ajoute 200 lignes au tableau, chacune contenant deux cellules.
+//ExStepSummary:4: Cette étape vérifie si 10 lignes ont été ajoutées et passe à une nouvelle page si c'est le cas.
+//ExStepSummary:5: Cette étape ajoute le tableau complété à la page du document PDF et l'enregistre.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// Le chemin vers le répertoire de documents
+// Le chemin vers le répertoire des documents
 string dataDir = "Your Document Directory";
 
-// Instance de document instantané
+// Installé l'instance du document
 Document doc = new Document();
 
-// Ajouter une page à la collection de pages de fichier PDF
+// Ajouter des pages à la collection de fichiers PDF
 doc.Pages.Add();
 
 //ExStep:1-
 // Créer une instance de table
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// Définir le style de bord pour la table
+// Définir le style de bordure pour la table
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Définir le style de bord par défaut pour la table avec la couleur de bord comme rouge
+// Définir le style de bordure par défaut pour la table avec la couleur de bordure comme rouge
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// Indiquer la largeur des colonnes de la table (2 colonnes, 100 unités chacune)
+// Indiquer la largeur des colonnes de table (2 colonnes, chacune de 100 unités)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// Créer une boucle pour ajouter 200 lignes à la table
+// Créer une boucle pour ajouter 200 lignes pour la table
 for (int counter = 0; counter <= 200; counter++)
 {
-	// Créer une nouvelle rangée
+	// Créer une nouvelle ligne
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
-	// Ajoutez la rangée à la table
+	// Ajouter la ligne au tableau
     tab.Rows.Add(row); 
 
     // Créer la première cellule et ajouter du texte
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
 	// Ajouter un fragment de texte à la première cellule	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
-	// Ajouter la première cellule à la rangée
+	// Ajouter la première cellule à la ligne
     row.Cells.Add(cell1); 
 
     // Créer une deuxième cellule et ajouter du texte
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
 	// Ajouter un fragment de texte à la deuxième cellule	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// Ajouter une deuxième cellule à la rangée
+	// Ajouter une deuxième cellule à la ligne
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // Lorsque 10 lignes sont ajoutées, rendre la nouvelle ligne dans une nouvelle page
+    // Lorsque 10 lignes sont ajoutées, afficher une nouvelle ligne dans la nouvelle page
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// Ajouter une table à la collection de paragraphes de la première page
+// Ajouter la table aux paragraphes de la première page
 doc.Pages[1].Paragraphs.Add(tab); 
 // Définir le chemin du fichier de sortie
 dataDir = dataDir + "InsertPageBreak_out.pdf";

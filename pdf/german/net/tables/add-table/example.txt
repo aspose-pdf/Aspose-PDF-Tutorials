@@ -1,51 +1,51 @@
 //ExStart
-//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit einer Tabelle erstellt. Die Tabelle wird auf der zweiten Seite eines vorhandenen PDF-Dokumentes hinzugefügt und enthält eine bestimmte Anzahl von Zeilen- und Spaltendaten.
-//ExStepSummary:0: Dieser Schritt initialisiert den Dateipfad für das PDF-Dokument, das verarbeitet werden soll.
-//ExStepSummary:1: Dieser Schritt lädt das vorhandene PDF-Dokument aus dem angegebenen Verzeichnis ein.
-//ExStepSummary:2: Dieser Schritt erstellt eine neue Tabelleninstance und setzt ihre Grenzwerte fest.
-//ExStepSummary:3: Dieser Schritt initialisiert die Schleife, um mehrere Zeilen in die Tabelle hinzuzufügen und jede mit Zelldaten zu bevölkern.
-//ExStepSummary:4: Dieser Schritt fügt die erstellte Tabelle auf die erste Seite des PDF- Dokuments ein.
-//ExStepSummary:5: Dieser Schritt speichert das aktualisierte PDF-Dokument mit der neu hinzugefügten Tabelle auf einen angegebenen Ausgangsweg.
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit einer Tabelle erstellt. Die Tabelle wird der zweiten Seite eines vorhandenen PDF-Dokumentes hinzugefügt und enthält eine bestimmte Anzahl von Zeilen- und Spaltendaten.
+//ExStepSummary:0: Dieser Schritt initialisiert den Pfad für das zu verarbeitende PDF-Dokument.
+//ExStepSummary:1: Dieser Schritt lädt das vorhandene PDF-Dokument aus dem angegebenen Verzeichnis.
+//ExStepSummary:2: Dieser Schritt erstellt eine neue Tabelleninstanz und setzt die Grenz- Eigenschaften.
+//ExStepSummary:3: Dieser Schritt initialisiert die Schleife, um mehrere Zeilen zur Tabelle hinzuzufügen und jede mit Zelldaten zu füllen.
+//ExStepSummary:4: Dieser Schritt fügt die erstellte Tabelle der ersten Seite des PDF-Dokumentes an.
+//ExStepSummary:5: Dieser Schritt speichert das aktualisierte PDF-Dokument mit der neu hinzugefügten Tabelle auf einen angegebenen Ausgabeweg.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Festlegen Sie den Weg für Dokumente
+// Die Wege für Dokumente definieren
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Laden Sie das Quell-PDF-Dokument
+// Das PDF-Dokument wird geladen
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
 // Ein neues Beispiel der Tabelle initialisieren
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Setzen Sie die Tischrandfarbe auf LightGray
+// Die Tabellengrenzfarbe auf Hellgrau setzen
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Festlegen Sie die Grenze für Tischzellen
+// Die Grenze für Tabellenzellen festlegen
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// Schleife, um 10 Reihen hinzuzufügen
+// Schleife zum Hinzufügen von 10 Zeilen
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Fügen Sie eine neue Zeile zum Tisch hinzu
+	// Hinzufügen einer neuen Zeile zur Tabelle
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Fügen Sie die erste Zelle in der Reihe hinzu
+	// Erste Zelle in der Zeile hinzufügen
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Fügen Sie die zweite Zelle in der Reihe hinzu
+	// Zweite Zelle in der Reihe hinzufügen
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Fügen Sie die dritte Zelle in der Reihe hinzu
+	// Hinzufügen der dritten Zelle in der Reihe
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Fügen Sie das Tabellenobjekt auf der ersten Seite des Eingabedokumentes hinzu
+// Das Tabellenobjekt auf die erste Seite des Eingabedokuments hinzufügen
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// Definieren Sie den Ausgangsdatei-Pfad für das aktualisierte Dokument
+// Festlegen des Ausgabe-Dateiwegs für das aktualisierte Dokument
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// Speichern Sie das aktualisierte Dokument mit der Tabelle
+// Speichern des aktualisierten Dokuments mit der Tabelle
 doc.Save(dataDir); 
-// Informieren Sie den Benutzer über die erfolgreiche Operation
+// Benutzer über den erfolgreichen Betrieb informieren
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

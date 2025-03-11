@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: このコードは",Aspose.PDF"を使用して既存の PDF 文書にテキストフラグメントを追加する方法を示します. PDF を開いて,特定のプロパティを持つテキストフラグメントを作成し,変更されたドキュメントを保存します.
+//ExStepSummary:0: このステップでは,入力PDFが位置するドキュメントディレクトリへのパスが設定されます.
+//ExStepSummary:1: このステップで,編集のために指定された PDF 文書を開きます.
+//ExStepSummary:2: このステップでは,PDF文書から特定のページを取得します.
+//ExStepSummary:3: このステップでは,ページ上の指定された内容と位置を表示したテキストフラグメントを作成します.
+//ExStepSummary:4: このステップでは,フォントサイズ,フォントタイプ,背景色,前面色を含むテキストフラグメントの様々なプロパティを設定します.
+//ExStepSummary:5: このステップでは,テキストフラグメントを PDF ページに追加することを容易にする TextBuilder オブジェクトを作成します.
+//ExStepSummary:6: このステップでは,テキストフラグメントを PDF ページに添付します.
+//ExStepSummary:7: このステップでは,変更された PDF 文書の出力ファイル パスを設定します.
+//ExStepSummary:8: このステップでは,変更された PDF 文書を指定された出力パスに保存します.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// 文書のディレクトリ経路を設定する
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// 指定された PDF 文書を開く
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// PDF 文書の第2ページを取得する
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// 指定された内容の新しいテキスト断片を作成
+TextFragment textFragment = new TextFragment("main text");
+// ページ上のテキストフラグメントの位置を設定する
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// テキストフラグメントのフォントサイズを設定する
+textFragment.TextState.FontSize = 12;
+// フォントタイプを設定する
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// 背景色を設定する
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// テキスト色を設定する
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// ページに TextBuilder オブジェクトを作成
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// テキスト断片をPDFページに添付する
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// 変更された PDF 文書の出力ファイル経路を設定する
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// 変更された PDF 文書を指定された出力パスに保存する
+pdfDocument.Save(dataDir);
+// 出力成功メッセージ
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

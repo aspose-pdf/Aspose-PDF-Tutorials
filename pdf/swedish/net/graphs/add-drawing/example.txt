@@ -1,35 +1,35 @@
 //ExStart
-//ExSummaryDenna kod visar hur man skapar ett PDF-dokument med en graf som innehåller en rektangel fylld med en transparent färg.
-//ExStepSummary:0: Följande kod initialiserar dataförteckningen för att spara PDF-filen.
-//ExStepSummary:1: Följande kod anger den alfa RGB-färg som ska användas för att fylla rektangeln.
-//ExStepSummary:2: Följande kod skapar ett nytt dokumentobjekt för PDF-filen.
-//ExStepSummary:3: Följande kod lägger en sida till PDF-dokumentet.
-//ExStepSummary:4: Följande kod skapar ett grafobjekt för att rita former i PDF-filen.
-//ExStepSummary:5: Följande kod anger en gräns för grafen objekt.
-//ExStepSummary:6: Följande kod lägger till grafen objektet i sidans avsnitt samling.
-//ExStepSummary:7: Följande kod skapar en rektangulär form som ska dras på grafen.
-//ExStepSummary:8: Följande kod anger färginformation för rektangels grafinformation.
-//ExStepSummary:9: Följande kod lägger till rektangulärform i grafen.
-//ExStepSummary:10: Följande kod sparar dokumentet till den angivna utgångsfilvägen.
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med en graf som innehåller en rektangel fylld med en transparent färg. Den går igenom processen att ställa in färgegenskaper, lägga till sidor och rita former i dokumentet.
+//ExStepSummary:0: Följande kod initialiserar datakortet för att spara PDF-filen.
+//ExStepSummary:1: Följande kod anger den alfa-RGB-färg som ska användas för att fylla rektangeln.
+//ExStepSummary:2: Följande kod skapar ett nytt dokument för PDF.
+//ExStepSummary:3: Följande kod lägger till en sida i PDF-dokumentet.
+//ExStepSummary:4: Följande kod skapar ett Graph-objekt för att rita former i PDF.
+//ExStepSummary:5: Följande kod anger en gräns för grafobjektet.
+//ExStepSummary:6: Följande kod lägger till grafobjektet i sidans avsnitt.
+//ExStepSummary:7: Följande kod skapar en rektangulär form som ska ritas på grafen.
+//ExStepSummary:8: Följande kod anger färginformation för rektangeln.
+//ExStepSummary:9: Följande kod lägger till rektangulär formen i grafens samling av former.
+//ExStepSummary:10: Följande kod sparar dokumentet till den angivna utgångspåspåret.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// Initializera vägen för att spara dokumentet
+// Initialisera vägen för att spara dokumentet
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Alpha-kanalvärde för öppenhet
+// Alpha-kanalvärde för insyn
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// Skapa färgobjekt med Alpha RGB
+// Skapa färgobjekt med hjälp av Alpha RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Instans för dokumentet
+// Instansera dokumentobjekt
 Document document = new Document();
 
 //ExStep:3-
@@ -37,39 +37,39 @@ Document document = new Document();
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Skapa grafobjekt med specifika dimensioner
+// Skapa Graph-objekt med specifika dimensioner
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Ställ gränser för objektet Graph
+// Ange gränsen för objektet Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Lägg till grafen objektet på sidan
+// Lägg till grafobjektet på sidan
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Skapa rektangulär objekt med specifika dimensioner
+// Skapa rektangulärt objekt med specifika dimensioner
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Skapa graphInfo för rektangeln
+// Skapa graphInfo-objekt för rektangeln
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Ange färginformation för GraphInfo- instans
+// Ange färginformation för GraphInfo-instans
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Lägg till rektangelsformen till grafen
+// Lägg till rektangulär formen till grafen
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Ställ in outputfilvägen för att spara dokumentet
+// Ange utgångsfilvägen för att spara dokumentet
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 
 //ExStep:11-
-// Bekräftelse meddelande
+// Bekräftelse
 Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
 //ExEnd

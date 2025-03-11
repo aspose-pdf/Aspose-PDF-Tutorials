@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक पीडीएफ दस्तावेज़ कैसे बनाया जाए जिसमें एक आयत और पारदर्शी पाठ प्रभावों के साथ एक पाठ अंश शामिल है। आउटपुट को सहेजा जाएगा `AddTransparentText_out.pdf जोड़ें`निर्दिष्ट निर्देशिका में.
+//ExStepSummary:0: दस्तावेज़ निर्देशिका पथ आरंभ करें और एक पृष्ठ के साथ एक नया पीडीएफ दस्तावेज़ बनाएँ.
+//ExStepSummary:1: पारदर्शी भरने के रंग के साथ एक ग्राफ वस्तु और आयत बनाएँ, और फिर इसे पृष्ठ में जोड़ें.
+//ExStepSummary:2: नमूना पाठ के साथ एक TextFragment बनाएँ और 30% अपारदर्शिता के साथ पारदर्शी हरे रंग सेट करें.
+//ExStepSummary:3: दस्तावेज़ को निर्दिष्ट आउटपुट पथ पर सहेजें.
+//ExStepSummary:4: फ़ाइल पथ के साथ सफलता संदेश प्रदर्शित करें.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+// दस्तावेज़ उदाहरण बनाएँ
+Document doc = new Document(); 
+
+// पृष्ठ से पृष्ठ संग्रह PDF फ़ाइल बनाएं
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// चौड़ाई और ऊंचाई के साथ ग्राफ़ ऑब्जेक्ट बनाएँ
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// परिभाषित आयामों के साथ आयत उदाहरण बनाएँ
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// अल्फा रंग चैनल से रंग वस्तु बनाएँ
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// आकृतियों के संग्रह में आर्क जोड़ें
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// अनुच्छेदों के लिए ग्राफ ऑब्जेक्ट जोड़ें पृष्ठ ऑब्जेक्ट का संग्रह
+page.Paragraphs.Add(canvas);
+
+// ग्राफ ऑब्जेक्ट के लिए स्थिति नहीं बदलने के लिए मान सेट करें
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// नमूना मान के साथ TextFragment उदाहरण बनाएँ
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// अल्फा चैनल से रंग वस्तु बनाएँ
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// पाठ उदाहरण के लिए रंग जानकारी सेट करें
+text.TextState.ForegroundColor = color;
+
+// अनुच्छेदों में पाठ जोड़ें पृष्ठ उदाहरण का संग्रह
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// पीडीएफ फ़ाइल के लिए आउटपुट पथ निर्दिष्ट करें
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save(dataDir); 
+
+//ExStep:4-
+// उपयोगकर्ता को सूचित करें कि प्रक्रिया पूरी हो गई है
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

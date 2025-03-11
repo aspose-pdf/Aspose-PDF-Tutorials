@@ -1,66 +1,66 @@
 //ExStart
-//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit Aspose.PDF erstellt, indem man zwei diagonale Linien über die Seite zeichnet.
-//ExStepSummary:0: Initialisieren Sie den Weg zum Dokumentenverzeichnis, in dem das PDF gespeichert wird.
-//ExStepSummary:1: Erstellen Sie eine neue Dokumentinstance für das PDF.
-//ExStepSummary:2: Fügen Sie eine Seite zur Sammlung von Seiten des Dokuments hinzu.
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit Aspose.PDF erstellt, indem man zwei diagonale Linien über die Seite zieht. Es initialisiert ein Dokument, fügt eine Seite hinzu und zeichnet Linien von Ecke zu Ecke, bevor das Dokument gespeichert wird.
+//ExStepSummary:0: Initialisieren Sie den Pfad für das Dokumentenverzeichnis, in dem die PDF gespeichert wird.
+//ExStepSummary:1: Erstellen Sie eine neue Dokumentinstanz für die PDF.
+//ExStepSummary:2: Fügen Sie eine Seite zur Seitenkollektion des Dokuments hinzu.
 //ExStepSummary:3: Setzen Sie die Seitenmargen auf Null für alle Seiten.
-//ExStepSummary:4: Erstellen Sie ein Graph-Objekt, um das Zeichnenbereich mit den Abmessungen der Seite Größe darzustellen.
-//ExStepSummary:5: Erstellen Sie das erste Zeilenobjekt von der linken unteren bis zur rechten oberen Ecke der Seite.
-//ExStepSummary:6: Fügen Sie die erste Zeile zur Formensammlung des Graph-Objekts hinzu.
-//ExStepSummary:7: Erstellen Sie das zweite Zeilenobjekt von der linken oberen bis zur rechten unteren Ecke der Seite.
-//ExStepSummary:8: Fügen Sie die zweite Zeile zur Formensammlung des Graph-Objekts hinzu.
-//ExStepSummary:9: Fügen Sie das Objekt Graph mit den Zeilen zur Sammlung von Absätzen der Seite hinzu.
-//ExStepSummary:10: Erstellen Sie den vollständigen Weg zur Speicherung der Ausgabe-PDF-Datei.
-//ExStepSummary:11: Speichern Sie das PDF-Dokument auf den angegebenen Weg.
+//ExStepSummary:4: Erstellen Sie ein Graph-Objekt, um den Zeichnungsbereich mit den gleichen Abmessungen wie die Seitengröße darzustellen.
+//ExStepSummary:5: Erstellen Sie das erste Zeilenobjekt von der unteren linken bis zur oberen rechten Ecke der Seite.
+//ExStepSummary:6: Fügen Sie die erste Zeile zur Formenkollektion des Graph-Objekts hinzu.
+//ExStepSummary:7: Erstellen Sie das zweite Zeilenobjekt von der oberen linken bis zur unteren rechten Ecke der Seite.
+//ExStepSummary:8: Fügen Sie die zweite Zeile zur Formenkollektion des Graph-Objekts hinzu.
+//ExStepSummary:9: Das Graph-Objekt, das die Zeilen enthält, wird der Absätze-Sammlung der Seite hinzugefügt.
+//ExStepSummary:10: Erstellen Sie den vollständigen Pfad zum Speichern der Ausgabe PDF-Datei.
+//ExStepSummary:11: Speichern Sie das PDF-Dokument auf dem angegebenen Pfad.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Initialisieren Sie den Weg für das Dokumentenverzeichnis
+// Beginn des Pfades für das Dokumentenverzeichnis
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Erstellen Sie Dokumentinstance
+// Erstellen einer Dokumentinstanz
 Document pDoc = new Document();
 
 //ExStep:2-
-// Hinzufügen von Seite zu Seite Sammlung von PDF-Dokument
+// Seite zu Seite hinzufügen PDF-Dokument-Sammlung
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Setzen Sie die Seite-Marge auf allen Seiten als 0
+// Setzen Sie die Seitenmarge auf alle Seiten auf 0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Erstellen Sie ein Graphobjekt mit Breite und Höhe gleich den Seitendimensionen
+// Erstellen Sie ein Graph-Objekt mit Breite und Höhe gleich den Seitenmaßen
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Erstellen Sie das erste Zeilenobjekt von der linken unteren bis rechten oberen Ecke der Seite
+// Erstellen Sie ein erstes Zeilenobjekt von der unteren linken bis zur oberen rechten Seite
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Zeichnen Sie eine Linie von der oberen linken Ecke der Seite zur unteren rechten Ecke der Seite
+// Zeichnen Sie eine Linie von der linken oberen Seite zur rechten unteren Seite
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Hinzufügen der zweiten Zeile zu Formen Sammlung von Graph Objekt
+// Hinzufügen einer zweiten Zeile zu der Formen-Sammlung des Graph-Objekts
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Hinzufügen von Graph-Objekt zu Absätzen Sammlung von Seiten
+// Hinzufügen von Graph-Objekten zu Absätzen
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Erstellen Sie den vollständigen Weg zur Speicherung der Ausgabe-PDF-Datei
+// Erstellen Sie den vollständigen Pfad zum Speichern der Ausgabe PDF-Datei
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
-// Speichern Sie die PDF-Datei
+// Speichern der PDF-Datei
 pDoc.Save(dataDir);
-// Nachricht zur Ausgabebestätigung
+// Ausgabe Bestätigungsnachricht
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

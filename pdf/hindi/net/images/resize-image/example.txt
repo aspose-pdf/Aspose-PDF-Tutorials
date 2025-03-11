@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि PDF दस्तावेज़ में छवियों को संपीड़ित करके और आकार बदलकर उन्हें कैसे अनुकूलित किया जाए।
+//ExStepSummary:0: निम्नलिखित कोड वर्तमान समय को आरंभ करता है और दस्तावेज़ निर्देशिका पथ सेट करता है.
+//ExStepSummary:1: निम्न कोड प्रसंस्करण के लिए निर्दिष्ट पीडीएफ दस्तावेज़ खोलता है।
+//ExStepSummary:2: निम्न कोड पीडीएफ के लिए अनुकूलन विकल्पों को आरंभ करता है.
+//ExStepSummary:3: निम्न कोड संपीड़न और गुणवत्ता सहित छवि संपीड़न सेटिंग्स को कॉन्फ़िगर करता है.
+//ExStepSummary:4: निम्नलिखित कोड पीडीएफ दस्तावेज़ पर अनुकूलन विकल्पों को लागू करता है।
+//ExStepSummary:5: निम्न कोड अनुकूलित पीडीएफ दस्तावेज़ को एक नई फ़ाइल में सहेजता है.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// समय आरंभ करें
+var time = DateTime.Now.Ticks;
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// खुला दस्तावेज
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// अनुकूलन विकल्प आरंभ करें
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// संपीड़ित छवि विकल्प सेट करें
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// छवि गुणवत्ता विकल्प सेट करें 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// आकार बदलें छवि विकल्प सेट करें
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// MaxResolution विकल्प सेट करें
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// अनुकूलन विकल्प का उपयोग करके पीडीएफ दस्तावेज़ का अनुकूलन करें
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// आउटपुट फ़ाइल के लिए डेटा निर्देशिका अद्यतन करें
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// अद्यतन दस्तावेज़ सहेजें
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// सफलता के बारे में उपयोगकर्ता को सूचित करें
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

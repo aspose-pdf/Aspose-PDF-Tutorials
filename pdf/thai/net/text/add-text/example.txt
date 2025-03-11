@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการเพิ่มชิ้นส่วนข้อความไปยังเอกสาร PDF ที่มีอยู่โดยใช้ Aspose.PDF. มันเปิด PDF, สร้างชิ้นส่วนข้อความที่มีคุณสมบัติเฉพาะเจาะจง, และบันทึกเอกสารที่เปลี่ยนแปลง.
+//ExStepSummary:0: ขั้นตอนนี้กําหนดเส้นทางไปยังพับเอกสารที่ PDF ที่ใส่อยู่
+//ExStepSummary:1: ขั้นตอนนี้จะเปิดเอกสาร PDF ที่กําหนดไว้เพื่อแก้ไข
+//ExStepSummary:2: ขั้นตอนนี้จะเรียกหน้าเฉพาะจากเอกสาร PDF
+//ExStepSummary:3: ขั้นตอนนี้สร้างชิ้นส่วนข้อความที่มีเนื้อหาและตําแหน่งที่กําหนดไว้บนหน้า
+//ExStepSummary:4: ขั้นตอนนี้ตั้งค่าคุณสมบัติต่างๆ สําหรับชิ้นส่วนข้อความ, รวมถึงขนาดตัวอักษร, ประเภทตัวอักษร, สีพื้นหลัง, และสีพื้นหน้า
+//ExStepSummary:5: ขั้นตอนนี้สร้างวัตถุ TextBuilder เพื่ออํานวยความสะดวกในการเพิ่มชิ้นส่วนข้อความไปยังหน้า PDF
+//ExStepSummary:6: ขั้นตอนนี้จะแนบเนื้อหาส่วนเล็ก ๆ กับหน้า PDF
+//ExStepSummary:7: ขั้นตอนนี้ตั้งเส้นทางไฟล์ผลิตสําหรับเอกสาร PDF ที่ถูกปรับปรุง
+//ExStepSummary:8: ขั้นตอนนี้จะบันทึกเอกสาร PDF ที่ถูกปรับปรุงไว้ในเส้นทางผลิตที่กําหนด
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// กําหนดเส้นทางของพับเอกสาร
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// เปิดเอกสาร PDF ที่กําหนด
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// รับหน้าที่สองของเอกสาร PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// สร้างชิ้นส่วนข้อความใหม่ที่มีเนื้อหาที่กําหนด
+TextFragment textFragment = new TextFragment("main text");
+// กําหนดตําแหน่งของชิ้นส่วนข้อความบนหน้า
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// กําหนดขนาดตัวอักษรของชิ้นส่วนข้อความ
+textFragment.TextState.FontSize = 12;
+// กําหนดชนิดตัวอักษร
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// กําหนดสีพื้นหลัง
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// กําหนดสีข้อความ
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// สร้างวัตถุ TextBuilder สําหรับหน้า
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// แผงข้อความเข้ากับหน้า PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// กําหนดเส้นทางไฟล์ออกแบบสําหรับเอกสาร PDF ที่เปลี่ยน
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// เก็บเอกสาร PDF ที่เปลี่ยนไปในเส้นทางผลิตที่กําหนด
+pdfDocument.Save(dataDir);
+// ข้อความสําเร็จการออก
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

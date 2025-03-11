@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet hozzáadni egy szövegfragmentet egy meglévő PDF dokumentumhoz az Aspose.PDF segítségével.
+//ExStepSummary:0: Ez a lépés a bevezető PDF-t tartalmazó dokumentumkönyv útvonalát határozza meg.
+//ExStepSummary:1: Ez a lépés megnyitja a megadott PDF dokumentumot szerkesztésre.
+//ExStepSummary:2: Ez a lépés egy adott oldalt kap a PDF dokumentumból.
+//ExStepSummary:3: Ez a lépés egy szövegszemcsék létrehozását eredményezi, amelynek tartalma és helyzete a lapon megadva van.
+//ExStepSummary:4: Ez a lépés a szövegszemcsék különböző tulajdonságait állítja be, beleértve a betűméretét, a betűtípust, a háttérszínt és az előtérszínt.
+//ExStepSummary:5: Ez a lépés létrehoz egy TextBuilder objektumot, amely megkönnyíti a szövegszemlet hozzáadását a PDF-oldalhoz.
+//ExStepSummary:6: Ez a lépés a szövegszemlet PDF-oldallal csatolja.
+//ExStepSummary:7: Ez a lépés a módosított PDF dokumentum kimeneti fájl útvonalát határozza meg.
+//ExStepSummary:8: Ez a lépés a módosított PDF dokumentumot a megadott kimeneti útvonalra ment.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// A dokumentumok címtárútjának beállítása
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Nyissa meg a megadott PDF dokumentumot
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// A PDF dokumentum második oldalának visszaszerezése
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Új szövegszemlet létrehozása a megadott tartalommal
+TextFragment textFragment = new TextFragment("main text");
+// A szövegszemlet helymeghatározása az oldalon
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// A szövegszemlet betűméretének beállítása
+textFragment.TextState.FontSize = 12;
+// A betűtípust állítsa be
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Módosítson háttérszínt
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// A szövegszín beállítása
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// TextBuilder objektum létrehozása az oldalhoz
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// A szövegszemlet PDF-oldallal csatolása
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// A módosított PDF dokumentum kimeneti fájlútvonalának beállítása
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Tárolja a módosított PDF dokumentumot a megadott kimeneti útvonalon
+pdfDocument.Save(dataDir);
+// Kibocsátás sikertársa
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

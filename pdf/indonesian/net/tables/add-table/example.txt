@@ -1,8 +1,8 @@
 //ExStart
-//ExSummaryKode ini menunjukkan cara membuat dokumen PDF dengan tabel. Tabel ini ditambahkan ke halaman kedua dokumen PDF yang ada, dan mencakup sejumlah data baris dan kolom yang ditentukan.
-//ExStepSummary:0: Langkah ini menginisialisasikan jalur file untuk dokumen PDF yang akan diproses.
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen PDF dengan tabel. Tabel ditambahkan ke halaman kedua dari dokumen PDF yang ada, dan mencakup sejumlah baris dan kolom data yang ditentukan.
+//ExStepSummary:0: Langkah ini menginisialisasi jalur file untuk dokumen PDF yang akan diproses.
 //ExStepSummary:1: Langkah ini memuat dokumen PDF yang ada dari direktori yang ditentukan.
-//ExStepSummary:2: Langkah ini membuat contoh tabel baru dan menetapkan sifat batasnya.
+//ExStepSummary:2: Langkah ini membuat contoh tabel baru dan menetapkan properti bordernya.
 //ExStepSummary:3: Langkah ini menginisialisasi loop untuk menambahkan beberapa baris ke tabel, mengisi masing-masing dengan data sel.
 //ExStepSummary:4: Langkah ini menempelkan tabel yang dibuat ke halaman pertama dokumen PDF.
 //ExStepSummary:5: Langkah ini menyimpan dokumen PDF yang diperbarui dengan tabel yang baru ditambahkan ke jalur output yang ditentukan.
@@ -12,15 +12,15 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Mengunggah dokumen PDF sumber
+// Muat dokumen PDF sumber
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Inisialisasikan contoh baru Tabel
+// Inisialisasi contoh baru Tabel
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Setel warna meja tepi ke LightGray
+// Atur warna tepi tabel ke LightGray
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Tentukan batas untuk sel meja
+// Atur batas untuk sel tabel
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
@@ -46,6 +46,6 @@ doc.Pages[1].Paragraphs.Add(table);
 dataDir = dataDir + "document_with_table_out.pdf"; 
 // Simpan dokumen yang diperbarui yang berisi tabel
 doc.Save(dataDir); 
-// Menginformasikan pengguna tentang operasi yang berhasil
+// Memberitahu pengguna tentang operasi yang berhasil
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

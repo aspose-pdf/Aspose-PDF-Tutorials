@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.PDF का उपयोग करके एक पीडीएफ दस्तावेज़ कैसे बनाया जाए, विशिष्ट सीमा शैलियों के साथ तालिका जोड़ें, और पंक्तियों की एक निश्चित संख्या के बाद पृष्ठीकरण लागू करें।
+//ExStepSummary:0: यह चरण दस्तावेज़ को आरंभ करता है और इसमें एक पृष्ठ जोड़ता है.
+//ExStepSummary:1: यह चरण तालिका उदाहरण बनाता है और इसकी सीमा शैलियों को सेट करता है.
+//ExStepSummary:2: यह चरण तालिका के लिए स्तंभ चौड़ाई निर्दिष्ट करता है.
+//ExStepSummary:3: यह चरण तालिका में 200 पंक्तियाँ जोड़ता है, प्रत्येक पंक्ति में दो कक्ष होते हैं।
+//ExStepSummary:4: यह चरण जाँचता है कि क्या 10 पंक्तियाँ जोड़ी गई हैं और यदि ऐसा है तो एक नए पृष्ठ पर जाती हैं।
+//ExStepSummary:5: यह चरण PDF दस्तावेज़ के पृष्ठ में पूर्ण तालिका जोड़ता है और इसे सहेजता है.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ
+string dataDir = "Your Document Directory";
+
+// दस्तावेज़ उदाहरण का उदाहरण
+Document doc = new Document();
+
+// पृष्ठों को पृष्ठ संग्रह PDF फ़ाइल जोड़ें
+doc.Pages.Add();
+
+//ExStep:1-
+// तालिका उदाहरण बनाएँ
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// तालिका के लिए सीमा शैली सेट करें
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// तालिका के लिए डिफ़ॉल्ट सीमा शैली सेट करें
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// तालिका स्तंभों की चौड़ाई निर्दिष्ट करें (2 स्तंभ, प्रत्येक 100 इकाइयां)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// तालिका के लिए 200 पंक्तियों को जोड़ने के लिए एक लूप बनाएँ
+for (int counter = 0; counter <= 200; counter++)
+{
+	// नई पंक्ति बनाएँ
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// तालिका में पंक्ति जोड़ें
+    tab.Rows.Add(row); 
+
+    // पहला कक्ष बनाएँ और पाठ जोड़ें
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// पहले कक्ष में पाठ अंश जोड़ें	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// पंक्ति में पहली कक्ष जोड़ें
+    row.Cells.Add(cell1); 
+
+    // दूसरा कक्ष बनाएँ और पाठ जोड़ें
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// दूसरी कक्ष में पाठ अंश जोड़ें	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// पंक्ति में दूसरी सेल जोड़ें
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // जब 10 पंक्तियाँ जोड़ी जाती हैं, तो नए पृष्ठ में नई पंक्ति प्रस्तुत करें
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// पहले पृष्ठ के अनुच्छेद संग्रह में तालिका जोड़ें
+doc.Pages[1].Paragraphs.Add(tab); 
+// आउटपुट फ़ाइल पथ परिभाषित करें
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// पीडीएफ दस्तावेज़ सहेजें
+doc.Save(dataDir); 
+// पुष्टिकरण संदेश
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

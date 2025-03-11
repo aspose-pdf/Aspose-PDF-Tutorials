@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument s tabulkou. Tabula je přidána na druhou stránku existujícího PDF dokumentu a obsahuje určitý počet řádků a sloupců.
-//ExStepSummary:0: Tento krok iniciálně zařazuje cestu souboru pro zpracování dokumentu PDF.
-//ExStepSummary:1: Tento krok načítá stávající PDF dokument z uvedeného adresáře.
-//ExStepSummary:2: Tento krok vytváří nový instancí tabulky a nastavuje její hraniční vlastnosti.
-//ExStepSummary:3: Tento krok iniciuje obevod, aby do tabulky přidal několik řádků, a každý z nich je naplněn buněčnými daty.
-//ExStepSummary:4: Tento krok přidává vytvořenou tabulku k první straně dokumentu PDF.
-//ExStepSummary:5: Tento krok ukládá aktualizovaný PDF dokument s nově přidanou tabulkou na specifikovanou výstupní dráhu.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument s tabulkou. Tabulka se přidává na druhou stránku stávajícího PDF dokumentu a obsahuje stanovený počet řádků a sloupců dat.
+//ExStepSummary:0: Tento krok inicializuje cestu souboru pro zpracování dokumentu PDF.
+//ExStepSummary:1: Tento krok načte existující PDF dokument z určeného adresáře.
+//ExStepSummary:2: Tento krok vytváří novou tabulku a nastavuje její vlastnosti hranice.
+//ExStepSummary:3: Tento krok inicializuje smyčku, aby se do tabulky přidali více řádků, které se vyplní daty o buňkách.
+//ExStepSummary:4: Tento krok přidává vytvořenou tabulku na první stránku dokumentu PDF.
+//ExStepSummary:5: Tento krok ukládá aktualizovaný PDF dokument s nově přidanou tabulkou na stanovenou výstupní cestu.
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // Definice cesty pro dokumenty
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Naloď zdrojový PDF dokument
+// Přiložení zdrojového PDF dokumentu
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Začněte nový příklad tabulky
+// Inicializovat nový příklad tabulky
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Nastavte barvu okraje stolu na LightGray
+// Nastavte barvu okraje tabulky na světlešedou
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Nastavte hranici pro stůlové buňky
+// Nastavit hranici pro buňky tabulky
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// Způsobit přidání 10 řádků
+// Loop pro přidání 10 řádků
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Přidejte nový řádek do tabulky
+	// Přidat nový řádek do tabulky
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Přidejte první buňku v řadě
+	// Přidat první buňku ve řádku
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Přidejte druhou buňku v řadě
+	// Přidat druhou buňku do řady
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Přidejte třetí buňku v řadě
+	// Přidat třetí buňku do řady
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Přidejte objekt tabulky na první stránku vstupního dokumentu
+// Přidat objekt tabulky na první stránku vstupního dokumentu
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// Definice výstupního souboru cesty aktualizováného dokumentu
+// Definice cesty výstupního souboru pro aktualizovaný dokument
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// Uložte aktualizovaný dokument obsahující tabulku
+// Uložit aktualizovaný dokument obsahující tabulku
 doc.Save(dataDir); 
 // Informovat uživatele o úspěšné operaci
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);

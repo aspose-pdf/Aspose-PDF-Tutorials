@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryMã này cho thấy cách tạo tài liệu PDF với một bảng. Bảng được thêm vào trang thứ hai của tài liệu PDF hiện có, và bao gồm một số lượng dữ liệu hàng và cột được xác định.
-//ExStepSummary:0: Bước này khởi tạo con đường tập tin cho tài liệu PDF được xử lý.
-//ExStepSummary:1: Bước này tải tài liệu PDF hiện có từ thư mục được chỉ định.
-//ExStepSummary:2: Bước này tạo ra một phiên bản bảng mới và đặt các thuộc tính biên giới của nó.
-//ExStepSummary:3: Bước này khởi tạo vòng lặp để thêm nhiều hàng vào bảng, lấp đầy mỗi hàng với dữ liệu tế bào.
-//ExStepSummary:4: Bước này sẽ tệp bảng được tạo vào trang đầu tiên của tài liệu PDF.
-//ExStepSummary:5: Bước này lưu tài liệu PDF cập nhật với bảng mới được thêm vào một con đường đầu ra được chỉ định.
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF với bảng. Bảng được thêm vào trang thứ hai của tài liệu PDF hiện có, và bao gồm một số lượng cụ thể các hàng và cột dữ liệu.
+//ExStepSummary:0: Bước này khởi tạo đường dẫn file cho tài liệu PDF được xử lý.
+//ExStepSummary:1: Bước này tải tài liệu PDF hiện có từ thư mục đã chỉ định.
+//ExStepSummary:2: Bước này tạo ra một thực thể bảng mới và thiết lập thuộc tính border của nó.
+//ExStepSummary:3: Bước này khởi tạo vòng lặp để thêm nhiều hàng vào bảng, điền vào mỗi dòng với dữ liệu tế bào.
+//ExStepSummary:4: Bước này đính kèm bảng được tạo vào trang đầu tiên của tài liệu PDF.
+//ExStepSummary:5: Bước này lưu tài liệu PDF được cập nhật với bảng mới được thêm vào một đường dẫn đầu ra được chỉ định.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Định nghĩa con đường cho các tài liệu
+// Định nghĩa đường dẫn cho tài liệu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Lắp nguồn tài liệu PDF
+// tải tài liệu PDF nguồn
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Tạo ra một phiên bản mới của bảng
+// Bắt đầu một phiên bản mới của bảng
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Đặt màu biên bảng lên LightGray
+// Đặt màu biên bảng thành LightGray
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Đặt ranh giới cho các tế bào bàn
+// Đặt ranh giới cho các ô bảng
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// Loop để thêm 10 hàng
+// Chuỗi để thêm 10 hàng
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Thêm một hàng mới vào bảng
+	// Thêm hàng mới vào bảng
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Thêm tế bào đầu tiên trong hàng
+	// Thêm ô đầu tiên trong hàng
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Thêm tế bào thứ hai trong hàng
+	// Thêm ô thứ hai vào hàng
     row.Cells.Add("Column (" + row_count + ", 2)"); 
 	// Thêm ô thứ ba trong hàng
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Thêm đối tượng bảng vào trang đầu tiên của tài liệu nhập
+// Thêm đối tượng bảng vào trang đầu tiên của tài liệu đầu vào
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// Định nghĩa đường dẫn tệp đầu ra cho tài liệu cập nhật
+// Định nghĩa đường dẫn file đầu ra cho tài liệu được cập nhật
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// Cung cấp tài liệu cập nhật chứa bảng
+// Lưu tài liệu cập nhật có chứa bảng
 doc.Save(dataDir); 
 // Thông báo cho người dùng về hoạt động thành công
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);

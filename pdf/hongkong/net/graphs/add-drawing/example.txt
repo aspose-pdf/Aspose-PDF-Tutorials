@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary這個代碼展示了如何創建一個包含一個含有透明顏色的矩形的圖形的PDF文檔. 它介紹了設定顏色屬性,添加頁面和在文檔中繪製形狀的過程.
+//ExStepSummary:0: 該程式將將其存儲到PDF文件的資料目錄.
+//ExStepSummary:1: 接下來的代碼設定了應用于矩形填充的Alpha RGB顏色.
+//ExStepSummary:2: 以下代碼為PDF建立了新的文檔對象.
+//ExStepSummary:3: 以下代碼將一個頁面添加到PDF文檔中.
+//ExStepSummary:4: 圖表是一個圖形圖案,
+//ExStepSummary:5: 以下代碼為圖形對象設定邊界.
+//ExStepSummary:6: 接下來的代碼將圖形對象加入頁面的段落集合.
+//ExStepSummary:7: 這種情況是很常見的.
+//ExStepSummary:8: 這項代碼為矩形的圖形資訊設定了顏色資訊.
+//ExStepSummary:9: 這種圖形是用來將圖形的形狀添加到圖形集合中.
+//ExStepSummary:10: 以下代碼將文檔保存到指定輸出檔案路徑.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// 開始保存文件的路徑
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 透明度的阿爾法頻道值
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// 使用Alpha RGB創建顏色對象
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// 文件對象的實例化
+Document document = new Document();
+
+//ExStep:3-
+// 添加新頁面到文檔
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// 建立具有特定尺寸的圖形對象
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// 設定圖形對象的邊界
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// 添加圖表對象到頁面
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// 建立具有特定尺寸的矩形對象
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// 建立圖表資訊對象
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// 設定 GraphInfo 實例的顏色資訊
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// 加入圖形的長方形形狀
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// 設定存儲文件的輸出檔案路徑
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// 確認訊息
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

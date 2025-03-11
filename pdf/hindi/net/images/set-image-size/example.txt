@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: यह कोड एक पीडीएफ दस्तावेज़ बनाने, इसमें एक छवि जोड़ने, और छवि आकार और पृष्ठ गुणों को समायोजित करने का तरीका दिखाता है। यह दस्तावेज़ को सहेजने का भी प्रबंधन करता है और ऑपरेशन की सफलता के बारे में उपयोगकर्ता को सूचित करता है।
+//ExStepSummary:0: यह कोड दस्तावेज़ वस्तु को आरंभ करता है और इसमें एक नया पृष्ठ जोड़ता है.
+//ExStepSummary:1: यह अनुभाग एक छवि उदाहरण बनाता है और इसके आयाम और फ़ाइल प्रकार सेट करता है.
+//ExStepSummary:2: यह चरण छवि के लिए स्रोत फ़ाइल निर्दिष्ट करता है और इसे पृष्ठ में जोड़ता है.
+//ExStepSummary:3: यह चरण पृष्ठ गुणों को सेट करता है जिसमें चौड़ाई और ऊंचाई शामिल है.
+//ExStepSummary:4: यह खंड दस्तावेज़ को निर्दिष्ट फ़ाइल पथ पर सहेजता है और सहेजने के कार्य को सत्यापित करता है.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका पथ निर्दिष्ट करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// दस्तावेज़ ऑब्जेक्ट का उदाहरण
+Document doc = new Document();
+// PDF दस्तावेज़ में नया पृष्ठ जोड़ें
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:2-
+// छवि उदाहरण बनाएँ
+Aspose.Pdf.Image img = new Aspose.Pdf.Image();
+// छवि चौड़ाई को 100 अंक पर सेट करें
+img.FixWidth = 100;
+// छवि ऊंचाई को 100 अंक पर सेट करें
+img.FixHeight = 100;
+// छवि प्रकार को अज्ञात के रूप में सेट करें (बाद में अनुमानित किया जाएगा)
+img.FileType = Aspose.Pdf.ImageFileType.Unknown;
+// स्रोत छवि फ़ाइल के लिए पथ निर्दिष्ट करें
+img.File = dataDir + "aspose-logo.jpg";
+// पृष्ठ के पैराग्राफ में छवि जोड़ें
+page.Paragraphs.Add(img);
+
+//ExStep:3-
+// पृष्ठ चौड़ाई को 800 अंकों पर सेट करें
+page.PageInfo.Width = 800;
+// पृष्ठ ऊंचाई को 800 अंकों पर सेट करें
+page.PageInfo.Height = 800;
+
+//ExStep:4-
+// आउटपुट फ़ाइल पथ निर्दिष्ट करें
+dataDir = dataDir + "SetImageSize_out.pdf";
+// प्राप्त PDF दस्तावेज़ सहेजें
+doc.Save(dataDir);
+
+//ExStep:5-
+// उपयोगकर्ता को सफल संचालन के बारे में सूचित करें
+Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
+//ExEnd

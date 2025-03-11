@@ -1,101 +1,101 @@
 //ExStart
-//ExSummaryA kód bemutatja, hogyan lehet létrehozni egy PDF-dokumentumot aspose.Pdf-t használva. A kód a határokat állítja, két táblázatot ad hozzá különböző oldalakon, és a dokumentumot egy meghatározott útvonalra mentheti meg.
-//ExStepSummary:0: Ez a lépés az PDF fájl kiállítási címkéjét állítja be.
-//ExStepSummary:1: Ez a lépés egy új Dokumentum objektumot indít és visszaveszi a PageInfo-t a oldal beállításainak módosítására.
-//ExStepSummary:2: Ez a lépés a oldal marginjait állítja meg, és a oldal irányítását a tájmódra változtatja.
-//ExStepSummary:3: Ez a lépés egy új táblázat objektumot hoz létre, és a oszlop szélességét határozza meg.
-//ExStepSummary:4: Ez a lépés egy új oldalt ad a dokumentumhoz, és egy 120 sorú táblázatot adja be, rögzítve a sor magasságát, és tartalmat ad minden egyes sejthez.
-//ExStepSummary:5: Ez a lépés az első táblázatot adja a jelenlegi oldalon található bekezdés gyűjteményhez.
-//ExStepSummary:6: Ez a lépés más oszlop szélességű táblázatot hoz létre, és 10 sorot ad hozzá a meghatározott tartalommal.
-//ExStepSummary:7: Ez a lépés a második táblázatot egy új oldalon jeleníti meg, és hozzáadja a dokumentumhoz.
-//ExStepSummary:8: Ez a lépés az adott útvonalra tárolja a PDF dokumentumot, és sikeres üzenetet ad ki.
+//ExSummary: Ez a kód bemutatja, hogyan lehet Aspose.Pdf segítségével táblázatokkal létrehozni egy PDF dokumentumot. A kód a határokat állítja be, két táblázatot ad hozzá különböző oldalakra, és egy meghatározott útvonalra ment a dokumentumot.
+//ExStepSummary:0: Ez a lépés a PDF fájl kimeneti címtárát határozza meg.
+//ExStepSummary:1: Ez a lépés egy új Dokumentum objektumot inicializál, és a PageInfo-t visszaszerezi a oldal beállításainak módosítására.
+//ExStepSummary:2: Ez a lépés a lapok határát állítja be, és a oldal orientációját a tájmódra változtatja.
+//ExStepSummary:3: Ez a lépés egy új táblázatobjektumot hoz létre, és az oszlopszélességeket határozza meg.
+//ExStepSummary:4: Ez a lépés új oldalt ad hozzá a dokumentumhoz, és 120 sorral rendelkező táblázatot helyez be, rögzített sormagasságokat állítva be, és minden cellába tartalmat adva.
+//ExStepSummary:5: Ez a lépés hozzáadja az első táblázatot az aktuális oldal bekezdésgyűjteményéhez.
+//ExStepSummary:6: Ez a lépés egy másik táblázatot hoz létre különböző oszlopszélességekkel, és 10 sorot ad hozzá a megadott tartalommal.
+//ExStepSummary:7: Ez a lépés a második táblázat megjelenését egy új oldalon állítja be, és hozzáadja a dokumentumhoz.
+//ExStepSummary:8: Ez a lépés a PDF dokumentumot a megadott útvonalra ment, és sikeres üzenetet ad ki.
 //ExStepImage:5:images/2.png
 //ExStepImage:7:images/3.png
 //ExStep:0-
-// A dokumentumok könyvtárába vezető útvonal.
+// Adja meg a dokumentumokat tartalmazó könyvtár útvonalát.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Új Dokumentum objektumot hozzon létre.
+// Hozzon létre egy új Dokumentum objektumot.
 Document doc = new Document();
-// Kapd meg a dokumentum oldalát.
+// Szerezd meg a dokumentum PageInfo-ját.
 PageInfo pageInfo = doc.PageInfo;
-// A oldal határállításaira lépjen be.
+// Hozzáférés az oldal határbeállításaihoz.
 Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 
 //ExStep:2-
-// Hagyja a bal oldalt 37 egységre.
+// 37 egységre állítsuk a bal határt.
 marginInfo.Left = 37;
-// A jobb oldalon 37 egység.
+// 37 egységre állítsuk a jobb oldalt.
 marginInfo.Right = 37;
-// A felső határ 37 egységre.
+// 37 egységre állítsuk a felső hasznot.
 marginInfo.Top = 37; 
-// A legalsó határ 37 egységre.
+// A legalacsonyabb hasznot 37 egységre állítsuk.
 marginInfo.Bottom = 37;
-// Állítsa be a oldalorientációt a tájra.
+// A oldal orientációját tájra állítsa.
 pageInfo.IsLandscape = true;
 
 //ExStep:3-
-// Új asztalobjektumot készítsen.
+// Hozzon létre egy új táblázat objektumot.
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// A táblázatban szereplő oszlopok szélességét határozza meg.
+// A táblázat oszlopának szélességeit határozza meg.
 table.ColumnWidths = "50 100";
 
 //ExStep:4-
-// Adjon egy új oldalt a dokumentumhoz.
+// Adjunk hozzá egy új oldalt a dokumentumhoz.
 Page curPage = doc.Pages.Add();
-// A kör az első asztalhoz 120 sorral.
+// Csomag, hogy hozzáadjunk 120 sorot az első asztalhoz.
 for (int i = 1; i <= 120; i++)
 {
-	// Készíts egy új sorot.
+	// Hozzunk létre egy új sorat.
     Aspose.Pdf.Row row = table.Rows.Add();
-	// A sor fix magasságát.
+	// A sor rögzített magasságát állítsa be.
     row.FixedRowHeight = 15; 
-    // Készítsd az első sejtet a sorban.
+    // Hozd létre az első cellát a sorban.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Adjon hozzá egy szövegrészt az első sejthez.
+	// Adjunk hozzá egy TextFragment-et az első cellához.
     cell1.Paragraphs.Add(new TextFragment("Content 1")); 
-    // Készítsen a második sejtet a sorban.
+    // Hozz létre a második cellát a sorban.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Adjon egy szövegrészt a második sejthez.
+	// Adjunk hozzá egy TextFragment-et a második cellába.
     cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
 }
 
 //ExStep:5-
-// A jelenlegi oldal bekezdés gyűjteménye.
+// Hozzáférés a jelen oldal bekezdésgyűjteményéhez.
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
-// Adja be az első táblázatot a jelenlegi oldalon.
+// Adja hozzá az első táblázatot a jelenlegi oldalhoz.
 paragraphs.Add(table); 
 
 //ExStep:6-
-// Hozz egy másik asztal tárgyat.
+// Hozzon létre egy másik asztal objektumot.
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
-// A második táblázatban szereplő oszlopok szélességét határozza meg.
+// A második táblázat oszlopának szélességeit határozza meg.
 table1.ColumnWidths = "100 100";
-// A második asztalhoz 10 sor hozzáadásra. 
+// Csomagolj, hogy hozzáadj 10 sorot a második asztalhoz. 
 for (int i = 1; i <= 10; i++) 
 {
-	// Készíts egy új sorot az 1. táblázathoz.
+	// Új sor létrehozása az 1. táblázathoz.
     Aspose.Pdf.Row row = table1.Rows.Add(); 
-	// Készítsd az első sejtet a sorban.
+	// Hozd létre az első cellát a sorban.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Adjon hozzá egy szövegrészt az első sejthez.
+	// Adjunk hozzá egy TextFragment-et az első cellához.
     cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
-    // Készítsen a második sejtet a sorban.
+    // Hozz létre a második cellát a sorban.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Adjon egy szövegrészt a második sejthez.
+	// Adjunk hozzá egy TextFragment-et a második cellába.
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
 }
-// Beállítson a tulajdonságot, hogy a második asztalot egy új oldalon helyezzük.
+// Beállítsa a tulajdonságot, hogy a második táblát új oldalra helyezze.
 table1.IsInNewPage = true; 
-// ExStep:7-
-// A második táblázat a jelenlegi oldal bekezdéséhez hozzáadható.
+// Folyamat: 7-es.
+// A második táblázatot adja hozzá a jelenlegi oldal bekezdéséhez.
 paragraphs.Add(table1); 
-// Tisztázza a kiviteli fájl útvonalát.
+// A kimeneti fájl útvonalát határozza meg.
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
-// A dokumentumot a megadott útvonalra mentse meg.
+// Tárolja a dokumentumot a megadott útvonalon.
 doc.Save(dataDir); 
-// ExStep:8-
-// A kiadás siker üzenete.
+// 8\. lépés:
+// Üzenet a sikerről.
 Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
 //ExEnd

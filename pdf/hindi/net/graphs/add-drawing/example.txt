@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: यह कोड प्रदर्शित करता है कि एक पारदर्शी रंग से भरे आयत वाले ग्राफ के साथ एक पीडीएफ दस्तावेज़ कैसे बनाया जाए। यह रंग गुणों को स्थापित करने, पृष्ठ जोड़ने और दस्तावेज़ में आकृतियों को आकर्षित करने की प्रक्रिया से गुजरता है।
+//ExStepSummary:0: निम्न कोड पीडीएफ फ़ाइल को सहेजने के लिए डेटा निर्देशिका को आरंभ करता है.
+//ExStepSummary:1: निम्नलिखित कोड आयत की भरण के लिए प्रयोग किए जाने वाले अल्फा आरजीबी रंग को सेट करता है।
+//ExStepSummary:2: निम्न कोड PDF के लिए एक नई दस्तावेज़ वस्तु बनाता है.
+//ExStepSummary:3: निम्न कोड पीडीएफ दस्तावेज़ में एक पृष्ठ जोड़ता है।
+//ExStepSummary:4: निम्न कोड पीडीएफ में आकृतियों को आकर्षित करने के लिए एक ग्राफ ऑब्जेक्ट बनाता है.
+//ExStepSummary:5: निम्न कोड ग्राफ वस्तु के लिए एक सीमा निर्धारित करता है.
+//ExStepSummary:6: निम्नलिखित कोड पृष्ठ के अनुच्छेद संग्रह में ग्राफ ऑब्जेक्ट जोड़ता है।
+//ExStepSummary:7: निम्न कोड ग्राफ पर खींचा जाने वाला एक आयत आकार बनाता है।
+//ExStepSummary:8: निम्नलिखित कोड आयत के ग्राफ जानकारी के लिए रंग जानकारी सेट करता है.
+//ExStepSummary:9: निम्न कोड ग्राफ के आकार संग्रह में आयत आकार जोड़ता है।
+//ExStepSummary:10: निम्नलिखित कोड दस्तावेज़ को निर्दिष्ट आउटपुट फ़ाइल पथ पर सहेजता है.
+//ExStepImage:6:images/1.png
+//ExStepImage:9:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ को सहेजने के लिए पथ आरंभ करना
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// पारदर्शिता के लिए अल्फा चैनल मूल्य
+int alpha = 10;
+int green = 0;
+int red = 100;
+int blue = 0;
+
+// अल्फा आरजीबी का उपयोग करके रंग ऑब्जेक्ट बनाएं
+Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
+
+//ExStep:2-
+// दस्तावेज़ ऑब्जेक्ट का उदाहरण
+Document document = new Document();
+
+//ExStep:3-
+// दस्तावेज़ में नया पृष्ठ जोड़ें
+Page page = document.Pages.Add();
+
+//ExStep:4-
+// विशिष्ट आयामों के साथ ग्राफ़ ऑब्जेक्ट बनाएं
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
+
+//ExStep:5-
+// ग्राफ़ ऑब्जेक्ट के लिए सीमा सेट करें
+graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
+
+//ExStep:6-
+// पृष्ठ में ग्राफ़ ऑब्जेक्ट जोड़ें
+page.Paragraphs.Add(graph);
+
+//ExStep:7-
+// विशिष्ट आयामों के साथ आयत ऑब्जेक्ट बनाएँ
+Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
+
+//ExStep:8-
+// आयत के लिए graphInfo ऑब्जेक्ट बनाएँ
+Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
+
+// GraphInfo उदाहरण के लिए रंग जानकारी सेट करें
+graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
+graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
+
+//ExStep:9-
+// आरेख में आयत आकार जोड़ें
+graph.Shapes.Add(rectangle);
+
+//ExStep:10-
+// दस्तावेज़ को सहेजने के लिए आउटपुट फ़ाइल पथ सेट करें
+dataDir = dataDir + "AddDrawing_out.pdf";
+document.Save(dataDir); // Save the document to the specified output path
+
+//ExStep:11-
+// पुष्टिकरण संदेश
+Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
+//ExEnd

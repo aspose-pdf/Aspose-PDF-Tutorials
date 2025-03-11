@@ -1,0 +1,47 @@
+//ExStart
+//ExSummary這種情況是很容易發生的.
+//ExStepSummary:0: 該程式將此文件的時間初始化,
+//ExStepSummary:1: 以下代碼可打開指定的 PDF 文件進行處理.
+//ExStepSummary:2: 該程式將將其編輯為 PDF.
+//ExStepSummary:3: 圖像壓縮設定包括壓縮和質量.
+//ExStepSummary:4: 以下代碼適用於PDF文檔的優化選項.
+//ExStepSummary:5: 該文件的檔案檔案檔案檔案檔案檔案檔案檔案.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 開始時間
+var time = DateTime.Now.Ticks;
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 公開文件
+Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
+
+//ExStep:2-
+// 開始優化選項
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// 設定壓縮圖片選項
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+// 設定影像品質選項 
+optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
+// 設定更大圖像的選項
+optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
+// 設定最大解析度選項
+optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
+
+//ExStep:4-
+// 使用優化選項優化PDF文檔
+pdfDocument.OptimizeResources(optimizeOptions); 
+
+//ExStep:5-
+// 更新輸出檔案的資料目錄
+dataDir = dataDir + "ResizeImages_out.pdf"; 
+// 保存更新的文檔
+pdfDocument.Save(dataDir); 
+
+//ExStep:6-
+// 通知使用者成功
+Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
+//ExEnd

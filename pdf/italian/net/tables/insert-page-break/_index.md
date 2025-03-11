@@ -1,8 +1,8 @@
 ---
-title: Crea un PDF con tabelle e pagine utilizzando Aspose.PDF 
+title: Creare un PDF con tabelle e paginazione usando Aspose.PDF 
 weight: 7700
 limit: 
-description: Impara come creare un documento PDF, aggiungere tabelle con confini e implementare paginazione utilizzando Aspose.PDF per .NET. Guida passo-passo con esempi di codice.  
+description: Impara come creare un documento PDF, aggiungere tabelle con bordi e implementare la paginazione utilizzando Aspose.PDF per .NET. Guida passo-passo con esempi di codice.  
 keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
 url: /it/net/tables/insert-page-break/
 ---
@@ -10,9 +10,9 @@ url: /it/net/tables/insert-page-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea un PDF con tabelle e pagine
+# Creare un PDF con tabelle e paginazione
  
-Aspose.PDF per .NET è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire documenti PDF programmaticamente. In questo esempio, dimostriamo come generare un file PDF, aggiungere una tabella con confini rossi, riempirla di 200 righe e inserire pause automatiche di pagina dopo ogni 10 righe. Questo approccio garantisce il formataggio di contenuti strutturati e paginazione senza soluzione di continuità per grandi set di dati.  
+Aspose.PDF per .NET è una potente libreria che consente agli sviluppatori di creare, manipolare e convertire i documenti PDF in modo programmatico. In questo esempio, dimostriamo come generare un file PDF, aggiungere una tabella con bordi rossi, riempirla di 200 righe e inserire pause automatiche dopo ogni 10 righe. Questo approccio garantisce una formattazione strutturata dei contenuti e una paginatura fluida per grandi set di dati.  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
@@ -20,35 +20,35 @@ Aspose.PDF per .NET è una potente libreria che consente agli sviluppatori di cr
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Instruzioni di installazione  
-Per iniziare con Aspose.PDF per .NET, seguire questi passaggi:  
+## Istruzioni di installazione  
+Per iniziare con Aspose.PDF per .NET, segui questi passaggi:  
 
 1. Installare tramite NuGet Package Manager  
-   * Aprire il tuo progetto in Visual Studio.  
-   * Vai a Strumenti > NuGet Package Manager > Gestione dei pacchetti NuGet per Soluzione.  
+   * Apri il tuo progetto in Visual Studio.  
+   * Vai a Strumenti > NuGet Package Manager > Gestione NuGet pacchetti per la soluzione.  
    * Cerca Aspose.PDF e fai clic su Installare.  
 
-   In alternativa, utilizzare il seguente comando nella Console di gestione dei pacchetti:  
+   In alternativa, utilizzare il seguente comando nella Console del Gestore pacchetti:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Scarica manualmente il DLL  
-   * Prendi l' ultima versione da [Scarica Aspose.PDF](https://releases.aspose.com/pdf/net/)\- Non è vero .  
-   * Aggiungere un riferimento al file Aspose.PDF.dll nel tuo progetto.  
+2. Scaricare manualmente la DLL  
+   * Ottieni l' ultima versione da[Aspose.PDF Scarichi](https://releases.aspose.com/pdf/net/)\- Non lo so .  
+   * Aggiungi un riferimento al file Aspose.PDF.dll nel tuo progetto.  
 
-3. Applicare una licenza (opzionale)  
-   * Se si utilizza la versione gratuita, si possono incontrare segni d'acqua o limitazioni.  
-   * Acquistare una licenza da [Aspire ad acquistare](https://purchase.aspose.com/buy)o richiedere un [Licenza temporanea](https://purchase.aspose.com/temporary-license/)\- Non è vero .  
-   * Applicare la licenza nel codice:  
+3. Applicazione di una licenza (facoltativo)  
+   * Se si utilizza la versione di prova gratuita, si possono incontrare segni d'acqua o limitazioni.  
+   * Compra una patente da[Aspose Acquisto](https://purchase.aspose.com/buy)o richiedere un[Licenza temporanea](https://purchase.aspose.com/temporary-license/)\- Non lo so .  
+   * Applica la licenza nel tuo codice:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## Per dettagli
-Documentazione, visita [Aspose.PDF per la documentazione .NET](https://docs.aspose.com/pdf/net/)\- Non è vero .  
-Controllare il riferimento API all' indirizzo [Aspose.PDF per il riferimento .NET API](https://reference.aspose.com/pdf/net/)\- Non è vero .
+## Per informazioni dettagliate
+Documentazione, visita [Aspose.PDF per la documentazione .NET](https://docs.aspose.com/pdf/net/)\- Non lo so .  
+Controlla l' API Reference su[Aspose.PDF per il riferimento .NET API](https://reference.aspose.com/pdf/net/)\- Non lo so .
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

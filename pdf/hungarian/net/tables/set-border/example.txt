@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot egy olyan táblázatkal, amely mind a felső, mind az alsó oldalon kettős kereteit tartalmazza. 
+//ExStepSummary:0: A dokumentum objektum instanciálása és egy oldal hozzáadása.
+//ExStepSummary:1: Hozzon létre egy BorderInfo objektumot, amely meghatározza a táblázat cellái határ tulajdonságait.
+//ExStepSummary:2: A táblázat objektum instanciálása és a oszlopszélességek megadása.
+//ExStepSummary:3: Adjon hozzá sorot a táblázathoz, és tegye be egy szöveget tartalmazó cellát.
+//ExStepSummary:4: A cellának a kettős határát a BorderInfo objektum segítségével állítsa be.
+//ExStepSummary:5: A táblázatot hozzáadja az oldal bekezdés gyűjteményéhez, és a dokumentumot egy megadott fájlpályára mentse.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// A dokumentumokat tartalmazó könyvtár útvonalát határozza meg.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// A dokumentum objektum instancizálása.
+Document doc = new Document();
+// Adjunk hozzá egy oldalt a PDF dokumentumhoz. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Hozzon létre egy BorderInfo objektumot.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Az első határ kétszeres legyen.
+border.Top.IsDoubled = true; 
+// Az alsó határ kétszeres legyen.
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Azonnali táblázat objektum.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Az oszlopok szélességére vonatkozó információkat megadni
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Lépjen létre egy sor objektumot az asztalhoz.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Táblázatcellát hozzáadni a sorok celláinak gyűjteményéhez
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// A korábban meghatározott határbeállítások alkalmazása.
+cell.Border = border;
+
+//ExStep:5-
+// A táblázatot a oldal bekezdésgyűjteményébe kell hozzáadni.
+page.Paragraphs.Add(table);
+// Adja meg a kimeneti fájl útvonalát.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Tároljon PDF dokumentumot
+doc.Save(dataDir);
+// Nyomtatás siker üzenet fájl útvonal.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

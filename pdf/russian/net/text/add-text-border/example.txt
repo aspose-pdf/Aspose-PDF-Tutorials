@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ с фрагментом текста, который имеет определенный стиль и границу.
+//ExStepSummary:0: Следующий код инициирует путь к сохранению PDF-документа.
+//ExStepSummary:1: Следующий код создает новый объект PDF-документа.
+//ExStepSummary:2: Следующий код добавляет новую страницу в документ PDF.
+//ExStepSummary:3: Следующий код создает фрагмент текста с определенным содержанием и положением.
+//ExStepSummary:4: Следующий код устанавливает свойства фрагмента текста, включая размер шрифта и цвета.
+//ExStepSummary:5: Следующий код позволяет начертить границу вокруг текстового прямоугольника.
+//ExStepSummary:6: Следующий код присоединяет фрагмент текста к странице PDF с помощью TextBuilder.
+//ExStepSummary:7: Следующий код сохраняет PDF-документ в указанном каталоге.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Инициализировать путь к сохранению документа
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Создать новый объект PDF-документа
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Добавить новую страницу в документ PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Создать фрагмент текста с указанным содержанием
+TextFragment textFragment = new TextFragment("main text");
+// Установка положения фрагмента текста
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Установка размера шрифта текста
+textFragment.TextState.FontSize = 12;
+// Установка типа шрифта
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Установка цвета фона текста
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Установка цвета переднего плана текста
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Установка цвета скрещивания для границы
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Включить чертеж границы вокруг текста
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Создать объект TextBuilder для страницы
+TextBuilder tb = new TextBuilder(pdfPage);
+// Прикрепить фрагмент текста к странице PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Сохранить документ по указанному пути
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

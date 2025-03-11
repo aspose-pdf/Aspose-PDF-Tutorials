@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF مع جدول له حدود مزدوجة على الجانبين العلوي والسفلي. 
+//ExStepSummary:0: قم بتطبيق كائن Document وأضف صفحة إليه
+//ExStepSummary:1: إنشاء كائن BorderInfo لتحديد خصائص الحدود لخلايا الجدول.
+//ExStepSummary:2: قم بتطبيق كائن Table وتحديد أبعاد الأعمدة.
+//ExStepSummary:3: أضف صف إلى الجدول وإدراج خلية تحتوي على نص.
+//ExStepSummary:4: حدد الحدود المزدوجة للخلية باستخدام كائن BorderInfo.
+//ExStepSummary:5: أضف الجدول إلى مجموعة الفقرات في الصفحة وحفظ المستند إلى مسار الملف المحدد.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// حدد الطريق إلى دليل المستندات
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// تحديد موضوع الوثيقة
+Document doc = new Document();
+// أضف صفحة إلى مستند PDF 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// إنشاء كائن BorderInfo
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// تحديد أن الحدود العليا ستكون مزدوجة
+border.Top.IsDoubled = true; 
+// تحديد أن الحدود السفلية ستكون مزدوجة
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// تحديد الجدول
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// تحديد معلومات عرض الأعمدة
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// إنشاء صف من الجدول
+Aspose.Pdf.Row row = table.Rows.Add();
+// إضافة خلية الجدول إلى مجموعة الخلايا من الصف
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// تطبيق إعدادات الحدود المحددة سابقاً.
+cell.Border = border;
+
+//ExStep:5-
+// أضف الجدول إلى مجموعة الفقرات في الصفحة.
+page.Paragraphs.Add(table);
+// حدد طريق الملف الخارجي
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// حفظ مستند PDF
+doc.Save(dataDir);
+// ابدأ بطباعة رسالة النجاح مع طريق الملف
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

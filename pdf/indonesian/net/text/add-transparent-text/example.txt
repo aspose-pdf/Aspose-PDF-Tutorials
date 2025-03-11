@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen PDF yang mencakup persegi panjang dan fragmen teks dengan efek teks transparan.`TambahkanTransparentText_out.pdf`dalam direktori yang ditentukan.
+//ExStepSummary:0: Inisialisasi jalur direktori dokumen dan membuat dokumen PDF baru dengan halaman.
+//ExStepSummary:1: Buat objek Graph dan persegi panjang dengan warna pengisi transparan, lalu tambahkan ke halaman.
+//ExStepSummary:2: Buat TextFragment dengan contoh teks dan atur warna hijau transparan dengan 30% opacity.
+//ExStepSummary:3: Simpan dokumen ke jalur output yang ditentukan.
+//ExStepSummary:4: Tampilkan pesan keberhasilan dengan jalur file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Jalur ke direktori dokumen.
+string dataDir = "Your Document Directory";
+
+// Membuat contoh dokumen
+Document doc = new Document(); 
+
+// Buat koleksi file PDF dari halaman ke halaman
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Buat objek Graph dengan lebar dan tinggi
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Buat contoh persegi panjang dengan dimensi yang ditentukan
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Buat objek warna dari saluran warna Alpha
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Tambahkan persegi panjang ke koleksi bentuk objek Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Tambahkan objek grafik ke paragraf koleksi objek halaman
+page.Paragraphs.Add(canvas);
+
+// Atur nilai untuk tidak mengubah posisi untuk objek grafik
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Buat contoh TextFragment dengan nilai sampel
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Buat objek warna dari saluran Alpha
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Tentukan informasi warna untuk contoh teks
+text.TextState.ForegroundColor = color;
+
+// Tambahkan teks ke paragraf koleksi halaman contoh
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Tentukan jalur output untuk file PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Simpan dokumen ke jalur yang ditentukan
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Memberitahu pengguna bahwa proses selesai
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

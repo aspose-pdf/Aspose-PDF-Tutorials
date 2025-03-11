@@ -1,51 +1,51 @@
 //ExStart
-//ExSummaryEste código demonstra como criar um documento PDF com uma tabela. A tabela é adicionada à segunda página de um documento PDF existente e inclui um número especificado de linhas e dados de coluna.
+//ExSummary: Este código demonstra como criar um documento PDF com uma tabela. A tabela é adicionada à segunda página de um documento PDF existente e inclui um número especificado de linhas e colunas de dados.
 //ExStepSummary:0: Esta etapa inicializa o caminho do arquivo para o documento PDF a ser processado.
-//ExStepSummary:1: Esta etapa carrega o documento PDF existente do diretório especificado.
-//ExStepSummary:2: Este passo cria uma nova instância de tabela e define suas propriedades de fronteira.
-//ExStepSummary:3: Este passo inicializa o loop para adicionar várias fileiras à tabela, preenchendo cada uma com dados de célula.
-//ExStepSummary:4: Esta etapa aponta a tabela criada à primeira página do documento PDF.
-//ExStepSummary:5: Esta etapa salva o documento PDF atualizado com a tabela recém-adicionada para um caminho de saída especificado.
+//ExStepSummary:1: Esta etapa carrega o documento PDF existente a partir do diretório especificado.
+//ExStepSummary:2: Esta etapa cria uma nova instância de tabela e define as suas propriedades de bordar.
+//ExStepSummary:3: Esta etapa inicializa o loop para adicionar várias linhas à tabela, preenchendo cada uma com dados de célula.
+//ExStepSummary:4: Esta etapa anexa a tabela criada à primeira página do documento PDF.
+//ExStepSummary:5: Esta etapa salva o documento PDF atualizado com a tabela recém-adicionada num caminho de saída especificado.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Defina o caminho dos documentos
+// Defina o caminho para documentos
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Carregar o documento PDF fonte
+// Carregar o documento PDF de origem
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Iniciar uma nova instância da tabela
+// Iniciar uma nova instância da Tabela
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Configurar a cor da borda da mesa para LightGray
+// Defina a cor da borda da tabela em LightGray
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Defina a fronteira para as células da mesa
+// Configurar a borda para as células da tabela
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// Loop para adicionar 10 fileiras
+// Loop para adicionar 10 linhas
 for (int row_count = 1; row_count < 10; row_count++) 
 {
 	// Adicionar uma nova linha à tabela
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Adicionar a primeira célula na fila
+	// Adicionar a primeira célula da linha
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Adicionar a segunda célula na fila
+	// Adicionar a segunda célula na linha
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Adicionar a terceira célula na fila
+	// Adicionar a terceira célula na linha
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Adicionar o objeto da tabela à primeira página do documento de entrada
+// Adicionar o objeto de tabela à primeira página do documento de entrada
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
 // Defina o caminho do arquivo de saída para o documento atualizado
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// Salvar o documento atualizado que contém a tabela
+// Salvar o documento atualizado contendo a tabela
 doc.Save(dataDir); 
-// Informe o utilizador sobre a operação bem-sucedida
+// Informar o utilizador sobre a operação bem sucedida
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

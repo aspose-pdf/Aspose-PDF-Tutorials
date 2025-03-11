@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF يتضمن مستطيل وشريحة نصية مع تأثيرات نصية شفافة. سيتم حفظ الناتج على النحو `إضافةTransparentText_out.pdf`في الدليل المحدد
+//ExStepSummary:0: بدء مسار دليل المستندات وخلق مستند PDF جديد مع صفحة.
+//ExStepSummary:1: قم بإنشاء كائن Graph ومستطيل مع لون ملء شفاف، ثم أضفها إلى الصفحة.
+//ExStepSummary:2: إنشاء TextFragment مع النص المثالية وتعيين اللون الأخضر الشفاف مع 30٪ الشفافية.
+//ExStepSummary:3: حفظ المستند إلى مسار الإخراج المحدد
+//ExStepSummary:4: عرض رسالة نجاح مع طريق الملف
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// الطريق إلى دليل المستندات
+string dataDir = "Your Document Directory";
+
+// إنشاء مثيل مستند
+Document doc = new Document(); 
+
+// إنشاء مجموعة من الصفحات إلى الصفحات من ملفات PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// إنشاء كائن الرسم البياني مع العرض والارتفاع
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// إنشاء مثيل مستطيل مع أبعاد محددة
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// إنشاء كائن لون من قناة ألوان ألفا
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// إضافة مستطيل إلى مجموعة الأشكال من كائن Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// إضافة كائن الرسم البياني إلى الفقرات مجموعة من كائن الصفحة
+page.Paragraphs.Add(canvas);
+
+// حدد القيمة لعدم تغيير الموقف لجسم الرسم البياني
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// إنشاء مثيل TextFragment بقيمة عينة
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// إنشاء كائن لون من قناة ألفا
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// تعيين معلومات اللون لمثال النص
+text.TextState.ForegroundColor = color;
+
+// إضافة نص إلى الفقرات مجموعة من صفحة الحالة
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// تحديد مسار الناتج لملف PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// حفظ المستند في المسار المحدد
+doc.Save(dataDir); 
+
+//ExStep:4-
+// إعلام المستخدم أن العملية قد اكتملت
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

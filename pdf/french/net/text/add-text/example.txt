@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ce code démontre comment ajouter un fragment de texte à un document PDF existant en utilisant Aspose.PDF. Il ouvre un PDF, crée un fragment de texte avec des propriétés spécifiques et enregistre le document modifié.
+//ExStepSummary:0: Cette étape définit le chemin vers le répertoire des documents où se trouve le fichier PDF d'entrée.
+//ExStepSummary:1: Cette étape ouvre le document PDF spécifié pour l'édition.
+//ExStepSummary:2: Cette étape permet de récupérer une page spécifique du document PDF.
+//ExStepSummary:3: Cette étape crée un fragment de texte avec un contenu et une position spécifiés sur la page.
+//ExStepSummary:4: Cette étape définit diverses propriétés pour le fragment de texte, y compris la taille de la police, le type de police, la couleur de fond et la couleur de premier plan.
+//ExStepSummary:5: Cette étape crée un objet TextBuilder pour faciliter l'ajout du fragment de texte à la page PDF.
+//ExStepSummary:6: Cette étape ajoute le fragment de texte à la page PDF.
+//ExStepSummary:7: Cette étape définit le chemin du fichier de sortie pour le document PDF modifié.
+//ExStepSummary:8: Cette étape permet d'enregistrer le document PDF modifié sur le chemin de sortie spécifié.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Définir le chemin du répertoire pour les documents
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Ouvrez le document PDF spécifié
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Retrouver la deuxième page du document PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Créer un nouveau fragment de texte avec le contenu spécifié
+TextFragment textFragment = new TextFragment("main text");
+// Définir la position du fragment de texte sur la page
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Définir la taille de police du fragment de texte
+textFragment.TextState.FontSize = 12;
+// Définir le type de police
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Définir la couleur de fond
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Définir la couleur du texte
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Créer un objet TextBuilder pour la page
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Joignez le fragment de texte à la page PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Définir le chemin du fichier de sortie pour le document PDF modifié
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Enregistrer le document PDF modifié sur le chemin de sortie spécifié
+pdfDocument.Save(dataDir);
+// Message de réussite de sortie
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

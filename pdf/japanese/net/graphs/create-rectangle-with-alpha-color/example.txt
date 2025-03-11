@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: このコードは,Aspose.Pdfを使用して PDF 文書を作成し,アルファ色を持つ長方形を追加する方法を示します.
-//ExStepSummary:0: 次のコードは文書ディレクトリへの経路を設定します.
-//ExStepSummary:1: 次のコードはドキュメントインスタンスを表示します.
-//ExStepSummary:2: 次のコードは,PDFファイルのページコレクションにページを追加します.
-//ExStepSummary:3: 次のコードは,PDFページの形を描くグラフインスタンスを作成します.
-//ExStepSummary:4: 次のコードは,特定の次元と色を記入する直角形オブジェクトを作成します.
-//ExStepSummary:5: 次のコードは,第二の長方形オブジェクトを作成し,グラフに追加します.
-//ExStepSummary:6: 次のコードは,グラフインスタンスをページの段落コレクションに追加します.
-//ExStepSummary:7: 次のコードは PDF ファイルを保存し,コンソールに成功メッセージを印刷します.
+//ExSummaryこのコードでは Aspose.Pdf を使って PDF 文書を作成し,アルファ色を持つ長方形を追加する方法を示します.
+//ExStepSummary:0: 次のコードでドキュメントディレクトリへのパスが設定されます.
+//ExStepSummary:1: 次のコードは,Document インスタンスをインスタンシ化します.
+//ExStepSummary:2: 次のコードで PDF ファイルのページコレクションにページを追加します.
+//ExStepSummary:3: 次のコードで,PDFページに形を描く Graph インスタンスを作成します.
+//ExStepSummary:4: 次のコードで特定の寸法と填色色を持つ矩形オブジェクトを作成します
+//ExStepSummary:5: 次のコードで 2番目の矩形オブジェクトを作成し グラフに追加します
+//ExStepSummary:6: 次のコードで,グラフインスタンスはページの段落コレクションに追加されます.
+//ExStepSummary:7: 次のコードで PDF ファイルが保存され,コンソールに成功メッセージが印刷されます.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// 文書の保存用のディレクトリを定義するステップ
+// 文書を保存するディレクトリを定義するステップ
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// PDFを作成するドキュメントインスタンスをインスタンスする
+// PDF を作成する Document インスタンスをインスタンスする
 Document doc = new Document();
 
 //ExStep:2-
@@ -23,27 +23,27 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// 形を描くグラフインスタンスを作成
+// 図形を描く Graph インスタンスを作成
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// 指定された次元を持つ長方形を作成する
+// 指定された寸法を持つ矩形を作成
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// ARGB を使用して填写色を設定する
+// ARGB を使って填色を設定する
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// 2番目の長方形オブジェクトを作成する
+// 2番目の長方形オブジェクトを作成
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// 2番目の長方形の填写色を設定する
+// 2番目の長方形の填色を設定する
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Graph インスタンスの形集合に最初の長方角を追加する
+// Graph インスタンスの形状コレクションに最初の矩形を追加する
 canvas.Shapes.Add(rect);
-// Graph インスタンスの形集合に2番目の長方角を追加する
+// Graph インスタンスの形状コレクションに第2の矩形を追加する
 canvas.Shapes.Add(rect1);
-// グラフインスタンスをページの段落コレクションに追加する
+// ページの段落コレクションに Graph インスタンスを追加する
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
@@ -51,6 +51,6 @@ page.Paragraphs.Add(canvas);
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
 // 指定されたパスに PDF 文書を保存する
 doc.Save(dataDir);
-// コンソールに成功メッセージをプリントする
+// コンソールに成功メッセージを印刷する
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

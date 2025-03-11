@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ, который включает прямоугольник и фрагмент текста с прозрачными текстовыми эффектами.`ДобавитьTransparentText_out.pdf`в указанном каталоге.
+//ExStepSummary:0: Инициализируйте путь каталога документов и создавайте новый PDF-документ со страницей.
+//ExStepSummary:1: Создайте объект Graph и прямоугольник с прозрачным цветом заполнения, затем добавьте его на страницу.
+//ExStepSummary:2: Создать TextFragment с образцом текста и установить прозрачный зеленый цвет с 30% непрозрачностью.
+//ExStepSummary:3: Сохранить документ на указанном выходном пути.
+//ExStepSummary:4: Показать сообщение о успехе с маршрутом файла.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Путь к каталогу документов.
+string dataDir = "Your Document Directory";
+
+// Создать экземпляр документа
+Document doc = new Document(); 
+
+// Создать сборник PDF файлов
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Создать объект Graph с шириной и высотой
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Создать экземпляр прямоугольника с определенными габаритами
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Создать цветный объект из цветного канала Альфа
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Добавить прямоугольник в коллекцию форм объекта Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Добавить объект графа в абзац коллекция объекта страницы
+page.Paragraphs.Add(canvas);
+
+// Установите значение не менять положение для объекта графа
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Создать экземпляр TextFragment с выборкой значения
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Создать цветный объект из Альфа-канала
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Установка информации о цвете для экземпляра текста
+text.TextState.ForegroundColor = color;
+
+// Добавление текста в абзацы
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Укажите путь вывода для файла PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Сохранить документ по указанному пути
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Информировать пользователя о завершении процесса
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

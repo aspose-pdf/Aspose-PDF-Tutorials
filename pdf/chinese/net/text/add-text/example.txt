@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 这个代码展示了如何使用Aspose.PDF将文本片段添加到现有的PDF文档中.它打开PDF文件,创建具有特定属性的文本片段,并保存修改后的文档.
+//ExStepSummary:0: 这一步设置了输入PDF所在的文档目录的路径.
+//ExStepSummary:1: 这一步打开指定的PDF文档进行编辑.
+//ExStepSummary:2: 这一步从PDF文档中检索出特定页面.
+//ExStepSummary:3: 这一步创建一个文本片段,其中指定了页面上的内容和位置.
+//ExStepSummary:4: 这一步设置了文本片段的各种属性,包括字体大小,字体类型,背景颜色和前景颜色.
+//ExStepSummary:5: 这一步创建一个 TextBuilder 对象,以便将文本片段添加到 PDF 页面.
+//ExStepSummary:6: 这一步将文本片段附加到PDF页面.
+//ExStepSummary:7: 这一步设置了修改后的 PDF 文档的输出文件路径.
+//ExStepSummary:8: 这一步将修改后的 PDF 文档保存到指定输出路径.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// 设置文件的目录路径
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// 打开指定的PDF文档
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// 检索PDF文档的第二页
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// 创建一个新的文本片段,以指定内容
+TextFragment textFragment = new TextFragment("main text");
+// 设置页面上的文本片段位置
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// 设置文本片段的字体大小
+textFragment.TextState.FontSize = 12;
+// 设置字体类型
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// 设置背景颜色
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// 设置文本颜色
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// 创建一个 TextBuilder 对象
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// 将文本片段附加到PDF页面
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// 设置已修改的 PDF 文档的输出文件路径
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// 将修改后的 PDF 文档保存到指定输出路径
+pdfDocument.Save(dataDir);
+// 输出成功消息
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF مع جدول يحتوي على 10 صفوف و 3 أعمدة.
+//ExStepSummary:0: هذه الخطوة تحدد مسار الدليل حيث سيتم حفظ ملف PDF الخروج.
+//ExStepSummary:1: هذه الخطوة تخلق مثالاً جديداً من مستند PDF.
+//ExStepSummary:2: هذه الخطوة تبدأ كائن جدول جديد.
+//ExStepSummary:3: هذه الخطوة تعيين لون الحدود من الجدول إلى LightGray.
+//ExStepSummary:4: تطبق هذه الخطوة حافة LightGray على جميع خلايا الجدول.
+//ExStepSummary:5: هذه الخطوة تبدأ حلقة لإضافة 10 صفوف إلى الجدول.
+//ExStepSummary:6: هذه الخطوة تضيف صف جديد إلى الجدول وتضع محاذاة عمودية إلى المركز.
+//ExStepSummary:7: هذه الخطوة تضيف ثلاث خلايا إلى الصف، مع خلية أول تحتوي على محتوى ديناميكي على أساس الطابع الزمني الحالي.
+//ExStepSummary:8: هذه الخطوة تضيف صفحة جديدة إلى مستند PDF.
+//ExStepSummary:9: هذه الخطوة تضيف الجدول إلى الصفحة التي تم إنشاؤها حديثًا في المستند.
+//ExStepSummary:10: هذه الخطوة تحفظ مستند PDF النهائي إلى دليل الناتج المحدد.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// الطريق إلى دليل المستندات
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// إنشاء وثيقة PDF جديدة
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// يبدأ مثالا جديدا من الجدول.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// ضع لون حافة الجدول على LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// حدد الحدود لخلايا الجدول
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// إنشاء حلقة لإضافة 10 صفوف
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// إضافة صف إلى الجدول
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// ضع الموازنة الرأسية للصف
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// أضف الخلية الأولى مع المحتوى الديناميكي
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// أضف خلية ثانية
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// أضف الخلية الثالثة
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// إضافة صفحة جديدة إلى مستند PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// أضف كائن الجدول إلى الصفحة الأولى من المستند.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// حفظ المستند المحدث الذي يحتوي على كائن الجدول.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

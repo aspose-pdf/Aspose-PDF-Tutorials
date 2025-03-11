@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF menggunakan Aspose.PDF, menambahkan tabel dengan gaya perbatasan tertentu, dan menerapkan paginasi setelah sejumlah baris tertentu.
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF menggunakan Aspose.PDF, menambahkan tabel dengan gaya border tertentu, dan menerapkan paginasi setelah sejumlah baris tertentu.
 //ExStepSummary:0: Langkah ini menginisialisasi dokumen dan menambahkan halaman ke dalamnya.
-//ExStepSummary:1: Langkah ini membuat contoh tabel dan menetapkan gaya batasnya.
+//ExStepSummary:1: Langkah ini membuat contoh tabel dan menetapkan gaya bordernya.
 //ExStepSummary:2: Langkah ini menentukan lebar kolom untuk tabel.
 //ExStepSummary:3: Langkah ini menambahkan 200 baris ke tabel, dengan setiap baris berisi dua sel.
 //ExStepSummary:4: Langkah ini memeriksa apakah 10 baris telah ditambahkan dan pindah ke halaman baru jika demikian.
-//ExStepSummary:5: Langkah ini menambahkan tabel yang selesai ke halaman dokumen PDF dan menyimpannya.
+//ExStepSummary:5: Langkah ini menambahkan tabel yang telah selesai ke halaman dokumen PDF dan menyimpannya.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
@@ -13,7 +13,7 @@
 // Jalur ke direktori dokumen
 string dataDir = "Your Document Directory";
 
-// Instansi Dokumen instan
+// Instansiasi Instansi Dokumen
 Document doc = new Document();
 
 // Tambahkan halaman ke halaman koleksi file PDF
@@ -23,10 +23,10 @@ doc.Pages.Add();
 // Buat contoh tabel
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// Setelan gaya batas untuk meja
+// Atur gaya border untuk tabel
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Setelan gaya batas standar untuk tabel dengan warna batas sebagai Merah
+// Atur gaya border default untuk tabel dengan warna border sebagai Merah
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
@@ -57,13 +57,13 @@ for (int counter = 0; counter <= 200; counter++)
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // Ketika 10 baris ditambahkan, render baris baru di halaman baru
+    // Ketika 10 baris ditambahkan, membuat baris baru di halaman baru
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// Tambahkan tabel ke koleksi paragraf halaman pertama
+// Tambahkan tabel ke paragraf koleksi halaman pertama
 doc.Pages[1].Paragraphs.Add(tab); 
 // Tentukan jalur file output
 dataDir = dataDir + "InsertPageBreak_out.pdf";

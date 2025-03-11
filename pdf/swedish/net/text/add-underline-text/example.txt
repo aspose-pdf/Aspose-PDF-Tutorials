@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument och lägger till ett textfragment med understruken formatering.
+//ExStepSummary:0: Bestäm den katalog där PDF-dokumentet ska sparas.
+//ExStepSummary:1: Initialisera ett nytt PDF-dokument och lägg till en sida.
+//ExStepSummary:2: Skapa ett TextBuilder-objekt för den första sidan i dokumentet.
+//ExStepSummary:3: Skapa ett TextFragment med testmeddelandet, ange dess teckensnitt till Arial, storlek till 10 och aktivera understräckning.
+//ExStepSummary:4: Ange textfragmentets position i PDF-filen och bifoga den till TextBuilder.
+//ExStepSummary:5: Bestäm utgångsfilens väg och spara PDF-dokumentet.
+//ExStepSummary:6: Utgå ett framgångsmeddelande som anger att den understrukna texten har lagts till och visar filens plats.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Bestäm den katalog där dokumentet ska sparas.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Initialisera ett nytt PDF-dokument.
+Document pdfDocument = new Document();
+// Lägg till en ny sida i dokumentet.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Skapa en TextBuilder för den första sidan.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Skapa ett TextFragment med angiven text.
+TextFragment fragment = new TextFragment("Test message");
+// Ställ in teckensnittet på Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Ställ in teckensnittet till 10.
+fragment.TextState.FontSize = 10;
+// Aktivera understräckning för texten.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Ange textfragmentets placering i PDF-filen.
+fragment.Position = new Position(10, 800);
+// Lägga till TextFragment till TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Definera utgångspath för PDF-filen.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Spara dokumentet till den angivna vägen.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Utgångsmeddelande.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

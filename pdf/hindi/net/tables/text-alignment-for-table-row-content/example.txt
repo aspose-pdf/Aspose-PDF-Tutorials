@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: यह कोड दर्शाता है कि 10 पंक्तियों और 3 स्तंभों वाली तालिका के साथ पीडीएफ दस्तावेज़ कैसे बनाया जाए।
+//ExStepSummary:0: यह चरण उस निर्देशिका पथ को सेट करता है जहां आउटपुट पीडीएफ फ़ाइल सहेजी जाएगी.
+//ExStepSummary:1: यह चरण एक नया पीडीएफ दस्तावेज़ उदाहरण बनाता है.
+//ExStepSummary:2: यह चरण एक नई तालिका वस्तु को आरंभ करता है.
+//ExStepSummary:3: यह चरण तालिका के सीमा रंग को लाइटग्रे पर सेट करता है.
+//ExStepSummary:4: यह चरण सभी तालिका कक्षों के लिए एक लाइटग्रे सीमा लागू करता है.
+//ExStepSummary:5: यह चरण तालिका में 10 पंक्तियों को जोड़ने के लिए एक लूप शुरू करता है।
+//ExStepSummary:6: यह चरण तालिका में एक नई पंक्ति जोड़ता है और इसकी ऊर्ध्वाधर संरेखण को केंद्र में सेट करता है।
+//ExStepSummary:7: यह चरण पंक्ति में तीन कक्ष जोड़ता है, जिसमें पहली कक्ष में वर्तमान समय के आधार पर गतिशील सामग्री होती है।
+//ExStepSummary:8: यह चरण पीडीएफ दस्तावेज़ में एक नया पृष्ठ जोड़ता है.
+//ExStepSummary:9: यह चरण तालिका को दस्तावेज़ में नए बनाए गए पृष्ठ में जोड़ता है.
+//ExStepSummary:10: यह चरण अंतिम पीडीएफ दस्तावेज़ को निर्दिष्ट आउटपुट निर्देशिका में सहेजता है.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// नया पीडीएफ दस्तावेज़ बनाएँ.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// तालिका का एक नया उदाहरण आरंभ करता है.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// तालिका सीमा रंग को लाइटग्रे के रूप में सेट करें.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// तालिका कक्षों के लिए सीमा सेट करें.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// 10 पंक्तियों को जोड़ने के लिए एक लूप बनाएँ
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// तालिका में पंक्ति जोड़ें
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// पंक्ति का ऊर्ध्वाधर संरेखण सेट करें.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// गतिशील सामग्री के साथ पहली सेल जोड़ें.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// दूसरी सेल जोड़ें.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// तीसरी सेल जोड़ें.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// पीडीएफ दस्तावेज़ में एक नया पृष्ठ जोड़ें.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// तालिका वस्तु को दस्तावेज़ के पहले पृष्ठ में जोड़ें.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// तालिका वस्तु युक्त अद्यतन दस्तावेज़ सहेजें.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

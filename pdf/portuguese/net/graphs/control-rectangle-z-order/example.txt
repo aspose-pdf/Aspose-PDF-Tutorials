@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento PDF, adicionar retângulos com diferentes cores e Z-índices, e salvar o documento.
-//ExStepSummary:0: Esta etapa define o diretório de saída para o documento PDF e representa um novo objeto de documento e adiciona uma nova página com dimensões especificadas.
-//ExStepSummary:1: Esta etapa define o tamanho da página e a margem da página recém-criada.
+//ExSummary: Este código demonstra como criar um documento PDF, adicionar retângulos com cores diferentes e índices Z e salvar o documento.
+//ExStepSummary:0: Esta etapa define o diretório de saída para o documento PDF e cria um novo objeto Document e adiciona uma nova página com dimensões especificadas.
+//ExStepSummary:1: Esta etapa define o tamanho da página e a margem para a página recém-criada.
 //ExStepSummary:2: Este passo adiciona um retângulo vermelho em coordenadas especificadas com um índice Z de 2, garantindo que ele apareça acima de outras formas.
 //ExStepSummary:3: Este passo adiciona um retângulo azul em coordenadas especificadas com um índice Z de 1, garantindo que ele apareça abaixo do retângulo vermelho, mas acima dos outros.
-//ExStepSummary:4: Este passo adiciona um retângulo verde em coordenadas especificadas com um índice Z de 0, garantindo que apareça no fundo da ordem Z.
-//ExStepSummary:5: Esta etapa salva o documento PDF para o caminho do arquivo de saída especificado.
-//ExStepSummary:6: Esta etapa define um método para encapsular a lógica para adicionar retângulos à página PDF, incluindo a definição de suas propriedades e Z-index.
+//ExStepSummary:4: Este passo adiciona um retângulo verde em coordenadas especificadas com um índice Z de 0, garantindo que ele apareça na parte inferior da ordem Z.
+//ExStepSummary:5: Esta etapa salva o documento PDF no caminho do arquivo de saída especificado.
+//ExStepSummary:6: Esta etapa define um método para encapsular a lógica para adicionar retângulos à página PDF, incluindo a definição de suas propriedades e Z-índice.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
@@ -14,7 +14,7 @@
 // Defina o diretório de documentos
 string dataDir = "Your Document Directory";
 
-// Objeto de classe de documento instante
+// Instanciar objeto da classe Document
 Document doc1 = new Document();
 
 // Adicionar uma nova página ao documento
@@ -49,20 +49,20 @@ doc1.Save(outputFilePath);
 // Método para adicionar um retângulo à página PDF
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // Criar um objeto gráfico com as mesmas dimensões do retângulo
+    // Criar um objeto de gráfico com as mesmas dimensões que o retângulo
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Prevenir a alteração automática da posição do gráfico
+    // Impedir que a posição do gráfico mude automaticamente
     graph.IsChangePosition = false;
     
-    // Estabelecer posição do gráfico
+    // Configure a posição do gráfico
     graph.Left = x;
     graph.Top = y;
     
     // Crie um retângulo dentro do gráfico
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Configurar o preenchimento de retângulo e a cor da borda
+    // Defina o preenchimento e cor da borda do retângulo
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     

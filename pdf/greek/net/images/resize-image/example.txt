@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Αυτός ο κώδικας δείχνει πώς να βελτιστοποιήσετε ένα έγγραφο PDF συμπιέζοντας και μετριάζοντας τις εικόνες που περιέχονται μέσα του.
-//ExStepSummary:0: Ο ακόλουθος κωδικός αρχιτολογεί τον τρέχοντα χρόνο και καθορίζει τη διαδρομή του καταλόγου εγγράφων.
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να βελτιστοποιήσετε ένα έγγραφο PDF συμπιέζοντας και αλλάζοντας το μέγεθος εικόνων μέσα σε αυτό.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιεί την τρέχουσα ώρα και ορίζει την διαδρομή του καταλόγου εγγράφων.
 //ExStepSummary:1: Ο ακόλουθος κωδικός ανοίγει το καθορισμένο έγγραφο PDF για επεξεργασία.
-//ExStepSummary:2: Ο ακόλουθος κωδικός αρχικά προχωρά στις επιλογές βελτιστοποίησης για το PDF.
+//ExStepSummary:2: Ο ακόλουθος κώδικας αρχικοποιεί τις επιλογές βελτιστοποίησης για το PDF.
 //ExStepSummary:3: Ο ακόλουθος κώδικας ρυθμίζει τις ρυθμίσεις συμπίεσης εικόνας, συμπεριλαμβανομένης της συμπίεσης και της ποιότητας.
 //ExStepSummary:4: Ο ακόλουθος κώδικας εφαρμόζει τις επιλογές βελτιστοποίησης στο έγγραφο PDF.
-//ExStepSummary:5: Ο ακόλουθος κώδικας αποθηκεύει το βελτιστοποιημένο έγγραφο PDF σε ένα νέο αρχείο.
+//ExStepSummary:5: Ο ακόλουθος κώδικας αποθηκεύει το βελτιστοποιημένο έγγραφο PDF σε νέο αρχείο.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Αρχική Τελευταία
+// Εισαγωγή χρόνου
 var time = DateTime.Now.Ticks;
-// Η διαδρομή στο κατάλογο εγγράφων.
+// Η διαδρομή για το κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,27 +18,27 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// Αρχική OptimizationOptions
+// Εγκαταστάστε OptimizationOptions
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Εγκαταστήστε επιλογή CompressImages
+// Ορίστε την επιλογή Συγκλιτική εικόνα
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// Εγκαθίστατε επιλογή ImageQuality 
+// Ορίστε την επιλογή ImageQuality 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// Εγκαταστήστε επιλογή ResizeImage
+// Ορίστε την επιλογή ResizeImage
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// Εγκαθίστατε τη δυνατότητα MaxResolution
+// Ορίστε την επιλογή MaxResolution
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
-// Οπτικοποιήστε το έγγραφο PDF χρησιμοποιώντας OptimizationOptions
+// Βελτιστοποίηση εγγράφου PDF με τη χρήση OptimizationOptions
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
-// Ενημερώστε τον κατάλογο δεδομένων για το αρχείο εξόδου
+// Ενημέρωση του φακέλου εξόδου
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// Αποθηκεύστε το ενημερωμένο έγγραφο
+// Αποθήκευση ενημερωμένου εγγράφου
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-

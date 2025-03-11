@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: このコードは",Aspose.PDF"ライブラリを使用して多列 PDF 文書を作成する方法を示します. 辺を設定し,HTML フォーマットでテキストを追加し,内容を列に分類します.
+//ExStepSummary:0: このステップでは,ドキュメントディレクトリを設定し,新しい PDF ドキュメントを初期化し,ページのマージンを設定します.
+//ExStepSummary:1: このステップでは,ドキュメントに新しいページを追加し,グラフとラインクラスを使って水平線を描きます.
+//ExStepSummary:2: このステップでは,フォーマットされたテキストを搭載した HTMLFragment を作成し,PDF 文書に追加します.
+//ExStepSummary:3: このステップでは,二列のレイアウトのための浮遊ボックスを作成し,その作成者情報を追加します.
+//ExStepSummary:4: このステップでは,視覚分離のために浮遊ボックス内側に別の水平線を描きます.
+//ExStepSummary:5: このステップでは,複数の列にコンテンツの分布を示すため,FloatingBoxに長いテキストフラグメントを追加します.
+//ExStepSummary:6: このステップでは,指定された出力パスに文書を保存し,成功メッセージを印刷します.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 文書ディレクトリへの経路を定義する
+string dataDir = "Your Document Directory";
+// 新しいドキュメントインスタンスを作成
+Document doc = new Document(); 
+
+// PDF ファイルの左辺の情報を指定する
+doc.PageInfo.Margin.Left = 40; 
+// PDF ファイルの右辺の情報を指定する
+doc.PageInfo.Margin.Right = 40;
+// 文書に新しいページを追加する
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// 線を描く新しい Graph オブジェクトを作成
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// セクションオブジェクトの集合に行を追加する
+page.Paragraphs.Add(graph1);
+
+// 線の座標を指定する
+// 線の開始点と終点を定義する
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// 指定した座標を持つ線形を作成
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// グラフに線形を追加する
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// html タグを含むテキストで文字列変数を作成する
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// ヘッダテキストにHtmlFragmentを作成する
+HtmlFragment heading_text = new HtmlFragment(s);
+// ページにヘッダテキストを追加する 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// 多列レイアウトのための新しい浮遊ボックスを作成
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// 列数を2に設定する
+box.ColumnInfo.ColumnCount = 2; 
+// 列間の間隔を設定する
+box.ColumnInfo.ColumnSpacing = "5";
+// 各列の幅を設定する
+box.ColumnInfo.ColumnWidths = "105 105";
+// 作者情報のためのテキスト断片を作成
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// テキストのフォントサイズを設定する
+text1.TextState.FontSize = 8;
+// テキストの行間を設定する
+text1.TextState.LineSpacing = 2;
+// 浮遊ボックスに作者のテキストを追加する
+box.Paragraphs.Add(text1);
+// テキストのフォントサイズを更新する
+text1.TextState.FontSize = 10;
+// フォントスタイルを斜めにする
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// 2 行目の図面を描く別の Graph オブジェクトを作成する
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// 線の座標を指定する
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// グラフに第2行形を追加する
+graph2.Shapes.Add(l2);
+
+// セクションオブジェクトの集合に行を追加する
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// 列のコンテンツを表示するために長いテキスト断片を作成する
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// 浮遊ボックスに長文字を追加する
+box.Paragraphs.Add(text2); 
+// ページにすべてのコンテンツを含む浮遊ボックスを追加する
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// 出力 PDF ファイル パスを指定する
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// 指定されたパスに文書を保存する
+doc.Save(dataDir); 
+// 印刷成功メッセージ
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

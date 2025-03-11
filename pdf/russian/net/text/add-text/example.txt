@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Этот код показывает, как добавить фрагмент текста в существующий документ PDF с помощью Aspose.PDF. Он открывает PDF, создает фрагмент текста с определенными свойствами и сохраняет измененный документ.
+//ExStepSummary:0: Этот шаг устанавливает путь к каталогу документов, где находится входящий PDF.
+//ExStepSummary:1: Этот шаг открывает указанный PDF-документ для редактирования.
+//ExStepSummary:2: Этот шаг восстанавливает конкретную страницу из документа PDF.
+//ExStepSummary:3: Этот шаг создает фрагмент текста с определенным содержанием и положением на странице.
+//ExStepSummary:4: Этот шаг устанавливает различные свойства фрагмента текста, включая размер шрифта, тип шрифта, цвет фона и цвет переднего плана.
+//ExStepSummary:5: Этот шаг создает объект TextBuilder для облегчения добавления фрагмента текста на страницу PDF.
+//ExStepSummary:6: Этот шаг присоединяет фрагмент текста к странице PDF.
+//ExStepSummary:7: Этот шаг устанавливает путь выходного файла для измененного PDF-документа.
+//ExStepSummary:8: Этот шаг сохраняет измененный PDF-документ на указанном выходном пути.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Установка пути каталога для документов
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Открыть указанный документ PDF
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Получить вторую страницу PDF-документа
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Создать новый фрагмент текста с указанным содержанием
+TextFragment textFragment = new TextFragment("main text");
+// Установка положения фрагмента текста на странице
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Установка размера шрифта фрагмента текста
+textFragment.TextState.FontSize = 12;
+// Установка типа шрифта
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Установка цвета фона
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Установка цвета текста
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Создать объект TextBuilder для страницы
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Прикрепить фрагмент текста к странице PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Установка пути вывода файла для измененного документа PDF
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Сохранить измененный документ PDF на указанном выходном пути
+pdfDocument.Save(dataDir);
+// Сообщение об успехе вывода
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

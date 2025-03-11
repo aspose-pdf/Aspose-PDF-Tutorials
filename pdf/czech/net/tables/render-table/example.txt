@@ -1,14 +1,14 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument s tabulkami pomocí Aspose.Pdf. Nastavuje marže, přidává dvě tabulky na různých stránkách a ukládá dokument na specifikovanou cestu.
-//ExStepSummary:0: Tento krok nastaví výstupní adresář souboru PDF.
-//ExStepSummary:1: Tento krok iniciuje nový objekt Documentu a získává PageInfo pro změnu nastavení stránky.
-//ExStepSummary:2: Tento krok nastaví okraj stránky a mění orientaci stránky do režimu krajiny.
-//ExStepSummary:3: Tento krok vytváří nový objekt tabulky a definuje šířky sloupků.
-//ExStepSummary:4: Tento krok přidává do dokumentu novou stránku a vloží tabulku s 120 řádky, která nastaví pevnou výšku řádku a přidává obsah do každé buňky.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument s tabulkami pomocí Aspose.Pdf. Nastavuje okraje, přidává dvě tabulky na různých stránkách a ukládá dokument na stanovenou cestu.
+//ExStepSummary:0: Tento krok nastavuje výstupní adresář pro soubor PDF.
+//ExStepSummary:1: Tento krok inicializuje nový objekt dokumentu a získá informace o stránce, aby změnil nastavení stránky.
+//ExStepSummary:2: Tento krok nastavuje okraje stránek a mění orientaci stránky na režim krajiny.
+//ExStepSummary:3: Tento krok vytváří nový objekt tabulky a definuje šířky sloupců.
+//ExStepSummary:4: Tento krok přidává novou stránku do dokumentu a vloží tabulku s 120 řádky, nastaví pevnou výšku řádku a přidá obsah do každé buňky.
 //ExStepSummary:5: Tento krok přidává první tabulku do sbírky odstavců aktuální stránky.
 //ExStepSummary:6: Tento krok vytváří další tabulku s různými šířkami sloupců a přidává 10 řádků s specifikovaným obsahem.
-//ExStepSummary:7: Tento krok nastaví druhou tabulku na novou stránku a přidá ji do dokumentu.
-//ExStepSummary:8: Tento krok ukládá PDF dokument na uvedenou cestu a vydala úspěšnou zprávu.
+//ExStepSummary:7: Tento krok nastaví druhou tabulku, aby se zobrazovala na nové stránce a přidá se do dokumentu.
+//ExStepSummary:8: Tento krok ukládá PDF dokument na stanovenou cestu a vyprodukuje zprávu o úspěchu.
 //ExStepImage:5:images/2.png
 //ExStepImage:7:images/3.png
 //ExStep:0-
@@ -16,27 +16,27 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Vytvořte nový objekt Dokument.
+// Vytvořit nový objekt Dokument.
 Document doc = new Document();
-// Získám informace o dokumentu.
+// Získejte informace o dokumentu.
 PageInfo pageInfo = doc.PageInfo;
-// Přístup k nastavení marže stránky.
+// Přístup k nastavení okrajů stránky.
 Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 
 //ExStep:2-
-// Vymyslete levé rozpětí na 37 jednotek.
+// Nastavte levé okraje na 37 jednotek.
 marginInfo.Left = 37;
-// Nastav pravý rozsah na 37 jednotek.
+// Nastavte pravý rozpětí na 37 jednotek.
 marginInfo.Right = 37;
-// Nastavte maximální rozpětí na 37 jednotek.
+// Nastavte vrchní marži na 37 jednotek.
 marginInfo.Top = 37; 
-// Uveďte dolní rozpětí na 37 jednotek.
+// Nastav dolní marži na 37 jednotek.
 marginInfo.Bottom = 37;
 // Nastavte orientaci stránky na krajinu.
 pageInfo.IsLandscape = true;
 
 //ExStep:3-
-// Vytvořte nový objekt stolu.
+// Vytvořte nový objekt tabulky.
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 // Definice šířky sloupců v tabulce.
 table.ColumnWidths = "50 100";
@@ -44,58 +44,58 @@ table.ColumnWidths = "50 100";
 //ExStep:4-
 // Přidejte do dokumentu novou stránku.
 Page curPage = doc.Pages.Add();
-// Způsobit se přidat 120 řádků k prvnímu stolu.
+// Loop přidá 120 řádků do první tabulky.
 for (int i = 1; i <= 120; i++)
 {
-	// Vytvořte nový řádek.
+	// Vytvořte novou řadu.
     Aspose.Pdf.Row row = table.Rows.Add();
-	// Nastav pevnou výšku řady.
+	// Nastavte pevnou výšku řady.
     row.FixedRowHeight = 15; 
     // Vytvořte první buňku v řadě.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Přidejte textFragment do první buňky.
+	// Přidejte TextFragment do první buňky.
     cell1.Paragraphs.Add(new TextFragment("Content 1")); 
-    // Vytvořte druhou buňku po sobě.
+    // Vytvořte druhou buňku v řadě.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Přidejte textFragment do druhé buňky.
+	// Přidejte TextFragment do druhé buňky.
     cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
 }
 
 //ExStep:5-
-// Přístup k sbírce odstavců aktuální stránky.
+// Přístup ke sbírce odstavců na aktuální stránce.
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
-// První tabulku přidejte k současné stránce.
+// Přidejte první tabulku na aktuální stránku.
 paragraphs.Add(table); 
 
 //ExStep:6-
-// Vytvořte další objekt stolu.
+// Vytvořte další objekt tabulky.
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
-// Definice šířky sloupců v druhé tabulce.
+// Definice šířky sloupců ve druhé tabulce.
 table1.ColumnWidths = "100 100";
-// Způsobit se přidat 10 řádků ke druhému stolu. 
+// Loop přidá 10 řádků do druhého tabulky. 
 for (int i = 1; i <= 10; i++) 
 {
-	// Vytvořte nový řádek pro tabulku 1.
+	// Vytvořit nový řádek pro tabulku 1.
     Aspose.Pdf.Row row = table1.Rows.Add(); 
 	// Vytvořte první buňku v řadě.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Přidejte textFragment do první buňky.
+	// Přidejte TextFragment do první buňky.
     cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
-    // Vytvořte druhou buňku po sobě.
+    // Vytvořte druhou buňku v řadě.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Přidejte textFragment do druhé buňky.
+	// Přidejte TextFragment do druhé buňky.
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
 }
-// Nastavte vlastnost, aby se druhý stůl dal na novou stránku.
+// Nastavte vlastnost, která umístí druhou tabulku na novou stránku.
 table1.IsInNewPage = true; 
-// ExStep:7-
-// Přidejte druhou tabulku k odstavcům současné stránky.
+// Krok 7:
+// Přidejte druhou tabulku do odstavců na aktuální stránce.
 paragraphs.Add(table1); 
-// Definiovat výstupní soubor.
+// Definijte cestu výstupního souboru.
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
-// Uložte dokument na uvedenou cestu.
+// Uložit dokument na zadání cesty.
 doc.Save(dataDir); 
 // ExStep:8-
-// Výstupní úspěšná zpráva.
+// Zpráva o úspěchu.
 Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
 //ExEnd

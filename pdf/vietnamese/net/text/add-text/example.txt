@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách thêm một đoạn văn bản vào một tài liệu PDF hiện có bằng cách sử dụng Aspose.PDF. Nó mở một PDF, tạo ra một đoạn văn bản với các thuộc tính cụ thể và lưu tài liệu đã sửa đổi.
+//ExStepSummary:0: Bước này thiết lập đường dẫn đến thư mục tài liệu nơi PDF đầu vào nằm.
+//ExStepSummary:1: Bước này mở tài liệu PDF được chỉ định để chỉnh sửa.
+//ExStepSummary:2: Bước này lấy một trang cụ thể từ tài liệu PDF.
+//ExStepSummary:3: Bước này tạo ra một đoạn văn bản với nội dung và vị trí được chỉ định trên trang.
+//ExStepSummary:4: Bước này thiết lập các thuộc tính khác nhau cho đoạn văn bản, bao gồm kích thước phông chữ, kiểu phông chữ, màu nền và màu tiền cảnh.
+//ExStepSummary:5: Bước này tạo ra một đối tượng TextBuilder để tạo điều kiện thêm đoạn văn bản vào trang PDF.
+//ExStepSummary:6: Bước này đính kèm đoạn văn bản vào trang PDF.
+//ExStepSummary:7: Bước này thiết lập đường dẫn file đầu ra cho tài liệu PDF đã sửa đổi.
+//ExStepSummary:8: Bước này lưu tài liệu PDF đã sửa đổi vào đường dẫn đầu ra đã chỉ định.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Đặt đường dẫn thư mục cho các tài liệu
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Mở tài liệu PDF đã chỉ định
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Nhận trang thứ hai của tài liệu PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Tạo một đoạn văn bản mới với nội dung đã chỉ định
+TextFragment textFragment = new TextFragment("main text");
+// Thiết lập vị trí của đoạn văn bản trên trang
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Đặt kích thước phông chữ của đoạn văn bản
+textFragment.TextState.FontSize = 12;
+// Đặt kiểu phông chữ
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Đặt màu nền
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Đặt màu văn bản
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Tạo đối tượng TextBuilder cho trang
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Thêm đoạn văn bản vào trang PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Đặt đường dẫn file đầu ra cho tài liệu PDF được sửa đổi
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Lưu tài liệu PDF đã sửa đổi vào đường dẫn đầu ra đã chỉ định
+pdfDocument.Save(dataDir);
+// Thông báo thành công đầu ra
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

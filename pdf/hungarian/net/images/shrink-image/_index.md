@@ -1,8 +1,8 @@
 ---
-title: Optimalizálja a PDF-t a képek összeomlása az Aspose.PDF .NET-hez
+title: PDF optimalizálása képek tömörítésével az Aspose.PDF .NET-hez
 weight: 7700
 limit: 
-description: Tanuljon meg, hogyan optimalizálhatja a PDF-dokumentumot a képek összeomlása segítségével Aspose.PDF a .NET-hez. Csökkentse a fájlméretet, miközben a minőséget egyszerű C # kód segítségével.  
+description: Tanulja meg, hogyan lehet optimalizálni egy PDF dokumentumot a képek tömörítésével az Aspose.PDF használatával .NET-hez. Csökkentse a fájlméretet, miközben a minőséget megőrzi egyszerű C # kódokkal.  
 keywords: [Aspose.PDF for .NET, optimize PDF, compress images, reduce PDF size, C# PDF optimization, PDF image compression, .NET PDF processing]
 url: /hu/net/images/shrink-image/
 ---
@@ -10,9 +10,9 @@ url: /hu/net/images/shrink-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A PDF-t optimáld a képek összeomlása a Aspose.PDF
+# PDF optimalizálása a képek tömörítésével az Aspose.PDF
  
-A PDF fájlok optimalizálása nélkülözhetetlen a fájlméret csökkentéséhez, miközben a dokumentum minőségét fenntartjuk. Az Aspose.PDF segítségével a .NET-ben hatékonyan összeomláthatod a képeket egy PDF-ben beépített optimalizációs lehetőségek segítségével. Ez a útmutató egy egyszerű C# példát mutatja, ahol egy PDF fájlt töltöttek, a képkompresszió engedélyezett, a minőség beállításokat módosítják, és az optimalizált dokumentum megőrzik.  
+A PDF fájlok optimalizálása elengedhetetlen a fájlméret csökkentése érdekében, miközben a dokumentum minősége megmarad. A .NET-hez használt Aspose.PDF segítségével hatékonyan tömörítheti a képeket a PDF-ben, a beépített optimalizációs lehetőségek segítségével. Ez a útmutató egy egyszerű C# példát mutat, ahol egy PDF fájlt betöltenek, kép tömörítést engedélyeznek, a minőségbeállításokat beállítják, és az optimalizált dokumentumot menthetik.  
  
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
@@ -20,37 +20,37 @@ A PDF fájlok optimalizálása nélkülözhetetlen a fájlméret csökkentéséh
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A telepítési utasítás:  
-A .NET-hez az Aspose.PDF használatához kövesse ezeket a lépéseket:  
+## A berendezés beépítési utasításai:  
+A .NET-hez Aspose.PDF használatához kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepítse:  
-   * Nyissa ki a Visual Studio- t, és menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd a Aspose.PDF és kattintson Install.  
+1. A NuGet csomagkezelő segítségével telepíteni:  
+   * Nyissa meg a Visual Studio-t, és lépjen az Eszközök> NuGet csomagkezelő> Elintézni a NuGet csomagokat megoldás céljából.  
+   * Keresse meg az Aspose.PDF és kattintson a telepítésre.  
 
-   OR  
+   Vagy  
 
-   A csomagkezelő konzoltól futtassa ki a következő parancsot:  
+   A következő parancsot futtassa a csomagkezelő konzolban:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Letöltsük az Aspose weboldalról:  
-   * Látogatás[Aspose.PDF a .NET letöltésekhez](https://releases.aspose.com/pdf/net/)  
-   * Letöltsd és telepítsd a legújabb verziót.  
+2. Letöltsd az Aspose honlapján:  
+   * Látogatás.[Aspose.PDF a .NET letöltésekhez](https://releases.aspose.com/pdf/net/)  
+   * Töltse le és telepítse a legújabb verziót.  
 
-3. A licenc alkalmazása (Felhetős):  
-   * Kapjon ingyenes próbaengedélyt![Támogatás](https://purchase.aspose.com/temporary-license/)  
-   * A licenc kódját használja:  
+3. A jogosítványt kérelmezni (választható):  
+   * Kapj egy ingyenes próbaengedélyt.[Átmeneti engedély](https://purchase.aspose.com/temporary-license/)  
+   * A licencet a kódjában használja:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.PDF.lic");
    ```
 
 ## Hasznos linkek:  
-Dokumentáció: [Aspose.PDF a .NET útmutató számára](https://docs.aspose.com/pdf/net/)  
+Dokumentáció: [Aspose.PDF a .NET útmutatóhoz](https://docs.aspose.com/pdf/net/)  
 API hivatkozás: [Aspose.PDF a .NET API- hoz](https://reference.aspose.com/pdf/net/)  
-Kiegészítő: [Képzelj ingyenes próbázást](https://releases.aspose.com/)  
-Támogatási fórum: [Támogatás](https://forum.aspose.com/c/pdf/10) 
+Ingyenes próba:[Ingyenes próbaverzió](https://releases.aspose.com/)  
+Támogatási fórum:[Támogatás](https://forum.aspose.com/c/pdf/10) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

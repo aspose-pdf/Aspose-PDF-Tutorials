@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument s tabulkou obsahující 10 řádků a 3 sloupce.
+//ExStepSummary:0: Tento krok nastavuje cestu adresáře, kde bude uložen výstupní soubor PDF.
+//ExStepSummary:1: Tento krok vytváří nový PDF dokument.
+//ExStepSummary:2: Tento krok inicializuje nový objekt tabulky.
+//ExStepSummary:3: Tento krok nastaví hraniční barvu tabulky na světle šedou.
+//ExStepSummary:4: Tento krok použije LightGray hranice na všechny buňky tabulky.
+//ExStepSummary:5: Tento krok spouští smyčku, která přidá 10 řádků do tabulky.
+//ExStepSummary:6: Tento krok přidává nový řádek do tabulky a nastavuje její vertikální zarovnání do středu.
+//ExStepSummary:7: Tento krok přidává do řádku tři buňky, přičemž první buňka obsahuje dynamický obsah založený na aktuální časové značce.
+//ExStepSummary:8: Tento krok přidává novou stránku do dokumentu PDF.
+//ExStepSummary:9: Tento krok přidává tabulku do nově vytvořené stránky v dokumentu.
+//ExStepSummary:10: Tento krok uloží konečný PDF dokument do specifikovaného výstupního adresáře.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Cesta do adresáře dokumentů.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořte nový PDF dokument.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Inicializuje novou instanci tabulky.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Nastavte barvu okraje tabulky na světle šedou.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Nastavte hranici pro tabulkové buňky.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Vytvořit smyčku pro přidání 10 řádků
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Přidat řádek do tabulky
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Nastavte vertikální zarovnání řady.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Přidejte první buňku s dynamickým obsahem.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Přidejte druhou buňku.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Přidejte třetí buňku.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Přidejte novou stránku do dokumentu PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Přidejte objekt tabulky na první stránku dokumentu.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Uložit aktualizovaný dokument obsahující objekt tabulky.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF z tabelą zawierającą 10 wierszy i 3 kolumny.
+//ExStepSummary:0: Ten krok ustala ścieżkę katalogu, w którym zostanie zapisane wyjściowe plik PDF.
+//ExStepSummary:1: Ten krok tworzy nową instancję dokumentu PDF.
+//ExStepSummary:2: Ten krok inicjuje nowy obiekt tabeli.
+//ExStepSummary:3: Ten krok ustawia kolor granicy tabeli na LightGray.
+//ExStepSummary:4: Ten krok stosuje LightGray granicy do wszystkich komórek tabeli.
+//ExStepSummary:5: Ten krok rozpoczyna pętlę, aby dodać 10 rzędów do tabeli.
+//ExStepSummary:6: Ten krok dodaje nowy wiersz do tabeli i ustawia jej pionowe wyrównanie do środka.
+//ExStepSummary:7: W tym kroku do wiersza dodaje się trzy komórki, a pierwsza komórka zawiera dynamiczną zawartość opartą na bieżącym znaczku czasu.
+//ExStepSummary:8: Ten krok dodaje nową stronę do dokumentu PDF.
+//ExStepSummary:9: Ten krok dodaje tabelę do nowo utworzonej strony w dokumencie.
+//ExStepSummary:10: Ten krok zapisuje ostateczny dokument PDF w określonym katalogu wyjściowym.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Ścieżka do katalogu dokumentów.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Utwórz nowy dokument PDF.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Inicjalizuje nową instancję tabeli.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Ustaw kolor granicy tabeli na LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Ustawić granicę dla komórek tablicy.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Utworzyć pętlę do dodawania 10 wierszy
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Dodać wiersz do tabeli
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Ustaw pionowe ustawienie rzędu.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Dodaj pierwszą komórkę z dynamiczną zawartością.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Dodaj drugą komórkę.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Dodaj trzecią komórkę.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Dodaj nową stronę do dokumentu PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Dodaj obiekt tabeli na pierwszą stronę dokumentu.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Zapisz zaktualizowany dokument zawierający obiekt tabeli.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

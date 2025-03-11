@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Este código muestra cómo crear un documento PDF y añadir un fragmento de texto con formato subrayado.
+//ExStepSummary:0: Define el directorio donde se guardará el documento PDF.
+//ExStepSummary:1: Inicie un nuevo documento PDF y añada una página.
+//ExStepSummary:2: Crear un objeto de TextBuilder para la primera página del documento.
+//ExStepSummary:3: Crear un TextFragment con el mensaje de prueba, establecer su fuente a Arial, tamaño a 10, y habilitar el formato de subrayado.
+//ExStepSummary:4: Especifique la posición del TextFragment en el PDF y adjúntelo al TextBuilder.
+//ExStepSummary:5: Define la ruta del archivo de salida y guarde el documento PDF.
+//ExStepSummary:6: Saca un mensaje de éxito que indique que se ha añadido el texto subrayado y muestre la ubicación del archivo.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Define el directorio donde se guardará el documento.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Inicie un nuevo documento PDF.
+Document pdfDocument = new Document();
+// Añadir una nueva página al documento.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Crear un constructor de texto para la primera página.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Crear un TextFragment con el texto especificado.
+TextFragment fragment = new TextFragment("Test message");
+// Establezca la fuente en Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Establezca el tamaño de la fuente en 10.
+fragment.TextState.FontSize = 10;
+// Habilitar el formato de subrayado para el texto.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Especifique la posición del fragmento de texto en el PDF.
+fragment.Position = new Position(10, 800);
+// Añadir el TextFragment al constructor de texto.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Define la ruta del archivo de salida para el PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Guarde el documento en la ruta especificada.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Envía el mensaje de éxito.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

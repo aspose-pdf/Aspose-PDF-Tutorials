@@ -1,38 +1,38 @@
 //ExStart
-//ExSummaryDieser Code zeigt, wie man ein Bild aus einem PDF-Dokument extrahiert und als JPEG-Datei speichert und gleichzeitig das aktualisierte PDF speichert.
-//ExStepSummary:0: Der folgende Code initialisiert den Weg zum Dokumentenverzeichnis.
-//ExStepSummary:1: Der folgende Code öffnet das PDF-Dokument, aus dem Bilder extrahiert werden.
+//ExSummary: Dieser Code zeigt, wie man ein Bild aus einem PDF-Dokument extrahiert und als JPEG-Datei speichert und gleichzeitig das aktualisierte PDF speichert.
+//ExStepSummary:0: Der folgende Code initialisiert den Pfad zum Dokumentenverzeichnis.
+//ExStepSummary:1: Der folgende Code öffnet das PDF-Dokument, aus dem die Bilder extrahiert werden.
 //ExStepSummary:2: Der folgende Code extrahiert ein bestimmtes Bild aus dem PDF-Dokument.
-//ExStepSummary:3: Der folgende Code speichert das extrahierte Bild in eine bestimmte Ausgangsdatei.
-//ExStepSummary:4: Der folgende Code aktualisiert die ursprüngliche PDF-Datei und speichert sie auf einen neuen Weg.
+//ExStepSummary:3: Der folgende Code speichert das extrahierte Bild in eine angegebene Ausgabedatei.
+//ExStepSummary:4: Der folgende Code aktualisiert die ursprüngliche PDF-Datei und speichert sie auf einem neuen Pfad.
 //ExStepImage:3:images/1.png
 //ExStep:0-
-// Geben Sie das Verzeichnis mit der PDF-Datei an
+// Geben Sie das Verzeichnis an, in dem die PDF-Datei enthalten ist
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Öffnet das PDF-Dokument zur Bildgewinnung
+// Öffnet das PDF-Dokument zur Bildentnahme
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// Das erste Bild wird auf der zweiten Seite des PDF-Dateies extrahiert
+// Das erste Bild von der zweiten Seite des PDF-Dateies extrahiert
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// Erstellt einen Stream, um das extrahierte Bild zu speichern
+// Erstellt einen Stream zum Speichern des extrahierten Bildes
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
-// Speichern Sie das Ausgangsbild
+// Ausgabebild speichern
 xImage.Save(outputImage, ImageFormat.Jpeg); 
-// Schließt den Dateistrom, um Ressourcen freizusetzen
+// Schließt den Dateistrom, um Ressourcen freizugeben
 outputImage.Close();
 
 //ExStep:4-
-// Aktualisiert den Weg für die neue Version des PDF
+// Aktualisiert den Pfad für die neue PDF-Version
 dataDir = dataDir + "ExtractImages_out.pdf";
 
-// Speichern Sie aktualisierte PDF-Datei
+// Speichern aktualisierter PDF-Datei
 pdfDocument.Save(dataDir);
-// Bestätigt die erfolgreiche Auswenden und Speicherung von Dateien
+// Bestätigt erfolgreiches Extrahieren und Speichern von Dateien
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

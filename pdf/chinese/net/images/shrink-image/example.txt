@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary编程: 通过压缩图像来优化PDF文档,该代码可以将PDF加载,应用优化选项来减少图像大小,并保存更新的文档.
-//ExStepSummary:0: 文件目录的路径始化.
-//ExStepSummary:1: 通过此步骤,将指定的PDF文件打开,以便进行优化.
-//ExStepSummary:2: 通过此步骤,将PDF文件的优化选项初始化.
-//ExStepSummary:3: 这一步将图像压缩选项设置为 true.
-//ExStepSummary:4: 这一步设置图像质量选项为 50.
-//ExStepSummary:5: 通过指定优化选项来优化PDF文档.
-//ExStepSummary:6: 这个步骤更新了优化PDF文档的路径.
-//ExStepSummary:7: 这一步将优化的PDF文件保存到指定的路径.
+//ExSummary: 这个代码展示了如何通过压缩其图像来优化PDF文档.它加载PDF,应用优化选项来减少图像大小,并保存更新的文档.
+//ExStepSummary:0: 这一步初始化了文件目录的路径.
+//ExStepSummary:1: 这一步打开了指定的PDF文档进行优化.
+//ExStepSummary:2: 这一步初始化了PDF文档的优化选项.
+//ExStepSummary:3: 这个步骤将图像压缩选项设置为 true.
+//ExStepSummary:4: 这一步将图像质量设置为50
+//ExStepSummary:5: 这一步使用指定优化选项优化PDF文档.
+//ExStepSummary:6: 这一步更新了优化PDF文档的路径.
+//ExStepSummary:7: 这一步将优化PDF文档保存到指定路径.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
@@ -15,7 +15,7 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// 打开PDF文件
+// 打开PDF文档
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
@@ -35,11 +35,11 @@ optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
-// 定义优化PDF输出路径
+// 定义优化PDF的输出路径
 dataDir = dataDir + "Shrinkimage_out.pdf";
 
 //ExStep:7-
-// 保存更新的文件
+// 保存更新的文档
 pdfDocument.Save(dataDir);
 // 输出确认消息
 Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);

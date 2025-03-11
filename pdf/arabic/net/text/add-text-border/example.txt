@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF مع جزء نصي له تصميم محدد وحافة.
+//ExStepSummary:0: الرمز التالي يبدأ المسار لإنقاذ مستند PDF.
+//ExStepSummary:1: الكود التالي يخلق كائن جديد من مستندات PDF.
+//ExStepSummary:2: الرمز التالي يضيف صفحة جديدة إلى مستند PDF.
+//ExStepSummary:3: الرمز التالي يخلق جزء نصي مع محتوى وموقع محدد.
+//ExStepSummary:4: يحدد الرمز التالي خصائص جزء النص، بما في ذلك حجم الخط والألوان.
+//ExStepSummary:5: الرمز التالي يسمح برسم حدود حول مستطيل النص.
+//ExStepSummary:6: يضيف الرمز التالي جزء النص إلى صفحة PDF باستخدام TextBuilder.
+//ExStepSummary:7: الرمز التالي يحفظ مستند PDF إلى الدليل المحدد.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// بدء المسار لحفظ المستند
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// إنشاء كائن جديد من مستند PDF
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// إضافة صفحة جديدة إلى مستند PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// إنشاء جزء نصي بمحتوى محدد
+TextFragment textFragment = new TextFragment("main text");
+// تعيين موقع جزء النص
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// تعيين حجم الخط للنص
+textFragment.TextState.FontSize = 12;
+// حدد نوع الخط
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// تعيين لون الخلفية للنص
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// تعيين لون الخلفية للنص
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// حدد لون الشريط للحدود
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// تمكين رسم الحدود حول النص
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// إنشاء كائن TextBuilder للصفحة
+TextBuilder tb = new TextBuilder(pdfPage);
+// إرفاق جزء النص إلى صفحة PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// حفظ المستند في المسار المحدد
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe u een PDF-document met een tabel met 10 rijen en 3 kolommen kunt maken.
+//ExStepSummary:0: Deze stap stelt het adresboekpad vast waar het output PDF-bestand zal worden opgeslagen.
+//ExStepSummary:1: Deze stap creëert een nieuwe PDF-documentinstantie.
+//ExStepSummary:2: Deze stap initialiseert een nieuw tabelobject.
+//ExStepSummary:3: Deze stap stelt de randkleur van de tabel in lichtgrijs.
+//ExStepSummary:4: Deze stap past een lichtgrijze rand toe op alle tabelcellen.
+//ExStepSummary:5: Deze stap start een lus om 10 rijen aan de tafel toe te voegen.
+//ExStepSummary:6: Deze stap voegt een nieuwe rij aan de tabel toe en zet de verticale uitlijning naar het midden.
+//ExStepSummary:7: Deze stap voegt drie cellen aan de rij toe, waarbij de eerste cel dynamische inhoud bevat op basis van de huidige tijdstempel.
+//ExStepSummary:8: Deze stap voegt een nieuwe pagina toe aan het PDF-document.
+//ExStepSummary:9: Deze stap voegt de tabel toe aan de nieuw gecreëerde pagina in het document.
+//ExStepSummary:10: Deze stap slaat het uiteindelijke PDF-document op in de gespecificeerde outputmap.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Het pad naar de documentenmap.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Maak een nieuw PDF-document.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Een nieuwe instantie van de tabel initialiseert.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Stel de tafelrandkleur in als lichtgrijs.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Stel de rand voor tabelcellen in.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Een lus maken om 10 rijen toe te voegen
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Rij toevoegen aan tabel
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Stel de verticale uitlijning van de rij.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Voeg de eerste cel met dynamische inhoud toe.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Voeg een tweede cel toe.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Voeg een derde cel toe.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Voeg een nieuwe pagina toe aan het PDF-document.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Voeg het tabelobject toe aan de eerste pagina van het document.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Bewaar het bijgewerkte document met het tabelobject.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

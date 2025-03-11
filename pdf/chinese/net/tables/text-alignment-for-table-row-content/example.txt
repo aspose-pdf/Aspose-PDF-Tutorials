@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: 这个代码说明如何创建一个包含10行3列的PDF文件.
+//ExStepSummary:0: 这一步设置了输出PDF文件将保存的目录路径.
+//ExStepSummary:1: 这一步创建了一个新的 PDF 文档实例.
+//ExStepSummary:2: 这个步骤初始化了一个新的表对象.
+//ExStepSummary:3: 这个步骤将表边框颜色设置为光灰色.
+//ExStepSummary:4: 这个步骤将光灰边框应用于所有表单元格.
+//ExStepSummary:5: 这一步开始一个循环, 增加10行.
+//ExStepSummary:6: 这一步将新行添加到表中,并将其垂直对齐设置到中心.
+//ExStepSummary:7: 此步骤将列添加三个单元格,第一个单元格包含基于当前时间的动态内容.
+//ExStepSummary:8: 这一步将添加一个新页面到PDF文档.
+//ExStepSummary:9: 这个步骤将表添加到文档中新创建的页面.
+//ExStepSummary:10: 这一步将最终的 PDF 文档保存到指定输出目录中.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// 文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 创建一个新的PDF文档.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// 启动一个新的表实例.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// 设置表边框颜色为光灰色.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// 设置表单元格的边界.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// 创建一个循环添加10行
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// 添加行到表格
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// 设置行垂直对齐.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// 添加动态内容的第一个单元格.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// 增加第二个细胞.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// 增加第三个细胞.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// 在PDF文档中添加一个新页面.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// 将表对象添加到文档的第一页.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// 保存包含表对象的更新文档.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

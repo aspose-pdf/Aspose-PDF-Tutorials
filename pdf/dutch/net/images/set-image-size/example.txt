@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryDeze code toont hoe een PDF-document wordt gemaakt, een afbeelding aan wordt toegevoegd en de afbeeldinggrootte en pagina-eigenschappen worden aangepast.
-//ExStepSummary:0: Deze code initialiseert het documentobject en voegt er een nieuwe pagina toe.
-//ExStepSummary:1: Dit gedeelte maakt een beeldinstantie en stelt de afmetingen en het bestandstype in.
-//ExStepSummary:2: Deze stap geeft het bronbestand voor de afbeelding aan en voegt het toe aan de pagina.
-//ExStepSummary:3: Deze stap stelt de pagina-eigenschappen, waaronder breedte en hoogte, in.
-//ExStepSummary:4: Dit gedeelte slaat het document op het gespecificeerde bestandpad en verifieert de opslagoperatie.
+//ExSummary: Deze code toont aan hoe u een PDF-document kunt maken, er een afbeelding aan kunt toevoegen en de afbeeldingsgrootte en pagina-eigenschappen kunt aanpassen.
+//ExStepSummary:0: Deze code initialiseert het documentobject en voegt er een nieuwe pagina aan toe.
+//ExStepSummary:1: In dit gedeelte wordt een afbeelding gemaakt en worden de afmetingen en het bestandstype ervan ingesteld.
+//ExStepSummary:2: Deze stap specificeert het bronbestand voor de afbeelding en voegt het toe aan de pagina.
+//ExStepSummary:3: Deze stap stelt de pagina eigenschappen, met inbegrip van breedte en hoogte.
+//ExStepSummary:4: Dit gedeelte slaat het document op het gespecificeerde bestandspad en verifieert de opslagoperatie.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Specificeer het document directory pad
+// Specificeer het documentmappad
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Instant Document object
+// Instantiëren van documentobject
 Document doc = new Document();
-// Voeg een nieuwe pagina toe aan het PDF-document
+// Een nieuwe pagina toevoegen aan het PDF-document
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
-// Een beeldinstance maken
+// Een beeldinstantie maken
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// Stel beeldbreedte op 100 punten
+// Stel de beeldbreedte in op 100 punten
 img.FixWidth = 100;
-// Stel de beeldhoogte op 100 punten
+// Stel beeldhoogte in op 100 punten
 img.FixHeight = 100;
-// Stel het afbeeldingstype op als Onbekend (later af te leiden)
+// Stel het beeldtype in als Onbekend (later afgeleid)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Specificeer het pad voor het bron beeldbestand
+// Geef het pad voor het bronbeeldbestand aan
 img.File = dataDir + "aspose-logo.jpg";
 // Voeg de afbeelding toe aan de paragrafen van de pagina
 page.Paragraphs.Add(img);
 
 //ExStep:3-
-// Stel de bladzijdebreedte op 800 punten
+// Stel de paginabreedte in op 800 punten
 page.PageInfo.Width = 800;
-// Stel de paginahoogte op 800 punten
+// Stel de paginahoogte in op 800 punten
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Specificeer het output-bestandpad
+// Specificeer het pad van het bestand
 dataDir = dataDir + "SetImageSize_out.pdf";
 // Bewaar het resulterende PDF-document
 doc.Save(dataDir);
 
 //ExStep:5-
-// Informeer de gebruiker over de succesvolle operatie
+// Informatie van de gebruiker over de succesvolle operatie
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

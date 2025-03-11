@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento PDF e aggiungere un frammento di testo con formattazione sottolineata.
+//ExStepSummary:0: Definire la directory in cui sarà salvato il documento PDF.
+//ExStepSummary:1: Inizializza un nuovo documento PDF e aggiungi una pagina.
+//ExStepSummary:2: Creare un oggetto TextBuilder per la prima pagina del documento.
+//ExStepSummary:3: Creare un TextFragment con il messaggio di prova, impostare il carattere in Arial, dimensione 10, e abilitare la formattazione sottolineata.
+//ExStepSummary:4: Specifica la posizione del TextFragment nel PDF e aggiungilo al TextBuilder.
+//ExStepSummary:5: Definire il percorso del file di output e salvare il documento PDF.
+//ExStepSummary:6: Esporta un messaggio di successo che indica che è stato aggiunto il testo sottolineato e mostra la posizione del file.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definire la directory in cui il documento sarà salvato.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Inizializza un nuovo documento PDF.
+Document pdfDocument = new Document();
+// Aggiungere una nuova pagina al documento.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Creare un TextBuilder per la prima pagina.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Creare un TextFragment con il testo specificato.
+TextFragment fragment = new TextFragment("Test message");
+// Impostate il carattere su Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Impostare la dimensione del carattere a 10.
+fragment.TextState.FontSize = 10;
+// Abilitare la formattazione sottolineata per il testo.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Indicare la posizione del frammento di testo nel PDF.
+fragment.Position = new Position(10, 800);
+// Aggiungere il TextFragment al TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Definire il percorso del file di output per il PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Salvare il documento nel percorso specificato.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Messaggio di successo di uscita.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

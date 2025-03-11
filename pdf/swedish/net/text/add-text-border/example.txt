@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med ett textfragment som har en specifik stil och en kant.
+//ExStepSummary:0: Följande kod initialiserar vägen för att spara PDF-dokumentet.
+//ExStepSummary:1: Följande kod skapar ett nytt PDF-dokumentobjekt.
+//ExStepSummary:2: Följande kod lägger till en ny sida i PDF-dokumentet.
+//ExStepSummary:3: Följande kod skapar ett textfragment med specificerat innehåll och placering.
+//ExStepSummary:4: Följande kod anger egenskaperna hos textrymmet, inklusive teckensnittets storlek och färger.
+//ExStepSummary:5: Följande kod gör det möjligt att rita en kant runt textrektangeln.
+//ExStepSummary:6: Följande kod bifogar textfragmentet till PDF-sidan med hjälp av en TextBuilder.
+//ExStepSummary:7: Följande kod sparar PDF-dokumentet i den angivna katalogen.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Initialisera vägen för att spara dokumentet
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Skapa ett nytt PDF-dokumentobjekt
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Lägg till en ny sida i PDF-dokumentet
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Skapa ett textfragment med det angivna innehållet
+TextFragment textFragment = new TextFragment("main text");
+// Ange textfragmentets position
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ställ in textens teckensnitt
+textFragment.TextState.FontSize = 12;
+// Ange teckensnittet
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ställ in bakgrundsfärgen för texten
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Ställ in textens förgrundsfärg
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Ställ in strimlingsfärgen för gränsen
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Ställ in randen runt texten
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Skapa ett TextBuilder-objekt för sidan
+TextBuilder tb = new TextBuilder(pdfPage);
+// Bifoga textrymmet till PDF-sidan
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Spara dokumentet till den angivna vägen
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 这个代码说明如何创建一个具有双边框的表格的PDF文档. 
+//ExStepSummary:0: 实例化一个文件对象并添加一个页面.
+//ExStepSummary:1: 创建一个边界信息对象来定义表单元格的边界属性.
+//ExStepSummary:2: 实例化一个 Table 对象,并指定列宽度.
+//ExStepSummary:3: 添加一个行到表格中,并插入一个包含文本的单元格.
+//ExStepSummary:4: 使用边界信息对象设置单元格的双边界.
+//ExStepSummary:5: 将表添加到页面的段落集合中,并将文档保存到指定文件路径.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// 定义文件目录的路径.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 实例化文档对象.
+Document doc = new Document();
+// 在PDF文档中添加一个页面. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// 创建边境信息对象.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// 指定顶部边框将是双
+border.Top.IsDoubled = true; 
+// 指定底边框是双边
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// 实时表对象.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 指定列宽度信息
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// 创建表中的 Row 对象.
+Aspose.Pdf.Row row = table.Rows.Add();
+// 添加表单元格到列集合单元格
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// 应用之前定义的边缘设置.
+cell.Border = border;
+
+//ExStep:5-
+// 将表添加到页面的段落集合中.
+page.Paragraphs.Add(table);
+// 指定输出文件路径.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// 保存PDF文档
+doc.Save(dataDir);
+// 打印成功消息与文件路径.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

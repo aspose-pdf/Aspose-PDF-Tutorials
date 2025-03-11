@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary這種程式可以使用Aspose.PDF圖書館創建多列 PDF 文檔.
+//ExStepSummary:0: 這一步設定文件目錄,初始化新 PDF 文件,並設定其頁面邊緣.
+//ExStepSummary:1: 這一步將新頁面添加到文檔中,並使用Graph和Line類畫出水平線.
+//ExStepSummary:2: 這步會創建一個包含格式化的文字的HtmlFragment,並添加到PDF文檔中.
+//ExStepSummary:3: 這一步會為兩列布局建立浮動框,
+//ExStepSummary:4: 這一步在浮動盒內畫出另一條水平線,
+//ExStepSummary:5: 這一步將長篇文本片段添加到浮動框中, 以顯示多列中的內容分布.
+//ExStepSummary:6: 這一步將文檔保存到指定輸出路徑,並打印成功訊息.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 定義文件目錄的路徑
+string dataDir = "Your Document Directory";
+// 創建一個新文件實例
+Document doc = new Document(); 
+
+// 指定PDF檔案的左邊邊資訊
+doc.PageInfo.Margin.Left = 40; 
+// 指定PDF檔案的右邊邊資訊
+doc.PageInfo.Margin.Right = 40;
+// 添加新頁面到文檔
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// 創建新的圖形對象來繪製線
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// 加入行到段落集合的部分對象
+page.Paragraphs.Add(graph1);
+
+// 指定直線的坐標
+// 定義直線的起點和終點
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// 建立具有指定坐標的線形
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// 加入線形到圖表
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// 創建包含html標籤的文字串變量
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// 創建一個HtmlFragment為標題文本
+HtmlFragment heading_text = new HtmlFragment(s);
+// 添加標題文本到頁面 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// 創建一個新的浮動框
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// 設定列數量為 2
+box.ColumnInfo.ColumnCount = 2; 
+// 設定列間的距離
+box.ColumnInfo.ColumnSpacing = "5";
+// 設定每一列的寬度
+box.ColumnInfo.ColumnWidths = "105 105";
+// 建立作者資訊的文字片段
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// 設定文字字體大小
+text1.TextState.FontSize = 8;
+// 設定文字的行間隔
+text1.TextState.LineSpacing = 2;
+// 加入作者文本到浮動框
+box.Paragraphs.Add(text1);
+// 更新文字字體大小
+text1.TextState.FontSize = 10;
+// 設定字體風格為斜寫
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// 創建另一個圖形對象來繪製第二行
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// 指定直線的坐標
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// 加入第二行形狀的圖表
+graph2.Shapes.Add(l2);
+
+// 加入行到段落集合的部分對象
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// 建立長文本片段以顯示欄目中的內容
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// 加入長文本到浮動框
+box.Paragraphs.Add(text2); 
+// 添加包含所有內容的浮動框到頁面
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// 指定輸出PDF檔案的路徑
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// 保存文件在指定路徑上
+doc.Save(dataDir); 
+// 成功打印訊息
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

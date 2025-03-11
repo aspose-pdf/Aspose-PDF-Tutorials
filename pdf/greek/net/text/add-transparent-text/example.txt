@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF που περιλαμβάνει ένα ορθογώνιο και ένα τεκμηριωμένο κομμάτι κειμένου με διαφανή αποτελέσματα κειμένου.`ΠροσθέστεTransparentText_out.pdf`στο καθορισμένο κατάλογο.
+//ExStepSummary:0: Αρχική διαδρομή του καταλόγου εγγράφων και δημιουργήστε ένα νέο έγγραφο PDF με μια σελίδα.
+//ExStepSummary:1: Δημιουργήστε ένα αντικείμενο Graph και ορθογώνιο με διαφανές χρώμα πλήρωσης, και στη συνέχεια προσθέστε το στη σελίδα.
+//ExStepSummary:2: Δημιουργήστε ένα TextFragment με δείγμα κειμένου και ορίστε διαφανές πράσινο χρώμα με 30% αδιαφάνεια.
+//ExStepSummary:3: Αποθηκεύστε το έγγραφο στην καθορισμένη διαδρομή εξόδου.
+//ExStepSummary:4: Εμφάνιση μηνύματος επιτυχίας με τη διαδρομή αρχείου.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Η διαδρομή για το κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+// Δημιουργία παραδείγματος εγγράφου
+Document doc = new Document(); 
+
+// Δημιουργία σελίδας σε σελίδες συλλογή αρχείου PDF
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Δημιουργία αντικειμένου Graph με πλάτος και ύψος
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Δημιουργία παραδείγματος ορθογώνου με καθορισμένες διαστάσεις
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Δημιουργία αντικειμένου χρώματος από το κανάλι χρώματος Alpha
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Προσθήκη ορθογώνου σε συλλογή σχημάτων αντικειμένου Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Προσθήκη αντικειμένου γραφήματος σε παραγράφους συλλογή αντικειμένου σελίδας
+page.Paragraphs.Add(canvas);
+
+// Ορίστε την τιμή για να μην αλλάξει θέση για το αντικείμενο γραφήματος
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Δημιουργία παραδείγματος TextFragment με τιμή δείγματος
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Δημιουργία αντικειμένου χρώματος από το κανάλι Alpha
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Προσδιορίστε τις πληροφορίες χρώματος για την περίπτωση κειμένου
+text.TextState.ForegroundColor = color;
+
+// Προσθήκη κειμένου σε παραγράφους συλλογή παραδείγματος σελίδας
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Προσδιορίστε την πορεία εξόδου για το αρχείο PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Αποθήκευση εγγράφου στην καθορισμένη διαδρομή
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Ενημερώνει τον χρήστη ότι η διαδικασία ολοκληρώθηκε
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument pomocí Aspose.PDF kresbou dvou diagonalních linií po celé stránce.
-//ExStepSummary:0: Začněte cestu do adresáře dokumentů, kde bude PDF uložen.
-//ExStepSummary:1: Vytvořte nový příklad dokumentu pro PDF.
-//ExStepSummary:2: Přidejte stránku do sbírky stránek dokumentu.
-//ExStepSummary:3: Nastavte okraj stránky na nulu pro všechny strany.
-//ExStepSummary:4: Vytvořte objekt Grafu, který zobrazí kreslenou plochu s rozměry rovnocennými velikosti stránky.
-//ExStepSummary:5: Vytvořte první objekt od dolní levé až k pravému hornímu rohu stránky.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument pomocí Aspose.PDF kreslením dvou diagonálních čár přes stránku. Inicializuje dokument, přidává stránku a před ukládáním dokumentu kreslí čáry od rohu k rohu.
+//ExStepSummary:0: Inicializovat cestu adresáře dokumentů, kde bude PDF uložen.
+//ExStepSummary:1: Vytvořit novou instanci dokumentu pro PDF.
+//ExStepSummary:2: Přidat stránku do sbírky stránek dokumentu.
+//ExStepSummary:3: Nastavte okraje na nulu pro všechny strany.
+//ExStepSummary:4: Vytvořte objekt Graph, který bude reprezentovat oblast kreslení s rozměry rovné velikosti stránky.
+//ExStepSummary:5: Vytvořte objekt prvního řádku od dolního levého rohu až do pravého horního rohu stránky.
 //ExStepSummary:6: Přidejte první řádek do sbírky tvarů objektu Graph.
-//ExStepSummary:7: Vytvořte druhý objekt z horní levé až dolní pravé rohu stránky.
-//ExStepSummary:8: Přidejte druhou řádku do sbírky tvarů objektu Graph.
-//ExStepSummary:9: Přidejte objekt Graf obsahující řádky do sbírky odstavců stránky.
-//ExStepSummary:10: Vytvořte plnou cestu k ukládání výstupního souboru PDF.
-//ExStepSummary:11: Uložte PDF dokument na uvedenou cestu.
+//ExStepSummary:7: Vytvořte objekt druhého řádku z levého horního rohu do pravého dolního rohu stránky.
+//ExStepSummary:8: Přidejte druhý řádek do sbírky tvarů objektu Graph.
+//ExStepSummary:9: Přidejte objekt Graph obsahující řádky do sbírky odstavců stránky.
+//ExStepSummary:10: Vytvořte plnou cestu pro uložení výstupního souboru PDF.
+//ExStepSummary:11: Uložte PDF dokument na zadání cesty.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Začněte cestu adresáře dokumentů
+// Inicializovat cestu adresáře dokumentů
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -23,44 +23,44 @@ string dataDir = "Your Document Directory";
 Document pDoc = new Document();
 
 //ExStep:2-
-// Přidejte stránky k stránkám sbírky PDF dokumentu
+// Přidat stránky ke stránkám sbírky PDF dokumentů
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Uveďte rozpětí stránky na všech stranách jako 0
+// Nastavte okraj stránky na všech stranách jako 0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Vytvořit grafický objekt s šířkou a výškou rovnou rozměrem stránky
+// Vytvořit objekt Graph s šířkou a výškou rovnou rozměru stránky
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Vytvořte první objekt v prvním řádku od dolního levého až pravého rohu stránky
+// Vytvořit první řádkový objekt od dolního levého ke pravému hornímu rohu stránky
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Vytáhněte řádek od horního levého rohu stránky do dolního pravého rohu stránky
+// Přiložte čáru z levého horního rohu stránky do pravého dolního rohu stránky
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Přidejte druhou řádku k tvarům sbírky grafu objekt
+// Přidat druhý řádek do sbírky tvarů grafu
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Přidejte grafický objekt do sbírky odstavců
+// Přidat objekt Graph do odstavce sbírky stránek
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Vytvořte kompletní cestu k ukládání výstupního souboru PDF
+// Vytvořit plnou cestu pro uložení výstupního souboru PDF
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
-// Zachovávat soubor PDF
+// Uložit soubor PDF
 pDoc.Save(dataDir);
-// Zprávy o potvrzení výstupu
+// Zpráva o potvrzení výstupu
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

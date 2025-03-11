@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: このコードは,画像を圧縮してPDF文書を最適化する方法を示します. PDF をロードし,画像サイズを小さくするために最適化オプションを適用し,更新された文書を保存します.
-//ExStepSummary:0: このステップで文書ディレクトリへのパスが初期化されます.
-//ExStepSummary:1: このステップでは,最適化のために指定された PDF 文書を開きます.
-//ExStepSummary:2: このステップでは,PDF文書の最適化オプションを初期化します.
-//ExStepSummary:3: このステップでは,画像圧縮オプションを true に設定します.
-//ExStepSummary:4: このステップでは,画像品質オプションを 50 に設定します.
+//ExSummary: このコードは,画像を圧縮して PDF 文書を最適化する方法を示します. PDF を読み込み,画像のサイズを減らすための最適化オプションを適用し,更新された文書を保存します.
+//ExStepSummary:0: このステップでは,ドキュメントディレクトリへのパスが初期化されます.
+//ExStepSummary:1: このステップで,最適化のために指定された PDF 文書を開きます.
+//ExStepSummary:2: このステップでは,PDFドキュメントの最適化オプションを初期化します.
+//ExStepSummary:3: このステップでは画像圧縮オプションを true に設定します.
+//ExStepSummary:4: このステップでは画像品質オプションを 50 に設定します.
 //ExStepSummary:5: このステップでは,指定された最適化オプションを使用して PDF 文書を最適化します.
-//ExStepSummary:6: このステップは,最適化された PDF ドキュメントのパスを更新します.
-//ExStepSummary:7: このステップは,最適化された PDF 文書を指定されたパスに保存します.
+//ExStepSummary:6: このステップでは,最適化された PDF 文書のパスが更新されます.
+//ExStepSummary:7: このステップでは,最適化された PDF 文書を指定されたパスに保存します.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
@@ -19,7 +19,7 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
-// 最適化オプションを初期化する
+// オプティマイズオプションを初期化
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
@@ -31,7 +31,7 @@ optimizeOptions.ImageCompressionOptions.CompressImages = true;
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// 設定を使用して PDF 文書を最適化する
+// 設定を使用して PDF 文書を最適化
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
@@ -41,6 +41,6 @@ dataDir = dataDir + "Shrinkimage_out.pdf";
 //ExStep:7-
 // 更新された文書を保存する
 pdfDocument.Save(dataDir);
-// 輸出確認メッセージ
+// 出力確認メッセージ
 Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
 //ExEnd

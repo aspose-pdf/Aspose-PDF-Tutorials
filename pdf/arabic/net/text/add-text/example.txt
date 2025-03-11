@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إضافة جزء نصي إلى مستند PDF موجود باستخدام Aspose.PDF. يفتح PDF ، ويخلق جزء نصي مع خصائص محددة ، ويحفظ المستند المعدل.
+//ExStepSummary:0: هذه الخطوة تحدد المسار إلى دليل المستندات حيث يقع ملف PDF المدخل.
+//ExStepSummary:1: هذه الخطوة تفتح مستند PDF المحدد للتحرير.
+//ExStepSummary:2: هذه الخطوة تسترد صفحة محددة من مستند PDF.
+//ExStepSummary:3: هذه الخطوة تخلق جزء نصي مع محتوى محدد وموقع على الصفحة.
+//ExStepSummary:4: تُحدد هذه الخطوة خصائص مختلفة لجزء النص، بما في ذلك حجم الخط ونوع الخط ولون الخلفية ولون المقدمة.
+//ExStepSummary:5: هذه الخطوة تخلق كائن TextBuilder لتسهيل إضافة جزء النص إلى صفحة PDF.
+//ExStepSummary:6: هذه الخطوة تضيف جزء النص إلى صفحة PDF.
+//ExStepSummary:7: هذه الخطوة تحدد مسار ملف الإخراج للوثيقة المعدلة
+//ExStepSummary:8: هذه الخطوة تحفظ مستند PDF المعدل إلى مسار الناتج المحدد.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// حدد مسار الدليل
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// افتح مستند PDF المحدد
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// استرجاع الصفحة الثانية من مستند PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// إنشاء شريحة نصية جديدة مع المحتوى المحدد
+TextFragment textFragment = new TextFragment("main text");
+// تعيين موقع جزء النص على الصفحة
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// تعيين حجم الخط لجزء النص
+textFragment.TextState.FontSize = 12;
+// حدد نوع الخط
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// حدد لون الخلفية
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// حدد لون النص
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// إنشاء كائن TextBuilder للصفحة
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// إرفاق جزء النص إلى صفحة PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// تعيين مسار ملف الإخراج للوثيقة المعدلة
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// حفظ مستند PDF المعدل إلى مسار الناتج المحدد
+pdfDocument.Save(dataDir);
+// رسالة نجاح الإخراج
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

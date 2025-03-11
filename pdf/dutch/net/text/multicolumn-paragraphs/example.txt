@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe je met meerkolommen paragrafen in een PDF-document werkt met behulp van Aspose.PDF. Het laadt een PDF, extraheert paragrafen en wijzigt vervolgens een instelling om meerkolommen paragrafen toe te staan voordat paragrafen opnieuw worden geëxtraheerd om het verschil te laten zien.
+//ExStepSummary:0: De volgende code geeft aan hoe de gegevensmap waarin het PDF-document zich bevindt, moet worden opgegeven.
+//ExStepSummary:1: De volgende code laat zien hoe het PDF-document wordt geladen met behulp van de Document-klasse.
+//ExStepSummary:2: De volgende code laat zien hoe u een ParagraphAbsorber kunt maken om paragrafen uit het document te extraheren.
+//ExStepSummary:3: De volgende code laat zien hoe u het document met de ParagraphAbsorber kunt bezoeken om de resultaten in te vullen.
+//ExStepSummary:4: De volgende code laat zien hoe u toegang krijgt tot de markup van de eerste pagina en informatie over paragrafen kunt opvragen voordat u meerkolomnenparagrafen toestaat.
+//ExStepSummary:5: De volgende code toont hoe meerdere kolommen in paragrafen kunnen worden ingeschakeld en vervolgens paragraafinformatie opnieuw kan worden geextraheerd om het effect van de wijziging weer te geven.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Specificeer de gegevensmap.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Laad het PDF-document in.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Maak een ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Ga naar het document om paragrafen te extraheren.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Toegang tot de pagina markup.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Haal de laatste alinea uit de derde sectie.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Haal de eerste alinea uit de tweede sectie.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Mogelijk maken van meerkolommen.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Verhaal de laatste alinea van de derde sectie nadat u meerkolommen heeft ingeschakeld.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Verhaal de eerste alinea van de tweede sectie nadat u meerkolommenalinea's hebt ingeschakeld.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

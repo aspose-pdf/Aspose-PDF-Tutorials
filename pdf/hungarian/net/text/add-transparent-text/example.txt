@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot, amely tartalmaz egy téglalap és egy szövegfragment átlátható szöveghatásokkal.`AddTransparentText_out.pdf`a megadott címtárban.
+//ExStepSummary:0: Kezdje el a dokumentumkönyv útvonalát, és hozzon létre egy új PDF dokumentumot egy oldallal.
+//ExStepSummary:1: Hozzon létre egy átlátszó töltőszínű Graph objektumot és téglalapot, majd adja hozzá az oldalhoz.
+//ExStepSummary:2: Hozzon létre egy TextFragmentet minta szöveggel, és állítsa be a 30%-os átlátszó zöld színt.
+//ExStepSummary:3: Tárolja a dokumentumot a megadott kimeneti útvonalon.
+//ExStepSummary:4: A fájl útvonalával megjelenítse a sikerüzenetet.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// A dokumentumkönyv útvonala.
+string dataDir = "Your Document Directory";
+
+// Dokumentum példány létrehozása
+Document doc = new Document(); 
+
+// Oldalasról oldalasra készített PDF fájl gyűjtemény
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// A szélesség és magasságú Graph objektum létrehozása
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Átmeneti méretű téglalap példány létrehozása
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Színobjektum létrehozása az Alfa színcsatornából
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Tárgyak gyűjteményéhez egyenirányú hozzáadása
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// A grafikon objektumokat a bekezdésekhez hozzáadni
+page.Paragraphs.Add(canvas);
+
+// Beállítsa az értéket, hogy ne változzon a grafika objektum helyzete
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// TextFragment példány létrehozása mintaértékkel
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Színobjektum létrehozása az Alfa csatornán
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// A szöveges példány színinformációjának beállítása
+text.TextState.ForegroundColor = color;
+
+// A szöveget a bekezdésekhez hozzáadni
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// A PDF fájl kimeneti útvonalának megadása
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Tárolja a dokumentumot a megadott útvonalon
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Tájékoztassa a felhasználót, hogy a folyamat befejeződött
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

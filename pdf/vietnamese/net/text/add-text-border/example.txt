@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF với một đoạn văn bản có kiểu dáng và đường viền cụ thể.
+//ExStepSummary:0: Mã sau đây khởi tạo đường dẫn để lưu tài liệu PDF.
+//ExStepSummary:1: Mã sau tạo ra một đối tượng tài liệu PDF mới.
+//ExStepSummary:2: Mã sau đây thêm một trang mới vào tài liệu PDF.
+//ExStepSummary:3: Mã sau tạo ra một đoạn văn bản với nội dung và vị trí được chỉ định.
+//ExStepSummary:4: Mã sau đặt các thuộc tính của đoạn văn bản, bao gồm kích thước phông chữ và màu sắc.
+//ExStepSummary:5: Mã sau cho phép vẽ một ranh giới xung quanh chữ nhật chữ.
+//ExStepSummary:6: Mã sau đây đính kèm đoạn văn bản vào trang PDF bằng cách sử dụng TextBuilder.
+//ExStepSummary:7: Mã sau lưu tài liệu PDF vào thư mục đã chỉ định.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Bắt đầu đường dẫn để lưu tài liệu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo đối tượng tài liệu PDF mới
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Thêm một trang mới vào tài liệu PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Tạo một đoạn văn bản với nội dung được chỉ định
+TextFragment textFragment = new TextFragment("main text");
+// Đặt vị trí của đoạn văn bản
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Đặt kích thước phông chữ của văn bản
+textFragment.TextState.FontSize = 12;
+// Đặt kiểu phông chữ
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Đặt màu nền của văn bản
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Đặt màu nền trước của văn bản
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Đặt màu gạch cho đường viền
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Cho phép vẽ ranh giới xung quanh văn bản
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Tạo đối tượng TextBuilder cho trang
+TextBuilder tb = new TextBuilder(pdfPage);
+// Thêm đoạn văn bản vào trang PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Lưu tài liệu vào đường dẫn đã chỉ định
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

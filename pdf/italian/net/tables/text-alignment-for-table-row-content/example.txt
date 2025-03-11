@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento PDF con una tabella contenente 10 righe e 3 colonne.
+//ExStepSummary:0: Questo passaggio imposta il percorso della directory dove verrà salvato il file PDF in uscita.
+//ExStepSummary:1: Questo passaggio crea una nuova istanza di documento PDF.
+//ExStepSummary:2: Questo passaggio inizializza un nuovo oggetto di tabella.
+//ExStepSummary:3: Questo passaggio imposta il colore del bordo della tabella a LightGray.
+//ExStepSummary:4: Questo passaggio applica un bordo LightGray a tutte le celle della tabella.
+//ExStepSummary:5: Questo passo inizia un ciclo per aggiungere 10 righe al tavolo.
+//ExStepSummary:6: Questo passo aggiunge una nuova riga al tavolo e ne imposta l'allineamento verticale al centro.
+//ExStepSummary:7: Questo passaggio aggiunge tre celle alla riga, la prima cellula contenente contenuti dinamici basati sull'orario corrente.
+//ExStepSummary:8: Questo passaggio aggiunge una nuova pagina al documento PDF.
+//ExStepSummary:9: Questo passaggio aggiunge la tabella alla pagina appena creata nel documento.
+//ExStepSummary:10: Questo passaggio salva il documento PDF finale nella directory di output specificata.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Il percorso per la directory dei documenti.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Creare un nuovo documento PDF.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Inizializza una nuova istanza della tabella.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Impostare il colore del bordo del tavolo come LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Impostare il confine per le celle della tabella.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Creare un ciclo per aggiungere 10 righe
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Aggiungere riga alla tabella
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Impostare l'allineamento verticale della fila.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Aggiungere la prima cella con contenuto dinamico.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Aggiungi la seconda cella.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Aggiungi la terza cella.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Aggiungere una nuova pagina al documento PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Aggiungere l'oggetto tabella alla prima pagina del documento.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Salvare il documento aggiornato contenente l'oggetto tabella.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

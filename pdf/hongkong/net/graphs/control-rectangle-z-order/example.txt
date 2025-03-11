@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary這裡有許多不同的圖案,
+//ExStepSummary:0: 這一步定義了PDF文檔的輸出目錄,並實例化了新的文檔對象,並添加了具有指定尺寸的新頁面.
+//ExStepSummary:1: 這一步設定新創頁面的頁面大小和邊緣.
+//ExStepSummary:2: 這一步增加了一個紅色矩形在指定坐標,
+//ExStepSummary:3: 這一步增加了藍色矩形在指定坐標,
+//ExStepSummary:4: 這一步增加了綠色矩形在指定坐標,
+//ExStepSummary:5: 這步將PDF文件保存到指定輸出檔案路徑.
+//ExStepSummary:6: 這一步定義了將長方形添加到PDF頁面的輯,包括設定其屬性和Z索引的方法.
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// 定義文件目錄
+string dataDir = "Your Document Directory";
+
+// 實例化文檔類別對象
+Document doc1 = new Document();
+
+// 添加新頁面到文檔
+Aspose.Pdf.Page page1 = doc1.Pages.Add();
+
+//ExStep:1-
+// 設定頁面大小
+page1.SetPageSize(375, 300);
+
+// 設定頁面邊緣為0
+page1.PageInfo.Margin.Left = 0;
+page1.PageInfo.Margin.Top = 0;
+
+//ExStep:2-
+// 加入一個有Z指數2的紅色矩形
+AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
+
+//ExStep:3-
+// 加入一個藍色長方形,
+AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
+
+//ExStep:4-
+// 加入一個綠色的矩形,
+AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
+
+//ExStep:5-
+// 保存文件
+string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
+doc1.Save(outputFilePath);
+
+//ExStep:6-
+// 添加一個長方形到PDF頁面的方法
+private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
+{
+    // 建立與矩形相同尺寸的圖形對象
+    Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
+    
+    // 防止圖形位置自動變更
+    graph.IsChangePosition = false;
+    
+    // 設定圖形位置
+    graph.Left = x;
+    graph.Top = y;
+    
+    // 在圖表內建立一個矩形
+    Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
+    
+    // 設定矩形填充和邊框顏色
+    rect.GraphInfo.FillColor = color;
+    rect.GraphInfo.Color = color;
+    
+    // 加入圖形集合的矩形
+    graph.Shapes.Add(rect);
+    
+    // 設定圖形對象的Z索引
+    graph.ZIndex = zindex;
+    
+    // 添加圖表到頁面
+    page.Paragraphs.Add(graph);
+}
+//ExEnd

@@ -1,8 +1,8 @@
 ---
-title: استخراج الصور من PDF في C # باستخدام Aspose.PDF ل .NET
+title: استخراج الصور من PDF في C # باستخدام Aspose.PDF لـ .NET
 weight: 7700
 limit: 
-description: تعلم كيفية استخراج الصور من PDF والإنقاذ كملفات JPEG في C # باستخدام Aspose.PDF ل .NET. دليل خطوة بخطوة مع أمثلة رمز. 
+description: تعلم كيفية استخراج الصور من ملف PDF وحفظها كملفات JPEG في C # باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مع أمثلة رمز. 
 keywords: [Extract images from PDF C#, Aspose.PDF for .NET image extraction, Save PDF images as JPEG, C# PDF image processing, Extract images from PDF Aspose]
 url: /ar/net/images/extract-image/
 ---
@@ -10,9 +10,9 @@ url: /ar/net/images/extract-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخراج الصور من PDF باللغة C# باستخدام Aspose.PDF
+# استخراج الصور من PDF في C # باستخدام Aspose.PDF
  
-استخراج الصور من مستند PDF هو متطلب شائع للعديد من التطبيقات، سواء للمؤلفات أو المعالجة أو المشاركة. مع [Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)يمكنك بسهولة استخراج الصور من PDF والإنقاذ منها في مختلف تنسيقات مثل JPEG. يقدم هذا التعليم دليل بسيط خطوة بخطوة لاستخراج الصور من PDF باستخدام C #. سوف تتعلم كيفية فتح PDF، استرداد الصور، حفظها، وتحديث مستند PDF الأصلي. اتبع مع رمز المثال لتدمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك.
+استخراج الصور من مستند PDF هو شرط شائع للعديد من التطبيقات، سواء للأرشفة أو المعالجة أو المشاركة.[Aspose.PDF لـ .NET](https://docs.aspose.com/pdf/net/)يمكنك بسهولة استخراج الصور من PDF وحفظها في تنسيقات مختلفة مثل JPEG. يوفر هذا البرنامج التعليمي دليلًا بسيطًا خطوة بخطوة لاستخراج الصور من PDF باستخدام C #. سوف تتعلم كيفية فتح PDF واسترداد الصور وحفظها وتحديث مستند PDF الأصلي. اتبع مع رمز المثال لدمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/extract-image/" >}}
@@ -21,28 +21,28 @@ url: /ar/net/images/extract-image/
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت:  
 
-للاستخدام Aspose.PDF ل .NET في مشروع C # الخاص بك، اتبع هذه الخطوات:  
+لاستخدام Aspose.PDF لـ .NET في مشروع C# الخاص بك، اتبع هذه الخطوات:  
 
-1. قم بتثبيتها عبر مدير الحزمات NuGet:  
-* افتح استوديو "بيزيوال".  
-* إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
-* ابحث عن Aspose.PDF و قم بتثبيته  
-* أو قم بتشغيل الأمر التالي في جهاز إدارة الحزم:  
+1. تثبيت عن طريق NuGet Package Manager:  
+* افتح استوديو بصري  
+* انتقل إلى أدوات > NuGet Package Manager > إدارة حزم NuGet للحل.  
+* ابحث عن Aspose.PDF واثبطه  
+* أو، قم بتشغيل الأمر التالي في وحدة التحكم في مدير الحزم:  
 
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. إثباط عبر تنزيل DLL:  
-* قم بتنزيل أحدث الإصدار من [Aspose.PDF ل .NET تنزيل](https://releases.aspose.com/pdf/net/). . .  
-* استخراج الحزمة المنزولة  
-* إضافة إشارة إلى Aspose.PDF.dll في مشروعك .NET.  
+2. تثبيت عبر DLL تنزيل:  
+* قم بتنزيل أحدث إصدار من[Aspose.PDF لتنزيل .NET](https://releases.aspose.com/pdf/net/). .  
+* أخرج الحزمة المنزولة  
+* أضف إشارة إلى Aspose.PDF.dll في مشروع .NET الخاص بك.  
 
-3. تطبيق رخصة (اختياري):  
-* يمكنك الحصول على[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/)للوظيفة الكاملة  
+3. طلب ترخيص (اختياري):  
+* يمكنك الحصول على[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license/)للوظائف الكاملة  
 
-## للحصول على مرجعات API مفصلة
-[Aspose.PDF لوثائق API .NET](https://reference.aspose.com/pdf/net/). . .
+## للحصول على مراجع مفصلة لمصادر API
+[Aspose.PDF لمستندات .NET API](https://reference.aspose.com/pdf/net/). .
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

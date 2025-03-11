@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Este código demonstra como criar um documento PDF usando Aspose.Pdf e adicionar retângulos com cores alfa a ele.
+//ExSummary: Este código demonstra como criar um documento PDF usando Aspose.Pdf e adicionar retângulos com cores alfa para ele.
 //ExStepSummary:0: O código a seguir define o caminho para o diretório de documentos.
-//ExStepSummary:1: O código a seguir representa uma instância de documento.
-//ExStepSummary:2: O código a seguir adiciona uma página à coleção de páginas do arquivo PDF.
-//ExStepSummary:3: O código a seguir cria uma instância de Graph para desenhar formas na página PDF.
-//ExStepSummary:4: O código a seguir cria um objeto retângulo com dimensões específicas e cor de preenchimento.
-//ExStepSummary:5: O código a seguir cria um segundo objeto retângulo e adiciona-o ao gráfico.
-//ExStepSummary:6: O código a seguir adiciona a instância do gráfico à coleção de parágrafos da página.
-//ExStepSummary:7: O código a seguir salva o arquivo PDF e imprime uma mensagem de sucesso para o console.
+//ExStepSummary:1: O código a seguir instancia uma instância do Documento.
+//ExStepSummary:2: O código a seguir adiciona uma página à coleção de páginas do ficheiro PDF.
+//ExStepSummary:3: O código a seguir cria uma instância do Graph para desenhar formas na página PDF.
+//ExStepSummary:4: O código a seguir cria um objeto retangular com dimensões específicas e cor de preenchimento.
+//ExStepSummary:5: O código a seguir cria um segundo objeto retângulo e o adiciona ao gráfico.
+//ExStepSummary:6: O código a seguir adiciona a instância de gráfico à coleção de parágrafos da página.
+//ExStepSummary:7: O código a seguir salva o ficheiro PDF e imprime uma mensagem de êxito para o console.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
@@ -15,7 +15,7 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Instantanear a instância do documento para criar um PDF
+// Instalar a instância do Documento para criar um PDF
 Document doc = new Document();
 
 //ExStep:2-
@@ -23,13 +23,13 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Criar uma instância de gráfico para desenhar formas
+// Criar uma instância do Graph para desenhar formas
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
 // Criar um retângulo com dimensões especificadas
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// Configurar a cor do preenchimento usando ARGB
+// Definir a cor de preenchimento usando ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
@@ -39,17 +39,17 @@ Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Adicionar o primeiro retângulo para a coleção de formas da instância Graph
+// Adicionar o primeiro retângulo para a coleção de formas da instância do Graph
 canvas.Shapes.Add(rect);
-// Adicionar o segundo retângulo para a coleção de formas da instância Graph
+// Adicionar o segundo retângulo para a coleção de formas da instância do Graph
 canvas.Shapes.Add(rect1);
 // Adicionar a instância Graph à coleção de parágrafos da página
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Prepare o caminho do arquivo de saída
+// Preparar o caminho do arquivo de saída
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Salvar o documento PDF para o caminho especificado
+// Salvar o documento PDF no caminho especificado
 doc.Save(dataDir);
 // Imprimir mensagem de sucesso para o console
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);

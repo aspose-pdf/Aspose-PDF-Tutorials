@@ -1,26 +1,26 @@
 //ExStart
-//ExSummaryQuesto codice mostra come creare un documento PDF con tabelle utilizzando Aspose.Pdf. Stabilirà i margini, aggiungerà due tabelle su pagine diverse e salverà il documento in un percorso specificato.
-//ExStepSummary:0: Questo passo imposta la directory di uscita per il file PDF.
-//ExStepSummary:1: Questo passaggio inizializza un nuovo oggetto Documento e recupera la PageInfo per modificare le impostazioni della pagina.
+//ExSummary: Questo codice mostra come creare un documento PDF con tabelle utilizzando Aspose.Pdf. Imposta margini, aggiunge due tabelle su pagine diverse e salva il documento su un percorso specificato.
+//ExStepSummary:0: Questo passaggio imposta la directory di output per il file PDF.
+//ExStepSummary:1: Questo passaggio inizializza un nuovo oggetto Documento e recupera PageInfo per modificare le impostazioni della pagina.
 //ExStepSummary:2: Questo passaggio imposta i margini della pagina e cambia l'orientamento della pagina in modalità paesaggio.
-//ExStepSummary:3: Questo passo crea un nuovo oggetto di tabella e definisce le larghezze delle colonne.
-//ExStepSummary:4: Questa fase aggiunge una nuova pagina al documento e inserisce una tabella con 120 righe, impostando l'altezza fissa della riga e aggiungendo contenuti a ciascuna cella.
-//ExStepSummary:5: Questa fase aggiunge la prima tabella alla raccolta di paragrafi della pagina corrente.
-//ExStepSummary:6: Questo passo crea un'altra tabella con diverse larghezze di colonne e aggiunge 10 righe con contenuto specificato.
-//ExStepSummary:7: Questa fase imposta la seconda tabella per apparire su una nuova pagina e la aggiunge al documento.
-//ExStepSummary:8: Questo passo salva il documento PDF nel percorso specificato e genera un messaggio di successo.
+//ExStepSummary:3: Questo passaggio crea un nuovo oggetto di tabella e definisce le larghezze delle colonne.
+//ExStepSummary:4: Questo passaggio aggiunge una nuova pagina al documento e inserisce una tabella con 120 righe, impostando un'altezza di riga fissa e aggiungendo contenuti a ogni cella.
+//ExStepSummary:5: Questo passaggio aggiunge la prima tabella alla raccolta di paragrafi della pagina corrente.
+//ExStepSummary:6: Questa fase crea un'altra tabella con larghezza di colonna diversa e aggiunge 10 righe con contenuto specificato.
+//ExStepSummary:7: Questo passaggio imposta la seconda tabella per apparire su una nuova pagina e aggiungerla al documento.
+//ExStepSummary:8: Questo passaggio salva il documento PDF nel percorso specificato e produce un messaggio di successo.
 //ExStepImage:5:images/2.png
 //ExStepImage:7:images/3.png
 //ExStep:0-
-// Indicare il percorso della directory dei documenti.
+// Specificare il percorso per la directory documenti.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Crea un nuovo oggetto Documento.
+// Creare un nuovo oggetto Documento.
 Document doc = new Document();
-// Prendi la pagina informativa del documento.
+// Ottieni le informazioni del documento.
 PageInfo pageInfo = doc.PageInfo;
-// Accedi alle impostazioni di margine della pagina.
+// Accedere alle impostazioni del margine della pagina.
 Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 
 //ExStep:2-
@@ -28,74 +28,74 @@ Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 marginInfo.Left = 37;
 // Impostare il margine destro a 37 unità.
 marginInfo.Right = 37;
-// Impostare il margine massimo a 37 unità.
+// Impostare il margine superiore a 37 unità.
 marginInfo.Top = 37; 
 // Impostare il margine inferiore a 37 unità.
 marginInfo.Bottom = 37;
-// Imposta l'orientamento della pagina al paesaggio.
+// Impostare l'orientamento della pagina su paesaggio.
 pageInfo.IsLandscape = true;
 
 //ExStep:3-
-// Crea un nuovo oggetto di tavolo.
+// Creare un nuovo oggetto di tabella.
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
 // Definire le larghezze delle colonne della tabella.
 table.ColumnWidths = "50 100";
 
 //ExStep:4-
-// Aggiungi una nuova pagina al documento.
+// Aggiungere una nuova pagina al documento.
 Page curPage = doc.Pages.Add();
-// Loop per aggiungere 120 righe alla prima tavola.
+// Loop per aggiungere 120 righe alla prima tabella.
 for (int i = 1; i <= 120; i++)
 {
 	// Crea una nuova fila.
     Aspose.Pdf.Row row = table.Rows.Add();
-	// Imposta l'altezza fissa per la fila.
+	// Impostare l'altezza fissa per la fila.
     row.FixedRowHeight = 15; 
-    // Crea la prima cella in fila.
+    // Creare la prima cella della fila.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Aggiungi un testoFragment alla prima cella.
+	// Aggiungere un TextFragment alla prima cella.
     cell1.Paragraphs.Add(new TextFragment("Content 1")); 
-    // Crea la seconda cella di fila.
+    // Creare la seconda cella nella fila.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Aggiungi un testoFragment alla seconda cella.
+	// Aggiungere un TextFragment alla seconda cella.
     cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
 }
 
 //ExStep:5-
-// Accedere alla raccolta di paragrafi della pagina corrente.
+// Accedere alla raccolta dei paragrafi della pagina corrente.
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
 // Aggiungere la prima tabella alla pagina corrente.
 paragraphs.Add(table); 
 
 //ExStep:6-
-// Crea un altro oggetto di tavolo.
+// Creare un altro oggetto di tabella.
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
-// Defini le larghezze delle colonne della seconda tabella.
+// Definire le larghezze delle colonne nella seconda tabella.
 table1.ColumnWidths = "100 100";
-// Loop per aggiungere 10 righe alla seconda tabella. 
+// Loop per aggiungere 10 righe al secondo tavolo. 
 for (int i = 1; i <= 10; i++) 
 {
-	// Crea una nuova riga per la tabella 1.
+	// Creare una nuova riga per la tabella 1.
     Aspose.Pdf.Row row = table1.Rows.Add(); 
-	// Crea la prima cella in fila.
+	// Creare la prima cella della fila.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
-	// Aggiungi un testoFragment alla prima cella.
+	// Aggiungere un TextFragment alla prima cella.
     cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
-    // Crea la seconda cella di fila.
+    // Creare la seconda cella nella fila.
     Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
-	// Aggiungi un testoFragment alla seconda cella.
+	// Aggiungere un TextFragment alla seconda cella.
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
 }
-// Imposta la proprietà per inserire la seconda tabella su una nuova pagina.
+// Impostare la proprietà per inserire la seconda tabella in una nuova pagina.
 table1.IsInNewPage = true; 
-// EsStep:7-
-// Aggiungere la seconda tabella ai paragrafi della pagina corrente.
+// EsStep: 7-
+// Aggiungi la seconda tabella ai paragrafi della pagina corrente.
 paragraphs.Add(table1); 
-// Defini il percorso del file di uscita.
+// Definire il percorso del file di output.
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
 // Salvare il documento nel percorso specificato.
 doc.Save(dataDir); 
-// EsStep:8-
-// Messaggio di successo.
+// EsStep: 8-
+// Messaggio di successo di uscita.
 Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
 //ExEnd

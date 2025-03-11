@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara bekerja dengan paragraf multi-kolom dalam dokumen PDF menggunakan Aspose.PDF. Ini memuat PDF, mengekstrak paragraf, dan kemudian memodifikasi pengaturan untuk memungkinkan paragraf multi-kolom sebelum mengekstrak paragraf lagi untuk menunjukkan perbedaan.
+//ExStepSummary:0: Kode berikut menunjukkan bagaimana menentukan direktori data di mana dokumen PDF berada.
+//ExStepSummary:1: Kode berikut menunjukkan cara memuat dokumen PDF menggunakan kelas Dokumen.
+//ExStepSummary:2: Kode berikut menunjukkan bagaimana membuat ParagraphAbsorber untuk mengekstrak paragraf dari dokumen.
+//ExStepSummary:3: Kode berikut menunjukkan bagaimana mengunjungi dokumen dengan ParagraphAbsorber untuk mengisi hasilnya.
+//ExStepSummary:4: Kode berikut menunjukkan bagaimana mengakses markup halaman pertama dan mengekstrak informasi tentang paragraf sebelum mengizinkan paragraf multi- kolom.
+//ExStepSummary:5: Kode berikut menunjukkan bagaimana mengaktifkan paragraf multi-kolom dan kemudian mengekstrak kembali informasi paragraf untuk menunjukkan efek perubahan.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Tentukan direktori data.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Muat dokumen PDF.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Buatlah ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Kunjungi dokumen untuk mengekstrak paragraf.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Akses markup halaman.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Ambil paragraf terakhir dari bagian ketiga.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Ambil paragraf pertama dari bagian kedua.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Aktifkan paragraf multi-kolom.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Dapatkan paragraf terakhir dari bagian ketiga setelah mengaktifkan paragraf multi-kolom.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Dapatkan paragraf pertama dari bagian kedua setelah mengaktifkan paragraf multi-kolom.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

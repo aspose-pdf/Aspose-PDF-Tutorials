@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento PDF a più colonne utilizzando la libreria Aspose.PDF. Imposta margini, aggiunge testo con formattazione HTML e organizza il contenuto in colonne.
+//ExStepSummary:0: Questo passaggio imposta la directory dei documenti, inizializza un nuovo documento PDF e configura i margini delle pagine.
+//ExStepSummary:1: Questo passaggio aggiunge una nuova pagina al documento e disegna una linea orizzontale utilizzando le classi Graph e Line.
+//ExStepSummary:2: Questo passaggio crea un HtmlFragment con testo formattato e lo aggiunge al documento PDF.
+//ExStepSummary:3: Questo passaggio crea una FloatingBox per un layout a due colonne e aggiunge informazioni sull'autore.
+//ExStepSummary:4: Questo passaggio disegna un'altra linea orizzontale all'interno della FloatingBox per la separazione visiva.
+//ExStepSummary:5: Questo passaggio aggiunge un lungo frammento di testo alla FloatingBox per dimostrare la distribuzione del contenuto in più colonne.
+//ExStepSummary:6: Questo passaggio salva il documento nel percorso di uscita specificato e stampa un messaggio di successo.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definire il percorso per la cartella documenti
+string dataDir = "Your Document Directory";
+// Creare una nuova istanza di Documento
+Document doc = new Document(); 
+
+// Specificare le informazioni del margine sinistro per il file PDF
+doc.PageInfo.Margin.Left = 40; 
+// Specificare le informazioni del margine destro per il file PDF
+doc.PageInfo.Margin.Right = 40;
+// Aggiungere una nuova pagina al documento
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Creare un nuovo oggetto Graph per disegnare una linea
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Aggiungere la riga ai paragrafi raccolta di oggetto sezione
+page.Paragraphs.Add(graph1);
+
+// Indicare le coordinate della linea
+// Definire i punti di inizio e di fine della linea
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Creare una forma di linea con coordinate specificate
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Aggiungi la forma della linea al grafico
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Creare variabili di stringa con testo contenente tag html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Creare un HtmlFragment per il testo dell' intestazione
+HtmlFragment heading_text = new HtmlFragment(s);
+// Aggiungere il testo dell' intestazione alla pagina 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Creare un nuovo FloatingBox per il layout multi-colonna
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Impostare il numero di colonne a 2
+box.ColumnInfo.ColumnCount = 2; 
+// Impostare lo spazio tra le colonne
+box.ColumnInfo.ColumnSpacing = "5";
+// Impostare la larghezza per ogni colonna
+box.ColumnInfo.ColumnWidths = "105 105";
+// Creare un frammento di testo per le informazioni dell'autore
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Impostare il formato del carattere per il testo
+text1.TextState.FontSize = 8;
+// Impostare l' intervallo tra le righe per il testo
+text1.TextState.LineSpacing = 2;
+// Aggiungere il testo dell'autore alla casella galleggiante
+box.Paragraphs.Add(text1);
+// Aggiornare il formato del testo
+text1.TextState.FontSize = 10;
+// Impostare lo stile del carattere in corsivo
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Creare un altro oggetto Graph per disegnare una seconda riga
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Indicare le coordinate della linea
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Aggiungi la forma della seconda riga al grafico
+graph2.Shapes.Add(l2);
+
+// Aggiungere la riga ai paragrafi raccolta di oggetto sezione
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Creare un frammento di testo lungo per mostrare il contenuto nelle colonne
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Aggiungere il testo lungo alla casella galleggiante
+box.Paragraphs.Add(text2); 
+// Aggiungere la casella galleggiante contenente tutto il contenuto della pagina
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Specificare il percorso del file PDF di output
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Salvare il documento sul percorso specificato
+doc.Save(dataDir); 
+// Messaggio di successo di stampa
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.PDF kullanarak mevcut bir PDF belgesine bir metin fragmanı eklemenin nasıl yapıldığını gösterir.
+//ExStepSummary:0: Bu adım, girdi PDF'nin bulunduğu belge dizini yolunu belirler.
+//ExStepSummary:1: Bu adım, düzenlemek için belirtilen PDF belgesini açar.
+//ExStepSummary:2: Bu adım, PDF belgesinden belirli bir sayfayı alır.
+//ExStepSummary:3: Bu adım, sayfadaki belirtilen içeriği ve konumu ile bir metin fragmanı oluşturur.
+//ExStepSummary:4: Bu adım, yazı tipi boyutu, yazı tipi türü, arka plan rengi ve ön plan rengi de dahil olmak üzere metin fragmanı için çeşitli özellikler belirler.
+//ExStepSummary:5: Bu adım, metin fragmanının PDF sayfasına eklenmesini kolaylaştırmak için bir TextBuilder nesnesi oluşturur.
+//ExStepSummary:6: Bu adım metin fragmanını PDF sayfasına ekler.
+//ExStepSummary:7: Bu adım, değiştirilen PDF belgesi için çıkış dosyası yolunu belirler.
+//ExStepSummary:8: Bu adım, değiştirilmiş PDF belgesini belirtilen çıkış yoluna kaydeder.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Belgeler için dizin yolunu belirle
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Belirtilen PDF belgesini aç
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// PDF belgesinin ikinci sayfasını al
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Belirtilen içeriğe sahip yeni bir metin fragmanı oluştur
+TextFragment textFragment = new TextFragment("main text");
+// Sayfadaki metin parçasının konumunu ayarla
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Metin parçasının yazı tipi boyutunu ayarla
+textFragment.TextState.FontSize = 12;
+// Yazı tipi ayarlayın
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Arkaplan Rengi Ayarla
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Metin Rengi Ayarla
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Sayfa için bir TextBuilder nesnesi oluştur
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Metin parçasını PDF sayfasına ekle
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Değiştirilen PDF belgesinin çıktı dosyası yolunu belirle
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Değiştirilmiş PDF belgesini belirtilen çıkış yoluna kaydet
+pdfDocument.Save(dataDir);
+// Çıkış başarısı mesajı
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

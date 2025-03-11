@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να εργάζεστε με παραγράφους πολλών στήλων σε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.PDF. Φορτώνει ένα PDF, εκκρίνει παραγράφους και στη συνέχεια τροποποιεί μια ρύθμιση για να επιτρέπει παραγράφους πολλών στήλων πριν εκκρίνει ξανά παραγράφους για να δείξει τη διαφορά.
+//ExStepSummary:0: Ο ακόλουθος κώδικας δείχνει πώς να προσδιοριστεί ο κατάλογος δεδομένων στον οποίο βρίσκεται το έγγραφο PDF.
+//ExStepSummary:1: Ο ακόλουθος κώδικας δείχνει πώς να φορτώσετε το έγγραφο PDF χρησιμοποιώντας την τάξη Document.
+//ExStepSummary:2: Ο ακόλουθος κώδικας δείχνει πώς να δημιουργήσετε ένα ParagraphAbsorber για να εξαγάγετε παραγράφους από το έγγραφο.
+//ExStepSummary:3: Ο ακόλουθος κώδικας δείχνει πώς να επισκεφθείτε το έγγραφο με το ParagraphAbsorber για να συμπληρώσετε τα αποτελέσματά του.
+//ExStepSummary:4: Ο ακόλουθος κώδικας δείχνει πώς να αποκτήσετε πρόσβαση στο σήμα καταχώρισης της πρώτης σελίδας και να εξαγάγετε πληροφορίες σχετικά με παραγράφους πριν επιτρέψετε παραγράφους πολλαπλών στήλων.
+//ExStepSummary:5: Ο ακόλουθος κώδικας δείχνει πώς να ενεργοποιήσετε τις παραγράφους πολλών στήλων και στη συνέχεια να εξαγάγετε εκ νέου πληροφορίες παραγράφου για να δείξετε την επίδραση της αλλαγής.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Προσδιορίστε τον κατάλογο δεδομένων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Εγκαταστήστε το έγγραφο PDF.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Δημιουργήστε ένα ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Επισκεφθείτε το έγγραφο για να αποσπάσετε παραγράφους.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Πρόσβαση στο σήμα καταχώρισης σελίδας.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Βρες την τελευταία παράγραφο από το τρίτο τμήμα.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Βρες την πρώτη παράγραφο από το δεύτερο τμήμα.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Ενεργοποιήστε παραγράφους πολλών στήλων.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Βρείτε την τελευταία παράγραφο από το τρίτο τμήμα μετά την ενεργοποίηση των παραγράφων πολλαπλών στήλων.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Παίρνετε την πρώτη παράγραφο από το δεύτερο τμήμα μετά την ενεργοποίηση παραγράφων πολλαπλών στήλων.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

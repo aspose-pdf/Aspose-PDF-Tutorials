@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary文件的编程:该代码展示了如何创建一个PDF文档,添加图像,调整图像大小和页面属性.它还处理保存文档并通知用户操作的成功.
-//ExStepSummary:0: 文件对象的初始化,并添加一个新的页面.
-//ExStepSummary:1: 图像的图像是如何在图像中显示的.
-//ExStepSummary:2: 图像的源文件是指标的,然后将其添加到页面上.
-//ExStepSummary:3: 这一步设定包括宽度和高度的页面属性.
-//ExStepSummary:4: 文件的存储方式:
+//ExSummary: 这个代码说明如何创建一个PDF文档,添加图片,调整图像大小和页面属性.它还处理保存文档并通知用户操作的成功.
+//ExStepSummary:0: 这个代码初始化文档对象并添加一个新页面.
+//ExStepSummary:1: 这个部分创建一个图像实例,并设置其尺寸和文件类型.
+//ExStepSummary:2: 这一步指定图像的源文件并将其添加到页面.
+//ExStepSummary:3: 这个步骤设置了包括宽度和高度在内的页面属性.
+//ExStepSummary:4: 这个部分将文件保存到指定文件路径,并验证保存操作.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
@@ -13,9 +13,9 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// 实时文件对象
+// 实例化文档对象
 Document doc = new Document();
-// 添加一个新的页面到PDF文件中
+// 添加一个新页面到PDF文档
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
@@ -25,11 +25,11 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.FixWidth = 100;
 // 设置图像高度为100点
 img.FixHeight = 100;
-// 设置图像类型为未知 (将以后推断)
+// 设置图像类型为未知 (以后推断)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
 // 指定源图像文件的路径
 img.File = dataDir + "aspose-logo.jpg";
-// 添加图像到页面的段落中
+// 将图像添加到页面的段落中
 page.Paragraphs.Add(img);
 
 //ExStep:3-
@@ -41,10 +41,10 @@ page.PageInfo.Height = 800;
 //ExStep:4-
 // 指定输出文件路径
 dataDir = dataDir + "SetImageSize_out.pdf";
-// 保存结果的PDF文件
+// 保存结果的PDF文档
 doc.Save(dataDir);
 
 //ExStep:5-
-// 通知用户成功的操作
+// 通知用户成功操作
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

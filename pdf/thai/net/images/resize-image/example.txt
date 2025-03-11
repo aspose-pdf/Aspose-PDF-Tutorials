@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: คódนี้แสดงวิธีการออปติมิสเตอร์เอกสาร PDF โดยการดันและเปลี่ยนขนาดภาพในนั้น
-//ExStepSummary:0: คódต่อไปนี้เริ่มต้นเวลาปัจจุบันและกําหนดเส้นทางของบันทึกเอกสาร
-//ExStepSummary:1: คódต่อไปนี้เปิดเอกสาร PDF ที่กําหนดไว้เพื่อการแปรรูป
-//ExStepSummary:2: คódต่อไปนี้เริ่มต้นการเลือกการออปติมิสเตอร์สําหรับ PDF
-//ExStepSummary:3: คódต่อไปนี้ตั้งค่าการสับภาพภาพ รวมถึงการสับและคุณภาพ
-//ExStepSummary:4: คódต่อไปนี้ใช้ตัวเลือกการอุดมสมรรถนะในการเอกสาร PDF
-//ExStepSummary:5: โค้ดต่อไปนี้จะบันทึกเอกสาร PDF ที่ถูกปรับปรุงให้เป็นไฟล์ใหม่
+//ExSummary: รหัสนี้แสดงวิธีการปรับปรุงเอกสาร PDF โดยการบดและปรับขนาดภาพภายในมัน
+//ExStepSummary:0: รหัสต่อไปนี้เริ่มต้นเวลาปัจจุบัน และกําหนดเส้นทางของเอกสาร
+//ExStepSummary:1: รหัสต่อไปนี้จะเปิดเอกสาร PDF ที่กําหนดไว้เพื่อการประมวลผล
+//ExStepSummary:2: รหัสต่อไปนี้เริ่มการเลือก Optimization สําหรับ PDF
+//ExStepSummary:3: รหัสต่อไปนี้ตั้งค่าการตั้งค่าการบดภาพ รวมถึงการบดและคุณภาพ
+//ExStepSummary:4: รหัสต่อไปนี้ใช้ตัวเลือกการปรับปรุงให้ดีต่อเอกสาร PDF
+//ExStepSummary:5: รหัสต่อไปนี้จะบันทึกเอกสาร PDF ที่ได้รับการปรับปรุงให้เป็นไฟล์ใหม่
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// เริ่มต้นเวลา
+// เริ่มเวลา
 var time = DateTime.Now.Ticks;
-// ทางไปยังบันทึกเอกสาร
+// เส้นทางไปยังเอกสาร
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,11 +18,11 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// ลงตัวเลือก Optimization
+// เริ่มต้น OptimizationOptions
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// กําหนดการเลือก CompressImages
+// กําหนดตัวเลือก CompressImages
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 // กําหนดตัวเลือก ImageQuality 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
@@ -36,12 +36,12 @@ optimizeOptions.ImageCompressionOptions.MaxResolution = 300;
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
-// ปรับปรุงบันทึกข้อมูลสําหรับไฟล์ออก
+// อัพเดทรายการข้อมูลสําหรับไฟล์ผลิต
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// เก็บเอกสารที่ปรับปรุง
+// เก็บเอกสารที่อัพเดท
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-
-// รายงานความสําเร็จของผู้ใช้
+// ส่งข่าวให้ผู้ใช้งานว่าประสบความสําเร็จ
 Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
 //ExEnd

@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary這個代碼展示了如何使用Aspose.PDF在 PDF 文檔中使用多列段落. 它加載 PDF,提取段落,然後修改設定,以便在再次提取段落之前允許多列段落顯示差異.
+//ExStepSummary:0: 以下代碼顯示如何指定PDF文檔所在的資料目錄.
+//ExStepSummary:1: 該文件的檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案檔案
+//ExStepSummary:2: 以下代碼顯示如何創建 ParagraphAbsorber,
+//ExStepSummary:3: 該文件的結果是如何填寫的.
+//ExStepSummary:4: 以下代碼顯示如何在允許多列段落之前, 進入第一頁的標記並提取段落的資訊.
+//ExStepSummary:5: 該代碼顯示如何啟用多列段落,然後重新提取段落資訊,以顯示變更的效果.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// 指定資料目錄.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 載入PDF文件.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// 創建一個段落吸收器.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// 請訪問文檔以提取段落.
+absorber.Visit(doc);
+
+//ExStep:4-
+// 接觸頁面標記.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// 這就是我對這項計畫的看法.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 這就是我對這項計畫的看法.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// 啟用多欄段落.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// 在啟用多欄段落後,
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 在啟用多欄段落後,
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

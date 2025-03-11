@@ -1,13 +1,13 @@
 //ExStart
-//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit Aspose.Pdf erstellt und Rechtecke mit Alpha-Farben hinzufügt.
-//ExStepSummary:0: Der folgende Code legt den Weg zum Dokumentenverzeichnis vor.
-//ExStepSummary:1: Der folgende Code zeigt eine Dokumentinstance an.
-//ExStepSummary:2: Der folgende Code fügt einer Seite zur Seite-Sammlung der PDF-Datei hinzu.
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit Aspose.Pdf erstellt und Rechtecke mit Alpha-Farben hinzufügt.
+//ExStepSummary:0: Der folgende Code legt den Pfad zum Dokumentenverzeichnis fest.
+//ExStepSummary:1: Der folgende Code stellt eine Instanz eines Dokuments her.
+//ExStepSummary:2: Der folgende Code fügt eine Seite zur Seitenkollektion der PDF-Datei hinzu.
 //ExStepSummary:3: Der folgende Code erstellt eine Graph-Instanz, um Formen auf der PDF-Seite zu zeichnen.
 //ExStepSummary:4: Der folgende Code erstellt ein Rechteckobjekt mit bestimmten Abmessungen und Füllfarbe.
 //ExStepSummary:5: Der folgende Code erstellt ein zweites Rechteckobjekt und fügt es dem Graph hinzu.
-//ExStepSummary:6: Der folgende Code fügt die Graphinstance der Absatzesammlung der Seite hinzu.
-//ExStepSummary:7: Der folgende Code speichert die PDF-Datei und druckt eine Erfolgsnachricht an die Konsole.
+//ExStepSummary:6: Der folgende Code fügt die Graph-Instanz zur Absätze-Sammlung der Seite hinzu.
+//ExStepSummary:7: Der folgende Code speichert die PDF-Datei und druckt eine Erfolgsmeldung an die Konsole.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
@@ -15,42 +15,42 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Instanzieren Sie die Dokumentinstance zur Erstellung eines PDF-Dokumentes
+// Installieren der Dokumentinstanz für die Erstellung eines PDF
 Document doc = new Document();
 
 //ExStep:2-
-// Fügen Sie ein neues Dokument zu PDF-Dokument hinzu
+// Fügen Sie dem PDF-Dokument eine neue Seite hinzu
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Erstellen Sie eine Graph-Instanz für die Zeichnung von Formen
+// Erstellen einer Graph-Instanz für die Zeichnung von Formen
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Erstellen Sie ein Rechteck mit spezifizierten Abmessungen
+// Erstellen eines Rechtecks mit angegebenen Abmessungen
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// Setzen Sie die Füllfarbe mit ARGB
+// Die Füllfarbe mit ARGB einstellen
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// Erstellen Sie ein zweites Rechteckobjekt
+// Erstellen eines zweiten Rechteckobjekts
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// Setzen Sie die Füllfarbe für das zweite Rechteck
+// Die Füllfarbe für das zweite Rechteck setzen
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Fügen Sie das erste Rechteck zu den Formen der Graph-Instanz hinzu
+// Das erste Rechteck in die Formenkollektion der Graph-Instanz hinzufügen
 canvas.Shapes.Add(rect);
-// Fügen Sie das zweite Rechteck zu den Formen der Graph-Instanz
+// Das zweite Rechteck in die Formenkollektion der Graph-Instanz hinzufügen
 canvas.Shapes.Add(rect1);
-// Fügen Sie die Graph-Instanz zur Absatzesammlung der Seite hinzu
+// Hinzufügen der Graph-Instanz zur Absätze-Sammlung der Seite
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Bereiten Sie den Ausgangsdateiweg vor
+// Vorbereiten des Ausgabe-Dateiweges
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Speichern Sie das PDF-Dokument auf den angegebenen Weg
+// Das PDF-Dokument auf den angegebenen Pfad speichern
 doc.Save(dataDir);
-// Drucken Sie Erfolgsnachricht auf die Konsole
+// Erfolgsergebnis für den Druck auf die Konsole
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

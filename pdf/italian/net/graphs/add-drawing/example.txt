@@ -1,16 +1,16 @@
 //ExStart
-//ExSummaryQuesto codice mostra come creare un documento PDF con un grafico contenente un rettangolo riempito di un colore trasparente.
-//ExStepSummary:0: Il seguente codice inizializza la directory di dati per salvare il file PDF.
-//ExStepSummary:1: Il seguente codice imposta il colore Alpha RGB da utilizzare per riempire il rettangolo.
+//ExSummary: Questo codice mostra come creare un documento PDF con un grafico contenente un rettangolo riempito con un colore trasparente.
+//ExStepSummary:0: Il codice seguente inizializza la directory dati per salvare il file PDF.
+//ExStepSummary:1: Il seguente codice definisce il colore alfa RGB da utilizzare per il riempimento del rettangolo.
 //ExStepSummary:2: Il seguente codice crea un nuovo oggetto Documento per il PDF.
 //ExStepSummary:3: Il seguente codice aggiunge una pagina al documento PDF.
 //ExStepSummary:4: Il seguente codice crea un oggetto Graph per disegnare forme nel PDF.
-//ExStepSummary:5: Il seguente codice impone un limite per l'oggetto del grafico.
-//ExStepSummary:6: Il seguente codice aggiunge l'oggetto del grafico alla raccolta di paragrafi della pagina.
+//ExStepSummary:5: Il seguente codice definisce un confine per l'oggetto grafico.
+//ExStepSummary:6: Il seguente codice aggiunge l'oggetto grafico alla raccolta dei paragrafi della pagina.
 //ExStepSummary:7: Il seguente codice crea una forma rettangolare da disegnare sul grafico.
-//ExStepSummary:8: Il seguente codice imposta le informazioni di colore per le informazioni grafiche del rettangolo.
+//ExStepSummary:8: Il seguente codice imposta le informazioni sul colore per le informazioni sul grafico del rettangolo.
 //ExStepSummary:9: Il seguente codice aggiunge la forma rettangolare alla raccolta di forme del grafico.
-//ExStepSummary:10: Il seguente codice salva il documento nel percorso specificato del file di uscita.
+//ExStepSummary:10: Il codice seguente salva il documento nel percorso di output specificato.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
@@ -25,11 +25,11 @@ int green = 0;
 int red = 100;
 int blue = 0;
 
-// Crea l' oggetto colore usando Alpha RGB
+// Creare un oggetto colore usando Alpha RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Obbiettivo Documento istantaneo
+// Instantiate oggetto Documento
 Document document = new Document();
 
 //ExStep:3-
@@ -37,35 +37,35 @@ Document document = new Document();
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Creazione di oggetti Grafico con dimensioni specifiche
+// Creare un oggetto Graph con dimensioni specifiche
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Impostazione di confini per l'oggetto Grafico
+// Impostare il confine per l'oggetto Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Aggiungere l' oggetto grafico alla pagina
+// Aggiungere l'oggetto grafico alla pagina
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Crea un oggetto rettangolo con dimensioni specifiche
+// Creare un oggetto rettangolo con dimensioni specifiche
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Creazione di graphInfo oggetto per il rettangolo
+// Creare l'oggetto graphInfo per il rettangolo
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Impostare le informazioni di colore per l' istanza GraphInfo
+// Imposta le informazioni sul colore per l' istanza GraphInfo
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Aggiungere la forma rettangolare al grafico
+// Aggiungi la forma rettangolare al grafico
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Impostare il percorso del file di uscita per salvare il documento
+// Impostare il percorso del file di output per salvare il documento
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 

@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية العمل مع الفقرات متعددة الأعمدة في مستند PDF باستخدام Aspose.PDF. يقوم بتحميل PDF ، ويستخرج الفقرات ، ثم يعدل الإعداد للسماح بالفقرات متعددة الأعمدة قبل استخراج الفقرات مرة أخرى لإظهار الفرق.
+//ExStepSummary:0: يوضح الرمز التالي كيفية تحديد دليل البيانات حيث توجد وثيقة PDF.
+//ExStepSummary:1: يوضح الرمز التالي كيفية تحميل مستند PDF باستخدام فئة Document.
+//ExStepSummary:2: يوضح الرمز التالي كيفية إنشاء ParagraphAbsorber لاستخراج الفقرات من الوثيقة.
+//ExStepSummary:3: يوضح الرمز التالي كيفية زيارة الوثيقة مع ParagraphAbsorber لملء نتائجها.
+//ExStepSummary:4: يوضح الرمز التالي كيفية الوصول إلى علامة الصفحة الأولى واستخراج معلومات عن الفقرات قبل السماح بالفقرات متعددة الأعمدة.
+//ExStepSummary:5: يوضح الرمز التالي كيفية تمكين الفقرات متعددة الأعمدة ثم إعادة استخراج معلومات الفقرة لإظهار تأثير التغيير.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// حدد دليل البيانات
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// قم بتحميل مستند PDF
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// إنشاء مُمتص الفقرة
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// قم بزيارة الوثيقة لاستخراج الفقرات.
+absorber.Visit(doc);
+
+//ExStep:4-
+// الوصول إلى علامة الصفحة
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// احصل على الفقرة الأخيرة من القسم الثالث
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// احصل على الفقرة الأولى من القسم الثاني
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// تمكين الفقرات متعددة الأعمدة
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// احصل على الفقرة الأخيرة من القسم الثالث بعد تمكين الفقرات متعددة الأعمدة.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// احصل على الفقرة الأولى من القسم الثاني بعد تمكين الفقرات متعددة الأعمدة.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

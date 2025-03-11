@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Bu kod, Aspose.PDF kütüphanesi kullanarak çok sütunlu bir PDF belgesi oluşturmayı gösterir. Marjları ayarlar, HTML biçimlendirme ile metin ekler ve içeriği sütunlara düzenler.
+//ExStepSummary:0: Bu adım belge dizini ayarlar, yeni bir PDF belgesini başlatır ve sayfa kenarlarını yapılandırır.
+//ExStepSummary:1: Bu adım belgeye yeni bir sayfa ekler ve Graph ve Line sınıflarını kullanarak yatay bir çizgi çizer.
+//ExStepSummary:2: Bu adım biçimlendirilmiş metinle bir HtmlFragment oluşturur ve PDF belgesine ekler.
+//ExStepSummary:3: Bu adım iki sütunlu bir düzen için bir FloatingBox oluşturur ve yazar bilgilerini ekler.
+//ExStepSummary:4: Bu adım, görsel ayrım için FloatingBox'un içinde bir yatay çizgi daha çizer.
+//ExStepSummary:5: Bu adım, içerik dağıtımını birden fazla sütunda göstermek için FloatingBox'a uzun bir metin fragmanı ekler.
+//ExStepSummary:6: Bu adım belgeyi belirtilen çıkış yoluna kaydeder ve bir başarı mesajı yazdırır.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Belgeler dizini yolunu tanımla
+string dataDir = "Your Document Directory";
+// Yeni bir belge örneği oluştur
+Document doc = new Document(); 
+
+// PDF dosyası için sol kenar bilgiyi belirtin
+doc.PageInfo.Margin.Left = 40; 
+// PDF dosyası için sağ kenar bilgilerini belirtin
+doc.PageInfo.Margin.Right = 40;
+// Belgeye yeni bir sayfa ekle
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Bir çizgi çizmek için yeni bir Graph nesnesi oluştur
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Paragraflar için satır ekle
+page.Paragraphs.Add(graph1);
+
+// Hattı belirleyin
+// Hattı başlat ve bitir
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Belirtilen koordinatlarla bir çizgi şekli oluştur
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Çizgi şeklini grafiğe ekle
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// HTML etiketleri içeren metinle dize değişkenleri oluştur
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Başlık metni için bir HtmlFragment oluştur
+HtmlFragment heading_text = new HtmlFragment(s);
+// Sayfaya başlık metnini ekle 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Çok sütunlu düzen için yeni bir FloatingBox oluştur
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Sütun sayısını 2 olarak ayarlayın
+box.ColumnInfo.ColumnCount = 2; 
+// Sütunlar arasındaki mesafeyi ayarla
+box.ColumnInfo.ColumnSpacing = "5";
+// Her sütun için genişlik ayarlayın
+box.ColumnInfo.ColumnWidths = "105 105";
+// Yazar bilgisi için bir metin fragmanı oluştur
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Metin için yazı tipi boyutu ayarla
+text1.TextState.FontSize = 8;
+// Metin için satır aralığı ayarla
+text1.TextState.LineSpacing = 2;
+// Yazar metnini yüzen kutuya ekle
+box.Paragraphs.Add(text1);
+// Metin için yazı tipi boyutunu güncelle
+text1.TextState.FontSize = 10;
+// Yazı tipi stilini kursal olarak ayarla
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// İkinci bir çizgi çizmek için başka bir Graph nesnesi oluştur
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Hattı belirleyin
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Grafiğe ikinci çizgi şeklini ekle
+graph2.Shapes.Add(l2);
+
+// Paragraflar için satır ekle
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Sütunlardaki içeriği göstermek için uzun bir metin fragmanı oluştur
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Uzun metni yüzen kutuya ekle
+box.Paragraphs.Add(text2); 
+// Sayfaya tüm içeriği içeren yüzen kutuyu ekle
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Çıktı PDF dosyası yolunu belirtin
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Belgeyi belirtilen yolla kaydet
+doc.Save(dataDir); 
+// Yazdırma başarısı mesajı
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

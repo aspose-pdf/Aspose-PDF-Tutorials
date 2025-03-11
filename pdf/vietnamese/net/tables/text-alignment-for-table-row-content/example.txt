@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF với bảng chứa 10 hàng và 3 cột.
+//ExStepSummary:0: Bước này thiết lập đường dẫn thư mục nơi mà tập tin PDF đầu ra sẽ được lưu.
+//ExStepSummary:1: Bước này tạo ra một ví dụ tài liệu PDF mới.
+//ExStepSummary:2: Bước này khởi tạo một đối tượng bảng mới.
+//ExStepSummary:3: Bước này thiết lập màu biên của bảng thành LightGray.
+//ExStepSummary:4: Bước này áp dụng một đường viền LightGray cho tất cả các ô bảng.
+//ExStepSummary:5: Bước này bắt đầu một vòng lặp để thêm 10 hàng vào bảng.
+//ExStepSummary:6: Bước này thêm một hàng mới vào bảng và đặt sự sắp xếp dọc của nó vào trung tâm.
+//ExStepSummary:7: Bước này thêm ba ô vào hàng, với ô đầu tiên chứa nội dung động dựa trên dấu thời gian hiện tại.
+//ExStepSummary:8: Bước này thêm một trang mới vào tài liệu PDF.
+//ExStepSummary:9: Bước này thêm bảng vào trang mới được tạo trong tài liệu.
+//ExStepSummary:10: Bước này lưu tài liệu PDF cuối cùng vào thư mục đầu ra đã chỉ định.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Con đường dẫn đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo một tài liệu PDF mới.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Bắt đầu một phiên bản mới của bảng.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Đặt màu biên bảng là LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Đặt ranh giới cho các ô bảng.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Tạo vòng lặp để thêm 10 hàng
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Thêm hàng vào bảng
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Đặt thẳng hàng thẳng đứng của hàng.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Thêm ô đầu tiên với nội dung động.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Thêm tế bào thứ hai.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Thêm tế bào thứ ba.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Thêm một trang mới vào tài liệu PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Thêm đối tượng bảng vào trang đầu tiên của tài liệu.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Lưu tài liệu cập nhật chứa đối tượng bảng.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

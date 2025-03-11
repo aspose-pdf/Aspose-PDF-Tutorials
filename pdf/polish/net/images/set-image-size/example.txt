@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryKod ten pokazuje, jak tworzyć dokument PDF, dodać do niego obraz i dostosować rozmiar obrazu i właściwości strony.
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF, dodać do niego obraz, dostosować rozmiar obrazu i właściwości strony.
 //ExStepSummary:0: Kod ten inicjalizuje obiekt dokumentu i dodaje do niego nową stronę.
-//ExStepSummary:1: W tej sekcji tworzy się instancja obrazu i ustawia jego wymiary i typ pliku.
-//ExStepSummary:2: W tym kroku określa się plik źródłowy obrazu i dodaje go do strony.
-//ExStepSummary:3: Ten krok określa właściwości strony, w tym szerokość i wysokość.
+//ExStepSummary:1: W tej sekcji tworzy się instancję obrazu i ustala jego wymiary i typ pliku.
+//ExStepSummary:2: Ten krok określa plik źródłowy obrazu i dodaje go do strony.
+//ExStepSummary:3: Ten krok ustala właściwości strony, w tym szerokość i wysokość.
 //ExStepSummary:4: W tej sekcji zapisany jest dokument na określonej ścieżce pliku i weryfikowana jest operacja zapisu.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Wymień ścieżkę katalogów dokumentów
+// Określ ścieżkę katalogu dokumentów
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Wystarczy obekt dokumentu
+// Instansuj obiekt dokumentu
 Document doc = new Document();
-// Dodaj nową stronę do dokumentu PDF
+// Dodać nową stronę do dokumentu PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
-// Tworzenie przykładu obrazu
+// Utworzenie instancji obrazu
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// Ustaw szerokość obrazu na 100 punktów
+// Ustawić szerokość obrazu na 100 punktów
 img.FixWidth = 100;
-// Ustaw wysokość obrazu na 100 punktów
+// Ustawić wysokość obrazu na 100 punktów
 img.FixHeight = 100;
-// Ustaw typ obrazu jako Nieznany (z wnioskiem później)
+// Ustawić typ obrazu jako Nieznany (powtarzamy później)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Wyznacz ścieżkę pliku obrazu źródłowego
+// Określ ścieżkę pliku obrazu źródłowego
 img.File = dataDir + "aspose-logo.jpg";
-// Dodaj obraz do ustępów strony
+// Dodaj obraz do akapitów strony
 page.Paragraphs.Add(img);
 
 //ExStep:3-
-// Ustaw szerokość strony na 800 punktów
+// Ustawić szerokość strony na 800 punktów
 page.PageInfo.Width = 800;
-// Ustaw wysokość strony na 800 punktów
+// Ustawić wysokość strony na 800 punktów
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Wyznacz ścieżkę pliku wyjściowego
+// Określ ścieżkę pliku wyjściowego
 dataDir = dataDir + "SetImageSize_out.pdf";
 // Zapisz wynik dokument PDF
 doc.Save(dataDir);
 
 //ExStep:5-
-// Informacja użytkownika o udanej operacji
+// Informuj użytkownika o pomyślnej operacji
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

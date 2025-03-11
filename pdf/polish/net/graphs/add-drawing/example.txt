@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryKod ten pokazuje, jak tworzyć dokument PDF z wykresem zawierającym prostokąt wypełniony przejrzystymi kolorami.
-//ExStepSummary:0: Następujący kod inicjuje katalog danych do zapisywania pliku PDF.
-//ExStepSummary:1: Następujący kod określa kolor alfa RGB, który należy użyć do wypełnienia prostokątnika.
-//ExStepSummary:2: Następujący kod tworzy nowy obiekt Dokument dla plików PDF.
-//ExStepSummary:3: Następujący kod doda stronę do dokumentu PDF.
-//ExStepSummary:4: Następujący kod tworzy obiekt Graph do rysunku kształtów w pliku PDF.
-//ExStepSummary:5: Następujący kod wyznacza granicę dla obiektu grafu.
-//ExStepSummary:6: Następujący kod doda obiekt grafu do zbioru paragrafów strony.
-//ExStepSummary:7: Następujący kod tworzy kształt prostokątnego, który ma być rysunek na wykresie.
-//ExStepSummary:8: Następujący kod określa informacje kolorowe dla informacji graficznych o prostokąta.
-//ExStepSummary:9: Następujący kod doda kształt prostokątnej do zbioru kształtów wykresu.
-//ExStepSummary:10: Następujący kod zapisuje dokument na określonej ścieżce pliku wyjściowego.
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF z wykresem zawierającym prostokąt wypełniony przezroczystym kolorem.
+//ExStepSummary:0: Poniższy kod inicjalizuje katalog danych do zapisania pliku PDF.
+//ExStepSummary:1: Poniższy kod określa kolor alfa RGB, który ma być używany do wypełniania prostokąta.
+//ExStepSummary:2: Poniższy kod tworzy nowy obiekt Dokument dla pliku PDF.
+//ExStepSummary:3: Poniższy kod dodaje stronę do dokumentu PDF.
+//ExStepSummary:4: Poniższy kod tworzy obiekt Graph do rysowania kształtów w pliku PDF.
+//ExStepSummary:5: Poniższy kod określa granicę obiektu grafu.
+//ExStepSummary:6: Poniższy kod dodaje obiekt grafu do zbioru akapitów strony.
+//ExStepSummary:7: Poniższy kod tworzy kształt prostokąta do narysowania na wykresie.
+//ExStepSummary:8: Poniższy kod określa informacje kolorystyczne dla informacji o wykresie prostokąta.
+//ExStepSummary:9: Poniższy kod dodaje kształt prostokąta do zbioru kształtów wykresu.
+//ExStepSummary:10: Poniższy kod zapisuje dokument na określonej ścieżce pliku wyjściowego.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// Inicjalizacja ścieżki do zapisywania dokumentu
+// Inicjalizowanie ścieżki do zapisania dokumentu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -25,23 +25,23 @@ int green = 0;
 int red = 100;
 int blue = 0;
 
-// Utworzenie obiektu kolorów za pomocą alfa RGB
+// Tworzenie obiektu koloru przy użyciu alfa RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Wystarczy obekt dokumentu
+// Instansuj obiekt dokumentu
 Document document = new Document();
 
 //ExStep:3-
-// Dodaj nową stronę do dokumentu
+// Dodać nową stronę do dokumentu
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Tworzenie obiektu Grafu o określonych wymiarach
+// Tworzenie obiektu Graph z określonymi wymiarami
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Ustaw granicę dla obiektu Graf
+// Ustawić granicę obiektu Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
@@ -53,23 +53,23 @@ page.Paragraphs.Add(graph);
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Tworzenie obiektu graphInfo dla rektangulu
+// Utworzenie obiektu graphInfo dla prostokąta
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Ustaw informacje o kolorze dla przykładu GraphInfo
+// Ustawić informacje o kolorze dla instancji GraphInfo
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Dodaj kształt prostokątnego do wykresu
+// Dodaj kształt prostokąta do wykresu
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Ustaw ścieżkę pliku wyjściowego do zapisywania dokumentu
+// Ustawić ścieżkę pliku wyjściowego do zapisania dokumentu
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 
 //ExStep:11-
-// /Wiadomość potwierdzenia
+// Wiadomość potwierdzająca
 Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
 //ExEnd

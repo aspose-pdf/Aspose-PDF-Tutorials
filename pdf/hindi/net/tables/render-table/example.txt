@@ -1,0 +1,101 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि Aspose.Pdf का उपयोग करके तालिकाओं के साथ एक पीडीएफ दस्तावेज़ कैसे बनाया जाए। यह मार्जिन सेट करता है, अलग-अलग पृष्ठों पर दो तालिकाओं को जोड़ता है, और दस्तावेज़ को निर्दिष्ट पथ पर सहेजता है।
+//ExStepSummary:0: यह चरण पीडीएफ फ़ाइल के लिए आउटपुट निर्देशिका सेट करता है.
+//ExStepSummary:1: यह चरण एक नई दस्तावेज़ वस्तु को आरंभ करता है और पृष्ठ सेटिंग्स को संशोधित करने के लिए PageInfo को पुनः प्राप्त करता है.
+//ExStepSummary:2: यह चरण पृष्ठ मार्जिन सेट करता है और पृष्ठ उन्मुखीकरण को लैंडस्केप मोड में बदल देता है.
+//ExStepSummary:3: यह चरण एक नई तालिका वस्तु बनाता है और स्तंभ चौड़ाई को परिभाषित करता है.
+//ExStepSummary:4: यह चरण दस्तावेज़ में एक नया पृष्ठ जोड़ता है और 120 पंक्तियों वाली तालिका सम्मिलित करता है, निश्चित पंक्ति ऊंचाई सेट करता है और प्रत्येक सेल में सामग्री जोड़ता है.
+//ExStepSummary:5: यह चरण वर्तमान पृष्ठ के पैराग्राफ संग्रह में पहली तालिका जोड़ता है.
+//ExStepSummary:6: यह चरण विभिन्न स्तंभ चौड़ाई के साथ एक और तालिका बनाता है और निर्दिष्ट सामग्री के साथ 10 पंक्तियों को जोड़ता है।
+//ExStepSummary:7: यह चरण दूसरी तालिका को एक नए पृष्ठ पर प्रदर्शित करने के लिए सेट करता है और इसे दस्तावेज़ में जोड़ता है.
+//ExStepSummary:8: यह चरण पीडीएफ दस्तावेज़ को निर्दिष्ट पथ पर सहेजता है और सफलता संदेश आउटपुट करता है.
+//ExStepImage:5:images/2.png
+//ExStepImage:7:images/3.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ निर्दिष्ट करें.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// एक नया दस्तावेज़ ऑब्जेक्ट बनाएँ.
+Document doc = new Document();
+// दस्तावेज़ का पेज जानकारी प्राप्त करें.
+PageInfo pageInfo = doc.PageInfo;
+// पृष्ठ की सीमा सेटिंग्स तक पहुँचें.
+Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
+
+//ExStep:2-
+// 37 इकाइयों के लिए बाएं मार्जिन सेट करें.
+marginInfo.Left = 37;
+// 37 इकाइयों के लिए सही मार्जिन सेट करें.
+marginInfo.Right = 37;
+// 37 इकाइयों के लिए शीर्ष मार्जिन सेट करें.
+marginInfo.Top = 37; 
+// 37 इकाइयों के लिए निचले मार्जिन सेट करें.
+marginInfo.Bottom = 37;
+// पृष्ठ उन्मुखीकरण को परिदृश्य पर सेट करें.
+pageInfo.IsLandscape = true;
+
+//ExStep:3-
+// एक नई तालिका वस्तु बनाएँ.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// तालिका में स्तंभों के लिए चौड़ाई को परिभाषित करें.
+table.ColumnWidths = "50 100";
+
+//ExStep:4-
+// दस्तावेज़ में एक नया पृष्ठ जोड़ें.
+Page curPage = doc.Pages.Add();
+// पहली तालिका में 120 पंक्तियों को जोड़ने के लिए लूप।
+for (int i = 1; i <= 120; i++)
+{
+	// एक नई पंक्ति बनाएँ।
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// पंक्ति के लिए निश्चित ऊंचाई सेट करें.
+    row.FixedRowHeight = 15; 
+    // पंक्ति में पहली सेल बनाएँ.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// पहली कक्ष में एक TextFragment जोड़ें.
+    cell1.Paragraphs.Add(new TextFragment("Content 1")); 
+    // पंक्ति में दूसरी सेल बनाएँ.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// दूसरी कक्ष में एक TextFragment जोड़ें.
+    cell2.Paragraphs.Add(new TextFragment("HHHHH")); 
+}
+
+//ExStep:5-
+// वर्तमान पृष्ठ के अनुच्छेद संग्रह तक पहुँचें.
+Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
+// वर्तमान पृष्ठ में पहली तालिका जोड़ें.
+paragraphs.Add(table); 
+
+//ExStep:6-
+// एक और तालिका वस्तु बनाएँ.
+Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
+// दूसरी तालिका में स्तंभों के लिए चौड़ाई को परिभाषित करें।
+table1.ColumnWidths = "100 100";
+// दूसरी तालिका में 10 पंक्तियों को जोड़ने के लिए लूप। 
+for (int i = 1; i <= 10; i++) 
+{
+	// तालिका1 के लिए एक नई पंक्ति बनाएँ.
+    Aspose.Pdf.Row row = table1.Rows.Add(); 
+	// पंक्ति में पहली सेल बनाएँ.
+    Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
+	// पहली कक्ष में एक TextFragment जोड़ें.
+    cell1.Paragraphs.Add(new TextFragment("LAAAAAAA")); 
+    // पंक्ति में दूसरी सेल बनाएँ.
+    Aspose.Pdf.Cell cell2 = row.Cells.Add(); 
+	// दूसरी कक्ष में एक TextFragment जोड़ें.
+    cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
+}
+// दूसरी तालिका को नए पृष्ठ पर रखने के लिए गुण सेट करें.
+table1.IsInNewPage = true; 
+// ExStep:7-
+// वर्तमान पृष्ठ के अनुच्छेदों में दूसरी तालिका जोड़ें।
+paragraphs.Add(table1); 
+// आउटपुट फ़ाइल पथ को परिभाषित करें.
+dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें.
+doc.Save(dataDir); 
+// ExStep:8-
+// आउटपुट सफलता संदेश.
+Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
+//ExEnd

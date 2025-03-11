@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: 이 코드는 투명한 텍스트 효과와 함께 직사각형과 텍스트 조각을 포함하는 PDF 문서를 만드는 방법을 보여줍니다. 출력은 이렇게 저장됩니다.`AddTransparentText_out.pdf 를 추가합니다.`지정된 디렉토리에서
+//ExStepSummary:0: 문서 디렉토리 경로를 초기화하고 새로운 PDF 문서를 페이지로 생성합니다.
+//ExStepSummary:1: 투명한 채식 색상을 가진 그래프 객체와 정사각형을 만들고 페이지에 추가합니다.
+//ExStepSummary:2: 샘플 텍스트로 TextFragment를 만들고 30%의 불투명성으로 투명한 녹색 색을 설정합니다.
+//ExStepSummary:3: 문서를 지정된 출력 경로로 저장합니다.
+//ExStepSummary:4: 파일 경로와 함께 성공 메시지를 표시합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// 문서 디렉토리로의 경로
+string dataDir = "Your Document Directory";
+
+// 문서 인스턴스를 생성합니다
+Document doc = new Document(); 
+
+// 페이지에서 페이지로 PDF 파일 컬렉션을 생성
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// 너비와 높이를 가진 그래프 객체를 생성
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// 정의된 차원으로 정사각형 인스턴스를 생성
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// 알파 색상 채널에서 색상 객체를 생성
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// 그래프 객체의 모양 컬렉션에 정사각형을 추가
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// 그래프 객체를 문항에 추가 페이지 객체의 컬렉션
+page.Paragraphs.Add(canvas);
+
+// 그래프 객체의 위치를 변경하지 않도록 값을 설정
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// 샘플 값으로 TextFragment 인스턴스를 생성
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// 알파 채널에서 색상 객체를 생성
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// 텍스트 인스턴스에 대한 색상 정보를 설정
+text.TextState.ForegroundColor = color;
+
+// 문항에 텍스트를 추가 페이지 인스턴스 컬렉션
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// PDF 파일의 출력 경로를 지정
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// 문서를 지정된 경로로 저장
+doc.Save(dataDir); 
+
+//ExStep:4-
+// 프로세스가 완료되었다는 사용자에게 알리십시오
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

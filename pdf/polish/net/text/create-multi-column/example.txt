@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak tworzyć wielokolumnowy dokument PDF przy użyciu biblioteki Aspose.PDF. Ustawia marginesy, dodaje tekst z formatowaniem HTML i organizuje zawartość w kolumny.
+//ExStepSummary:0: Ten krok ustala katalog dokumentów, inicjuje nowy dokument PDF i konfiguruje jego marginesy stron.
+//ExStepSummary:1: W tym kroku do dokumentu dodaje się nową stronę i rysuje linię poziomą przy użyciu klas Graph i Line.
+//ExStepSummary:2: Ten krok tworzy fragment HTML z formatowanym tekstem i dodaje go do dokumentu PDF.
+//ExStepSummary:3: Ten krok tworzy FloatingBox dla układu dwukolumnowego i dodaje do niego informacje o autorze.
+//ExStepSummary:4: Ten krok rysuje kolejną poziomą linię wewnątrz FloatingBox dla oddzielenia wizualnego.
+//ExStepSummary:5: Ten krok dodaje długi fragment tekstu do FloatingBox, aby wykazać rozkład zawartości w wielu kolumnach.
+//ExStepSummary:6: Ten krok zapisuje dokument na określonej ścieżce wyjściowej i drukuje wiadomość o sukcesie.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Określenie ścieżki do katalogu dokumentów
+string dataDir = "Your Document Directory";
+// Utworzenie nowej instancji dokumentu
+Document doc = new Document(); 
+
+// Określ informacje o lewym marginesie pliku PDF
+doc.PageInfo.Margin.Left = 40; 
+// Określ prawy margines dla pliku PDF
+doc.PageInfo.Margin.Right = 40;
+// Dodać nową stronę do dokumentu
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Utworzenie nowego obiektu Graph do rysowania linii
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Dodać wiersz do odcinka zbiór przedmiotu sekcji
+page.Paragraphs.Add(graph1);
+
+// Określ współrzędne dla linii
+// Określ punkty początkowe i końcowe linii
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Tworzenie kształtu linii z określonymi współrzędnymi
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Dodaj kształt linii do wykresu
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Tworzenie zmiennych ciągów z tekstem zawierającym znaczniki html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Tworzenie fragmentu HtmlFragment dla tekstu nagłówka
+HtmlFragment heading_text = new HtmlFragment(s);
+// Dodaj tekst nagłówka do strony 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Utworzenie nowego pliku pływającego dla układu wielokolumnowego
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Ustawić liczbę kolumn na 2
+box.ColumnInfo.ColumnCount = 2; 
+// Ustawić odstęp między kolumnami
+box.ColumnInfo.ColumnSpacing = "5";
+// Ustawić szerokość dla każdej kolumny
+box.ColumnInfo.ColumnWidths = "105 105";
+// Tworzenie fragmentu tekstu dla informacji o autorze
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Ustawić rozmiar czcionki tekstu
+text1.TextState.FontSize = 8;
+// Ustawić odstęp między wierszami dla tekstu
+text1.TextState.LineSpacing = 2;
+// Dodać tekst autora do pływającego pola
+box.Paragraphs.Add(text1);
+// Aktualność rozmiaru czcionki tekstu
+text1.TextState.FontSize = 10;
+// Ustawić styl czcionki na kursywny
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Utworzenie innego obiektu Graph do rysowania drugiej linii
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Określ współrzędne dla linii
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Dodaj kształt drugiej linii do wykresu
+graph2.Shapes.Add(l2);
+
+// Dodać wiersz do odcinka zbiór przedmiotu sekcji
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Tworzenie długiego fragmentu tekstu do wyświetlania zawartości w kolumnach
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Dodaj długi tekst do pływającego pola
+box.Paragraphs.Add(text2); 
+// Dodaj pływające pole zawierające całą zawartość strony
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Określ ścieżkę pliku PDF
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Zapisz dokument na określonej ścieżce
+doc.Save(dataDir); 
+// Wiadomość o pomyślnym wydrukowaniu
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

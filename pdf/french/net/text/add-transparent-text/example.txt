@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document PDF qui comprend un rectangle et un fragment de texte avec des effets de texte transparents.`Ajouter du texte transparent.pdf`dans le répertoire spécifié.
+//ExStepSummary:0: Initializez le chemin du répertoire de documents et créez un nouveau document PDF avec une page.
+//ExStepSummary:1: Créez un objet Graph et un Rectangle avec une couleur de remplissage transparente, puis ajoutez-le à la page.
+//ExStepSummary:2: Créez un TextFragment avec un texte d'échantillon et définissez une couleur verte transparente avec une opacité de 30%.
+//ExStepSummary:3: Enregistrer le document sur le chemin de sortie spécifié.
+//ExStepSummary:4: Afficher un message de réussite avec le chemin du fichier.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+// Créer une instance de document
+Document doc = new Document(); 
+
+// Créer une collection de fichiers PDF de page à page
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Créer un objet Graph avec largeur et hauteur
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Créer une instance de rectangle avec des dimensions définies
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Créer un objet couleur à partir du canal couleur Alpha
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Ajouter un rectangle à la collection de formes de l'objet Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Ajouter un objet de graphique à des paragraphes collection de page objet
+page.Paragraphs.Add(canvas);
+
+// Définir la valeur pour ne pas changer de position pour l'objet graphique
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Créer une instance de TextFragment avec une valeur d'échantillon
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Créer un objet couleur à partir du canal Alpha
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Définir les informations de couleur pour l'instance de texte
+text.TextState.ForegroundColor = color;
+
+// Ajouter du texte aux paragraphes collection of page instance
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Spécifiez le chemin de sortie pour le fichier PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Enregistrer le document sur le chemin spécifié
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Informer l'utilisateur que le processus est terminé
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

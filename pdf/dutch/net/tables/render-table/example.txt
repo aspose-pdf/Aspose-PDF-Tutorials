@@ -1,50 +1,50 @@
 //ExStart
-//ExSummaryDeze code toont hoe een PDF-document met tabellen met behulp van Aspose.Pdf te maken. Het stelt marges, voegt twee tabellen aan verschillende pagina's toe en slaat het document op een bepaald pad.
-//ExStepSummary:0: Deze stap stelt de output directory voor het PDF-bestand in.
-//ExStepSummary:1: Deze stap initialiseert een nieuw Document object en haalt de PageInfo om pagina-instellingen te wijzigen.
-//ExStepSummary:2: Deze stap stelt de pagina marges en verandert de pagina-oriëntatie in landschapmodus.
-//ExStepSummary:3: Deze stap creëert een nieuw tabellenobject en definieert kolombreedte.
-//ExStepSummary:4: Deze stap voegt een nieuwe pagina toe aan het document en voegt een tabel met 120 rijen in, waarbij de rijhoogte wordt ingesteld en inhoud wordt toegevoegd aan elke cel.
-//ExStepSummary:5: Deze stap voegt de eerste tabel toe aan de paragraafverzameling van de huidige pagina.
-//ExStepSummary:6: Deze stap creëert een andere tabel met verschillende kolombreedten en voegt 10 rijen toe met gespecificeerde inhoud.
-//ExStepSummary:7: Deze stap geeft de tweede tabel weer op een nieuwe pagina en voegt deze toe aan het document.
-//ExStepSummary:8: Deze stap slaat het PDF-document op het gespecificeerde pad en geeft een succesbericht uit.
+//ExSummary: Deze code toont aan hoe u een PDF-document met tabellen maakt met Aspose.Pdf. Het stelt marges in, voegt twee tabellen aan op verschillende pagina's en slaat het document op een bepaald pad op.
+//ExStepSummary:0: Deze stap stelt de outputmap voor het PDF-bestand.
+//ExStepSummary:1: Deze stap initialiseert een nieuw Document-object en haalt de PageInfo op om de paginainstellingen te wijzigen.
+//ExStepSummary:2: Deze stap stelt de pagina marges en verandert de pagina oriëntatie naar landschap modus.
+//ExStepSummary:3: Deze stap creëert een nieuw tabelobject en bepaalt de kolombreedten.
+//ExStepSummary:4: Deze stap voegt een nieuwe pagina toe aan het document en voegt een tabel met 120 rijen in, waarbij een vaste rijhoogte wordt ingesteld en inhoud aan elke cel wordt toegevoegd.
+//ExStepSummary:5: Deze stap voegt de eerste tabel toe aan de alinea-collectie van de huidige pagina.
+//ExStepSummary:6: Deze stap creëert een andere tabel met verschillende kolombreedten en voegt 10 rijen met gespecificeerde inhoud toe.
+//ExStepSummary:7: Deze stap stelt de tweede tabel in op een nieuwe pagina en voegt deze toe aan het document.
+//ExStepSummary:8: Deze stap slaat het PDF-document op het gespecificeerde pad en geeft een succesmelding.
 //ExStepImage:5:images/2.png
 //ExStepImage:7:images/3.png
 //ExStep:0-
-// Geef het pad naar de documenten directory.
+// Specificeer het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Maak een nieuw Document object.
+// Maak een nieuw Document-object.
 Document doc = new Document();
 // Haal de PageInfo van het document.
 PageInfo pageInfo = doc.PageInfo;
-// Ga naar de marge-instellingen van de pagina.
+// Toegang tot de marge-instellingen van de pagina.
 Aspose.Pdf.MarginInfo marginInfo = pageInfo.Margin;
 
 //ExStep:2-
-// Stel de linker marge op 37 eenheden.
+// Zet de linker marge op 37 eenheden.
 marginInfo.Left = 37;
-// Stel de rechtermarge op 37 eenheden.
+// Zet de rechtermarge op 37 eenheden.
 marginInfo.Right = 37;
-// Stel de marge op 37 eenheden.
+// Zet de marge op 37 eenheden.
 marginInfo.Top = 37; 
-// Stel de bodemmarge op 37 eenheden.
+// Stel de ondermarge op 37 eenheden.
 marginInfo.Bottom = 37;
 // Stel de pagina-oriëntatie in op landschap.
 pageInfo.IsLandscape = true;
 
 //ExStep:3-
-// Maak een nieuw tafelobject.
+// Maak een nieuw tabelobject.
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// De breedte van de kolommen in de tabel te definiëren.
+// De breedten van de kolommen in de tabel worden gedefinieerd.
 table.ColumnWidths = "50 100";
 
 //ExStep:4-
 // Voeg een nieuwe pagina toe aan het document.
 Page curPage = doc.Pages.Add();
-// Loop om 120 rijen aan de eerste tafel toe te voegen.
+// Loop om 120 rijen toe te voegen aan de eerste tabel.
 for (int i = 1; i <= 120; i++)
 {
 	// Maak een nieuwe rij.
@@ -62,20 +62,20 @@ for (int i = 1; i <= 120; i++)
 }
 
 //ExStep:5-
-// Bezoek de collectie paragrafen van de huidige pagina.
+// Toegang tot de paragraafverzameling van de huidige pagina.
 Aspose.Pdf.Paragraphs paragraphs = curPage.Paragraphs; 
 // Voeg de eerste tabel toe aan de huidige pagina.
 paragraphs.Add(table); 
 
 //ExStep:6-
-// Maak een ander tafel object.
+// Maak een ander tabelobject.
 Aspose.Pdf.Table table1 = new Aspose.Pdf.Table();
-// De breedte van de kolommen in de tweede tabel.
+// De breedten van de kolommen in de tweede tabel worden gedefinieerd.
 table1.ColumnWidths = "100 100";
-// Loop om 10 rijen aan de tweede tabel toe te voegen. 
+// Loop om 10 rijen toe te voegen aan de tweede tabel. 
 for (int i = 1; i <= 10; i++) 
 {
-	// Maak een nieuwe rij voor tabel1.
+	// Een nieuwe rij voor tabel 1 maken.
     Aspose.Pdf.Row row = table1.Rows.Add(); 
 	// Maak de eerste cel in de rij.
     Aspose.Pdf.Cell cell1 = row.Cells.Add(); 
@@ -86,16 +86,16 @@ for (int i = 1; i <= 10; i++)
 	// Voeg een TextFragment toe aan de tweede cel.
     cell2.Paragraphs.Add(new TextFragment("LAAGGGGGG")); 
 }
-// Stel eigenschappen om de tweede tafel op een nieuwe pagina te plaatsen.
+// Stel eigenschap om de tweede tabel op een nieuwe pagina te plaatsen.
 table1.IsInNewPage = true; 
 // Stap 7:
 // Voeg de tweede tabel toe aan de paragrafen van de huidige pagina.
 paragraphs.Add(table1); 
-// Definieer het output-bestandpad.
+// De output-bestandspad definiëren.
 dataDir = dataDir + "IsNewPageProperty_Test_out.pdf"; 
 // Bewaar het document op het gespecificeerde pad.
 doc.Save(dataDir); 
-// ExStep:8-
-// Uitvoer succesbericht.
+// Stap 8:
+// Succes bericht.
 Console.WriteLine("\nTable render successfully on a page.\nFile saved at " + dataDir); 
 //ExEnd

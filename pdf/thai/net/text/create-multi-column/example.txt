@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF หลายคอลัมน์โดยใช้ห้องสมุด Aspose.PDF มันตั้งขอบ, เพิ่มข้อความด้วยการจัดรูป HTML, และจัดเนื้อหาเป็นคอลัมน์
+//ExStepSummary:0: ขั้นตอนนี้ตั้งรายการเอกสาร, เริ่มต้นเอกสาร PDF ใหม่, และตั้งค่าขอบหน้าของมัน
+//ExStepSummary:1: ขั้นตอนนี้เพิ่มหน้าใหม่ไปยังเอกสารและวาดเส้นแนวราบโดยใช้ชั้น Graph และ Line
+//ExStepSummary:2: ขั้นตอนนี้สร้าง HtmlFragment ด้วยข้อความที่มีรูปแบบและเพิ่มมันไปยังเอกสาร PDF
+//ExStepSummary:3: ขั้นตอนนี้สร้าง FloatingBox สําหรับการวางแผนสองคอลัมน์ และเพิ่มข้อมูลผู้เขียนไปยังมัน
+//ExStepSummary:4: ขั้นตอนนี้วาดเส้นแนวราบอีกเส้นหนึ่งภายใน FloatingBox เพื่อแยกภาพ
+//ExStepSummary:5: ขั้นตอนนี้เพิ่มส่วนความยาวไปยัง FloatingBox เพื่อแสดงการกระจายเนื้อหาในหลายคอลัมน์
+//ExStepSummary:6: ขั้นตอนนี้จะบันทึกเอกสารไปยังเส้นทางผลิตที่กําหนด และพิมพ์ข้อความสําเร็จ
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// กําหนดเส้นทางไปยัง แผนการเอกสาร
+string dataDir = "Your Document Directory";
+// สร้างตัวอย่างเอกสารใหม่
+Document doc = new Document(); 
+
+// กําหนดข้อมูลขอบซ้ายของไฟล์ PDF
+doc.PageInfo.Margin.Left = 40; 
+// กําหนดข้อมูลขอบขวาสําหรับไฟล์ PDF
+doc.PageInfo.Margin.Right = 40;
+// เพิ่มหน้าใหม่ไปยังเอกสาร
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// สร้างวัตถุ Graph ใหม่สําหรับการวาดเส้น
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// เพิ่มแถวไปยังข้อความ collection ของสิ่งของส่วน
+page.Paragraphs.Add(graph1);
+
+// กําหนดพิกัดสําหรับเส้น
+// กําหนดจุดเริ่มต้นและจุดจบของเส้น
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// สร้างรูปร่างเส้นที่มีพิกัดที่กําหนด
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// เพิ่มรูปเส้นไปในกราฟ
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// สร้างตัวแปรเชิงดวงด้วยข้อความที่มีแท็ก html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// สร้าง HtmlFragment สําหรับข้อความหัวข้อ
+HtmlFragment heading_text = new HtmlFragment(s);
+// เพิ่มข้อความหัวหน้าไปยังหน้า 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// สร้าง FloatingBox ใหม่สําหรับการจัดวางหลายคอลัมน์
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// กําหนดจํานวนคอลัมน์เป็น 2
+box.ColumnInfo.ColumnCount = 2; 
+// กําหนดระยะระหว่างคอลัมน์
+box.ColumnInfo.ColumnSpacing = "5";
+// กําหนดความกว้างสําหรับแต่ละคอลัมน์
+box.ColumnInfo.ColumnWidths = "105 105";
+// สร้างชิ้นส่วนข้อความสําหรับข้อมูลผู้เขียน
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// กําหนดขนาดตัวอักษรสําหรับข้อความ
+text1.TextState.FontSize = 8;
+// กําหนดระยะระหว่างเส้นสําหรับข้อความ
+text1.TextState.LineSpacing = 2;
+// เพิ่มข้อความผู้เขียนไปยังกล่องลอย
+box.Paragraphs.Add(text1);
+// อัพเดทขนาดตัวอักษรสําหรับข้อความ
+text1.TextState.FontSize = 10;
+// กําหนดสไตล์ตัวอักษรเป็น Italic
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// สร้างวัตถุ Graph อีกตัวหนึ่งเพื่อวาดเส้นที่สอง
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// กําหนดพิกัดสําหรับเส้น
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// เพิ่มรูปเส้นที่สองไปในกราฟ
+graph2.Shapes.Add(l2);
+
+// เพิ่มแถวไปยังข้อความ collection ของสิ่งของส่วน
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// สร้างชิ้นส่วนข้อความยาวเพื่อแสดงเนื้อหาในคอลัมน์
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// เพิ่มข้อความยาวไปยังกล่องลอย
+box.Paragraphs.Add(text2); 
+// เพิ่มกรอบพุ่งที่มีเนื้อหาทั้งหมดไปยังหน้า
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// กําหนดเส้นทางของไฟล์ PDF ออก
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// เก็บเอกสารไว้ในเส้นทางที่กําหนด
+doc.Save(dataDir); 
+// ข่าวความสําเร็จในการพิมพ์
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

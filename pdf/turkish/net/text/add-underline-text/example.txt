@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Bu kod, bir PDF belgesini nasıl oluşturacağınızı ve alt çizilmiş biçimlendirme ile bir metin fragmanı ekleyeceğinizi gösterir. Belgeyi oluşturmak, metin eklemek ve dosyayı kaydetmek için adımları içerir.
+//ExStepSummary:0: PDF belgesinin kaydedileceği dizini tanımlayın.
+//ExStepSummary:1: Yeni bir PDF belgesini başlat ve ona bir sayfa ekle.
+//ExStepSummary:2: Belgenin ilk sayfası için bir TextBuilder nesnesi oluşturun.
+//ExStepSummary:3: Test mesajıyla bir TextFragment oluşturun, yazı tipini Arial olarak ayarlayın, boyutu 10'a kadar ve alt çizgi biçimlendirmeyi etkinleştirin.
+//ExStepSummary:4: PDF'deki TextFragment'in konumunu belirtin ve TextBuilder'a ekleyin.
+//ExStepSummary:5: Çıktı dosyasının yolunu belirleyin ve PDF belgesini kaydetin.
+//ExStepSummary:6: Alt çizilmiş metnin eklendiğini gösteren ve dosyanın yerini gösteren bir başarı mesajı çıkar.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Belgenin kaydedileceği dizini tanımla.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir PDF belgesini başlat.
+Document pdfDocument = new Document();
+// Belgeye yeni bir sayfa ekleyin.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// İlk sayfa için bir TextBuilder oluşturun.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Belirtilen metin ile bir TextFragment oluşturun.
+TextFragment fragment = new TextFragment("Test message");
+// Yazı tipini Arial'e ayarla.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Yazı tipi boyutunu 10'a ayarlayın.
+fragment.TextState.FontSize = 10;
+// Metin için alt çizgi biçimlendirmeyi etkinleştir.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// PDF'deki TextFragment'in konumunu belirtin.
+fragment.Position = new Position(10, 800);
+// TextFragment'i TextBuilder'a ekleyin.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// PDF için çıkış dosya yolunu tanımla.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Belgeyi belirtilen yolla kaydet.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Başarılı çıkış mesajı.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

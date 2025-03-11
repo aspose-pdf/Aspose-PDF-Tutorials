@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: Mã này cho thấy cách tạo tài liệu PDF bằng cách sử dụng Aspose.PDF bằng cách vẽ hai đường chọc trên trang. Nó khởi tạo tài liệu, thêm một trang, và vẽ các đường từ góc đến góc trước khi lưu tài liệu.
-//ExStepSummary:0: Tạo ra con đường cho thư mục tài liệu nơi PDF sẽ được lưu.
-//ExStepSummary:1: Tạo một bản sao mới cho PDF.
-//ExStepSummary:2: Thêm một trang vào bộ sưu tập các trang của tài liệu.
-//ExStepSummary:3: Đặt biên trang cho 0 cho tất cả các bên.
-//ExStepSummary:4: Tạo một đối tượng đồ thị để đại diện cho khu vực vẽ với kích thước bằng kích thước trang.
-//ExStepSummary:5: Tạo đối tượng hàng đầu từ góc dưới bên trái đến góc trên bên phải của trang.
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF bằng cách sử dụng Aspose.PDF bằng cách vẽ hai đường chéo trên trang. Nó khởi tạo tài liệu, thêm một trang và vẽ các đường từ góc này sang góc khác trước khi lưu tài liệu.
+//ExStepSummary:0: Bắt đầu đường dẫn cho thư mục tài liệu nơi PDF sẽ được lưu.
+//ExStepSummary:1: Tạo một ví dụ tài liệu mới cho PDF.
+//ExStepSummary:2: Thêm một trang vào bộ sưu tập trang của tài liệu.
+//ExStepSummary:3: Đặt biên trang bằng không cho tất cả các bên.
+//ExStepSummary:4: Tạo một đối tượng Graph để đại diện cho khu vực vẽ với kích thước bằng kích thước trang.
+//ExStepSummary:5: Tạo đối tượng dòng đầu tiên từ góc dưới bên trái đến góc trên bên phải của trang.
 //ExStepSummary:6: Thêm dòng đầu tiên vào bộ sưu tập hình dạng của đối tượng Graph.
-//ExStepSummary:7: Tạo đối tượng dòng thứ hai từ góc trên trái sang góc dưới phải của trang.
+//ExStepSummary:7: Tạo đối tượng dòng thứ hai từ góc trên bên trái đến góc dưới bên phải của trang.
 //ExStepSummary:8: Thêm dòng thứ hai vào bộ sưu tập hình dạng của đối tượng Graph.
 //ExStepSummary:9: Thêm đối tượng Graph chứa các dòng vào bộ sưu tập đoạn của trang.
-//ExStepSummary:10: Xây dựng toàn bộ con đường để lưu tệp PDF đầu ra.
-//ExStepSummary:11: Cung cấp tài liệu PDF cho con đường được chỉ định.
+//ExStepSummary:10: Xây dựng đường dẫn đầy đủ để lưu tập tin PDF đầu ra.
+//ExStepSummary:11: Lưu tài liệu PDF vào đường dẫn đã chỉ định.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Tạo ra đường dẫn cho thư mục tài liệu
+// Bắt đầu đường dẫn cho thư mục tài liệu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -23,7 +23,7 @@ string dataDir = "Your Document Directory";
 Document pDoc = new Document();
 
 //ExStep:2-
-// Thêm trang vào các trang tập hợp tài liệu PDF
+// Thêm trang vào các trang bộ sưu tập tài liệu PDF
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
@@ -32,7 +32,7 @@ pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Tạo đối tượng Graph với chiều rộng và chiều cao bằng chiều kích trang
+// Tạo đối tượng Graph với Width và Height bằng kích thước trang
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
@@ -43,23 +43,23 @@ Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Hình vẽ đường từ góc trên bên trái của trang đến góc dưới bên phải của trang
+// Kéo đường từ góc trên trái của trang đến góc dưới bên phải của trang
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Thêm dòng thứ hai vào hình dạng tập hợp đối tượng Graph
+// Thêm dòng thứ hai vào tập hợp hình dạng của đối tượng Graph
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Thêm đối tượng Graph vào mục tập hợp trang
+// Thêm đối tượng Graph vào đoạn tập của trang
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Xây dựng toàn bộ con đường để lưu tệp PDF đầu ra
+// Xây dựng đường dẫn đầy đủ để lưu tập tin PDF đầu ra
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
-// Cung cấp tập tin PDF
+// Lưu tập tin PDF
 pDoc.Save(dataDir);
 // Thông báo xác nhận đầu ra
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 

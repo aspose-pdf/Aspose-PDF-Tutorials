@@ -1,8 +1,8 @@
 ---
-title: Přidejte tabulku k existujícímu PDF pomocí Aspose.PDF pro .NET
+title: Přidat tabulku do existujícího PDF pomocí Aspose.PDF pro .NET
 weight: 7700
 limit: 
-description: Naučte se přidat tabulku k existujícímu PDF pomocí Aspose.PDF pro .NET. Študení krok za krokem s příkladem kódu, pokyny pro instalaci a užitečnými odkazy. 
+description: Naučte se, jak přidat tabulku do existujícího PDF pomocí Aspose.PDF pro .NET. Krok za krokem s příkladem kódu, návodem k instalaci a užitečnými odkazy. 
 keywords: [Aspose.PDF for .NET, add table to PDF, create table in PDF, modify PDF, .NET PDF library, edit PDF document, insert table, C# PDF manipulation]
 url: /cs/net/tables/add-table/
 ---
@@ -10,9 +10,9 @@ url: /cs/net/tables/add-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte tabulku k existujícímu PDF pomocí Aspose.PDF
+# Přidat tabulku do existujícího PDF pomocí Aspose.PDF
 
-Přidání tabulky k existujícímu PDF dokumentu je běžnou podmínkou pro vytváření zpráv, faktur nebo strukturovaných prezentací dat. Pomocí Aspose.PDF pro .NET můžete snadno vytvořit a vložit tabulku do PDF dokumentu při přizpůsobení jeho vzhled a strukturu.
+Přidání tabulky do existujícího dokumentu PDF je běžným požadavkem pro vytváření zpráv, faktur nebo strukturovaných prezentací dat. Pomocí Aspose.PDF pro .NET můžete snadno vytvořit a vložit tabulku do dokumentu PDF a zároveň přizpůsobit jeho vzhled a strukturu.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
@@ -21,23 +21,23 @@ Přidání tabulky k existujícímu PDF dokumentu je běžnou podmínkou pro vyt
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instalace  
 
-Chcete-li použít Aspose.PDF pro .NET, postupujte podle těchto kroků:  
+Chcete-li použít Aspose.PDF pro .NET, postupujte následujícím způsobem:  
 
-1. Stáhněte a instalujte Aspose.PDF pro .NET  
-   * Snížení z [Aspose.PDF pro stahování .NET](https://releases.aspose.com/pdf/net/)  
-   * Instalace prostřednictvím NuGet:  
+1. Stáhněte a nainstalujte Aspose.PDF pro .NET  
+   * Stáhnout z[Aspose.PDF pro .NET stahování](https://releases.aspose.com/pdf/net/)  
+   * Instalace přes NuGet:  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Žádost o licenci (nezveřejněná)  
-   * Nákup: [Aspose.PDF Kupte](https://purchase.aspose.com/buy)  
-   * Způsobné zprovozování: [Aspose.PDF bezplatné zkoušení](https://releases.aspose.com/)  
-   * Dočasná licence: [Aspose.PDF dočasná licence](https://purchase.aspose.com/temporary-license/)  
+2. Žádost o licenci (nepovinné)  
+   * Nákup:[Aspose.PDF Koupit](https://purchase.aspose.com/buy)  
+   * Zkouška zdarma:[Aspose.PDF Bezplatná zkušební verze](https://releases.aspose.com/)  
+   * Dočasná licence:[Aspose.PDF Dočasná licence](https://purchase.aspose.com/temporary-license/)  
 
-3. Odkazuje na dokumentaci  
-   * [Aspose.PDF pro dokumentaci .NET](https://docs.aspose.com/pdf/net/)  
-   * [Odkaz API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+3. Odkaz na dokumentaci  
+   * [Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)  
+   * [Reference API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

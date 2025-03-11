@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit einer Tabelle erstellt, die auf beiden Seiten doppelte Grenzen hat. 
+//ExStepSummary:0: Ein Dokumentobjekt installieren und eine Seite hinzufügen.
+//ExStepSummary:1: Erstellen Sie ein BorderInfo-Objekt, um die Grenzeigenschaften für die Tabellenzellen zu definieren.
+//ExStepSummary:2: Ein Table-Objekt installieren und die Spaltenbreiten angeben.
+//ExStepSummary:3: Fügen Sie der Tabelle eine Zeile hinzu und fügen Sie eine Zelle mit Text ein.
+//ExStepSummary:4: Die doppelte Grenze für die Zelle mit dem Objekt BorderInfo festlegen.
+//ExStepSummary:5: Fügen Sie die Tabelle zur Paragraphen-Sammlung der Seite hinzu und speichern Sie das Dokument auf einen angegebenen Dateipfad.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Definieren Sie den Pfad zum Dokumentenverzeichnis.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Das Dokumentobjekt instanzieren.
+Document doc = new Document();
+// Fügen Sie dem PDF-Dokument eine Seite hinzu. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Erstellen Sie ein BorderInfo-Objekt.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Geben Sie an, dass die obere Grenze doppelt sein wird
+border.Top.IsDoubled = true; 
+// Geben Sie an, dass die untere Grenze doppelt sein wird
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Das Objekt "Table" instanzieren.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Angabe der Spaltenbreite
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Erstellen Sie ein Row-Objekt für den Tisch.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Eine Tabelle-Zelle zu einer Zeilenzellkollektion hinzufügen
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Die zuvor definierten Grenzeinstellungen werden angewendet.
+cell.Border = border;
+
+//ExStep:5-
+// Die Tabelle wird der Absätze-Sammlung der Seite hinzugefügt.
+page.Paragraphs.Add(table);
+// Geben Sie den Pfad der Ausgabedatei an.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Das PDF-Dokument speichern
+doc.Save(dataDir);
+// Erfolgmeldung mit Dateiweg drucken.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

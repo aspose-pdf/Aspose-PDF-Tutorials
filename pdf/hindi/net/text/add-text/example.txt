@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: यह कोड Aspose.PDF का उपयोग करके किसी मौजूदा PDF दस्तावेज़ में पाठ अंश कैसे जोड़ें, यह दर्शाता है। यह एक PDF खोलता है, विशिष्ट गुणों के साथ एक पाठ अंश बनाता है, और संशोधित दस्तावेज़ को सहेजता है।
+//ExStepSummary:0: यह चरण दस्तावेज़ निर्देशिका का पथ सेट करता है जहां इनपुट पीडीएफ स्थित है.
+//ExStepSummary:1: यह चरण संपादन के लिए निर्दिष्ट पीडीएफ दस्तावेज़ खोलता है.
+//ExStepSummary:2: यह चरण पीडीएफ दस्तावेज़ से एक विशिष्ट पृष्ठ प्राप्त करता है.
+//ExStepSummary:3: यह चरण पृष्ठ पर निर्दिष्ट सामग्री और स्थिति के साथ एक पाठ खंड बनाता है।
+//ExStepSummary:4: यह चरण पाठ अंश के लिए विभिन्न गुणों को सेट करता है, जिसमें फ़ॉन्ट आकार, फ़ॉन्ट प्रकार, पृष्ठभूमि रंग और अग्रभूमि रंग शामिल हैं.
+//ExStepSummary:5: यह चरण एक TextBuilder ऑब्जेक्ट बनाता है ताकि पीडीएफ पृष्ठ में पाठ अंश जोड़ने में आसानी हो सके.
+//ExStepSummary:6: यह चरण पीडीएफ पृष्ठ में पाठ अंश जोड़ता है।
+//ExStepSummary:7: यह चरण संशोधित पीडीएफ दस्तावेज़ के लिए आउटपुट फ़ाइल पथ सेट करता है.
+//ExStepSummary:8: यह चरण संशोधित पीडीएफ दस्तावेज़ को निर्दिष्ट आउटपुट पथ पर सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// दस्तावेज़ों के लिए निर्देशिका पथ सेट करें
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// निर्दिष्ट PDF दस्तावेज़ खोलें
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// पीडीएफ दस्तावेज़ का दूसरा पृष्ठ प्राप्त करें
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// निर्दिष्ट सामग्री के साथ एक नया पाठ खंड बनाएँ
+TextFragment textFragment = new TextFragment("main text");
+// पृष्ठ पर पाठ अंश की स्थिति सेट करें
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// पाठ अंश का फ़ॉन्ट आकार सेट करें
+textFragment.TextState.FontSize = 12;
+// फ़ॉन्ट प्रकार सेट करें
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// पृष्ठभूमि रंग सेट करें
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// पाठ रंग सेट करें
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// पृष्ठ के लिए एक TextBuilder ऑब्जेक्ट बनाएँ
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// पाठ अंश को पीडीएफ पृष्ठ में संलग्न करें
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// संशोधित PDF दस्तावेज़ के लिए आउटपुट फ़ाइल पथ सेट करें
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// संशोधित पीडीएफ दस्तावेज़ को निर्दिष्ट आउटपुट पथ पर सहेजें
+pdfDocument.Save(dataDir);
+// आउटपुट सफलता संदेश
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

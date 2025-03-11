@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Denna kod visar hur man skapar ett PDF-dokument med en tabell som har dubbla gränser på både övre och nedre sidan. 
+//ExStepSummary:0: Instansera ett objekt som heter Document och lägg till en sida.
+//ExStepSummary:1: Skapa ett BorderInfo-objekt för att definiera gränsen för tabellcellerna.
+//ExStepSummary:2: Instansera ett objekt Table och ange kolumnbreddarna.
+//ExStepSummary:3: Lägg till en rad i tabellen och infoga en cell som innehåller text.
+//ExStepSummary:4: Ange den dubbla gränsen för cellen med hjälp av objektet BorderInfo.
+//ExStepSummary:5: Lägg till tabellen i sidans avsnittsamling och spara dokumentet till en angiven filväg.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Bestäm vägen till dokumentkatalogen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instansera dokumentobjektet.
+Document doc = new Document();
+// Lägg till en sida i PDF-dokumentet. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Skapa ett BorderInfo-objekt.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Ange att den övre kanten ska vara dubbel
+border.Top.IsDoubled = true; 
+// Ange att den nedre kanten ska vara dubbel
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Instansera tabellobjektet.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Ange information om kolumnbredd
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Skapa ett objekt Rikt för bordet.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Lägg till en tabell till raden
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Använd de gränsinställningar som definierades tidigare.
+cell.Border = border;
+
+//ExStep:5-
+// Lägg till tabellen i sidans avsnitt.
+page.Paragraphs.Add(table);
+// Ange utgångsfilens väg.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Spara PDF-dokumentet
+doc.Save(dataDir);
+// Skriv ut ett meddelande med filväg.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

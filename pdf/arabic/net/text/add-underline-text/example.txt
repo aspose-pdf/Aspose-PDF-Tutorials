@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF وإضافة جزء نصي بتنسيق تحتية. ويشمل الخطوات لإنشاء المستند وإضافة النص وحفظ الملف.
+//ExStepSummary:0: حدد المجلد الذي سيتم فيه حفظ مستند PDF.
+//ExStepSummary:1: بدء مستند PDF جديد وإضافة صفحة إليه.
+//ExStepSummary:2: إنشاء كائن TextBuilder للصفحة الأولى من المستند.
+//ExStepSummary:3: قم بإنشاء TextFragment مع رسالة الاختبار، حدد خطها إلى Arial، وحجمها إلى 10، وتمكين تنسيق الخطوط الفرعية.
+//ExStepSummary:4: حدد موقع TextFragment في PDF وملحقها إلى TextBuilder.
+//ExStepSummary:5: حدد مسار الملفات الخارجة وحفظ مستند PDF.
+//ExStepSummary:6: إصدار رسالة نجاح تشير إلى إضافة النص المُوضّح وتوضيح موقع الملف.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// حدد الدليل الذي سيتم حفظ الوثيقة فيه.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// بدء مستند PDF جديد
+Document pdfDocument = new Document();
+// أضف صفحة جديدة إلى الوثيقة
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// إنشاء TextBuilder للصفحة الأولى.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// إنشاء TextFragment مع النص المحدد.
+TextFragment fragment = new TextFragment("Test message");
+// ضع الخط على "أريال".
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// ضع حجم الخط على 10
+fragment.TextState.FontSize = 10;
+// تمكين تنسيق الترقيم للنص
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// تحديد موقع TextFragment في PDF.
+fragment.Position = new Position(10, 800);
+// إرفاق TextFragment إلى TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// حدد مسار الملفات الخارجة لـ PDF
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// حفظ المستند إلى المسار المحدد
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// رسالة النجاح
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

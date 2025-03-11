@@ -1,16 +1,16 @@
 //ExStart
-//ExSummaryЭтот код показывает, как создать PDF-документ с графикой, содержащей прямоугольник, заполненный прозрачным цветом.
+//ExSummary: Этот код показывает, как создать PDF-документ с графиком, содержащим прямоугольник, заполненный прозрачным цветом. Он проходит через процесс настройки цветовых свойств, добавления страниц и рисования форм в документе.
 //ExStepSummary:0: Следующий код инициирует каталог данных для сохранения файла PDF.
-//ExStepSummary:1: Следующий код устанавливает цвет Alpha RGB, который должен быть использован для заполнения прямоугольника.
-//ExStepSummary:2: Следующий код создает новый объект Документа для PDF.
-//ExStepSummary:3: Следующий код добавляет страницу к PDF-документу.
-//ExStepSummary:4: Следующий код создает объект Графа для рисования форм в PDF.
-//ExStepSummary:5: Следующий код устанавливает границу для объекта графики.
-//ExStepSummary:6: Следующий код добавляет объект графика в сборник абзацев страницы.
-//ExStepSummary:7: Следующий код создает форму прямоугольника, которую можно нарисовать на графике.
-//ExStepSummary:8: Следующий код устанавливает цветовую информацию для графической информации прямоугольника.
+//ExStepSummary:1: Следующий код устанавливает цвет Альфа RGB, который будет использоваться для заполнения прямоугольника.
+//ExStepSummary:2: Следующий код создает новый объект Document для PDF.
+//ExStepSummary:3: Следующий код добавляет страницу в документ PDF.
+//ExStepSummary:4: Следующий код создает объект Graph для рисования форм в PDF.
+//ExStepSummary:5: Следующий код устанавливает границу для объекта графа.
+//ExStepSummary:6: Следующий код добавляет объект графа в коллекцию абзацев страницы.
+//ExStepSummary:7: Следующий код создает прямоугольную форму, которую нужно нарисовать на графике.
+//ExStepSummary:8: Следующий код устанавливает информацию о цвете для информации о графике прямоугольника.
 //ExStepSummary:9: Следующий код добавляет форму прямоугольника в коллекцию форм графика.
-//ExStepSummary:10: Следующий код сохраняет документ на указанном пути выходной файла.
+//ExStepSummary:10: Следующий код сохраняет документ на указанном пути выходного файла.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
@@ -19,17 +19,17 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Значение алфа-канала для прозрачности
+// Значение альфа-канала для прозрачности
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// Создать объект цвета с использованием Альфа RGB
+// Создать цветный объект с помощью Альфа RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Инстанциальный объект Документа
+// Инстанциализировать объект документа
 Document document = new Document();
 
 //ExStep:3-
@@ -37,35 +37,35 @@ Document document = new Document();
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Создать объект Графа с конкретными размерами
+// Создать объект Graph с определенными габаритами
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Установка границы для объекта Графа
+// Установка границы для объекта Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Добавить объект графики на страницу
+// Добавить объект графа на страницу
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Создать объекты прямоугольника с конкретными размерами
+// Создать объект прямоугольник с определенными размерами
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
 // Создать объект graphInfo для прямоугольника
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Настройка цветной информации для примера GraphInfo
+// Установка цветовой информации для экземпляра GraphInfo
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Добавьте форму прямоугольника к графику
+// Добавить форму прямоугольника в график
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Назначить путь выхода файла для сохранения документа
+// Установка пути выходного файла для сохранения документа
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 

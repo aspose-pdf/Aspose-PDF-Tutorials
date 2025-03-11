@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe je een tekstfragment aan een bestaand PDF-document toevoegt met behulp van Aspose.PDF. Het opent een PDF, maakt een tekstfragment met specifieke eigenschappen en slaat het gewijzigde document op.
+//ExStepSummary:0: Deze stap stelt het pad naar de documentenmap waar de ingevulde PDF zich bevindt.
+//ExStepSummary:1: Deze stap opent het gespecificeerde PDF-document voor bewerking.
+//ExStepSummary:2: Deze stap haalt een specifieke pagina op uit het PDF-document.
+//ExStepSummary:3: Deze stap creëert een tekstfragment met een bepaalde inhoud en positie op de pagina.
+//ExStepSummary:4: Deze stap stelt verschillende eigenschappen voor het tekstfragment in, waaronder lettergrootte, lettertype, achtergrondkleur en voorgrondkleur.
+//ExStepSummary:5: Deze stap creëert een TextBuilder-object om het toevoegen van het tekstfragment aan de PDF-pagina te vergemakkelijken.
+//ExStepSummary:6: Deze stap voegt het tekstfragment aan de PDF-pagina toe.
+//ExStepSummary:7: Deze stap stelt het pad van het bestand voor het gewijzigde PDF-document vast.
+//ExStepSummary:8: Deze stap slaat het gewijzigde PDF-document op het gespecificeerde outputpad.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Het adresboekpad voor de documenten instellen
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Open het gespecificeerde PDF-document
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Het tweede blad van het PDF-document ophalen
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Een nieuw tekstfragment met de opgegeven inhoud maken
+TextFragment textFragment = new TextFragment("main text");
+// Stel de positie van het tekstfragment op de pagina in
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Stel de lettergrootte van het tekstfragment in
+textFragment.TextState.FontSize = 12;
+// Het lettertype instellen
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Achtergrondkleur instellen
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Instel van tekstkleur
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Een TextBuilder-object maken voor de pagina
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Voeg het tekstfragment aan de PDF-pagina toe
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Stel het pad van het uitvoerbestand in voor het gewijzigde PDF-document
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Bewaar het gewijzigde PDF-document op het opgegeven outputpad
+pdfDocument.Save(dataDir);
+// Succesmelding voor output
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

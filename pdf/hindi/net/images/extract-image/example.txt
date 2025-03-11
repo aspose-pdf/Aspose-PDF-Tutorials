@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि PDF दस्तावेज़ से एक छवि कैसे निकाली जाए और इसे JPEG फ़ाइल के रूप में सहेजा जाए जबकि अद्यतन PDF को भी सहेजा जाए।
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ निर्देशिका के पथ को आरंभ करता है.
+//ExStepSummary:1: निम्न कोड उस पीडीएफ दस्तावेज़ को खोलता है जिससे चित्र निकाले जाएंगे।
+//ExStepSummary:2: निम्न कोड पीडीएफ दस्तावेज़ से एक विशिष्ट छवि निकालता है।
+//ExStepSummary:3: निम्नलिखित कोड निकाली गई छवि को निर्दिष्ट आउटपुट फ़ाइल में सहेजता है.
+//ExStepSummary:4: निम्न कोड मूल पीडीएफ फ़ाइल को अद्यतन करता है और इसे एक नए पथ पर सहेजता है.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// पीडीएफ फ़ाइल युक्त निर्देशिका निर्दिष्ट करता है
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// छवि निकालने के लिए पीडीएफ दस्तावेज़ खोलें
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// पीडीएफ के दूसरे पृष्ठ से पहली छवि निकालता है
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// निकाली गई छवि को सहेजने के लिए एक धारा बनाता है
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// आउटपुट छवि सहेजें
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// संसाधनों को रिलीज़ करने के लिए फ़ाइल स्ट्रीम को बंद करता है
+outputImage.Close();
+
+//ExStep:4-
+// पीडीएफ के नए संस्करण के लिए पथ अद्यतन करता है
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// अद्यतन पीडीएफ फ़ाइल सहेजें
+pdfDocument.Save(dataDir);
+// फ़ाइलों के सफल निष्कर्षण और सहेजने की पुष्टि करता है
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

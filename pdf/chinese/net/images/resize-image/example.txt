@@ -1,14 +1,14 @@
 //ExStart
-//ExSummary: 这代码展示了如何通过压缩和改大图像来优化PDF文档.
-//ExStepSummary:0: 下面的代码初始化了当前时间,并设置了文件目录路径.
-//ExStepSummary:1: 下面的代码打开指定的PDF文件进行处理.
-//ExStepSummary:2: 下面的代码初始化了PDF优化选项.
-//ExStepSummary:3: 下面的代码配置了图像压缩设置,包括压缩和质量.
-//ExStepSummary:4: 下面的代码将优化选项用于PDF文件.
-//ExStepSummary:5: 下面的代码将优化的PDF文件存储在新的文件中.
+//ExSummary: 这个代码展示了如何通过压缩和改变其内图像来优化PDF文档.
+//ExStepSummary:0: 下面的代码初始化当前时间,并设置文件目录路径.
+//ExStepSummary:1: 下面的代码打开指定PDF文件进行处理.
+//ExStepSummary:2: 下面的代码初始化了PDF的优化选项.
+//ExStepSummary:3: 下面的代码配置图像压缩设置,包括压缩和质量.
+//ExStepSummary:4: 下面的代码将优化选项应用到PDF文档中.
+//ExStepSummary:5: 下面的代码将优化PDF文件保存到一个新的文件中.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// 开始时间
+// 启动时间
 var time = DateTime.Now.Ticks;
 // 文件目录的路径.
 string dataDir = "Your Document Directory";
@@ -26,9 +26,9 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 // 设置图像质量选项 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// 设置重大图片选项
+// 设置ResizeImage选项
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// 设置 MaxResolution 选项
+// 设置最大解析度选项
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
@@ -38,7 +38,7 @@ pdfDocument.OptimizeResources(optimizeOptions);
 //ExStep:5-
 // 更新输出文件的数据目录
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// 保存更新的文件
+// 保存更新的文档
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-

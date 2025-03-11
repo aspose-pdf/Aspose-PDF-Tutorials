@@ -10,9 +10,9 @@ url: /pt/net/tables/add-table/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adicionar Tabela a um PDF existente usando Aspose.PDF
+# Adicionar uma tabela a um PDF existente usando Aspose.PDF
 
-Adicionar uma tabela a um documento PDF existente é um requisito comum para gerar relatórios, faturas ou apresentações de dados estruturados. Com Aspose.PDF para .NET, você pode facilmente criar e inserir uma tabela em um documento PDF enquanto personaliza sua aparência e estrutura.
+Adicionar uma tabela a um documento PDF existente é um requisito comum para gerar relatórios, faturas ou apresentações de dados estruturados.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/add-table" >}}
@@ -23,21 +23,21 @@ Adicionar uma tabela a um documento PDF existente é um requisito comum para ger
 
 Para usar Aspose.PDF para .NET, siga estes passos:  
 
-1. Descarregar e instalar Aspose.PDF para .NET  
-   * Descarregar de [Aspose.PDF para Downloads .NET](https://releases.aspose.com/pdf/net/)  
-   * Instalação através do NuGet:  
+1. Baixe e instale Aspose.PDF para .NET  
+   * Baixe aqui[Aspose.PDF para .NET Downloads](https://releases.aspose.com/pdf/net/)  
+   * Instalar através do NuGet:  
      ```sh
      Install-Package Aspose.PDF
      ```  
 
-2. Licença de inscrição (opcional)  
-   * Compra: [Aspose.PDF Comprar](https://purchase.aspose.com/buy)  
-   * Prova Gratuita: [Aspose.PDF Prova Gratuita](https://releases.aspose.com/)  
-   * Licença temporária: [Licença temporária Aspose.PDF](https://purchase.aspose.com/temporary-license/)  
+2. Licença de aplicação (facultativo)  
+   * Compra:[Aspose.PDF Compre](https://purchase.aspose.com/buy)  
+   * Prova gratuita:[Aspose.PDF Prova gratuita](https://releases.aspose.com/)  
+   * Licença temporária:[Licença temporária Aspose.PDF](https://purchase.aspose.com/temporary-license/)  
 
-3. Referir-se à documentação  
-   * [Aspose.PDF para Documentação .NET](https://docs.aspose.com/pdf/net/)  
-   * [Referência de API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
+3. Ver documentação  
+   * [Aspose.PDF para documentação .NET](https://docs.aspose.com/pdf/net/)  
+   * [Referência API Aspose.PDF](https://reference.aspose.com/pdf/net/)  
  
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

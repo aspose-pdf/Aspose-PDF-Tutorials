@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक विशिष्ट स्टाइल और सीमा वाले पाठ खंड के साथ एक पीडीएफ दस्तावेज़ कैसे बनाया जाए।
+//ExStepSummary:0: निम्न कोड पीडीएफ दस्तावेज़ को सहेजने के लिए पथ को आरंभ करता है.
+//ExStepSummary:1: निम्न कोड एक नई पीडीएफ दस्तावेज़ वस्तु बनाता है.
+//ExStepSummary:2: निम्न कोड पीडीएफ दस्तावेज़ में एक नया पृष्ठ जोड़ता है।
+//ExStepSummary:3: निम्नलिखित कोड निर्दिष्ट सामग्री और स्थिति के साथ एक पाठ खंड बनाता है।
+//ExStepSummary:4: निम्नलिखित कोड फ़ॉन्ट आकार और रंग सहित पाठ अंश के गुणों को सेट करता है.
+//ExStepSummary:5: निम्नलिखित कोड पाठ आयत के चारों ओर एक सीमा खींचने की अनुमति देता है।
+//ExStepSummary:6: निम्न कोड TextBuilder का उपयोग करके पाठ अंश को PDF पृष्ठ में संलग्न करता है.
+//ExStepSummary:7: निम्न कोड पीडीएफ दस्तावेज़ को निर्दिष्ट निर्देशिका में सहेजता है.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// दस्तावेज़ को सहेजने के लिए पथ आरंभ करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// नया पीडीएफ दस्तावेज़ ऑब्जेक्ट बनाएँ
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// PDF दस्तावेज़ में नया पृष्ठ जोड़ें
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// निर्दिष्ट सामग्री के साथ एक पाठ खंड बनाएँ
+TextFragment textFragment = new TextFragment("main text");
+// पाठ अंश की स्थिति सेट करें
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// पाठ का फ़ॉन्ट आकार सेट करें
+textFragment.TextState.FontSize = 12;
+// फ़ॉन्ट प्रकार सेट करें
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// पाठ का पृष्ठभूमि रंग सेट करें
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// पाठ का अग्रभूमि रंग सेट करें
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// सीमा के लिए स्ट्राइकिंग रंग सेट करें
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// पाठ के चारों ओर सीमा खींचने को सक्षम करें
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// पृष्ठ के लिए एक TextBuilder ऑब्जेक्ट बनाएँ
+TextBuilder tb = new TextBuilder(pdfPage);
+// पाठ अंश को पीडीएफ पृष्ठ में संलग्न करें
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

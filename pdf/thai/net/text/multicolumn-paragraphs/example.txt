@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการทํางานกับบทความหลายคอลัมน์ในเอกสาร PDF โดยใช้ Aspose.PDF. มันล็อด PDF, สกัดบทความ, และต่อมาปรับเปลี่ยนการตั้งค่าเพื่ออนุญาตให้มีบทความหลายคอลัมน์ ก่อนการสกัดบทความอีกครั้งเพื่อแสดงความแตกต่าง
+//ExStepSummary:0: รหัสต่อไปนี้แสดงวิธีการระบุประกาศนียบัตรข้อมูลที่เอกสาร PDF ตั้งอยู่
+//ExStepSummary:1: รหัสต่อไปนี้แสดงวิธีการล็อดเอกสาร PDF โดยใช้หมวดเอกสาร
+//ExStepSummary:2: รหัสต่อไปนี้แสดงวิธีการสร้าง ParagraphAbsorber เพื่อสกัดบทความจากเอกสาร
+//ExStepSummary:3: รหัสต่อไปนี้แสดงวิธีการเข้าสู่เอกสารที่มี ParagraphAbsorber เพื่อเติมผลของมัน
+//ExStepSummary:4: รหัสต่อไปนี้แสดงวิธีการเข้าถึงการตราการ์มของหน้าแรกและสกัดข้อมูลเกี่ยวกับข้อความ ก่อนการอนุญาตข้อความหลายคอลัมน์
+//ExStepSummary:5: รหัสต่อไปนี้แสดงวิธีการเปิดอนุภาคหลายคอลัมน์ และจากนั้นนําข้อมูลบทออกใหม่เพื่อแสดงผลของการเปลี่ยนแปลง
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// กําหนดรายการข้อมูล
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// โหลดเอกสาร PDF
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// สร้าง ParagraphAbsorber
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// เข้าไปดูเอกสารเพื่อแยกข้อความ
+absorber.Visit(doc);
+
+//ExStep:4-
+// เข้าถึงการตักเครื่องหมายหน้า
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// เอาข้อสุดท้ายจากส่วนที่สาม
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// เอาข้อแรกจากส่วนที่สอง
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// เอนิยมพรรคหลายคอลัมน์
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// รับบทสุดท้ายจากส่วนที่สาม หลังจากเปิดบทหลายคอลัมน์
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// รับบทแรกจากส่วนที่สอง หลังจากเปิดบทหลายคอลัมน์
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

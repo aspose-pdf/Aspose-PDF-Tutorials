@@ -1,56 +1,56 @@
 //ExStart
-//ExSummaryKod ten pokazuje, jak tworzyć dokument PDF za pomocą Aspose.Pdf i dodać do niego prostokątki z kolorami alfa.
-//ExStepSummary:0: Następujący kod wyznacza ścieżkę do katalogu dokumentów.
-//ExStepSummary:1: Następujący kod przedstawia instansję dokumentu.
-//ExStepSummary:2: Następujący kod doda stronę do zbioru stron pliku PDF.
-//ExStepSummary:3: Następujący kod tworzy przykład Grafu do rysunku kształtów na stronie PDF.
-//ExStepSummary:4: Następujący kod tworzy obiekt prostokątny o określonych wymiarach i kolorze wypełnienia.
-//ExStepSummary:5: Następujący kod tworzy drugi obiekt prostokątny i doda go do wykresu.
-//ExStepSummary:6: Następujący kod doda instynkt grafu do zbioru paragrafów strony.
-//ExStepSummary:7: Następujący kod zapisuje plik PDF i drukuje wiadomość o sukcesie na konsoli.
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF przy użyciu Aspose.Pdf i dodać do niego prostokąty z kolorami alfa.
+//ExStepSummary:0: Poniższy kod określa ścieżkę do katalogu dokumentów.
+//ExStepSummary:1: Poniższy kod instansuje instancję dokumentu.
+//ExStepSummary:2: Poniższy kod dodaje stronę do zbioru stron pliku PDF.
+//ExStepSummary:3: Poniższy kod tworzy przykład Graph do rysowania kształtów na stronie PDF.
+//ExStepSummary:4: Poniższy kod tworzy prostokąt z określonymi wymiarami i kolorami wypełniania.
+//ExStepSummary:5: Poniższy kod tworzy drugi obiekt prostokątny i dodaje go do wykresu.
+//ExStepSummary:6: Poniższy kod dodaje przykład wykresu do zbioru akapitów strony.
+//ExStepSummary:7: Poniższy kod zapisuje plik PDF i drukuje wiadomość o sukcesie na konsoli.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// Krok w celu zdefiniowania katalogu do zapisywania dokumentu
+// Krok do definiowania katalogu do zapisania dokumentu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Wykonaj instancję dokumentu do tworzenia PDF
+// Instaluj instancję dokumentu do tworzenia pliku PDF
 Document doc = new Document();
 
 //ExStep:2-
-// Dodaj nową stronę do dokumentu PDF
+// Dodać nową stronę do dokumentu PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Tworzyć graficzny przykład do rysunku kształtów
+// Tworzenie instancji Graph do rysowania kształtów
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Stwórz prostokąt z określonymi wymiarami
+// Tworzenie prostokąta o określonych wymiarach
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// Ustaw kolor wypełnienia za pomocą ARGB
+// Ustawić kolor wypełnienia za pomocą ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// Tworzyć drugi obiekt prostokątny
+// Utworzenie drugiego obiektu prostokąta
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// Ustaw kolor wypełnienia dla drugiego prostokąta
+// Ustawić kolor wypełnienia dla drugiego prostokąta
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Dodaj pierwszy prostokąt do zbioru kształtów w przypadku grafu
+// Dodaj pierwszy prostokąt do kolekcji kształtów instancji Graph
 canvas.Shapes.Add(rect);
-// Dodaj drugi prostokąt do zbioru kształtów w przypadku grafu
+// Dodaj drugi prostokąt do kolekcji kształtów instancji Graph
 canvas.Shapes.Add(rect1);
-// Dodaj przykład grafu do zbioru paragrafów strony
+// Dodaj przykład Graph do kolekcji akapitów strony
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Przygotuj ścieżkę pliku wyjściowego
+// Przygotować ścieżkę pliku wyjściowego
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Zapisz dokument PDF na określonej ścieżce
+// Zapisz dokument PDF na wskazanej ścieżce
 doc.Save(dataDir);
-// Drukuj wiadomość o sukcesie na konsoli
+// Wydrukowanie wiadomości o sukcesie na konsoli
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

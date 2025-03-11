@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: هذا الرمز يظهر كيفية تحسين مستند PDF عن طريق ضغط وإعادة الحجم الصور داخلها.
-//ExStepSummary:0: يبدأ الرمز التالي الوقت الحالي ويحدد مسار دليل الوثائق.
-//ExStepSummary:1: يفتح الرمز التالي الوثيقة المحددة PDF للمعالجة.
-//ExStepSummary:2: الرمز التالي يبدأ خيارات التحسين للصيغة PDF.
-//ExStepSummary:3: يُعدّر الرمز التالي إعدادات ضغط الصورة، بما في ذلك الضغط والجودة.
+//ExSummary: يوضح هذا الرمز كيفية تحسين مستند PDF عن طريق ضغط وتغيير حجم الصور الموجودة فيه.
+//ExStepSummary:0: الرمز التالي يبدأ الوقت الحالي ويحدد مسار دليل المستندات.
+//ExStepSummary:1: الكود التالي يفتح مستند PDF المحدد للمعالجة.
+//ExStepSummary:2: الرمز التالي يبدأ خيارات تحسين PDF.
+//ExStepSummary:3: الكود التالي يُقوم بتكوين إعدادات ضغط الصورة، بما في ذلك الضغط والجودة.
 //ExStepSummary:4: يطبق الرمز التالي خيارات التحسين على مستند PDF.
-//ExStepSummary:5: الترميز التالي يحفظ المستند PDF المثالي إلى ملف جديد.
+//ExStepSummary:5: الرمز التالي يحفظ مستند PDF المحسن إلى ملف جديد.
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // إبدأ الوقت
 var time = DateTime.Now.Ticks;
-// الطريق إلى دليل الوثائق
+// الطريق إلى دليل المستندات
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,15 +18,15 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// إعادة تشغيل خيارات التحسين
+// إطلاق OptimizationOptions
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// حدد خيار CompressImages
+// حدد خيار ضغط الصور
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 // حدد خيار ImageQuality 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// حدد خيار إعادة تحديد حجم الصورة
+// حدد خيار ResizeImage
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
 // حدد خيار MaxResolution
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
@@ -36,9 +36,9 @@ optimizeOptions.ImageCompressionOptions.MaxResolution = 300;
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
-// تحديث إداري البيانات لملف الإخراج
+// تحديث دليل البيانات لملف الإخراج
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// حفظ الوثيقة المحدثة
+// حفظ المستند المحدث
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-

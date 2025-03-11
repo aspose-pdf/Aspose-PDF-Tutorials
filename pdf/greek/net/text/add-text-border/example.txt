@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF με ένα κείμενο που έχει συγκεκριμένο στυλ και ένα περιθώριο.
+//ExStepSummary:0: Ο ακόλουθος κώδικας αρχικοποιεί την διαδρομή για την αποθήκευση του εγγράφου PDF.
+//ExStepSummary:1: Ο ακόλουθος κώδικας δημιουργεί ένα νέο αντικείμενο εγγράφου PDF.
+//ExStepSummary:2: Ο ακόλουθος κώδικας προσθέτει μια νέα σελίδα στο έγγραφο PDF.
+//ExStepSummary:3: Ο ακόλουθος κώδικας δημιουργεί ένα κείμενο με καθορισμένο περιεχόμενο και θέση.
+//ExStepSummary:4: Ο ακόλουθος κώδικας ορίζει τις ιδιότητες του τμήματος κειμένου, συμπεριλαμβανομένου του μεγέθους γραμματοσειράς και των χρωμάτων.
+//ExStepSummary:5: Ο ακόλουθος κωδικός επιτρέπει την περιγραφή ενός ορίου γύρω από το ορθογώνιο κειμένου.
+//ExStepSummary:6: Ο ακόλουθος κώδικας προσθέτει το τμήμα κειμένου στην σελίδα PDF χρησιμοποιώντας το TextBuilder.
+//ExStepSummary:7: Ο ακόλουθος κώδικας αποθηκεύει το έγγραφο PDF στον καθορισμένο κατάλογο.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Αρχική διαδρομή για την αποθήκευση του εγγράφου
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Δημιουργία νέου αντικειμένου εγγράφου PDF
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Προσθήκη νέας σελίδας στο έγγραφο PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Δημιουργία ενός τμήματος κειμένου με το καθορισμένο περιεχόμενο
+TextFragment textFragment = new TextFragment("main text");
+// Ορίστε τη θέση του τμήματος κειμένου
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ορίστε το μέγεθος γραμματοσειράς του κειμένου
+textFragment.TextState.FontSize = 12;
+// Ορίστε τον τύπο γραμματοσειράς
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ρυθμίστε το χρώμα φόντου του κειμένου
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Ρυθμίστε το χρώμα προσκήνιο του κειμένου
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Ρυθμίστε το χρώμα του χάρτη για το όριο
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Ενεργοποιήστε την περιγραφή του περιθωρίου γύρω από το κείμενο
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Δημιουργία αντικειμένου TextBuilder για τη σελίδα
+TextBuilder tb = new TextBuilder(pdfPage);
+// Προσάρτηση του τμήματος κειμένου στην σελίδα PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Αποθήκευση εγγράφου στην καθορισμένη διαδρομή
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

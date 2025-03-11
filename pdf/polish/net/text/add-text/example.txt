@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak dodać fragment tekstu do istniejącego dokumentu PDF przy użyciu Aspose.PDF. Otwiera PDF, tworzy fragment tekstu o określonych właściwościach i zapisuje zmodyfikowany dokument.
+//ExStepSummary:0: Ten krok ustala ścieżkę do katalogu dokumentów, w którym znajduje się wprowadzony plik PDF.
+//ExStepSummary:1: Ten krok otwiera określony dokument PDF do edycji.
+//ExStepSummary:2: Ten krok pobiera konkretną stronę z dokumentu PDF.
+//ExStepSummary:3: Ten krok tworzy fragment tekstu z określoną zawartością i pozycją na stronie.
+//ExStepSummary:4: Ten krok ustala różne właściwości fragmentu tekstu, w tym rozmiar czcionki, typ czcionki, kolor tła i kolor pierwszego planu.
+//ExStepSummary:5: Ten krok tworzy obiekt TextBuilder, który ułatwia dodawanie fragmentu tekstu do strony PDF.
+//ExStepSummary:6: W tym kroku fragment tekstu jest dołączony do strony PDF.
+//ExStepSummary:7: Ten krok ustala ścieżkę pliku wyjściowego dla zmodyfikowanego dokumentu PDF.
+//ExStepSummary:8: Ten krok zapisuje zmodyfikowany dokument PDF na określonej ścieżce wyjściowej.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Ustawić ścieżkę katalogu dla dokumentów
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Otworzyć określony dokument PDF
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Odzyskanie drugiej strony dokumentu PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Utworzenie nowego fragmentu tekstu z określoną zawartością
+TextFragment textFragment = new TextFragment("main text");
+// Ustawić położenie fragmentu tekstu na stronie
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ustawić rozmiar czcionki fragmentu tekstu
+textFragment.TextState.FontSize = 12;
+// Ustawić typ czcionki
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ustawić kolor tła
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Ustawić kolor tekstu
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Utworzenie obiektu TextBuilder dla strony
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Dołącz fragment tekstu do strony PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Ustawić ścieżkę pliku wyjściowego dla zmodyfikowanego dokumentu PDF
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Zapisz zmodyfikowany dokument PDF na określonej ścieżce wyjściowej
+pdfDocument.Save(dataDir);
+// Wiadomość o pomyślnym wyjściu
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

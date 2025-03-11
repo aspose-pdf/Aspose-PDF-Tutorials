@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Mã này cho thấy cách tối ưu hóa tài liệu PDF bằng cách nén và đổi kích thước hình ảnh bên trong nó.
-//ExStepSummary:0: Mã sau đây khởi tạo thời gian hiện tại và thiết lập con đường thư mục tài liệu.
-//ExStepSummary:1: Mã sau đây mở tài liệu PDF được chỉ định để xử lý.
+//ExSummary: Mã này cho thấy cách tối ưu hóa tài liệu PDF bằng cách nén và thay đổi kích thước hình ảnh bên trong nó.
+//ExStepSummary:0: Mã sau khởi tạo thời gian hiện tại và thiết lập đường dẫn thư mục tài liệu.
+//ExStepSummary:1: Mã sau sẽ mở tài liệu PDF được chỉ định để xử lý.
 //ExStepSummary:2: Mã sau đây khởi tạo các tùy chọn tối ưu hóa cho PDF.
-//ExStepSummary:3: Mã sau đây cấu hình các cài đặt nén hình ảnh, bao gồm nén và chất lượng.
-//ExStepSummary:4: Mã sau đây áp dụng các tùy chọn tối ưu hóa cho tài liệu PDF.
-//ExStepSummary:5: Mã sau lưu tài liệu PDF tối ưu hóa vào tệp mới.
+//ExStepSummary:3: Mã sau cấu hình các cài đặt nén hình ảnh, bao gồm nén và chất lượng.
+//ExStepSummary:4: Mã sau áp dụng các tùy chọn tối ưu hóa cho tài liệu PDF.
+//ExStepSummary:5: Mã sau lưu tài liệu PDF tối ưu hóa vào một tệp mới.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Tạo thời gian
+// Bắt đầu thời gian
 var time = DateTime.Now.Ticks;
-// Con đường đến thư mục tài liệu.
+// Con đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,17 +18,17 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// Tạo ra OptimizationOptions
+// Bắt đầu OptimizationOptions
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Set Option CompressImages
+// Đặt tùy chọn nénImages
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// Thiết lập tùy chọn ImageQuality 
+// Đặt tùy chọn ImageQuality 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// Set ResizeImage tùy chọn
+// Đặt tùy chọn ResizeImage
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// Thiết lập tùy chọn MaxResolution
+// Đặt tùy chọn MaxResolution
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
@@ -38,7 +38,7 @@ pdfDocument.OptimizeResources(optimizeOptions);
 //ExStep:5-
 // Cập nhật thư mục dữ liệu cho tệp đầu ra
 dataDir = dataDir + "ResizeImages_out.pdf"; 
-// Cung cấp tài liệu cập nhật
+// Lưu tài liệu cập nhật
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-

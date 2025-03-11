@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: このコードでは, 10 行3 列の表で PDF 文書を作成する方法を示します.
+//ExStepSummary:0: このステップでは,出力 PDF ファイルが保存されるディレクトリ パスを設定します.
+//ExStepSummary:1: このステップで新しい PDF 文書インスタンスを作成します.
+//ExStepSummary:2: このステップでは新しいテーブルオブジェクトを初期化します.
+//ExStepSummary:3: このステップでは,テーブルの境界色をライトグレーに設定します.
+//ExStepSummary:4: このステップでは,すべてのテーブルセルにライトグレーの境界が適用されます.
+//ExStepSummary:5: このステップでループが始まり 10列のテーブルを追加します
+//ExStepSummary:6: このステップではテーブルに新しい行を追加し,垂直の位置を中心に設定します
+//ExStepSummary:7: このステップでは,行に3つのセルを追加し,最初のセルには現在のタイムスタンプに基づいて動的コンテンツが含まれます.
+//ExStepSummary:8: このステップでは PDF 文書に新しいページを追加します.
+//ExStepSummary:9: このステップでは,表をドキュメントの新しく作成されたページに追加します.
+//ExStepSummary:10: このステップでは,最終的な PDF 文書を指定した出力ディレクトリに保存します.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// 文書ディレクトリへのパスです
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 新しい PDF 文書を作成します.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// 新しいテーブルインスタンスを初期化します.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// テーブル境界の色をライトグレーに設定します.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// テーブルセルの境界を設定します.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// 10行を追加するループを作成する
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// 表に行を追加する
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// 列の垂直を設定する
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// 動的コンテンツを持つ最初のセルを追加します.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// 細胞を2つ追加します
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// 3番目のセルを追加します.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// PDF 文書に新しいページを追加します.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// 表オブジェクトをドキュメントの最初のページに追加します.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// 表オブジェクトを含む更新されたドキュメントを保存する.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

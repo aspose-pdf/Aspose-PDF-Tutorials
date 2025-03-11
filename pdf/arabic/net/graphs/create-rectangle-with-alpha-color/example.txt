@@ -1,21 +1,21 @@
 //ExStart
-//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند PDF باستخدام Aspose.Pdf وإضافة مستطيلات بألوان ألفا إليه.
-//ExStepSummary:0: يحدد الرمز التالي الطريق إلى دليل الوثائق.
-//ExStepSummary:1: الرمز التالي يمثل مثال وثيقة.
-//ExStepSummary:2: يضيف الرمز التالي صفحة إلى مجموعة الصفحات في ملف PDF.
-//ExStepSummary:3: يخلق الرمز التالي مثال الرسم البياني لرسم الأشكال على صفحة PDF.
-//ExStepSummary:4: يخلق الرمز التالي كائن مستطيل ذو أبعاد محددة وملء لون.
-//ExStepSummary:5: يخلق الرمز التالي كائن مستطيل ثانوي ويضيفه إلى الرسم البياني.
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF باستخدام Aspose.Pdf وإضافة مستطيلات بألوان ألفا إليه.
+//ExStepSummary:0: الرمز التالي يحدد المسار إلى دليل المستندات
+//ExStepSummary:1: الرمز التالي يحدد مثالاً من مثيلات الوثيقة.
+//ExStepSummary:2: الرمز التالي يضيف صفحة إلى مجموعة الصفحات في ملف PDF.
+//ExStepSummary:3: يخلق الكود التالي مثالاً لـ Graph لرسم الأشكال على صفحة PDF.
+//ExStepSummary:4: الكود التالي يخلق كائن مستطيل مع أبعاد محددة ولون ملء.
+//ExStepSummary:5: الكود التالي يخلق كائن مستطيل ثان ويضيفه إلى الرسم البياني.
 //ExStepSummary:6: يضيف الرمز التالي مثال الرسم البياني إلى مجموعة الفقرات في الصفحة.
-//ExStepSummary:7: يحتفظ الرمز التالي بملف PDF ويطبع رسالة نجاح على جهاز التحكم.
+//ExStepSummary:7: الرمز التالي يحفظ ملف PDF ويدفع رسالة نجاح إلى وحدة التحكم.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// الخطوة لتعريف الإداري لإنقاذ الوثيقة
+// خطوة لتحديد الدليل لإنقاذ المستند
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// قم بتثبيت مثال الوثيقة لإنشاء PDF
+// إعداد مثالية المستند لإنشاء PDF
 Document doc = new Document();
 
 //ExStep:2-
@@ -23,34 +23,34 @@ Document doc = new Document();
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// إعداد مثال الرسم البياني لرسم الأشكال
+// إنشاء مثال Graph لرسم الأشكال
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// إعداد مستطيل مع الأبعاد المحددة
+// إنشاء مستطيل بأبعاد محددة
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// حدد لون المكمل باستخدام ARGB
+// تعيين لون التعبئة باستخدام ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// إعداد كائن مستطيل ثان
+// إنشاء كائن مستطيل ثان
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// حدد لون المكملة للمستطيل الثاني
+// حدد لون التعبئة للمستطيل الثاني
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
 // إضافة المستطيل الأول إلى مجموعة الأشكال من مثال الرسم البياني
 canvas.Shapes.Add(rect);
-// أضف مستطيل الثاني إلى مجموعة الأشكال في مثال الرسم البياني
+// إضافة المستطيل الثاني إلى مجموعة الأشكال من مثال الرسم البياني
 canvas.Shapes.Add(rect1);
 // إضافة مثال الرسم البياني إلى مجموعة الفقرات في الصفحة
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// إعداد مسار الملف المخرج
+// إعداد مسار الملفات الخارجة
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// حفظ وثيقة PDF إلى المسار المحدد
+// حفظ مستند PDF في المسار المحدد
 doc.Save(dataDir);
-// طباعة رسالة النجاح على الجهاز
+// إرسال رسالة نجاح الطباعة إلى وحدة التحكم
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

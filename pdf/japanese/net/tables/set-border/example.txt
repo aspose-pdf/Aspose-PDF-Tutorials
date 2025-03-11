@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: このコードでは,上と下の両側でダブル境界を持つテーブルで PDF 文書を作成する方法を示します. 
+//ExStepSummary:0: Document オブジェクトをインスタンチしてページを追加します.
+//ExStepSummary:1: 表セルのための境界属性を定義するために BorderInfo オブジェクトを作成します.
+//ExStepSummary:2: Table オブジェクトをインスタンスし,列幅を指定する.
+//ExStepSummary:3: テーブルに行を追加し,テキストを含むセルを挿入します.
+//ExStepSummary:4: BorderInfo オブジェクトを使用してセルのダブル境界を設定します.
+//ExStepSummary:5: ページの段落コレクションに表を追加し,指定されたファイルパスにドキュメントを保存します.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// 文書ディレクトリへのパスを定義します.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 文書オブジェクトをインスタンシートします.
+Document doc = new Document();
+// PDF 文書にページを追加します. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// BorderInfo オブジェクトを作成します.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// 上側の境界が2倍になるように指定します.
+border.Top.IsDoubled = true; 
+// 底辺が2倍になるように指定します.
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// テーブルオブジェクトをインスタンチ化します.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// 列幅情報を指定する
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// 表の Row オブジェクトを作成します.
+Aspose.Pdf.Row row = table.Rows.Add();
+// 列のセル集合にテーブルセルを追加する
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// 前の定義の境界設定を適用する.
+cell.Border = border;
+
+//ExStep:5-
+// ページの段落の集合に表を追加する.
+page.Paragraphs.Add(table);
+// 出力ファイル パスを指定します.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// PDF 文書を保存する
+doc.Save(dataDir);
+// ファイルパスで成功メッセージを印刷する.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,66 +1,66 @@
 //ExStart
-//ExSummary: このコードは,ページ全体に2つの横角線を図ることでAspose.PDFを使用してPDF文書を作成する方法を示します.文書を初期化し,ページを追加し,文書を保存する前に角から角に線を描きます.
-//ExStepSummary:0: PDF が保存される文書ディレクトリへのパスを初期化します.
-//ExStepSummary:1: PDF のための新しいドキュメントインスタンスを作成する.
-//ExStepSummary:2: 文書のページコレクションにページを追加する.
-//ExStepSummary:3: すべての側でページの辺をゼロに設定します
-//ExStepSummary:4: 図面の大きさに等しい次元を持つ図面を表示するグラフオブジェクトを作成します.
-//ExStepSummary:5: ページの左下から右上角に最初の行オブジェクトを作成します.
-//ExStepSummary:6: Graph オブジェクトの形集合に最初の行を追加します.
-//ExStepSummary:7: ページの左上から右下角まで,第2行オブジェクトを作成します.
-//ExStepSummary:8: Graph オブジェクトの形集合に 2 行を追加する.
-//ExStepSummary:9: ページの段落コレクションに行列を含むグラフオブジェクトを追加します.
-//ExStepSummary:10: 輸出PDFファイルを保存するための完全なパスを作成します.
-//ExStepSummary:11: 指定されたパスにPDF文書を保存する.
+//ExSummary: このコードは,ページを横切って2つの斜線を描き",Aspose.PDF"を使用してPDF文書を作成する方法を示します.文書を初期化し,ページを追加し,文書を保存する前に角から角に線を引きます.
+//ExStepSummary:0: PDFが保存されるドキュメントディレクトリへのパスを初期化します.
+//ExStepSummary:1: PDF に新しい Document インスタンスを作成します.
+//ExStepSummary:2: ページのコレクションにページを追加します.
+//ExStepSummary:3: すべての側面のページの辺を0に設定します.
+//ExStepSummary:4: 図面のサイズに等しい寸法で図面領域を表す Graph オブジェクトを作成します.
+//ExStepSummary:5: ページの左下から右上角までの最初の行オブジェクトを作成します
+//ExStepSummary:6: Graph オブジェクトの形状コレクションに最初の行を追加します.
+//ExStepSummary:7: ページの左上から右下角に 2 行目のオブジェクトを作成します
+//ExStepSummary:8: Graph オブジェクトの形状コレクションに 2 行目を追加します
+//ExStepSummary:9: ページの段落コレクションに行を含む Graph オブジェクトを追加します.
+//ExStepSummary:10: 出力 PDF ファイル保存の完全なパスを作成します.
+//ExStepSummary:11: 指定されたパスに PDF 文書を保存します.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// ドキュメントディレクトリへのパスを初期化する
+// 文書ディレクトリへの経路を初期化する
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// ドキュメントインスタンスを作成
+// 文書インスタンスを作成
 Document pDoc = new Document();
 
 //ExStep:2-
-// PDF文書のページへのページを追加
+// PDF 文書のページコレクションにページを追加する
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// ページの辺を各側から0に設定する
+// すべての側面のページの辺を0に設定します
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// 幅と高度がページの次元に等しいグラフオブジェクトを作成する
+// 幅と高度がページのサイズに等しいグラフオブジェクトを作成
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// ページの左下から右上角から始まる最初の行オブジェクトを作成する
+// ページの左下から右上角に最初の行オブジェクトを作成
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// ページの左上角から右下角へ線を描く
+// ページ左上角から右下角に線を引く
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Graphオブジェクトの形集合に2行を追加する
+// Graph オブジェクトの形状コレクションに2行目を追加する
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// ページの項目の集合にグラフオブジェクトを追加する
+// ページの集合にグラフオブジェクトを追加する
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// 輸出PDFファイルを保存するための完全なパスを作成する
+// 出力 PDF ファイル保存の完全なパスを作成する
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
-// PDFファイルを保存する
+// PDF ファイル保存
 pDoc.Save(dataDir);
-// 輸出確認メッセージ
+// 出力確認メッセージ
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

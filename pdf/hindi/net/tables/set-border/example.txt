@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि एक तालिका के साथ एक पीडीएफ दस्तावेज़ कैसे बनाया जाए जिसमें दोनों ऊपरी और निचले पक्षों पर दोहरी सीमाएं हों। 
+//ExStepSummary:0: दस्तावेज़ ऑब्जेक्ट का इंस्टैंट करें और इसमें एक पृष्ठ जोड़ें.
+//ExStepSummary:1: तालिका कक्षों के लिए सीमा गुणों को परिभाषित करने के लिए एक BorderInfo ऑब्जेक्ट बनाएँ.
+//ExStepSummary:2: तालिका ऑब्जेक्ट का उदाहरण दें और स्तंभ चौड़ाई निर्दिष्ट करें.
+//ExStepSummary:3: तालिका में एक पंक्ति जोड़ें और पाठ युक्त कक्ष सम्मिलित करें.
+//ExStepSummary:4: BorderInfo ऑब्जेक्ट का उपयोग करके कक्ष के लिए दोहरी सीमा सेट करें.
+//ExStepSummary:5: तालिका को पृष्ठ के पैराग्राफ संग्रह में जोड़ें और दस्तावेज़ को निर्दिष्ट फ़ाइल पथ पर सहेजें.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// दस्तावेज़ वस्तु का उदाहरण।
+Document doc = new Document();
+// पीडीएफ दस्तावेज़ में एक पृष्ठ जोड़ें. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// BorderInfo ऑब्जेक्ट बनाएँ.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// निर्दिष्ट करें कि ऊपरी सीमा दोहरी होगी
+border.Top.IsDoubled = true; 
+// निर्दिष्ट करें कि निचली सीमा दोहरी होगी
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// तालिका वस्तु का तात्कालिकरण करें.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// स्तंभ चौड़ाई जानकारी निर्दिष्ट करें
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// तालिका के लिए पंक्ति वस्तु बनाएँ.
+Aspose.Pdf.Row row = table.Rows.Add();
+// पंक्ति के कक्ष संग्रह में तालिका कक्ष जोड़ें
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// पहले परिभाषित सीमा सेटिंग्स लागू करें.
+cell.Border = border;
+
+//ExStep:5-
+// तालिका को पृष्ठ के अनुच्छेद संग्रह में जोड़ें.
+page.Paragraphs.Add(table);
+// आउटपुट फ़ाइल पथ निर्दिष्ट करें.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// पीडीएफ दस्तावेज़ सहेजें
+doc.Save(dataDir);
+// फ़ाइल पथ के साथ सफलता संदेश मुद्रित करें.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

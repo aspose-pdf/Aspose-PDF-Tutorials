@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF multi-kolom menggunakan pustaka Aspose.PDF. Ini mengatur margin, menambahkan teks dengan pemformatan HTML, dan mengatur konten ke dalam kolom.
+//ExStepSummary:0: Langkah ini mengatur direktori dokumen, menginisialisasi dokumen PDF baru, dan mengkonfigurasi margin halaman.
+//ExStepSummary:1: Langkah ini menambahkan halaman baru ke dokumen dan menggambar garis horizontal menggunakan kelas Graph dan Line.
+//ExStepSummary:2: Langkah ini membuat HtmlFragment dengan teks yang diformat dan menambahkannya ke dokumen PDF.
+//ExStepSummary:3: Langkah ini membuat FloatingBox untuk tata letak dua kolom dan menambahkan informasi penulis ke dalamnya.
+//ExStepSummary:4: Langkah ini menggambar garis horizontal lain di dalam FloatingBox untuk pemisahan visual.
+//ExStepSummary:5: Langkah ini menambahkan fragmen teks panjang ke FloatingBox untuk menunjukkan distribusi konten dalam beberapa kolom.
+//ExStepSummary:6: Langkah ini menyimpan dokumen ke jalur output yang ditentukan dan mencetak pesan keberhasilan.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Tentukan jalur ke direktori dokumen
+string dataDir = "Your Document Directory";
+// Buat contoh dokumen baru
+Document doc = new Document(); 
+
+// Tentukan info margin kiri untuk file PDF
+doc.PageInfo.Margin.Left = 40; 
+// Tentukan info margin kanan untuk file PDF
+doc.PageInfo.Margin.Right = 40;
+// Tambahkan halaman baru ke dokumen
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Buat objek Graph baru untuk menggambar garis
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Tambahkan baris ke paragraf koleksi dari objek bagian
+page.Paragraphs.Add(graph1);
+
+// Tentukan koordinat untuk garis
+// Tentukan titik awal dan akhir garis
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Buat bentuk garis dengan koordinat yang ditentukan
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Tambahkan bentuk garis ke grafik
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Buat variabel string dengan teks yang berisi tag html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Buat HtmlFragment untuk teks judul
+HtmlFragment heading_text = new HtmlFragment(s);
+// Tambahkan teks judul ke halaman 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Buat FloatingBox baru untuk tata letak multi-kolom
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Atur jumlah kolom menjadi 2
+box.ColumnInfo.ColumnCount = 2; 
+// Atur jarak antara kolom
+box.ColumnInfo.ColumnSpacing = "5";
+// Atur lebar untuk setiap kolom
+box.ColumnInfo.ColumnWidths = "105 105";
+// Buat fragmen teks untuk informasi penulis
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Atur ukuran font untuk teks
+text1.TextState.FontSize = 8;
+// Atur jarak baris untuk teks
+text1.TextState.LineSpacing = 2;
+// Tambahkan teks penulis ke kotak mengambang
+box.Paragraphs.Add(text1);
+// Perbarui ukuran font untuk teks
+text1.TextState.FontSize = 10;
+// Atur gaya font ke kursik
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Buat objek Graph lain untuk menggambar garis kedua
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Tentukan koordinat untuk garis
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Tambahkan bentuk baris kedua ke grafik
+graph2.Shapes.Add(l2);
+
+// Tambahkan baris ke paragraf koleksi dari objek bagian
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Buat fragmen teks panjang untuk menunjukkan konten dalam kolom
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Tambahkan teks panjang ke kotak mengambang
+box.Paragraphs.Add(text2); 
+// Tambahkan kotak mengambang yang berisi semua konten ke halaman
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Tentukan jalur file PDF output
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Simpan dokumen ke jalur yang ditentukan
+doc.Save(dataDir); 
+// Pesan keberhasilan pencetakan
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

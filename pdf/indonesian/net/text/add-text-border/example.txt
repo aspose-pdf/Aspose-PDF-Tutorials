@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen PDF dengan fragmen teks yang memiliki gaya tertentu dan border.
+//ExStepSummary:0: Kode berikut ini menginisialisasi jalur untuk menyimpan dokumen PDF.
+//ExStepSummary:1: Kode berikut membuat objek dokumen PDF baru.
+//ExStepSummary:2: Kode berikut menambahkan halaman baru ke dokumen PDF.
+//ExStepSummary:3: Kode berikut membuat fragmen teks dengan konten dan posisi yang ditentukan.
+//ExStepSummary:4: Kode berikut menetapkan sifat fragmen teks, termasuk ukuran font dan warna.
+//ExStepSummary:5: Kode berikut memungkinkan menggambar batas di sekitar persegi panjang teks.
+//ExStepSummary:6: Kode berikut ini menempelkan fragmen teks ke halaman PDF menggunakan TextBuilder.
+//ExStepSummary:7: Kode berikut menyimpan dokumen PDF ke direktori yang ditentukan.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Inisialisasi jalur untuk menyimpan dokumen
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Buat objek dokumen PDF baru
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Tambahkan halaman baru ke dokumen PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Buat fragmen teks dengan konten yang ditentukan
+TextFragment textFragment = new TextFragment("main text");
+// Atur posisi fragmen teks
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Atur ukuran font teks
+textFragment.TextState.FontSize = 12;
+// Atur jenis font
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Atur warna latar belakang teks
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Atur warna latar depan teks
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Atur warna stroking untuk border
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Aktifkan menggambar batas di sekitar teks
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Buat objek TextBuilder untuk halaman
+TextBuilder tb = new TextBuilder(pdfPage);
+// Lemparkan fragmen teks ke halaman PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Simpan dokumen ke jalur yang ditentukan
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

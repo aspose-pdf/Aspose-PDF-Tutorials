@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: यह कोड Aspose.PDF का उपयोग करके पीडीएफ दस्तावेज़ में बहु-स्तंभ पैराग्राफ के साथ काम करने का तरीका दर्शाता है। यह एक पीडीएफ लोड करता है, पैराग्राफ निकालता है, और फिर पैराग्राफ को फिर से निकालने से पहले अंतर दिखाने के लिए बहु-स्तंभ पैराग्राफ की अनुमति देने के लिए एक सेटिंग को संशोधित करता है।
+//ExStepSummary:0: निम्न कोड में दिखाया गया है कि किस प्रकार उस डेटा निर्देशिका को निर्दिष्ट किया जाता है जहाँ पीडीएफ दस्तावेज़ स्थित है।
+//ExStepSummary:1: निम्न कोड दिखाता है कि दस्तावेज़ वर्ग का उपयोग करके PDF दस्तावेज़ को कैसे लोड किया जाए.
+//ExStepSummary:2: निम्नलिखित कोड में दिखाया गया है कि दस्तावेज़ से पैराग्राफ निकालने के लिए पैराग्राफअब्सर्बर कैसे बनाया जाए।
+//ExStepSummary:3: निम्नलिखित कोड दिखाता है कि पैराग्राफअब्सॉर्बर के साथ दस्तावेज़ में कैसे जाकर उसके परिणामों को भरना है।
+//ExStepSummary:4: निम्नलिखित कोड दिखाता है कि प्रथम पृष्ठ के मार्कअप तक कैसे पहुँचें और बहु-स्तंभ पैराग्राफ की अनुमति देने से पहले पैराग्राफ के बारे में जानकारी निकालें।
+//ExStepSummary:5: निम्नलिखित कोड में दिखाया गया है कि परिवर्तन के प्रभाव को दिखाने के लिए बहु-स्तंभ पैराग्राफ को कैसे सक्षम किया जाए और फिर पैराग्राफ की जानकारी को पुनः निकाला जाए।
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// डेटा निर्देशिका निर्दिष्ट करें.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// पीडीएफ दस्तावेज़ लोड करें.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// पैराग्राफअब्सॉर्बर बनाएं.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// पैराग्राफ निकालने के लिए दस्तावेज़ पर जाएँ.
+absorber.Visit(doc);
+
+//ExStep:4-
+// पृष्ठ मार्कअप तक पहुँचें.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// तीसरे खंड का अंतिम पैराग्राफ प्राप्त करें।
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// दूसरे खंड से पहला पैराग्राफ प्राप्त करें।
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// बहु-स्तंभ पैराग्राफ सक्षम करें.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// बहु-स्तंभ अनुच्छेद सक्षम करने के बाद तीसरे अनुभाग से अंतिम अनुच्छेद प्राप्त करें.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// बहु-स्तंभ अनुच्छेद सक्षम करने के बाद दूसरे अनुभाग से पहला अनुच्छेद प्राप्त करें.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

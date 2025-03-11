@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF และเพิ่มชิ้นส่วนข้อความที่มีการจัดรูปล่าง. มันรวมถึงขั้นตอนในการสร้างเอกสาร, การเพิ่มข้อความ, และการบันทึกไฟล์.
+//ExStepSummary:0: กําหนดตําแหน่งที่เอกสาร PDF จะถูกบันทึกไว้
+//ExStepSummary:1: เริ่มต้นเอกสาร PDF ใหม่และเพิ่มหน้าเข้าไป
+//ExStepSummary:2: สร้างวัตถุ TextBuilder สําหรับหน้าแรกของเอกสาร
+//ExStepSummary:3: สร้าง TextFragment ด้วยข้อความทดสอบ, ตั้งตัวอักษรเป็น Arial, ขนาดเป็น 10 และเปิดการจัดรูปลายล่าง
+//ExStepSummary:4: กําหนดตําแหน่งของ TextFragment ใน PDF และแนบมันไปยัง TextBuilder
+//ExStepSummary:5: กําหนดเส้นทางไฟล์ผลิต และบันทึกเอกสาร PDF
+//ExStepSummary:6: ออกข้อความความสําเร็จที่แสดงว่าข้อความที่ถอดตราถูกเพิ่มและแสดงตําแหน่งของไฟล์
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// กําหนดตําแหน่งที่เอกสารจะถูกบันทึก
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// เริ่มต้นเอกสาร PDF ใหม่
+Document pdfDocument = new Document();
+// เพิ่มหน้าใหม่ไปยังเอกสาร
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// สร้าง TextBuilder สําหรับหน้าแรก
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// สร้าง TextFragment ด้วยข้อความที่กําหนด
+TextFragment fragment = new TextFragment("Test message");
+// ตั้งตัวอักษรเป็นอารีอัล
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// กําหนดขนาดตัวอักษรเป็น 10
+fragment.TextState.FontSize = 10;
+// เอนกประสงค์การฟอร์มาตต์ลายล่างสําหรับข้อความ
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// กําหนดตําแหน่งของ TextFragment ใน PDF
+fragment.Position = new Position(10, 800);
+// แผง TextFragment กับ TextBuilder
+tb.AppendText(fragment);
+
+//ExStep:5-
+// กําหนดเส้นทางไฟล์ผลิตสําหรับ PDF
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// เก็บเอกสารไว้ในเส้นทางที่กําหนด
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// ข่าวผลการออก
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

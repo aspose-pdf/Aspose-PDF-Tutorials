@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: هذا البرنامج يظهر كيفية تحسين مستند PDF من خلال ضغط صورها. إنه يقوم بتحميل PDF، وطبق خيارات التحسين لتقليل حجم الصور، ويحفظ الوثيقة المحدثة.
-//ExStepSummary:0: هذه الخطوة تبدأ طريق إلى دليل الوثائق.
-//ExStepSummary:1: هذه الخطوة تفتح الوثيقة المحددة PDF للتحسين.
-//ExStepSummary:2: هذه الخطوة تبدأ خيارات التحسين لمستند PDF.
+//ExSummary: يوضح هذا الرمز كيفية تحسين مستند PDF عن طريق ضغط صورها. يقوم بتحميل PDF ، ويطبق خيارات التحسين لتقليل أحجام الصورة ، ويحفظ المستند المحدث.
+//ExStepSummary:0: هذه الخطوة تبدأ المسار إلى دليل المستندات.
+//ExStepSummary:1: هذه الخطوة تفتح مستند PDF المحدد لتحسينه.
+//ExStepSummary:2: هذه الخطوة تبدأ خيارات تحسين مستند PDF.
 //ExStepSummary:3: هذه الخطوة تعيين خيار ضغط الصورة إلى صحيح.
-//ExStepSummary:4: هذه الخطوة تعيين خيار نوعية الصورة إلى 50.
-//ExStepSummary:5: هذه الخطوة تحسن المستند PDF باستخدام خيارات التحسين المحددة.
-//ExStepSummary:6: هذه الخطوة تحديث المسار لمستند PDF المثالي.
-//ExStepSummary:7: هذه الخطوة تخفي المستند PDF المثالي إلى المسار المحدد.
+//ExStepSummary:4: هذه الخطوة تعيين خيار جودة الصورة إلى 50.
+//ExStepSummary:5: هذه الخطوة تحسن مستند PDF باستخدام خيارات التحسين المحددة.
+//ExStepSummary:6: هذه الخطوة تحديث مسار وثيقة PDF المحسنة.
+//ExStepSummary:7: هذه الخطوة تحفظ مستند PDF المحسن إلى المسار المحدد.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
-// مسار إلى دليل الوثائق
+// مسار إلى دليل المستندات
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// افتح وثيقة PDF
+// افتح مستند PDF
 Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 
 //ExStep:2-
-// إعادة تشغيل خيارات التحسين
+// إعداد خيارات التحسين
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
@@ -27,7 +27,7 @@ var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 
 //ExStep:4-
-// حدد جودة الصورة إلى 50%
+// ضع جودة الصورة على 50%
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
@@ -35,12 +35,12 @@ optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
-// حدد مسار الخروج لـ PDF المثالي
+// تحديد مسار الإخراج للـ PDF المحسّنة
 dataDir = dataDir + "Shrinkimage_out.pdf";
 
 //ExStep:7-
-// حفظ الوثيقة المحدثة
+// حفظ المستند المحدث
 pdfDocument.Save(dataDir);
-// رسالة تأكيد الخروج
+// رسالة تأكيد الناتج
 Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
 //ExEnd

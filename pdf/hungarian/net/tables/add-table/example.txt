@@ -1,51 +1,51 @@
 //ExStart
-//ExSummaryA táblázat egy meglévő PDF dokumentum második oldalához kerül hozzá, és tartalmazza a sorok és oszlopok adatok meghatározott számát.
-//ExStepSummary:0: Ez a lépés az PDF dokumentum feldolgozásához szükséges fájl útját indítja.
-//ExStepSummary:1: Ez a lépés a meglévő PDF dokumentumot a megadott címlapból tölt el.
-//ExStepSummary:2: Ez a lépés egy új táblázat példányát hoz létre és határ tulajdonságait határozza meg.
-//ExStepSummary:3: Ez a lépés kezdeményezi a köröt, hogy több sorot hozzon hozzá a táblázathoz, és mindegyik cellát adatokkal töltsön be.
-//ExStepSummary:4: Ez a lépés a létrehozott táblázatot a PDF dokumentum első oldalához csatolja.
-//ExStepSummary:5: Ez a lépés az újonnan hozzáadott táblázatú frissített PDF dokumentumot egy meghatározott kimeneti útvonalra tárolja.
+//ExSummary: Ez a kód bemutatja, hogyan lehet egy táblázatból álló PDF dokumentumot létrehozni.
+//ExStepSummary:0: Ez a lépés a feldolgozandó PDF dokumentum fájlútját indítja el.
+//ExStepSummary:1: Ez a lépés a meglévő PDF dokumentumot töltötte fel a megadott címkéből.
+//ExStepSummary:2: Ez a lépés egy új táblázat példányát hoz létre, és a határ tulajdonságait állítja be.
+//ExStepSummary:3: Ez a lépés a hurok inicializálását jelenti, hogy több sorat is hozzáadjon a táblázathoz, mindegyiket pedig celladatokkal tölti meg.
+//ExStepSummary:4: Ez a lépés a létrehozott táblázatot a PDF dokumentum első oldalára csatolja.
+//ExStepSummary:5: Ez a lépés egy meghatározott kimeneti útvonalra mentse a frissített PDF dokumentumot az újonnan hozzáadott táblázatkal.
 //ExStepImage:4:images/1.png
 //ExStep:0-
 // A dokumentumok útvonalának meghatározása
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Teljesítsd a forrás PDF dokumentumot
+// A forrás PDF dokumentum betöltése
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// Indítsa be az új táblázat példányát
+// A táblázat új példányának inicializálása
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Állítsa be a táblázat határ színét LightGray-ra
+// A táblázat határszíne világosszürke legyen
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// A táblázat cellák határát kell meghatározni.
+// A táblázat cellái határának beállítása
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// A 10 sor hozzáadására
+// 10 sor hozzáadására
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Adjon egy új sorot az asztalhoz
+	// Új sor hozzáadása az asztalhoz
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Adja be az első sejtet a sorba
+	// Az első cellát a sorba
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// Adja a második sejtet a sorba
+	// A sor második celláját
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Adja be a harmadik sejtet a sorba
+	// A sorban a harmadik cellát is hozzáadják
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Adja be az objektumot az adatbázis első oldalára
+// A táblázat objektum hozzáadása az input dokumentum első oldalához
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// A frissített dokumentum kiviteli fájl útvonalának meghatározása
+// Az új dokumentum kimeneti fájlútjának meghatározása
 dataDir = dataDir + "document_with_table_out.pdf"; 
-// A táblázatot tartalmazó frissített dokumentumot tárol
+// Tárolja a táblázatot tartalmazó frissített dokumentumot
 doc.Save(dataDir); 
-// Informálja a felhasználót a sikeres műveletről
+// A felhasználó tájékoztatása a sikeres műveletről
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

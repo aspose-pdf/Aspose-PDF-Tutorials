@@ -1,8 +1,8 @@
 ---
-title: Aspose.PDF kullanarak tablo ve sayfa kullanılarak PDF oluşturun 
+title: Aspose.PDF kullanarak tablolar ve sayfalama ile bir PDF oluştur 
 weight: 7700
 limit: 
-description: PDF belgesini nasıl oluşturulacağını, sınırları olan tabloları nasıl ekleyeceğini ve .NET için Aspose.PDF kullanarak sayfalama nasıl uygulanacağını öğrenin.  
+description: Bir PDF belgesini nasıl oluşturacağınızı, kenarlıkları olan tabloları nasıl ekleyeceğinizi ve .NET için Aspose.PDF kullanarak sayfalama nasıl uygulanacağını öğrenin. Kod örnekleriyle adım adım rehber.  
 keywords: [Aspose.PDF for .NET, create PDF in C#, add table to PDF, set table border, pagination in PDF, generate PDF, insert page break, .NET PDF library]
 url: /tr/net/tables/insert-page-break/
 ---
@@ -10,9 +10,9 @@ url: /tr/net/tables/insert-page-break/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tablo ve Sayfa Sayfaları ile PDF oluştur
+# Tablo ve Sayfalama ile PDF oluştur
  
-.NET için Aspose.PDF geliştiricilerin PDF belgeleri programsal olarak oluşturma, manipüle etme ve dönüştürme imkanı veren güçlü bir kütüphanedir. Bu örnekte, PDF dosyasını nasıl oluşturulacağını, kırmızı sınırlı bir tablo nasıl ekleneceğini, 200 satır ile doldurulacağını ve her 10 satırdan sonra otomatik sayfa kesimlerini nasıl ekleyeceğini göstereceğiz. Bu yaklaşım yapılandırılmış içerik biçimlendirme ve büyük veri kümeleri için sorunsuz sayfalama sağlar.  
+Aspose.PDF .NET için geliştiricilerin PDF belgeleri programlı olarak oluşturma, manipüle etme ve dönüştürme imkanı veren güçlü bir kütüphanedir. Bu örnekte, bir PDF dosyasının nasıl oluşturulacağını, kırmızı kenarlı bir tablo ekleyeceğini, 200 satırla dolduracağını ve her 10 satırdan sonra otomatik sayfa kesintileri ekleyeceğini gösteririz. Bu yaklaşım yapılandırılmış içerik biçimlendirme ve büyük veri kümeleri için kesintisiz sayfalama sağlar.  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/tables/insert-page-break/" >}}
@@ -21,34 +21,34 @@ url: /tr/net/tables/insert-page-break/
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Kurulum talimatları  
-.NET için Aspose.PDF ile başlamak için, bu adımları izleyin:  
+.NET için Aspose.PDF ile başlamak için, şu adımları izleyin:  
 
-1. NuGet Paket Yöneticisi üzerinden yükle  
-   * Projeyi Visual Studio'da aç.  
-   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
-   * Aspose.PDF için arama yapın ve Kurulum'u tıklayın.  
+1. NuGet Paket Yöneticisi ile yükle  
+   * Visual Studio'da projenizi açın.  
+   * Araçlara git > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet.  
+   * Aspose.PDFi arayın ve yükleme tuşuna tıklayın.  
 
-   Alternatif olarak, Paket Yöneticisi Konsolosunda aşağıdaki komutu kullanın:  
+   Alternatif olarak, aşağıdaki komutu Paket Yöneticisi Konsolunda kullanın:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. DLL'i el ile indirin  
-   * En son versiyonu alın .[Aspose.PDF indirimi](https://releases.aspose.com/pdf/net/)\- Evet .  
-   * Projenize Aspose.PDF.dll'e bir referans ekleyin.  
+2. DLL'yi manuel olarak indirin  
+   * En son versiyonu alın .[Aspose.PDF İndirmeler](https://releases.aspose.com/pdf/net/)\- Hayır .  
+   * Projenizdeki Aspose.PDF.dll'e bir referans ekleyin.  
 
-3. Lisans başvurusu (Önemli)  
-   * Ücretsiz deneme programını kullanırsanız, su işaretleri veya sınırlamalarla karşılaşacaksınız.  
-   * Lisans al .[Satın Almayı Arayın](https://purchase.aspose.com/buy)veya bir [Geçici İzin](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Lisansı kodunuzla uygulayın:  
+3. Lisans başvurusu (ihtiyaçlı)  
+   * Ücretsiz deneme sürümünü kullanırken, su işaretleri veya sınırlamalarla karşılaşabilirsiniz.  
+   * İzin al .[Alışveriş yapın](https://purchase.aspose.com/buy)Ya da bir [Geçici lisans](https://purchase.aspose.com/temporary-license/)\- Hayır .  
+   * Lisansı kodunuza uygulayın:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.PDF.lic");
      ```
 
-## Detaylı
-Doküman, ziyaret [.NET Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)\- Evet .  
-API Referansı ' na bakın .[.NET API Referansı için Aspose.PDF](https://reference.aspose.com/pdf/net/)\- Evet .
+## Ayrıntılı olarak
+Belgeleri, ziyaretleri [Aspose.PDF için .NET Dokümanasyonu](https://docs.aspose.com/pdf/net/)\- Hayır .  
+API Referansına bakın.[Aspose.PDF için .NET API Referansı](https://reference.aspose.com/pdf/net/)\- Hayır .
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

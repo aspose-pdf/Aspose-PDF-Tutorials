@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument, přidat k němu obrázek a upravit velikost obrázku a vlastnosti stránek.
-//ExStepSummary:0: Tento kód iniciálně zařazuje objekt dokumentu a přidává mu novou stránku.
-//ExStepSummary:1: Tato část vytváří obrazovou instanci a nastavuje jeho rozměry a typ souboru.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument, přidat k němu obrázek a upravit velikost obrázku a vlastnosti stránky.
+//ExStepSummary:0: Tento kód inicializuje objekt dokumentu a přidává mu novou stránku.
+//ExStepSummary:1: Tato sekce vytváří obrazovou instanci a nastavuje její rozměry a typ souboru.
 //ExStepSummary:2: Tento krok určuje zdrojový soubor obrázku a přidává ho na stránku.
 //ExStepSummary:3: Tento krok nastavuje vlastnosti stránky včetně šířky a výšky.
-//ExStepSummary:4: Tato část ukládá dokument na uvedenou složku a ověřuje operaci ukládání.
+//ExStepSummary:4: Tato sekce ukládá dokument na stanovenou cestu souboru a ověřuje operaci ukládání.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Uveďte směr adresáře dokumentů
+// Uveďte cestu adresáře dokumentů
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Příklad Objekt dokumentu
+// Zobrazit objekt dokumentu
 Document doc = new Document();
-// Přidejte nový obrázek do dokumentu PDF
+// Přidat nový stránku do dokumentu PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
@@ -25,9 +25,9 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.FixWidth = 100;
 // Nastavte výšku obrazu na 100 bodů
 img.FixHeight = 100;
-// Nastavte typ obrazu jako Neznámý (přiznávejte později)
+// Nastavte typ obrazu na Neznámý (později vyvodíme)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Uveďte směr pro zdrojový soubor obrázků
+// Uveďte cestu pro zdrojový soubor obrazu
 img.File = dataDir + "aspose-logo.jpg";
 // Přidejte obrázek do odstavců stránky
 page.Paragraphs.Add(img);
@@ -39,9 +39,9 @@ page.PageInfo.Width = 800;
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Uveďte výstupní soubor
+// Uveďte cestu výstupního souboru
 dataDir = dataDir + "SetImageSize_out.pdf";
-// Uložte výsledný PDF dokument
+// Uložit výsledný PDF dokument
 doc.Save(dataDir);
 
 //ExStep:5-

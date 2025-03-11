@@ -1,66 +1,66 @@
 //ExStart
-//ExSummaryA kód bemutatja, hogyan lehet PDF dokumentumot létrehozni a Aspose.PDF segítségével, két diagonal vonalat rajzolva az oldalon.
-//ExStepSummary:0: Indítsa be az út a dokumentumok címlapjához, ahol a PDF-t meg kell menteni.
-//ExStepSummary:1: Készíts egy új Dokumentum példányot a PDF-hez.
-//ExStepSummary:2: Adjon egy oldalt a dokumentum oldalak gyűjteményéhez.
-//ExStepSummary:3: Minden oldalnál nullára kell állítani a oldal marginát.
-//ExStepSummary:4: Készítsen egy grafikon objektumot, amely a rajz területet képviseli, amelynek mérete egyenlő a oldal méretével.
-//ExStepSummary:5: Készítsd az első sor objektumot a bal aljánról a jobb felső sarokig.
-//ExStepSummary:6: Adja be az első vonalt a Graph objektum formák gyűjteményéhez.
-//ExStepSummary:7: Készítsd a második sor objektumot a oldal bal felső és jobb alsó sarkjáig.
-//ExStepSummary:8: Adja a második vonalt a Graph objektum formák gyűjteményéhez.
-//ExStepSummary:9: Adja meg a sorokat tartalmazó Graph objektumot a lap bekezdések gyűjteményéhez.
-//ExStepSummary:10: Az előállítási PDF fájl mentéséhez az egész útvonal felépítése.
-//ExStepSummary:11: A PDF dokumentumot a megadott útvonalra mentse meg.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot az Aspose.PDF segítségével, két átlóvonalat rajzolva az oldalon.
+//ExStepSummary:0: Kezdje meg a PDF-t tároló dokumentumok címlete útvonalát.
+//ExStepSummary:1: Hozzon létre egy új Dokumentum példányt a PDF-hez.
+//ExStepSummary:2: Adjon hozzá egy oldalt a dokumentum oldalak gyűjteményéhez.
+//ExStepSummary:3: A lapok minden oldalán nullára állítsuk.
+//ExStepSummary:4: Hozzon létre egy Graph objektumot, amely a rajzterületet a lapmérethez egyenlő méretűvel képviseli.
+//ExStepSummary:5: Hozzon létre az első sor objektumot az oldal bal alsó sarkából a jobb felső sarkába.
+//ExStepSummary:6: Adja hozzá az első sort a Graph objektum alakzatgyűjteményéhez.
+//ExStepSummary:7: Hozzon létre a második sor objektumot a oldal bal felső sarkából a jobb alsó sarkába.
+//ExStepSummary:8: A második sort a Graph objektum alakzatgyűjteményébe kell hozzáadni.
+//ExStepSummary:9: A sorokat tartalmazó Graph objektumot adjuk hozzá az oldal bekezdésgyűjteményéhez.
+//ExStepSummary:10: A kimeneti PDF fájl mentéséhez szükséges teljes útvonal elkészítése.
+//ExStepSummary:11: Tedd a PDF dokumentumot a megadott útvonalra.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Indítsa be a dokumentumjegyzék útját
+// A dokumentumokat tartalmazó címtár útvonalának megkezdése
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Készítsd a dokumentum példányát
+// Dokumentum példány létrehozása
 Document pDoc = new Document();
 
 //ExStep:2-
-// Oldalak PDF dokumentum gyűjteményének oldalához
+// Oldalakhoz hozzáadott PDF dokumentum gyűjteménye
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// A oldal minden oldalán 0-ra
+// A lapok minden oldalán 0-ra állítsuk be a határokat.
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Tegyünk létre Graph objektumot, amelynek szélessége és magassága egyenlő a oldal méretével
+// A szélessége és magassága egyenlő a lapméretével
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Az első sor objektum létrehozása a oldal alsó balról a jobbfelé
+// Az első sor objektum létrehozása az oldal bal alsó sarkából a jobb felső sarkába
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Rajzolj egy vonalt a oldal bal felső sarkából a jobb alsó sarkjáig
+// Húzza meg a vonal a oldal bal felső sarkából a oldal jobb alsó sarkába
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
-// Adjon második vonalt a formák gyűjteményének Graph objektum
+// A Graph objektum formák gyűjteményéhez második sor hozzáadása
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Adjon Graph objektumot a bekezdések oldal gyűjteménye
+// Graph objektumot hozzáadni a bekezdéshez
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Az előállítási PDF fájl mentésére készítsen teljes útvonalat
+// A kimeneti PDF fájl mentéséhez szükséges teljes útvonal létrehozása
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-
-// Takarítsa meg a PDF fájlt
+// Tároljon a PDF fájlt
 pDoc.Save(dataDir);
-// Kijárati megerősítési üzenet
+// Kibocsátás-megerősítő üzenet
 Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
 //ExEnd

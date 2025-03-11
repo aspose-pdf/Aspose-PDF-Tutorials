@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF với một bảng có hai đường viền ở cả hai bên trên và dưới. 
+//ExStepSummary:0: Tạo một đối tượng Document và thêm một trang vào nó.
+//ExStepSummary:1: Tạo đối tượng BorderInfo để xác định thuộc tính border cho các ô bảng.
+//ExStepSummary:2: Tạo một đối tượng Table và chỉ định chiều rộng cột.
+//ExStepSummary:3: Thêm một hàng vào bảng và chèn một Cell chứa văn bản.
+//ExStepSummary:4: Thiết lập đường biên kép cho ô bằng đối tượng BorderInfo.
+//ExStepSummary:5: Thêm bảng vào bộ sưu tập đoạn của trang và lưu tài liệu vào đường dẫn file đã chỉ định.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Định nghĩa đường dẫn đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Tạo ra đối tượng tài liệu.
+Document doc = new Document();
+// Thêm một trang vào tài liệu PDF. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Tạo đối tượng BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Xác định rằng ranh giới trên sẽ là đôi
+border.Top.IsDoubled = true; 
+// Xác định rằng ranh giới dưới sẽ là đôi
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Tạo ra đối tượng Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Xác định thông tin chiều rộng cột
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Tạo đối tượng Row cho bảng.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Thêm ô bảng vào ô tập hợp hàng
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Áp dụng các thiết lập biên giới được xác định trước đó.
+cell.Border = border;
+
+//ExStep:5-
+// Thêm bảng vào tập các đoạn của trang.
+page.Paragraphs.Add(table);
+// Xác định đường dẫn file đầu ra.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Lưu tài liệu PDF
+doc.Save(dataDir);
+// In thông báo thành công với đường dẫn file.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

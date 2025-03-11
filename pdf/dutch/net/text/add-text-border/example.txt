@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe u een PDF-document maakt met een tekstfragment met een specifieke stijl en een rand.
+//ExStepSummary:0: De volgende code initialiseert het pad voor het opslaan van het PDF-document.
+//ExStepSummary:1: De volgende code creëert een nieuw PDF-documentobject.
+//ExStepSummary:2: De volgende code voegt een nieuwe pagina toe aan het PDF-document.
+//ExStepSummary:3: De volgende code creëert een tekstfragment met een bepaalde inhoud en positie.
+//ExStepSummary:4: De volgende code stelt de eigenschappen van het tekstfragment vast, inclusief lettergrootte en kleuren.
+//ExStepSummary:5: De volgende code maakt het mogelijk om een rand rond het tekstrechthoekje te tekenen.
+//ExStepSummary:6: De volgende code voegt het tekstfragment aan de PDF-pagina toe met behulp van een TextBuilder.
+//ExStepSummary:7: De volgende code slaat het PDF-document op in de opgegeven map.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Het pad initialiseren om het document op te slaan
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Een nieuw PDF-document object maken
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Een nieuwe pagina toevoegen aan het PDF-document
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Een tekstfragment maken met de opgegeven inhoud
+TextFragment textFragment = new TextFragment("main text");
+// Plaats van het tekstfragment
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Stel de lettergrootte van de tekst in
+textFragment.TextState.FontSize = 12;
+// Het lettertype instellen
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Stel de achtergrondkleur van de tekst in
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Stel de voorgrondkleur van de tekst in
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Stel de streepkleuren voor de rand in
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Het tekenen van de rand om de tekst in te schakelen
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Een TextBuilder-object maken voor de pagina
+TextBuilder tb = new TextBuilder(pdfPage);
+// Voeg het tekstfragment aan de PDF-pagina toe
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Bewaar het document op het opgegeven pad
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

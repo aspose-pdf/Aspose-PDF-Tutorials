@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать многоуровневый PDF-документ с помощью библиотеки Aspose.PDF. Он устанавливает границы, добавляет текст с форматированием HTML и организует содержание в столбцы.
+//ExStepSummary:0: Этот шаг устанавливает каталог документов, инициирует новый документ PDF и настраивает его края страниц.
+//ExStepSummary:1: Этот шаг добавляет новую страницу в документ и рисует горизонтальную линию с использованием классов Graph и Line.
+//ExStepSummary:2: Этот шаг создает HtmlFragment с форматированным текстом и добавляет его в документ PDF.
+//ExStepSummary:3: Этот шаг создает плавучую коробку для двухколонного макета и добавляет в нее информацию об авторе.
+//ExStepSummary:4: Этот шаг рисует еще одну горизонтальную линию внутри плавающей коробки для визуального разделения.
+//ExStepSummary:5: Этот шаг добавляет длинный фрагмент текста в FloatingBox, чтобы продемонстрировать распределение контента в нескольких столбцах.
+//ExStepSummary:6: Этот шаг сохраняет документ на указанном выходном пути и печатает сообщение об успехе.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Определить путь к каталогу документов
+string dataDir = "Your Document Directory";
+// Создать новый экземпляр документа
+Document doc = new Document(); 
+
+// Укажите информацию левого края для файла PDF
+doc.PageInfo.Margin.Left = 40; 
+// Укажите информацию правого края для файла PDF
+doc.PageInfo.Margin.Right = 40;
+// Добавить новую страницу в документ
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Создать новый объект Graph для черчения линии
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Добавить строку в абзац коллекция объекта раздела
+page.Paragraphs.Add(graph1);
+
+// Укажите координаты для линии
+// Определите начало и конец линии
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Создать линию с указаными координатами
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Добавить форму линии в график
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Создание переменных строки с текстом , содержащим теги html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Создать HtmlFragment для текста заголовка
+HtmlFragment heading_text = new HtmlFragment(s);
+// Добавить текст заголовка на страницу 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Создать новую плавучую коробку для многоуровневого макета
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Установите количество столбцов на 2
+box.ColumnInfo.ColumnCount = 2; 
+// Установка расстояния между столбцами
+box.ColumnInfo.ColumnSpacing = "5";
+// Установка ширины для каждой колонки
+box.ColumnInfo.ColumnWidths = "105 105";
+// Создать фрагмент текста для информации об авторе
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Установка размера шрифта для текста
+text1.TextState.FontSize = 8;
+// Установка интервала между строками для текста
+text1.TextState.LineSpacing = 2;
+// Добавить текст автора в плавучую коробку
+box.Paragraphs.Add(text1);
+// Обновление размера шрифта для текста
+text1.TextState.FontSize = 10;
+// Установка стиля шрифта на курсив
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Создать другой объект Graph для черчения второй строки
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Укажите координаты для линии
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Добавьте вторую форму строки к графику
+graph2.Shapes.Add(l2);
+
+// Добавить строку в абзац коллекция объекта раздела
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Создать длинный фрагмент текста для демонстрации содержания в столбцах
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Добавить длинный текст в плавающее поле
+box.Paragraphs.Add(text2); 
+// Добавить в страницу плавучую коробку со всем содержанием
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Укажите путь вывода PDF- файла
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Сохранить документ по указанному пути
+doc.Save(dataDir); 
+// Сообщение об успешном отпечатке
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

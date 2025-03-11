@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument s textovým fragmentem, který má specifický styl a okraj.
+//ExStepSummary:0: Následující kód inicializuje cestu pro ukládání dokumentu PDF.
+//ExStepSummary:1: Následující kód vytváří nový objekt dokumentu PDF.
+//ExStepSummary:2: Následující kód přidává do dokumentu PDF novou stránku.
+//ExStepSummary:3: Následující kód vytváří textový fragment s specifikovaným obsahem a polohou.
+//ExStepSummary:4: Následující kód stanoví vlastnosti textového fragmentu včetně velikosti písma a barev.
+//ExStepSummary:5: Následující kód umožňuje kreslit okraj kolem textového obdélníku.
+//ExStepSummary:6: Následující kód přidává textový fragment na stránku PDF pomocí TextBuilderu.
+//ExStepSummary:7: Následující kód ukládá PDF dokument do určeného adresáře.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Inicializovat cestu k ukládání dokumentu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Vytvořit nový PDF dokumentový objekt
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Přidat nový stránku do dokumentu PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Vytvořit textový fragment s uvedeným obsahem
+TextFragment textFragment = new TextFragment("main text");
+// Nastavit polohu textového fragmentu
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Nastavte velikost písma textu
+textFragment.TextState.FontSize = 12;
+// Nastavit typ písma
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Nastavte barvu pozadí textu
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Nastavte barvu předního podlahy textu
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Nastavte barvu škrtání pro okraj
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Způsob kreslení okraje kolem textu
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Vytvořit objekt TextBuilder pro stránku
+TextBuilder tb = new TextBuilder(pdfPage);
+// Přiložit textový fragment na stránku PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Uložit dokument na zadání cesty
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

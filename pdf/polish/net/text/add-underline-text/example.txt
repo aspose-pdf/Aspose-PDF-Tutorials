@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF i dodać fragment tekstu z formatowaniem podkreślonym.
+//ExStepSummary:0: Określ katalog, w którym zostanie zapisane plik PDF.
+//ExStepSummary:1: Zainicjować nowy dokument PDF i dodać do niego stronę.
+//ExStepSummary:2: Utworzenie obiektu TextBuilder dla pierwszej strony dokumentu.
+//ExStepSummary:3: Utwórz fragment tekstu z wiadomością testową, ustaw jego czcionkę na Arial, rozmiar na 10, i włącz formatowanie podkreślenia.
+//ExStepSummary:4: Określ pozycję fragmentu tekstu w pliku PDF i dołącz go do programu TextBuilder.
+//ExStepSummary:5: Określ ścieżkę pliku wyjściowego i zapisz dokument PDF.
+//ExStepSummary:6: Wyświetlanie wiadomości o sukcesie, w której podkreślony tekst został dodany i wyświetlono lokalizację pliku.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Określ katalogi, w których zostanie zapisane dokumenty.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Inicjalizuj nowy dokument PDF.
+Document pdfDocument = new Document();
+// Dodaj nową stronę do dokumentu.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Utwórz TextBuilder dla pierwszej strony.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Utworzenie fragmentu tekstu z podanym tekstem.
+TextFragment fragment = new TextFragment("Test message");
+// Ustaw czcionkę na Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Ustaw rozmiar czcionki na 10.
+fragment.TextState.FontSize = 10;
+// Włącz formatowanie podkreślenia tekstu.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Określ pozycję fragmentu tekstu w pliku PDF.
+fragment.Position = new Position(10, 800);
+// Dołącz fragment tekstu do programu TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Określ ścieżkę pliku wyjściowego dla pliku PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Zapisz dokument na określonej ścieżce.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// /Wysyłka wiadomości o sukcesie.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

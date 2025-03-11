@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Este código demonstra como criar um documento PDF de várias colunas usando a biblioteca Aspose.PDF. Ele define margens, adiciona texto com formatação HTML e organiza o conteúdo em colunas.
+//ExStepSummary:0: Esta etapa define o diretório de documentos, inicializa um novo documento PDF e configura as margens da página.
+//ExStepSummary:1: Esta etapa adiciona uma nova página ao documento e desenha uma linha horizontal usando as classes Graph e Line.
+//ExStepSummary:2: Esta etapa cria um HtmlFragment com texto formatado e o adiciona ao documento PDF.
+//ExStepSummary:3: Esta etapa cria uma FloatingBox para um layout de duas colunas e adiciona informações do autor.
+//ExStepSummary:4: Esta etapa desenha outra linha horizontal dentro da FloatingBox para separação visual.
+//ExStepSummary:5: Esta etapa adiciona um fragmento de texto longo ao FloatingBox para demonstrar a distribuição de conteúdo em várias colunas.
+//ExStepSummary:6: Esta etapa salva o documento no caminho de saída especificado e imprime uma mensagem de sucesso.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Defina o caminho para o diretório de documentos
+string dataDir = "Your Document Directory";
+// Criar uma nova instância do Documento
+Document doc = new Document(); 
+
+// Especifique a informação da margem esquerda para o arquivo PDF
+doc.PageInfo.Margin.Left = 40; 
+// Especifique a informação da margem direita para o arquivo PDF
+doc.PageInfo.Margin.Right = 40;
+// Adicionar uma nova página ao documento
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Criar um novo objeto Graph para desenhar uma linha
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Adicionar a linha para parágrafos coleção de objeto de seção
+page.Paragraphs.Add(graph1);
+
+// Especificar as coordenadas da linha
+// Defina os pontos de início e fim da linha
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Criar uma forma de linha com coordenadas especificadas
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Adicionar a forma da linha ao gráfico
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Criar variáveis de cadeia com texto contendo tags html
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Criar um HtmlFragment para o texto do cabeçalho
+HtmlFragment heading_text = new HtmlFragment(s);
+// Adicionar o texto do cabeçalho à página 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Criar uma nova FloatingBox para layout de várias colunas
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Defina o número de colunas para 2
+box.ColumnInfo.ColumnCount = 2; 
+// Configure o espaçamento entre as colunas
+box.ColumnInfo.ColumnSpacing = "5";
+// Configure a largura para cada coluna
+box.ColumnInfo.ColumnWidths = "105 105";
+// Criar um fragmento de texto para informações do autor
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Defina o tamanho da fonte para o texto
+text1.TextState.FontSize = 8;
+// Configure o espaçamento de linha para o texto
+text1.TextState.LineSpacing = 2;
+// Adicionar o texto do autor à caixa flutuante
+box.Paragraphs.Add(text1);
+// Atualizar o tamanho da fonte do texto
+text1.TextState.FontSize = 10;
+// Defina o estilo da fonte em itálico
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Criar outro objeto Graph para desenhar uma segunda linha
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Especificar as coordenadas da linha
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Adicione a forma da segunda linha ao gráfico
+graph2.Shapes.Add(l2);
+
+// Adicionar a linha para parágrafos coleção de objeto de seção
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Criar um fragmento de texto longo para demonstrar conteúdo em colunas
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Adicionar o texto longo à caixa flutuante
+box.Paragraphs.Add(text2); 
+// Adicionar a caixa flutuante contendo todo o conteúdo da página
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Especifique o caminho do arquivo PDF de saída
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Salvar o documento no caminho especificado
+doc.Save(dataDir); 
+// Mensagem de sucesso de impressão
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

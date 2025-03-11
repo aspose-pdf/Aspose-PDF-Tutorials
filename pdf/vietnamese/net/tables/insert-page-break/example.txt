@@ -1,59 +1,59 @@
 //ExStart
-//ExSummary: Mã này cho thấy cách tạo tài liệu PDF bằng cách sử dụng Aspose.PDF, thêm bảng với phong cách biên giới cụ thể, và thực hiện trang sau một số hàng nhất định.
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF bằng cách sử dụng Aspose.PDF, thêm một bảng với các kiểu biên cụ thể và thực hiện xếp hạng sau một số dòng nhất định.
 //ExStepSummary:0: Bước này khởi tạo tài liệu và thêm một trang vào nó.
-//ExStepSummary:1: Bước này tạo ra một phiên bản bảng và đặt các phong cách biên giới của nó.
-//ExStepSummary:2: Bước này chỉ định chiều rộng cột cho bảng.
-//ExStepSummary:3: Bước này thêm 200 hàng vào bảng, với mỗi hàng chứa hai tế bào.
-//ExStepSummary:4: Bước này kiểm tra xem có 10 hàng đã được thêm vào và di chuyển đến một trang mới nếu có.
-//ExStepSummary:5: Bước này thêm bảng hoàn thành vào trang của tài liệu PDF và lưu nó.
+//ExStepSummary:1: Bước này tạo ra một thực thể bảng và thiết lập phong cách biên của nó.
+//ExStepSummary:2: Bước này xác định chiều rộng cột cho bảng.
+//ExStepSummary:3: Bước này thêm 200 hàng vào bảng, với mỗi hàng chứa hai ô.
+//ExStepSummary:4: Bước này kiểm tra xem có thêm 10 hàng không và di chuyển đến một trang mới nếu có.
+//ExStepSummary:5: Bước này thêm bảng đã hoàn thành vào trang tài liệu PDF và lưu nó.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// Con đường đến thư mục tài liệu
+// Đường dẫn đến thư mục tài liệu
 string dataDir = "Your Document Directory";
 
-// Instance Document instance
+// Tạo bản sao tài liệu
 Document doc = new Document();
 
-// Thêm trang vào các trang tập tin PDF
+// Thêm trang vào trang bộ sưu tập tệp PDF
 doc.Pages.Add();
 
 //ExStep:1-
-// Tạo một phiên bản bảng
+// Tạo một biểu mẫu bảng
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// Thiết lập phong cách biên giới cho bàn
+// Đặt phong cách đường viền cho bảng
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Thiết lập kiểu biên mặc định cho bảng với màu biên như đỏ
+// Đặt kiểu biên mặc định cho bảng với màu biên là Đỏ
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// Định nghĩa chiều rộng cột bảng (2 cột, mỗi 100 đơn vị)
+// Xác định chiều rộng cột bảng (2 cột, mỗi 100 đơn vị)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
 // Tạo vòng lặp để thêm 200 hàng cho bảng
 for (int counter = 0; counter <= 200; counter++)
 {
-	// Tạo một hàng mới
+	// Tạo hàng mới
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
 	// Thêm hàng vào bảng
     tab.Rows.Add(row); 
 
-    // Tạo tế bào đầu tiên và thêm văn bản
+    // Tạo ô đầu tiên và thêm văn bản
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
 	// Thêm đoạn văn bản vào ô đầu tiên	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
-	// Thêm tế bào đầu tiên vào hàng
+	// Thêm ô đầu tiên vào hàng
     row.Cells.Add(cell1); 
 
-    // Tạo tế bào thứ hai và thêm văn bản
+    // Tạo ô thứ hai và thêm văn bản
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
 	// Thêm đoạn văn bản vào ô thứ hai	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// Thêm tế bào thứ hai vào hàng
+	// Thêm ô thứ hai vào hàng
     row.Cells.Add(cell2); 
     
 //ExStep:4-
@@ -63,12 +63,12 @@ for (int counter = 0; counter <= 200; counter++)
 }
 
 //ExStep:5-
-// Thêm bảng vào bộ sưu tập các đoạn của trang đầu tiên
+// Thêm bảng vào mục tập hợp của trang đầu tiên
 doc.Pages[1].Paragraphs.Add(tab); 
-// Định nghĩa đường dẫn tệp đầu ra
+// Định nghĩa đường dẫn file đầu ra
 dataDir = dataDir + "InsertPageBreak_out.pdf";
-// Cung cấp tài liệu PDF
+// Lưu tài liệu PDF
 doc.Save(dataDir); 
-// Thông điệp xác nhận
+// Thông báo xác nhận
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
 //ExEnd

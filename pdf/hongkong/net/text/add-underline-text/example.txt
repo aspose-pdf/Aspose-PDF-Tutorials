@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary這份代碼展示了如何創建PDF文檔並添加有下線格式化的文字片段.
+//ExStepSummary:0: 定義將保存PDF文檔的目錄.
+//ExStepSummary:1: 啟動新的PDF文檔並添加一頁.
+//ExStepSummary:2: 創建文本第一個頁面的 TextBuilder 對象.
+//ExStepSummary:3: 建立一個與測試訊息的 TextFragment, 將其字體設定為 Arial, 尺寸為 10, 並啟用下線格式化.
+//ExStepSummary:4: 指定PDF中文本片段的位置,並將其附加到文本建構器中.
+//ExStepSummary:5: 定義輸出檔案路徑並儲存PDF文檔.
+//ExStepSummary:6: 顯示文件位置.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 定義文件將會保存的目錄.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 啟動新的PDF文檔.
+Document pdfDocument = new Document();
+// 添加一個新頁面.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// 創建第一個頁面的 TextBuilder.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// 建立一個與指定文本的 TextFragment.
+TextFragment fragment = new TextFragment("Test message");
+// 設定字體為Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// 設定字體大小為10.
+fragment.TextState.FontSize = 10;
+// 啟用文字的下標格式.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// 指定文本片段在 PDF 中的位置.
+fragment.Position = new Position(10, 800);
+// 附上文本片段到文本建構器.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// 定義PDF的輸出檔案路徑.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// 保存文件在指定路徑上.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// 發出成功訊息.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

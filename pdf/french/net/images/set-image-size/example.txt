@@ -1,19 +1,19 @@
 //ExStart
-//ExSummaryCe code montre comment créer un document PDF, y ajouter une image, y ajuster la taille de l'image et les propriétés de la page.
-//ExStepSummary:0: Ce code initiale l'objet du document et y ajoute une nouvelle page.
+//ExSummary: Ce code démontre comment créer un document PDF, y ajouter une image, ajuster la taille de l'image et les propriétés de la page.
+//ExStepSummary:0: Ce code initie l'objet du document et y ajoute une nouvelle page.
 //ExStepSummary:1: Cette section crée une instance d'image et définit ses dimensions et son type de fichier.
 //ExStepSummary:2: Cette étape spécifie le fichier source de l'image et l'ajoute à la page.
 //ExStepSummary:3: Cette étape définit les propriétés de la page, y compris la largeur et la hauteur.
-//ExStepSummary:4: Cette section sauvegarde le document sur le chemin de fichier spécifié et vérifie l'opération de sauvegarde.
+//ExStepSummary:4: Cette section enregistre le document sur le chemin de fichier spécifié et vérifie l'opération de sauvegarde.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Indiquer le chemin de l'annuaire de documents
+// Spécifier le chemin du répertoire de documents
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Objet de document instantané
+// Installé objet Document
 Document doc = new Document();
 // Ajouter une nouvelle page au document PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
@@ -21,13 +21,13 @@ Aspose.Pdf.Page page = doc.Pages.Add();
 //ExStep:2-
 // Créer une instance d'image
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// Définir la largeur de l'image à 100 points
+// Mettre la largeur de l'image à 100 points
 img.FixWidth = 100;
-// Réglez la hauteur de l'image à 100 points
+// Mettre la hauteur de l'image à 100 points
 img.FixHeight = 100;
 // Définir le type d'image comme inconnu (à déduire plus tard)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Indiquez le chemin pour le fichier image source
+// Spécifiez le chemin du fichier image source
 img.File = dataDir + "aspose-logo.jpg";
 // Ajouter l'image aux paragraphes de la page
 page.Paragraphs.Add(img);
@@ -39,12 +39,12 @@ page.PageInfo.Width = 800;
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Indiquez le chemin du fichier de sortie
+// Spécifiez le chemin du fichier de sortie
 dataDir = dataDir + "SetImageSize_out.pdf";
-// Enregistrez le document PDF résultant
+// Enregistrer le document PDF résultant
 doc.Save(dataDir);
 
 //ExStep:5-
-// Informer l'utilisateur de l' opération réussie
+// Informer l'utilisateur de la réussite de l'opération
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd

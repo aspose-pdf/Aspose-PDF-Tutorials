@@ -1,19 +1,19 @@
 //ExStart
-//ExSummary: Mã này cho thấy cách tạo tài liệu PDF, thêm hình ảnh vào nó, và điều chỉnh kích thước hình ảnh và tính chất trang. Nó cũng xử lý lưu tài liệu và thông báo cho người dùng về thành công của hoạt động.
-//ExStepSummary:0: Mã này khởi tạo đối tượng tài liệu và thêm một trang mới vào nó.
-//ExStepSummary:1: Phần này tạo ra một bản thể hiện hình ảnh và đặt kích thước và loại tệp của nó.
-//ExStepSummary:2: Bước này chỉ định tệp nguồn cho hình ảnh và thêm vào trang.
-//ExStepSummary:3: Bước này thiết lập các tính chất trang bao gồm chiều rộng và chiều cao.
-//ExStepSummary:4: Phần này lưu tài liệu vào đường dẫn tập tin được chỉ định và xác minh hoạt động lưu.
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF, thêm một hình ảnh vào nó, và điều chỉnh kích thước hình ảnh và thuộc tính trang. Nó cũng xử lý lưu tài liệu và thông báo cho người dùng về sự thành công của hoạt động.
+//ExStepSummary:0: Mã này khởi tạo đối tượng tài liệu và thêm một trang mới vào đó.
+//ExStepSummary:1: Phần này tạo một hình ảnh và thiết lập kích thước và loại tệp của nó.
+//ExStepSummary:2: Bước này xác định tệp nguồn cho hình ảnh và thêm nó vào trang.
+//ExStepSummary:3: Bước này thiết lập các thuộc tính trang bao gồm chiều rộng và chiều cao.
+//ExStepSummary:4: Phần này lưu tài liệu vào đường dẫn file đã chỉ định và xác minh hoạt động lưu.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
 //ExStep:0-
-// Định hướng thư mục tài liệu
+// Xác định đường dẫn thư mục tài liệu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Quản phẩm Document
+// Tạo đối tượng tài liệu
 Document doc = new Document();
 // Thêm một trang mới vào tài liệu PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
@@ -21,13 +21,13 @@ Aspose.Pdf.Page page = doc.Pages.Add();
 //ExStep:2-
 // Tạo một ví dụ hình ảnh
 Aspose.Pdf.Image img = new Aspose.Pdf.Image();
-// Đặt chiều rộng hình ảnh lên 100 điểm
+// Thiết lập chiều rộng hình ảnh đến 100 điểm
 img.FixWidth = 100;
-// Đặt độ cao hình ảnh lên 100 điểm
+// Đặt chiều cao hình ảnh lên 100 điểm
 img.FixHeight = 100;
-// Đặt loại hình ảnh là Không biết (để được suy luận sau đó)
+// Đặt hình ảnh loại là Unknown (được suy luận sau)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// Định hướng cho tệp hình ảnh nguồn
+// Xác định đường dẫn cho tệp hình ảnh nguồn
 img.File = dataDir + "aspose-logo.jpg";
 // Thêm hình ảnh vào các đoạn văn của trang
 page.Paragraphs.Add(img);
@@ -39,9 +39,9 @@ page.PageInfo.Width = 800;
 page.PageInfo.Height = 800;
 
 //ExStep:4-
-// Định hướng tệp đầu ra
+// Xác định đường dẫn file đầu ra
 dataDir = dataDir + "SetImageSize_out.pdf";
-// Cung cấp tài liệu PDF kết quả
+// Lưu tài liệu PDF
 doc.Save(dataDir);
 
 //ExStep:5-

@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary這段代碼展示如何使用 Aspose.Pdf 創建 PDF 文檔,
+//ExStepSummary:0: 以下代碼設定文件目錄的路徑.
+//ExStepSummary:1: 以下代碼即可實現一個文件實例.
+//ExStepSummary:2: 以下代碼將一個頁面添加到PDF檔案的頁面集合中.
+//ExStepSummary:3: 圖表是一個圖形圖案,
+//ExStepSummary:4: 接下來的代碼創建一個具有特定尺寸和填色的長方形對象.
+//ExStepSummary:5: 接下來的代碼創建第二個矩形對象,
+//ExStepSummary:6: 接下來的代碼將圖示實例添加到頁面的段落集合中.
+//ExStepSummary:7: 接下來的代碼會保存PDF檔案,並將成功訊息打印給控制台.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// 步來定義保存文檔的目錄
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 建立文件實例以創建PDF
+Document doc = new Document();
+
+//ExStep:2-
+// 添加一個新頁面到PDF文檔
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// 建立一個圖形畫例
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// 建立具有指定尺寸的矩形
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// 使用ARGB設定填色
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// 建立第二個矩形對象
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// 設定第二個矩形的填充顏色
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// 加入第一個矩形到Graph實例的形狀集合
+canvas.Shapes.Add(rect);
+// 加入第二個矩形到Graph實例的形狀集合
+canvas.Shapes.Add(rect1);
+// 添加圖表實例到頁面的段落集合
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// 準備輸出檔案路徑
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// 保存PDF文件到指定的路徑
+doc.Save(dataDir);
+// 打印成功消息到控制台
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

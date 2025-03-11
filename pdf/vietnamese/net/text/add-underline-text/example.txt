@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo tài liệu PDF và thêm một đoạn văn bản với định dạng nhấn mạnh. Nó bao gồm các bước để tạo tài liệu, thêm văn bản và lưu tệp.
+//ExStepSummary:0: Định nghĩa thư mục nơi tài liệu PDF sẽ được lưu.
+//ExStepSummary:1: Bắt đầu một tài liệu PDF mới và thêm một trang vào nó.
+//ExStepSummary:2: Tạo đối tượng TextBuilder cho trang đầu tiên của tài liệu.
+//ExStepSummary:3: Tạo một TextFragment với tin nhắn thử nghiệm, đặt phông chữ của nó thành Arial, kích thước là 10 và bật định dạng phác thảo.
+//ExStepSummary:4: Xác định vị trí của TextFragment trong PDF và đính kèm nó vào TextBuilder.
+//ExStepSummary:5: Định nghĩa đường dẫn file đầu ra và lưu tài liệu PDF.
+//ExStepSummary:6: Tạo ra thông báo thành công cho biết văn bản được nhấn chân đã được thêm vào và hiển thị vị trí tệp.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Định danh mục nơi tài liệu sẽ được lưu.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Bắt đầu một tài liệu PDF mới.
+Document pdfDocument = new Document();
+// Thêm một trang mới vào tài liệu.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Tạo TextBuilder cho trang đầu tiên.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Tạo TextFragment với văn bản đã chỉ định.
+TextFragment fragment = new TextFragment("Test message");
+// Đặt phông chữ thành Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Đặt kích thước phông chữ thành 10.
+fragment.TextState.FontSize = 10;
+// Cho phép định dạng nhấn chân chữ cho văn bản.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Xác định vị trí của TextFragment trong PDF.
+fragment.Position = new Position(10, 800);
+// Thêm TextFragment vào TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Định nghĩa đường dẫn file đầu ra cho PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Lưu tài liệu vào đường dẫn đã chỉ định.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Tin nhắn thành công.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

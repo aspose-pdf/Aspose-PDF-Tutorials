@@ -1,35 +1,35 @@
 //ExStart
-//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF, menambahkan persegi panjang dengan warna dan Z-index yang berbeda, dan menyimpan dokumen.
-//ExStepSummary:0: Langkah ini mendefinisikan direktori output untuk dokumen PDF dan menginstansiasikan objek Dokument baru dan menambahkan halaman baru dengan dimensi yang ditentukan.
+//ExSummary: Kode ini menunjukkan cara membuat dokumen PDF, menambahkan persegi panjang dengan warna yang berbeda dan Z-index, dan menyimpan dokumen.
+//ExStepSummary:0: Langkah ini mendefinisikan direktori output untuk dokumen PDF dan menginstansikan objek Document baru dan menambahkan halaman baru dengan dimensi yang ditentukan.
 //ExStepSummary:1: Langkah ini menetapkan ukuran halaman dan margin untuk halaman yang baru dibuat.
-//ExStepSummary:2: Langkah ini menambahkan segi empat berwarna merah pada koordinat tertentu dengan indeks Z 2, memastikan muncul di atas bentuk lain.
-//ExStepSummary:3: Langkah ini menambahkan segitiga biru pada koordinat tertentu dengan indeks Z 1, memastikan muncul di bawah segitiga merah tetapi di atas yang lain.
-//ExStepSummary:4: Langkah ini menambahkan segi empat warna hijau pada koordinat yang ditentukan dengan indeks Z 0, memastikan muncul di bagian bawah urutan Z.
+//ExStepSummary:2: Langkah ini menambahkan persegi panjang merah pada koordinat tertentu dengan indeks Z 2, memastikan muncul di atas bentuk lain.
+//ExStepSummary:3: Langkah ini menambahkan persegi panjang biru pada koordinat tertentu dengan indeks Z 1, memastikan muncul di bawah persegi panjang merah tetapi di atas yang lain.
+//ExStepSummary:4: Langkah ini menambahkan persegi panjang hijau pada koordinat tertentu dengan indeks Z 0, memastikan muncul di bagian bawah urutan Z.
 //ExStepSummary:5: Langkah ini menyimpan dokumen PDF ke jalur file output yang ditentukan.
-//ExStepSummary:6: Langkah ini mendefinisikan metode untuk mengkapsulasi logika untuk menambahkan segi empat ke halaman PDF, termasuk mengatur sifat dan Z-index mereka.
+//ExStepSummary:6: Langkah ini mendefinisikan metode untuk mengkapsulkan logika untuk menambahkan persegi panjang ke halaman PDF, termasuk mengatur sifat dan indeks Z-nya.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Menentukan direktori dokumen
+// Tentukan direktori dokumen
 string dataDir = "Your Document Directory";
 
-// Objek kelas Dokumen instan
+// Instansiasi objek kelas dokumen
 Document doc1 = new Document();
 
 // Tambahkan halaman baru ke dokumen
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
 
 //ExStep:1-
-// Set ukuran halaman
+// Atur ukuran halaman
 page1.SetPageSize(375, 300);
 
-// Set margin halaman ke 0
+// Atur margin halaman ke 0
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
 //ExStep:2-
-// Tambahkan segi empat warna merah dengan indeks Z 2
+// Tambahkan persegi panjang merah dengan indeks Z 2
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 
 //ExStep:3-
@@ -37,7 +37,7 @@ AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 
 //ExStep:4-
-// Tambahkan segi empat warna hijau dengan indeks Z 0
+// Tambahkan persegi panjang hijau dengan indeks Z 0
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 
 //ExStep:5-
@@ -46,30 +46,30 @@ string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
 doc1.Save(outputFilePath);
 
 //ExStep:6-
-// Metode untuk menambahkan segi empat ke halaman PDF
+// Metode untuk menambahkan persegi panjang ke halaman PDF
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // Buat objek grafik dengan dimensi yang sama dengan segi empat
+    // Buat objek grafik dengan dimensi yang sama dengan persegi panjang
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Hindari posisi grafik berubah secara otomatis
+    // Mencegah posisi grafik berubah secara otomatis
     graph.IsChangePosition = false;
     
-    // Set posisi grafik
+    // Tentukan posisi grafik
     graph.Left = x;
     graph.Top = y;
     
     // Buat persegi panjang di dalam grafik
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Set warna penambahan persegi panjang dan tepi
+    // Tentukan isian persegi panjang dan warna tepi
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // Tambahkan segi empat ke koleksi bentuk grafik
+    // Tambahkan persegi panjang ke koleksi bentuk grafik
     graph.Shapes.Add(rect);
     
-    // Set Z-index untuk objek grafik
+    // Setel indeks Z untuk objek grafik
     graph.ZIndex = zindex;
     
     // Tambahkan grafik ke halaman

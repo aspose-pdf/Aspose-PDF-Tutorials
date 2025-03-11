@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि PDF दस्तावेज़ को उसकी छवियों को संपीड़ित करके अनुकूलित कैसे किया जाए. यह एक PDF लोड करता है, छवि आकार को कम करने के लिए अनुकूलन विकल्प लागू करता है, और अद्यतन दस्तावेज़ को सहेजता है.
+//ExStepSummary:0: यह चरण दस्तावेज़ निर्देशिका के पथ को आरंभ करता है.
+//ExStepSummary:1: यह चरण अनुकूलन के लिए निर्दिष्ट पीडीएफ दस्तावेज़ खोलता है.
+//ExStepSummary:2: यह चरण पीडीएफ दस्तावेज़ के लिए अनुकूलन विकल्पों को आरंभ करता है.
+//ExStepSummary:3: यह चरण छवि संपीड़न विकल्प को सही पर सेट करता है.
+//ExStepSummary:4: यह चरण छवि गुणवत्ता विकल्प को 50 पर सेट करता है.
+//ExStepSummary:5: यह चरण निर्दिष्ट अनुकूलन विकल्पों का उपयोग करके पीडीएफ दस्तावेज़ को अनुकूलित करता है.
+//ExStepSummary:6: यह चरण अनुकूलित पीडीएफ दस्तावेज़ के लिए पथ को अद्यतन करता है.
+//ExStepSummary:7: यह चरण अनुकूलित पीडीएफ दस्तावेज़ को निर्दिष्ट पथ पर सहेजता है.
+//ExStepImage:5:images/1.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का मार्ग
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// पीडीएफ दस्तावेज़ खोलें
+Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
+
+//ExStep:2-
+// अनुकूलन विकल्प आरंभ करें
+var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
+
+//ExStep:3-
+// छवि संपीड़न सक्षम करें
+optimizeOptions.ImageCompressionOptions.CompressImages = true;
+
+//ExStep:4-
+// छवि गुणवत्ता को 50% पर सेट करें
+optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
+
+//ExStep:5-
+// सेटिंग्स का उपयोग करके PDF दस्तावेज़ को अनुकूलित करें
+pdfDocument.OptimizeResources(optimizeOptions);
+
+//ExStep:6-
+// अनुकूलित पीडीएफ के लिए आउटपुट पथ को परिभाषित करें
+dataDir = dataDir + "Shrinkimage_out.pdf";
+
+//ExStep:7-
+// अद्यतन दस्तावेज़ सहेजें
+pdfDocument.Save(dataDir);
+// आउटपुट पुष्टिकरण संदेश
+Console.WriteLine("\nImage shrunk successfully.\nFile saved at " + dataDir);
+//ExEnd

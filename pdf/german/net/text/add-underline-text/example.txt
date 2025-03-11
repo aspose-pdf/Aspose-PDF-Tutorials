@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument erstellt und ein Textfragment mit Unterstrichen formatiert hinzufügt.
+//ExStepSummary:0: Definieren Sie das Verzeichnis, in dem das PDF-Dokument gespeichert wird.
+//ExStepSummary:1: Initialisieren Sie ein neues PDF-Dokument und fügen Sie eine Seite hinzu.
+//ExStepSummary:2: Erstellen Sie ein TextBuilder-Objekt für die erste Seite des Dokuments.
+//ExStepSummary:3: Erstellen Sie ein TextFragment mit der Testnachricht, setzen Sie die Schriftart auf Arial, Größe auf 10 und aktivieren Sie die Unterstrichformatierung.
+//ExStepSummary:4: Geben Sie die Position des TextFragments in der PDF an und fügen Sie ihn dem TextBuilder bei.
+//ExStepSummary:5: Definieren Sie den Ausgabe-Dateiweg und speichern Sie das PDF-Dokument.
+//ExStepSummary:6: Ausgabe einer Erfolgsmeldung, in der der unterstrichte Text hinzugefügt wurde und der Standort der Datei angezeigt wird.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Definieren Sie das Verzeichnis, in dem das Dokument gespeichert wird.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Ein neues PDF-Dokument initialisieren.
+Document pdfDocument = new Document();
+// Fügen Sie dem Dokument eine neue Seite hinzu.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Erstellen Sie einen TextBuilder für die erste Seite.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Erstellen Sie ein TextFragment mit dem angegebenen Text.
+TextFragment fragment = new TextFragment("Test message");
+// Setzen Sie die Schriftart auf Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Setzen Sie die Schriftgröße auf 10.
+fragment.TextState.FontSize = 10;
+// Unterstrichformatierung für den Text aktivieren.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Geben Sie die Position des TextFragments im PDF an.
+fragment.Position = new Position(10, 800);
+// Das TextFragment dem TextBuilder beifügen.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Definieren Sie den Ausgabe-Dateiweg für die PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Das Dokument auf den angegebenen Pfad speichern.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Erfolg bericht.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

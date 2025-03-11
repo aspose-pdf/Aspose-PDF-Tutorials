@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Questo codice mostra come creare un documento PDF con un frammento di testo con uno stile specifico e un bordo.
+//ExStepSummary:0: Il seguente codice inizializza il percorso per salvare il documento PDF.
+//ExStepSummary:1: Il seguente codice crea un nuovo oggetto PDF.
+//ExStepSummary:2: Il seguente codice aggiunge una nuova pagina al documento PDF.
+//ExStepSummary:3: Il seguente codice crea un frammento di testo con contenuto e posizione specificati.
+//ExStepSummary:4: Il codice seguente definisce le proprietà del frammento di testo, comprese le dimensioni e i colori del carattere.
+//ExStepSummary:5: Il seguente codice consente di disegnare un bordo intorno al rettangolo di testo.
+//ExStepSummary:6: Il seguente codice aggiunge il frammento di testo alla pagina PDF utilizzando un TextBuilder.
+//ExStepSummary:7: Il codice seguente salva il documento PDF nella directory specificata.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Inizializza il percorso per salvare il documento
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Creare un nuovo oggetto PDF
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Aggiungere una nuova pagina al documento PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Creare un frammento di testo con il contenuto specificato
+TextFragment textFragment = new TextFragment("main text");
+// Impostare la posizione del frammento di testo
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Impostare il formato del testo
+textFragment.TextState.FontSize = 12;
+// Impostare il tipo di carattere
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Impostare il colore di sfondo del testo
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Impostare il colore di primo piano del testo
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Impostare il colore di accenno per il bordo
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Abilitare il disegno del bordo intorno al testo
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Creare un oggetto TextBuilder per la pagina
+TextBuilder tb = new TextBuilder(pdfPage);
+// Aggiungere il frammento di testo alla pagina PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Salvare il documento sul percorso specificato
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

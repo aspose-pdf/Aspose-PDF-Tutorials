@@ -1,12 +1,12 @@
 //ExStart
-//ExSummary: このコードでは PDF 文書を作成し,色やZ индекスの直角を追加し,文書を保存する方法を示します.
-//ExStepSummary:0: このステップでは,PDFドキュメントの出力ディレクトリを定義し,新しいドキュメントオブジェクトをインスタンティートし,指定された次元を持つ新しいページを追加します.
-//ExStepSummary:1: このステップでは,新しく作成されたページのページサイズと境界が設定されます.
-//ExStepSummary:2: このステップでは,指定された座標で Z 索引 2 の赤正角を追加し,他の形よりも上に表示されるようにします.
-//ExStepSummary:3: このステップでは,指定された座標でZインデックス1で青い長方角を追加し,赤の長方角の下でも他の長方角よりも上に現れるようにします.
-//ExStepSummary:4: このステップでは,指定された座標でZインデックス0で緑の長方角を追加し,Z順の底に表示されるようにします.
-//ExStepSummary:5: このステップでは,指定された出力ファイルパスに PDF 文書を保存します.
-//ExStepSummary:6: このステップでは,その性質とZインデックスを設定するものを含む,PDFページに矩形を追加するための論理を封鎖する方法を定義します.
+//ExSummary: このコードでは PDF 文書を作成し,色とZ 索引の異なる長方形を追加し,文書を保存する方法を示します.
+//ExStepSummary:0: このステップでは,PDF文書の出力ディレクトリを定義し,新しいDocumentオブジェクトをインスタンシア化し,指定された寸法を持つ新しいページを追加します.
+//ExStepSummary:1: このステップでは,新しく作成されたページのページサイズとマージンを設定します.
+//ExStepSummary:2: このステップでは,Zインデックスが2で指定された座標で赤い長方形を追加し,他の形の上に表示されることを保証します.
+//ExStepSummary:3: このステップでは,Zインデックスが1の指定座標で青い長方形を追加し,赤色長方形の下側が他の長方形よりも上にあるようにします.
+//ExStepSummary:4: このステップでは,Z指数が0の指定座標で緑色の長方形を追加し,Z順番の底に表示されることを保証します.
+//ExStepSummary:5: このステップでは,PDF文書を指定された出力ファイルパスに保存します.
+//ExStepSummary:6: このステップでは,PDFページに長方形を追加するための論理をカプセル化する方法,そのプロパティとZインデックス設定を含む方法を定義します.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
@@ -14,7 +14,7 @@
 // 文書ディレクトリを定義する
 string dataDir = "Your Document Directory";
 
-// 文档クラスオブジェクトをインスタント化
+// 文書クラスオブジェクトをインスタンシアートする
 Document doc1 = new Document();
 
 // 文書に新しいページを追加する
@@ -24,20 +24,20 @@ Aspose.Pdf.Page page1 = doc1.Pages.Add();
 // ページサイズを設定
 page1.SetPageSize(375, 300);
 
-// ページの辺を0に設定
+// ページの辺を0に設定する
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
 //ExStep:2-
-// Zインデックス2で赤い長方角を追加する
+// Zインデックス2の赤い長方形を追加
 AddRectangle(page1, 50, 40, 60, 40, Aspose.Pdf.Color.Red, 2);
 
 //ExStep:3-
-// Zインデックス 1 の青い長方角を追加する
+// Zインデックス1の青い長方形を追加
 AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 
 //ExStep:4-
-// Zインデックス 0 の緑の長方角を追加する
+// Zインデックス 0 を持つ緑色の長方形を追加します
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 
 //ExStep:5-
@@ -46,30 +46,30 @@ string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
 doc1.Save(outputFilePath);
 
 //ExStep:6-
-// PDFページに長方角を追加する方法
+// PDF ページに矩形を追加する方法
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // 矩形と同じ次元を持つグラフオブジェクトを作成する
+    // 矩形と同じ寸法を持つグラフオブジェクトを作成
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // グラフの位置が自動的に変化するのを防ぐ
+    // グラフ位置が自動的に変化するのを防ぐ
     graph.IsChangePosition = false;
     
-    // グラフ位置を設定
+    // グラフ位置を設定する
     graph.Left = x;
     graph.Top = y;
     
-    // グラフの内側に矩形を作成する
+    // グラフ内側で長方形を作ります
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // 縦横の色と横の色を設定する
+    // 矩形の填写と境界の色を設定する
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // グラフ形集合に矩形を追加する
+    // グラフ形集合に長方形を追加する
     graph.Shapes.Add(rect);
     
-    // グラフオブジェクトのZインデックスを設定
+    // グラフオブジェクトのZ-インデックスを設定する
     graph.ZIndex = zindex;
     
     // ページにグラフを追加する

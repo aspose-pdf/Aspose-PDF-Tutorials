@@ -1,17 +1,17 @@
 //ExStart
-//ExSummaryDenna kod visar hur man optimerar ett PDF-dokument genom att komprimera dess bilder. Den laddar en PDF, tillämpar optimeringsalternativ för att minska bildsstorlekarna och sparar det uppdaterade dokumentet.
-//ExStepSummary:0: Detta steg initialiserar vägen till dokumentkataloget.
+//ExSummary: Denna kod visar hur man optimerar ett PDF-dokument genom att komprimera dess bilder. Den laddar en PDF, tillämpar optimeringsalternativ för att minska bildstorlekarna och sparar det uppdaterade dokumentet.
+//ExStepSummary:0: Detta steg initialiserar vägen till dokumentkatalogen.
 //ExStepSummary:1: Detta steg öppnar det angivna PDF-dokumentet för optimering.
 //ExStepSummary:2: Detta steg initialiserar optimeringsalternativen för PDF-dokumentet.
-//ExStepSummary:3: Detta steg sätter bildkompressionsalternativet till true.
-//ExStepSummary:4: I det här steget sätts bildkvalitetsalternativet till 50.
+//ExStepSummary:3: Detta steg anger bildkomprimering alternativet till sant.
+//ExStepSummary:4: Detta steg ställer in bildkvalitetsalternativet till 50.
 //ExStepSummary:5: Detta steg optimerar PDF-dokumentet med hjälp av de angivna optimeringsalternativen.
 //ExStepSummary:6: Detta steg uppdaterar vägen för det optimerade PDF-dokumentet.
 //ExStepSummary:7: Detta steg sparar det optimerade PDF-dokumentet till den angivna vägen.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
-// Vägen till dokumentkataloget
+// Vägen till dokumentkatalogen
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -23,19 +23,19 @@ Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Aktivera bildkompression
+// Aktivera bildkomprimering
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 
 //ExStep:4-
-// Ställ bildkvaliteten på 50%
+// Ställ in bildkvaliteten på 50%
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// Optimera PDF-dokumentet med hjälp av inställningarna
+// Optimera PDF-dokumentet med inställningarna
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-
-// Definera utgångsvägen för den optimerade PDF-filen
+// Definera utgångsvägen för den optimerade PDF
 dataDir = dataDir + "Shrinkimage_out.pdf";
 
 //ExStep:7-

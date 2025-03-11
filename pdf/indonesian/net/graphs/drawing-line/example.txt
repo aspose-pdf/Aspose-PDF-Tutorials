@@ -1,25 +1,25 @@
 //ExStart
 //ExSummary: Kode ini menunjukkan cara membuat dokumen PDF menggunakan Aspose.PDF dengan menggambar dua garis diagonal di seluruh halaman. Ini menginisialisasi dokumen, menambahkan halaman, dan menggambar garis dari sudut ke sudut sebelum menyimpan dokumen.
-//ExStepSummary:0: Inisialisasikan jalur untuk direktori dokumen di mana PDF akan disimpan.
+//ExStepSummary:0: Inisialisasi jalur untuk direktori dokumen di mana PDF akan disimpan.
 //ExStepSummary:1: Buat contoh dokumen baru untuk PDF.
 //ExStepSummary:2: Tambahkan halaman ke koleksi halaman dokumen.
-//ExStepSummary:3: Setel margin halaman ke nol untuk semua sisi.
+//ExStepSummary:3: Atur margin halaman menjadi nol untuk semua sisi.
 //ExStepSummary:4: Buat objek Graph untuk mewakili area gambar dengan dimensi yang sama dengan ukuran halaman.
-//ExStepSummary:5: Buat objek baris pertama dari sudut kiri bawah ke kanan atas halaman.
+//ExStepSummary:5: Buat objek baris pertama dari sudut kiri bawah ke sudut kanan atas halaman.
 //ExStepSummary:6: Tambahkan baris pertama ke koleksi bentuk objek Graph.
-//ExStepSummary:7: Buat objek baris kedua dari sudut kiri atas ke kanan bawah halaman.
+//ExStepSummary:7: Buat objek baris kedua dari sudut kiri atas ke sudut kanan bawah halaman.
 //ExStepSummary:8: Tambahkan baris kedua ke koleksi bentuk objek Graph.
 //ExStepSummary:9: Tambahkan objek Graph yang berisi baris ke koleksi paragraf halaman.
-//ExStepSummary:10: Membangun jalur penuh untuk menyimpan file PDF output.
+//ExStepSummary:10: Buat jalur penuh untuk menyimpan file PDF output.
 //ExStepSummary:11: Simpan dokumen PDF ke jalur yang ditentukan.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Inisialisasikan jalur untuk direktori dokumen
+// Inisialisasi jalur untuk direktori dokumen
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Buat contoh dokumen
+// Membuat contoh dokumen
 Document pDoc = new Document();
 
 //ExStep:2-
@@ -27,12 +27,12 @@ Document pDoc = new Document();
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Tentukan margin halaman di semua sisi sebagai 0
+// Atur margin halaman di semua sisi sebagai 0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Buat objek Graph dengan lebar dan tinggi sama dengan dimensi halaman
+// Buat objek Graph dengan Lebar dan Tinggi sama dengan dimensi halaman
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
@@ -43,7 +43,7 @@ Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Lukiskan garis dari sudut kiri atas halaman ke sudut kanan bawah halaman
+// Garis dari sudut kiri atas halaman ke sudut kanan bawah halaman
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
@@ -51,11 +51,11 @@ Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (fl
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Tambahkan objek Graph ke koleksi paragraf halaman
+// Tambahkan objek Graph ke paragraf koleksi halaman
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// Membangun jalur penuh untuk menyimpan file PDF output
+// Buat jalur penuh untuk menyimpan file PDF output
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-

@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Ez a kód bemutatja, hogyan kell dolgozni több oszlopú bekezdésekkel egy PDF dokumentumban az Aspose.PDF segítségével.
+//ExStepSummary:0: Az alábbi kód mutatja, hogyan kell megadni az adatkatalógust, ahol a PDF dokumentum található.
+//ExStepSummary:1: Az alábbi kód megmutatja, hogyan tölthetjük fel a PDF dokumentumot a Document osztály segítségével.
+//ExStepSummary:2: Az alábbi kód megmutatja, hogyan lehet létrehozni egy ParagraphAbsorber-t a dokumentum bekezdéseinek kivonására.
+//ExStepSummary:3: Az alábbi kód mutatja, hogyan lehet a dokumentumhoz a ParagraphAbsorber segítségével belépni, hogy kitöltsük az eredményeket.
+//ExStepSummary:4: Az alábbi kód megmutatja, hogyan lehet hozzáférni az első oldal jelöléséhez és kivonni a bekezdésekkel kapcsolatos információkat, mielőtt több oszlopú bekezdéseket engedélyeznénk.
+//ExStepSummary:5: Az alábbi kód mutatja, hogyan lehet több oszlopos bekezdéseket engedélyezni, majd a módosítás hatását bemutató bekezdésinformációkat újra kivonni.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Adja meg az adatkatalógust.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Töltse fel a PDF dokumentumot.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Hozzon létre egy ParagraphAbsorber-t.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// A dokumentumba lépve kivonják a bekezdéseket.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Hozzáférés a lapjelöléshez.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Vedd le az utolsó bekezdést a harmadik részből.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Vedd le az első bekezdést a második részből.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Több oszlopú bekezdés engedélyezése.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// A harmadik szakasz utolsó bekezdését kapja meg, miután engedélyezte a több oszlopú bekezdéseket.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// A második szakasz első bekezdését kapja meg, miután engedélyezte a több oszlopú bekezdéseket.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

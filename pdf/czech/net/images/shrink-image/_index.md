@@ -1,8 +1,8 @@
 ---
-title: Optimalizovat PDF stlačením obrázků v Aspose.PDF pro .NET
+title: Optimalizace PDF stlačením obrázků v Aspose.PDF pro .NET
 weight: 7700
 limit: 
-description: Naučte se optimalizovat PDF dokument komprimováním obrázků pomocí Aspose.PDF pro .NET. Snížte velikost souboru a zároveň zachováváte kvalitu jednoduchým kódem C#.  
+description: Naučte se optimalizovat PDF dokument pomocí komprese obrázků pomocí Aspose.PDF pro .NET. Snížte velikost souboru při zachování kvality jednoduchým kódem C#.  
 keywords: [Aspose.PDF for .NET, optimize PDF, compress images, reduce PDF size, C# PDF optimization, PDF image compression, .NET PDF processing]
 url: /cs/net/images/shrink-image/
 ---
@@ -12,7 +12,7 @@ url: /cs/net/images/shrink-image/
 
 # Optimalizovat PDF stlačením obrázků v Aspose.PDF
  
-Optimalizace souborů PDF je nezbytná k snížení velikosti souboru a zároveň udržení kvality dokumentu. Pomocí Aspose.PDF pro .NET můžete efektivně stlačit obrázky v PDF pomocí vestavěných opcí optimalizace. Tento průvodce ukazuje jednoduchý příklad C#, kde je soubor PDF načítán, stlačení obrázků je povolené, nastavení kvality jsou upravovány a optimalizovaný dokument je uložen. S následujícím krokem můžete zajistit, aby vaše PDF zůstaly lehké a snadné sdílení bez ohrožení jasnosti.  
+Optimalizace souborů PDF je nezbytná pro snížení velikosti souboru a zachování kvality dokumentu. Pomocí Aspose.PDF pro .NET můžete efektivně komprimovat obrázky v PDF pomocí zabudovaných možností optimalizace. Tento návod ukazuje jednoduchý příklad C#, kde je načten PDF soubor, je zapnuto komprese obrázků, nastavení kvality jsou upravena a optimalizovaný dokument je uložen.  
  
 ---
 {{< tutorial-widget sourcePath="pdf/net/images/shrink-image" >}}
@@ -20,26 +20,26 @@ Optimalizace souborů PDF je nezbytná k snížení velikosti souboru a zárove�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Příkazy na instalaci:  
-Chcete-li použít Aspose.PDF pro .NET, postupujte podle těchto kroků:  
+## Návod k instalaci:  
+Chcete-li použít Aspose.PDF pro .NET, postupujte následujícím způsobem:  
 
-1. Instalace prostřednictvím programu NuGet Package Manager:  
-   * Otevři Visual Studio a jděte do nástroje > Správce balíčků NuGet > Správte balíčky NuGet pro řešení.  
-   * Vyhledat Aspose.PDF a kliknout na Instalat.  
+1. Instalace pomocí NuGet Package Manager:  
+   * Otevřete Visual Studio a přejděte na Nástroje > NuGet balíček manažer > Správa balíčků NuGet pro řešení.  
+   * Vyhledat Aspose.PDF a kliknout na Instalovat.  
 
-   OR  
+   Nebo  
 
-   V konzole pro správu balíček spěchejte následující příkaz:  
+   V konzoli správce balíčků spustíte následující příkaz:  
    ```powershell
    Install-Package Aspose.PDF
    ```
 
-2. Stáhněte si z webové stránky Aspose:  
-   * Navštěvovat [Aspose.PDF pro stahování .NET](https://releases.aspose.com/pdf/net/)  
-   * Stáhněte a nainstalujte nejnovější verzi.  
+2. Stáhnout z Aspose webové stránky:  
+   * Navštívit .[Aspose.PDF pro .NET stahování](https://releases.aspose.com/pdf/net/)  
+   * Stáhněte si a nainstalujte nejnovější verzi.  
 
-3. Žádost o licenci (nepotřební):  
-   * Získáte zadarmo zkouškovou licenci od [Představte si dočasné povolení](https://purchase.aspose.com/temporary-license/)  
+3. Žádost o licenci (nepovinné):  
+   * Získejte zkušební licenci od[Předložím dočasnou licenci](https://purchase.aspose.com/temporary-license/)  
    * Použijte licenci ve svém kódu pomocí:  
    ```csharp
    License license = new License();
@@ -47,10 +47,10 @@ Chcete-li použít Aspose.PDF pro .NET, postupujte podle těchto kroků:
    ```
 
 ## Užitečné odkazy:  
-Dokumentation: [Aspose.PDF pro příručku .NET](https://docs.aspose.com/pdf/net/)  
+Dokumenty:[Aspose.PDF pro .NET Guide](https://docs.aspose.com/pdf/net/)  
 Reference API: [Aspose.PDF pro .NET API](https://reference.aspose.com/pdf/net/)  
-Způsobné zprovozování: [Vyzkoušejte se bezplatně](https://releases.aspose.com/)  
-Podpora fórum: [Poskytněte podporu](https://forum.aspose.com/c/pdf/10) 
+Zkouška zdarma:[Zkouška zdarma](https://releases.aspose.com/)  
+Podporné fórum:[Podpora](https://forum.aspose.com/c/pdf/10) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

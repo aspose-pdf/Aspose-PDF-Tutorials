@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Mã này cho thấy cách tạo một tài liệu PDF bao gồm một hình chữ nhật và một đoạn văn bản với hiệu ứng văn bản trong suốt.`AddTransparentText_out.pdf`trong thư mục được chỉ định.
+//ExStepSummary:0: Bắt đầu đường dẫn thư mục tài liệu và tạo một tài liệu PDF mới với một trang.
+//ExStepSummary:1: Tạo một đối tượng Graph và hình chữ nhật với màu điền trong suốt, sau đó thêm nó vào trang.
+//ExStepSummary:2: Tạo một TextFragment với văn bản mẫu và đặt màu xanh minh bạch với độ mờ 30%.
+//ExStepSummary:3: Lưu tài liệu vào đường dẫn đầu ra đã chỉ định.
+//ExStepSummary:4: Hiển thị thông báo thành công với đường dẫn file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Con đường dẫn đến thư mục tài liệu.
+string dataDir = "Your Document Directory";
+
+// Tạo bản sao tài liệu
+Document doc = new Document(); 
+
+// Tạo tập hợp tệp PDF từ trang sang trang
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Tạo đối tượng Graph với chiều rộng và chiều cao
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Tạo thực thể hình chữ nhật với kích thước xác định
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Tạo đối tượng màu từ kênh màu Alpha
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Thêm hình chữ nhật vào tập hợp hình dạng của đối tượng Graph
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Thêm đối tượng biểu đồ vào đoạn tập đối tượng trang
+page.Paragraphs.Add(canvas);
+
+// Đặt giá trị không thay đổi vị trí đối tượng đồ thị
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Tạo bản sao TextFragment với giá trị mẫu
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Tạo đối tượng màu từ kênh Alpha
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Đặt thông tin màu cho bản sao văn bản
+text.TextState.ForegroundColor = color;
+
+// Thêm văn bản vào đoạn tập hợp các trường hợp trang
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// Xác định đường dẫn đầu ra cho tệp PDF
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Lưu tài liệu vào đường dẫn đã chỉ định
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Thông báo cho người dùng rằng quá trình đã hoàn thành
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

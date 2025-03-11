@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary這段代碼展示如何使用Aspose.PDF創建 PDF 文檔,
+//ExStepSummary:0: 這一步將文檔初始化,並添加一頁.
+//ExStepSummary:1: 這一步創建了表實例,並設定邊框風格.
+//ExStepSummary:2: 這一步指定表格的列寬度.
+//ExStepSummary:3: 這一步將增加 200 行, 每行包含兩個單元格.
+//ExStepSummary:4: 這步檢查是否已添加10行,然後移動到新頁面.
+//ExStepSummary:5: 這一步將完成的表添加到PDF文檔的頁面,並保存.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// 文件目錄的路徑
+string dataDir = "Your Document Directory";
+
+// 文件實例即時化
+Document doc = new Document();
+
+// 添加頁面到頁面的PDF檔案集合
+doc.Pages.Add();
+
+//ExStep:1-
+// 建立表格實例
+Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
+
+// 設定表邊框風格
+tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+// 設定為紅色的表格的預設邊框風格
+tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
+
+//ExStep:2-
+// 指定表列的寬度 (2列,每列100單位)
+tab.ColumnWidths = "100 100";
+
+//ExStep:3-
+// 建立一個循環, 添加200行為表格
+for (int counter = 0; counter <= 200; counter++)
+{
+	// 創建新行
+    Aspose.Pdf.Row row = new Aspose.Pdf.Row();
+	// 加入行到表格
+    tab.Rows.Add(row); 
+
+    // 創建第一個單元格並添加文字
+    Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
+	// 添加文本片段到第一個單元格	
+    cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
+	// 添加第一個單元格到行
+    row.Cells.Add(cell1); 
+
+    // 創建第二個單元格並添加文字
+    Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
+	// 添加文本片段到第二個單元格	
+    cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
+	// 添加第二個單元格
+    row.Cells.Add(cell2); 
+    
+//ExStep:4-
+    // 當添加10行時, 在新頁面中呈現新行
+    if (counter % 10 == 0 && counter != 0) 
+        row.IsInNewPage = true; // Move row to a new page if the condition is met
+}
+
+//ExStep:5-
+// 添加表格到第一個頁面的段落集合
+doc.Pages[1].Paragraphs.Add(tab); 
+// 定義輸出檔案路徑
+dataDir = dataDir + "InsertPageBreak_out.pdf";
+// 保存文件
+doc.Save(dataDir); 
+// 確認訊息
+Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
+//ExEnd

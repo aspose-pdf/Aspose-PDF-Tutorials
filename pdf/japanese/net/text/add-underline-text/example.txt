@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: このコードでは,PDF文書を作成し,下書きフォーマットしたテキストフラグメントを追加する方法を示します.文書を作成し,テキストを追加し,ファイルを保存するための手順が含まれています.
+//ExStepSummary:0: PDF 文書が保存されるディレクトリを定義します.
+//ExStepSummary:1: 新しい PDF 文書を初期化してページを追加します.
+//ExStepSummary:2: 文書の最初のページに TextBuilder オブジェクトを作成します.
+//ExStepSummary:3: テストメッセージで TextFragment を作成し,そのフォントを Arial に設定し,サイズを 10 にし,下書きフォーマットを有効にします.
+//ExStepSummary:4: PDF の TextFragment の位置を指定し,それを TextBuilder に添付する.
+//ExStepSummary:5: ファイルのパスを定義して PDF 文書を保存します.
+//ExStepSummary:6: 突印されたテキストを追加し,ファイルの位置を示す成功メッセージを出力します.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 文書が保存されるディレクトリを定義します.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 新しい PDF 文書を初期化します.
+Document pdfDocument = new Document();
+// 文書に新しいページを追加します.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// 最初のページに TextBuilder を作成します.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// 指定されたテキストで TextFragment を作成します.
+TextFragment fragment = new TextFragment("Test message");
+// フォントをArialに設定する
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// フォントサイズを10に設定します.
+fragment.TextState.FontSize = 10;
+// テキストの表記形式を有効にする.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// PDF の TextFragment の位置を指定する.
+fragment.Position = new Position(10, 800);
+// TextFragment を TextBuilder に添付する.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// PDF の出力ファイル パスを定義します.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// 指定されたパスに文書を保存します.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// 送信成功
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,16 +1,16 @@
 //ExStart
-//ExSummary: Этот код показывает, как оптимизировать PDF-документ, сжав и переразмеряя изображения внутри него.
+//ExSummary: Этот код показывает, как оптимизировать PDF-документ путем сжатия и изменения размера изображений внутри него.
 //ExStepSummary:0: Следующий код инициирует текущее время и устанавливает путь каталога документов.
 //ExStepSummary:1: Следующий код открывает указанный PDF-документ для обработки.
-//ExStepSummary:2: Следующий код инициирует опционы оптимизации для PDF.
-//ExStepSummary:3: Следующий код конфигурирует настройки сжатия изображения, включая сжатие и качество.
-//ExStepSummary:4: Следующий код применяет опционы оптимизации к PDF-документу.
+//ExStepSummary:2: Следующий код инициирует опции оптимизации для PDF.
+//ExStepSummary:3: Следующий код настраивает настройки сжатия изображения, включая сжатие и качество.
+//ExStepSummary:4: Следующий код применяет опции оптимизации к документу PDF.
 //ExStepSummary:5: Следующий код сохраняет оптимизированный PDF-документ в новом файле.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Начало времени
+// Инициализировать время
 var time = DateTime.Now.Ticks;
-// Путь в справочник документов.
+// Путь к каталогу документов.
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -18,17 +18,17 @@ string dataDir = "Your Document Directory";
 Document pdfDocument = new Document(dataDir + "ResizeImage.pdf");
 
 //ExStep:2-
-// Инициализировать оптимальные варианты
+// Инициализировать опциональные опции
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Настройка опции Сжатие изображений
+// Установка опции Сжатие изображений
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
-// Настройка опции ImageQuality 
+// Установка опции ImageQuality 
 optimizeOptions.ImageCompressionOptions.ImageQuality = 75;
-// Настройка опции "Обороть размер"
+// Установка опции ResizeImage
 optimizeOptions.ImageCompressionOptions.ResizeImages = true; 
-// Настройка опции MaxResolution
+// Установка опции MaxResolution
 optimizeOptions.ImageCompressionOptions.MaxResolution = 300; 
 
 //ExStep:4-
@@ -36,12 +36,12 @@ optimizeOptions.ImageCompressionOptions.MaxResolution = 300;
 pdfDocument.OptimizeResources(optimizeOptions); 
 
 //ExStep:5-
-// Обновление каталога данных для выходящего файла
+// Обновление каталога данных для выходного файла
 dataDir = dataDir + "ResizeImages_out.pdf"; 
 // Сохранить обновленный документ
 pdfDocument.Save(dataDir); 
 
 //ExStep:6-
-// Уведомлять пользователя о успехе
+// Информировать пользователя о успехе
 Console.WriteLine("\nImage resized successfully.\nFile saved at " + dataDir);
 //ExEnd

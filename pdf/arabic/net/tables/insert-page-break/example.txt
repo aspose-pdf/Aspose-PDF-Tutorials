@@ -1,73 +1,73 @@
 //ExStart
-//ExSummary: هذا الرمز يظهر كيفية إنشاء مستند PDF باستخدام Aspose.PDF، وإضافة جدول مع أساليب الحدود المحددة، وتنفيذ الصفحة بعد عدد معين من الصفوف.
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF باستخدام Aspose.PDF ، وإضافة جدول مع أنماط حدود محددة ، وتنفيذ الترتيب بعد عدد معين من الصفوف.
 //ExStepSummary:0: هذه الخطوة تبدأ الوثيقة وتضيف صفحة إليها.
-//ExStepSummary:1: هذه الخطوة تخلق مثال من الجدول وتحدد أنماط الحدود.
-//ExStepSummary:2: هذه الخطوة تحدد عرض العمود للجدول.
-//ExStepSummary:3: هذه الخطوة تضيف 200 صف إلى الجدول، مع كل صف يحتوي على خلية.
-//ExStepSummary:4: هذه الخطوة تحقق ما إذا تم إضافة 10 صفوف وتنتقل إلى صفحة جديدة إذا كان ذلك كذلك.
-//ExStepSummary:5: هذه الخطوة تضيف الجدول المكتمل إلى صفحة الوثيقة PDF وتحفظها.
+//ExStepSummary:1: هذه الخطوة تخلق مثالاً من الجدول وتحدد أنماط الحدود.
+//ExStepSummary:2: هذه الخطوة تحدد عرض الأعمدة للجدول.
+//ExStepSummary:3: هذه الخطوة تضيف 200 صف إلى الجدول، كل صف يحتوي على خلية.
+//ExStepSummary:4: هذه الخطوة تحقق ما إذا تمت إضافة 10 صفوف وتنتقل إلى صفحة جديدة إذا كان الأمر كذلك.
+//ExStepSummary:5: هذه الخطوة تضيف الجدول المكتمل إلى صفحة مستند PDF وتحفظه.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
 //ExStep:0-
-// الطريق إلى دليل الوثائق
+// الطريق إلى دليل المستندات
 string dataDir = "Your Document Directory";
 
-// مثال المستند الفوري
+// تحديد مثال الوثيقة
 Document doc = new Document();
 
-// إضافة صفحة إلى صفحة مجموعة ملف PDF
+// إضافة صفحة إلى صفحات مجموعة من ملفات PDF
 doc.Pages.Add();
 
 //ExStep:1-
-// إعداد مثال من الجدول
+// إنشاء مثيل من الجدول
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// حدد أسلوب الحدود للطاولة
+// تعيين أسلوب الحافة للجدول
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// حدد نمط الحدود الافتراضي للجدول الذي يحتوي على لون الحدود كالحمراء
+// تعيين أسلوب الحدود الافتراضي للجدول مع لون الحدود كالأحمر
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// تحديد عرض أعمدة الجدول (2 أعمدة، كل 100 وحدة)
+// تحديد عرض أعمدة الجدول (عمدتين، كل 100 وحدة)
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// إخلق حلقة لإضافة 200 صف للجدول
+// إنشاء حلقة لإضافة 200 صفوف للجدول
 for (int counter = 0; counter <= 200; counter++)
 {
-	// إخلق صف جديد
+	// إنشاء صف جديد
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
-	// إضافة الصف إلى الطاولة
+	// إضافة الصف إلى الجدول
     tab.Rows.Add(row); 
 
-    // إعداد الخلية الأولى وإضافة النص
+    // إنشاء الخلية الأولى وإضافة نص
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
 	// إضافة جزء نصي إلى الخلية الأولى	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
 	// إضافة الخلية الأولى إلى الصف
     row.Cells.Add(cell1); 
 
-    // إعداد الخلية الثانية وإضافة النص
+    // إنشاء خلية ثانية وإضافة نص
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
-	// إضافة جزء من النص إلى الخلية الثانية	
+	// إضافة جزء نصي إلى الخلية الثانية	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// إضافة الخلية الثانية إلى الصف
+	// إضافة خلية ثانية إلى الصف
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // عندما يتم إضافة 10 صفوف، قم بإعطاء صف جديد في صفحة جديدة
+    // عندما يتم إضافة 10 صفوف، قم بعمل صف جديد في الصفحة الجديدة
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// إضافة الجدول إلى مجموع الفقرات من الصفحة الأولى
+// إضافة الجدول إلى مجموعات الفقرات من الصفحة الأولى
 doc.Pages[1].Paragraphs.Add(tab); 
-// حدد مسار ملف النتائج
+// حدد مسار الملفات الخارجة
 dataDir = dataDir + "InsertPageBreak_out.pdf";
-// حفظ الوثيقة في PDF
+// حفظ مستند PDF
 doc.Save(dataDir); 
 // رسالة تأكيد
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 

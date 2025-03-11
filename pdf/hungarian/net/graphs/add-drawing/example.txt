@@ -1,75 +1,75 @@
 //ExStart
-//ExSummaryA kód bemutatja, hogyan készítsünk egy PDF dokumentumot egy átlátszó színrel teli térképpel.
-//ExStepSummary:0: A következő kód az PDF fájl mentésére szolgáló adatkönyv kezdeti beállítását jelenti.
-//ExStepSummary:1: A következő kód az Alpha RGB színt határozza meg, amelyet a térképen való kitöltéshez kell használni.
-//ExStepSummary:2: A következő kód létrehoz egy új Dokumentum objektumot a PDF-hez.
-//ExStepSummary:3: A következő kód egy oldalt tesz hozzá a PDF dokumentumhoz.
-//ExStepSummary:4: A következő kód létrehoz egy Graph objektumot a PDF formák rajzolására.
-//ExStepSummary:5: A következő kód határot állapít meg a grafikon objektumára.
-//ExStepSummary:6: A következő kód a graf objektumot a lap bekezdések gyűjteményéhez adja hozzá.
-//ExStepSummary:7: A következő kód egy négyzetképpes formát hoz létre, amelyet a grafikonra kell rajzolni.
-//ExStepSummary:8: A következő kód a térképen található grafikonokra vonatkozó színinformációkat állítja ki.
-//ExStepSummary:9: A következő kód a térképe formáját adja hozzá a formák gyűjteményéhez.
-//ExStepSummary:10: A következő kód az adott kimeneti fájl útvonalára tárolja a dokumentumot.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot egy átlátszó színnel töltött téglalapból álló grafikonnal.
+//ExStepSummary:0: Az alábbi kód az adatkatalógus kezdeti beállítását teszi lehetővé a PDF fájl mentéséhez.
+//ExStepSummary:1: Az alábbi kód meghatározza az alfa RGB színt, amelyet a téglalap kitöltése során kell használni.
+//ExStepSummary:2: Az alábbi kód új Dokumentum objektumot hoz létre a PDF-hez.
+//ExStepSummary:3: Az alábbi kód egy oldalt ad hozzá a PDF dokumentumhoz.
+//ExStepSummary:4: Az alábbi kód létrehoz egy Graph objektumot a PDF-ben lévő alakzatok rajzolására.
+//ExStepSummary:5: Az alábbi kód határozza meg a grafika objektum határát.
+//ExStepSummary:6: Az alábbi kód hozzáadja a grafikon objektumot az oldal bekezdésgyűjteményéhez.
+//ExStepSummary:7: Az alábbi kód egy, a grafikonra rajzolandó téglalap alakot hoz létre.
+//ExStepSummary:8: Az alábbi kód a téglalap grafikusának színinformációját határozza meg.
+//ExStepSummary:9: Az alábbi kód hozzáadja a téglalap alakot a grafikon alakjainak gyűjteményéhez.
+//ExStepSummary:10: Az alábbi kód mentheti a dokumentumot a megadott kimeneti fájlútvonalra.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// A dokumentum mentésére szükséges út elindítása
+// A dokumentum mentéséhez szükséges útvonal inicializálása
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Az alfa csatorna átláthatóságra vonatkozó értéke
+// Az átláthatóságra vonatkozó alfacsatorna értéke
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// Alfa RGB segítségével készítsen szín objektumot
+// Szín objektum létrehozása Alfa RGB használatával
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Egyszeres Dokumentum objektum
+// Dokumentum objektum instancizálása
 Document document = new Document();
 
 //ExStep:3-
-// Adjon új oldalt a dokumentumhoz
+// Új oldalt adjon hozzá a dokumentumhoz
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Tegyünk létre egy speciális dimenzióval rendelkező graf objektumot
+// Speciális dimenziókkal rendelkező Graph objektum létrehozása
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Beállítson a Graph objektum határát
+// A Graph objektum határának beállítása
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Adja a grafikon objektumot a laphoz
+// A grafikon objektumot hozzáadja az oldalhoz
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Tegyél egyenleges objektumot, amelynek bizonyos mérete van
+// Helyes alakú objektum létrehozása meghatározott méretű
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Készítsen graphInfo objektumot a térképpöreghez
+// GraphInfo objektumot hozni létre a téglalaphoz
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// A GraphInfo példány színinformációjának beállítása
+// A GraphInfo példány színinformációinak beállítása
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Adja be a térképpöreg formát a grafikonhoz
+// Adja hozzá a téglalap alakot a grafikonhoz
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Beállítsa a kiviteli fájl útvonalát a dokumentum mentésére
+// A dokumentum mentéséhez a kimeneti fájl útvonalát állítsa be
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 
 //ExStep:11-
-// Biztosanító üzenet
+// Megerősítő üzenet
 Console.WriteLine("\nDrawing added successfully with transparent color.\nFile saved at " + dataDir);
 //ExEnd

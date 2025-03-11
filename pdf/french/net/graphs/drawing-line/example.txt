@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryCe code montre comment créer un document PDF en utilisant Aspose.PDF en dessinant deux lignes diagonales sur la page.
-//ExStepSummary:0: Initialement le chemin pour le répertoire de documents où le PDF sera enregistré.
-//ExStepSummary:1: Créez une nouvelle instance de document pour le PDF.
+//ExSummary: Ce code démontre comment créer un document PDF en utilisant Aspose.PDF en dessinant deux lignes diagonales à travers la page. Il initie un document, ajoute une page et dessine des lignes d'un coin à l'autre avant de sauvegarder le document.
+//ExStepSummary:0: Initializez le chemin du répertoire des documents où le PDF sera enregistré.
+//ExStepSummary:1: Créer une nouvelle instance de Document pour le fichier PDF.
 //ExStepSummary:2: Ajouter une page à la collection de pages du document.
-//ExStepSummary:3: Réglez les marges de la page à zéro pour tous les côtés.
-//ExStepSummary:4: Créer un objet graphique pour représenter la zone de dessin avec des dimensions égales à la taille de la page.
-//ExStepSummary:5: Créez l'objet de première ligne du bas à gauche au coin supérieur droit de la page.
-//ExStepSummary:6: Ajoutez la première ligne à la collection de formes de l'objet Graph.
-//ExStepSummary:7: Créez l'objet de la deuxième ligne de la partie supérieure gauche à la partie inférieure droite de la page.
-//ExStepSummary:8: Ajoutez la deuxième ligne à la collection de formes de l'objet Graph.
-//ExStepSummary:9: Ajoutez l'objet Graphique contenant les lignes à la collection de paragraphes de la page.
+//ExStepSummary:3: Réglez les marges de page à zéro pour tous les côtés.
+//ExStepSummary:4: Créer un objet Graph pour représenter la zone de dessin avec des dimensions égales à la taille de la page.
+//ExStepSummary:5: Créer l'objet de première ligne du coin inférieur gauche au coin supérieur droit de la page.
+//ExStepSummary:6: Ajouter la première ligne à la collection de formes de l'objet Graph.
+//ExStepSummary:7: Créez l'objet de la deuxième ligne en haut à gauche vers le coin inférieur droit de la page.
+//ExStepSummary:8: Ajouter la deuxième ligne à la collection de formes de l'objet Graph.
+//ExStepSummary:9: Ajouter l'objet Graph contenant les lignes à la collection de paragraphes de la page.
 //ExStepSummary:10: Construire le chemin complet pour enregistrer le fichier PDF de sortie.
-//ExStepSummary:11: Enregistrez le document PDF sur le chemin spécifié.
+//ExStepSummary:11: Enregistrer le document PDF sur le chemin spécifié.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
-// Initialement le chemin pour le répertoire de documents
+// Initialiser le chemin du répertoire des documents
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -23,27 +23,27 @@ string dataDir = "Your Document Directory";
 Document pDoc = new Document();
 
 //ExStep:2-
-// Ajouter une page à la collection de pages de document PDF
+// Ajouter des pages à la collection de documents PDF
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// Définir la marge de page de tous les côtés comme 0
+// Marge de page sur tous les côtés de 0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// Créer un objet graphique avec largeur et hauteur égales aux dimensions de la page
+// Créer un objet Graph dont la largeur et la hauteur sont égales aux dimensions de la page
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// Créer un objet de première ligne à partir du coin inférieur gauche à l' angle supérieur droit de la page
+// Créer un objet de première ligne en partant du coin inférieur gauche vers le coin supérieur droit de la page
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// Dessinez une ligne de l'angle supérieur gauche à l'angle inférieur droit de la page
+// Dessiner une ligne du coin supérieur gauche de la page au coin inférieur droit de la page
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
@@ -51,7 +51,7 @@ Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (fl
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// Ajouter l' objet Graph à la collection de pages de paragraphes
+// Ajouter un objet Graph à des paragraphes de la collection de page
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-

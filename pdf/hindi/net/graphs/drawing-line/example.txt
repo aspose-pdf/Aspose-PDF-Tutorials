@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि पृष्ठ पर दो विकर्ण रेखाएं खींचकर Aspose.PDF का उपयोग करके एक पीडीएफ दस्तावेज़ कैसे बनाया जाए। यह दस्तावेज़ को आरंभ करता है, एक पृष्ठ जोड़ता है, और दस्तावेज़ को सहेजने से पहले कोने से कोने तक रेखाएं खींचता है।
+//ExStepSummary:0: दस्तावेज़ निर्देशिका के लिए पथ प्रारंभ करें जहां पीडीएफ सहेजा जाएगा.
+//ExStepSummary:1: PDF के लिए एक नया दस्तावेज़ उदाहरण बनाएँ.
+//ExStepSummary:2: दस्तावेज़ के पृष्ठ संग्रह में एक पृष्ठ जोड़ें.
+//ExStepSummary:3: सभी पक्षों के लिए पृष्ठ मार्जिन को शून्य पर सेट करें।
+//ExStepSummary:4: पृष्ठ आकार के बराबर आयामों के साथ ड्राइंग क्षेत्र का प्रतिनिधित्व करने के लिए एक ग्राफ ऑब्जेक्ट बनाएं.
+//ExStepSummary:5: पृष्ठ के निचले बाएं कोने से शीर्ष दाएं कोने तक पहली पंक्ति वस्तु बनाएँ.
+//ExStepSummary:6: ग्राफ ऑब्जेक्ट के आकार संग्रह में पहली पंक्ति जोड़ें.
+//ExStepSummary:7: पृष्ठ के ऊपरी-बाएं से निचले-दाएं कोने में दूसरी पंक्ति वस्तु बनाएँ.
+//ExStepSummary:8: Graph ऑब्जेक्ट के आकार संग्रह में दूसरी पंक्ति जोड़ें.
+//ExStepSummary:9: पृष्ठ के अनुच्छेद संग्रह में पंक्तियों को युक्त ग्राफ ऑब्जेक्ट जोड़ें.
+//ExStepSummary:10: आउटपुट पीडीएफ फ़ाइल को सहेजने के लिए पूर्ण पथ का निर्माण करें.
+//ExStepSummary:11: पीडीएफ दस्तावेज़ को निर्दिष्ट पथ पर सहेजें.
+//ExStepImage:9:images/1.png
+
+//ExStep:0-
+// दस्तावेज़ निर्देशिका के लिए पथ आरंभ करें
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// दस्तावेज़ उदाहरण बनाएँ
+Document pDoc = new Document();
+
+//ExStep:2-
+// पृष्ठों को जोड़ें PDF दस्तावेज़ संग्रह
+Page pg = pDoc.Pages.Add();
+
+//ExStep:3-
+// सभी पक्षों पर पृष्ठ मार्जिन सेट करें 0 के रूप में
+pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
+    pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
+
+//ExStep:4-
+// पृष्ठ आयामों के बराबर चौड़ाई और ऊंचाई के साथ ग्राफ़ ऑब्जेक्ट बनाएं
+Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
+
+//ExStep:5-
+// पृष्ठ के निचले-बाएं से शीर्ष-दाएं कोने में शुरू होने वाली पहली पंक्ति वस्तु बनाएँ
+Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
+
+//ExStep:6-
+graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
+
+//ExStep:7-
+// पृष्ठ के ऊपरी-बाएं कोने से पृष्ठ के निचले-दाएं कोने तक रेखा खींचें
+Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
+
+//ExStep:8-
+// ग्राफ़ ऑब्जेक्ट के आकार संग्रह में दूसरी पंक्ति जोड़ें
+graph.Shapes.Add(line2);
+
+//ExStep:9-
+// अनुच्छेदों के लिए ग्राफ ऑब्जेक्ट जोड़ें पृष्ठ संग्रह
+pg.Paragraphs.Add(graph);
+
+//ExStep:10-
+// आउटपुट पीडीएफ फ़ाइल को सहेजने के लिए पूर्ण पथ बनाएं
+dataDir = dataDir + "DrawingLine_out.pdf";
+
+//ExStep:11-
+// पीडीएफ फ़ाइल सहेजें
+pDoc.Save(dataDir);
+// आउटपुट पुष्टिकरण संदेश
+Console.WriteLine("\nLine drawn successfully across the page.\nFile saved at " + dataDir); 
+//ExEnd

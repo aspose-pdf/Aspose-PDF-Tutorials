@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary這種程式碼展示如何創建一個包含10行3列的PDF文件.
+//ExStepSummary:0: 這一步設定出口PDF檔案將保存的目錄路徑.
+//ExStepSummary:1: 這步會創建一個新的 PDF 文檔實例.
+//ExStepSummary:2: 這一步初始化一個新的表對象.
+//ExStepSummary:3: 這一步將表邊框顏色設定為光灰色.
+//ExStepSummary:4: 這步將光灰邊框應用於所有表格.
+//ExStepSummary:5: 這一步開始一個循環,
+//ExStepSummary:6: 這一步將新一行加入表格,
+//ExStepSummary:7: 這一步將三個單元格添加到行中,第一個單元格包含基于當前時間的動態內容.
+//ExStepSummary:8: 這步將添加一個新頁面到PDF文檔.
+//ExStepSummary:9: 這步將表添加到文檔中新創頁面.
+//ExStepSummary:10: 這一步將最終的 PDF 文件保存到指定輸出目錄中.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// 文件目錄的路徑.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 創建新的PDF文檔.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// 開始一個新的表格.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// 設定表邊框顏色為淡灰色.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// 設定表格細胞的邊緣.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// 建立一個循環, 添加10行
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// 添加行到表格
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// 設定行的垂直對齊.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// 加入動態內容的第一個單元格.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// 加入第二個細胞.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// 加入第三個細胞.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// 加入新頁面到PDF文檔.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// 添加表格對象到文檔的第一頁.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// 保存包含表對象的更新文檔.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

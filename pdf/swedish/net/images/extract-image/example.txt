@@ -1,30 +1,30 @@
 //ExStart
 //ExSummary: Denna kod visar hur man extraherar en bild från ett PDF-dokument och sparar den som en JPEG-fil samtidigt som man sparar den uppdaterade PDF-filen.
-//ExStepSummary:0: Följande kod initialiserar vägen till dokumentkataloget.
-//ExStepSummary:1: Följande kod öppnar PDF-dokumentet där bilderna kommer att utvinnas.
-//ExStepSummary:2: Följande kod uttar en specifik bild från PDF-dokumentet.
-//ExStepSummary:3: Följande kod sparar den utvinnda bilden till en specifik utgångsfil.
-//ExStepSummary:4: Följande kod uppdaterar den ursprungliga PDF-filen och sparar den till en ny väg.
+//ExStepSummary:0: Följande kod initialiserar vägen till dokumentkatalogen.
+//ExStepSummary:1: Följande kod öppnar PDF-dokumentet som du ska extrahera bilder från.
+//ExStepSummary:2: Följande kod extraherar en specifik bild från PDF-dokumentet.
+//ExStepSummary:3: Följande kod sparar den utdragna bilden i en angiven utgångsfil.
+//ExStepSummary:4: Följande kod uppdaterar den ursprungliga PDF-filen och sparar den på en ny väg.
 //ExStepImage:3:images/1.png
 //ExStep:0-
-// Ange katalogen som innehåller PDF-filen
+// Anger katalogen som innehåller PDF-filen
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Öppnar PDF-dokumentet för bilduttagning
+// Öppnar PDF-dokumentet för bildutvinning
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// Utvinner den första bilden från den andra sidan av PDF-filen
+// Extraherar den första bilden från den andra sidan av PDF-filen
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// Skapa en ström för att spara den uttagna bilden
+// Skapar en ström för att spara den utdragna bilden
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
-// Spara utgångsbild
+// Spara utgångsbilden
 xImage.Save(outputImage, ImageFormat.Jpeg); 
-// Stänger filströmmen för att släppa resurser
+// Stänger filflödet för att frigöra resurser
 outputImage.Close();
 
 //ExStep:4-
@@ -33,6 +33,6 @@ dataDir = dataDir + "ExtractImages_out.pdf";
 
 // Spara uppdaterad PDF-fil
 pdfDocument.Save(dataDir);
-// Bekräftar framgångsrik utvinning och sparande av filer
+// Bekräftar att filerna har extraherats och sparas
 Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
 //ExEnd

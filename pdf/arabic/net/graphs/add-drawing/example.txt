@@ -1,47 +1,47 @@
 //ExStart
-//ExSummary: هذا الرمز يوضح كيفية إنشاء مستند PDF مع الرسم البياني الذي يحتوي على مستطيل مليء باللون الشفاف. يمر من خلال عملية إعداد خصائص الألوان، وإضافة الصفحات، والرسوم الشكليات في الوثيقة.
-//ExStepSummary:0: يبدأ الرمز التالي دليل البيانات لإنقاذ ملف PDF.
-//ExStepSummary:1: يحدد الرمز التالي لون ألفا RGB الذي سيتم استخدامه لملء المثلث.
-//ExStepSummary:2: يخلق الرمز التالي كائن وثيقة جديد للصفحة PDF.
+//ExSummary: يوضح هذا الرمز كيفية إنشاء مستند PDF مع الرسم البياني الذي يحتوي على مستطيل مليء بلون شفاف. إنه يمر عبر عملية إعداد خصائص الألوان وإضافة الصفحات ورسم الأشكال في المستند.
+//ExStepSummary:0: الرمز التالي يبدأ دليل البيانات لحفظ ملف PDF.
+//ExStepSummary:1: يحدد الرمز التالي لون ألفا RGB لاستخدامه لملء المستطيل.
+//ExStepSummary:2: الكود التالي يخلق كائن جديد من Document لـ PDF.
 //ExStepSummary:3: الرمز التالي يضيف صفحة إلى مستند PDF.
-//ExStepSummary:4: يخلق الرمز التالي كائن الرسم البياني لرسم الأشكال في PDF.
-//ExStepSummary:5: يحدد الرمز التالي حدودًا لقطعة الرسم البياني.
-//ExStepSummary:6: يضيف الرمز التالي جسم الرسم البياني إلى مجموعة الفقرات في الصفحة.
-//ExStepSummary:7: يخلق الرمز التالي شكل مستطيل ليتم رسمها على الرسم البياني.
+//ExStepSummary:4: الكود التالي يخلق كائن Graph لرسم الأشكال في PDF.
+//ExStepSummary:5: يحدد الرمز التالي الحدود لكائن الرسم البياني.
+//ExStepSummary:6: يضيف الرمز التالي كائن الرسم البياني إلى مجموعة الفقرات في الصفحة.
+//ExStepSummary:7: الرمز التالي يخلق شكل مستطيل ليتم رسمها على الرسم البياني.
 //ExStepSummary:8: يحدد الرمز التالي معلومات اللون لمعلومات الرسم البياني للمستطيل.
-//ExStepSummary:9: يضيف الرمز التالي شكل المثلث إلى مجموعة الأشكال في الرسم البياني.
-//ExStepSummary:10: الترميز التالي يحفظ الوثيقة إلى مسار ملف الخروج المحدد.
+//ExStepSummary:9: يضيف الرمز التالي شكل المستطيل إلى مجموعة الأشكال في الرسم البياني.
+//ExStepSummary:10: الرمز التالي يحفظ الوثيقة إلى مسار ملف الإخراج المحدد.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// إعادة تشغيل المسار لإنقاذ الوثيقة
+// إعداد مسار لإنقاذ المستند
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// قيمة القناة الفالفة لشفافية
+// قيمة قناة ألفا للشفافية
 int alpha = 10;
 int green = 0;
 int red = 100;
 int blue = 0;
 
-// إعداد كائن اللون باستخدام ألفا RGB
+// إنشاء كائن لون باستخدام ألفا RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// كائن الوثيقة الفورية
+// تحديد موضوع الوثيقة
 Document document = new Document();
 
 //ExStep:3-
-// إضافة صفحة جديدة إلى الوثيقة
+// إضافة صفحة جديدة إلى المستند
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// إعداد كائن الرسم البياني بأبعاد محددة
+// إنشاء كائن الرسم البياني بأبعاد محددة
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// حدّد الحدود لـ (Graph)
+// حدد الحدود للكائن Graph
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
@@ -49,23 +49,23 @@ graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// إعداد كائن مستطيل بعمق محدد
+// إنشاء كائن مستطيل بأبعاد محددة
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// إعداد كائن GraphInfo للمستطيل
+// إنشاء كائن graphInfo للمستطيل
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// تعيين معلومات الألوان لنسخة GraphInfo
+// حدد معلومات اللون لمثال GraphInfo
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// إضافة شكل المستطيل إلى الرسم البياني
+// إضافة شكل مستطيل إلى الرسم البياني
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// حدد مسار ملف النتائج لإنقاذ الوثيقة
+// تعيين مسار الملفات الخارجة لحفظ المستند
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 

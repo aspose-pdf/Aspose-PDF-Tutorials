@@ -12,7 +12,7 @@ url: /sv/net/graphs/control-rectangle-z-order/
 
 # Skapa och anpassa PDF med rektanglar
 
-Denna guide visar hur man skapar ett PDF-dokument med hjälp av Aspose.PDF för .NET, som innehåller färgglada rektangulärer med olika Z-index för att kontrollera deras lagerläggning. Följ instruktionerna steg för steg för att lägga till former till din PDF och spara dokumentet, vilket förbättrar din applikation PDF-genereringsmöjligheter.
+Denna guide visar hur du skapar ett PDF-dokument med hjälp av Aspose.PDF för .NET, med färgglada rektanglar med olika Z-index för att styra deras lagerläggning. Följ stegvis instruktionerna för att lägga till former till din PDF och spara dokumentet, vilket förbättrar din applikations PDF- genereringskapacitet.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
@@ -21,10 +21,10 @@ Denna guide visar hur man skapar ett PDF-dokument med hjälp av Aspose.PDF för 
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installationsinstruktioner
-1. Se till att du har .NET-utvecklingsmiljö konfigurerad (t.ex. Visual Studio).
-2. Ladda ner biblioteket Aspose.PDF från [Att skapa webbplats](https://www.aspose.com/purchase)\- Jag är inte rädd.
-3. Installa NuGet-paketet Aspose.PDF genom att köra `Installationspaket Aspose.PDF`i Package Manager Console.
-4. Ange de nödvändiga namnplatserna i ditt projekt:
+1. Se till att du har .NET utvecklingsmiljö installerad (t.ex. Visual Studio).
+2. Ladda ner biblioteket Aspose.PDF från [Aspose webbplats](https://www.aspose.com/purchase)\- Jag är inte rädd.
+3. Installera NuGet-paketet Aspose.PDF genom att köra `Installera paketet Aspose.PDF`i Package Manager Console.
+4. Ange de nödvändiga namnsfält i projektet:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
@@ -32,7 +32,7 @@ Denna guide visar hur man skapar ett PDF-dokument med hjälp av Aspose.PDF för 
 
 ## För detaljerad dokumentation besök:  
 * [Aspose.PDF för .NET-dokumentation](https://docs.aspose.com/pdf/net/)  
-* [Referens API för Aspose.PDF för .NET](https://reference.aspose.com/pdf/net/)  
+* [API-referens för Aspose.PDF för .NET](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

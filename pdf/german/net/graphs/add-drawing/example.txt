@@ -1,21 +1,21 @@
 //ExStart
-//ExSummaryDieser Code zeigt, wie man ein PDF-Dokument mit einem Grafik erstellt, der ein Rechteck mit einer transparenten Farbe enthält.
-//ExStepSummary:0: Der folgende Code initialisiert das Datenverzeichnis zur Speicherung der PDF- Datei.
-//ExStepSummary:1: Der folgende Code setzt die für die Füllung des Rechteckels zu verwendende Alpha RGB Farbe fest.
-//ExStepSummary:2: Der folgende Code erstellt ein neues Dokumentobjekt für das PDF.
-//ExStepSummary:3: Der folgende Code fügt einer Seite zum PDF-Dokument hinzu.
-//ExStepSummary:4: Der folgende Code erstellt ein Graph-Objekt zur Zeichnung von Formen in der PDF.
-//ExStepSummary:5: Der folgende Code setzt eine Grenze für das Graphobjekt.
-//ExStepSummary:6: Der folgende Code fügt das Graphobjekt zur Absatzkollection der Seite hinzu.
-//ExStepSummary:7: Der folgende Code erstellt eine Rechteckform, die auf dem Grafik zu zeichnen ist.
-//ExStepSummary:8: Der folgende Code setzt Farbinformationen für die Graphinformationen des Rechtenkners fest.
-//ExStepSummary:9: Der folgende Code fügt die Rechteckform der Grafikformsammlung hinzu.
-//ExStepSummary:10: Der folgende Code speichert das Dokument auf den angegebenen Ausgangsdatei- Pfad.
+//ExSummary: Dieser Code zeigt, wie man ein PDF-Dokument mit einem Graph erstellt, das ein rechteckiges Bild mit einer transparenten Farbe enthält.
+//ExStepSummary:0: Der folgende Code initialisiert das Datenspeicherverzeichnis für das Speichern der PDF-Datei.
+//ExStepSummary:1: Der folgende Code legt die für die Füllung des Rechtecks zu verwendende Alpha- RGB-Farbe fest.
+//ExStepSummary:2: Der folgende Code erstellt ein neues Dokument für das PDF-Dokument.
+//ExStepSummary:3: Der folgende Code fügt dem PDF-Dokument eine Seite hinzu.
+//ExStepSummary:4: Der folgende Code erstellt ein Graph-Objekt zur Zeichnung von Formen in PDF.
+//ExStepSummary:5: Der folgende Code legt eine Grenze für das Graphenobjekt fest.
+//ExStepSummary:6: Der folgende Code fügt das Graph-Objekt zur Absätze-Sammlung der Seite hinzu.
+//ExStepSummary:7: Der folgende Code erzeugt eine Rechteckform, die auf dem Diagramm gezeichnet werden soll.
+//ExStepSummary:8: Der folgende Code legt Farbinformationen für die Grafikinformationen des Rechtecks fest.
+//ExStepSummary:9: Der folgende Code fügt die Rechteckform zur Formenkollektion des Graphen hinzu.
+//ExStepSummary:10: Der folgende Code speichert das Dokument auf dem angegebenen Ausgabe- Dateipfad.
 //ExStepImage:6:images/1.png
 //ExStepImage:9:images/2.png
 
 //ExStep:0-
-// Initialisierung des Pfades zum Speichern des Dokuments
+// Beginn des Pfades zum Speichern des Dokuments
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -25,47 +25,47 @@ int green = 0;
 int red = 100;
 int blue = 0;
 
-// Erstellen Sie Farbeobjekt mit Alpha RGB
+// Erstellen eines Farbobjekts mit Alpha RGB
 Aspose.Pdf.Color alphaColor = Aspose.Pdf.Color.FromArgb(alpha, red, green, blue);
 
 //ExStep:2-
-// Instanz Dokumentobjekt
+// Dokumentobjekt instanzieren
 Document document = new Document();
 
 //ExStep:3-
-// Fügen Sie ein neues Dokument hinzu
+// Hinzufügen einer neuen Seite zum Dokument
 Page page = document.Pages.Add();
 
 //ExStep:4-
-// Erstellen Sie Graph-Objekt mit spezifischen Abmessungen
+// Erstellen Sie ein Graph-Objekt mit bestimmten Abmessungen
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(300.0, 400.0);
 
 //ExStep:5-
-// Festlegen Sie Grenzen für das Graph-Objekt
+// Grenze für das Graph-Objekt festlegen
 graph.Border = (new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Black));
 
 //ExStep:6-
-// Fügen Sie das Graphobjekt zur Seite hinzu
+// Das Graph-Objekt auf die Seite hinzufügen
 page.Paragraphs.Add(graph);
 
 //ExStep:7-
-// Erstellen Sie ein Rechteckobjekt mit spezifischen Abmessungen
+// Erstellen von Rechteckobjekten mit bestimmten Abmessungen
 Aspose.Pdf.Drawing.Rectangle rectangle = new Aspose.Pdf.Drawing.Rectangle(0, 0, 100, 50);
 
 //ExStep:8-
-// Erstellen Sie GraphInfo-Objekt für das Rechteck
+// Erstellen Sie ein GraphInfo-Objekt für das Rechteck
 Aspose.Pdf.GraphInfo graphInfo = rectangle.GraphInfo; 
 
-// Farbinformationen für GraphInfo-Instanz festlegen
+// Einstellen von Farbinformationen für GraphInfo-Instanz
 graphInfo.Color = (Aspose.Pdf.Color.Red); // Set the border color for the rectangle
 graphInfo.FillColor = (alphaColor); // Set the fill color with transparency
 
 //ExStep:9-
-// Fügen Sie die Rechteckform zum Graph hinzu
+// Fügen Sie die Rechteckform zum Diagramm hinzu
 graph.Shapes.Add(rectangle);
 
 //ExStep:10-
-// Setzen Sie den Ausgangsdateiweg zum Speichern des Dokuments
+// Festlegen des Ausgabe-Dateiweges für das Speichern des Dokuments
 dataDir = dataDir + "AddDrawing_out.pdf";
 document.Save(dataDir); // Save the document to the specified output path
 

@@ -1,30 +1,30 @@
 //ExStart
-//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF, dodać prostokątki o różnych kolorach i z-index, a także zapisać dokument.
-//ExStepSummary:0: W tym kroku definiowany jest katalog wyjściowy dokumentu PDF i wyobrażany jest nowy obiekt Dokument i dodana jest nowa strona o określonych wymiarach.
-//ExStepSummary:1: Ten krok określa rozmiar strony i margines nowo utworzonej strony.
-//ExStepSummary:2: W tym kroku dodaje się czerwony prostokąt w określonych współrzędnikach z indeksem Z 2, zapewniając jego pojawienie się nad innymi kształtami.
-//ExStepSummary:3: W tym kroku dodaje się niebieski prostokąt w określonych współrzędnikach z indeksem Z 1, zapewniając, że pojawia się poniżej czerwonego prostokątnego, ale ponad innymi.
-//ExStepSummary:4: W tym kroku dodaje się zielony prostokąt w określonych współrzędnikach z indeksem Z 0, zapewniając, że pojawi się on na dole porządku Z.
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF, dodać prostokąty o różnych kolorach i Z-indeksach i zapisać dokument.
+//ExStepSummary:0: Ten krok określa katalogi wyjściowe dokumentu PDF i instancjonizuje nowy obiekt dokumentu i dodaje nową stronę o określonych wymiarach.
+//ExStepSummary:1: Ten krok ustala rozmiar strony i margines dla nowo utworzonej strony.
+//ExStepSummary:2: W tym kroku dodaje się czerwony prostokąt na określonych współrzędnych z indeksem Z wynoszącym 2, zapewniając jego pojawienie się nad innymi kształtami.
+//ExStepSummary:3: W tym kroku dodaje się niebieski prostokąt na określonych współrzędnych z indeksem Z wynoszącym 1, zapewniając jego pojawienie się poniżej czerwonego prostokąta, ale nad innymi.
+//ExStepSummary:4: Ten krok dodaje zielony prostokąt na określonych współrzędnych z indeksem Z równym 0, zapewniając jego pojawienie się na dole porządku Z.
 //ExStepSummary:5: Ten krok zapisuje dokument PDF na określonej ścieżce pliku wyjściowego.
-//ExStepSummary:6: Ten krok określa metodę podsumowania logiki dodawania prostokątów do strony PDF, w tym ustawienia ich właściwości i Z-index.
+//ExStepSummary:6: Ten krok definiuje metodę podsumowania logiki dodawania prostokątów do strony PDF, w tym ustawiania ich właściwości i indeksu Z.
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
 //ExStepImage:4:images/4.png
 //ExStep:0-
-// Definicja katalogu dokumentów
+// Określenie katalogu dokumentów
 string dataDir = "Your Document Directory";
 
-// Wystarczy obekt klasy dokumentu
+// Instansuj obiekt klasy dokument
 Document doc1 = new Document();
 
-// Dodaj nową stronę do dokumentu
+// Dodać nową stronę do dokumentu
 Aspose.Pdf.Page page1 = doc1.Pages.Add();
 
 //ExStep:1-
-// Ustaw rozmiar strony
+// Ustawić rozmiar strony
 page1.SetPageSize(375, 300);
 
-// Ustaw margines strony do 0
+// Ustawić margines strony na 0
 page1.PageInfo.Margin.Left = 0;
 page1.PageInfo.Margin.Top = 0;
 
@@ -41,38 +41,38 @@ AddRectangle(page1, 20, 20, 30, 30, Aspose.Pdf.Color.Blue, 1);
 AddRectangle(page1, 40, 40, 60, 30, Aspose.Pdf.Color.Green, 0);
 
 //ExStep:5-
-// Zapisz dokument PDF
+// Zapisz dokument w formie PDF
 string outputFilePath = dataDir + "ControlRectangleZOrder_out.pdf";
 doc1.Save(outputFilePath);
 
 //ExStep:6-
-// Metoda dodawania prostokątnej strony PDF
+// Metoda dodawania prostokąta do strony PDF
 private static void AddRectangle(Aspose.Pdf.Page page, float x, float y, float width, float height, Aspose.Pdf.Color color, int zindex)
 {
-    // Tworzyć obiekt graficzny o takich samych wymiarach jak prostokąt
+    // Utworzenie obiektu graficznego o tych samych wymiarach co prostokąt
     Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(width, height);
     
-    // Zapobieganie automatycznemu zmianie pozycji wykresu
+    // Zapobieganie automatycznej zmianie pozycji wykresu
     graph.IsChangePosition = false;
     
     // Ustawić pozycję wykresu
     graph.Left = x;
     graph.Top = y;
     
-    // Tworzyć prostokąt w grafie
+    // Stwórz prostokąt wewnątrz wykresu
     Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(0, 0, width, height);
     
-    // Ustaw kolor wypełnienia i granicy prostokątnej
+    // Ustawić kolor wypełnienia prostokąta i krawędzi
     rect.GraphInfo.FillColor = color;
     rect.GraphInfo.Color = color;
     
-    // Dodaj prostokąt do zbioru kształtów wykresu
+    // Dodać prostokąt do kolekcji kształtów wykresu
     graph.Shapes.Add(rect);
     
-    // Ustawić indeks Z dla obiektu grafu
+    // Ustawić indeks Z obiektu grafu
     graph.ZIndex = zindex;
     
-    // Dodaj grafik do strony
+    // Dodaj wykres do strony
     page.Paragraphs.Add(graph);
 }
 //ExEnd

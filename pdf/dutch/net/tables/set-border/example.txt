@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe u een PDF-document maakt met een tabel met dubbele rand aan beide zijden. 
+//ExStepSummary:0: Installeer een Document-object en voeg er een pagina aan toe.
+//ExStepSummary:1: Maak een BorderInfo-object om de grens eigenschappen voor de tabel cellen te definiëren.
+//ExStepSummary:2: Instantiëren van een Table-object en specificeren van de kolombreedten.
+//ExStepSummary:3: Voeg een rij toe aan de tabel en voeg een cel met tekst in.
+//ExStepSummary:4: Stel de dubbele rand voor de cel in met behulp van het BorderInfo-object.
+//ExStepSummary:5: Voeg de tabel toe aan de pagina's paragraafverzameling en bewaar het document op een gespecificeerd bestandspad.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// De route naar de documentenmap.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiëren Document object.
+Document doc = new Document();
+// Voeg een pagina toe aan het PDF-document. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// BorderInfo-object maken.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Specificeer dat de bovenkant dubbel zal zijn
+border.Top.IsDoubled = true; 
+// Specificeer dat de onderste rand dubbel zal zijn
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Instantiëren van tafel object.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Inlichtingen over de kolombreedte specificeren
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Maak een Row-object voor de tabel.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Een tabelcel toevoegen aan cellencollectie van rij
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// De eerder gedefinieerde randinstellingen worden toegepast.
+cell.Border = border;
+
+//ExStep:5-
+// Voeg de tabel toe aan de paragraafverzameling van de pagina.
+page.Paragraphs.Add(table);
+// Specificeer het pad van het bestand.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Bewaar het PDF-document
+doc.Save(dataDir);
+// Print succes bericht met bestandspad.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

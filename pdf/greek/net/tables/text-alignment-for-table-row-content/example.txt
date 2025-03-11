@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF με έναν πίνακα που περιέχει 10 σειρές και 3 στήλες.
+//ExStepSummary:0: Αυτό το βήμα ορίζει το μονοπάτι του καταλόγου όπου θα αποθηκευτεί το αρχείο PDF εξόδου.
+//ExStepSummary:1: Αυτό το βήμα δημιουργεί μια νέα περίπτωση εγγράφου PDF.
+//ExStepSummary:2: Αυτό το βήμα αρχίζει ένα νέο αντικείμενο πίνακα.
+//ExStepSummary:3: Αυτό το βήμα ορίζει το χρώμα του ορίου του πίνακα σε LightGray.
+//ExStepSummary:4: Αυτό το βήμα εφαρμόζει ένα LightGray όριο σε όλα τα κελιά του πίνακα.
+//ExStepSummary:5: Αυτό το βήμα ξεκινά ένα κύκλο για να προσθέσετε 10 σειρές στο τραπέζι.
+//ExStepSummary:6: Αυτό το βήμα προσθέτει μια νέα σειρά στον πίνακα και ορίζει την κατακόρυφη ευθυγράμμιση του στο κέντρο.
+//ExStepSummary:7: Το βήμα αυτό προσθέτει τρία κελιά στη σειρά, με το πρώτο κελί να περιέχει δυναμικό περιεχόμενο με βάση την τρέχουσα χρονοσήμανση.
+//ExStepSummary:8: Αυτό το βήμα προσθέτει μια νέα σελίδα στο έγγραφο PDF.
+//ExStepSummary:9: Αυτό το βήμα προσθέτει τον πίνακα στη νέα σελίδα του εγγράφου.
+//ExStepSummary:10: Αυτό το βήμα αποθηκεύει το τελικό έγγραφο PDF στον καθορισμένο κατάλογο εξόδου.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Η διαδρομή για το κατάλογο εγγράφων.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Δημιουργήστε ένα νέο έγγραφο PDF.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Αρχιποιεί μια νέα περίπτωση του πίνακα.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Ορίστε το χρώμα του ορίου του πίνακα ως LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Ορίστε το όριο για τα κελιά του πίνακα.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Δημιουργήστε μια βουλή για να προσθέσετε 10 σειρές
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Προσθήκη γραμμής στον πίνακα
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Ορίστε την κατακόρυφη ευθυγράμμιση της σειράς.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Προσθέστε το πρώτο κελί με το δυναμικό περιεχόμενο.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Προσθέστε το δεύτερο κελί.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Προσθέστε το τρίτο κελί.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Προσθήκη νέας σελίδας στο έγγραφο PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Προσθέστε το αντικείμενο πίνακα στην πρώτη σελίδα του εγγράφου.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Αποθηκεύστε το ενημερωμένο έγγραφο που περιέχει το αντικείμενο πίνακα.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

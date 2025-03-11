@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Denna kod visar hur man lägger till ett textfragment till ett befintligt PDF-dokument med hjälp av Aspose.PDF. Den öppnar en PDF, skapar ett textfragment med specifika egenskaper och sparar det ändrade dokumentet.
+//ExStepSummary:0: Detta steg anger vägen till dokumentkatalogen där inmatningen PDF finns.
+//ExStepSummary:1: Detta steg öppnar det angivna PDF-dokumentet för redigering.
+//ExStepSummary:2: Detta steg hämtar en viss sida från PDF-dokumentet.
+//ExStepSummary:3: Detta steg skapar ett textfragment med specificerat innehåll och position på sidan.
+//ExStepSummary:4: I det här steget ställer du in olika egenskaper för textfragmentet, inklusive teckensnittets storlek, teckensnittstypen, bakgrundsfärgen och förgrundsfärgen.
+//ExStepSummary:5: I detta steg skapas ett TextBuilder-objekt för att underlätta att lägga till textfragmentet till PDF-sidan.
+//ExStepSummary:6: I detta steg bifogas textrymmet till PDF-sidan.
+//ExStepSummary:7: Detta steg anger utgångsfilens väg för det modifierade PDF-dokumentet.
+//ExStepSummary:8: Detta steg sparar det modifierade PDF-dokumentet på den angivna utgångspåren.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Ange katalogvägen för dokumenten
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Öppna det angivna PDF-dokumentet
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Hämta den andra sidan av PDF-dokumentet
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Skapa ett nytt textfragment med det angivna innehållet
+TextFragment textFragment = new TextFragment("main text");
+// Ange textrumsplatsen på sidan
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ställ in teckensnittets storlek
+textFragment.TextState.FontSize = 12;
+// Ange teckensnittet
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ställ in bakgrundsfärg
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Ange textfärg
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Skapa ett TextBuilder-objekt för sidan
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Bifoga textrymmet till PDF-sidan
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Ange utgångsfilvägen för det modifierade PDF-dokumentet
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Spara det ändrade PDF-dokumentet till den angivna utgångsvägen
+pdfDocument.Save(dataDir);
+// Meddelande om framgångsrik output
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

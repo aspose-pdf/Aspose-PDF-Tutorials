@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak utworzyć dokument PDF z fragmentem tekstu, który ma określony styl i krawędź.
+//ExStepSummary:0: Poniższy kod inicjuje ścieżkę do zapisania dokumentu PDF.
+//ExStepSummary:1: Poniższy kod tworzy nowy obiekt dokumentu PDF.
+//ExStepSummary:2: Poniższy kod dodaje nową stronę do dokumentu PDF.
+//ExStepSummary:3: Poniższy kod tworzy fragment tekstu z określoną treścią i pozycją.
+//ExStepSummary:4: Poniższy kod określa właściwości fragmentu tekstu, w tym rozmiar czcionki i kolory.
+//ExStepSummary:5: Poniższy kod umożliwia narysowanie granicy wokół prostokąta tekstowego.
+//ExStepSummary:6: Poniższy kod dodaje fragment tekstu do strony PDF za pomocą programu TextBuilder.
+//ExStepSummary:7: Poniższy kod zapisuje dokument PDF w określonym katalogu.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Inicjalizować ścieżkę do zapisania dokumentu
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Utworzenie nowego obiektu dokumentu PDF
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// Dodać nową stronę do dokumentu PDF
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Tworzenie fragmentu tekstu z określoną zawartością
+TextFragment textFragment = new TextFragment("main text");
+// Ustawić położenie fragmentu tekstu
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ustawić rozmiar czcionki tekstu
+textFragment.TextState.FontSize = 12;
+// Ustawić typ czcionki
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ustawić kolor tła tekstu
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Ustawić kolor pierwszego planu tekstu
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Ustawić kolor strzałki dla granicy
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Włączyć rysunek krawędzi wokół tekstu
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Utworzenie obiektu TextBuilder dla strony
+TextBuilder tb = new TextBuilder(pdfPage);
+// Dołącz fragment tekstu do strony PDF
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Zapisz dokument na określonej ścieżce
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

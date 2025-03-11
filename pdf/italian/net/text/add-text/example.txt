@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Questo codice mostra come aggiungere un frammento di testo a un documento PDF esistente utilizzando Aspose.PDF.
+//ExStepSummary:0: Questo passaggio imposta il percorso verso la directory dei documenti in cui si trova il file PDF di input.
+//ExStepSummary:1: Questo passo apre il documento PDF specificato per la modifica.
+//ExStepSummary:2: Questo passaggio richiama una pagina specifica dal documento PDF.
+//ExStepSummary:3: Questo passaggio crea un frammento di testo con contenuto specificato e posizione sulla pagina.
+//ExStepSummary:4: Questo passaggio imposta varie proprietà per il frammento di testo, tra cui dimensione del carattere, tipo di carattere, colore di sfondo e colore di primo piano.
+//ExStepSummary:5: Questo passaggio crea un oggetto TextBuilder per facilitare l'aggiunta del frammento di testo alla pagina PDF.
+//ExStepSummary:6: In questo passaggio viene allegato il frammento di testo alla pagina PDF.
+//ExStepSummary:7: Questo passaggio imposta il percorso del file di output per il documento PDF modificato.
+//ExStepSummary:8: Questo passaggio salva il documento PDF modificato nel percorso di uscita specificato.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Impostare il percorso della directory per i documenti
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Aprire il documento PDF specificato
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Ritornare la seconda pagina del documento PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Creare un nuovo frammento di testo con il contenuto specificato
+TextFragment textFragment = new TextFragment("main text");
+// Impostare la posizione del frammento di testo sulla pagina
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Impostare la dimensione del carattere del frammento di testo
+textFragment.TextState.FontSize = 12;
+// Impostare il tipo di carattere
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Impostare il colore di sfondo
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Impostare il colore del testo
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Creare un oggetto TextBuilder per la pagina
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Aggiungere il frammento di testo alla pagina PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Impostare il percorso del file di output per il documento PDF modificato
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Salvare il documento PDF modificato nel percorso di output specificato
+pdfDocument.Save(dataDir);
+// Messaggio di successo di output
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

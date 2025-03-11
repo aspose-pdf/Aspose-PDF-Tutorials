@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document PDF avec un tableau contenant 10 lignes et 3 colonnes.
+//ExStepSummary:0: Cette étape définit le chemin du répertoire où le fichier PDF de sortie sera enregistré.
+//ExStepSummary:1: Cette étape crée une nouvelle instance de document PDF.
+//ExStepSummary:2: Cette étape initie un nouvel objet de table.
+//ExStepSummary:3: Cette étape définit la couleur de bordure de la table à LightGray.
+//ExStepSummary:4: Cette étape applique une bordure LightGray à toutes les cellules de table.
+//ExStepSummary:5: Cette étape démarre une boucle pour ajouter 10 rangées à la table.
+//ExStepSummary:6: Cette étape ajoute une nouvelle ligne à la table et fixe son alignement vertical au centre.
+//ExStepSummary:7: Cette étape ajoute trois cellules à la ligne, la première cellule contenant un contenu dynamique basé sur l'horodatage actuel.
+//ExStepSummary:8: Cette étape ajoute une nouvelle page au document PDF.
+//ExStepSummary:9: Cette étape ajoute la table à la page nouvellement créée dans le document.
+//ExStepSummary:10: Cette étape permet d'enregistrer le document PDF final dans le répertoire de sortie spécifié.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Le chemin vers le répertoire des documents.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Créez un nouveau document PDF.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Initialise une nouvelle instance de la Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Définissez la couleur de bordure de la table en gris clair.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Définir la bordure pour les cellules de table.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Créez une boucle pour ajouter 10 lignes
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Ajouter une ligne au tableau
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Réglez l'alignement vertical de la rangée.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Ajouter la première cellule avec le contenu dynamique.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Ajoutez une deuxième cellule.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Ajoutez une troisième cellule.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Ajouter une nouvelle page au document PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Ajouter l'objet de la table à la première page du document.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Enregistrer le document mis à jour contenant l'objet de la table.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

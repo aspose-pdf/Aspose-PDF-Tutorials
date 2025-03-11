@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: 这个代码说明如何创建一个PDF文档并添加一个有下划线格式的文本片段.它包括创建文档,添加文本和保存文件的步骤.
+//ExStepSummary:0: 定义将保存PDF文档的目录.
+//ExStepSummary:1: 启动一个新的 PDF 文档,并添加一个页面.
+//ExStepSummary:2: 创建文本第一个页面的 TextBuilder 对象.
+//ExStepSummary:3: 创建一个 TextFragment 测试消息,设置其字体为 Arial,大小为 10,并启用下划线格式.
+//ExStepSummary:4: 指定文本片段在PDF中的位置并将其附加到文本构建器中.
+//ExStepSummary:5: 定义输出文件路径并保存PDF文档.
+//ExStepSummary:6: 输出一个成功消息,表示添加了下划线的文本,并显示文件位置.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// 定义文件将保存的目录.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 启动一个新的PDF文档.
+Document pdfDocument = new Document();
+// 在文档中添加一个新页面.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// 创建一个 TextBuilder 首页.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// 创建一个 TextFragment 带有指定文本.
+TextFragment fragment = new TextFragment("Test message");
+// 设置字体为Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// 设置字体大小为10
+fragment.TextState.FontSize = 10;
+// 启用文字的下划格式.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// 指定文本片段在PDF中的位置.
+fragment.Position = new Position(10, 800);
+// 添加文本片段到文本构建器.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// 定义PDF的输出文件路径.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// 将文档保存到指定路径.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// 输出成功消息.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

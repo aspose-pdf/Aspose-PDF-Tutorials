@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे Aspose.Pdf का उपयोग करके एक पीडीएफ दस्तावेज़ बनाने के लिए और इसके लिए अल्फा रंगों के साथ आयतों को जोड़ने के लिए।
+//ExStepSummary:0: निम्नलिखित कोड दस्तावेज़ निर्देशिका का पथ सेट करता है.
+//ExStepSummary:1: निम्नलिखित कोड दस्तावेज़ उदाहरण का उदाहरण देता है.
+//ExStepSummary:2: निम्न कोड पीडीएफ फ़ाइल के पृष्ठ संग्रह में एक पृष्ठ जोड़ता है.
+//ExStepSummary:3: निम्न कोड पीडीएफ पृष्ठ पर आकृतियों को आकर्षित करने के लिए एक ग्राफ उदाहरण बनाता है.
+//ExStepSummary:4: निम्नलिखित कोड विशिष्ट आयामों और भरने के रंग के साथ एक आयत वस्तु बनाता है.
+//ExStepSummary:5: निम्नलिखित कोड एक दूसरी आयत वस्तु बनाता है और इसे ग्राफ में जोड़ता है.
+//ExStepSummary:6: निम्नलिखित कोड पृष्ठ के अनुच्छेद संग्रह में ग्राफ उदाहरण जोड़ता है।
+//ExStepSummary:7: निम्न कोड पीडीएफ फ़ाइल को सहेजता है और कंसोल को सफलता संदेश मुद्रित करता है.
+//ExStepImage:6:images/2.png
+
+//ExStep:0-
+// दस्तावेज़ को सहेजने के लिए निर्देशिका को परिभाषित करने के लिए चरण
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// पीडीएफ बनाने के लिए दस्तावेज़ उदाहरण स्थापित करें
+Document doc = new Document();
+
+//ExStep:2-
+// PDF दस्तावेज़ में नया पृष्ठ जोड़ें
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:3-
+// आकृतियों को आकर्षित करने के लिए एक ग्राफ़ उदाहरण बनाएँ
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+
+//ExStep:4-
+// निर्दिष्ट आयामों के साथ एक आयत बनाएँ
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
+// ARGB का उपयोग करके भरने का रंग सेट करें
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+//ExStep:5-
+// दूसरा आयत ऑब्जेक्ट बनाएँ
+Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
+// दूसरे आयत के लिए भरने का रंग सेट करें
+rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
+
+//ExStep:6-
+// ग्राफ़ उदाहरण के आकार संग्रह में पहला आयत जोड़ें
+canvas.Shapes.Add(rect);
+// ग्राफ़ उदाहरण के आकार संग्रह में दूसरा आयत जोड़ें
+canvas.Shapes.Add(rect1);
+// पृष्ठ के पैराग्राफ संग्रह में ग्राफ़ उदाहरण जोड़ें
+page.Paragraphs.Add(canvas);
+
+//ExStep:7-
+// आउटपुट फ़ाइल पथ तैयार करें
+dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
+// पीडीएफ दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save(dataDir);
+// कंसोल पर सफलता संदेश मुद्रित करें
+Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
+//ExEnd

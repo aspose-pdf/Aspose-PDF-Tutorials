@@ -1,14 +1,14 @@
 //ExStart
-//ExSummary: このコードは,表でPDF文書を作成する方法を示します.表は既存のPDF文書の第2ページに追加され,特定の数列と列のデータを含む.
-//ExStepSummary:0: このステップでは,処理される PDF 文書のファイル経路を初期化します.
+//ExSummary: このコードは,表で PDF 文書を作成する方法を示します.表は,既存の PDF 文書の2ページに追加され,指定された行数と列データを含みます.
+//ExStepSummary:0: このステップでは,処理される PDF 文書のファイル パスを初期化します.
 //ExStepSummary:1: このステップでは,指定されたディレクトリから既存の PDF 文書をロードします.
-//ExStepSummary:2: このステップは新しいテーブルインスタンスを作成し,その境界属性を設定します.
-//ExStepSummary:3: このステップではループを初期化して,テーブルに複数の行を追加し,それぞれにセルデータで埋め込みます.
-//ExStepSummary:4: このステップでは,作成された表をPDF文書の最初のページに添加します.
+//ExStepSummary:2: このステップでは新しいテーブルインスタンスを作成し,その境界属性を設定します.
+//ExStepSummary:3: このステップではループを初期化して,テーブルに複数の行を追加し,各行にセルデータを埋めます.
+//ExStepSummary:4: このステップでは,作成したテーブルを PDF ドキュメントの最初のページに添付します.
 //ExStepSummary:5: このステップでは,新たに追加された表を含む更新された PDF 文書を指定された出力パスに保存します.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// 文書の経路を定義する
+// 文書のパスを定義する
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
@@ -16,36 +16,36 @@ string dataDir = "Your Document Directory";
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
-// 表の新しいインスタンスを初期化する
+// 新しい表のインスタンスを初期化する
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// テーブルの境界色を LightGray に設定する
+// 表の境界色をライトグレーに設定する
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// テーブルセルの境界を設定する
+// 表セルの境界を設定する
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
 // 10行を追加するループ
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// テーブルに新しい行を追加する
+	// 表に新しい行を追加する
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// 列に最初のセルを追加する
+	// 列の最初のセルを追加する
     row.Cells.Add("Column (" + row_count + ", 1)"); 
-	// 2番目のセルを並べて
+	// 列に2番目のセルを追加する
     row.Cells.Add("Column (" + row_count + ", 2)"); 
 	// 列に3番目のセルを追加する
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// 入力文書の最初のページに表オブジェクトを追加する
+// 表オブジェクトを入力文書の最初のページに追加する
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// 更新されたドキュメントの出力ファイル経路を定義
+// 更新されたドキュメントの出力ファイル経路を定義する
 dataDir = dataDir + "document_with_table_out.pdf"; 
 // 表を含む更新された文書を保存する
 doc.Save(dataDir); 
-// ユーザに成功した操作について知らせる
+// ユーザに成功操作について通知する
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

@@ -1,11 +1,11 @@
 //ExStart
-//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF za pomocą Aspose.PDF, dodać tabelę z określonymi stylami granicznymi i wdrożyć stronę po określonej liczbie rzędów.
-//ExStepSummary:0: W tym kroku inicjalizuje się dokument i dodaje do niego stronę.
-//ExStepSummary:1: Ten krok tworzy instancję tabeli i ustawia jej style graniczne.
-//ExStepSummary:2: W tym kroku określa się szerokości kolumn dla tabeli.
-//ExStepSummary:3: W tym kroku do tabeli dodaje się 200 rzędów, z których każdy z nich zawiera dwie komórki.
-//ExStepSummary:4: W tym kroku sprawdzamy, czy dodano 10 rzędów i w takim przypadku przechodzimy na nową stronę.
-//ExStepSummary:5: W tym kroku dodaje się wypełnioną tabelę do strony dokumentu PDF i zapisuje ją.
+//ExSummary: Ten kod pokazuje, jak tworzyć dokument PDF przy użyciu Aspose.PDF, dodać tabelę z określonymi stylami krawędzi i wdrożyć stronięcie po określonej liczbie wierszy.
+//ExStepSummary:0: Ten krok inicjalizuje dokument i dodaje do niego stronę.
+//ExStepSummary:1: Ten krok tworzy instancję tabeli i ustala jej style graniczne.
+//ExStepSummary:2: W tym kroku określa się szerokość kolumny tabeli.
+//ExStepSummary:3: Ten krok dodaje do tabeli 200 wierszy, z których każdy wiersz zawiera dwie komórki.
+//ExStepSummary:4: Ten krok sprawdza, czy dodano 10 wierszy i przenosi się na nową stronę.
+//ExStepSummary:5: W tym kroku wypełniona tabela jest dodawana do strony dokumentu PDF i zapisywana.
 //ExStepImage:2:images/1.png
 //ExStepImage:5:images/2.png
 
@@ -13,62 +13,62 @@
 // Drogę do katalogu dokumentów
 string dataDir = "Your Document Directory";
 
-// Wykres dokumentu
+// Instansu dokumentu
 Document doc = new Document();
 
-// Dodaj stronę do stron zbioru plików PDF
+// Dodawanie stron do stron zbiór plików PDF
 doc.Pages.Add();
 
 //ExStep:1-
-// Tworzenie przykładu tabeli
+// Utworzenie instancji tabeli
 Aspose.Pdf.Table tab = new Aspose.Pdf.Table();
 
-// Ustaw styl granicy dla stołu
+// Ustawić styl krawędzi dla tabeli
 tab.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
-// Ustaw domyślny styl granicy dla tabeli o kolorze granicy jako czerwony
+// Ustawić domyślny styl krawędzi dla tabeli o kolorze krawędzi czerwonym
 tab.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, Aspose.Pdf.Color.Red);
 
 //ExStep:2-
-// Wyznacz szerokość kolumn tabeli (2 kolumny, każda 100 jednostek)
+// Wymagania dotyczące poziomu wartości
 tab.ColumnWidths = "100 100";
 
 //ExStep:3-
-// Utwórz pętlę do dodania 200 rzędów do tabeli
+// Utworzenie pętli do dodawania 200 wierszy do tabeli
 for (int counter = 0; counter <= 200; counter++)
 {
-	// Tworzyć nowy wiersz
+	// Utworzenie nowego wiersza
     Aspose.Pdf.Row row = new Aspose.Pdf.Row();
 	// Dodaj wiersz do tabeli
     tab.Rows.Add(row); 
 
-    // Utworz pierwszą komórkę i dodaj tekst
+    // Utworzenie pierwszej komórki i dodanie tekstu
     Aspose.Pdf.Cell cell1 = new Aspose.Pdf.Cell();
-	// Dodaj fragment tekstu do pierwszej komórki	
+	// Dodawanie fragmentu tekstu do pierwszej komórki	
     cell1.Paragraphs.Add(new TextFragment("Cell " + counter + ", 0")); 
-	// Dodaj pierwszą komórkę do wiersza
+	// Dodać pierwszą komórkę do wiersza
     row.Cells.Add(cell1); 
 
-    // Utworzyć drugą komórkę i dodać tekst
+    // Utworzenie drugiej komórki i dodanie tekstu
     Aspose.Pdf.Cell cell2 = new Aspose.Pdf.Cell();
-	// Dodaj fragment tekstu do drugiej komórki	
+	// Dodawanie fragmentu tekstu do drugiej komórki	
     cell2.Paragraphs.Add(new TextFragment("Cell " + counter + ", 1"));
-	// Dodaj drugą komórkę do wiersza
+	// Dodać drugą komórkę do wiersza
     row.Cells.Add(cell2); 
     
 //ExStep:4-
-    // Po dodaniu 10 rzędów, wyświetlać nowy rzęd na nowej stronie
+    // Gdy dodane są 10 wierszy, wprowadź nowy wiersz na nową stronę
     if (counter % 10 == 0 && counter != 0) 
         row.IsInNewPage = true; // Move row to a new page if the condition is met
 }
 
 //ExStep:5-
-// Dodaj tabelę do zbioru paragrafów pierwszej strony
+// Dodać tabelę do paragrafów zbiór pierwszej strony
 doc.Pages[1].Paragraphs.Add(tab); 
-// Definicja ścieżki pliku wyjściowego
+// Określ ścieżkę pliku wyjściowego
 dataDir = dataDir + "InsertPageBreak_out.pdf";
-// Zapisz dokument PDF
+// Zapisz dokument w formie PDF
 doc.Save(dataDir); 
-// /Wiadomość potwierdzenia
+// Wiadomość potwierdzająca
 Console.WriteLine("\nPage break inserted successfully.\nFile saved at " + dataDir); 
 //ExEnd

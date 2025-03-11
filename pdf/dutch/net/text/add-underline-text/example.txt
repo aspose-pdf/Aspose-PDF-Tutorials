@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Deze code toont aan hoe u een PDF-document kunt maken en een tekstfragment met onderstreepte opmaak kunt toevoegen.
+//ExStepSummary:0: De folder waarin het PDF-document wordt opgeslagen, definiëren.
+//ExStepSummary:1: Initialiseer een nieuw PDF-document en voeg er een pagina aan toe.
+//ExStepSummary:2: Maak een TextBuilder-object voor de eerste pagina van het document.
+//ExStepSummary:3: Maak een TextFragment met het testbericht, stel het lettertype in op Arial, grootte op 10 en zet onderstreepte opmaak in.
+//ExStepSummary:4: Geef de positie van het TextFragment in de PDF aan en voeg het toe aan de TextBuilder.
+//ExStepSummary:5: De output bestandspad bepalen en het PDF-document opslaan.
+//ExStepSummary:6: Uitslag een succesbericht met de onderstreepte tekst is toegevoegd en de locatie van het bestand weergeven.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// De mappen worden in de volgende categorieën opgenomen:
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Een nieuw PDF-document initialiseren.
+Document pdfDocument = new Document();
+// Voeg een nieuwe pagina toe aan het document.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Maak een TextBuilder voor de eerste pagina.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Een TextFragment maken met de opgegeven tekst.
+TextFragment fragment = new TextFragment("Test message");
+// Stel het lettertype op Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Stel de lettergrootte op 10.
+fragment.TextState.FontSize = 10;
+// Inzetten van onderstreepte opmaak voor de tekst.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Specificeer de positie van het TextFragment in het PDF-bestand.
+fragment.Position = new Position(10, 800);
+// Voeg het TextFragment toe aan de TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// De outputbestandspad voor de PDF definiëren.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Bewaar het document op het gespecificeerde pad.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Succes bericht.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

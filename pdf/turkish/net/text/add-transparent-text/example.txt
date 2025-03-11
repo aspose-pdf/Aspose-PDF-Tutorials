@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Bu kod, saydam metin efektleri ile dikdörtgen ve metin fragmanı içeren bir PDF belgesinin nasıl oluşturulacağını gösterir. Çıktı, `AddTransparentText_out.pdf`Belirtilen dizinde.
+//ExStepSummary:0: Belge dizini yolunu başlat ve bir sayfa ile yeni bir PDF belge oluştur.
+//ExStepSummary:1: Şeffaf bir doldurma rengi olan bir Graph nesnesi ve dikdörtgen oluşturun ve sayfaya ekleyin.
+//ExStepSummary:2: Örnek metinle bir TextFragment oluşturun ve % 30 bulanıklık ile şeffaf yeşil renk ayarlayın.
+//ExStepSummary:3: Belgeyi belirtilen çıkış yoluna kaydet.
+//ExStepSummary:4: Dosya yolu ile bir başarı mesajı göster.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+
+//ExStep:0-
+// Belge dizini yoluna.
+string dataDir = "Your Document Directory";
+
+// Belge örneği oluştur
+Document doc = new Document(); 
+
+// Sayfalardan sayfalara PDF dosyası koleksiyonu oluştur
+Aspose.Pdf.Page page = doc.Pages.Add();
+
+//ExStep:1-
+// Genişliği ve yüksekliği ile Graph nesnesi oluştur
+Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
+// Belirli boyutlara sahip dikdörtgen örneği oluştur
+Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 400, 400);
+
+// Alfa renk kanalından renk nesnesi oluştur
+rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
+
+// Graph nesnesinin şekil koleksiyonuna dikdörtgen ekle
+canvas.Shapes.Add(rect); // Add the rectangle shape to the Graph object
+
+// Paragraflara grafik nesnesi ekle . Sayfa nesnesi koleksiyonu
+page.Paragraphs.Add(canvas);
+
+// Graf nesnesi için konumu değiştirmemek için değer ayarlayın
+canvas.IsChangePosition = false;
+
+//ExStep:2-
+// Örnek değeri ile TextFragment örneği oluştur
+TextFragment text = new TextFragment("transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text transparent text ");
+
+// Alfa kanalından renk nesnesi oluştur
+Aspose.Pdf.Color color = Aspose.Pdf.Color.FromArgb(30, 0, 255, 0); 
+
+// Metin örneği için renk bilgisi ayarla
+text.TextState.ForegroundColor = color;
+
+// Paragraflara metin ekle sayfa örneği koleksiyonu
+page.Paragraphs.Add(text);
+
+//ExStep:3-
+// PDF dosyası için çıkış yolunu belirtin
+dataDir = dataDir + "AddTransparentText_out.pdf"; 
+// Belgeyi belirtilen yolla kaydet
+doc.Save(dataDir); 
+
+//ExStep:4-
+// Kullanıcıya işlemin tamamlandığını bildirin
+Console.WriteLine("\nTransparent text added successfully.\nFile saved at " + dataDir);
+//ExEnd

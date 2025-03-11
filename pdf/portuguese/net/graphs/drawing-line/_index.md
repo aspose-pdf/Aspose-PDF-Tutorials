@@ -2,7 +2,7 @@
 title: Desenhe linhas diagonais em PDF usando Aspose.PDF para .NET
 weight: 7700
 limit: 
-description: Aprenda a desenhar linhas diagonais em um PDF usando Aspose.PDF para .NET. Siga instruções passo a passo com exemplos de código C# para criar e salvar um documento PDF.  
+description: Aprenda a desenhar linhas diagonais em um PDF usando Aspose.PDF para .NET. Siga as instruções passo a passo com exemplos de código C# para criar e salvar um documento PDF.  
 keywords: [Aspose.PDF for .NET, draw lines in PDF, diagonal lines PDF, C# PDF drawing, create PDF with lines, Aspose.PDF tutorial, .NET PDF example]
 url: /pt/net/graphs/drawing-line/
 ---
@@ -23,28 +23,28 @@ Aspose.PDF para .NET permite que os desenvolvedores criem, manipulem e editem do
 
 Para usar Aspose.PDF para .NET no seu projeto, siga estes passos:  
 
-1. Instalar através do Gerente de Pacotes NuGet  
+1. Instalar através do NuGet Package Manager  
 * Abra o Visual Studio e crie um novo projeto .NET.  
-* Abra o Console do Gerente de Pacotes (Tools → NuGet Package Manager → Console do Gerente de Pacotes) e execute:  
+* Abra o Console do Gerenciador de Pacotes (Tools → NuGet Package Manager → Package Manager Console) e execute:  
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. Instalação através do .NET CLI  
-Alternativamente, use o CLI .NET para instalar o pacote:  
+2. Instalar através da interface .NET  
+Alternativamente, use a interface de usuário .NET para instalar o pacote:  
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-3. Adicionar espaço de nomes no seu código C#  
-Para utilizar a funcionalidade Aspose.PDF, incluam os seguintes espaços de nomes:  
+3. Adicione espaço de nomes no seu código C#  
+Para utilizar a funcionalidade Aspose.PDF, inclua os seguintes espaços de nomes:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 ## Links úteis:  
-* Documentação: [Aspose.PDF para Documentação .NET](https://docs.aspose.com/pdf/net/)  
-* Referência da API: [Aspose.PDF para Referência de API .NET](https://reference.aspose.com/pdf/net/)  
+* Documentação: [Aspose.PDF para documentação .NET](https://docs.aspose.com/pdf/net/)  
+* Referência API: [Aspose.PDF para .NET API Referência](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

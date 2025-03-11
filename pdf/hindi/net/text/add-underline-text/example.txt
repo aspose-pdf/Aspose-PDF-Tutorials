@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: यह कोड दिखाता है कि कैसे एक पीडीएफ दस्तावेज़ बनाने के लिए और रेखांकित स्वरूपण के साथ एक पाठ अंश जोड़ने के लिए. यह दस्तावेज़ बनाने के लिए कदम शामिल है, पाठ जोड़ने, और फ़ाइल को बचाने के लिए.
+//ExStepSummary:0: उस निर्देशिका को परिभाषित करें जहां पीडीएफ दस्तावेज़ सहेजा जाएगा.
+//ExStepSummary:1: एक नया पीडीएफ दस्तावेज़ आरंभ करें और इसमें एक पृष्ठ जोड़ें.
+//ExStepSummary:2: दस्तावेज़ के पहले पृष्ठ के लिए एक TextBuilder ऑब्जेक्ट बनाएँ.
+//ExStepSummary:3: परीक्षण संदेश के साथ एक TextFragment बनाएँ, इसका फ़ॉन्ट Arial पर सेट करें, आकार 10 पर, और रेखांकित स्वरूपण सक्षम करें.
+//ExStepSummary:4: पीडीएफ में टेक्स्टफ्रेगमेंट की स्थिति निर्दिष्ट करें और इसे टेक्स्टबिल्डर में संलग्न करें.
+//ExStepSummary:5: आउटपुट फ़ाइल पथ को परिभाषित करें और पीडीएफ दस्तावेज़ सहेजें.
+//ExStepSummary:6: एक सफलता संदेश आउटपुट करें जिसमें रेखांकित पाठ जोड़ा गया है और फ़ाइल स्थान दिखाया गया है.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// वह निर्देशिका परिभाषित करें जहां दस्तावेज़ सहेजा जाएगा.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// एक नया पीडीएफ दस्तावेज़ आरंभ करें.
+Document pdfDocument = new Document();
+// दस्तावेज़ में एक नया पृष्ठ जोड़ें.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// पहले पृष्ठ के लिए एक TextBuilder बनाएँ.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// निर्दिष्ट पाठ के साथ एक TextFragment बनाएँ.
+TextFragment fragment = new TextFragment("Test message");
+// फ़ॉन्ट को एरियल पर सेट करें.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// फ़ॉन्ट आकार को 10 पर सेट करें.
+fragment.TextState.FontSize = 10;
+// पाठ के लिए रेखांकित स्वरूपण सक्षम करें.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// पीडीएफ में टेक्स्टफ्रेगमेंट की स्थिति निर्दिष्ट करें.
+fragment.Position = new Position(10, 800);
+// TextFragment को TextBuilder में संलग्न करें.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// पीडीएफ के लिए आउटपुट फ़ाइल पथ को परिभाषित करें.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// आउटपुट सफलता संदेश.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

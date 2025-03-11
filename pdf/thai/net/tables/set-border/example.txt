@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF ด้วยตารางที่มีขอบสองด้านทั้งด้านบนและด้านล่าง 
+//ExStepSummary:0: สร้างตัวอัตถุ Document และเพิ่มหน้าเข้าไป
+//ExStepSummary:1: สร้างวัตถุ BorderInfo เพื่อกําหนดคุณสมบัติ Border สําหรับเซลล์ตาราง
+//ExStepSummary:2: สร้างตัวอัตถุ Table และกําหนดความกว้างคอลัมน์
+//ExStepSummary:3: เพิ่มแถวไปในตารางและใส่เซลล์ที่มีข้อความ
+//ExStepSummary:4: กําหนดเขตสองสําหรับเซลล์ โดยใช้วัตถุ BorderInfo
+//ExStepSummary:5: เพิ่มตารางไปยังการรวบรวมข้อความของหน้า และบันทึกเอกสารไปยังเส้นทางไฟล์ที่กําหนด
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// กําหนดเส้นทางไปยัง แผ่นเอกสาร
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// สถานการณ์ของวัตถุเอกสาร
+Document doc = new Document();
+// เพิ่มหน้าหนึ่งไปยังเอกสาร PDF 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// สร้างวัตถุ BorderInfo
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// กําหนดว่าขอบบนจะเป็นสอง
+border.Top.IsDoubled = true; 
+// กําหนดว่าขอบล่างจะเป็นสอง
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// สร้างอัตรา Table
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// กําหนดข้อมูลความกว้างคอลัมน์
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// สร้างวัตถุ Row สําหรับตาราง
+Aspose.Pdf.Row row = table.Rows.Add();
+// เพิ่มเซลล์ตารางไปยังเซลล์รวมแถว
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// ใช้การตั้งค่าขอบที่กําหนดไว้ก่อนหน้านี้
+cell.Border = border;
+
+//ExStep:5-
+// เพิ่มตารางไปยังบทความของหน้า
+page.Paragraphs.Add(table);
+// กําหนดเส้นทางไฟล์ออก
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// เก็บเอกสาร PDF
+doc.Save(dataDir);
+// พิมพ์ข้อความสําเร็จด้วยเส้นทางไฟล์
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Kode ini menunjukkan bagaimana membuat dokumen PDF dengan tabel yang berisi 10 baris dan 3 kolom.
+//ExStepSummary:0: Langkah ini menetapkan jalur direktori di mana file PDF output akan disimpan.
+//ExStepSummary:1: Langkah ini membuat contoh dokumen PDF baru.
+//ExStepSummary:2: Langkah ini menginisialisasi objek tabel baru.
+//ExStepSummary:3: Langkah ini mengatur warna tepi tabel menjadi LightGray.
+//ExStepSummary:4: Langkah ini menerapkan border LightGray ke semua sel tabel.
+//ExStepSummary:5: Langkah ini memulai loop untuk menambahkan 10 baris ke tabel.
+//ExStepSummary:6: Langkah ini menambahkan baris baru ke tabel dan mengatur keselarasan vertikalnya ke tengah.
+//ExStepSummary:7: Langkah ini menambahkan tiga sel ke baris, dengan sel pertama berisi konten dinamis berdasarkan time stamp saat ini.
+//ExStepSummary:8: Langkah ini menambahkan halaman baru ke dokumen PDF.
+//ExStepSummary:9: Langkah ini menambahkan tabel ke halaman yang baru dibuat dalam dokumen.
+//ExStepSummary:10: Langkah ini menyimpan dokumen PDF akhir ke direktori output yang ditentukan.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Jalur ke direktori dokumen.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Buat dokumen PDF baru.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Memulai contoh baru dari Tabel.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Atur warna tepi tabel sebagai LightGray.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Tentukan batas untuk sel tabel.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Buat loop untuk menambahkan 10 baris
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Tambahkan baris ke tabel
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Tetapkan garis lurus baris.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Tambahkan sel pertama dengan konten dinamis.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Tambahkan sel kedua.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Tambahkan sel ketiga.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Tambahkan halaman baru ke dokumen PDF.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Tambahkan objek tabel ke halaman pertama dokumen.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Simpan dokumen yang diperbarui yang berisi objek tabel.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

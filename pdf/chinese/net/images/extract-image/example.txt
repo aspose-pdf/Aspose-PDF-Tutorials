@@ -1,25 +1,25 @@
 //ExStart
-//ExSummary: 这代码展示了如何从PDF文件中提取图像并保存它作为JPEG文件,同时保存更新的PDF.
-//ExStepSummary:0: 下面的代码初始化了文件目录的路径.
-//ExStepSummary:1: 下面的代码打开将图像从中提取的PDF文件.
-//ExStepSummary:2: 下面的代码从PDF文件中提取了特定的图像.
+//ExSummary: 这个代码说明如何从PDF文档中提取图像并将其保存为JPEG文件,同时保存更新的PDF文件.
+//ExStepSummary:0: 下面的代码初始化文件目录的路径.
+//ExStepSummary:1: 下面的代码打开将图像提取的PDF文档.
+//ExStepSummary:2: 下面的代码将从PDF文档中提取特定的图像.
 //ExStepSummary:3: 下面的代码将提取的图像保存到指定输出文件中.
-//ExStepSummary:4: 下面的代码更新了原始的PDF文件并将其保存到新的路径.
+//ExStepSummary:4: 下面的代码更新原始的PDF文件并将其保存到一个新的路径.
 //ExStepImage:3:images/1.png
 //ExStep:0-
 // 指定包含PDF文件的目录
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// 打开PDF文件以获取图像
+// 打开PDF文件进行图像提取
 Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
 
 //ExStep:2-
-// 从PDF文件的第二页中提取第一张图像
+// 从PDF的第二页提取第一个图像
 XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
 
 //ExStep:3-
-// 创建一个流来保存取出的图像
+// 创建一个流保存提取的图像
 FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
 
 // 保存输出图像

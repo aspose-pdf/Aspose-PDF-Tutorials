@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: このコードでは,特定のスタイリングと境界を持つテキストフラグメントで PDF文書を作成する方法を示します.
+//ExStepSummary:0: 次のコードは,PDF文書の保存のパスを初期化します.
+//ExStepSummary:1: 次のコードで新しい PDF ドキュメント オブジェクトを作成します
+//ExStepSummary:2: 次のコードで PDF 文書に新しいページを追加します
+//ExStepSummary:3: 次のコードで,指定された内容と位置を持つテキストフラグメントを作成します.
+//ExStepSummary:4: 次のコードは,フォントサイズと色を含むテキストフラグメントのプロパティを設定します.
+//ExStepSummary:5: 次のコードでテキストの長方形の周りに境界線を描くことができます.
+//ExStepSummary:6: 次のコードは TextBuilder を使って PDF ページにテキストフラグメントを添付します
+//ExStepSummary:7: 次のコードは,指定したディレクトリに PDF 文書を保存します.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// 文書を保存する経路を初期化する
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 新しい PDF 文書 オブジェクトを作成
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// PDF 文書に新しいページを追加する
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// 指定された内容のテキスト断片を作成
+TextFragment textFragment = new TextFragment("main text");
+// テキストフラグメントの位置を設定する
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// テキストのフォントサイズを設定する
+textFragment.TextState.FontSize = 12;
+// フォントタイプを設定する
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// テキストの背景色を設定する
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// テキストの前面色を設定する
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// 境界のスローリング色を設定する
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// テキストの周りを囲む図を描くことを有効にする
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// ページに TextBuilder オブジェクトを作成
+TextBuilder tb = new TextBuilder(pdfPage);
+// テキスト断片をPDFページに添付する
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// 指定されたパスに文書を保存する
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

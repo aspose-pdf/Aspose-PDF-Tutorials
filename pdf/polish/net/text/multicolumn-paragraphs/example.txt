@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: Ten kod pokazuje, jak pracować z wielokolumnowymi akapitami w dokumencie PDF przy użyciu Aspose.PDF. Ładuje PDF, wyciąga akapit, a następnie modyfikuje ustawienie, aby umożliwić wielokolumnowe akapity przed ponownym wyciąganiem akapitów, aby pokazać różnicę.
+//ExStepSummary:0: Poniższy kod pokazuje, jak określić katalog danych, w którym znajduje się dokument PDF.
+//ExStepSummary:1: Poniższy kod pokazuje, jak ładować dokument PDF za pomocą klasy Document.
+//ExStepSummary:2: Poniższy kod pokazuje, jak utworzyć program ParagraphAbsorber do wyodrębniania akapitów z dokumentu.
+//ExStepSummary:3: Poniższy kod pokazuje, jak odwiedzić dokument z ParagraphAbsorberem, aby wypełnić jego wyniki.
+//ExStepSummary:4: Poniższy kod pokazuje, jak uzyskać dostęp do znaczników pierwszej strony i wyciągnąć informacje o akapicie przed dopuszczeniem akapic wielokolumnowych.
+//ExStepSummary:5: Poniższy kod pokazuje, jak włączyć wielokolumnowe akapity, a następnie ponownie wyciągnąć informacje o akapicie, aby wykazać wpływ zmiany.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Określ katalog danych.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Pobierz dokument PDF.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// Stwórz ParagraphAbsorber.
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// Odwiedź dokument, aby wyciągnąć akapity.
+absorber.Visit(doc);
+
+//ExStep:4-
+// Dostęp do znaczników stron.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// Zabierz ostatni akapit z trzeciej sekcji.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Weź pierwszy akapit z drugiej sekcji.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// Włącz więcejkolumnowe akapity.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// Po włączeniu odcinków wielokolumnowych, wybierz ostatni akapit z trzeciej sekcji.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// Po włączeniu wielokolumnowych akapitów, uzyskaj pierwszy akapit z drugiej sekcji.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

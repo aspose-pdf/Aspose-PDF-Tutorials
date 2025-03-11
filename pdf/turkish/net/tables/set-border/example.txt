@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Bu kod, hem üst hem de alt taraflarında çift kenarlıklı bir tablo ile bir PDF belgesinin nasıl oluşturulacağını gösterir. 
+//ExStepSummary:0: Bir belge nesnesini oluşturun ve ona bir sayfa ekleyin.
+//ExStepSummary:1: Tablo hücreleri için sınır özelliklerini tanımlamak için BorderInfo nesnesi oluşturun.
+//ExStepSummary:2: Bir Table nesnesini oluşturun ve sütun genişliklerini belirtin.
+//ExStepSummary:3: Tabloya bir satır ekle ve metin içeren bir hücre ekle.
+//ExStepSummary:4: BorderInfo nesnesi kullanarak hücre için çift sınırını ayarla.
+//ExStepSummary:5: Tabloyu sayfanın paragraf koleksiyonuna ekleyin ve belgeyi belirtilen dosya yoluna kaydetin.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Belgeler dizini yolunu tanımla.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Doküman nesnesini hazırla.
+Document doc = new Document();
+// PDF belgesine bir sayfa ekleyin. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// BorderInfo nesnesi oluştur.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Üst kenarının iki kat olacağını belirtin
+border.Top.IsDoubled = true; 
+// Alt kenarının ikili olacağını belirtin
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Masa nesnesini anlıklaştır.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Sütun genişliği bilgisini belirt
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Masa için sıra nesnesi oluştur.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Bir tablo hücresini bir sıra hücre koleksiyonuna ekle
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Daha önce tanımlanan sınır ayarlarını uygulayın.
+cell.Border = border;
+
+//ExStep:5-
+// Tabloyu sayfanın paragraf koleksiyonuna ekleyin.
+page.Paragraphs.Add(table);
+// Çıkış dosyasının yolunu belirtin.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// PDF belgesini kaydet
+doc.Save(dataDir);
+// Dosya yolu ile başarı mesajı yazdır.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

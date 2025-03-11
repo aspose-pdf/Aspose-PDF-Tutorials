@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ce code montre comment créer un document PDF et ajouter un fragment de texte avec mise en forme sous-tendue.
+//ExStepSummary:0: Définissez le répertoire dans lequel le document PDF sera enregistré.
+//ExStepSummary:1: Initialisez un nouveau document PDF et ajoutez une page.
+//ExStepSummary:2: Créer un objet TextBuilder pour la première page du document.
+//ExStepSummary:3: Créez un TextFragment avec le message de test, définissez sa police Arial, taille 10, et activez la mise en forme sous-tendue.
+//ExStepSummary:4: Spécifiez la position du TextFragment dans le PDF et joignez-le au TextBuilder.
+//ExStepSummary:5: Définissez le chemin du fichier de sortie et enregistrez le document PDF.
+//ExStepSummary:6: Sortez un message de réussite indiquant que le texte souligné a été ajouté et affichez l'emplacement du fichier.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Définir le répertoire où le document sera enregistré.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Initialisez un nouveau document PDF.
+Document pdfDocument = new Document();
+// Ajouter une nouvelle page au document.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Créez un constructeur de texte pour la première page.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Créer un TextFragment avec le texte spécifié.
+TextFragment fragment = new TextFragment("Test message");
+// Réglez la police sur Arial.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Réglez la taille de la police à 10.
+fragment.TextState.FontSize = 10;
+// Activer le formatage sous-tendu pour le texte.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Spécifiez la position du TextFragment dans le PDF.
+fragment.Position = new Position(10, 800);
+// Ajouter le texte à l'outil de création de texte.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Définir le chemin du fichier de sortie pour le PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Enregistrer le document sur le chemin spécifié.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Message de réussite de sortie.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

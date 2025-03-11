@@ -1,17 +1,17 @@
 //ExStart
-//ExSummary通过在页面上绘制两个角线,该代码展示了如何使用Aspose.PDF创建一个PDF文档.
-//ExStepSummary:0: 启动将PDF保存的文件目录的路径.
+//ExSummary: 这个代码展示了如何使用Aspose.PDF绘制一个PDF文档,通过在页面上绘制两个对角线.它初始化一个文档,添加一个页面,并在保存文档之前从角到角绘制线条.
+//ExStepSummary:0: 启动将保存PDF文件目录的路径.
 //ExStepSummary:1: 创建一个新的文件实例.
-//ExStepSummary:2: 添加一个页面到文件的页面集合中.
-//ExStepSummary:3: 设置页面边缘为零.
-//ExStepSummary:4: 创建一个图形对象,以表示图形面积的尺寸等于页面大小.
-//ExStepSummary:5: 创建第一行对象从左下到右上角页面.
-//ExStepSummary:6: 添加第一个行到图形对象的形状集合中.
-//ExStepSummary:7: 创建第二行对象从页面的左上到右下角.
-//ExStepSummary:8: 添加第二行到图形对象的形状集合中.
-//ExStepSummary:9: 加入包含行列的图形对象到页面的段落集合中.
-//ExStepSummary:10: 构建输出PDF文件保存的完整路径.
-//ExStepSummary:11: 保存PDF文件到指定的路径.
+//ExStepSummary:2: 添加一个页面到文档的页面集合.
+//ExStepSummary:3: 设置页面边缘为零,
+//ExStepSummary:4: 创建一个Graph对象,以表示与页面大小相同的尺寸的绘图区域.
+//ExStepSummary:5: 从页面左下角到右上角创建第一行对象.
+//ExStepSummary:6: 将第一个行添加到Graph对象的形状集合中.
+//ExStepSummary:7: 从页面左上角到右下角创建第二行对象.
+//ExStepSummary:8: 将第二行添加到Graph对象的形状集合中.
+//ExStepSummary:9: 将包含行的Graph对象添加到页面的段落集合中.
+//ExStepSummary:10: 建立输出PDF文件保存的完整路径.
+//ExStepSummary:11: 将PDF文档保存到指定路径.
 //ExStepImage:9:images/1.png
 
 //ExStep:0-
@@ -23,27 +23,27 @@ string dataDir = "Your Document Directory";
 Document pDoc = new Document();
 
 //ExStep:2-
-// 添加页面到页面集的PDF文件
+// 添加页面到页面的PDF文档集合
 Page pg = pDoc.Pages.Add();
 
 //ExStep:3-
-// 设置页面边缘在所有侧面为0
+// 设置页面边缘在各个侧面为0
 pg.PageInfo.Margin.Left = pg.PageInfo.Margin.Right =
     pg.PageInfo.Margin.Bottom = pg.PageInfo.Margin.Top = 0;
 
 //ExStep:4-
-// 创建宽度和高度等于页面尺寸的图形对象
+// 创建宽度和高度等于页面尺寸的Graph对象
 Aspose.Pdf.Drawing.Graph graph = new Aspose.Pdf.Drawing.Graph(pg.PageInfo.Width, pg.PageInfo.Height);
 
 //ExStep:5-
-// 创建第一行对象从左下到右上角页面
+// 创建第一个行对象从页面左下角到右上角
 Aspose.Pdf.Drawing.Line line = new Aspose.Pdf.Drawing.Line(new float[] { (float)pg.Rect.LLX, 0, (float)pg.PageInfo.Width, (float)pg.Rect.URY });
 
 //ExStep:6-
 graph.Shapes.Add(line); // Add first line to shapes collection of Graph object
 
 //ExStep:7-
-// 从页面的左上角到右下角绘制一条线
+// 从页面左上角到页面右下角画一条线
 Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (float)pg.Rect.URY, (float)pg.PageInfo.Width, (float)pg.Rect.LLX });
 
 //ExStep:8-
@@ -51,11 +51,11 @@ Aspose.Pdf.Drawing.Line line2 = new Aspose.Pdf.Drawing.Line(new float[] { 0, (fl
 graph.Shapes.Add(line2);
 
 //ExStep:9-
-// 添加图对象到页面的段落集合
+// 添加图形对象到段落页面集合
 pg.Paragraphs.Add(graph);
 
 //ExStep:10-
-// 构建输出PDF文件保存的完整路径
+// 建立输出PDF文件保存的完整路径
 dataDir = dataDir + "DrawingLine_out.pdf";
 
 //ExStep:11-

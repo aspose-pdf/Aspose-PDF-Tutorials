@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ с таблицей, которая имеет двойные границы как на верхней, так и на нижней стороне. 
+//ExStepSummary:0: Инстанцировать объект Document и добавить в него страницу.
+//ExStepSummary:1: Создать объект BorderInfo для определения свойств границы для ячеек таблицы.
+//ExStepSummary:2: Инстанцировать объект Table и указать ширину столбца.
+//ExStepSummary:3: Добавить в таблицу строку и вставить ячейку, содержащую текст.
+//ExStepSummary:4: Установите двойную границу ячейки с помощью объекта BorderInfo.
+//ExStepSummary:5: Добавить таблицу в коллекцию абзацев страницы и сохранить документ на указанный путь файла.
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Определите путь к каталогу документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Инстанцировать объект "Документ".
+Document doc = new Document();
+// Добавить страницу в PDF-документ. 
+Page page = doc.Pages.Add();
+
+//ExStep:2-
+// Создать объект BorderInfo.
+Aspose.Pdf.BorderInfo border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All);
+// Укажите, что верхняя граница будет двойной
+border.Top.IsDoubled = true; 
+// Укажите, что нижний край будет двойным
+border.Bottom.IsDoubled = true;
+
+//ExStep:3-
+// Инстанцировать объект Table.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+// Указать информацию о ширине столбцов
+table.ColumnWidths = "100"; 
+
+//ExStep:4-
+// Создать объект Row для таблицы.
+Aspose.Pdf.Row row = table.Rows.Add();
+// Добавить ячейку таблицы в ячейку сборник строк
+Aspose.Pdf.Cell cell = row.Cells.Add("some text");
+// Применить настройки границы, определенные ранее.
+cell.Border = border;
+
+//ExStep:5-
+// Добавить таблицу в сборник абзацев страницы.
+page.Paragraphs.Add(table);
+// Укажите путь выходного файла.
+dataDir = dataDir + "TableBorderTest_out.pdf";
+// Сохранить документ в формате PDF
+doc.Save(dataDir);
+// Напечатать сообщение об успехе с маршрутом файла.
+Console.WriteLine("\nBorder setup successfully.\nFile saved at " + dataDir);
+//ExEnd

@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Bu kod, belirli bir stil ve kenarlığa sahip bir metin fragmanı ile bir PDF belgesinin nasıl oluşturulacağını gösterir.
+//ExStepSummary:0: Aşağıdaki kod, PDF belgesini kaydetmek için yolu başlatır.
+//ExStepSummary:1: Aşağıdaki kod yeni bir PDF belge nesnesi oluşturur.
+//ExStepSummary:2: Aşağıdaki kod PDF belgesine yeni bir sayfa ekler.
+//ExStepSummary:3: Aşağıdaki kod, belirli bir içeriğe ve konuma sahip bir metin fragmanı oluşturur.
+//ExStepSummary:4: Aşağıdaki kod, yazı tipi boyutu ve renkleri de dahil olmak üzere metin fragmanının özelliklerini belirler.
+//ExStepSummary:5: Aşağıdaki kod, metin dikdörtgeninin etrafında bir sınır çizilmesini sağlar.
+//ExStepSummary:6: Aşağıdaki kod, metin fragmanını bir TextBuilder kullanarak PDF sayfasına ekler.
+//ExStepSummary:7: Aşağıdaki kod, PDF belgesini belirtilen dizine kaydeder.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// Belgeyi kaydetmek için yolu başlat
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Yeni bir PDF belge nesnesi oluştur
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// PDF belgesine yeni bir sayfa ekle
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// Belirtilen içeriğe sahip bir metin fragmanı oluştur
+TextFragment textFragment = new TextFragment("main text");
+// Metin parçasının konumunu ayarla
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Metin yazı tipi boyutunu ayarla
+textFragment.TextState.FontSize = 12;
+// Yazı tipi ayarlayın
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Metin arkaplan rengini ayarla
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// Metin ön plan rengini ayarla
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// Kenarlık için çizgi rengi ayarla
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// Metin çevresinde kenarlık çizmeyi etkinleştir
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// Sayfa için bir TextBuilder nesnesi oluştur
+TextBuilder tb = new TextBuilder(pdfPage);
+// Metin parçasını PDF sayfasına ekle
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// Belgeyi belirtilen yolla kaydet
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

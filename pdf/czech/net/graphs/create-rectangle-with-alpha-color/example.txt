@@ -1,56 +1,56 @@
 //ExStart
-//ExSummaryTento kód ukazuje, jak vytvořit PDF dokument pomocí Aspose.Pdf a přidat k němu obdélníky s alfa barvami.
-//ExStepSummary:0: Následující kód určuje cestu do adresáře dokumentů.
-//ExStepSummary:1: Následující kód zobrazuje instancí dokumentu.
+//ExSummary: Tento kód ukazuje, jak vytvořit PDF dokument pomocí Aspose.Pdf a přidat mu obdélníky s alfa barvami.
+//ExStepSummary:0: Následující kód nastavuje cestu k adresáři dokumentů.
+//ExStepSummary:1: Následující kód instancizuje instanci dokumentu.
 //ExStepSummary:2: Následující kód přidává stránku do sbírky stránek souboru PDF.
-//ExStepSummary:3: Následující kód vytváří grafickou instanci k kreslení tvarů na stránce PDF.
-//ExStepSummary:4: Následující kód vytváří obdélníkový objekt s specifickými rozměry a barvou plnění.
-//ExStepSummary:5: Následující kód vytváří druhý obdélníkový objekt a přidává ho do grafu.
-//ExStepSummary:6: Následující kód přidává grafický příklad do sbírky odstavců stránky.
-//ExStepSummary:7: Následující kód ukládá soubor PDF a tiskne zprávu o úspěchu na konzole.
+//ExStepSummary:3: Následující kód vytváří Graphovou instanci pro kreslení tvarů na stránce PDF.
+//ExStepSummary:4: Následující kód vytváří obdélníkový objekt s konkrétními rozměry a barvou plnění.
+//ExStepSummary:5: Následující kód vytvoří druhý obvod obdélníku a přidá ho do grafu.
+//ExStepSummary:6: Následující kód přidává grafickou instanci do sbírky odstavců stránky.
+//ExStepSummary:7: Následující kód ukládá soubor PDF a tiskne zprávu o úspěchu na konzoli.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// Krok pro definici adresáře k ukládání dokumentu
+// Krok pro definici adresáře pro ukládání dokumentu
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Instanciovat příklad dokumentu pro vytvoření PDF
+// Instantace instance dokumentu pro vytvoření PDF
 Document doc = new Document();
 
 //ExStep:2-
-// Přidejte nový obrázek do dokumentu PDF
+// Přidat nový stránku do dokumentu PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Vytvořit grafický příklad pro kreslení tvarů
+// Vytvořit Graph pro kreslení tvarů
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Vytvořte pravouhlý kus s specifikovanými rozměry
+// Vytvořit obdélník s specifikovanými rozměry
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
 // Nastavte barvu plnění pomocí ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// Vytvořte druhý obdélníkový objekt
+// Vytvořit druhý obvod
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// Nastavte barvu plnění pro druhý pravouhon
+// Nastavte barvu vyplnění pro druhý obdélník
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Přidejte první pravouhlík do sbírky tvarů grafu
+// Přidat první obdélník do sbírky tvarů grafu
 canvas.Shapes.Add(rect);
-// Přidejte druhý pravouhlík do sbírky tvarů grafu
+// Přidat druhý obdélník do sbírky tvarů grafu
 canvas.Shapes.Add(rect1);
-// Přidejte grafický příklad do sbírky odstavců stránky
+// Přidat Graph instanci do sbírky odstavců stránky
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Připravte výstupní soubor
+// Připravte cestu výstupního souboru
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Zachraňujte PDF dokument na uvedenou cestu
+// Uložit PDF dokument na stanovenou cestu
 doc.Save(dataDir);
-// Vytištějte zprávu o úspěchu na konzole
+// Zpráva o úspěchu tisku na konzoli
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

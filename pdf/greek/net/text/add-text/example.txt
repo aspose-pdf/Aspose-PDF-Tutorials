@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary: Αυτός ο κώδικας δείχνει πώς να προσθέσετε ένα κείμενο σε ένα υπάρχον έγγραφο PDF χρησιμοποιώντας το Aspose.PDF. Ανοίγει ένα PDF, δημιουργεί ένα κείμενο με συγκεκριμένες ιδιότητες και αποθηκεύει το τροποποιημένο έγγραφο.
+//ExStepSummary:0: Αυτό το βήμα ορίζει το μονοπάτι προς τον κατάλογο εγγράφων όπου βρίσκεται το αρχείο εισόδου PDF.
+//ExStepSummary:1: Αυτό το βήμα ανοίγει το καθορισμένο έγγραφο PDF για επεξεργασία.
+//ExStepSummary:2: Αυτό το βήμα ανακτά μια συγκεκριμένη σελίδα από το έγγραφο PDF.
+//ExStepSummary:3: Αυτό το βήμα δημιουργεί ένα κομμάτι κειμένου με καθορισμένο περιεχόμενο και θέση στη σελίδα.
+//ExStepSummary:4: Αυτό το βήμα ορίζει διάφορες ιδιότητες για το κομμάτι κειμένου, συμπεριλαμβανομένου του μεγέθους γραμματοσειράς, του τύπου γραμματοσειράς, του χρώματος φόντου και του χρώματος προσκήνου.
+//ExStepSummary:5: Αυτό το βήμα δημιουργεί ένα αντικείμενο TextBuilder για να διευκολύνει την προσθήκη του τμήματος κειμένου στη σελίδα PDF.
+//ExStepSummary:6: Αυτό το βήμα προσθέτει το τμήμα κειμένου στην σελίδα PDF.
+//ExStepSummary:7: Αυτό το βήμα ορίζει την διαδρομή του αρχείου εξόδου για το τροποποιημένο έγγραφο PDF.
+//ExStepSummary:8: Αυτό το βήμα αποθηκεύει το τροποποιημένο έγγραφο PDF στην καθορισμένη διαδρομή εξόδου.
+//ExStepImage:3:images/1.png
+//ExStepImage:6:images/2.png
+
+
+//ExStep:0-
+// Ορίστε τη διαδρομή του φακέλου για τα έγγραφα
+string dataDir = "Your Document Directory"; 
+
+//ExStep:1-
+// Ανοίξτε το καθορισμένο έγγραφο PDF
+Document pdfDocument = new Document(dataDir + "input.pdf");
+
+//ExStep:2-
+// Ανακτήση της δεύτερης σελίδας του εγγράφου PDF
+Page pdfPage = (Page)pdfDocument.Pages[1];
+
+//ExStep:3-
+// Δημιουργία νέου τμηματικού κειμένου με το καθορισμένο περιεχόμενο
+TextFragment textFragment = new TextFragment("main text");
+// Ορίστε τη θέση του τμήματος κειμένου στη σελίδα
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// Ορίστε το μέγεθος γραμματοσειράς του τμηματικού κειμένου
+textFragment.TextState.FontSize = 12;
+// Ορίστε τον τύπο γραμματοσειράς
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// Ρυθμισμένο χρώμα φόντου
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray);
+// Ρούδι κειμένου
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.Red);
+
+//ExStep:5-
+// Δημιουργία αντικειμένου TextBuilder για τη σελίδα
+TextBuilder textBuilder = new TextBuilder(pdfPage);
+
+//ExStep:6-
+// Προσάρτηση του τμήματος κειμένου στην σελίδα PDF
+textBuilder.AppendText(textFragment);
+
+//ExStep:7-
+// Ορίστε την διαδρομή αρχείου εξόδου για το τροποποιημένο έγγραφο PDF
+dataDir = dataDir + "AddText_out.pdf";
+
+//ExStep:8-
+// Αποθήκευση του τροποποιημένου εγγράφου PDF στην καθορισμένη διαδρομή εξόδου
+pdfDocument.Save(dataDir);
+// Μήνυμα επιτυχίας εξόδου
+Console.WriteLine("\nText added successfully.\nFile saved at " + dataDir); 
+//ExEnd

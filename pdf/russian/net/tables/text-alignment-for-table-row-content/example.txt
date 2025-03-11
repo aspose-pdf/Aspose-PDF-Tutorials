@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ с таблицей, содержащей 10 строк и 3 столбца.
+//ExStepSummary:0: Этот шаг устанавливает путь каталога, в котором будет сохранен выходной PDF- файл.
+//ExStepSummary:1: Этот шаг создает новый экземпляр PDF-документа.
+//ExStepSummary:2: Этот шаг инициирует новый объект таблицы.
+//ExStepSummary:3: Этот шаг устанавливает цвет границы таблицы на светло-серый.
+//ExStepSummary:4: Этот шаг применяет LightGray границу ко всем ячейкам таблицы.
+//ExStepSummary:5: Этот шаг начинает петлю, чтобы добавить 10 рядов в таблицу.
+//ExStepSummary:6: Этот шаг добавляет новый ряд в таблицу и устанавливает ее вертикальное выравнивание в центр.
+//ExStepSummary:7: Этот шаг добавляет три ячейки в строку, причем первая ячейка содержит динамическое содержание на основе текущей часовой метки.
+//ExStepSummary:8: Этот шаг добавляет новую страницу в PDF-документ.
+//ExStepSummary:9: Этот шаг добавляет таблицу на вновь созданную страницу в документе.
+//ExStepSummary:10: Этот шаг сохраняет окончательный PDF-документ в указанном каталоге вывода.
+//ExStepImage:8:images/1.png
+
+//ExStep:0-
+// Путь к каталогу документов.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Создать новый PDF-документ.
+Aspose.Pdf.Document doc = new Aspose.Pdf.Document();
+
+//ExStep:2-
+// Инициализирует новый экземпляр таблицы.
+Aspose.Pdf.Table table = new Aspose.Pdf.Table();
+
+//ExStep:3-
+// Установите цвет границы таблицы на светло-серый.
+table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:4-
+// Установите границу для ячеек таблицы.
+table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
+
+//ExStep:5-
+// Создать петлю для добавления 10 строк
+for (int row_count = 0; row_count < 10; row_count++)
+{
+//ExStep:6-
+	// Добавить строку в таблицу
+    Aspose.Pdf.Row row = table.Rows.Add();
+	// Установите вертикальное выравнивание ряда.
+    row.VerticalAlignment = VerticalAlignment.Center;
+
+//ExStep:7-
+	// Добавьте первую ячейку с динамическим содержанием.
+    row.Cells.Add("Column (" + row_count + ", 1)" + DateTime.Now.Ticks);
+	// Добавьте вторую ячейку.
+    row.Cells.Add("Column (" + row_count + ", 2)"); 
+	// Добавьте третью ячейку.
+    row.Cells.Add("Column (" + row_count + ", 3)"); 
+}
+
+//ExStep:8-
+// Добавить новую страницу в PDF-документ.
+Page tocPage = doc.Pages.Add();
+
+//ExStep:9-
+// Добавить объект таблицы на первую страницу документа.
+tocPage.Paragraphs.Add(table); 
+
+//ExStep:10-
+// Сохранить обновленный документ, содержащий объект таблицы.
+doc.Save(dataDir + "43620_ByWords_out.pdf"); 
+//ExEnd

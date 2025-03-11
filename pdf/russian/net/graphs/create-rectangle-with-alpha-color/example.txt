@@ -1,13 +1,13 @@
 //ExStart
-//ExSummary: Этот код показывает, как создать PDF-документ с помощью Aspose.Pdf и добавить к нему прямоугольники с алфа-цветами.
-//ExStepSummary:0: Следующий код указывает путь к каталогу документов.
-//ExStepSummary:1: Следующий код представляет собой экземпляр документа.
-//ExStepSummary:2: Следующий код добавляет страницу в сборник страниц файла PDF.
-//ExStepSummary:3: Следующий код создает графический экземпляр для рисования форм на странице PDF.
+//ExSummary: Этот код показывает, как создать PDF-документ с помощью Aspose.Pdf и добавить в него прямоугольники с альфа-цветами.
+//ExStepSummary:0: Следующий код устанавливает путь к каталогу документов.
+//ExStepSummary:1: Следующий код создает экземпляр документа.
+//ExStepSummary:2: Следующий код добавляет страницу в коллекцию страниц PDF-файла.
+//ExStepSummary:3: Следующий код создает экземпляр Graph для рисования форм на странице PDF.
 //ExStepSummary:4: Следующий код создает прямоугольный объект с определенными размерами и цветом заполнения.
 //ExStepSummary:5: Следующий код создает второй прямоугольный объект и добавляет его в график.
-//ExStepSummary:6: Следующий код добавляет графический экземпляр в сборник абзацев страницы.
-//ExStepSummary:7: Следующий код сохраняет файл PDF и печатает сообщение о успехе на консоль.
+//ExStepSummary:6: Следующий код добавляет экземпляр графа в коллекцию абзацев страницы.
+//ExStepSummary:7: Следующий код сохраняет файл PDF и печатает сообщение об успехе на консоль.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
@@ -15,42 +15,42 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Инсталляция документа для создания PDF
+// Инстактировать экземпляр документа для создания PDF
 Document doc = new Document();
 
 //ExStep:2-
-// Добавить новую страницу в PDF-документ
+// Добавить новую страницу в документ PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Создать пример графики для рисования форм
+// Создать экземпляр Graph для рисования форм
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Создать прямоугольник с указанными размерами
+// Создать прямоугольник с заданными размерами
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// Настройка цвета заполнения с использованием ARGB
+// Установка цвета заполнения с помощью ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
 // Создать второй прямоугольный объект
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// Настройка цвета заполнения для второго прямоугольника
+// Установите цвет заполнения для второго прямоугольника
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Добавьте первый прямоугольник к сборке форм приложения Граф
+// Добавить первый прямоугольник в коллекцию форм экземпляра Graph
 canvas.Shapes.Add(rect);
-// Добавьте второй прямоугольник к сборке форм приложения Граф
+// Добавить второй прямоугольник в коллекцию форм экземпляра Graph
 canvas.Shapes.Add(rect1);
-// Добавить инстанцию Графа в сборник абзацев страницы
+// Добавить экземпляр Graph в коллекцию абзацев страницы
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Подготовить путь выхода файла
+// Подготовить путь выходного файла
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// Сохранить PDF-документ на указанном пути
+// Сохранить документ PDF на указанном пути
 doc.Save(dataDir);
-// Напечатать сообщение успеха на консоли
+// Напечатать сообщение об успехе на консоль
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

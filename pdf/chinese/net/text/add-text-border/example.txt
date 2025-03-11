@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 这个代码说明如何创建一个具有特定造型和边框的文本片段的PDF文档.
+//ExStepSummary:0: 下面的代码初始化了保存PDF文档的路径.
+//ExStepSummary:1: 下面的代码创建了一个新的PDF文档对象.
+//ExStepSummary:2: 下面的代码为PDF文档添加了一个新页面.
+//ExStepSummary:3: 下面的代码创建一个内容和位置的文本片段.
+//ExStepSummary:4: 下面的代码设置了文本片段的属性,包括字体大小和颜色.
+//ExStepSummary:5: 下面的代码允许在文字矩形周围绘制边框.
+//ExStepSummary:6: 下面的代码通过 TextBuilder 将文本片段添加到 PDF 页面上.
+//ExStepSummary:7: 下面的代码将PDF文档保存到指定目录中.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+// 启动文件保存路径
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 创建一个新的PDF文档对象
+Document pdfDocument = new Document();
+
+//ExStep:2-
+// 添加一个新页面到PDF文档
+Page pdfPage = (Page)pdfDocument.Pages.Add();
+
+//ExStep:3-
+// 创建指定内容的文本片段
+TextFragment textFragment = new TextFragment("main text");
+// 设置文本片段的位置
+textFragment.Position = new Position(100, 600);
+
+//ExStep:4-
+// 设置文本字体大小
+textFragment.TextState.FontSize = 12;
+// 设置字体类型
+textFragment.TextState.Font = FontRepository.FindFont("TimesNewRoman");
+// 设置文本的背景颜色
+textFragment.TextState.BackgroundColor = Aspose.Pdf.Color.LightGray; 
+// 设置文本前景颜色
+textFragment.TextState.ForegroundColor = Aspose.Pdf.Color.Red; 
+
+//ExStep:5-
+// 设置边框的滑动颜色
+textFragment.TextState.StrokingColor = Aspose.Pdf.Color.DarkRed; 
+// 启用围绕文本的边框绘制
+textFragment.TextState.DrawTextRectangleBorder = true;
+
+//ExStep:6-
+// 创建一个 TextBuilder 对象
+TextBuilder tb = new TextBuilder(pdfPage);
+// 将文本片段附加到PDF页面
+tb.AppendText(textFragment);
+
+//ExStep:7-
+// 保存文件到指定路径
+pdfDocument.Save(dataDir + "PDFWithTextBorder_out.pdf");
+//ExEnd

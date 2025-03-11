@@ -1,51 +1,51 @@
 //ExStart
-//ExSummaryEste código muestra cómo crear un documento PDF con una tabla. La tabla se agrega a la segunda página de un documento PDF existente, e incluye un número especificado de datos de filas y columnas.
-//ExStepSummary:0: Este paso inicializa la ruta de archivo para el documento PDF que se procesará.
+//ExSummary: Este código muestra cómo crear un documento PDF con una tabla. La tabla se agrega a la segunda página de un documento PDF existente, e incluye un número especificado de filas y datos de columna.
+//ExStepSummary:0: Este paso inicializa la ruta del archivo para el documento PDF a procesar.
 //ExStepSummary:1: Este paso carga el documento PDF existente desde el directorio especificado.
-//ExStepSummary:2: Este paso crea una nueva instancia de tabla y establece sus propiedades límite.
-//ExStepSummary:3: Este paso inicializa el bucle para agregar múltiples filas a la tabla, llenando cada una con datos de la célula.
+//ExStepSummary:2: Este paso crea una nueva instancia de tabla y establece sus propiedades de borde.
+//ExStepSummary:3: Este paso inicializa el bucle para agregar varias filas a la tabla, llenando cada una con datos de celda.
 //ExStepSummary:4: Este paso añade la tabla creada a la primera página del documento PDF.
-//ExStepSummary:5: Este paso guarda el documento PDF actualizado con la tabla recién añadida a un camino de salida especificado.
+//ExStepSummary:5: Este paso guarda el documento PDF actualizado con la tabla recién añadida en una ruta de salida especificada.
 //ExStepImage:4:images/1.png
 //ExStep:0-
-// Definir el camino para los documentos
+// Define la ruta para los documentos
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// Cargar el documento PDF fuente
+// Cargar el documento PDF de origen
 Aspose.Pdf.Document doc = new Aspose.Pdf.Document(dataDir + "AddTable.pdf");
 
 //ExStep:2-
 // Iniciar una nueva instancia de la tabla
 Aspose.Pdf.Table table = new Aspose.Pdf.Table();
-// Configure el color del borde de la mesa en LightGray
+// Establecer el color del borde de la tabla en gris claro
 table.Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray));
-// Establezca el límite para las celdas de la mesa
+// Establecer el borde de las celdas de tabla
 table.DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Aspose.Pdf.Color.FromRgb(System.Drawing.Color.LightGray)); 
 
 //ExStep:3-
-// Loop para agregar 10 filas
+// Bucle para añadir 10 filas
 for (int row_count = 1; row_count < 10; row_count++) 
 {
-	// Añadir una nueva fila a la mesa
+	// Añadir una nueva fila a la tabla
     Aspose.Pdf.Row row = table.Rows.Add(); 
-	// Añadir la primera célula en la fila
+	// Añadir la primera celda de la fila
     row.Cells.Add("Column (" + row_count + ", 1)"); 
 	// Añadir la segunda celda en la fila
     row.Cells.Add("Column (" + row_count + ", 2)"); 
-	// Añadir la tercera célula en la fila
+	// Añadir la tercera celda en la fila
     row.Cells.Add("Column (" + row_count + ", 3)"); 
 }
 
 //ExStep:4-
-// Añadir el objeto de la tabla a la primera página del documento de entrada
+// Añadir el objeto tabla a la primera página del documento de entrada
 doc.Pages[1].Paragraphs.Add(table);
 
 //ExStep:5-
-// Definir la ruta del archivo de salida para el documento actualizado
+// Define la ruta del archivo de salida para el documento actualizado
 dataDir = dataDir + "document_with_table_out.pdf"; 
 // Guardar el documento actualizado que contiene la tabla
 doc.Save(dataDir); 
-// Informar al usuario sobre la operación exitosa
+// Informar al usuario sobre el éxito de la operación
 Console.WriteLine("\nText added successfully to an existing pdf file.\nFile saved at " + dataDir);
 //ExEnd

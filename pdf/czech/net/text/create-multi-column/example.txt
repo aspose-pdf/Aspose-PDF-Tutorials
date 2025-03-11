@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: Tento kód ukazuje, jak vytvořit více sloupcový PDF dokument pomocí knihovny Aspose.PDF. Nastavuje okraje, přidává text s formátováním HTML a organizuje obsah do sloupců.
+//ExStepSummary:0: Tento krok nastaví adresář dokumentů, inicializuje nový PDF dokument a konfiguruje jeho okraje stránek.
+//ExStepSummary:1: Tento krok přidává novou stránku do dokumentu a kreslí vodorovnou čáru pomocí tříd Graph a Line.
+//ExStepSummary:2: Tento krok vytváří HtmlFragment s formátovaným textem a přidává ho do dokumentu PDF.
+//ExStepSummary:3: Tento krok vytváří FloatingBox pro rozložení dvou sloupců a přidává k němu informace o autorovi.
+//ExStepSummary:4: Tento krok nakreslí další vodorovnou čáru uvnitř FloatingBox pro vizuální oddělení.
+//ExStepSummary:5: Tento krok přidává dlouhý textový fragment do FloatingBox, aby se ukázalo rozložení obsahu v několika sloupcích.
+//ExStepSummary:6: Tento krok ukládá dokument na zadanou výstupní cestu a tiskne zprávu o úspěchu.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Definice cesty do adresáře dokumentů
+string dataDir = "Your Document Directory";
+// Vytvořit nový příklad dokumentu
+Document doc = new Document(); 
+
+// Uveďte informace o levé okraji pro soubor PDF
+doc.PageInfo.Margin.Left = 40; 
+// Uveďte pravé okraje informací pro soubor PDF
+doc.PageInfo.Margin.Right = 40;
+// Přidat nový dokument
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// Vytvořit nový objekt Grafu pro kreslení čáry
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// Přidat řádek do odstavce sbírka sekce objektu
+page.Paragraphs.Add(graph1);
+
+// Uveďte souřadnice pro čáru
+// Definice počátečních a koncových bodů čáry
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// Vytvořit tvar čáry s specifikovanými souřadnicemi
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// Přidejte tvar čáry do grafu
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// Vytvořit vlákniny s textem obsahujícím HTML značky
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// Vytvořit HtmlFragment pro text nadpisu
+HtmlFragment heading_text = new HtmlFragment(s);
+// Přidat titulek na stránku 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// Vytvořit nový FloatingBox pro rozložení více sloupců
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// Nastavte počet sloupců na 2
+box.ColumnInfo.ColumnCount = 2; 
+// Nastavte rozstup mezi sloupci
+box.ColumnInfo.ColumnSpacing = "5";
+// Nastavte šířku pro každý sloupek
+box.ColumnInfo.ColumnWidths = "105 105";
+// Vytvořit textový fragment pro informace o autorovi
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// Nastavte velikost písma pro text
+text1.TextState.FontSize = 8;
+// Nastavte rozpětí řádků pro text
+text1.TextState.LineSpacing = 2;
+// Přidat text autora do plovoucího pole
+box.Paragraphs.Add(text1);
+// Aktualizace velikosti písma pro text
+text1.TextState.FontSize = 10;
+// Nastav styl písma na kurzivní
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// Vytvořit další objekt Grafu pro kreslení druhého řádku
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// Uveďte souřadnice pro čáru
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// Přidejte tvar druhé čáry do grafu
+graph2.Shapes.Add(l2);
+
+// Přidat řádek do odstavce sbírka sekce objektu
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// Vytvořit dlouhý textový fragment pro zobrazení obsahu ve sloupcích
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// Přidat dlouhý text do plovoucího pole
+box.Paragraphs.Add(text2); 
+// Přidat plovoucí pole obsahující veškerý obsah na stránku
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// Uveďte cestu výstupního souboru PDF
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// Uložit dokument na zadání cesty
+doc.Save(dataDir); 
+// Zpráva o úspěšném tisku
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

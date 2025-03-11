@@ -1,8 +1,8 @@
 ---
-title: สูตรเส้นทางทางขวางใน PDF โดยใช้ Aspose.PDF สําหรับ .NET
+title: สลากเส้นเส้นฉากใน PDF โดยใช้ Aspose.PDF สําหรับ .NET
 weight: 7700
 limit: 
-description: เรียนรู้วิธีการวาดเส้นทางเส้นทางทางด้านขวางใน PDF โดยใช้ Aspose.PDF สําหรับ .NET. ติดตามคําแนะนําขั้นตอนขั้นตอน พร้อมตัวอย่างรหัส C# เพื่อสร้างและบันทึกเอกสาร PDF.  
+description: เรียนรู้วิธีการวาดเส้นเส้นฉีกใน PDF โดยใช้ Aspose.PDF สําหรับ .NET. ทําตามคําแนะนําอย่างละขั้นตอนด้วยตัวอย่างรหัส C# เพื่อสร้างและบันทึกเอกสาร PDF  
 keywords: [Aspose.PDF for .NET, draw lines in PDF, diagonal lines PDF, C# PDF drawing, create PDF with lines, Aspose.PDF tutorial, .NET PDF example]
 url: /th/net/graphs/drawing-line/
 ---
@@ -10,9 +10,9 @@ url: /th/net/graphs/drawing-line/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# สูตรเส้นทางทางขวางใน PDF โดยใช้ Aspose.PDF สําหรับ .NET
+# สลากเส้นเส้นฉากใน PDF โดยใช้ Aspose.PDF สําหรับ .NET
 
-Aspose.PDF สําหรับ .NET ให้ผู้พัฒนาสามารถสร้าง การ thao tác และแก้ไขเอกสาร PDF ได้อย่างง่ายดายในตัวอย่างนี้ เราแสดงวิธีการวาดเส้นทางทางเส้นทางสองเส้นทางทางทางทางทางโปรแกรมแบบ PDF โดยใช้ C# คุณจะได้เรียนรู้วิธีการเริ่มต้นเอกสาร PDF การตั้งคุณสมบัติหน้า การเพิ่มองค์ประกอบภาพ และบันทึกผลิตผลสุดท้าย คู่มือนี้จะนํามาใช้วิธีการเดินต่อเดิน ทําให้การสอดสอดสอดสอดงานนี้เข้ากับแอปพลิเคชัน .NET ของคุณง่ายขึ้น  
+Aspose.PDF สําหรับ .NET ช่วยให้ผู้พัฒนาสร้าง, ปรับปรุง และแก้ไขเอกสาร PDF ได้อย่างง่ายดาย. ตัวอย่างนี้แสดงให้เห็นวิธีการวาดเส้นเส้นฉีกสองเส้นผ่านหน้า PDF โดยใช้ C#. คุณจะได้เรียนรู้วิธีการเริ่มต้นเอกสาร PDF, กําหนดคุณสมบัติหน้า, เพิ่มธาตุกราฟิก และเก็บผลิตสุดท้าย. คู่มือนี้ให้วิธีการก้าวไป-ขั้นตอน, ทําให้มันง่ายที่จะบูรณาการฟังก์ชันนี้ในแอพลิเคชั่น .NET ของคุณ  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/drawing-line" >}}
@@ -21,30 +21,30 @@ Aspose.PDF สําหรับ .NET ให้ผู้พัฒนาสาม
 {{< blocks/products/pf/tutorial-page-section >}}
 ## คําแนะนําการติดตั้ง:  
 
-เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการของคุณ ติดตามขั้นตอนนี้  
+เพื่อใช้ Aspose.PDF สําหรับ .NET ในโครงการของคุณ, ทําตามขั้นตอนต่อไปนี้:  
 
-1. โกตั้งผ่าน NuGet Package Manager  
-* เปิด Visual Studio และสร้างโครงการ .NET  
-* เปิด คอนโซลผู้จัดการแพ็คเกจ (Tools → NuGet Package Manager → Package Manager Console) และเปิด:  
+1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager  
+* เปิด Visual Studio และสร้างโครงการ .NET ใหม่  
+* เปิดคอนโซลผู้จัดการแพคเกจ (Tools → NuGet Package Manager → Package Manager Console) และทํางาน:  
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. โกตั้งผ่าน .NET CLI  
-แทนอื่นๆ ก็ใช้ CLI .NET ในการติดตั้งแพ็คเกจ  
+2. อุปกรณ์ติดตั้งผ่าน .NET CLI  
+หรือใช้ .NET CLI เพื่อติดตั้งแพคเกจ:  
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-3. เพิ่ม namespace ใน C# Code ของคุณ  
-เพื่อใช้งาน Aspose.PDF ให้รวมชื่อพื้นที่ต่อไปนี้  
+3. เพิ่มพื้นที่ชื่อใน C# Code ของคุณ  
+เพื่อใช้ฟังก์ชัน Aspose.PDF ให้มีพื้นที่ชื่อดังต่อไปนี้:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
-## ผูกพันที่ใช้ประโยชน์  
-* เอกสาร: [Aspose.PDF สําหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)  
-* หมายเลข API: [Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)  
+## ลิงค์ที่ใช้ได้:  
+* เอกสาร:[Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)  
+* อ้างอิง API:[Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

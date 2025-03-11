@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: このコードは",Aspose.PDF"を使用して PDF 文書の多列段落で作業する方法を示します. PDF を読み込み,段落を抽出し,その違いを示すために段落を再抽出する前に,多列段落を許可する設定を変更します.
+//ExStepSummary:0: 次のコードでは,PDF文書が位置するデータディレクトリを指定する方法を示します.
+//ExStepSummary:1: 次のコードでは,Document クラスを使用して PDF 文書を読み込む方法を示します.
+//ExStepSummary:2: 次のコードでは,文書から段落を抽出するために ParagraphAbsorber を作成する方法を示します.
+//ExStepSummary:3: 次のコードは,その結果を入力するために ParagraphAbsorber を使った文書にアクセスする方法を示します.
+//ExStepSummary:4: 次のコードでは,最初のページのマークアップにアクセスし,複数列の段落を許可する前に段落に関する情報を抽出する方法を示します.
+//ExStepSummary:5: 次のコードでは,複数列の段落を有効にし,変更の効果を示すために段落情報を再抽出する方法を示します.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// データディレクトリを指定する.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// PDF 文書をアップロードする.
+Document doc = new Document(dataDir + "MultiColumnPdf.pdf");
+
+//ExStep:2-
+// ParagraphAbsorber を作成する
+ParagraphAbsorber absorber = new ParagraphAbsorber();
+
+//ExStep:3-
+// 文献を閲覧して段落を抽出します
+absorber.Visit(doc);
+
+//ExStep:4-
+// ページマークアップにアクセスします.
+PageMarkup markup = absorber.PageMarkups[0];
+
+Console.WriteLine("IsMulticolumnParagraphsAllowed == false\r\n");
+
+// 3つ目のセクションから最後の段落を取ります.
+MarkupSection section = markup.Sections[2];
+MarkupParagraph paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 第2節から第1段落を取りましょう.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+//ExStep:5-
+// 多列の段落を有効にする.
+markup.IsMulticolumnParagraphsAllowed = true;
+Console.WriteLine("\r\nIsMulticolumnParagraphsAllowed == true\r\n");
+
+// 複数列の段落を有効にした後,第3セクションの最後の段落を取得します.
+section = markup.Sections[2];
+paragraph = section.Paragraphs[section.Paragraphs.Count - 1];
+
+Console.WriteLine("Section at {0} last paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+
+// 複数列の段落を有効にした後,第2セクションから最初の段落を取得します.
+section = markup.Sections[1];
+paragraph = section.Paragraphs[0];
+
+Console.WriteLine("\r\nSection at {0} first paragraph text:\r\n", section.Rectangle.ToString());
+Console.WriteLine(paragraph.Text);
+//ExEnd

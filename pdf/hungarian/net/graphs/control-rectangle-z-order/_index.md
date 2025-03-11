@@ -1,8 +1,8 @@
 ---
-title: PDF-t készítsen és személyre szabja a .NET-ben 
+title: PDF-t készíteni és személyre szabni .NET-ben 
 weight: 7700
 limit: 
-description: Tanuljon meg, hogyan készítsen PDF dokumentumot .NET-ben, adjon hozzá színes négyzögöt különböző Z-indexekkel, és mentse meg a végleges dokumentumot Aspose.PDF segítségével.  
+description: Tanulja meg, hogyan lehet létrehozni egy PDF dokumentumot .NET, hozzá színes téglalap különböző Z-index, és mentse a végleges dokumentum segítségével Aspose.PDF.  
 keywords: [Aspose.PDF, .NET PDF example, create PDF, add rectangles, Z-index, PDF manipulation]
 url: /hu/net/graphs/control-rectangle-z-order/
 ---
@@ -10,9 +10,9 @@ url: /hu/net/graphs/control-rectangle-z-order/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-t készítsen és személyre szabja egyenszögekkel
+# PDF-t készíteni és testreszabni téglalapokkal
 
-Ez a útmutató bemutatja, hogyan lehet létrehozni egy PDF-dokumentumot a .NET- hez Aspose.PDF segítségével, a különböző Z-indexekkel rendelkező színes négyzögöt tartalmazva, hogy ellenőrizd a rétegeket. Kövesse a lépésről lépésre vonatkozó utasításokat, hogy hozzon alakokat a PDF-hez, és mentse meg a dokumentumot, növelve az alkalmazás PDF generációs képességét.
+Ez az útmutató bemutatja, hogyan lehet létrehozni egy PDF dokumentumot az Aspose.PDF használatával a .NET számára, amely különböző Z-indexekkel rendelkező színes téglalapokat tartalmaz a rétegek szabályozásához. Kövesse a lépésről lépésre szóló utasításokat a PDF-hez alakzatok hozzáadásához és a dokumentum mentéséhez, növelve az alkalmazás PDF generációs képességeit.
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/control-rectangle-z-order" >}}
@@ -20,19 +20,19 @@ Ez a útmutató bemutatja, hogyan lehet létrehozni egy PDF-dokumentumot a .NET-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## A telepítési utasítások
-1. Biztosítsd, hogy .NET fejlesztési környezetet állított meg (például Visual Studio).
-2. Letöltsd le az Aspose.PDF könyvtárat a www.spose.pdf-lapból.[Célszerű weboldal](https://www.aspose.com/purchase)\- Nem.
-3. A Aspose.PDF NuGet csomag telepítése a `A Aspose.PDF telepítési csomag`a csomagkezelő konzolóban.
-4. A projektedben szerezzen be a szükséges névterületeket:
+## A szerelési utasítások
+1. Győződjön meg róla, hogy van beállítva a .NET fejlesztési környezet (például a Visual Studio).
+2. Töltse le az Aspose.PDF könyvtárat a [Aspose honlapja](https://www.aspose.com/purchase)\- Nem.
+3. A Aspose.PDF NuGet csomag telepítése `A Aspose.PDF telepítési csomag`a csomagkezelő konzolban.
+4. A projektben a szükséges névtéreket is feltüntetni kell:
    ```csharp
    using Aspose.Pdf;
    using Aspose.Pdf.Drawing;
    ```
 
-## A részletes dokumentációért látogasson el:  
+## A részletes dokumentáció a következő linkre hivatkozik:  
 * [Aspose.PDF a .NET dokumentációhoz](https://docs.aspose.com/pdf/net/)  
-* [API hivatkozás az Aspose.PDF számára .NET](https://reference.aspose.com/pdf/net/)  
+* [API hivatkozás az Aspose.PDF .NET-hez](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

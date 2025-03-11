@@ -1,8 +1,8 @@
 ---
-title: Nařaďte diagonalní řádky v PDF pomocí Aspose.PDF pro .NET
+title: Nakreslit diagonální čáry v PDF pomocí Aspose.PDF pro .NET
 weight: 7700
 limit: 
-description: Naučte se kreslit diagonalní řádky v PDF pomocí Aspose.PDF pro .NET. Pro vytvoření a ukládání PDF dokumentu postupujte krok za krokem.  
+description: Naučte se kreslit úhlopříčku v PDF pomocí Aspose.PDF pro .NET. Postupujte podle pokynů krok za krokem s příklady kódu C# pro vytvoření a ukládání dokumentu PDF.  
 keywords: [Aspose.PDF for .NET, draw lines in PDF, diagonal lines PDF, C# PDF drawing, create PDF with lines, Aspose.PDF tutorial, .NET PDF example]
 url: /cs/net/graphs/drawing-line/
 ---
@@ -10,22 +10,22 @@ url: /cs/net/graphs/drawing-line/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Nařaďte diagonalní řádky v PDF pomocí Aspose.PDF pro .NET
+# Nakreslit diagonální čáry v PDF pomocí Aspose.PDF pro .NET
 
-Aspose.PDF pro .NET umožňuje vývojářům snadno vytvářet, manipulovat a upravovat PDF dokumenty. V tomto příkladu ukážeme, jak programaticky kreslit dvě diagonalní řádky přes PDF stránku pomocí C#. Naučíte se iniciatilizovat PDF dokument, nastavit vlastnosti stránek, přidat grafické prvky a ukládat konečný výstup. Tento průvodce poskytuje krok za krokem přístup, který usnadňuje integraci této funkce do vašich aplikací .NET.  
+Aspose.PDF pro .NET umožňuje vývojářům snadno vytvářet, manipulovat a upravovat dokumenty PDF. V tomto příkladu ukážeme, jak programově nakreslit dvě diagonální čáry přes stránku PDF pomocí C#. Naučíte se, jak iniciovat PDF dokument, nastavit vlastnosti stránky, přidat grafické prvky a uložit konečný výstup. Tato příručka poskytuje postupný přístup, který usnadní integraci této funkce do vašich aplikací .NET.  
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/drawing-line" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:  
+## Návod k instalaci:  
 
-Chcete-li v projektu používat Aspose.PDF pro .NET, postupujte podle těchto kroků:  
+Chcete-li použít Aspose.PDF pro .NET ve vašem projektu, postupujte podle těchto kroků:  
 
-1. Instalace prostřednictvím programu NuGet Package Manager  
-* Otevři Visual Studio a vytvoři nový projekt .NET.  
-* Konzole pro správu balíček (Tools → NuGet Package Manager → Package Manager Console) otevřete a spuštěte:  
+1. Instalace pomocí NuGet Package Manager  
+* Otevřete Visual Studio a vytvořte nový .NET projekt.  
+* Otevřete konzoli Manažera balíčků (Tools → NuGet Manažer balíčků → Manažer balíčků) a spustíte:  
   ```powershell
   Install-Package Aspose.PDF
   ```
@@ -36,15 +36,15 @@ Alternativně použijte .NET CLI k instalaci balíčku:
 dotnet add package Aspose.PDF
 ```
 
-3. Přidejte prostor pro názvy do svého kódu C#  
-Pro použití funkce Aspose.PDF zahrněte následující názevové prostory:  
+3. Přidejte název do vašeho kódu C#  
+Pro použití funkce Aspose.PDF zahrněte následující prostor jmen:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
 ## Užitečné odkazy:  
-* Dokumentation: [Aspose.PDF pro dokumentaci .NET](https://docs.aspose.com/pdf/net/)  
-* Reference API: [Aspose.PDF pro referenční aplikaci .NET API](https://reference.aspose.com/pdf/net/)  
+* Dokumenty:[Aspose.PDF pro .NET dokumentaci](https://docs.aspose.com/pdf/net/)  
+* Reference API: [Aspose.PDF pro .NET API Reference](https://reference.aspose.com/pdf/net/)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary這種情況是很容易發生的.
+//ExStepSummary:0: 該程式將會使用以下代碼啟動文件目錄的路徑.
+//ExStepSummary:1: 接下來的代碼打開將圖片提取的PDF文件.
+//ExStepSummary:2: 以下代碼可以從PDF文件中提取特定圖片.
+//ExStepSummary:3: 該程式將其儲存在特定的輸出檔案中.
+//ExStepSummary:4: 更新原始的PDF檔案並將其保存到新的路徑.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+// 指定包含PDF檔案的目錄
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// 打開PDF文件以提取圖片
+Document pdfDocument = new Document(dataDir + "ExtractImages.pdf");
+
+//ExStep:2-
+// 提取第一個圖片從PDF的第二頁
+XImage xImage = pdfDocument.Pages[1].Resources.Images[1];
+
+//ExStep:3-
+// 創建一個流以保存抽取的圖像
+FileStream outputImage = new FileStream(dataDir + "output.jpg", FileMode.Create);
+
+// 保存輸出圖像
+xImage.Save(outputImage, ImageFormat.Jpeg); 
+// 關閉檔案流以釋放資源
+outputImage.Close();
+
+//ExStep:4-
+// 更新新版本的PDF文件路徑
+dataDir = dataDir + "ExtractImages_out.pdf";
+
+// 保存更新的PDF檔案
+pdfDocument.Save(dataDir);
+// 確認成功提取和保存檔案
+Console.WriteLine("\nImages extracted successfully.\nFile saved at " + dataDir);
+//ExEnd

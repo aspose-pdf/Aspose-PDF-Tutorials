@@ -1,13 +1,13 @@
 //ExStart
-//ExSummaryEste código demonstra como otimizar um documento PDF comprimindo suas imagens.
-//ExStepSummary:0: Este passo inicializa o caminho para o diretório de documentos.
-//ExStepSummary:1: Este passo abre o documento PDF especificado para otimização.
+//ExSummary: Este código demonstra como otimizar um documento PDF comprimindo suas imagens. Carrega um PDF, aplica opções de otimização para reduzir os tamanhos das imagens e salva o documento atualizado.
+//ExStepSummary:0: Esta etapa inicializa o caminho para o diretório de documentos.
+//ExStepSummary:1: Esta etapa abre o documento PDF especificado para otimização.
 //ExStepSummary:2: Esta etapa inicializa as opções de otimização para o documento PDF.
-//ExStepSummary:3: Este passo define a opção de compressão de imagem para true.
+//ExStepSummary:3: Esta etapa define a opção de compressão de imagem para true.
 //ExStepSummary:4: Esta etapa define a opção de qualidade de imagem para 50.
 //ExStepSummary:5: Esta etapa otimiza o documento PDF usando as opções de otimização especificadas.
-//ExStepSummary:6: Este passo atualiza o caminho para o documento PDF otimizado.
-//ExStepSummary:7: Este passo salva o documento PDF otimizado para o caminho especificado.
+//ExStepSummary:6: Esta etapa atualiza o caminho para o documento PDF otimizado.
+//ExStepSummary:7: Esta etapa salva o documento PDF otimizado no caminho especificado.
 //ExStepImage:5:images/1.png
 
 //ExStep:0-
@@ -23,15 +23,15 @@ Document pdfDocument = new Document(dataDir + "Shrinkimage.pdf");
 var optimizeOptions = new Pdf.Optimization.OptimizationOptions();
 
 //ExStep:3-
-// Ativar a compressão de imagem
+// Ativar compressão de imagem
 optimizeOptions.ImageCompressionOptions.CompressImages = true;
 
 //ExStep:4-
-// Configurar a qualidade da imagem para 50%
+// Configure a qualidade da imagem em 50%
 optimizeOptions.ImageCompressionOptions.ImageQuality = 50;
 
 //ExStep:5-
-// Optimize o documento PDF usando as configurações
+// Otimize o documento PDF usando as configurações
 pdfDocument.OptimizeResources(optimizeOptions);
 
 //ExStep:6-

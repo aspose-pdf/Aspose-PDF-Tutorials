@@ -1,56 +1,56 @@
 //ExStart
-//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot az Aspose.Pdf segítségével, és hozzáadni az alfa színekkel rendelkező négyzetkerékeket.
-//ExStepSummary:0: A következő kód meghatározza a dokumentumok könyvtárának útját.
-//ExStepSummary:1: A következő kód egy Dokumentum példányát jelzi.
-//ExStepSummary:2: A következő kód egy oldalt ad a PDF fájl oldal gyűjteményéhez.
-//ExStepSummary:3: A következő kód létrehoz egy Graph példányt a PDF oldalra történő alakok rajzolására.
-//ExStepSummary:4: A következő kód egy bizonyos méretű és színes négyzögös objektumot hoz létre.
-//ExStepSummary:5: A következő kód egy második négyzetkéz tárgyat hoz létre, és hozzáadja a grafikonhoz.
-//ExStepSummary:6: A következő kód a grafát adja hozzá a lap bekezdések gyűjteményéhez.
-//ExStepSummary:7: A következő kód az PDF fájlot tárolja és sikeres üzenetet nyomtat a konzolra.
+//ExSummary: Ez a kód bemutatja, hogyan lehet létrehozni egy PDF dokumentumot az Aspose.Pdf segítségével, és hozzáadni az alfa színekkel ellátott téglalapokat.
+//ExStepSummary:0: Az alábbi kód határozza meg a dokumentumkönyv útvonalát.
+//ExStepSummary:1: Az alábbi kód egy Dokumentum példányát jeleníti meg.
+//ExStepSummary:2: Az alábbi kód egy oldalt ad hozzá a PDF fájl oldalak gyűjteményéhez.
+//ExStepSummary:3: Az alábbi kód létrehoz egy Graph példányt, amely a PDF-oldalon alakzatokat rajzol.
+//ExStepSummary:4: Az alábbi kód egy bizonyos méretű és betöltőszínű téglalap objektumot hoz létre.
+//ExStepSummary:5: Az alábbi kód létrehoz egy második téglalap tárgyat és hozzáadja a grafikonhoz.
+//ExStepSummary:6: Az alábbi kód hozzáadja a grafikon példányt az oldal bekezdésgyűjteményéhez.
+//ExStepSummary:7: Az alábbi kód mentse meg a PDF fájlt, és nyomtassa ki a konzolra a sikerüzenetet.
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// A dokumentum mentésére szolgáló címke meghatározására vonatkozó lépés
+// A dokumentum mentésére szolgáló címtár meghatározására vonatkozó lépés
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// A PDF-t létrehozáshoz a Dokumentum példányát instanciáljuk
+// A PDF létrehozásához a Dokumentum példányát telepíteni
 Document doc = new Document();
 
 //ExStep:2-
-// Adjon egy új oldalt a PDF dokumentumhoz
+// Új oldal hozzáadása a PDF dokumentumhoz
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// Készítsen egy grafikon példányot a formák rajzolására
+// Graph példány létrehozása alakzatok rajzolására
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// Készítsen egy meghatározott méretű térképet
+// Befejezett méretű téglalap létrehozása
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// A betöltés színét az ARGB segítségével állítsa be
+// Az ARGB használatával állítsa be a kitöltési színt
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
-// Készítsen egy második négyzetképe tárgyat
+// Második téglalap objektumot hozni létre
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// A második térszögben a betöltés színét állítsa be
+// A második téglalap betöltési színét állítsa be
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// Adja meg az első négyzetképet a grafát tartalmazó formák gyűjteményéhez
+// A Graph példány alakjainak gyűjteményébe adja hozzá az első téglalapot
 canvas.Shapes.Add(rect);
-// Adja meg a második térképet a grafát tartalmazó formák gyűjteményéhez
+// A második téglalap hozzáadása a Graph példány alakjainak gyűjteményéhez
 canvas.Shapes.Add(rect1);
-// Adja hozzá a Graph példányt a lap bekezdések gyűjteményéhez
+// A Graph példány hozzáadása az oldal bekezdésgyűjteményéhez
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
-// Készítsük fel a kiviteli fájl útját
+// Készítse elő az kimeneti fájl útvonalát
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// A PDF dokumentumot a megadott útvonalra mentse meg
+// Tárolja a PDF dokumentumot a megadott útvonalon
 doc.Save(dataDir);
-// Nyomtatás a konzolra
+// A konzolra nyomtatott üzenet sikeréről
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

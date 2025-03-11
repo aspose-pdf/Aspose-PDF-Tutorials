@@ -2,7 +2,7 @@
 title: สร้าง PDF ด้วยกราฟโปร่งใส โดยใช้ Aspose.PDF สําหรับ .NET
 weight: 7700
 limit: 
-description: เรียนรู้วิธีการสร้าง PDF ด้วยรูปแบบสี่เหลี่ยมโปร่ง โดยใช้ Aspose.PDF สําหรับ .NET 
+description: เรียนรู้วิธีการสร้าง PDF ด้วยรูปสี่เหลี่ยมโปร่งใส โดยใช้ Aspose.PDF สําหรับ .NET. ทําตามคําแนะนําอย่างละขั้นตอนด้วยตัวอย่างโค้ด 
 keywords: [Aspose.PDF for .NET, create PDF, add graph to PDF, transparent color PDF, C# PDF example, draw rectangle in PDF, Aspose.PDF tutorial]
 url: /th/net/graphs/add-drawing/
 ---
@@ -10,9 +10,9 @@ url: /th/net/graphs/add-drawing/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง PDF ด้วย กราฟโปร่งใส โดยใช้ Aspose.PDF  
+# สร้าง PDF ด้วยกราฟโปร่งใส โดยใช้ Aspose.PDF  
 
-Aspose.PDF สําหรับ .NET ทําให้สามารถสร้างและการ thao tácเอกสาร PDF ได้ง่ายขึ้นตามหลักสูตร. ในตัวอย่างนี้ เราแสดงวิธีการสร้างเอกสาร PDF และเพิ่มกราฟที่มีเหลี่ยมด้วยสีเต็มที่โปร่งใส คุณจะได้เรียนรู้วิธีการตั้งสี, เพิ่มหน้า, และวาดรูปร่างด้วยการควบคุมโปร่งใสอย่างแม่นยํา. คู่มือนี้จะนําไปสู่การใช้ขั้นตอนต่างๆ รวมถึงฉบับโค้ดและคําอธิบาย เพื่อช่วยคุณนํา Aspose.PDF เข้าร่วมกับแอปพลิเคชัน .NET ของคุณ    
+Aspose.PDF สําหรับ .NET ทําให้ง่ายในการสร้างและการปรับปรุงเอกสาร PDF โดยโปรแกรม.ในตัวอย่างนี้ เราแสดงวิธีการสร้างเอกสาร PDF และเพิ่มกราฟที่มีสี่เหลี่ยมที่มีสีเต็มโปร่งใส.คุณจะเรียนรู้วิธีการตั้งสี, เพิ่มหน้า, และวาดรูปร่างด้วยการควบคุมความโปร่งใสอย่างแม่นยํา.ทูตอออริชนี้ให้คู่มือก้าวต่อก้าว, รวมถึงสริปเป็ตโค้ดและคําอธิบายเพื่อช่วยให้คุณบูรณาการ Aspose.PDF ในแอพลิเคชั่น .NET ของคุณ    
 
 ---
 {{< tutorial-widget sourcePath="pdf/net/graphs/add-drawing" >}}
@@ -21,30 +21,30 @@ Aspose.PDF สําหรับ .NET ทําให้สามารถสร
 {{< blocks/products/pf/tutorial-page-section >}}
 ## คําแนะนําการติดตั้ง:  
 
-เพื่อใช้ Aspose.PDF สําหรับ .NET ติดตามขั้นตอนนี้  
+เพื่อใช้ Aspose.PDF สําหรับ .NET, ทําตามขั้นตอนต่อไปนี้:  
 
-1. โกตั้งผ่าน NuGet Package Manager  
-* เปิด Visual Studio และสร้างโครงการ .NET  
-* เปิด คอนโซลผู้จัดการแพ็คเกจ (Tools → NuGet Package Manager → Package Manager Console) แล้วเปิด:  
+1. อุปกรณ์ติดตั้งผ่าน NuGet Package Manager  
+* เปิด Visual Studio และสร้างโครงการ .NET ใหม่  
+* เปิดคอนโซลผู้จัดการแพคเกจ (Tools → NuGet Package Manager → Package Manager Console) และทํางาน:  
   ```powershell
   Install-Package Aspose.PDF
   ```
 
-2. โกตั้งผ่าน .NET CLI  
-แทนอื่น, ติดตั้งแพ็คเกจโดยใช้ .NET CLI:  
+2. อุปกรณ์ติดตั้งผ่าน .NET CLI  
+หรือติดตั้งแพคเกจโดยใช้ .NET CLI:  
 ```bash
 dotnet add package Aspose.PDF
 ```
 
-3. เพิ่ม namespace ใน C# Code ของคุณ  
-เพื่อเริ่มใช้ Aspose.PDF เพิ่มพื้นชื่อต่อไปนี้ในไฟล์ C#  
+3. เพิ่มพื้นที่ชื่อใน C# Code ของคุณ  
+เพื่อเริ่มใช้ Aspose.PDF เพิ่มพื้นที่ชื่อต่อไปนี้ในไฟล์ C# ของคุณ:  
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 ```
-## สัมพันธ์ ที่ มีประโยชน์ 
-เอกสาร: [Aspose.PDF สําหรับเอกสาร .NET](https://docs.aspose.com/pdf/net/)  
-หมายเลข API: [Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)
+## ลิงค์ ที่ มี ประโยชน์ 
+เอกสาร:[Aspose.PDF สําหรับ .NET Documentation](https://docs.aspose.com/pdf/net/)  
+อ้างอิง API:[Aspose.PDF สําหรับ .NET API Reference](https://reference.aspose.com/pdf/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

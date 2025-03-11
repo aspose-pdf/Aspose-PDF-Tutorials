@@ -1,56 +1,56 @@
 //ExStart
-//ExSummary: โค้ดนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.Pdf และเพิ่มเหลี่ยมที่มีสีอัลฟา
-//ExStepSummary:0: คódต่อไปนี้กําหนดเส้นทางไปยังบันทึกเอกสาร
-//ExStepSummary:1: คódต่อไปนี้แสดงตัวอย่างเอกสาร
-//ExStepSummary:2: คódต่อไปนี้เพิ่มหน้าหนึ่งให้กับการรวบรวมหน้าของไฟล์ PDF
-//ExStepSummary:3: คódต่อไปนี้สร้างตัวอย่างกราฟ เพื่อวาดรูปในหน้า PDF
-//ExStepSummary:4: คódต่อไปนี้สร้างสิ่งของเหลี่ยมด้วยขนาดและสีที่เต็ม
-//ExStepSummary:5: คódต่อไปนี้สร้างวัตถุเหลี่ยมสองและเพิ่มมันไปยังกราฟ
-//ExStepSummary:6: คódต่อไปนี้เพิ่มตัวอย่างกราฟไปยังการรวบรวมข้อของหน้า
-//ExStepSummary:7: โค้ดต่อไปนี้จะบันทึกไฟล์ PDF และพิมพ์ข้อความความสําเร็จไปยังเครื่องปรับปรุง
+//ExSummary: รหัสนี้แสดงวิธีการสร้างเอกสาร PDF โดยใช้ Aspose.Pdf และเพิ่มรูปสี่เหลี่ยมที่มีสีอัลฟ่าให้กับมัน
+//ExStepSummary:0: รหัสต่อไปนี้กําหนดเส้นทางไปยัง แผนการเอกสาร
+//ExStepSummary:1: รหัสต่อไปนี้สร้างตัวอย่างของเอกสาร
+//ExStepSummary:2: รหัสต่อไปนี้เพิ่มหน้าหนึ่งไปยังการรวบรวมหน้าของไฟล์ PDF
+//ExStepSummary:3: โค้ดต่อไปนี้สร้างตัวอย่างของ Graph เพื่อวาดรูปทรงในหน้า PDF
+//ExStepSummary:4: รหัสต่อไปนี้สร้างวัตถุสี่เหลี่ยมที่มีขนาดและสีเต็มที่จํากัด
+//ExStepSummary:5: โค้ดต่อไปนี้สร้างวัตถุสี่เหลี่ยมอันดับสอง และเพิ่มมันเข้าไปในกราฟ
+//ExStepSummary:6: รหัสต่อไปนี้เพิ่มตัวอย่างกราฟไปยังการรวบรวมข้อความของหน้า
+//ExStepSummary:7: รหัสต่อไปนี้จะบันทึกไฟล์ PDF และพิมพ์ข้อความความสําเร็จไปยังคอนโซล
 //ExStepImage:6:images/2.png
 
 //ExStep:0-
-// ขั้นตอนเพื่อกําหนดเอกสารบันทึก
+// ขั้นตอนในการกําหนดตําแหน่งสําหรับการบันทึกเอกสาร
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// การตั้งตัวอย่างเอกสารเพื่อสร้าง PDF
+// อินสตันท์ตัวอย่างเอกสารเพื่อสร้าง PDF
 Document doc = new Document();
 
 //ExStep:2-
-// เพิ่มหน้าใหม่ต่อเอกสาร PDF
+// เพิ่มหน้าใหม่ไปยังเอกสาร PDF
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:3-
-// สร้างตัวอย่างกราฟสําหรับการวาดรูป
+// สร้างตัวอย่างของ Graph สําหรับการวาดรูป
 Aspose.Pdf.Drawing.Graph canvas = new Aspose.Pdf.Drawing.Graph(100.0, 400.0);
 
 //ExStep:4-
-// สร้างเหลี่ยมที่มีความกว้างที่กําหนด
+// สร้างสี่เหลี่ยมที่มีขนาดที่กําหนด
 Aspose.Pdf.Drawing.Rectangle rect = new Aspose.Pdf.Drawing.Rectangle(100, 100, 200, 100);
-// กําหนดสีการเติมใช้ ARGB
+// กําหนดสีเติมด้วย ARGB
 rect.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(12957183)));
 
 //ExStep:5-
 // สร้างวัตถุสี่เหลี่ยมที่สอง
 Aspose.Pdf.Drawing.Rectangle rect1 = new Aspose.Pdf.Drawing.Rectangle(200, 150, 200, 100);
-// กําหนดสีการเติมสําหรับเหลี่ยมสอง
+// กําหนดสีเติมสําหรับสี่เหลี่ยมที่สอง
 rect1.GraphInfo.FillColor = Aspose.Pdf.Color.FromRgb(System.Drawing.Color.FromArgb(128, System.Drawing.Color.FromArgb(16118015)));
 
 //ExStep:6-
-// เพิ่มเหลี่ยมสี่เหลี่ยมแรกให้กับรูปแบบของตัวอย่าง Graph
+// เพิ่มสี่เหลี่ยมแรกไปยังการรวบรวมรูปแบบของตัวอย่าง Graph
 canvas.Shapes.Add(rect);
-// เพิ่มเหลี่ยมสองให้กับรูปแบบของตัวอย่าง Graph
+// เพิ่มสี่เหลี่ยมที่สองไปยังการรวบรวมรูปแบบของตัวอย่าง Graph
 canvas.Shapes.Add(rect1);
-// เพิ่มตัวอย่างกราฟ์เข้ากับการรวบรวมข้อของหน้า
+// เพิ่มตัวอย่าง Graph ไปยังการรวบรวมข้อความของหน้า
 page.Paragraphs.Add(canvas);
 
 //ExStep:7-
 // เตรียมเส้นทางไฟล์ออก
 dataDir = dataDir + "CreateRectangleWithAlphaColor_out.pdf";
-// กองบันทึกเอกสาร PDF ไปยังเส้นทางที่กําหนด
+// เก็บเอกสาร PDF ในเส้นทางที่กําหนด
 doc.Save(dataDir);
-// พิมพ์ข้อความความสําเร็จที่เครื่อง
+// การพิมพ์ข้อความสําเร็จต่อคอนโซล
 Console.WriteLine("\nRectangle object created successfully with alpha color.\nFile saved at " + dataDir);
 //ExEnd

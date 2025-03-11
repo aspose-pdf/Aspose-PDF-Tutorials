@@ -1,0 +1,114 @@
+//ExStart
+//ExSummary: यह कोड Aspose.PDF पुस्तकालय का उपयोग करके एक बहु-स्तंभ PDF दस्तावेज़ बनाने का तरीका दर्शाता है। यह मार्जिन सेट करता है, HTML स्वरूपण के साथ पाठ जोड़ता है, और स्तंभों में सामग्री व्यवस्थित करता है।
+//ExStepSummary:0: यह चरण दस्तावेज़ निर्देशिका सेट करता है, एक नया पीडीएफ दस्तावेज़ आरंभ करता है, और इसके पृष्ठ मार्जिन को कॉन्फ़िगर करता है.
+//ExStepSummary:1: यह चरण दस्तावेज़ में एक नया पृष्ठ जोड़ता है और ग्राफ़ और लाइन वर्गों का उपयोग करके एक क्षैतिज रेखा खींचता है.
+//ExStepSummary:2: यह चरण स्वरूपित पाठ के साथ एक एचटीएमएलफ्रेगमेंट बनाता है और इसे पीडीएफ दस्तावेज़ में जोड़ता है.
+//ExStepSummary:3: यह चरण दो स्तंभ लेआउट के लिए एक फ्लोटिंगबॉक्स बनाता है और इसमें लेखक की जानकारी जोड़ता है.
+//ExStepSummary:4: यह चरण दृश्य पृथक्करण के लिए फ्लोटिंगबॉक्स के अंदर एक और क्षैतिज रेखा खींचता है।
+//ExStepSummary:5: यह चरण बहु स्तंभों में सामग्री वितरण प्रदर्शित करने के लिए फ्लोटिंगबॉक्स में एक लंबा पाठ खंड जोड़ता है.
+//ExStepSummary:6: यह चरण दस्तावेज़ को निर्दिष्ट आउटपुट पथ पर सहेजता है और एक सफलता संदेश मुद्रित करता है.
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// दस्तावेज़ निर्देशिका का पथ परिभाषित करें
+string dataDir = "Your Document Directory";
+// नया दस्तावेज़ उदाहरण बनाएँ
+Document doc = new Document(); 
+
+// पीडीएफ फ़ाइल के लिए बाएँ मार्जिन जानकारी निर्दिष्ट करें
+doc.PageInfo.Margin.Left = 40; 
+// पीडीएफ फ़ाइल के लिए दाएं मार्जिन जानकारी निर्दिष्ट करें
+doc.PageInfo.Margin.Right = 40;
+// दस्तावेज़ में नया पृष्ठ जोड़ें
+Page page = doc.Pages.Add(); 
+
+//ExStep:1-
+// रेखा खींचने के लिए एक नया ग्राफ़ ऑब्जेक्ट बनाएँ
+Aspose.Pdf.Drawing.Graph graph1 = new Aspose.Pdf.Drawing.Graph(500.0, 2.0);
+// अनुच्छेदों के लिए लाइन जोड़ें
+page.Paragraphs.Add(graph1);
+
+// रेखा के लिए निर्देशांक निर्दिष्ट करें
+// रेखा के आरंभ और अंत बिंदुओं को परिभाषित करें
+float[] posArr = new float[] { 1, 2, 500, 2 };
+// निर्दिष्ट निर्देशांक के साथ एक रेखा आकार बनाएँ
+Aspose.Pdf.Drawing.Line l1 = new Aspose.Pdf.Drawing.Line(posArr);
+// रेखा आकार को ग्राफ में जोड़ें
+graph1.Shapes.Add(l1); 
+
+//ExStep:2-
+// html टैग युक्त पाठ के साथ स्ट्रिंग चर बनाएँ
+string s = "<font face=\"Times New Roman\" size=4>" +
+
+"<strong> How to Steer Clear of money scams</<strong> "
++ "</font>";
+// शीर्षक पाठ के लिए एक HtmlFragment बनाएँ
+HtmlFragment heading_text = new HtmlFragment(s);
+// पृष्ठ में शीर्षक पाठ जोड़ें 
+page.Paragraphs.Add(heading_text);
+
+//ExStep:3-
+// बहु-स्तंभ लेआउट के लिए नया फ्लोटिंगबॉक्स बनाएँ
+Aspose.Pdf.FloatingBox box = new Aspose.Pdf.FloatingBox();
+// स्तंभों की संख्या 2 पर सेट करें
+box.ColumnInfo.ColumnCount = 2; 
+// स्तंभों के बीच की दूरी सेट करें
+box.ColumnInfo.ColumnSpacing = "5";
+// प्रत्येक स्तंभ के लिए चौड़ाई सेट करें
+box.ColumnInfo.ColumnWidths = "105 105";
+// लेखक जानकारी के लिए एक पाठ अंश बनाएँ
+TextFragment text1 = new TextFragment("By A Googler (The Official Google Blog)");
+// पाठ के लिए फ़ॉन्ट आकार सेट करें
+text1.TextState.FontSize = 8;
+// पाठ के लिए लाइन अंतर सेट करें
+text1.TextState.LineSpacing = 2;
+// फ्लोटिंग बॉक्स में लेखक पाठ जोड़ें
+box.Paragraphs.Add(text1);
+// पाठ के लिए फ़ॉन्ट आकार अद्यतन करें
+text1.TextState.FontSize = 10;
+// इटैलिक में फ़ॉन्ट शैली सेट करें
+text1.TextState.FontStyle = FontStyles.Italic;
+
+//ExStep:4-
+// दूसरी पंक्ति खींचने के लिए एक और ग्राफ़ ऑब्जेक्ट बनाएँ
+Aspose.Pdf.Drawing.Graph graph2 = new Aspose.Pdf.Drawing.Graph(50.0, 10.0);
+// रेखा के लिए निर्देशांक निर्दिष्ट करें
+float[] posArr2 = new float[] { 1, 10, 100, 10 };
+Aspose.Pdf.Drawing.Line l2 = new Aspose.Pdf.Drawing.Line(posArr2); 
+// ग्राफ में दूसरी पंक्ति आकार जोड़ें
+graph2.Shapes.Add(l2);
+
+// अनुच्छेदों के लिए लाइन जोड़ें
+box.Paragraphs.Add(graph2);
+
+//ExStep:5-
+// स्तंभों में सामग्री प्रदर्शित करने के लिए एक लंबा पाठ खंड बनाएँ
+TextFragment text2 = new TextFragment(@"Sed augue tortor, sodales id, luctus et, pulvinar ut, eros. Suspendisse vel dolor. 
+    Sed quam. Curabitur ut massa vitae eros euismod aliquam. Pellentesque sit amet elit. Vestibulum interdum 
+    pellentesque augue. Cras mollis arcu sit amet purus. Donec augue. Nam mollis tortor a elit. Nulla viverra 
+    nisl vel mauris. Vivamus sapien. nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, 
+    semper sed, enim Nam justo lorem, aliquam luctus, sodales et, nAenean posuere ante ut neque. 
+    Morbi sollicitudin congue felis. Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. 
+    Phasellus nisi ipsum, pretium vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, 
+    iaculis cursus, tincidunt vitae, risus. Sed commodo. *** sociis natoque penatibus et magnis dis 
+    parturient montes, nascetur ridiculus mus. Nam justo lorem, aliquam luctus, sodales et, semper sed, 
+    enim Nam justo lorem, aliquam luctus, sodales et, semper sed, enim Nam justo lorem, aliquam luctus, 
+    sodales et, semper sed, enim nAenean posuere ante ut neque. Morbi sollicitudin congue felis. 
+    Praesent turpis diam, iaculis sed, pharetra non, mollis ac, mauris. Phasellus nisi ipsum, pretium 
+    vitae, tempor sed, molestie eu, dui. Duis lacus purus, tristique ut, iaculis cursus, tincidunt vitae, 
+    risus. Sed commodo. *** sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+    Sed urna. Duis convallis ultrices nisi. Maecenas non ligula. Nunc nibh est, tincidunt in, placerat 
+    sit amet, vestibulum a, nulla. Praesent porttitor turpis eleifend ante. Morbi sodales."
+);
+// फ्लोटिंग बॉक्स में लंबा पाठ जोड़ें
+box.Paragraphs.Add(text2); 
+// पृष्ठ पर सभी सामग्री युक्त तैरता हुआ बॉक्स जोड़ें
+page.Paragraphs.Add(box); 
+//ExStep:6-
+// आउटपुट पीडीएफ फ़ाइल पथ निर्दिष्ट करें
+dataDir = dataDir + "CreateMultiColumnPdf_out.pdf";
+// दस्तावेज़ को निर्दिष्ट पथ पर सहेजें
+doc.Save(dataDir); 
+// मुद्रण सफलता संदेश
+Console.WriteLine("\nMulti-column PDF file created successfully.\nFile saved at " + dataDir); 
+//ExEnd

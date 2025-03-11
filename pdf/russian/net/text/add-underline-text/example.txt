@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Этот код показывает, как создать PDF-документ и добавить фрагмент текста с форматированием подчеркнутой строки.
+//ExStepSummary:0: Определите каталог, в котором будет сохранен документ PDF.
+//ExStepSummary:1: Инициализируйте новый PDF-документ и добавляйте в него страницу.
+//ExStepSummary:2: Создать объект TextBuilder для первой страницы документа.
+//ExStepSummary:3: Создать TextFragment с тестовым сообщением, установить его шрифт на Arial, размер на 10, и включить форматирование подчеркивания.
+//ExStepSummary:4: Укажите положение TextFragment в PDF-файле и присоедините его к TextBuilder.
+//ExStepSummary:5: Определите путь выходного файла и сохраните PDF-документ.
+//ExStepSummary:6: Вывод сообщения о успехе, указывающего, что подчеркнутый текст был добавлен и указывает местонахождение файла.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Определите каталог, в котором будет сохранен документ.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Инициализировать новый PDF документ.
+Document pdfDocument = new Document();
+// Добавить новую страницу в документ.
+pdfDocument.Pages.Add(); 
+
+//ExStep:2-
+// Создать TextBuilder для первой страницы.
+TextBuilder tb = new TextBuilder(pdfDocument.Pages[1]);
+
+//ExStep:3-
+// Создать TextFragment с указанным текстом.
+TextFragment fragment = new TextFragment("Test message");
+// Настроить шрифт на Ариал.
+fragment.TextState.Font = FontRepository.FindFont("Arial");
+// Установите размер шрифта на 10.
+fragment.TextState.FontSize = 10;
+// Включить форматирование подчеркивания для текста.
+fragment.TextState.Underline = true;
+
+//ExStep:4-
+// Укажите положение TextFragment в PDF-файле.
+fragment.Position = new Position(10, 800);
+// Прикрепить TextFragment к TextBuilder.
+tb.AppendText(fragment);
+
+//ExStep:5-
+// Определите путь выходного файла для PDF.
+dataDir = dataDir + "AddUnderlineText_out.pdf";
+// Сохранить документ на указанном пути.
+pdfDocument.Save(dataDir);
+
+//ExStep:6-
+// Уведомление об успехе вывода.
+Console.WriteLine("\nUnderline text added successfully.\nFile saved at " + dataDir);
+//ExEnd

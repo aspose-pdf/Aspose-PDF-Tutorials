@@ -1,10 +1,10 @@
 //ExStart
-//ExSummary이 코드는 PDF 문서를 생성하고, 이미지를 추가하고, 이미지 크기 및 페이지 속성을 조정하는 방법을 보여줍니다. 또한 문서를 저장하고, 작업의 성공에 대해 사용자에게 알려줍니다.
+//ExSummary: 이 코드 는 PDF 문서 를 생성 하고, 이미지 를 추가 하고, 이미지 크기 와 페이지 속성 을 조정 하는 방법 을 설명 합니다. 이 코드 는 문서 를 저장 하는 것 을 처리 하며, 작업 의 성공 에 대해 사용자에게 알려 줍니다.
 //ExStepSummary:0: 이 코드는 문서 객체를 초기화하고 새 페이지를 추가합니다.
-//ExStepSummary:1: 이 섹션에서는 이미지 인스턴스를 생성하고 그 크기와 파일 타입을 설정합니다.
-//ExStepSummary:2: 이 단계에서는 이미지의 소스 파일을 지정하고 페이지에 추가합니다.
-//ExStepSummary:3: 이 단계에서는 너비와 높이를 포함한 페이지 속성을 설정합니다.
-//ExStepSummary:4: 이 섹션에서는 문서가 지정된 파일 경로로 저장되어 저장 동작을 확인합니다.
+//ExStepSummary:1: 이 섹션에서는 이미지 인스턴스를 만들고 그 크기와 파일 유형을 설정합니다.
+//ExStepSummary:2: 이 단계는 이미지의 소스 파일을 지정하고 페이지에 추가합니다.
+//ExStepSummary:3: 이 단계에서는 width와 height를 포함한 페이지 속성을 설정합니다.
+//ExStepSummary:4: 이 섹션에서는 문서를 지정된 파일 경로로 저장하고 저장 작업을 확인합니다.
 //ExStepImage:2:images/1.png
 //ExStepImage:3:images/2.png
 
@@ -13,9 +13,9 @@
 string dataDir = "Your Document Directory";
 
 //ExStep:1-
-// 문서 객체를 단시
+// 문서 객체를 인스턴트화
 Document doc = new Document();
-// PDF 문서에 새로운 페이지를 추가
+// PDF 문서에 새 페이지를 추가
 Aspose.Pdf.Page page = doc.Pages.Add();
 
 //ExStep:2-
@@ -25,17 +25,17 @@ Aspose.Pdf.Image img = new Aspose.Pdf.Image();
 img.FixWidth = 100;
 // 이미지 높이를 100점으로 설정
 img.FixHeight = 100;
-// 이미지 타입을 알려지지 않은 것으로 설정 (이후 추론될 수 있습니다)
+// 이미지 타입을 Unknown로 설정 (다음으로 추론)
 img.FileType = Aspose.Pdf.ImageFileType.Unknown;
-// 소스 이미지 파일의 경로를 지정
+// 원본 이미지 파일의 경로를 지정
 img.File = dataDir + "aspose-logo.jpg";
-// 페이지 의 문장 에 이 이미지를 추가 하십시오
+// 페이지의 문항에 이미지를 추가
 page.Paragraphs.Add(img);
 
 //ExStep:3-
-// 페이지 너비 800점으로 설정
+// 페이지 너비 800 포인트로 설정
 page.PageInfo.Width = 800;
-// 페이지 높이를 800점으로 설정
+// 페이지 높이를 800점으로 설정합니다
 page.PageInfo.Height = 800;
 
 //ExStep:4-
@@ -45,6 +45,6 @@ dataDir = dataDir + "SetImageSize_out.pdf";
 doc.Save(dataDir);
 
 //ExStep:5-
-// 성공적인 작업에 대해 사용자에게 알리십시오
+// 사용자를 성공적으로 작동에 대해 알리십시오
 Console.WriteLine("\nImage size added successfully.\nFile saved at " + dataDir);
 //ExEnd
