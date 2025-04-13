@@ -64,6 +64,7 @@ Learn how to create, format, and manipulate tables in PDF documents using Aspose
 {{< blocks/products/pf/tutorial-page-section >}}
 
 These are links to some useful resources:
+- [Getting Started](./net/getting-started/)
 - [Programming with Document](./net/programming-with-document/)
 - [Programming with Annotations](./net/annotations/)  
 - [Document Conversion](./net/document-conversion/)
@@ -71,6 +72,24 @@ These are links to some useful resources:
 - [Programming with Tables](./net/programming-with-tables/) 
 - [Programming with PDF Pages](./net/programming-with-pdf-pages/)
 - [Programming with Graphs](./net/programming-with-graphs/)
+- [Document Creation](./net/document-creation/)
+- [Document Manipulation](./net/document-manipulation/)
+- [Text Operations](./net/text-operations/)
+- [Images & Graphics](./net/images-graphics/)
+- [Tables & Lists](./net/tables-lists/)
+- [Forms & Annotations](./net/forms-annotations/)
+- [Security & Permissions](./net/security-permissions/)
+- [Conversion & Export](./net/conversion-export/)
+- [Printing & Rendering](./net/printing-rendering/)
+- [Attachments & Embedded Files](./net/attachments-embedded-files/)
+- [Metadata & Document Info](./net/metadata-document-info/)
+- [PDF/A Compliance](./net/pdf-a-compliance/)
+- [Bookmarks & Navigation](./net/bookmarks-navigation/)
+- [Watermarks & Backgrounds](./net/watermarks-backgrounds/)
+- [Digital Signatures](./net/digital-signatures/)
+- [Advanced Features](./net/advanced-features/)
+- [Performance Optimization](./net/performance-optimization/)
+- [PDF Portfolios](./net/pdf-portfolios/)
  
 ## Aspose.PDF Processing API for Java
 {{% alert color="primary" %}}
