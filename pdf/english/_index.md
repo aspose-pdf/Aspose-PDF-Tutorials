@@ -83,7 +83,7 @@ These are links to some useful resources:
 - [Printing & Rendering](./net/printing-rendering/)
 - [Attachments & Embedded Files](./net/attachments-embedded-files/)
 - [Metadata & Document Info](./net/metadata-document-info/)
-- [PDF/A Compliance](./net/pdf-a-compliance/)
+- [PDF/A Compliance](./net/pdfa-compliance/)
 - [Bookmarks & Navigation](./net/bookmarks-navigation/)
 - [Watermarks & Backgrounds](./net/watermarks-backgrounds/)
 - [Digital Signatures](./net/digital-signatures/)
