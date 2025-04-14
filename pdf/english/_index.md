@@ -97,6 +97,7 @@ Master Aspose.PDF for Java with comprehensive tutorials. Create, edit, and optim
 {{% /alert %}}
 
 These are links to some useful resources:
+- [Getting Started](./java/getting-started/)	
 - [PDF Annotations](./java/pdf-annotations/)
 - [PDF Attachments](./java/pdf-attachments/)
 - [PDF Bookmarks](./java/pdf-bookmarks/)
@@ -113,6 +114,24 @@ These are links to some useful resources:
 - [PDF Styles and Formatting](./java/pdf-styles-and-formatting/)
 - [PDF Text Extraction](./java/pdf-text-extraction/)
 - [PDF Validation and Verification](./java/pdf-validation-and-verification/)
+- [Document Creation](./java/document-creation/)
+- [Document Manipulation](./java/document-manipulation/)
+- [Text Operations](./java/text-operations/)
+- [Images & Graphics](./java/images-graphics/)
+- [Tables & Lists](./java/tables-lists/)
+- [Forms & Annotations](./java/forms-annotations/)
+- [Security & Permissions](./java/security-permissions/)
+- [Conversion & Export](./java/conversion-export/)
+- [Printing & Rendering](./java/printing-rendering/)
+- [Attachments & Embedded Files](./java/attachments-embedded-files/)
+- [Metadata & Document Info](./java/metadata-document-info/)
+- [PDF/A Compliance](./java/pdfa-compliance/)
+- [Bookmarks & Navigation](./java/bookmarks-navigation/)
+- [Watermarks & Backgrounds](./java/watermarks-backgrounds/)
+- [Digital Signatures](./java/digital-signatures/)
+- [Advanced Features](./java/advanced-features/)
+- [Performance Optimization](./java/performance-optimization/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
